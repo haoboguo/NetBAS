@@ -2,7 +2,7 @@
 title: "GO term counting"
 author: "hguo"
 date: "October 3, 2018"
-output: html_document
+output: pdf_document
 ---
 
   
@@ -74,15 +74,19 @@ colors = c(seq(0,(quantile.B[2]-0.01), length=100),
            seq((quantile.B[3]+0.01), max(B), length=100))
 my_pallete <- colorRampPalette(c("white", "yellow", "red2"))(n=299)
 
+#png(filename = "yeast.bp-bp.png",width=6, height=6, res=1200, unit="in")
 hm <- heatmap.2(B, col=my_pallete, breaks=colors,
           trace='none', offsetRow=0, offsetCol=0,
           ylab="Biological Process Terms", xlab="Biological Process Terms",
           margins = c(2,2), key.title="Color Bar", key.xlab="Z-score", key.ylab=NA,
           labCol=NA, labRow=NA,
           scale="none", dendrogram="both", symbreaks=T, symm=F, symkey=F)
+#dev.off()
 
 hc <- as.hclust(hm$colDendrogram)
 
-plot(hc, xlab="GO Terms", main="Zscore of Biological Process, Hierachical Clustering", cex=.8)
+#pdf(file="yeast.bp-b.hierachical.clustering.pdf, width=10, height=5, paper='special")
+plot(hc, xlab="BP Terms", main="Biological Process, Hierachical Clustering", cex=.8)
+#dev.off()
 
 ```

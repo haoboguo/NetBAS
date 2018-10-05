@@ -1,0 +1,13 @@
+Examples: using 50 permutations from yeast PIN.
+
+1. yeast.bp.matrix.Rmd
+This script calculate the frequencies between each pair of BP terms from the yeast PIN (the original BioGrid PIN)
+The heatmap was plotted agains log10(freq+1) (the frequencies vary from 0 to > 7000).
+
+2. yeast.ms02.bp.matrix.Rmd
+This script do the same calculations as for 1, for permutations. 50 permutations are used here.
+All results are saved in the directory "/ms02.yeast/bp-bp/"
+
+3. yeast.bp.z.heatmap.Rmd
+This script calculate the Z-scores for each BP term, resulting in a n*n matrix, where n is the total number of BP terms.
+Heatmap is plotted based on this matrix, positive Z-scores are in red, and negative Z-scores are in blue, respectively.

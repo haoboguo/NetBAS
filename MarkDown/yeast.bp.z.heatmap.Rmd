@@ -1,0 +1,77 @@
+---
+title: "Z-score heat map, yeast bp-bp"
+author: "HBG"
+date: "10/5/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library("microbenchmark")
+library("matrixStats")
+
+GOcategory.file <- read.csv("../Data/yeast.bp.term.csv",header=TRUE, stringsAsFactors=F)
+go.cat <- GOcategory.file$GO.term
+
+# dimension of the z-score
+dim <- length(go.cat)
+
+biogrid <- matrix(as.numeric(unlist(read.table("yeast.bp.matrix.csv", header=F, sep=","))), ncol=dim)
+obs <- c(biogrid) #observed values
+
+perm <- c()
+
+for (i in 1:50) {
+  name <- paste("ms02.yeast", "/", "bp-bp", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+  mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), ncol=dim)
+  perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs-mean)/std, 3)
+z <- t(matrix(zscore, ncol=dim))
+
+write.table(z, file="yeast.bp.zscore.csv", sep=",", row.names=F, col.names=F)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+library('gplots')
+
+colnames(z) <- go.cat
+rownames(z) <- go.cat
+
+colors = c(seq(min(z),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z),length=100))
+my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
+
+#png(filename = "yeast.bp.z.heatmap.png",width=6, height=6, res=1200, unit="in")
+hm <- heatmap.2(z, col=my_palette, breaks=colors,
+          trace='none', offsetRow = 0, offsetCol = 0,
+          ylab="Biological Process Terms", xlab="Biological Process Terms",
+          margins = c(2,2), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
+          labCol = NA, labRow = NA,
+          scale="none", dendrogram = "both", symbreaks=T, symm=F, symkey = F)
+#dev.off()
+
+
+hc <- as.hclust(hm$colDendrogram)
+#pdf("bg163.bp.le20.z1k.hc.tree.pdf", width=40, height=5,paper='special')
+plot(hc, xlab="GO Terms", main="Zscore of Biological Process, Hierachical Clustering", cex=.8)
+#dev.off()
+
+```

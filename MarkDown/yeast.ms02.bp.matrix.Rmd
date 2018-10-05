@@ -1,0 +1,62 @@
+---
+title: "MS02star GO term counting"
+author: "hguo"
+date: "October 4, 2018"
+output: pdf_document
+---
+
+  
+```{r}
+# read the network. using the ms02star permutations (1-100)
+for (p in 1:50) {
+file <- paste("../ms02star/yeast/", "ms02.", p, ".csv", sep="")
+network <- read.csv(file, header=T, stringsAsFactors=F)
+geneA <- network$id1
+geneB <- network$id2
+
+## the GO terms for biological processes (BP)
+## In this slim, each GO terms was shared by at least 20 genes
+GOcategory.file <- read.csv("../Data/yeast.bp.term.csv",header=TRUE, stringsAsFactors=F)
+go.cat <- GOcategory.file$GO.term
+
+# Gene-GO term file
+# Note in yeast PIN we use the systematic namds of all genes
+GOterm.file <- read.csv("../Data/yeast.bp.gene.term.csv", header=T, stringsAsFactors=F)
+GO.gene <- GOterm.file$System
+GO.term <- GOterm.file$GO.term
+
+# Define matrices
+dim <- length(go.cat)
+A <- matrix(0, nrow=dim, ncol=dim)
+B <- matrix(0, nrow=dim, ncol=dim)
+
+for (i in 1:length(geneA)) {
+  goA <- GO.term[which(GO.gene %in% geneA[i])]
+  for (j in 1:length(goA)) {
+      m <- which(go.cat %in% goA[j])
+      goB <- GO.term[which(GO.gene %in% geneB[i])]
+      for (k in 1:length(goB)) {
+          n <- which(go.cat %in% goB[k])
+          A[m,n] <- A[m,n] + 1
+          A[n,m] <- A[n,m] + 1
+      }
+   }
+}
+
+## the diagonal terms are double counted need be divided by 2
+for (m in 1:dim) {
+    for (n in 1:dim){
+        if (m == n) {
+           B[m,n] = A[m,n]/2
+        }  else {
+           B[m,n] = A[m,n]
+        }
+    }
+}
+
+B <- log10(B+1)
+
+output <- paste("ms02.yeast", "/", "bp-bp", "/", "ms02.", p, ".bp.matrix.csv", sep="")
+write.table(B, file=output,sep=",",row.names=F,col.names=F, quote=F)
+}
+```

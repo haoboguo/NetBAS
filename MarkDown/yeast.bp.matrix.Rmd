@@ -85,7 +85,7 @@ hm <- heatmap.2(B, col=my_pallete, breaks=colors,
 
 hc <- as.hclust(hm$colDendrogram)
 
-#pdf(file="yeast.bp-b.hierachical.clustering.pdf, width=10, height=5, paper='special")
+#pdf(file="yeast.bp-bp.hierachical.clustering.pdf, width=10, height=5, paper='special")
 plot(hc, xlab="BP Terms", main="Biological Process, Hierachical Clustering", cex=.8)
 #dev.off()
 

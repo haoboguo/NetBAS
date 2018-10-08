@@ -2,7 +2,10 @@
 Both Human and Yeast PIN are used.
 R mark down examples (/MarkDown) include:
 
-Examples: using 50 permutations from yeast PIN.
+Examples: using 50 permutations from yeast PIN (examples 1-6) and 100 permutations from human PIN (example 7), respectively.
+1-3 can be combined in to a same mark down for the GO-GO matrix; 4-6 are for the GO enrichment for a gene set (the life-extending single-gene deletions, CM15, from Cell Metabolism 2015 paper); 7 is for the GO enrichment (or annotation refinement) for a single human gene PD-1 (2018 Nobel Prize in medicine).
+
+Although only 50 or 100 permutations are used, the GO enrichment/suppression results are broadly consistent with those obtained from 1000 or 10k permutations.
   
 1. yeast.bp.matrix.Rmd
 This script calculate the frequencies between each pair of BP terms from the yeast PIN (the original BioGrid PIN)

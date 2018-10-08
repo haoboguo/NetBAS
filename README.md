@@ -29,7 +29,7 @@ This script calculate z-scores of BP terms from CM15 set.
 The enriched (Z > 3) and suppressed (Z < -3) BP terms are recorded in the files yeast.cm15.bp.enriched.csv and yeast.cm15.bp.suppressed.csv, respectively.
 The top 10 enriched BP terms are plotted as heatmap.
 
-7.human.pd1.annotation.Rmd
+7. human.pd1.annotation.Rmd
 This script using human PIN for GO annotations of the protein PD-1 (id: PDCD1). This gene is one of the genes that function with the T-cells to block the immune reaction and is the target for immuno-therapy in cancer (Nobel Prize in Medicine 2018)
 Because only 100 permutations have been used, the sampling resulted to an Inf value term, which shall be discarded here.
 Note that no suppressed GO terms have been found using the NetBAS method for the annotation of PD-1 gene.

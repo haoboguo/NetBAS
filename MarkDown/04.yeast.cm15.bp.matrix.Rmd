@@ -1,0 +1,54 @@
+---
+title: "CM15 set, BP terms frequency & heatmap"
+author: "hguo"
+date: "October 7, 2018"
+output: pdf_document
+---
+
+
+```{r}
+
+# read the network
+network <- read.csv("../Data/yeast.pin.csv",header=TRUE, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+##the GO terms for BP
+bp.GOcategory.file <- read.csv("../Data/yeast.bp.term.csv",header=TRUE, stringsAsFactors=F)
+bp.go.cat <- bp.GOcategory.file$GO.term
+bp.dim <- length(bp.go.cat)
+
+# GO term file
+bp.GOterm.file <- read.csv("../Data/yeast.bp.gene.term.csv", header=T, stringsAsFactors = F)
+bp.GO.gene <- bp.GOterm.file$System
+bp.GO.term <- bp.GOterm.file$GO.term
+
+# gene list
+list.file <- read.csv("cm15.list.csv", header=T, stringsAsFactors=F)
+gene.list <- list.file$gene
+
+vec <- numeric(length=bp.dim)
+
+for (i in 1:length(gene.list)) {
+    orf <- as.character(gene.list[i])
+    intA <- geneB[which(geneA %in% orf)]
+    for (j in 1:length(intA)) {
+        bpA <- bp.GO.term[which(bp.GO.gene %in% intA[j])]
+        for (k in 1:length(bpA)) {
+           na <- which(bp.go.cat %in% bpA[k])
+           vec[na] <- vec[na] + 1
+        }
+    }
+
+    intB <- geneA[which(geneB %in% orf)]
+    for (s in 1:length(intB)) {
+        bpB <- bp.GO.term[which(bp.GO.gene %in% intB[s])]
+        for (t in 1:length(bpB)) {
+           nb <- which(bp.go.cat %in% bpB[t])
+           vec[nb] <- vec[nb] + 1
+        }
+    }
+}
+
+write.table(vec, file="yeast.cm15.bp.txt", col.names=F, row.names=F, quote=F)
+```

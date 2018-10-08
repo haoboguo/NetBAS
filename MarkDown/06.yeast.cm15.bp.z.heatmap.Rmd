@@ -1,0 +1,103 @@
+---
+title: "Z-score heat map, yeast CM15 set, BP terms"
+author: "HBG"
+date: "10/7/2018"
+output: pdf_document
+---
+
+```{r}
+
+library("microbenchmark")
+library("matrixStats")
+
+bp.GOcategory.file <- read.csv("../Data/yeast.bp.term.csv",header=TRUE, stringsAsFactors=F)
+bp.go.cat <- bp.GOcategory.file$GO.term
+bp.dim <- length(bp.go.cat)
+
+conn.dim <- 1
+
+biogrid <- matrix(as.numeric(unlist(read.table("yeast.cm15.bp.txt", header = F, sep = ","))), nrow=bp.dim, ncol=conn.dim)
+obs <- c(biogrid)
+
+perm <- c()
+for (i in 1:50) {
+    name <- paste("ms02.yeast", "/", "cm15", "/", "ms02.", i, ".bp.matrix.csv", sep = "")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+    perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs - mean)/std, 3)
+
+z <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+
+write.table(z, file="yeast.cm15.bp.z.csv", sep = ",", row.names=F, col.names=F)
+```
+
+```{r}
+library('gplots')
+library('GO.db')
+
+order <- order(z)
+bp.go.cat <- bp.go.cat[order]
+z <- z[order]
+
+z <- t(z)
+colnames(z) <- bp.go.cat
+
+enriched.list <- bp.go.cat[which(z >= 3)]
+enriched <- c("GO.ID", "GO.Term", "Z-score")
+for (i in 1:length(enriched.list)) {
+  term <- Term(GOID(as.character(enriched.list[i])))
+  enriched <- rbind(enriched, c(as.character(enriched.list[i]),term,
+                                z[which(bp.go.cat %in% enriched.list[i])]))
+}
+
+print(enriched)
+
+write.table(enriched, file="yeast.cm15.bp.enriched.csv", row.names=F, col.names=F, quote=F, sep="\t")
+
+sup.list <- bp.go.cat[which(z <= -3)]
+sup <- c("GO.ID", "GO.Term", "Z-score")
+for (i in 1:length(sup.list)) {
+  term <- Term(GOID(as.character(sup.list[i])))
+  sup <- rbind(sup, c(as.character(sup.list[i]),term,
+               z[which(bp.go.cat %in% sup.list[i])]))
+}
+
+print(sup)
+
+write.table(sup, file="yeast.cm15.bp.suppressed.csv", row.names=F, col.names=F, quote=F, sep="\t")
+```
+```{r}
+# plot the top 10 enriched BP terms
+top10.z <- matrix(z[(length(z)-9):length(z)], ncol=1)
+top10.bp.id <- bp.go.cat[(length(z)-9):length(z)]
+rownames(top10.z) <- bp.go.cat[(length(z)-9):length(z)]
+
+colors = c(seq(0,max(z),length=20))
+my_palette <- colorRampPalette(c("blue2","white", "red2"))(n = 19)
+
+#png(filename = "yeast.cm15.bp.enriched.png",width=10, height=4, res=1200, unit="in")
+heatmap.2(cbind(top10.z, top10.z), trace="none", Colv=NA, Rowv=NA, dendrogram="none",
+          col=my_palette, breaks=colors, revC=T, key.title=NA, key.xlab="Z-score", key.ylab=NA,
+          labCol="", labRow="", cellnote=cbind(rownames(top10.z), rownames(top10.z)),notecol=1,
+          colsep=1:ncol(z), rowsep=1:nrow(z), sepcolor = "lightgrey")
+#dev.off()
+
+term <- c("GO.ID", "GO.Term", "Z-score")
+for (i in 1:10) {
+  top10.term <- Term(GOID(as.character(top10.bp.id[i])))
+  term <- rbind(term, c(top10.bp.id[i], top10.term, top10.z[i]))
+}
+
+print(term)
+
+#heatmap.2(cbind(top10.z, top10.z), trace="none", Colv=NA, Rowv=NA, dendrogram="none",
+#          col=my_palette, breaks=colors, revC=T, key.title=NA, key.xlab="Z-score", key.ylab=NA,
+#          labCol="", labRow="", cellnote=cbind(rownames(top10.z), term),notecol=1,
+#          colsep=1:ncol(z), rowsep=1:nrow(z), sepcolor = "lightgrey")
+
+```

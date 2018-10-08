@@ -1,0 +1,22 @@
+GO.ID	GO.Term	Z-score
+GO:0008380	RNA splicing	-7.112
+GO:0000398	mRNA splicing, via spliceosome	-6
+GO:0007049	cell cycle	-4.612
+GO:0006281	DNA repair	-4.49
+GO:0000727	double-strand break repair via break-induced replication	-4.482
+GO:0006397	mRNA processing	-4.102
+GO:0006289	nucleotide-excision repair	-3.956
+GO:0051301	cell division	-3.953
+GO:0006270	DNA replication initiation	-3.937
+GO:0006974	cellular response to DNA damage stimulus	-3.698
+GO:0007059	chromosome segregation	-3.591
+GO:0043044	ATP-dependent chromatin remodeling	-3.591
+GO:0007131	reciprocal meiotic recombination	-3.373
+GO:0045944	positive regulation of transcription by RNA polymerase II	-3.364
+GO:0000086	G2/M transition of mitotic cell cycle	-3.35
+GO:0006310	DNA recombination	-3.31
+GO:0046777	protein autophosphorylation	-3.173
+GO:0006468	protein phosphorylation	-3.096
+GO:0006298	mismatch repair	-3.083
+GO:0016310	phosphorylation	-3.066
+GO:0032508	DNA duplex unwinding	-3.016

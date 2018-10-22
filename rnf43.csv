@@ -1,4 +1,4 @@
-GENE,BF_hpaf,BF_patu,BF_aspc,BF_dld,BF_gbm,BF_hct,BF_hela,BF_rpe,mean_3panc,mean_ex_panc,zPanc_vs_other
+gene,BF_hpaf,BF_patu,BF_aspc,BF_dld,BF_gbm,BF_hct,BF_hela,BF_rpe,panc.mean,nonpanc.mean,zPanc_vs_other
 FZD5,5.36,5.17,3.99,-0.34,-0.8,-0.97,-1.49,-0.38,4.84,-0.8,11.59
 WLS,4.23,4.27,4.45,-0.84,-0.52,-1.02,0.21,-0.46,4.31,-0.53,9.91
 HNF1A,4.4,1.26,3.98,-0.55,-0.4,-0.81,-0.16,-0.69,3.21,-0.52,7.68

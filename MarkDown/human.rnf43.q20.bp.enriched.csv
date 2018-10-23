@@ -1,0 +1,217 @@
+GO.ID	GO.Term	Z-score
+GO:0010043	response to zinc ion	3.025
+GO:0032781	positive regulation of ATPase activity	3.029
+GO:0000077	DNA damage checkpoint	3.03
+GO:0009411	response to UV	3.042
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	3.103
+GO:0045540	regulation of cholesterol biosynthetic process	3.114
+GO:0007030	Golgi organization	3.117
+GO:0070911	global genome nucleotide-excision repair	3.124
+GO:0016573	histone acetylation	3.146
+GO:0032008	positive regulation of TOR signaling	3.171
+GO:0006297	nucleotide-excision repair, DNA gap filling	3.175
+GO:0097193	intrinsic apoptotic signaling pathway	3.192
+GO:0050769	positive regulation of neurogenesis	3.202
+GO:0032922	circadian regulation of gene expression	3.228
+GO:0000723	telomere maintenance	3.244
+GO:0007569	cell aging	3.247
+GO:0042769	DNA damage response, detection of DNA damage	3.26
+GO:0016241	regulation of macroautophagy	3.269
+GO:0031667	response to nutrient levels	3.327
+GO:0051262	protein tetramerization	3.333
+GO:0010824	regulation of centrosome duplication	3.39
+GO:0031334	positive regulation of protein complex assembly	3.466
+GO:0007286	spermatid development	3.5
+GO:0043312	neutrophil degranulation	3.505
+GO:0050830	defense response to Gram-positive bacterium	3.514
+GO:0009314	response to radiation	3.523
+GO:0016579	protein deubiquitination	3.549
+GO:0031145	anaphase-promoting complex-dependent catabolic process	3.615
+GO:0045454	cell redox homeostasis	3.64
+GO:0019985	translesion synthesis	3.676
+GO:0015949	nucleobase-containing small molecule interconversion	3.707
+GO:0015698	inorganic anion transport	3.725
+GO:0000086	G2/M transition of mitotic cell cycle	3.769
+GO:0007369	gastrulation	3.771
+GO:0051973	positive regulation of telomerase activity	3.855
+GO:0043687	post-translational protein modification	3.877
+GO:0014070	response to organic cyclic compound	3.895
+GO:0035722	interleukin-12-mediated signaling pathway	3.93
+GO:0043967	histone H4 acetylation	3.985
+GO:0016925	protein sumoylation	3.987
+GO:0006606	protein import into nucleus	3.99
+GO:0045648	positive regulation of erythrocyte differentiation	4.026
+GO:0016192	vesicle-mediated transport	4.109
+GO:0050821	protein stabilization	4.114
+GO:0030488	tRNA methylation	4.142
+GO:0098656	anion transmembrane transport	4.142
+GO:0050829	defense response to Gram-negative bacterium	4.145
+GO:0045652	regulation of megakaryocyte differentiation	4.161
+GO:0045727	positive regulation of translation	4.166
+GO:0050832	defense response to fungus	4.181
+GO:0042771	intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	4.244
+GO:0072332	intrinsic apoptotic signaling pathway by p53 class mediator	4.273
+GO:0010212	response to ionizing radiation	4.3
+GO:0043488	regulation of mRNA stability	4.313
+GO:0034504	protein localization to nucleus	4.321
+GO:0030520	intracellular estrogen receptor signaling pathway	4.487
+GO:0010389	regulation of G2/M transition of mitotic cell cycle	4.493
+GO:0007004	telomere maintenance via telomerase	4.551
+GO:0032508	DNA duplex unwinding	4.552
+GO:0031397	negative regulation of protein ubiquitination	4.556
+GO:0042267	natural killer cell mediated cytotoxicity	4.726
+GO:0006294	nucleotide-excision repair, preincision complex assembly	4.862
+GO:0006296	nucleotide-excision repair, DNA incision, 5'-to lesion	4.87
+GO:0033683	nucleotide-excision repair, DNA incision	4.916
+GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	4.919
+GO:0001649	osteoblast differentiation	4.953
+GO:0006270	DNA replication initiation	4.964
+GO:0006298	mismatch repair	5.039
+GO:0008652	cellular amino acid biosynthetic process	5.154
+GO:0016032	viral process	5.191
+GO:0007018	microtubule-based movement	5.21
+GO:0032757	positive regulation of interleukin-8 production	5.216
+GO:0071353	cellular response to interleukin-4	5.229
+GO:0034599	cellular response to oxidative stress	5.257
+GO:0045070	positive regulation of viral genome replication	5.258
+GO:0006417	regulation of translation	5.326
+GO:0000082	G1/S transition of mitotic cell cycle	5.374
+GO:0006139	nucleobase-containing compound metabolic process	5.376
+GO:0033572	transferrin transport	5.408
+GO:0007093	mitotic cell cycle checkpoint	5.508
+GO:0043392	negative regulation of DNA binding	5.521
+GO:0006310	DNA recombination	5.566
+GO:0050807	regulation of synapse organization	5.578
+GO:0051289	protein homotetramerization	5.703
+GO:0007049	cell cycle	5.726
+GO:0051225	spindle assembly	5.739
+GO:0001889	liver development	5.786
+GO:0061512	protein localization to cilium	5.789
+GO:0055008	cardiac muscle tissue morphogenesis	5.798
+GO:0006303	double-strand break repair via nonhomologous end joining	5.799
+GO:1903507	negative regulation of nucleic acid-templated transcription	5.88
+GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	5.891
+GO:0007141	male meiosis I	5.91
+GO:0032436	positive regulation of proteasomal ubiquitin-dependent protein catabolic process	5.949
+GO:0051290	protein heterotetramerization	6.08
+GO:0010033	response to organic substance	6.241
+GO:0045948	positive regulation of translational initiation	6.273
+GO:0006284	base-excision repair	6.274
+GO:0007052	mitotic spindle organization	6.381
+GO:1901796	regulation of signal transduction by p53 class mediator	6.421
+GO:0009408	response to heat	6.423
+GO:0006611	protein export from nucleus	6.547
+GO:0015991	ATP hydrolysis coupled proton transport	6.554
+GO:0007140	male meiosis	6.68
+GO:0042572	retinol metabolic process	6.698
+GO:0045814	negative regulation of gene expression, epigenetic	6.819
+GO:0008033	tRNA processing	6.849
+GO:0051726	regulation of cell cycle	6.897
+GO:0000724	double-strand break repair via homologous recombination	6.922
+GO:0005977	glycogen metabolic process	7.194
+GO:0050775	positive regulation of dendrite morphogenesis	7.238
+GO:0006261	DNA-dependent DNA replication	7.332
+GO:1900034	regulation of cellular response to heat	7.49
+GO:0019731	antibacterial humoral response	7.514
+GO:0007088	regulation of mitotic nuclear division	7.55
+GO:0000079	regulation of cyclin-dependent protein serine/threonine kinase activity	7.563
+GO:0010923	negative regulation of phosphatase activity	7.658
+GO:0019827	stem cell population maintenance	7.719
+GO:0031297	replication fork processing	7.807
+GO:0032259	methylation	7.833
+GO:0006457	protein folding	7.993
+GO:0006418	tRNA aminoacylation for protein translation	8.017
+GO:0006487	protein N-linked glycosylation	8.097
+GO:0006913	nucleocytoplasmic transport	8.202
+GO:0006401	RNA catabolic process	8.226
+GO:0032212	positive regulation of telomere maintenance via telomerase	8.292
+GO:0006479	protein methylation	8.387
+GO:0007010	cytoskeleton organization	8.404
+GO:0008150	biological_process	8.47
+GO:0002181	cytoplasmic translation	8.629
+GO:0031047	gene silencing by RNA	8.656
+GO:0017148	negative regulation of translation	8.751
+GO:0007094	mitotic spindle assembly checkpoint	8.878
+GO:0051321	meiotic cell cycle	8.893
+GO:0032201	telomere maintenance via semi-conservative replication	8.969
+GO:0006289	nucleotide-excision repair	9.465
+GO:0006094	gluconeogenesis	9.522
+GO:0032543	mitochondrial translation	9.578
+GO:1901998	toxin transport	9.632
+GO:0031640	killing of cells of other organism	9.679
+GO:1990830	cellular response to leukemia inhibitory factor	9.728
+GO:0006260	DNA replication	9.73
+GO:0090503	RNA phosphodiester bond hydrolysis, exonucleolytic	9.75
+GO:0006607	NLS-bearing protein import into nucleus	10.086
+GO:0007080	mitotic metaphase plate congression	10.112
+GO:0051028	mRNA transport	10.202
+GO:0000413	protein peptidyl-prolyl isomerization	10.218
+GO:0010498	proteasomal protein catabolic process	10.364
+GO:0005975	carbohydrate metabolic process	10.414
+GO:0006293	nucleotide-excision repair, preincision complex stabilization	10.48
+GO:0090502	RNA phosphodiester bond hydrolysis, endonucleolytic	10.62
+GO:0034605	cellular response to heat	10.68
+GO:0006325	chromatin organization	11.028
+GO:0046034	ATP metabolic process	11.101
+GO:0006614	SRP-dependent cotranslational protein targeting to membrane	11.217
+GO:0006281	DNA repair	11.469
+GO:0010499	proteasomal ubiquitin-independent protein catabolic process	11.495
+GO:0007339	binding of sperm to zona pellucida	11.674
+GO:0007059	chromosome segregation	11.829
+GO:0006283	transcription-coupled nucleotide-excision repair	11.987
+GO:0006986	response to unfolded protein	12.104
+GO:1901673	regulation of mitotic spindle assembly	12.199
+GO:0006446	regulation of translational initiation	12.225
+GO:0046835	carbohydrate phosphorylation	12.473
+GO:0000070	mitotic sister chromatid segregation	12.533
+GO:0006413	translational initiation	13.262
+GO:0006099	tricarboxylic acid cycle	13.279
+GO:0043484	regulation of RNA splicing	13.282
+GO:0000027	ribosomal large subunit assembly	13.287
+GO:0006367	transcription initiation from RNA polymerase II promoter	13.578
+GO:0034620	cellular response to unfolded protein	13.712
+GO:0042026	protein refolding	13.97
+GO:0051085	chaperone mediated protein folding requiring cofactor	14.031
+GO:0042273	ribosomal large subunit biogenesis	14.175
+GO:0006412	translation	14.239
+GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	14.405
+GO:0061621	canonical glycolysis	14.783
+GO:0051301	cell division	14.874
+GO:0006378	mRNA polyadenylation	14.883
+GO:0006096	glycolytic process	15.049
+GO:0006366	transcription from RNA polymerase II promoter	15.185
+GO:0007017	microtubule-based process	15.453
+GO:0008543	fibroblast growth factor receptor signaling pathway	15.963
+GO:0006396	RNA processing	15.97
+GO:0000226	microtubule cytoskeleton organization	16.386
+GO:0045815	positive regulation of gene expression, epigenetic	16.914
+GO:0000462	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	16.958
+GO:0000278	mitotic cell cycle	17.045
+GO:0006334	nucleosome assembly	18.342
+GO:0048025	negative regulation of mRNA splicing, via spliceosome	18.683
+GO:0051170	nuclear import	18.695
+GO:0070126	mitochondrial translational termination	18.777
+GO:0034080	CENP-A containing nucleosome assembly	18.89
+GO:0000387	spliceosomal snRNP assembly	18.96
+GO:0070125	mitochondrial translational elongation	19.046
+GO:0043928	exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay	20.076
+GO:0006383	transcription from RNA polymerase III promoter	21.779
+GO:0000245	spliceosomal complex assembly	21.839
+GO:0006361	transcription initiation from RNA polymerase I promoter	22.082
+GO:0060964	regulation of gene silencing by miRNA	22.784
+GO:0006363	termination of RNA polymerase I transcription	23.35
+GO:0000381	regulation of alternative mRNA splicing, via spliceosome	25.057
+GO:0006370	7-methylguanosine mRNA capping	26.45
+GO:0000375	RNA splicing, via transesterification reactions	26.615
+GO:0006405	RNA export from nucleus	27.319
+GO:0016070	RNA metabolic process	27.901
+GO:0006369	termination of RNA polymerase II transcription	28.085
+GO:0006406	mRNA export from nucleus	28.886
+GO:0006397	mRNA processing	28.918
+GO:0006364	rRNA processing	29.684
+GO:0045292	mRNA cis splicing, via spliceosome	29.927
+GO:0042795	snRNA transcription from RNA polymerase II promoter	29.993
+GO:0006368	transcription elongation from RNA polymerase II promoter	30.011
+GO:0031124	mRNA 3'-end processing	31.361
+GO:0008380	RNA splicing	33.127
+GO:0000398	mRNA splicing, via spliceosome	37.487

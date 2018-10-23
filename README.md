@@ -45,6 +45,9 @@ Because only 100 permutations have been used, the sampling resulted to an Inf va
 Note that no suppressed GO terms have been found using the NetBAS method for the annotation of PD-1 gene.
 Significantly enriched GO annotations for PDCD1 include "T cell receptor signaling pathway" (GO:0050852, z=40.757), "T cell differenciation" (GO:0030217, z=18.73), "T cell costimulation (GO:0031295, z=18.216), "T cell activation" (GO:0042110, z=9.496), in line with the role of this gene for regulating the T-cell functions (for which GO:0031295 is already in the known GO terms of the PD-1 gene).
 
+8. human.rnf43.bp.z.Rmd
+This script used human gene list with top 5% BF scores from pancreatic tumor cell lines (Steinhart, Z. et al. Nature Medicine 2017). 100 Permutations have been used. Both enriched and suppressed GO terms are analyzed.
+
 All scripts have been validated on a Linux Ubuntu workstation (4.4.0-133) and a MacBook laptop (10.13.6).
 
-HBG updated 10-8-2018
+HBG updated 10-8-2018; 10-23-2018

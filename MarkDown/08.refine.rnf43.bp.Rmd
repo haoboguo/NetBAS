@@ -1,0 +1,62 @@
+---
+title: "MS02star annotation, RNF43, refined"
+author: "hguo"
+date: "October 24, 2018"
+output: pdf_document
+---
+
+```{r}
+## read the original network
+library(plyr)
+network <- read.csv("../Data/human.pin.csv", header=T, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+## the GO terms for biological processes (BP)
+GOcategory.file <- read.csv("../Data/human.bp.term.csv",header=TRUE, stringsAsFactors=F)
+bp.go.cat <- GOcategory.file$GO.term
+bp.dim <- length(bp.go.cat)
+
+# Gene-GO term file
+# Note in human PIN the standard gene names have been used
+GOterm.file <- read.csv("../Data/human.bp.gene.term.csv", header=T, stringsAsFactors=F)
+bp.GO.gene <- GOterm.file$gene  #it should be changed to System for yeast pin
+bp.GO.term <- GOterm.file$GO.term
+
+#The gene list is selected from the RNF43 set 
+## Steinhart, Z.; et al. Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circut
+## as a druggable vulnerability of RNF43-mutant pancreatic tumors. Nature Medicine 2017.
+## BF factors are used here (Table S4), the mean Z-scores of three pancreatic tumor cell lines
+## Quantile 20 indicates 858 genes with the top 5% Z-scores (including FZD5, WLS, etc.)
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.panc <- panc.file$panc.mean
+quant <- quantile(panc.panc, probs = seq(0,1,1/20))
+
+gene.list <- panc.gene[which(panc.panc > quant[20])]
+
+#vec <- numeric(length=bp.dim)
+
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+gene.count <- count(gl.all)
+orfs <- gene.count$x
+freqs <- gene.count$freq
+
+vec <- numeric(length=bp.dim)
+
+#Note that this loop is necessary to avoid miss counting owing to the redundancy of genes
+for (i in 1:length(orfs)) {
+  orf.ith <- orfs[i]
+  orf.freq <- freqs[i]
+  orf.term <- bp.GO.term[which(bp.GO.gene %in% orf.ith)]
+  for (j in 1:length(orf.term)) {
+    na <- which(bp.go.cat %in% orf.term[j])
+    vec[na] <- vec[na] + orf.freq
+  }
+}
+
+write.table(vec, file="human.rnf43.q20.bp.refine.txt", col.names=F, row.names=F, quote=F)
+
+```

@@ -122,7 +122,7 @@ zscore <- round((obs - mean)/std, 3)
 
 z <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
 
-write.table(z, file="human.rnf43.q20,bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+write.table(z, file="human.rnf43.q20.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
 ```
 
 ```{r}

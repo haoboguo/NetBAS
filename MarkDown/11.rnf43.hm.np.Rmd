@@ -1,7 +1,7 @@
 ---
 title: "MS02star annotation, RNF43, heatmap"
 author: "hguo"
-date: "October 25, 2018"
+date: "October 27, 2018"
 output: pdf_document
 ---
 
@@ -30,7 +30,7 @@ bp.GO.term <- GOterm.file$GO.term
 ## Quantile 20 indicates 858 genes with the top 5% Z-scores (including FZD5, WLS, etc.)
 panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
 panc.gene <- panc.file$gene
-panc.panc <- panc.file$panc.mean
+panc.panc <- panc.file$nonpanc.mean
 quant <- quantile(panc.panc, probs = seq(0,1,1/20))
 
 all.count <- c()
@@ -104,7 +104,7 @@ all.count <- c(all.count, vec)
 
 A <- matrix(all.count, nrow = bp.dim, ncol = 20)
 
-write.table(A, file="human.rnf43.all.bp.txt", sep=",", col.names=F, row.names=F, quote=F)
+write.table(A, file="human.rnf43.NP.bp.txt", sep=",", col.names=F, row.names=F, quote=F)
 
 ```
 
@@ -184,7 +184,7 @@ perm.count <- c(perm.count, vec)
 
 B <- matrix(perm.count, nrow = bp.dim, ncol = 20)
 
-output <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", p, ".bp.matrix.csv", sep="")
+output <- paste("ms02.human", "/", "rnf43.NP", "/", "ms02.", p, ".bp.matrix.csv", sep="")
 
 write.table(B, file=output, sep=",", col.names=F, row.names=F, quote=F)
 }
@@ -196,12 +196,12 @@ library("microbenchmark")
 library("matrixStats")
 
 conn.dim <- 20
-hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.NP.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
 obs <- c(hspin)
 
 perm <- c()
 for (i in 1:100) {
-    name <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    name <- paste("ms02.human", "/", "rnf43.NP", "/", "ms02.", i, ".bp.matrix.csv", sep="")
     mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
     perm <- rbind(perm, c(mat))
 }
@@ -213,7 +213,7 @@ zscore <- round((obs - mean)/std, 3)
 
 z <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
 
-write.table(z, file="human.rnf43.all.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+write.table(z, file="human.rnf43.NP.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
 ```
 
 ```{r}
@@ -229,7 +229,7 @@ colors = c(seq(min(z),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z)
 #colors = c(seq(min(z), max(z), length=300))
 my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
 
-png(filename = "human.rnf43.bp.heatmap.png",width=6, height=5.5, res=1200, unit="in")
+png(filename = "human.rnf43.NP.bp.heatmap.png",width=6, height=5.5, res=1200, unit="in")
 heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
           xlab="Biological Process Terms", ylab="Quantiles of Bayesian Factors",
@@ -249,7 +249,7 @@ hm <- heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           labCol = NA, 
           scale="none", dendrogram = "col", symbreaks=T, symm=F, symkey = F)
 hc.col <- as.hclust(hm$colDendrogram)
-pdf("human.rnf43.bp.tree.pdf", width=150, height=4,paper='special')
+pdf("human.rnf43.NP.bp.tree.pdf", width=150, height=4,paper='special')
 plot(hc.col, xlab="BP Terms", main="Z-scores, Hierachical Clustering", cex=.8)
 dev.off()
 ```

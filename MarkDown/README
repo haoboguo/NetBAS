@@ -32,3 +32,9 @@ Note that no suppressed GO terms have been found using the NetBAS method for the
 Significantly enriched GO annotations for PDCD1 include
 "T cell receptor signaling pathway" (GO:0050852, z=40.757), "T cell differenciation" (GO:0030217, z=18.73), "T cell costimulation (GO:0031295, z=18.216), "T cell activation" (GO:0042110, z=9.496), in line with the role of this gene for regulating the T-cell functions (for which GO:0031295 is already in the known GO terms of the PD-1 gene).
 
+8.08.rnf43.bp.z.Rmd/08.refine.rnf43.bp.Rmd
+These scripts using the pancreatic tumor cell BF factors (Nature Med. 2017) and biologicla process GO terms 
+to calculate the GO enrichment of quantile 20 (top 5% in Bayesian factors) genes
+
+9.09.rnf43.heatmap.Rmd
+Using the refined script in 8 (08.refine.rnf43.bp.Rmd), generate the heat map of all genes in the pancreatic cell line.

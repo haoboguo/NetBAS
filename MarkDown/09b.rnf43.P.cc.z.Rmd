@@ -1,8 +1,8 @@
 ---
-title: "09.rnf43.bp.z.Rmd"
+title: "09.rnf43.P.cc.z.Rmd"
 author: "HBG"
 date: "11/1/2018"
-output: html_document
+output: pdf_document
 ---
 
 ```{r}
@@ -10,17 +10,17 @@ output: html_document
 library("microbenchmark")
 library("matrixStats")
 
-GOcategory.file <- read.csv("../Data/human.bp.term.csv",header=TRUE, stringsAsFactors=F)
-bp.go.cat <- GOcategory.file$GO.term
-bp.dim <- length(bp.go.cat)
+GOcategory.file <- read.csv("../Data/human.cc.term.csv",header=TRUE, stringsAsFactors=F)
+cc.go.cat <- GOcategory.file$GO.term
+cc.dim <- length(cc.go.cat)
 conn.dim <- 20
-hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.cc.txt", header=F, sep=","))), nrow=cc.dim, ncol=conn.dim)
 obs <- c(hspin)
 
 perm <- c()
 for (i in 1:100) {
-    name <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", i, ".bp.matrix.csv", sep="")
-    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+    name <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", i, ".cc.matrix.csv", sep="")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=cc.dim, ncol=conn.dim)
     perm <- rbind(perm, c(mat))
 }
 
@@ -29,9 +29,9 @@ std <- colSds(perm)
 
 zscore <- round((obs - mean)/std, 3)
 
-z <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+z <- matrix(zscore, nrow=cc.dim, ncol=conn.dim)
 
-write.table(z, file="human.rnf43.P.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+write.table(z, file="human.rnf43.P.cc.z.csv", sep=",", row.names=F, col.names=F, quote=F)
 ```
 
 ```{r}
@@ -41,16 +41,16 @@ z <- t(z)
 rownames(z) <- c("Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8","Q9","Q10",
                  "Q11","Q12","Q13","Q14","Q15","Q16","Q17","Q18","Q19","Q20")
 
-colnames(z) <- bp.go.cat
+colnames(z) <- cc.go.cat
 
 colors = c(seq(min(z),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z),length=100))
 #colors = c(seq(min(z), max(z), length=300))
 my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
 
-png(filename = "human.rnf43.P.bp.heatmap.png",width=6, height=5.5, res=1200, unit="in")
+png(filename = "human.rnf43.P.cc.heatmap.png",width=6, height=5.5, res=1200, unit="in")
 heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
-          xlab="Biological Process Terms", ylab="Quantiles of Bayesian Factors",
+          xlab="Cellular Component Terms", ylab="Quantiles of Bayesian Factors",
           margins = c(2,3.5), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
           revC = T,
           labCol = NA, #labRow =,
@@ -61,41 +61,41 @@ dev.off()
 
 hm <- heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
-          xlab="Biological Process Terms", ylab="Quantiles of Bayesian Factors",
+          xlab="Cellular Component Terms", ylab="Quantiles of Bayesian Factors",
           margins = c(2,3.5), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
           revC = T,
           labCol = NA, 
           scale="none", dendrogram = "col", symbreaks=T, symm=F, symkey = F)
 hc.col <- as.hclust(hm$colDendrogram)
-pdf("human.rnf43.P.bp.tree.pdf", width=150, height=4,paper='special')
-plot(hc.col, xlab="BP Terms", main="Z-scores, Hierachical Clustering", cex=.8)
+pdf("human.rnf43.P.cc.tree.pdf", width=50, height=4,paper='special')
+plot(hc.col, xlab="CC Terms", main="Z-scores, Hierachical Clustering", cex=.8)
 dev.off()
 ```
 #GO analysis
 ```{r}
 library(GO.db)
-bp.go.term.tree <- bp.go.cat[hc.col$order]
-write.table(bp.go.term.tree, file="human.rnf43.P.bp.tree.go.csv", sep=",", col.names=F, row.names = F, quote=F)
+cc.go.term.tree <- cc.go.cat[hc.col$order]
+write.table(cc.go.term.tree, file="human.rnf43.P.cc.tree.go.csv", sep=",", col.names=F, row.names = F, quote=F)
 
-##the terms 2:28 are the branch enriched in Q17-Q20 (especially Q19 and Q20), but suppressed in Q1-Q16
+##the terms 1:13 are the branch enriched in Q17-Q20 (especially Q19 and Q20), but suppressed in Q1-Q16
 pair <- c("GO.ID", "GO.Term")
-for (i in 2:28) {
-  go.term <- as.character(bp.go.term.tree[i])
+for (i in 1:13) {
+  go.term <- as.character(cc.go.term.tree[i])
   detail <- Term(GOID(go.term))
   pair <- rbind(pair, c(go.term, detail))
 }
 
 pair
 
-write.table(pair, file="human.rnf43.P.bp.branch2.csv", col.names=F, row.names=F, sep="\t", quote=F)
+write.table(pair, file="human.rnf43.P.cc.branch1.csv", col.names=F, row.names=F, sep="\t", quote=F)
 
 library(ggplot2)
-branch2 <- data.frame(z[,hc.col$order[2:28]])
-branch2
+branch1 <- data.frame(z[,hc.col$order[2:28]])
+branch1
 
-matplot(branch2, type="b", xlab="Quantiles", ylab="Z-score", pch=19)
+matplot(branch1, type="b", xlab="Quantiles", ylab="Z-score", pch=19)
 
-pdf(file="human.rnf43.P.bp.branch2.zprofile.pdf",width=6, height=4, paper='special')
+pdf(file="human.rnf43.P.cc.branch1.zprofile.pdf",width=6, height=4, paper='special')
 matplot(branch2, type="b", xlab="Quantiles", ylab="Z-score", pch=19)
 dev.off()
 ```

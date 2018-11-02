@@ -1,0 +1,28 @@
+GO.ID	GO.Term
+GO:0006405	RNA export from nucleus
+GO:0016070	RNA metabolic process
+GO:0008380	RNA splicing
+GO:0006406	mRNA export from nucleus
+GO:0031124	mRNA 3'-end processing
+GO:0006368	transcription elongation from RNA polymerase II promoter
+GO:0006370	7-methylguanosine mRNA capping
+GO:0042795	snRNA transcription by RNA polymerase II
+GO:0006364	rRNA processing
+GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006614	SRP-dependent cotranslational protein targeting to membrane
+GO:0006413	translational initiation
+GO:0006412	translation
+GO:0006397	mRNA processing
+GO:0045292	mRNA cis splicing, via spliceosome
+GO:0000381	regulation of alternative mRNA splicing, via spliceosome
+GO:0006369	termination of RNA polymerase II transcription
+GO:0000375	RNA splicing, via transesterification reactions
+GO:0006363	termination of RNA polymerase I transcription
+GO:0006361	transcription initiation from RNA polymerase I promoter
+GO:0060964	regulation of gene silencing by miRNA
+GO:0006383	transcription by RNA polymerase III
+GO:0002181	cytoplasmic translation
+GO:0032543	mitochondrial translation
+GO:0070126	mitochondrial translational termination
+GO:0070125	mitochondrial translational elongation
+GO:0000398	mRNA splicing, via spliceosome

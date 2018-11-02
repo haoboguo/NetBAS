@@ -4,7 +4,7 @@ network <- read.csv("../Data/human.pin.csv", header=T, stringsAsFactors=F)
 geneA <- network$geneA
 geneB <- network$geneB
 
-## the GO terms for biological processes (BP)
+## the GO terms for cellular composition (CC)
 GOcategory.file <- read.csv("../Data/human.cc.term.csv",header=TRUE, stringsAsFactors=F)
 cc.go.cat <- GOcategory.file$GO.term
 cc.dim <- length(cc.go.cat)
@@ -182,6 +182,11 @@ write.table(B, file=output, sep=",", col.names=F, row.names=F, quote=F)
 library("microbenchmark")
 library("matrixStats")
 
+## the GO terms for cellular composition (CC)
+GOcategory.file <- read.csv("../Data/human.cc.term.csv",header=TRUE, stringsAsFactors=F)
+cc.go.cat <- GOcategory.file$GO.term
+cc.dim <- length(cc.go.cat)
+
 conn.dim <- 20
 hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.cc.txt", header=F, sep=","))), nrow=cc.dim, ncol=conn.dim)
 obs <- c(hspin)
@@ -200,7 +205,7 @@ zscore <- round((obs - mean)/std, 3)
 
 z <- matrix(zscore, nrow=cc.dim, ncol=conn.dim)
 
-write.table(z, file="human.rnf43.cc.NP.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+write.table(z, file="human.rnf43.cc.P.z.csv", sep=",", row.names=F, col.names=F, quote=F)
 
 library('gplots')
 z <- t(z)
@@ -214,7 +219,7 @@ colors = c(seq(min(z),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z)
 #colors = c(seq(min(z), max(z), length=300))
 my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
 
-png(filename = "human.rnf43.cc.NP.png",width=6, height=5.5, res=1200, unit="in")
+png(filename = "human.rnf43.cc.P.png",width=6, height=5.5, res=1200, unit="in")
 heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
           xlab="Biological Process Terms", ylab="Quantiles of Bayesian Factors",
@@ -234,7 +239,7 @@ hm <- heatmap.2(z, col=my_palette, breaks=colors, Rowv=F,
           labCol = NA, 
           scale="none", dendrogram = "col", symbreaks=T, symm=F, symkey = F)
 hc.col <- as.hclust(hm$colDendrogram)
-pdf("human.rnf43.cc.NP.tree.pdf", width=150, height=4,paper='special')
+pdf("human.rnf43.cc.P.tree.pdf", width=50, height=4,paper='special')
 plot(hc.col, xlab="BP Terms", main="Z-scores, Hierachical Clustering", cex=.8)
 dev.off()
 

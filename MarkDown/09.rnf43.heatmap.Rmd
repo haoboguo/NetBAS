@@ -253,3 +253,31 @@ pdf("human.rnf43.bp.tree.pdf", width=150, height=4,paper='special')
 plot(hc.col, xlab="BP Terms", main="Z-scores, Hierachical Clustering", cex=.8)
 dev.off()
 ```
+#GO analysis
+```{r}
+library(GO.db)
+bp.go.term.tree <- bp.go.cat[hc.col$order]
+write.table(bp.go.term.tree, file="human.rnf43.P.tree.go.csv", sep=",", col.names=F, row.names = F, quote=F)
+
+##the terms 2:28 are the branch enriched in Q17-Q20 (especially Q19 and Q20), but suppressed in Q1-Q16
+pair <- c("GO.ID", "GO.Term")
+for (i in 2:28) {
+  go.term <- as.character(bp.go.term.tree[i])
+  detail <- Term(GOID(go.term))
+  pair <- rbind(pair, c(go.term, detail))
+}
+
+pair
+
+write.table(pair, file="human.rnf43.P.branch2.csv", col.names=F, row.names=F, sep="\t", quote=F)
+
+library(ggplot2)
+branch2 <- data.frame(z[,hc.col$order[2:28]])
+branch2
+
+matplot(branch2, type="b", xlab="Quantiles", ylab="Z-score", pch=19)
+
+pdf(file="human.rnf43.P.branch2.zprofile.pdf",width=6, height=4, paper='special')
+matplot(branch2, type="b", xlab="Quantiles", ylab="Z-score", pch=19)
+dev.off()
+```

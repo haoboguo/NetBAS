@@ -1,7 +1,7 @@
 ---
 title: "MS02star annotation, RNF43, heatmap"
 author: "hguo"
-date: "October 25, 2018"
+date: "Nov. 1, 2018"
 output: pdf_document
 ---
 
@@ -12,38 +12,31 @@ network <- read.csv("../Data/yeast.pin.csv", header=T, stringsAsFactors=F)
 geneA <- network$geneA
 geneB <- network$geneB
 
-## the GO terms for biological processes (BP)
-GOcategory.file <- read.csv("../Data/yeast.bp.term.csv",header=TRUE, stringsAsFactors=F)
-bp.go.cat <- GOcategory.file$GO.term
-bp.dim <- length(bp.go.cat)
-
-# Gene-GO term file
-# Note in yeast PIN the standard gene names have been used
-GOterm.file <- read.csv("../Data/yeast.bp.gene.term.csv", header=T, stringsAsFactors=F)
-bp.GO.gene <- GOterm.file$gene  #it should be changed to System for yeast pin
-bp.GO.term <- GOterm.file$GO.term
-
-#The gene list is selected from the RNF43 set 
-## Steinhart, Z.; et al. Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circut
-## as a druggable vulnerability of RNF43-mutant pancreatic tumors. Nature Medicine 2017.
-## BF factors are used here (Table S4), the mean Z-scores of three pancreatic tumor cell lines
-## Quantile 20 indicates 858 genes with the top 5% Z-scores (including FZD5, WLS, etc.)
-panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
-panc.gene <- panc.file$gene
-panc.panc <- panc.file$panc.mean
-quant <- quantile(panc.panc, probs = seq(0,1,1/20))
+degree.file <- read.csv("../yeast.degree.csv",header=TRUE,stringsAsFactors=F)
+degree.gene <- degree.file$gene
+degree.degree <- degree.file$degree
+quant <- quantile(degree.degree, probs = seq(0,1,1/20))
 
 all.count <- c()
 
-#gene lists Q1 to Q20
-  genelist.1  <- panc.gene[which(panc.panc <= quant[2])]
+genelist  <- degree.gene[which(degree.degree <= quant[2])]
+for (l in 2:19) {
+  gene.list.tmp <- degree.gene[which(degree.degree > quant[l] & degree.degree <= quant[l+1])]
+  genelist <- cbind(genelist, gene.list.tmp)
+}
+genelist.20 <- degree.gene[which(degree.degree > quant[20])]
+genelist <- cbind(genelist, genelist.20)
+
+colnames(genelist) <- c("Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8","Q9","Q10",
+                 "Q11","Q12","Q13","Q14","Q15","Q16","Q17","Q18","Q19","Q20")
+
   glA <- geneB[which(geneA %in% genelist.1)] 
   glB <- geneA[which(geneB %in% genelist.1)]
   gl.all <- c(glA, glB)
   gene.count <- count(gl.all)
   orfs <- gene.count$x
   freqs <- gene.count$freq
-  vec <- numeric(length=bp.dim)
+  vec <- numeric(length=20)
 
 #Note that this loop is necessary to avoid miss counting owing to the redundancy of genes
   for (i in 1:length(orfs)) {
@@ -58,7 +51,7 @@ all.count <- c()
   all.count <- c(all.count, vec)
 
 for (l in 2:19) {
-  genelist <- panc.gene[which(panc.panc > quant[l] & panc.panc <= quant[l+1])]
+  genelist <- degree.gene[which(degree.degree > quant[l] & degree.degree <= quant[l+1])]
 
   glA <- geneB[which(geneA %in% genelist)] 
   glB <- geneA[which(geneB %in% genelist)]
@@ -81,7 +74,7 @@ for (l in 2:19) {
 all.count <- c(all.count, vec)
 }
 
-  genelist.20 <- panc.gene[which(panc.panc > quant[20])]
+  genelist.20 <- degree.gene[which(degree.degree > quant[20])]
   glA <- geneB[which(geneA %in% genelist.20)] 
   glB <- geneA[which(geneB %in% genelist.20)]
   gl.all <- c(glA, glB)
@@ -140,7 +133,7 @@ perm.count <- c()
   perm.count <- c(perm.count, vec)
 
 for (l in 2:19) {
-  genelist <- panc.gene[which(panc.panc > quant[l] & panc.panc <= quant[l+1])]
+  genelist <- degree.gene[which(degree.degree > quant[l] & degree.degree <= quant[l+1])]
   glA <- geneB[which(geneA %in% genelist)] 
   glB <- geneA[which(geneB %in% genelist)]
   gl.all <- c(glA, glB)

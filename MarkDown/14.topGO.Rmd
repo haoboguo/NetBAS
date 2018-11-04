@@ -1,0 +1,77 @@
+---
+title: "GO enrichment"
+author: "HBG"
+date: "11/4/2018"
+output: pdf_document
+---
+
+# This script perform GO enrichment using topGO for a set of genes that show high (top 10%)
+# Bayes factors in tumor cells, but low or moderate (0%-50%) BF in normal cells
+topGO analysis
+
+```{r}
+# loading the libraries
+library(topGO)
+library(biomaRt)
+library(ensembldb)
+#library(mygene) ## it may be useful for gene name conversion
+library(EnsDb.Hsapiens.v86)
+library(GenomicFeatures)
+library(GO.db)
+
+## some packages are installed using the package 'BioManager'
+## the package 'GenomicFeatures' is needed to install 'EnsDb.Hsapiens.v86'
+## install_github('https://github.com/Bioconductor/GenomicFeatures')
+## the library 'devtools' is needed to install GenomicFeatures from GitHub repository
+
+# the BF data file
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.panc <- panc.file$panc.mean
+panc.np <- panc.file$nonpanc.mean
+quant <- quantile(panc.panc, probs = seq(0,1,1/20))
+quant.np <- quantile(panc.np, probs=seq(0,1,1/20))
+
+# top 10% BF genes (1718) in tumor cells
+panc.top10 <- panc.gene[which(panc.panc > quant[19])]
+length(panc.top10)
+
+# genes (8458) of 0% to 50% BF factors in normal cells
+np.bottom50 <- panc.gene[which(panc.np < quant.np[11])]
+length(np.bottom50)
+
+# the overlap genes between top 10% tumor and (0-50%) normal cells
+genes=panc.gene[which(panc.top10 %in% np.bottom50)]
+length(genes)
+GeneNameFilter(genes)
+
+# Gene names need be converted to Ensembl IDs
+library(EnsDb.Hsapiens.v86)
+ensembl.id <- genes(EnsDb.Hsapiens.v86, 
+                    filter=list(GeneNameFilter(genes),GeneIdFilter("ENSG", "startsWith")),
+                    return.type="data.frame", columns=c("gene_id"))
+write.table(ensembl.id, file="hs.rnf43.gene.set.csv", sep=",", row.names = F, col.names = F, quote = F)
+ensembl.id
+
+ensembl.id$gene_id
+
+# Enrichment analysis
+mart <- useDataset("hsapiens_gene_ensembl", mart=useMart("ensembl"))
+all_ensembl_gene_id <- getBM(attributes = "ensembl_gene_id",
+                             values = "*", mart = mart)
+all <- factor(as.integer (all_ensembl_gene_id[,1] %in% ensembl.id$gene_id))
+names(all) <- all_ensembl_gene_id[,1]
+
+GOdata <- new("topGOdata", ontology="BP",
+              allGenes = all, geneSel=function(p) p == 1,
+              description = "P.not.NP", annot=annFUN.org, mapping="org.Hs.eg.db", ID="Ensembl")
+
+result.test <- runTest(GOdata, algorithm = "classic", statistic = "fisher")
+resultKS.test <- runTest(GOdata, algorithm = "classic", statistic = "ks")
+resultKS.elim.test <- runTest(GOdata, algorithm = "elim", statistic = "ks")
+
+allRes <- GenTable(GOdata, classicFisher = result.test, classicKS = resultKS.test, elimKS = resultKS.elim.test, orderBy = "elimKS", ranksOf="classicFisher", topNodes=20)
+
+allRes
+
+```

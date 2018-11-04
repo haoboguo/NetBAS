@@ -1,0 +1,98 @@
+GO.ID	GO.Term	Z-score
+GO:0044331	cell-cell adhesion mediated by cadherin	3.01
+GO:0000186	activation of MAPKK activity	3.014
+GO:0034614	cellular response to reactive oxygen species	3.029
+GO:0035116	embryonic hindlimb morphogenesis	3.068
+GO:0060348	bone development	3.069
+GO:0007059	chromosome segregation	3.078
+GO:0030301	cholesterol transport	3.083
+GO:0017156	calcium ion regulated exocytosis	3.103
+GO:0050807	regulation of synapse organization	3.117
+GO:0007420	brain development	3.122
+GO:0071277	cellular response to calcium ion	3.128
+GO:0060349	bone morphogenesis	3.129
+GO:0045892	negative regulation of transcription, DNA-templated	3.131
+GO:0042472	inner ear morphogenesis	3.16
+GO:0006338	chromatin remodeling	3.182
+GO:0007623	circadian rhythm	3.214
+GO:0030522	intracellular receptor signaling pathway	3.285
+GO:0001658	branching involved in ureteric bud morphogenesis	3.303
+GO:0006898	receptor-mediated endocytosis	3.315
+GO:0006986	response to unfolded protein	3.37
+GO:0045599	negative regulation of fat cell differentiation	3.385
+GO:0050873	brown fat cell differentiation	3.388
+GO:0034446	substrate adhesion-dependent cell spreading	3.396
+GO:0030324	lung development	3.42
+GO:0042026	protein refolding	3.451
+GO:0007155	cell adhesion	3.458
+GO:0010389	regulation of G2/M transition of mitotic cell cycle	3.482
+GO:0043401	steroid hormone mediated signaling pathway	3.484
+GO:0042730	fibrinolysis	3.494
+GO:0060384	innervation	3.499
+GO:0051591	response to cAMP	3.514
+GO:0006418	tRNA aminoacylation for protein translation	3.553
+GO:0007052	mitotic spindle organization	3.565
+GO:0050767	regulation of neurogenesis	3.575
+GO:0030521	androgen receptor signaling pathway	3.598
+GO:0034605	cellular response to heat	3.604
+GO:0006953	acute-phase response	3.605
+GO:0007018	microtubule-based movement	3.613
+GO:0048146	positive regulation of fibroblast proliferation	3.619
+GO:0002576	platelet degranulation	3.638
+GO:0022008	neurogenesis	3.669
+GO:1901673	regulation of mitotic spindle assembly	3.689
+GO:0001934	positive regulation of protein phosphorylation	3.7
+GO:0030514	negative regulation of BMP signaling pathway	3.733
+GO:0007223	Wnt signaling pathway, calcium modulating pathway	3.739
+GO:0006812	cation transport	3.747
+GO:0001843	neural tube closure	3.75
+GO:0030879	mammary gland development	3.793
+GO:0043547	positive regulation of GTPase activity	3.797
+GO:0016192	vesicle-mediated transport	3.803
+GO:0008203	cholesterol metabolic process	3.823
+GO:0003341	cilium movement	3.843
+GO:0042632	cholesterol homeostasis	3.843
+GO:0051085	chaperone cofactor-dependent protein refolding	3.995
+GO:0048706	embryonic skeletal system development	4.011
+GO:0001523	retinoid metabolic process	4.038
+GO:1900034	regulation of cellular response to heat	4.059
+GO:0046718	viral entry into host cell	4.109
+GO:0033627	cell adhesion mediated by integrin	4.187
+GO:0006508	proteolysis	4.199
+GO:0031122	cytoplasmic microtubule organization	4.218
+GO:0007224	smoothened signaling pathway	4.234
+GO:0045669	positive regulation of osteoblast differentiation	4.286
+GO:0034620	cellular response to unfolded protein	4.292
+GO:0006997	nucleus organization	4.297
+GO:0030198	extracellular matrix organization	4.333
+GO:0034613	cellular protein localization	4.536
+GO:0016079	synaptic vesicle exocytosis	4.55
+GO:0019216	regulation of lipid metabolic process	4.573
+GO:0030574	collagen catabolic process	4.585
+GO:0045600	positive regulation of fat cell differentiation	4.643
+GO:0030216	keratinocyte differentiation	4.703
+GO:0090263	positive regulation of canonical Wnt signaling pathway	4.769
+GO:0070268	cornification	4.836
+GO:0006629	lipid metabolic process	4.878
+GO:0006303	double-strand break repair via nonhomologous end joining	4.953
+GO:0036258	multivesicular body assembly	4.984
+GO:0016042	lipid catabolic process	5.043
+GO:0071300	cellular response to retinoic acid	5.086
+GO:0015721	bile acid and bile salt transport	5.111
+GO:0097711	ciliary basal body-plasma membrane docking	5.467
+GO:0008202	steroid metabolic process	5.555
+GO:0061024	membrane organization	6.017
+GO:0022617	extracellular matrix disassembly	6.113
+GO:0090103	cochlea morphogenesis	6.224
+GO:0060071	Wnt signaling pathway, planar cell polarity pathway	6.25
+GO:0045893	positive regulation of transcription, DNA-templated	6.703
+GO:0016055	Wnt signaling pathway	6.911
+GO:0090090	negative regulation of canonical Wnt signaling pathway	7.163
+GO:0039702	viral budding via host ESCRT complex	7.918
+GO:0048843	negative regulation of axon extension involved in axon guidance	8.259
+GO:0009235	cobalamin metabolic process	9.218
+GO:1904886	beta-catenin destruction complex disassembly	9.266
+GO:0030182	neuron differentiation	10.133
+GO:0045165	cell fate commitment	10.469
+GO:0035567	non-canonical Wnt signaling pathway	12.956
+GO:0060070	canonical Wnt signaling pathway	17.879

@@ -1,0 +1,56 @@
+GO.ID	GO.Term	Z-score
+GO:0005096	GTPase activator activity	3.017
+GO:0031210	phosphatidylcholine binding	3.118
+GO:0042626	ATPase activity, coupled to transmembrane movement of substances	3.13
+GO:0019899	enzyme binding	3.243
+GO:0046966	thyroid hormone receptor binding	3.244
+GO:0031072	heat shock protein binding	3.278
+GO:0001968	fibronectin binding	3.286
+GO:0005102	signaling receptor binding	3.338
+GO:0005267	potassium channel activity	3.385
+GO:0019904	protein domain specific binding	3.398
+GO:0008237	metallopeptidase activity	3.41
+GO:0004879	nuclear receptor activity	3.426
+GO:0008013	beta-catenin binding	3.441
+GO:0003714	transcription corepressor activity	3.448
+GO:0004222	metalloendopeptidase activity	3.472
+GO:0005484	SNAP receptor activity	3.478
+GO:0016887	ATPase activity	3.5
+GO:0001102	RNA polymerase II activating transcription factor binding	3.569
+GO:0008022	protein C-terminus binding	3.58
+GO:0003705	transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding	3.606
+GO:0003777	microtubule motor activity	3.629
+GO:0050681	androgen receptor binding	3.686
+GO:0005509	calcium ion binding	3.7
+GO:0030170	pyridoxal phosphate binding	3.838
+GO:0042623	ATPase activity, coupled	3.913
+GO:0001618	virus receptor activity	3.927
+GO:0001786	phosphatidylserine binding	3.932
+GO:0005125	cytokine activity	4.042
+GO:0004857	enzyme inhibitor activity	4.117
+GO:0017075	syntaxin-1 binding	4.209
+GO:0030276	clathrin binding	4.284
+GO:0030374	nuclear receptor transcription coactivator activity	4.32
+GO:0000149	SNARE binding	4.41
+GO:0004867	serine-type endopeptidase inhibitor activity	4.436
+GO:0051787	misfolded protein binding	4.459
+GO:0003707	steroid hormone receptor activity	4.522
+GO:0044183	protein binding involved in protein folding	4.619
+GO:0003713	transcription coactivator activity	4.624
+GO:0015301	anion:anion antiporter activity	4.723
+GO:0004252	serine-type endopeptidase activity	4.764
+GO:0016491	oxidoreductase activity	4.799
+GO:0008017	microtubule binding	4.823
+GO:0001540	amyloid-beta binding	4.909
+GO:0035257	nuclear hormone receptor binding	5.407
+GO:0016922	nuclear receptor binding	5.566
+GO:0005178	integrin binding	5.592
+GO:0042803	protein homodimerization activity	5.677
+GO:0019905	syntaxin binding	6.061
+GO:0005496	steroid binding	6.487
+GO:0001972	retinoic acid binding	10.525
+GO:0017147	Wnt-protein binding	12.912
+GO:0048018	receptor ligand activity	17.239
+GO:0005109	frizzled binding	21.91
+GO:0015020	glucuronosyltransferase activity	22.16
+GO:0008194	UDP-glycosyltransferase activity	24.135

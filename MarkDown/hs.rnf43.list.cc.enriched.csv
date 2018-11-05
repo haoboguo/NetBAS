@@ -1,0 +1,49 @@
+GO.ID	GO.Term	Z-score
+GO:0005783	endoplasmic reticulum	3.056
+GO:0005774	vacuolar membrane	3.064
+GO:0030176	integral component of endoplasmic reticulum membrane	3.102
+GO:0043202	lysosomal lumen	3.165
+GO:0071556	integral component of lumenal side of endoplasmic reticulum membrane	3.22
+GO:0098793	presynapse	3.282
+GO:0043005	neuron projection	3.344
+GO:1904115	axon cytoplasm	3.372
+GO:0005874	microtubule	3.402
+GO:0005770	late endosome	3.445
+GO:0062023	collagen-containing extracellular matrix	3.457
+GO:0070382	exocytic vesicle	3.503
+GO:0005604	basement membrane	3.562
+GO:0008021	synaptic vesicle	3.65
+GO:0005769	early endosome	3.66
+GO:0005905	clathrin-coated pit	3.699
+GO:0005814	centriole	3.701
+GO:0008305	integrin complex	3.736
+GO:0005771	multivesicular body	3.814
+GO:0032588	trans-Golgi network membrane	3.866
+GO:0005829	cytosol	3.907
+GO:0016342	catenin complex	3.911
+GO:0005615	extracellular space	3.966
+GO:0072562	blood microparticle	4.049
+GO:0048471	perinuclear region of cytoplasm	4.171
+GO:0005794	Golgi apparatus	4.176
+GO:0031901	early endosome membrane	4.251
+GO:0005576	extracellular region	4.257
+GO:0005871	kinesin complex	4.306
+GO:0030136	clathrin-coated vesicle	4.336
+GO:0030424	axon	4.393
+GO:0070062	extracellular exosome	4.506
+GO:0030672	synaptic vesicle membrane	4.722
+GO:0030658	transport vesicle membrane	4.752
+GO:0030669	clathrin-coated endocytic vesicle membrane	5.303
+GO:0005764	lysosome	5.318
+GO:0000777	condensed chromosome kinetochore	5.347
+GO:0030665	clathrin-coated vesicle membrane	5.466
+GO:0005765	lysosomal membrane	5.482
+GO:0031201	SNARE complex	5.621
+GO:0030666	endocytic vesicle membrane	5.729
+GO:0031012	extracellular matrix	6.184
+GO:0016592	mediator complex	6.349
+GO:0031902	late endosome membrane	6.58
+GO:0005796	Golgi lumen	6.611
+GO:0005788	endoplasmic reticulum lumen	6.702
+GO:0043231	intracellular membrane-bounded organelle	6.987
+GO:0009986	cell surface	7.158

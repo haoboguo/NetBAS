@@ -1,0 +1,177 @@
+---
+title: "NetBAS for tumor genes"
+author: "HBG"
+date: "11/4/2018"
+output: pdf_document
+---
+
+#This script perform GO enrichment using NetBAS
+#for 51 PDAC cell high BF genes
+
+```{r}
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.panc <- panc.file$panc.mean
+panc.np <- panc.file$nonpanc.mean
+quant <- quantile(panc.panc, probs = seq(0,1,1/20))
+quant.np <- quantile(panc.np, probs=seq(0,1,1/20))
+
+# top 10% BF genes (1718) in tumor cells
+panc.top10 <- panc.gene[which(panc.panc > quant[19])]
+length(panc.top10)
+
+# genes (8458) of 0% to 50% BF factors in normal cells
+np.bottom50 <- panc.gene[which(panc.np < quant.np[11])]
+length(np.bottom50)
+
+# the overlap genes between top 10% tumor and (0-50%) normal cells
+gene.list <- panc.gene[which(panc.top10 %in% np.bottom50)]
+length(gene.list)
+gene.list
+```
+
+```{r}
+## read the original network
+network <- read.csv("../Data/human.pin.csv", header=T, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+GOcategory.file <- read.csv("../Data/human.cc.term.csv",header=TRUE, stringsAsFactors=F)
+cc.go.cat <- GOcategory.file$GO.term
+cc.dim <- length(cc.go.cat)
+
+GOterm.file <- read.csv("../Data/human.cc.gene.term.csv", header=T, stringsAsFactors=F)
+cc.GO.gene <- GOterm.file$gene  #it should be changed to System for yeast pin
+cc.GO.term <- GOterm.file$GO.term
+
+vec <- numeric(length=cc.dim)
+
+for (i in 1:length(gene.list)) {
+    orf <- as.character(gene.list[i])
+    intA <- geneB[which(geneA %in% orf)]
+    for (j in 1:length(intA)) {
+        ccA <- cc.GO.term[which(cc.GO.gene %in% intA[j])]
+        for (k in 1:length(ccA)) {
+           na <- which(cc.go.cat %in% ccA[k])
+           vec[na] <- vec[na] + 1
+        }
+    }
+
+    intB <- geneA[which(geneB %in% orf)]
+    for (s in 1:length(intB)) {
+        ccB <- cc.GO.term[which(cc.GO.gene %in% intB[s])]
+        for (t in 1:length(ccB)) {
+           nb <- which(cc.go.cat %in% ccB[t])
+           vec[nb] <- vec[nb] + 1
+        }
+    }
+}
+
+write.table(vec, file="hs.rnf43.list.cc.txt", col.names=F, row.names=F, quote=F)
+```
+
+```{r}
+# Now the ms02star permutations
+for (p in 1:100) {
+permutation.file <- paste("../ms02star/human/", "ms02.", p, ".csv", sep="")
+permutation <- read.csv(permutation.file, header=T, stringsAsFactors = F)
+geneA <- permutation$id1
+geneB <- permutation$id2
+
+vecp <-  numeric(length = cc.dim)
+for (i in 1:length(gene.list)) {
+    orf <- as.character(gene.list[i])
+    intA <- geneB[which(geneA %in% orf)]
+    for (j in 1:length(intA)) {
+        ccA <- cc.GO.term[which(cc.GO.gene %in% intA[j])]
+        for (k in 1:length(ccA)) {
+           na <- which(cc.go.cat %in% ccA[k])
+           vecp[na] <- vecp[na] + 1
+        }
+    }
+
+    intB <- geneA[which(geneB %in% orf)]
+    for (s in 1:length(intB)) {
+        ccB <- cc.GO.term[which(cc.GO.gene %in% intB[s])]
+        for (t in 1:length(ccB)) {
+           nb <- which(cc.go.cat %in% ccB[t])
+           vecp[nb] <- vecp[nb] + 1
+        }
+    }
+}
+
+output <- paste("ms02.human", "/", "rnf43.list", "/", "ms02.", p, ".cc.matrix.csv", sep="")
+
+write.table(vecp, file = output, col.names=F, row.names=F, quote=F)
+}
+
+```
+
+```{r}
+library("microbenchmark")
+library("matrixStats")
+
+conn.dim <- 1
+
+hspin <- matrix(as.numeric(unlist(read.table("hs.rnf43.list.cc.txt", header=F, sep=","))), nrow=cc.dim, ncol=conn.dim)
+obs <- c(hspin)
+
+perm <- c()
+for (i in 1:100) {
+    name <- paste("ms02.human", "/", "rnf43.list", "/", "ms02.", i, ".cc.matrix.csv", sep="")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=cc.dim, ncol=conn.dim)
+    perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs - mean)/std, 3)
+
+z <- matrix(zscore, nrow=cc.dim, ncol=conn.dim)
+
+write.table(z, file="hs.rnf43.list.cc.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+```
+
+```{r}
+library('gplots')
+library('GO.db')
+
+order <- order(z)
+cc.go.cat <- cc.go.cat[order]
+z <- z[order]
+
+z <- t(z)
+colnames(z) <- cc.go.cat
+
+enriched.list <- cc.go.cat[which(z >= 3)]
+enriched <- c("GO.ID", "GO.Term", "Z-score")
+for (i in 1:length(enriched.list)) {
+  term <- Term(GOID(as.character(enriched.list[i])))
+  enriched <- rbind(enriched, c(as.character(enriched.list[i]),term,
+                                z[which(cc.go.cat %in% enriched.list[i])]))
+}
+
+print(enriched)
+
+write.table(enriched, file="hs.rnf43.list.cc.enriched.csv", row.names=F, col.names=F, quote=F, sep="\t")
+
+###No suppressed terms have been found
+#sup.list <- cc.go.cat[which(z <= -3)]
+#sup <- c("GO.ID", "GO.Term", "Z-score")
+#for (i in 1:length(sup.list)) {
+#  term <- Term(GOID(as.character(sup.list[i])))
+#  sup <- rbind(sup, c(as.character(sup.list[i]),term,
+#               z[which(cc.go.cat %in% sup.list[i])]))
+#}
+
+#print(sup)
+
+#write.table(sup, file="human.pdcd1.cc.suppressed.csv", row.names=F, col.names=F, quote=F, sep="\t")
+###
+
+#Note that there may be "inf" Z-scores owing to lack of sampling (i.e., zero in standard deviations)
+#We can also extract the GO-terms for the gene for comparison
+
+```
+

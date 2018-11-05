@@ -1,78 +1,17 @@
 GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0001892	embryonic placenta development	-3.737	-4.385	5.34
-GO:0006099	tricarboxylic acid cycle	13.279	10.205	6.085
-GO:0006629	lipid metabolic process	-8.63	-11.448	5.16
 GO:0006886	intracellular protein transport	-5.797	-12.979	9.586
 GO:0006888	ER to Golgi vesicle-mediated transport	0.447	-5.762	10.926
 GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	5.891	1.758	8.685
-GO:0006891	intra-Golgi vesicle-mediated transport	2.799	0.137	6.315
-GO:0006897	endocytosis	-22.059	-24.493	6.103
-GO:0006986	response to unfolded protein	12.104	10.536	7.843
-GO:0007005	mitochondrion organization	1.064	-1.279	6.726
-GO:0007030	Golgi organization	3.117	-0.006	5.662
-GO:0007411	axon guidance	-23.115	-24.623	5.243
-GO:0007568	aging	-4.834	-6.943	5.078
-GO:0007623	circadian rhythm	2.215	1.863	6.318
-GO:0008202	steroid metabolic process	-5.911	-6.765	5.298
 GO:0008286	insulin receptor signaling pathway	-4	-9.397	11.969
-GO:0009408	response to heat	6.423	4.803	5.007
-GO:0009755	hormone-mediated signaling pathway	-12.518	-13.146	6.035
-GO:0010628	positive regulation of gene expression	-6.513	-7.699	7.425
-GO:0010718	positive regulation of epithelial to mesenchymal transition	-9.127	-10.561	6.344
-GO:0010906	regulation of glucose metabolic process	-1.066	-2.308	6.071
 GO:0015031	protein transport	-4.142	-8.97	10.599
 GO:0015721	bile acid and bile salt transport	-0.11	-0.828	8.931
 GO:0015991	ATP hydrolysis coupled proton transport	6.554	2.113	8.124
-GO:0016192	vesicle-mediated transport	4.109	0.105	6.026
 GO:0016241	regulation of macroautophagy	3.269	-1.876	8.35
 GO:0019216	regulation of lipid metabolic process	-8.752	-11.681	8.712
-GO:0019886	antigen processing and presentation of exogenous peptide antigen via MHC class II	-3.916	-7.812	7.511
-GO:0030182	neuron differentiation	-2.41	-4.362	5.489
-GO:0030216	keratinocyte differentiation	-8.678	-10.3	5.817
-GO:0030521	androgen receptor signaling pathway	-1.831	-1.435	6.25
-GO:0030522	intracellular receptor signaling pathway	-4.464	-6.244	6.099
-GO:0032007	negative regulation of TOR signaling	-5.061	-7.337	5.109
-GO:0032008	positive regulation of TOR signaling	3.171	-1.486	6.338
-GO:0032526	response to retinoic acid	-6.807	-9.567	5.534
-GO:0033572	transferrin transport	5.408	0.851	7.969
 GO:0034220	ion transmembrane transport	-4.452	-9.392	9.001
-GO:0034614	cellular response to reactive oxygen species	-4.406	-7.034	5.005
-GO:0034620	cellular response to unfolded protein	13.712	11.881	7.435
-GO:0035116	embryonic hindlimb morphogenesis	-5.599	-6.037	5.197
-GO:0035556	intracellular signal transduction	-21.99	-23.086	6.969
-GO:0035567	non-canonical Wnt signaling pathway	-6.001	-8.781	6.302
-GO:0039702	viral budding via host ESCRT complex	0.172	-0.008	5.363
-GO:0042026	protein refolding	13.97	11.975	7.06
-GO:0042147	retrograde transport, endosome to Golgi	-2.8	-5.906	5.734
-GO:0042407	cristae formation	-4.115	-5.801	5.082
-GO:0042632	cholesterol homeostasis	-8.123	-11.269	5.024
-GO:0043066	negative regulation of apoptotic process	-5.518	-6.714	5.883
-GO:0043154	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	-7.962	-9.372	5.164
-GO:0043312	neutrophil degranulation	3.505	0.389	6.718
 GO:0043401	steroid hormone mediated signaling pathway	-5.947	-7.538	8.016
-GO:0043524	negative regulation of neuron apoptotic process	-6.514	-8.333	5.717
-GO:0043547	positive regulation of GTPase activity	-14.937	-20.518	6.022
 GO:0045165	cell fate commitment	-7.727	-9.86	9.338
-GO:0045600	positive regulation of fat cell differentiation	-5.972	-8.827	5.009
-GO:0045669	positive regulation of osteoblast differentiation	-8.566	-10.341	5.196
-GO:0045892	negative regulation of transcription, DNA-templated	-12.017	-10.634	5.571
 GO:0045893	positive regulation of transcription, DNA-templated	-11.599	-11.275	9.389
-GO:0045944	positive regulation of transcription by RNA polymerase II	-5.972	-4.889	7.805
-GO:0046034	ATP metabolic process	11.101	10.325	5.521
-GO:0048167	regulation of synaptic plasticity	-9.24	-10.642	5.525
-GO:0048208	COPII vesicle coating	2.219	-3.349	6.983
-GO:0048589	developmental growth	-7.837	-8.903	5.017
-GO:0050767	regulation of neurogenesis	-6.482	-7.004	6.041
-GO:0050790	regulation of catalytic activity	-0.171	-1.489	5.342
-GO:0050821	protein stabilization	4.114	2.46	5.504
-GO:0051085	chaperone cofactor-dependent protein refolding	14.031	12.581	7.574
-GO:0060021	roof of mouth development	-5.453	-7.336	5.482
 GO:0060070	canonical Wnt signaling pathway	-8.112	-11.894	11.8
 GO:0061024	membrane organization	-6.643	-9.363	8.481
-GO:0071773	cellular response to BMP stimulus	-8.76	-9.21	5.011
-GO:0090090	negative regulation of canonical Wnt signaling pathway	-7.665	-9.836	7.306
-GO:0090263	positive regulation of canonical Wnt signaling pathway	-3.1	-4.759	6.628
-GO:0120162	positive regulation of cold-induced thermogenesis	-13.806	-15.767	5.867
-GO:1901998	toxin transport	9.632	5.991	5.577
 GO:1904837	beta-catenin-TCF complex assembly	-0.481	-1.023	8.535
-GO:1904886	beta-catenin destruction complex disassembly	-3.366	-6.601	7.25

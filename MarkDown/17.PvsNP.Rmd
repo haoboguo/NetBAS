@@ -1,0 +1,163 @@
+---
+title: "P vs NP, differential measurement"
+author: "HBG"
+date: "11/5/2018"
+output: pdf_document
+---
+#This script use the differential measure (z-score) between tumor/non-tumor cells
+#
+```{r}
+### this block perform z-score calculations
+library("microbenchmark")
+library("matrixStats")
+
+## the GO terms for biological processes (BP)
+GOcategory.file <- read.csv("../Data/human.bp.term.csv",header=TRUE, stringsAsFactors=F)
+bp.go.cat <- GOcategory.file$GO.term
+bp.dim <- length(bp.go.cat)
+conn.dim <- 20
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.PvNP.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+obs <- c(hspin)
+
+perm <- c()
+for (i in 1:100) {
+    name <- paste("ms02.human", "/", "rnf43.PvNP", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+    perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs - mean)/std, 3)
+
+z.pvnp <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+
+#write.table(z, file="human.rnf43.PvNP.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+```
+
+```{r}
+library('gplots')
+z.pvnp <- t(z.pvnp)
+
+rownames(z.pvnp) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+                 "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
+
+colnames(z.pvnp) <- bp.go.cat
+
+colors = c(seq(min(z.pvnp),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z.pvnp),length=100))
+my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
+
+png(filename = "17.PvsNP.z.hm.png",width=6, height=5.5, res=1200, unit="in")
+heatmap.2(z.pvnp, col=my_palette, breaks=colors, dendrogram='none', Rowv=F, Colv=F,
+          trace='none', offsetRow = 0, offsetCol = 0,
+          xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
+          margins = c(2,3.5), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
+          revC = T,
+          labCol = NA, #labRow =,
+          #srtCol=45, adjCol=c(1,0),
+          #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
+          scale="none", symbreaks=T, symm=F, symkey = F)
+dev.off()
+
+```
+
+```{r}
+#correlations to quantile 20 (95%-100%) genes
+y.val <- c()
+for (i in 1:20) {
+  y.val2 <- c()
+  for (j in 1:20) {
+     cor.val <- cor.test(z.pvnp[j,], z.pvnp[i,])
+     y.val2 <- rbind(y.val2, cor.val$estimate)
+  }
+  y.val <- cbind(y.val, y.val2)
+}
+
+rownames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+                   "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
+colnames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+                   "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
+my_palette2 <- colorRampPalette(c("blue2", "white", "red2"))(9)
+png(filename = "17.PvsNP.z.hm.cor.matrix.png",width=6, height=5.5, res=1200, unit="in")
+heatmap.2(y.val, col=my_palette2, dendrogram='none', Rowv=F, Colv=F,
+          trace='none', offsetRow = 0, offsetCol = 0,
+          xlab="Quantiles of Bayes Factors", ylab="Quantiles of Bayes Factors",
+          margins = c(3.5,3.5), key.title = "Color Bar", key.xlab="Pearson Correlation", key.ylab=NA,
+          revC = T,
+          #labCol = NA, #labRow =,
+          #srtCol=45, adjCol=c(1,0),
+          #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
+          scale="none", symbreaks=T, symm=F, symkey = F)
+dev.off()
+
+```
+
+```{r}
+library(GO.db)
+
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+obs <- c(hspin)
+
+perm <- c()
+for (i in 1:100) {
+    name <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+    perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs - mean)/std, 3)
+
+z.p <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+z.p <- t(z.p)
+
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.NP.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+obs <- c(hspin)
+
+perm <- c()
+for (i in 1:100) {
+    name <- paste("ms02.human", "/", "rnf43.NP", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+    perm <- rbind(perm, c(mat))
+}
+
+mean <- colMeans(perm)
+std <- colSds(perm)
+
+zscore <- round((obs - mean)/std, 3)
+
+z.np <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+z.np <- t(z.np)
+
+enrich <- names(z.pvnp[20, which(z.pvnp[20,] > 5)])
+suppress <- names(z.pvnp[20, which(z.pvnp[20,] < -5)])
+enriched.terms <- c("GO.ID", "GO.Term", "Z.Tumor", "Z.Normal", "Z.Differential")
+for (i in 1:length(enrich)) {
+  id <- as.character(enrich[i])
+  term <- Term(GOID(id))
+  seri <- which(bp.go.cat %in% id)
+  z.tumor <- z.p[20,seri]
+  z.normal <- z.np[20,seri]
+  z.diff <- z.pvnp[20,seri]
+  enriched.terms <- rbind(enriched.terms, c(id, term, z.tumor, z.normal, z.diff))
+}
+enriched.terms
+write.table(enriched.terms, file="17.PvNP.bp.enriched.csv", sep="\t", col.names = F, row.names = F, quote=F)
+
+suppressed.terms <- c("GO.ID", "GO.Term", "Z.Tumor", "Z.Normal", "Z.Differential")
+for (i in 1:length(suppress)) {
+  id <- as.character(suppress[i])
+  term <- Term(GOID(id))
+  seri <- which(bp.go.cat %in% id)
+  z.tumor <- z.p[20,seri]
+  z.normal <- z.np[20,seri]
+  z.diff <- z.pvnp[20,seri]
+  suppressed.terms <- rbind(suppressed.terms, c(id, term, z.tumor, z.normal, z.diff))
+}
+suppressed.terms
+write.table(suppressed.terms, file="17.PvNP.bp.suppressed.csv", sep="\t", col.names = F, row.names = F, quote=F)
+  
+```

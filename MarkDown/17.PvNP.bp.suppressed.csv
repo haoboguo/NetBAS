@@ -1,0 +1,51 @@
+GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
+GO:0000027	ribosomal large subunit assembly	13.287	16.114	-5.365
+GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	14.405	16.471	-11.518
+GO:0000209	protein polyubiquitination	-6.78	-7.066	-5.401
+GO:0000245	spliceosomal complex assembly	21.839	26.653	-9.467
+GO:0000375	RNA splicing, via transesterification reactions	26.615	33.108	-8.647
+GO:0000381	regulation of alternative mRNA splicing, via spliceosome	25.057	30.565	-8.374
+GO:0000387	spliceosomal snRNP assembly	18.96	23.072	-5.126
+GO:0000398	mRNA splicing, via spliceosome	37.487	45.921	-25.573
+GO:0001580	detection of chemical stimulus involved in sensory perception of bitter taste	-27.582	-29.217	-7.542
+GO:0002181	cytoplasmic translation	8.629	10.215	-7.447
+GO:0006120	mitochondrial electron transport, NADH to ubiquinone	-13.098	-10.687	-5.106
+GO:0006260	DNA replication	9.73	16.622	-5.107
+GO:0006283	transcription-coupled nucleotide-excision repair	11.987	16.613	-7.57
+GO:0006289	nucleotide-excision repair	9.465	16.451	-5.5
+GO:0006334	nucleosome assembly	18.342	21.541	-6.729
+GO:0006351	transcription, DNA-templated	-37.573	-35.083	-11.756
+GO:0006357	regulation of transcription by RNA polymerase II	-30.787	-29.925	-10.889
+GO:0006361	transcription initiation from RNA polymerase I promoter	22.082	29.988	-6.328
+GO:0006363	termination of RNA polymerase I transcription	23.35	31.403	-5.902
+GO:0006364	rRNA processing	29.684	33.13	-9.211
+GO:0006368	transcription elongation from RNA polymerase II promoter	30.011	36.357	-9.318
+GO:0006369	termination of RNA polymerase II transcription	28.085	36.305	-9.622
+GO:0006370	7-methylguanosine mRNA capping	26.45	33.574	-8.672
+GO:0006378	mRNA polyadenylation	14.883	18.587	-5.545
+GO:0006396	RNA processing	15.97	20.562	-5.283
+GO:0006397	mRNA processing	28.918	37.519	-7.663
+GO:0006405	RNA export from nucleus	27.319	34.43	-11.203
+GO:0006406	mRNA export from nucleus	28.886	35.153	-13.816
+GO:0006412	translation	14.239	15.477	-8.634
+GO:0006413	translational initiation	13.262	14.146	-8.171
+GO:0006614	SRP-dependent cotranslational protein targeting to membrane	11.217	13.523	-10.395
+GO:0006935	chemotaxis	-30.885	-32.112	-6.414
+GO:0006955	immune response	-48.758	-51.477	-6.419
+GO:0006956	complement activation	-15.614	-17.631	-5.348
+GO:0007186	G protein-coupled receptor signaling pathway	-48.543	-51.947	-9.709
+GO:0007193	adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway	-27.824	-28.016	-6.158
+GO:0007204	positive regulation of cytosolic calcium ion concentration	-30.432	-32.889	-5.332
+GO:0007218	neuropeptide signaling pathway	-33.1	-32.623	-6.346
+GO:0008380	RNA splicing	33.127	40.361	-11.357
+GO:0008543	fibroblast growth factor receptor signaling pathway	15.963	21.579	-7.842
+GO:0016070	RNA metabolic process	27.901	33.063	-10.41
+GO:0031124	mRNA 3'-end processing	31.361	40.541	-15.223
+GO:0032981	mitochondrial respiratory chain complex I assembly	-16.535	-13.475	-6.645
+GO:0042795	snRNA transcription by RNA polymerase II	29.993	35.388	-6.399
+GO:0045292	mRNA cis splicing, via spliceosome	29.927	34.609	-7.641
+GO:0048025	negative regulation of mRNA splicing, via spliceosome	18.683	22.421	-5.378
+GO:0050911	detection of chemical stimulus involved in sensory perception of smell	-1.6	-1.562	-7.886
+GO:0060326	cell chemotaxis	-23.615	-24.658	-5.66
+GO:0060964	regulation of gene silencing by miRNA	22.784	26.988	-7.021
+GO:0070098	chemokine-mediated signaling pathway	-28.562	-32.092	-7.429

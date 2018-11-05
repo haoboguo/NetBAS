@@ -49,16 +49,47 @@ colors = c(seq(min(z),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z)
 #colors = c(seq(min(z), max(z), length=300))
 my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
 
-png(filename = "09.rnf43.bp.hm.new.png",width=6, height=5.5, res=1200, unit="in")
-heatmap.2(z, col=my_palette, breaks=colors, Rowv=F, Colv=F,
+#png(filename = "09.rnf43.bp.hm.new.png",width=6, height=5.5, res=1200, unit="in")
+heatmap.2(z, col=my_palette, breaks=colors, dendrogram='none', Rowv=F, Colv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
-          xlab="Biological Process Terms", ylab="Quantiles of Bayesian Factors",
+          xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(2,3.5), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
           revC = T,
           labCol = NA, #labRow =,
           #srtCol=45, adjCol=c(1,0),
           #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
-          scale="none", dendrogram = "col", symbreaks=T, symm=F, symkey = F)
-dev.off()
+          scale="none", symbreaks=T, symm=F, symkey = F)
+#dev.off()
+
+```
+
+```{r}
+#correlations to quantile 20 (95%-100%) genes
+y.val <- c()
+for (i in 1:20) {
+  y.val2 <- c()
+  for (j in 1:20) {
+     cor.val <- cor.test(z[j,], z[i,])
+     y.val2 <- rbind(y.val2, cor.val$estimate)
+  }
+  y.val <- cbind(y.val, y.val2)
+}
+
+rownames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+                   "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
+colnames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+                   "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
+my_palette2 <- colorRampPalette(c("blue2", "white", "red2"))(9)
+#png(filename = "09.rnf43.tumor.bp.cor.matrix.png",width=6, height=5.5, res=1200, unit="in")
+heatmap.2(y.val, col=my_palette2, dendrogram='none', Rowv=F, Colv=F,
+          trace='none', offsetRow = 0, offsetCol = 0,
+          xlab="Quantiles of Bayes Factors", ylab="Quantiles of Bayes Factors",
+          margins = c(3.5,3.5), key.title = "Color Bar", key.xlab="Pearson Correlation", key.ylab=NA,
+          revC = T,
+          #labCol = NA, #labRow =,
+          #srtCol=45, adjCol=c(1,0),
+          #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
+          scale="none", symbreaks=T, symm=F, symkey = F)
+#dev.off()
 
 ```

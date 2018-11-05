@@ -4,7 +4,7 @@ author: "hguo"
 date: "November 5, 2018"
 output: pdf_document
 ---
-# Heatmap for BP terms
+# Heatmap for BP terms, Non-PDAC cells
 
 ```{r}
 ### this block perform z-score calculations
@@ -16,12 +16,12 @@ GOcategory.file <- read.csv("../Data/human.bp.term.csv",header=TRUE, stringsAsFa
 bp.go.cat <- GOcategory.file$GO.term
 bp.dim <- length(bp.go.cat)
 conn.dim <- 20
-hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.all.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
+hspin <- matrix(as.numeric(unlist(read.table("human.rnf43.NP.bp.txt", header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
 obs <- c(hspin)
 
 perm <- c()
 for (i in 1:100) {
-    name <- paste("ms02.human", "/", "rnf43.heatmap", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    name <- paste("ms02.human", "/", "rnf43.NP", "/", "ms02.", i, ".bp.matrix.csv", sep="")
     mat <- matrix(as.numeric(unlist(read.table(name, header=F, sep=","))), nrow=bp.dim, ncol=conn.dim)
     perm <- rbind(perm, c(mat))
 }
@@ -31,25 +31,25 @@ std <- colSds(perm)
 
 zscore <- round((obs - mean)/std, 3)
 
-z.p <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
+z.np <- matrix(zscore, nrow=bp.dim, ncol=conn.dim)
 
-write.table(z.p, file="human.rnf43.all.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
+#write.table(z, file="human.rnf43.all.bp.z.csv", sep=",", row.names=F, col.names=F, quote=F)
 ```
 
 ```{r}
 library('gplots')
-z.p <- t(z.p)
+z.np <- t(z.np)
 
-rownames(z.p) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
+rownames(z.np) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
                  "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
 
-colnames(z.p) <- bp.go.cat
+colnames(z.np) <- bp.go.cat
 
-colors = c(seq(min(z.p),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z.p),length=100))
+colors = c(seq(min(z.np),-10.1,length=100),seq(-9.9,9.9,length=100),seq(10.1,max(z.np),length=100))
 my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 299)
 
-png(filename = "09.rnf43.P.bp.hm.new.png",width=6, height=5.5, res=1200, unit="in")
-heatmap.2(z.p, col=my_palette, breaks=colors, dendrogram='none', Rowv=F, Colv=F,
+png(filename = "11.rnf43.NP.bp.hm.new.png",width=6, height=5.5, res=1200, unit="in")
+heatmap.2(z.np, col=my_palette, breaks=colors, dendrogram='none', Rowv=F, Colv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(2,3.5), key.title = "Color Bar", key.xlab="Z-score", key.ylab=NA,
@@ -58,7 +58,7 @@ heatmap.2(z.p, col=my_palette, breaks=colors, dendrogram='none', Rowv=F, Colv=F,
           #srtCol=45, adjCol=c(1,0),
           #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
           scale="none", symbreaks=T, symm=F, symkey = F)
-dev.off()
+#ev.off()
 
 ```
 
@@ -68,7 +68,7 @@ y.val <- c()
 for (i in 1:20) {
   y.val2 <- c()
   for (j in 1:20) {
-     cor.val <- cor.test(z.p[j,], z.p[i,])
+     cor.val <- cor.test(z.np[j,], z.np[i,])
      y.val2 <- rbind(y.val2, cor.val$estimate)
   }
   y.val <- cbind(y.val, y.val2)
@@ -79,7 +79,7 @@ rownames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
 colnames(y.val) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
                    "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
 my_palette2 <- colorRampPalette(c("blue2", "white", "red2"))(9)
-png(filename = "09.rnf43.P.bp.cor.matrix.png",width=6, height=5.5, res=1200, unit="in")
+png(filename = "11.rnf43.NP.bp.cor.matrix.png",width=6, height=5.5, res=1200, unit="in")
 heatmap.2(y.val, col=my_palette2, dendrogram='none', Rowv=F, Colv=F,
           trace='none', offsetRow = 0, offsetCol = 0,
           xlab="Quantiles of Bayes Factors", ylab="Quantiles of Bayes Factors",

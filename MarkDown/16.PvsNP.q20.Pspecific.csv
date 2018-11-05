@@ -1,0 +1,16 @@
+GO.ID	GO.Term	Z.Tumor	Z.Normal
+GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	5.891	1.758
+GO:0007030	Golgi organization	3.117	-0.006
+GO:0008652	cellular amino acid biosynthetic process	5.154	2.853
+GO:0010043	response to zinc ion	3.025	1.649
+GO:0015991	ATP hydrolysis coupled proton transport	6.554	2.113
+GO:0016192	vesicle-mediated transport	4.109	0.105
+GO:0016241	regulation of macroautophagy	3.269	-1.876
+GO:0032008	positive regulation of TOR signaling	3.171	-1.486
+GO:0032781	positive regulation of ATPase activity	3.029	1.821
+GO:0033572	transferrin transport	5.408	0.851
+GO:0043312	neutrophil degranulation	3.505	0.389
+GO:0045454	cell redox homeostasis	3.64	2.443
+GO:0045540	regulation of cholesterol biosynthetic process	3.114	1.565
+GO:0045648	positive regulation of erythrocyte differentiation	4.026	2.486
+GO:0050821	protein stabilization	4.114	2.46

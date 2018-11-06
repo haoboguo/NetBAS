@@ -210,22 +210,29 @@ heatmap.2(np.neg, col=my_palette, dendrogram='none',
 
 # Differential z-scores
 pvnp.pos <- z.pvnp[, which(z.pvnp[20,] > 8)]
+png(filename = "17.PvsNP.z.enriched.png",width=5.5, height=5.5, res=1200, unit="in")
 heatmap.2(pvnp.pos, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
-          xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
-          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          xlab="Biological Process Terms", ylab="Quantiles of Differential Fitness Score",
+          margins = c(4.5,3), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
-          srtCol=45, adjCol=c(1,0),
-          main="Tumor vs normal cells, Enriched")
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.5,0),
+          #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
+          cexRow = 0.8, cexCol=0.8, sepwidth = c(0,0),
+          main="Top 5% Enriched")
+dev.off()
 
 pvnp.neg <- z.pvnp[, which(z.pvnp[20,] < -8)]
-
+png(filename = "17.PvsNP.z.suppressed.png",width=5.5, height=5.5, res=1200, unit="in")
 heatmap.2(pvnp.neg, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol= pvnp.neg.ids,
-          xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
-          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          xlab="Biological Process Terms", ylab="Quantiles of Differential Fitness Score",
+          margins = c(4.5,3), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
-          srtCol=45, adjCol=c(1,0),
-          main="Tumor vs normal cells, suppressed")
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.5,0),
+          #lmat=rbind(c(0,3,4), c(2,1,0)), lwid=c(1.5,4,2),
+          cexRow = 0.8, cexCol=0.8, sepwidth = c(0,0),
+          main="Top 5% Suppressed")
+dev.off()
 
 ```

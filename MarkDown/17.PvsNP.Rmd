@@ -170,54 +170,61 @@ write.table(suppressed.terms, file="17.PvNP.bp.suppressed.csv", sep="\t", col.na
 
 ```{r}
 # PDAC cells
-p.pos <- z.p[, which(z.p[20,] > 8)]
+p.pos <- z.p[, which(z.p[20,] > 20)]
 heatmap.2(p.pos, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Tumor cells, top 5% enriched")
 
-p.neg <- z.p[, which(z.p[20,] < -8)]
+p.neg <- z.p[, which(z.p[20,] < -20)]
 heatmap.2(p.neg, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Tumor cells, top 5% suppressed")
 
 # Normal Cells
-np.pos <- z.np[, which(z.np[20,] > 8)]
+np.pos <- z.np[, which(z.np[20,] > 20)]
 heatmap.2(np.pos, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Normal cells, top 5% enriched")
 
-np.neg <- z.np[, which(z.np[20,] < -8)]
+np.neg <- z.np[, which(z.np[20,] < -20)]
 heatmap.2(np.neg, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Normal cells, top 5% suppressed")
 
 # Differential z-scores
 pvnp.pos <- z.pvnp[, which(z.pvnp[20,] > 8)]
 heatmap.2(pvnp.pos, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Tumor vs normal cells, Enriched")
 
 pvnp.neg <- z.pvnp[, which(z.pvnp[20,] < -8)]
+
 heatmap.2(pvnp.neg, col=my_palette, breaks=colors, dendrogram='none',
-          trace='none', Rowv=F, Colv=F, revC=T, labCol=NA,
+          trace='none', Rowv=F, Colv=F, revC=T, #labCol= pvnp.neg.ids,
           xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
-          margins = c(2,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
+          margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
           scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(1,0),
           main="Tumor vs normal cells, suppressed")
 
 ```

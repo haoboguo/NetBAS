@@ -170,8 +170,9 @@ write.table(suppressed.terms, file="17.PvNP.bp.suppressed.csv", sep="\t", col.na
 
 ```{r}
 # PDAC cells
+
 p.pos <- z.p[, which(z.p[20,] > 20)]
-heatmap.2(p.pos, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(p.pos, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
@@ -180,7 +181,7 @@ heatmap.2(p.pos, col=my_palette, breaks=colors, dendrogram='none',
           main="Tumor cells, top 5% enriched")
 
 p.neg <- z.p[, which(z.p[20,] < -20)]
-heatmap.2(p.neg, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(p.neg, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
@@ -190,7 +191,7 @@ heatmap.2(p.neg, col=my_palette, breaks=colors, dendrogram='none',
 
 # Normal Cells
 np.pos <- z.np[, which(z.np[20,] > 20)]
-heatmap.2(np.pos, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(np.pos, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
@@ -199,7 +200,7 @@ heatmap.2(np.pos, col=my_palette, breaks=colors, dendrogram='none',
           main="Normal cells, top 5% enriched")
 
 np.neg <- z.np[, which(z.np[20,] < -20)]
-heatmap.2(np.neg, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(np.neg, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="Quantiles of Bayes Factors",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
@@ -209,7 +210,7 @@ heatmap.2(np.neg, col=my_palette, breaks=colors, dendrogram='none',
 
 # Differential z-scores
 pvnp.pos <- z.pvnp[, which(z.pvnp[20,] > 8)]
-heatmap.2(pvnp.pos, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(pvnp.pos, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
           xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,
@@ -219,7 +220,7 @@ heatmap.2(pvnp.pos, col=my_palette, breaks=colors, dendrogram='none',
 
 pvnp.neg <- z.pvnp[, which(z.pvnp[20,] < -8)]
 
-heatmap.2(pvnp.neg, col=my_palette, breaks=colors, dendrogram='none',
+heatmap.2(pvnp.neg, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol= pvnp.neg.ids,
           xlab="Biological Process Terms", ylab="PDAC vs Normal Cells, Quantiles",
           margins = c(5.5,4), key.title = NA, key.xlab="Z-score", key.ylab=NA,

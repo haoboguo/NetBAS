@@ -1,27 +1,14 @@
-GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0000976	transcription regulatory region sequence-specific DNA binding	-10.496	-10.769	6.67
-GO:0003707	steroid hormone receptor activity	-2.685	-3.529	8.624
-GO:0003713	transcription coactivator activity	4.012	4.791	6.418
-GO:0004879	nuclear receptor activity	-5.428	-6.889	7.675
-GO:0005109	frizzled binding	-6.334	-10.659	8.94
-GO:0005200	structural constituent of cytoskeleton	9.182	7.254	7.072
-GO:0005515	protein binding	7.201	7.386	6.074
-GO:0005524	ATP binding	13.712	11.753	7.97
-GO:0008013	beta-catenin binding	-5.452	-7.614	9.152
-GO:0008134	transcription factor binding	-0.824	-0.281	7.298
-GO:0016887	ATPase activity	14.407	13.549	6.41
-GO:0016922	nuclear receptor binding	-3.152	-3.456	9.773
-GO:0017147	Wnt-protein binding	-6.508	-8.894	6.998
-GO:0030170	pyridoxal phosphate binding	10.237	8.839	7.487
-GO:0030374	nuclear receptor transcription coactivator activity	-1.263	-1.594	8.342
-GO:0031072	heat shock protein binding	11.68	9.375	6.522
-GO:0035091	phosphatidylinositol binding	-7.005	-9.21	6.58
-GO:0035257	nuclear hormone receptor binding	-0.45	1.351	6.305
-GO:0038023	signaling receptor activity	-14.121	-14.777	7.463
-GO:0042623	ATPase activity, coupled	12.423	11.089	7.178
-GO:0042803	protein homodimerization activity	-7.079	-10.514	7.04
-GO:0042826	histone deacetylase binding	0.727	0.692	6.628
-GO:0043565	sequence-specific DNA binding	-8.257	-6.897	7.441
-GO:0044183	protein binding involved in protein folding	14.134	12.15	7.225
-GO:0051082	unfolded protein binding	13.708	12.161	6.882
-GO:0051787	misfolded protein binding	13.137	11.791	7.341
+GO.ID	GO.Term	Z-score
+GO:0003707	steroid hormone receptor activity	8.624
+GO:0004879	nuclear receptor activity	7.675
+GO:0005109	frizzled binding	8.94
+GO:0005215	transporter activity	4.541
+GO:0016922	nuclear receptor binding	9.773
+GO:0017147	Wnt-protein binding	6.998
+GO:0022857	transmembrane transporter activity	5.23
+GO:0030170	pyridoxal phosphate binding	7.487
+GO:0035091	phosphatidylinositol binding	6.58
+GO:0035257	nuclear hormone receptor binding	6.305
+GO:0042277	peptide binding	4.521
+GO:0046966	thyroid hormone receptor binding	5.352
+GO:0048018	receptor ligand activity	5.971

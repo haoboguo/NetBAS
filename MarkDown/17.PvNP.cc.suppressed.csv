@@ -1,15 +1,8 @@
-GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0000786	nucleosome	18.719	23.206	-8.382
-GO:0005634	nucleus	10.064	12.872	-9.571
-GO:0005654	nucleoplasm	21.263	25.496	-9.859
-GO:0005681	spliceosomal complex	29.144	36.399	-13.789
-GO:0005689	U12-type spliceosomal complex	32.966	38.133	-8.462
-GO:0005730	nucleolus	23.233	27.507	-7.932
-GO:0005747	mitochondrial respiratory chain complex I	-15.082	-13	-6.015
-GO:0016607	nuclear speck	28.746	36.054	-9.765
-GO:0022625	cytosolic large ribosomal subunit	10.374	12.577	-10.601
-GO:0032040	small-subunit processome	24.675	28.227	-7.353
-GO:0035145	exon-exon junction complex	19.121	21.037	-7.153
-GO:0046540	U4/U6 x U5 tri-snRNP complex	25.584	31.464	-8.386
-GO:0071007	U2-type catalytic step 2 spliceosome	27.826	34.173	-10.893
-GO:0071013	catalytic step 2 spliceosome	31.781	40.57	-16.32
+GO.ID	GO.Term	Z.Differential
+GO:0005681	spliceosomal complex	-13.789
+GO:0005689	U12-type spliceosomal complex	-8.462
+GO:0019005	SCF ubiquitin ligase complex	-5.311
+GO:0035145	exon-exon junction complex	-7.153
+GO:0046540	U4/U6 x U5 tri-snRNP complex	-8.386
+GO:0071007	U2-type catalytic step 2 spliceosome	-10.893
+GO:0071013	catalytic step 2 spliceosome	-16.32

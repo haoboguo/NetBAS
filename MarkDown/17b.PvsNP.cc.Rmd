@@ -138,30 +138,47 @@ rownames(z.np) <- c("5%","10%","15%","20%","25%","30%","35%","40%","45%","50%",
                  "55%","60%","65%","70%","75%","80%","85%","90%","95%","100%")
 colnames(z.np) <- cc.go.cat
 
-enrich <- names(z.pvnp[20, which(z.pvnp[20,] > 6)])
-suppress <- names(z.pvnp[20, which(z.pvnp[20,] < -6)])
-enriched.terms <- c("GO.ID", "GO.Term", "Z.Tumor", "Z.Normal", "Z.Differential")
+enrich <- colnames(z.pvnp[, which(z.pvnp[20,] > 4 & z.pvnp[1,] < z.pvnp[20,]/2 & z.pvnp[2,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[3,] < z.pvnp[20,]/2 & z.pvnp[4,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[5,] < z.pvnp[20,]/2 & z.pvnp[6,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[7,] < z.pvnp[20,]/2 & z.pvnp[8,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[9,] < z.pvnp[20,]/2 & z.pvnp[10,] < z.pvnp[20,]/2 &
+                                  z.pvnp[11,] < z.pvnp[20,]-2 & z.pvnp[12,] < z.pvnp[20,]-2 &
+                                  z.pvnp[13,] < z.pvnp[20,]-2 & z.pvnp[14,] < z.pvnp[20,]-2 &
+                                  z.pvnp[15,] < z.pvnp[20,]-2 & z.pvnp[16,] < z.pvnp[20,]-2 & 
+                                  z.pvnp[17,] < z.pvnp[20,]-2 & z.pvnp[18,] < z.pvnp[20,]-2 )])
+suppress <- colnames(z.pvnp[, which(z.pvnp[20,] < -4 & z.pvnp[1,] > z.pvnp[20,]/2 & z.pvnp[2,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[3,] > z.pvnp[20,]/2 & z.pvnp[4,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[5,] > z.pvnp[20,]/2 & z.pvnp[6,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[7,] > z.pvnp[20,]/2 & z.pvnp[8,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[9,] > z.pvnp[20,]/2 & z.pvnp[10,] > z.pvnp[20,]/2 &
+                                  z.pvnp[11,] > z.pvnp[20,] & z.pvnp[12,] > z.pvnp[20,] &
+                                  z.pvnp[13,] > z.pvnp[20,] & z.pvnp[14,] > z.pvnp[20,] &
+                                  z.pvnp[15,] > z.pvnp[20,] & z.pvnp[16,] > z.pvnp[20,] & 
+                                  z.pvnp[17,] > z.pvnp[20,] & z.pvnp[18,] > z.pvnp[20,] )])
+
+enriched.terms <- c("GO.ID", "GO.Term", "Z-score")
 for (i in 1:length(enrich)) {
   id <- as.character(enrich[i])
   term <- Term(GOID(id))
   seri <- which(cc.go.cat %in% id)
-  z.tumor <- z.p[20,seri]
-  z.normal <- z.np[20,seri]
+  #z.tumor <- z.p[20,seri]
+  #z.normal <- z.np[20,seri]
   z.diff <- z.pvnp[20,seri]
-  enriched.terms <- rbind(enriched.terms, c(id, term, z.tumor, z.normal, z.diff))
+  enriched.terms <- rbind(enriched.terms, c(id, term, z.diff))
 }
 enriched.terms
 write.table(enriched.terms, file="17.PvNP.cc.enriched.csv", sep="\t", col.names = F, row.names = F, quote=F)
 
-suppressed.terms <- c("GO.ID", "GO.Term", "Z.Tumor", "Z.Normal", "Z.Differential")
+suppressed.terms <- c("GO.ID", "GO.Term", "Z.Differential")
 for (i in 1:length(suppress)) {
   id <- as.character(suppress[i])
   term <- Term(GOID(id))
   seri <- which(cc.go.cat %in% id)
-  z.tumor <- z.p[20,seri]
-  z.normal <- z.np[20,seri]
+  #z.tumor <- z.p[20,seri]
+  #z.normal <- z.np[20,seri]
   z.diff <- z.pvnp[20,seri]
-  suppressed.terms <- rbind(suppressed.terms, c(id, term, z.tumor, z.normal, z.diff))
+  suppressed.terms <- rbind(suppressed.terms, c(id, term, z.diff))
 }
 suppressed.terms
 write.table(suppressed.terms, file="17.PvNP.cc.suppressed.csv", sep="\t", col.names = F, row.names = F, quote=F)
@@ -213,7 +230,16 @@ heatmap.2(np.neg, col=my_palette, dendrogram='none',
           main="Top 5% suppressed")
 
 # Differential z-scores
-pvnp.pos <- z.pvnp[, which(z.pvnp[20,] > 6)]
+pvnp.pos <- z.pvnp[, which(z.pvnp[20,] > 4 & z.pvnp[1,] < z.pvnp[20,]/2 & z.pvnp[2,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[3,] < z.pvnp[20,]/2 & z.pvnp[4,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[5,] < z.pvnp[20,]/2 & z.pvnp[6,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[7,] < z.pvnp[20,]/2 & z.pvnp[8,] < z.pvnp[20,]/2 & 
+                                  z.pvnp[9,] < z.pvnp[20,]/2 & z.pvnp[10,] < z.pvnp[20,]/2 &
+                                  z.pvnp[11,] < z.pvnp[20,]-2 & z.pvnp[12,] < z.pvnp[20,]-2 &
+                                  z.pvnp[13,] < z.pvnp[20,]-2 & z.pvnp[14,] < z.pvnp[20,]-2 &
+                                  z.pvnp[15,] < z.pvnp[20,]-2 & z.pvnp[16,] < z.pvnp[20,]-2 & 
+                                  z.pvnp[17,] < z.pvnp[20,]-2 & z.pvnp[18,] < z.pvnp[20,]-2 )]
+
 png(filename = "17.PvsNP.z.cc.enriched.png",width=5.5, height=5.5, res=1200, unit="in")
 heatmap.2(pvnp.pos, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol=NA,
@@ -226,7 +252,15 @@ heatmap.2(pvnp.pos, col=my_palette, dendrogram='none',
           main="Top 5% Enriched")
 dev.off()
 
-pvnp.neg <- z.pvnp[, which(z.pvnp[20,] < -6)]
+pvnp.neg <- z.pvnp[, which(z.pvnp[20,] < -4 & z.pvnp[1,] > z.pvnp[20,]/2 & z.pvnp[2,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[3,] > z.pvnp[20,]/2 & z.pvnp[4,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[5,] > z.pvnp[20,]/2 & z.pvnp[6,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[7,] > z.pvnp[20,]/2 & z.pvnp[8,] > z.pvnp[20,]/2 & 
+                                  z.pvnp[9,] > z.pvnp[20,]/2 & z.pvnp[10,] > z.pvnp[20,]/2 &
+                                  z.pvnp[11,] > z.pvnp[20,] & z.pvnp[12,] > z.pvnp[20,] &
+                                  z.pvnp[13,] > z.pvnp[20,] & z.pvnp[14,] > z.pvnp[20,] &
+                                  z.pvnp[15,] > z.pvnp[20,] & z.pvnp[16,] > z.pvnp[20,] & 
+                                  z.pvnp[17,] > z.pvnp[20,] & z.pvnp[18,] > z.pvnp[20,] )]
 png(filename = "17.PvsNP.z.cc.suppressed.png",width=5.5, height=5.5, res=1200, unit="in")
 heatmap.2(pvnp.neg, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, revC=T, #labCol= pvnp.neg.ids,

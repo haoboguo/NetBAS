@@ -1,21 +1,11 @@
-GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	14.405	16.471	-11.518
-GO:0000245	spliceosomal complex assembly	21.839	26.653	-9.467
-GO:0000375	RNA splicing, via transesterification reactions	26.615	33.108	-8.647
-GO:0000381	regulation of alternative mRNA splicing, via spliceosome	25.057	30.565	-8.374
-GO:0000398	mRNA splicing, via spliceosome	37.487	45.921	-25.573
-GO:0006351	transcription, DNA-templated	-37.573	-35.083	-11.756
-GO:0006357	regulation of transcription by RNA polymerase II	-30.787	-29.925	-10.889
-GO:0006364	rRNA processing	29.684	33.13	-9.211
-GO:0006368	transcription elongation from RNA polymerase II promoter	30.011	36.357	-9.318
-GO:0006369	termination of RNA polymerase II transcription	28.085	36.305	-9.622
-GO:0006370	7-methylguanosine mRNA capping	26.45	33.574	-8.672
-GO:0006405	RNA export from nucleus	27.319	34.43	-11.203
-GO:0006406	mRNA export from nucleus	28.886	35.153	-13.816
-GO:0006412	translation	14.239	15.477	-8.634
-GO:0006413	translational initiation	13.262	14.146	-8.171
-GO:0006614	SRP-dependent cotranslational protein targeting to membrane	11.217	13.523	-10.395
-GO:0007186	G protein-coupled receptor signaling pathway	-48.543	-51.947	-9.709
-GO:0008380	RNA splicing	33.127	40.361	-11.357
-GO:0016070	RNA metabolic process	27.901	33.063	-10.41
-GO:0031124	mRNA 3'-end processing	31.361	40.541	-15.223
+GO.ID	GO.Term	Z-score
+GO:0000245	spliceosomal complex assembly	-9.467
+GO:0000375	RNA splicing, via transesterification reactions	-8.647
+GO:0000381	regulation of alternative mRNA splicing, via spliceosome	-8.374
+GO:0000398	mRNA splicing, via spliceosome	-25.573
+GO:0006369	termination of RNA polymerase II transcription	-9.622
+GO:0006405	RNA export from nucleus	-11.203
+GO:0006406	mRNA export from nucleus	-13.816
+GO:0008380	RNA splicing	-11.357
+GO:0016070	RNA metabolic process	-10.41
+GO:0031124	mRNA 3'-end processing	-15.223

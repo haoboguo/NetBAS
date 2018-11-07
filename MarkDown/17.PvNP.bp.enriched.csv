@@ -1,17 +1,19 @@
-GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0006886	intracellular protein transport	-5.797	-12.979	9.586
-GO:0006888	ER to Golgi vesicle-mediated transport	0.447	-5.762	10.926
-GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	5.891	1.758	8.685
-GO:0008286	insulin receptor signaling pathway	-4	-9.397	11.969
-GO:0015031	protein transport	-4.142	-8.97	10.599
-GO:0015721	bile acid and bile salt transport	-0.11	-0.828	8.931
-GO:0015991	ATP hydrolysis coupled proton transport	6.554	2.113	8.124
-GO:0016241	regulation of macroautophagy	3.269	-1.876	8.35
-GO:0019216	regulation of lipid metabolic process	-8.752	-11.681	8.712
-GO:0034220	ion transmembrane transport	-4.452	-9.392	9.001
-GO:0043401	steroid hormone mediated signaling pathway	-5.947	-7.538	8.016
-GO:0045165	cell fate commitment	-7.727	-9.86	9.338
-GO:0045893	positive regulation of transcription, DNA-templated	-11.599	-11.275	9.389
-GO:0060070	canonical Wnt signaling pathway	-8.112	-11.894	11.8
-GO:0061024	membrane organization	-6.643	-9.363	8.481
-GO:1904837	beta-catenin-TCF complex assembly	-0.481	-1.023	8.535
+GO.ID	GO.Term	Z-score
+GO:0007005	mitochondrion organization	6.726
+GO:0007623	circadian rhythm	6.318
+GO:0008286	insulin receptor signaling pathway	11.969
+GO:0010628	positive regulation of gene expression	7.425
+GO:0010906	regulation of glucose metabolic process	6.071
+GO:0015721	bile acid and bile salt transport	8.931
+GO:0015991	ATP hydrolysis coupled proton transport	8.124
+GO:0016241	regulation of macroautophagy	8.35
+GO:0019216	regulation of lipid metabolic process	8.712
+GO:0030522	intracellular receptor signaling pathway	6.099
+GO:0033572	transferrin transport	7.969
+GO:0034220	ion transmembrane transport	9.001
+GO:0043312	neutrophil degranulation	6.718
+GO:0043401	steroid hormone mediated signaling pathway	8.016
+GO:0045165	cell fate commitment	9.338
+GO:0060070	canonical Wnt signaling pathway	11.8
+GO:0090263	positive regulation of canonical Wnt signaling pathway	6.628
+GO:1904837	beta-catenin-TCF complex assembly	8.535

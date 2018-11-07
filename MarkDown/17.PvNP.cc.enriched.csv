@@ -1,30 +1,7 @@
-GO.ID	GO.Term	Z.Tumor	Z.Normal	Z.Differential
-GO:0000139	Golgi membrane	-14.265	-23.403	11.699
-GO:0005737	cytoplasm	6.207	4.092	9.82
-GO:0005739	mitochondrion	6.517	1.516	10.203
-GO:0005759	mitochondrial matrix	15.821	11.732	9.948
-GO:0005764	lysosome	-6.183	-11.099	6.577
-GO:0005765	lysosomal membrane	-7.772	-15.565	8.468
-GO:0005768	endosome	-21.898	-26.385	6.16
-GO:0005769	early endosome	-12.005	-16.251	6.326
-GO:0005783	endoplasmic reticulum	-3.663	-7.957	6.185
-GO:0005789	endoplasmic reticulum membrane	-9.979	-17.516	7.021
-GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	2.955	0.044	6.012
-GO:0005794	Golgi apparatus	-12.446	-19.298	9.441
-GO:0005829	cytosol	8.743	7.025	8.538
-GO:0005886	plasma membrane	-77.394	-84.241	8.98
-GO:0009986	cell surface	-23.069	-30.175	8.194
-GO:0016323	basolateral plasma membrane	-17.627	-21.803	6.014
-GO:0016324	apical plasma membrane	-15.761	-19.546	7.656
-GO:0016592	mediator complex	5.811	4.421	8.556
-GO:0017053	transcriptional repressor complex	-3.379	-3.46	6.164
-GO:0030054	cell junction	-18.351	-22.504	6.211
-GO:0030133	transport vesicle	-0.236	-4.895	7.434
-GO:0030136	clathrin-coated vesicle	-6.494	-11.462	6.661
-GO:0030665	clathrin-coated vesicle membrane	-13.736	-19.735	7.434
-GO:0032588	trans-Golgi network membrane	-11.6	-15.586	6.449
-GO:0032991	protein-containing complex	1.776	1.789	6.039
-GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membrane	1.736	-3.855	6.365
-GO:0043209	myelin sheath	5.779	4.036	7.877
-GO:0043235	receptor complex	-26.151	-28.026	6.413
-GO:0070062	extracellular exosome	8.067	5.819	8.198
+GO.ID	GO.Term	Z-score
+GO:0005739	mitochondrion	10.203
+GO:0005765	lysosomal membrane	8.468
+GO:0016324	apical plasma membrane	7.656
+GO:0016592	mediator complex	8.556
+GO:0042645	mitochondrial nucleoid	4.282
+GO:0043209	myelin sheath	7.877

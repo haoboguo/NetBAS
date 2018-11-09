@@ -1,0 +1,29 @@
+GO.ID	GO.Term	Z-score	Background
+GO:0032588	trans-Golgi network membrane	5.036	3.408
+GO:0005783	endoplasmic reticulum	5.147	-4.128
+GO:0005788	endoplasmic reticulum lumen	5.181	4.057
+GO:0030666	endocytic vesicle membrane	5.212	0.718
+GO:0005925	focal adhesion	5.32	-2.869
+GO:0017053	transcriptional repressor complex	5.364	4.533
+GO:0031982	vesicle	5.533	4.922
+GO:0005789	endoplasmic reticulum membrane	6.017	-0.108
+GO:1904813	ficolin-1-rich granule lumen	6.025	-4.215
+GO:0034774	secretory granule lumen	6.078	-4.283
+GO:0043231	intracellular membrane-bounded organelle	6.444	3.071
+GO:0005764	lysosome	6.447	1.936
+GO:0030669	clathrin-coated endocytic vesicle membrane	6.611	-1.34
+GO:0005905	clathrin-coated pit	6.613	3.539
+GO:0016342	catenin complex	6.627	2.986
+GO:0030672	synaptic vesicle membrane	6.876	3.828
+GO:0031902	late endosome membrane	6.915	4.417
+GO:0045334	clathrin-coated endocytic vesicle	6.968	-0.228
+GO:0042470	melanosome	7.157	1.366
+GO:0032991	protein-containing complex	7.43	4.133
+GO:0005739	mitochondrion	8.592	-8.585
+GO:0030136	clathrin-coated vesicle	9.565	4.365
+GO:0043209	myelin sheath	9.6	-3.901
+GO:0005765	lysosomal membrane	10.482	-1.767
+GO:0030665	clathrin-coated vesicle membrane	12.022	3.518
+GO:0005759	mitochondrial matrix	12.034	-14.808
+GO:0005829	cytosol	12.288	-2.935
+GO:0070062	extracellular exosome	13.938	-9.392

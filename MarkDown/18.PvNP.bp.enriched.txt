@@ -1,0 +1,73 @@
+GO.ID	GO.Term	Z-score	Background
+GO:0007017	microtubule-based process	5.006	-2.952
+GO:0009725	response to hormone	5.051	1.355
+GO:0006629	lipid metabolic process	5.084	1.003
+GO:0061621	canonical glycolysis	5.096	-2.855
+GO:0006487	protein N-linked glycosylation	5.099	-4.318
+GO:0050807	regulation of synapse organization	5.109	-0.715
+GO:0050790	regulation of catalytic activity	5.168	-0.694
+GO:0007339	binding of sperm to zona pellucida	5.187	-3.18
+GO:0046627	negative regulation of insulin receptor signaling pathway	5.187	0.249
+GO:0006898	receptor-mediated endocytosis	5.206	-0.15
+GO:0032008	positive regulation of TOR signaling	5.219	-0.614
+GO:0006890	retrograde vesicle-mediated transport, Golgi to ER	5.231	4.746
+GO:0043401	steroid hormone mediated signaling pathway	5.276	4.621
+GO:0034599	cellular response to oxidative stress	5.29	-2.976
+GO:0007528	neuromuscular junction development	5.332	3.54
+GO:1900034	regulation of cellular response to heat	5.345	1.631
+GO:0000226	microtubule cytoskeleton organization	5.358	-0.64
+GO:0006303	double-strand break repair via nonhomologous end joining	5.39	-2.26
+GO:0006997	nucleus organization	5.409	0.857
+GO:0001889	liver development	5.423	-0.56
+GO:0050767	regulation of neurogenesis	5.444	2.779
+GO:0016079	synaptic vesicle exocytosis	5.511	4.138
+GO:1990830	cellular response to leukemia inhibitory factor	5.526	-4.228
+GO:0034614	cellular response to reactive oxygen species	5.53	2.262
+GO:0034332	adherens junction organization	5.543	3.811
+GO:0006096	glycolytic process	5.547	-3.806
+GO:0006457	protein folding	5.561	-4.294
+GO:0034605	cellular response to heat	5.582	-1.922
+GO:0034314	Arp2/3 complex-mediated actin nucleation	5.606	-2.241
+GO:0007568	aging	5.729	1.758
+GO:0071300	cellular response to retinoic acid	5.856	3.887
+GO:0044331	cell-cell adhesion mediated by cadherin	5.901	1.876
+GO:0060071	Wnt signaling pathway, planar cell polarity pathway	5.91	2.726
+GO:0006094	gluconeogenesis	6.068	-2.109
+GO:0055114	oxidation-reduction process	6.191	-5.483
+GO:0039702	viral budding via host ESCRT complex	6.345	0.956
+GO:0019886	antigen processing and presentation of exogenous peptide antigen via MHC class II	6.351	-0.186
+GO:0030177	positive regulation of Wnt signaling pathway	6.414	0.105
+GO:0030182	neuron differentiation	6.427	1.908
+GO:0006418	tRNA aminoacylation for protein translation	6.488	-6.429
+GO:0009408	response to heat	6.63	-2.91
+GO:0034383	low-density lipoprotein particle clearance	6.837	-0.769
+GO:0030100	regulation of endocytosis	6.88	2.854
+GO:0019216	regulation of lipid metabolic process	6.955	3.583
+GO:0007005	mitochondrion organization	6.957	-2.348
+GO:0034620	cellular response to unfolded protein	6.965	-2.325
+GO:0008202	steroid metabolic process	7.014	-1.743
+GO:0050821	protein stabilization	7.198	1.004
+GO:1901998	toxin transport	7.266	-0.036
+GO:0016192	vesicle-mediated transport	7.372	1.252
+GO:0006099	tricarboxylic acid cycle	7.383	-7.311
+GO:0032526	response to retinoic acid	7.456	1.987
+GO:0042026	protein refolding	7.733	-2.728
+GO:0033572	transferrin transport	7.741	-2.257
+GO:0051085	chaperone cofactor-dependent protein refolding	7.837	-2.711
+GO:0015991	ATP hydrolysis coupled proton transport	8.088	-2.759
+GO:0015721	bile acid and bile salt transport	8.112	-0.999
+GO:0016055	Wnt signaling pathway	8.136	2.779
+GO:0072583	clathrin-dependent endocytosis	8.152	0.32
+GO:0034220	ion transmembrane transport	8.244	1.169
+GO:0043312	neutrophil degranulation	8.483	-1.006
+GO:1904837	beta-catenin-TCF complex assembly	8.637	-0.84
+GO:0016241	regulation of macroautophagy	8.645	-0.553
+GO:0045165	cell fate commitment	8.858	0.936
+GO:1904886	beta-catenin destruction complex disassembly	8.936	2.257
+GO:0090263	positive regulation of canonical Wnt signaling pathway	8.943	2.926
+GO:0006986	response to unfolded protein	9	-1.331
+GO:0090090	negative regulation of canonical Wnt signaling pathway	9.517	4.245
+GO:0035567	non-canonical Wnt signaling pathway	11.216	2.042
+GO:0008286	insulin receptor signaling pathway	11.902	-0.16
+GO:0061024	membrane organization	13.377	4.204
+GO:0060070	canonical Wnt signaling pathway	16.995	0.96

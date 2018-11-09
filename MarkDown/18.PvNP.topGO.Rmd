@@ -1,0 +1,87 @@
+#---
+#title: "GO enrichment"
+#author: "HBG"
+#date: "11/7/2018"
+#output: pdf_document
+#---
+
+# This script perform GO enrichment using topGO for a set of genes that show high (top 10%)
+# Bayes factors in tumor cells, but low or moderate (0%-50%) BF in normal cells
+
+#```{r}
+# loading the libraries
+library(topGO)
+library(biomaRt)
+library(ensembldb)
+library(EnsDb.Hsapiens.v86)
+library(GenomicFeatures)
+library(GO.db)
+
+## some packages are installed using the package 'BioManager'
+## the package 'GenomicFeatures' is needed to install 'EnsDb.Hsapiens.v86'
+## install_github('https://github.com/Bioconductor/GenomicFeatures')
+## the library 'devtools' is needed to install GenomicFeatures from GitHub repository
+
+# the BF data file
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.z <- panc.file$zPanc_vs_other
+
+# Gene list
+genes = panc.gene[which(panc.z > 2)]
+length(genes)
+GeneNameFilter(genes)
+
+# Gene names need be converted to Ensembl IDs
+library(EnsDb.Hsapiens.v86)
+ensembl.id <- genes(EnsDb.Hsapiens.v86, 
+                    filter=list(GeneNameFilter(genes),GeneIdFilter("ENSG", "startsWith")),
+                    return.type="data.frame", columns=c("gene_id"))
+write.table(ensembl.id, file="18.PvNP.topGO.geneset.csv", sep=",", row.names = F, col.names = F, quote = F)
+ensembl.id
+
+ensembl.id$gene_id
+
+# Enrichment analysis
+mart <- useDataset("hsapiens_gene_ensembl", mart=useMart("ensembl"))
+all_ensembl_gene_id <- getBM(attributes = "ensembl_gene_id",
+                             values = "*", mart = mart)
+all <- factor(as.integer (all_ensembl_gene_id[,1] %in% ensembl.id$gene_id))
+names(all) <- all_ensembl_gene_id[,1]
+
+GOdata.BP <- new("topGOdata", ontology="BP",
+              allGenes = all, geneSel=function(p) p == 1,
+              description = "P.not.NP", annot=annFUN.org, mapping="org.Hs.eg.db", ID="Ensembl")
+
+GOdata.CC <- new("topGOdata", ontology="CC",
+              allGenes = all, geneSel=function(p) p == 1,
+              description = "P.not.NP", annot=annFUN.org, mapping="org.Hs.eg.db", ID="Ensembl")
+
+GOdata.MF <- new("topGOdata", ontology="MF",
+              allGenes = all, geneSel=function(p) p == 1,
+              description = "P.not.NP", annot=annFUN.org, mapping="org.Hs.eg.db", ID="Ensembl")
+
+result.test.bp <- runTest(GOdata.BP, algorithm = "classic", statistic = "fisher")
+resultKS.test.bp <- runTest(GOdata.BP, algorithm = "classic", statistic = "ks")
+resultKS.elim.test.bp <- runTest(GOdata.BP, algorithm = "elim", statistic = "ks")
+result.test.cc <- runTest(GOdata.CC, algorithm = "classic", statistic = "fisher")
+resultKS.test.cc <- runTest(GOdata.CC, algorithm = "classic", statistic = "ks")
+resultKS.elim.test.cc <- runTest(GOdata.CC, algorithm = "elim", statistic = "ks")
+result.test.mf <- runTest(GOdata.MF, algorithm = "classic", statistic = "fisher")
+resultKS.test.mf <- runTest(GOdata.MF, algorithm = "classic", statistic = "ks")
+resultKS.elim.test.mf <- runTest(GOdata.MF, algorithm = "elim", statistic = "ks")
+
+allRes.bp <- GenTable(GOdata.BP, classicFisher = result.test.bp, classicKS = resultKS.test.bp, 
+          elimKS = resultKS.elim.test.bp, orderBy = "elimKS", ranksOf="classicFisher", topNodes=100)
+allRes.cc <- GenTable(GOdata.CC, classicFisher = result.test.cc, classicKS = resultKS.test.cc, 
+          elimKS = resultKS.elim.test.cc, orderBy = "elimKS", ranksOf="classicFisher", topNodes=100)
+allRes.mf <- GenTable(GOdata.MF, classicFisher = result.test.mf, classicKS = resultKS.test.mf, 
+          elimKS = resultKS.elim.test.mf, orderBy = "elimKS", ranksOf="classicFisher", topNodes=100)
+
+allRes.bp
+
+allRes.cc
+
+allRes.mf
+
+#```

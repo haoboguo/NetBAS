@@ -1,0 +1,492 @@
+---
+title: "PvsNP z > 2"
+author: "HBG"
+date: "11/7/2018"
+output: pdf_document
+---
+
+#This script perform GO enrichment analysis to genes with z > 2
+#Z is from Nat. Med. 2017, comparing tumor and normal cells
+#Update: the background should NOT be all genes
+
+```{r}
+### this block perform z-score calculations
+## read the original network
+rm(list=ls())
+debug = 1
+largeGOFlag = 1;
+library(foreach)
+library(doMC)
+registerDoMC(5)
+library(plyr)
+library(gplots)
+library(microbenchmark)
+library(matrixStats)
+
+network <- read.csv("../Data/human.pin.csv", header=T, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+## the GO terms for biological processes (BP)
+bp.GOcategory.file <- read.csv("../Data/human.bp.term.csv",header=TRUE, stringsAsFactors=F)
+bp.go.cat <- bp.GOcategory.file$GO.term
+bp.dim <- length(bp.go.cat)
+bp.GOterm.file <- read.csv("../Data/human.bp.gene.term.csv", header=T, stringsAsFactors=F)
+bp.GO.gene <- bp.GOterm.file$gene  #it should be changed to System for yeast pin
+bp.GO.term <- bp.GOterm.file$GO.term
+
+cc.GOcategory.file <- read.csv("../Data/human.cc.term.csv",header=TRUE, stringsAsFactors=F)
+cc.go.cat <- cc.GOcategory.file$GO.term
+cc.dim <- length(cc.go.cat)
+cc.GOterm.file <- read.csv("../Data/human.cc.gene.term.csv", header=T, stringsAsFactors=F)
+cc.GO.gene <- cc.GOterm.file$gene  #it should be changed to System for yeast pin
+cc.GO.term <- cc.GOterm.file$GO.term
+
+mf.GOcategory.file <- read.csv("../Data/human.mf.term.csv",header=TRUE, stringsAsFactors=F)
+mf.go.cat <- mf.GOcategory.file$GO.term
+mf.dim <- length(mf.go.cat)
+mf.GOterm.file <- read.csv("../Data/human.mf.gene.term.csv", header=T, stringsAsFactors=F)
+mf.GO.gene <- mf.GOterm.file$gene  #it should be changed to System for yeast pin
+mf.GO.term <- mf.GOterm.file$GO.term
+
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.z <- panc.file$zPanc_vs_other
+
+gene.list <- panc.gene[which(panc.z > 2)]
+background.list <- panc.gene[which(panc.z <=2)]
+#the background list should not be the whole genome
+#if there is a complete coverage, as the degrees of all proteins preserve
+#there will be no differences between original and permutation networks.
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+gl.count <- count(gl.all)
+gl.orf <- gl.count$x
+gl.freq <- gl.count$freq
+bgA <- geneB[which(geneA %in% background.list)]
+bgB <- geneA[which(geneB %in% background.list)]
+bg.all <- c(bgA, bgB)
+bg.count <- count(bg.all)
+bg.orf <- bg.count$x
+bg.freq <- bg.count$freq
+
+# the gene list
+bp.count <- c()
+cc.count <- c()
+mf.count <- c()
+bp.vec <- numeric(length=bp.dim)
+cc.vec <- numeric(length=cc.dim)
+mf.vec <- numeric(length=mf.dim)
+
+    for (i in 1:length(gl.orf)) {
+      orf.ith <- gl.orf[i]
+      orf.freq <- gl.freq[i]
+      orf.bp.term <- bp.GO.term[which(bp.GO.gene %in% orf.ith)]
+      orf.cc.term <- cc.GO.term[which(cc.GO.gene %in% orf.ith)]
+      orf.mf.term <- mf.GO.term[which(mf.GO.gene %in% orf.ith)]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        bp.vec[na] <- bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        cc.vec[nb] <- cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        mf.vec[nc] <- mf.vec[nc] + orf.freq
+      }
+  }
+bp.count <- c(bp.count, bp.vec)
+cc.count <- c(cc.count, cc.vec)
+mf.count <- c(mf.count, mf.vec)
+
+
+# The background
+bp.vec <- numeric(length=bp.dim)
+cc.vec <- numeric(length=cc.dim)
+mf.vec <- numeric(length=mf.dim)
+    for (i in 1:length(bg.orf)) {
+      orf.ith <- bg.orf[i]
+      orf.freq <- bg.freq[i]
+      orf.bp.term <- bp.GO.term[which(bp.GO.gene %in% orf.ith)]
+      orf.cc.term <- cc.GO.term[which(cc.GO.gene %in% orf.ith)]
+      orf.mf.term <- mf.GO.term[which(mf.GO.gene %in% orf.ith)]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        bp.vec[na] <- bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        cc.vec[nb] <- cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        mf.vec[nc] <- mf.vec[nc] + orf.freq
+      }
+  }
+
+bp.count <- c(bp.count, bp.vec)
+cc.count <- c(cc.count, cc.vec)
+mf.count <- c(mf.count, mf.vec)
+
+bp.A <- matrix(bp.count, nrow = bp.dim, ncol = 2)
+cc.A <- matrix(cc.count, nrow = cc.dim, ncol = 2)
+mf.A <- matrix(mf.count, nrow = mf.dim, ncol = 2)
+
+write.table(bp.A, file="18.PvNP.bp.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(cc.A, file="18.PvNP.cc.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(mf.A, file="18.PvNP.mf.csv", sep=",", col.names=F, row.names=F, quote=F)
+
+```
+
+```{r}
+for (p in 1:100) {
+permutation.file <- paste("../ms02star/human/", "ms02.", p, ".csv", sep="")
+permutation <- read.csv(permutation.file, header=T, stringsAsFactors = F)
+geneA <- permutation$id1
+geneB <- permutation$id2
+
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+gl.count <- count(gl.all)
+gl.orf <- gl.count$x
+gl.freq <- gl.count$freq
+bgA <- geneB[which(geneA %in% background.list)]
+bgB <- geneA[which(geneB %in% background.list)]
+bg.all <- c(bgA, bgB)
+bg.count <- count(bg.all)
+bg.orf <- bg.count$x
+bg.freq <- bg.count$freq
+
+# the gene list
+bp.count <- c()
+cc.count <- c()
+mf.count <- c()
+bp.vec <- numeric(length=bp.dim)
+cc.vec <- numeric(length=cc.dim)
+mf.vec <- numeric(length=mf.dim)
+
+    for (i in 1:length(gl.orf)) {
+      orf.ith <- gl.orf[i]
+      orf.freq <- gl.freq[i]
+      orf.bp.term <- bp.GO.term[which(bp.GO.gene %in% orf.ith)]
+      orf.cc.term <- cc.GO.term[which(cc.GO.gene %in% orf.ith)]
+      orf.mf.term <- mf.GO.term[which(mf.GO.gene %in% orf.ith)]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        bp.vec[na] <- bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        cc.vec[nb] <- cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        mf.vec[nc] <- mf.vec[nc] + orf.freq
+      }
+  }
+bp.count <- c(bp.count, bp.vec)
+cc.count <- c(cc.count, cc.vec)
+mf.count <- c(mf.count, mf.vec)
+
+
+# The background
+bp.vec <- numeric(length=bp.dim)
+cc.vec <- numeric(length=cc.dim)
+mf.vec <- numeric(length=mf.dim)
+    for (i in 1:length(bg.orf)) {
+      orf.ith <- bg.orf[i]
+      orf.freq <- bg.freq[i]
+      orf.bp.term <- bp.GO.term[which(bp.GO.gene %in% orf.ith)]
+      orf.cc.term <- cc.GO.term[which(cc.GO.gene %in% orf.ith)]
+      orf.mf.term <- mf.GO.term[which(mf.GO.gene %in% orf.ith)]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        bp.vec[na] <- bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        cc.vec[nb] <- cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        mf.vec[nc] <- mf.vec[nc] + orf.freq
+      }
+  }
+
+bp.count <- c(bp.count, bp.vec)
+cc.count <- c(cc.count, cc.vec)
+mf.count <- c(mf.count, mf.vec)
+
+bp.B <- matrix(bp.count, nrow = bp.dim, ncol = 2)
+cc.B <- matrix(cc.count, nrow = cc.dim, ncol = 2)
+mf.B <- matrix(mf.count, nrow = mf.dim, ncol = 2)
+
+bp.output <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", p, ".bp.matrix.csv", sep="")
+cc.output <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", p, ".cc.matrix.csv", sep="")
+mf.output <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", p, ".mf.matrix.csv", sep="")
+
+write.table(bp.B, file=bp.output, sep=",", col.names=F, row.names=F, quote=F)
+write.table(cc.B, file=cc.output, sep=",", col.names=F, row.names=F, quote=F)
+write.table(mf.B, file=mf.output, sep=",", col.names=F, row.names=F, quote=F)
+}
+```
+```{r}
+#calcualting z-scores and plotting heatmaps
+bp.hspin <- matrix(as.numeric(unlist(read.table("18.PvNP.bp.csv", header=F, sep=","))), nrow=bp.dim, ncol=2)
+bp.obs <- c(bp.hspin)
+cc.hspin <- matrix(as.numeric(unlist(read.table("18.PvNP.cc.csv", header=F, sep=","))), nrow=cc.dim, ncol=2)
+cc.obs <- c(cc.hspin)
+mf.hspin <- matrix(as.numeric(unlist(read.table("18.PvNP.mf.csv", header=F, sep=","))), nrow=mf.dim, ncol=2)
+mf.obs <- c(mf.hspin)
+
+bp.perm <- c()
+cc.perm <- c()
+mf.perm <- c()
+for (i in 1:100) {
+    bp.name <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", i, ".bp.matrix.csv", sep="")
+    cc.name <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", i, ".cc.matrix.csv", sep="")
+    mf.name <- paste("ms02.human", "/", "18.PvNP", "/", "ms02.", i, ".mf.matrix.csv", sep="")
+    bp.mat <- matrix(as.numeric(unlist(read.table(bp.name, header=F, sep=","))), nrow=bp.dim, ncol=2)
+    cc.mat <- matrix(as.numeric(unlist(read.table(cc.name, header=F, sep=","))), nrow=cc.dim, ncol=2)
+    mf.mat <- matrix(as.numeric(unlist(read.table(mf.name, header=F, sep=","))), nrow=mf.dim, ncol=2)
+    bp.perm <- rbind(bp.perm, c(bp.mat))
+    cc.perm <- rbind(cc.perm, c(cc.mat))
+    mf.perm <- rbind(mf.perm, c(mf.mat))
+}
+
+bp.mean <- colMeans(bp.perm)
+bp.std <- colSds(bp.perm)
+cc.mean <- colMeans(cc.perm)
+cc.std <- colSds(cc.perm)
+mf.mean <- colMeans(mf.perm)
+mf.std <- colSds(mf.perm)
+
+bp.zscore <- round((bp.obs - bp.mean)/bp.std, 3)
+cc.zscore <- round((cc.obs - cc.mean)/cc.std, 3)
+mf.zscore <- round((mf.obs - mf.mean)/mf.std, 3)
+
+
+z.bp <- matrix(bp.zscore, nrow=bp.dim, ncol=2)
+z.cc <- matrix(cc.zscore, nrow=cc.dim, ncol=2)
+z.mf <- matrix(mf.zscore, nrow=mf.dim, ncol=2)
+
+z.bp <- t(z.bp)
+z.cc <- t(z.cc)
+z.mf <- t(z.mf)
+
+colnames(z.bp) <- bp.go.cat
+rownames(z.bp) <- c("Gene Set", "Background")
+colnames(z.cc) <- cc.go.cat
+rownames(z.cc) <- c("Gene Set", "Background")
+colnames(z.mf) <- mf.go.cat
+rownames(z.mf) <- c("Gene Set", "Background")
+
+bp.z.enrich <- z.bp[, which( z.bp[1,] >= 5 & z.bp[2,] < 5)]
+bp.z.enrich <- bp.z.enrich[,order(bp.z.enrich[1,])]
+bp.enrich.list <- colnames(bp.z.enrich)
+cc.z.enrich <- z.cc[, which( z.cc[1,] >= 5 & z.cc[2,] < 5)]
+cc.z.enrich <- cc.z.enrich[,order(cc.z.enrich[1,])]
+cc.enrich.list <- colnames(cc.z.enrich)
+mf.z.enrich <- z.mf[, which( z.mf[1,] >= 5 & z.mf[2,] < 5)]
+mf.z.enrich <- mf.z.enrich[,order(mf.z.enrich[1,])]
+mf.enrich.list <- colnames(mf.z.enrich)
+
+bp.z.suppress <- z.bp[, which( z.bp[1,] <= -5 & z.bp[2,] > -5)]
+bp.z.suppress <- bp.z.suppress[,order(-bp.z.suppress[1,])]
+bp.suppress.list <- colnames(bp.z.suppress)
+cc.z.suppress <- z.cc[, which(z.cc[1,] <= -5 & z.cc[2,] > -5)]
+cc.z.suppress <- cc.z.suppress[,order(-cc.z.suppress[1,])]
+cc.suppress.list <- colnames(cc.z.suppress)
+mf.z.suppress <- z.mf[, which(z.mf[1,] <= -5 & z.mf[2,] > -5)]
+mf.z.suppress <- mf.z.suppress[,order(-mf.z.suppress[1,])]
+mf.suppress.list <- colnames(mf.z.suppress)
+
+bp.enriched.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(bp.enrich.list)) {
+  id <- as.character(bp.enrich.list[i])
+  term <- Term(GOID(id))
+  seri <- which(bp.go.cat %in% id)
+  z.gene <- z.bp[1,seri]
+  z.back <- z.bp[2,seri]
+  bp.enriched.terms <- rbind(bp.enriched.terms, c(id, term, z.gene, z.back))
+}
+bp.enriched.terms
+write.table(bp.enriched.terms, file="18.PvNP.bp.enriched.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+bp.suppressed.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(bp.suppress.list)) {
+  id <- as.character(bp.suppress.list[i])
+  term <- Term(GOID(id))
+  seri <- which(bp.go.cat %in% id)
+  z.gene <- z.bp[1,seri]
+  z.back <- z.bp[2,seri]
+  bp.suppressed.terms <- rbind(bp.suppressed.terms, c(id, term, z.gene, z.back))
+}
+bp.suppressed.terms
+write.table(bp.suppressed.terms, file="18.PvNP.bp.suppressed.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+cc.enriched.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(cc.enrich.list)) {
+  id <- as.character(cc.enrich.list[i])
+  term <- Term(GOID(id))
+  seri <- which(cc.go.cat %in% id)
+  z.gene <- z.cc[1,seri]
+  z.back <- z.cc[2,seri]
+  cc.enriched.terms <- rbind(cc.enriched.terms, c(id, term, z.gene, z.back))
+}
+cc.enriched.terms
+write.table(cc.enriched.terms, file="18.PvNP.cc.enriched.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+cc.suppressed.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(cc.suppress.list)) {
+  id <- as.character(cc.suppress.list[i])
+  term <- Term(GOID(id))
+  seri <- which(cc.go.cat %in% id)
+  z.gene <- z.cc[1,seri]
+  z.back <- z.cc[2,seri]
+  cc.suppressed.terms <- rbind(cc.suppressed.terms, c(id, term, z.gene, z.back))
+}
+cc.suppressed.terms
+write.table(cc.suppressed.terms, file="18.PvNP.cc.suppressed.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+mf.enriched.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(mf.enrich.list)) {
+  id <- as.character(mf.enrich.list[i])
+  term <- Term(GOID(id))
+  seri <- which(mf.go.cat %in% id)
+  z.gene <- z.mf[1,seri]
+  z.back <- z.mf[2,seri]
+  mf.enriched.terms <- rbind(mf.enriched.terms, c(id, term, z.gene, z.back))
+}
+mf.enriched.terms
+write.table(mf.enriched.terms, file="18.PvNP.mf.enriched.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+mf.suppressed.terms <- c("GO.ID", "GO.Term", "Z-score", "Background")
+for (i in 1:length(mf.suppress.list)) {
+  id <- as.character(mf.suppress.list[i])
+  term <- Term(GOID(id))
+  seri <- which(mf.go.cat %in% id)
+  z.gene <- z.mf[1,seri]
+  z.back <- z.mf[2,seri]
+  mf.suppressed.terms <- rbind(mf.suppressed.terms, c(id, term, z.gene, z.back))
+}
+mf.suppressed.terms
+write.table(mf.suppressed.terms, file="18.PvNP.mf.suppressed.txt", sep="\t", row.names = F, col.names = F, quote=F)
+
+#heat maps
+my_palette <- colorRampPalette(c("blue2", "red2"))(n = 9)
+
+bp.fig <- z.bp[, which( z.bp[1,] >= 8.64 & z.bp[2,] < 5)]
+bp.fig <- bp.fig[,order(bp.fig[1,])]
+png(filename = "18.PvNP.bp.top10.png",width=5, height=3.2, res=1200, unit="in")
+heatmap.2(bp.fig, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(bp.z.enrich), rowsep = 1:nrow(bp.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Biological Process Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=F, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Enriched BP Terms")
+dev.off()
+
+mf.fig <- z.mf[, which( z.mf[1,] >= 8.18 & z.mf[2,] < 5)]
+mf.fig <- mf.fig[,order(mf.fig[1,])]
+png(filename = "18.PvNP.mf.top10.png",width=5, height=3.2, res=1200, unit="in")
+heatmap.2(bp.fig, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(bp.z.enrich), rowsep = 1:nrow(bp.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Molecular Function Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=F, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Enriched MF Terms")
+dev.off()
+
+cc.fig <- z.cc[, which( z.cc[1,] >= 7.15 & z.cc[2,] < 5)]
+cc.fig <- cc.fig[,order(cc.fig[1,])]
+png(filename = "18.PvNP.cc.top10.png",width=5, height=3.2, res=1200, unit="in")
+heatmap.2(bp.fig, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(bp.z.enrich), rowsep = 1:nrow(bp.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Cellular Composition Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=F, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Enriched CC Terms")
+dev.off()
+
+png(filename = "18.PvNP.bp.suppressed.png",width=9, height=3.5, res=1200, unit="in")
+heatmap.2(bp.z.suppress, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(bp.z.suppress), rowsep = 1:nrow(bp.z.suppress),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Biological Process Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Suppressed BP Terms")
+dev.off()
+
+png(filename = "18.PvNP.cc.enriched.png",width=9, height=3.5, res=1200, unit="in")
+heatmap.2(cc.z.enrich, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(cc.z.enrich), rowsep = 1:nrow(cc.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Cellular Composition Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Enriched CC Terms")
+dev.off()
+
+png(filename = "18.PvNP.cc.suppressed.png",width=9, height=3.5, res=1200, unit="in")
+heatmap.2(cc.z.suppress, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(cc.z.enrich), rowsep = 1:nrow(cc.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Cellular Composition Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Suppressed CC Terms")
+dev.off()
+
+png(filename = "18.PvNP.mf.enriched.png",width=9, height=3.5, res=1200, unit="in")
+heatmap.2(mf.z.enrich, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(mf.z.enrich), rowsep = 1:nrow(mf.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Molecular Function Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Enriched MF Terms")
+dev.off()
+
+png(filename = "18.PvNP.mf.suppressed.png",width=9, height=3.5, res=1200, unit="in")
+heatmap.2(mf.z.suppress, col=my_palette, dendrogram='none', 
+          sepcolor="lightgrey", sepwidth = c(0.05,0.01), 
+          colsep = 1:ncol(mf.z.enrich), rowsep = 1:nrow(mf.z.enrich),
+          trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
+          xlab="Molecular Function Terms", ylab="",
+          margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
+          scale="none", symbreaks=T, symm=F, symkey = F,
+          srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
+          cexRow = 0.9, cexCol=0.9, 
+          main="Suppressed MF Terms")
+dev.off()
+```

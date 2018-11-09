@@ -1,0 +1,17 @@
+GO.ID	GO.Term	Z-score	Background
+GO:0005184	neuropeptide hormone activity	-5.289	6.653
+GO:0005179	hormone activity	-5.354	9.2
+GO:0004842	ubiquitin-protein transferase activity	-5.415	5.227
+GO:0042923	neuropeptide binding	-5.541	4.641
+GO:0008528	G protein-coupled peptide receptor activity	-5.642	9.464
+GO:0003727	single-stranded RNA binding	-5.647	0.13
+GO:0017046	peptide hormone binding	-5.8	11.129
+GO:0004993	G protein-coupled serotonin receptor activity	-6.01	6.829
+GO:0019957	C-C chemokine binding	-6.475	3.844
+GO:0003729	mRNA binding	-6.518	-3.761
+GO:0030594	neurotransmitter receptor activity	-6.527	7.261
+GO:0016493	C-C chemokine receptor activity	-6.932	3.846
+GO:0019956	chemokine binding	-6.973	3.877
+GO:0008009	chemokine activity	-7.533	5.775
+GO:0033038	bitter taste receptor activity	-8.653	5.677
+GO:0004930	G protein-coupled receptor activity	-14.432	10.265

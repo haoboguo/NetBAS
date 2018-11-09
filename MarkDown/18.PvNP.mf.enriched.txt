@@ -1,0 +1,35 @@
+GO.ID	GO.Term	Z-score	Background
+GO:0005215	transporter activity	5.038	-3.447
+GO:0050681	androgen receptor binding	5.076	3.595
+GO:0015020	glucuronosyltransferase activity	5.14	-15.281
+GO:0005525	GTP binding	5.239	-3.813
+GO:0005158	insulin receptor binding	5.273	2.917
+GO:0003714	transcription corepressor activity	5.387	4.961
+GO:0050750	low-density lipoprotein particle receptor binding	5.44	0.888
+GO:0016491	oxidoreductase activity	5.691	-3.819
+GO:0005178	integrin binding	5.722	4.657
+GO:0030674	protein binding, bridging	5.724	0.963
+GO:0001972	retinoic acid binding	5.796	-9.734
+GO:0003707	steroid hormone receptor activity	5.945	4.338
+GO:0008194	UDP-glycosyltransferase activity	6.048	-21.043
+GO:0051087	chaperone binding	6.188	-2.347
+GO:0030331	estrogen receptor binding	6.716	1.561
+GO:0042803	protein homodimerization activity	6.958	3.756
+GO:0016887	ATPase activity	7.001	-2.083
+GO:0051787	misfolded protein binding	7.09	-1.528
+GO:0044183	protein binding involved in protein folding	7.106	-2.437
+GO:0031072	heat shock protein binding	7.283	-2.768
+GO:0031625	ubiquitin protein ligase binding	7.384	-1.231
+GO:0042623	ATPase activity, coupled	7.386	-1.808
+GO:0019899	enzyme binding	7.408	0.559
+GO:0005200	structural constituent of cytoskeleton	7.852	-0.474
+GO:0045296	cadherin binding	8.182	1.492
+GO:0048018	receptor ligand activity	8.515	0.003
+GO:0030170	pyridoxal phosphate binding	8.52	-8.581
+GO:0051082	unfolded protein binding	8.907	-3.805
+GO:0016922	nuclear receptor binding	9.255	4.135
+GO:0030276	clathrin binding	9.788	1.396
+GO:0005524	ATP binding	10.718	-1.498
+GO:0008013	beta-catenin binding	10.95	4.645
+GO:0017147	Wnt-protein binding	12.286	2.501
+GO:0005109	frizzled binding	15.947	-0.921

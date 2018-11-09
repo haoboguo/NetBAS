@@ -1,0 +1,8 @@
+GO.ID	GO.Term	Z-score	Background
+GO:0046540	U4/U6 x U5 tri-snRNP complex	-6.188	1.379
+GO:0016607	nuclear speck	-6.766	5.215
+GO:0005887	integral component of plasma membrane	-6.994	22.597
+GO:0005689	U12-type spliceosomal complex	-7.749	1.578
+GO:0071007	U2-type catalytic step 2 spliceosome	-8.79	3.846
+GO:0005681	spliceosomal complex	-10.953	4.848
+GO:0071013	catalytic step 2 spliceosome	-15.544	3.609

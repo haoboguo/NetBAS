@@ -13,11 +13,15 @@ library(foreach)
 library(doMC)
 registerDoMC(6)
 
+my_palette <- colorRampPalette(c("blue2", "red2"))(n = 9)
+
 bp.file <- read.csv("19.bp.top10.txt", sep="\t", header=T)
 bp.david <- bp.file$z.d
 bp.net <- bp.file$z.n
-#bp.david.adj <- round(bp.david*16.995/4.453,3)
-bp.matrix <- t(rbind(bp.david, bp.net))
+bp.pval <- as.character(bp.file$p)
+bp.david.adj <- round(bp.david*16.995/4.453,3)
+bp.matrix <- t(rbind(bp.david.adj, bp.net))
+bp.pval <- bp.pval[order(-bp.matrix[,2])]
 rownames(bp.matrix) <- bp.file$id
 colnames(bp.matrix) <- c("DAVID", "NetBAS")
 bp.matrix <- bp.matrix[order(-bp.matrix[,2]),]
@@ -29,10 +33,11 @@ heatmap.2(bp.matrix, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Biological Process Terms", xlab="",
           margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=bp.matrix,
+          cellnote=cbind(bp.pval, bp.matrix[,2]),
           main="")
 dev.off()
 png(filename = "19.bp.DAVIDvsNetBAS.tmp.png",width=8, height=3.5, res=1200, unit="in")
@@ -42,17 +47,21 @@ heatmap.2(bp.matrix, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Biological Process Terms", xlab="",
           margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=bp.matrix,
+          cellnote=cbind(bp.pval, bp.matrix[,2]),
           main="")
 dev.off()
 
 cc.file <- read.csv("19.cc.top10.txt", sep="\t", header=T)
 cc.david <- cc.file$z.d
 cc.net <- cc.file$z.n
-cc.matrix <- t(rbind(cc.david, cc.net))
+cc.pval <- as.character(cc.file$p)
+cc.david.adj <- round(cc.david*13.938/4.501,3)
+cc.matrix <- t(rbind(cc.david.adj, cc.net))
+cc.pval <- cc.pval[order(-cc.matrix[,2])]
 rownames(cc.matrix) <- cc.file$id
 colnames(cc.matrix) <- c("DAVID", "NetBAS")
 cc.matrix <- cc.matrix[order(-cc.matrix[,2]),]
@@ -64,10 +73,11 @@ heatmap.2(cc.matrix, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Cellular Composition Terms", xlab="",
           margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=cc.matrix,
+          cellnote=cbind(cc.pval, cc.matrix[,2]),
           main="")
 dev.off()
 png(filename = "19.cc.DAVIDvsNetBAS.tmp.png",width=8, height=3.5, res=1200, unit="in")
@@ -76,18 +86,22 @@ heatmap.2(cc.matrix, col=my_palette, dendrogram='none',
           colsep = 1:2, rowsep = 1:18,
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Cellular Composition Terms", xlab="",
-          margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          margins = c(3.2,5), key.title = NA, key.xlab="Z-score (NetBAS)", key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=cc.matrix,
+          cellnote=cbind(cc.pval, cc.matrix[,2]),
           main="")
 dev.off()
 
 mf.file <- read.csv("19.mf.top10.txt", sep="\t", header=T)
 mf.david <- mf.file$z.d
 mf.net <- mf.file$z.n
-mf.matrix <- t(rbind(mf.david, mf.net))
+mf.pval <- as.character(mf.file$p)
+mf.david.adj <- round(mf.david*15.947/3.452,3)
+mf.matrix <- t(rbind(mf.david.adj, mf.net))
+mf.pval <- mf.pval[order(-mf.matrix[,2])]
 rownames(mf.matrix) <- mf.file$id
 colnames(mf.matrix) <- c("DAVID", "NetBAS")
 mf.matrix <- mf.matrix[order(-mf.matrix[,2]),]
@@ -99,6 +113,7 @@ heatmap.2(mf.matrix, col=my_palette, dendrogram='none',
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Molecular Function Terms", xlab="",
           margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
@@ -111,7 +126,8 @@ heatmap.2(cc.matrix, col=my_palette, dendrogram='none',
           colsep = 1:2, rowsep = 1:18,
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Molecular Function Terms", xlab="",
-          margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
+          margins = c(3.2,5), key.title = NA, key.xlab="Z-score (NetBAS)", key.ylab=NA,
+          density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,

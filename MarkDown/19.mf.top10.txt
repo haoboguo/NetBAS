@@ -1,0 +1,19 @@
+id	term	p	z.d	z.n
+GO:0003824	catalytic activity	2.779853144185678E-4	3.452	1.151
+GO:0005515	protein binding	2.942053920506215E-4	3.437	7.712
+GO:0016740	transferase activity	5.072101500932137E-4	3.286	-2.049
+GO:0005524	ATP binding	8.783297048799107E-4	3.129	10.718
+GO:0017147	Wnt-protein binding	0.0027533723186107858	2.776	12.286
+GO:0044212	transcription regulatory region DNA binding	0.008106798121615277	2.404	4.533
+GO:0003713	transcription coactivator activity	0.00848078862099214	2.388	7.432
+GO:0005049	nuclear export signal receptor activity	0.009469531865236691	2.347	NA
+GO:0042802	identical protein binding	0.009638359331927842	2.340	6.647
+GO:0042803	protein homodimerization activity	0.013507647563401767	2.211	6.958
+GO:0005109	frizzled binding	NA	NA	15.947
+GO:0008013	beta-catenin binding	NA	NA	10.95
+GO:0030276	clathrin binding	NA	NA	9.788
+GO:0016922	nuclear receptor binding	NA	NA	9.255
+GO:0051082	unfolded protein binding	NA	NA	8.907
+GO:0030170	pyridoxal phosphate binding	NA	NA	8.520
+GO:0048018	receptor ligand activity	NA	NA	8.515
+GO:0045296	cadherin binding	NA	NA	8.182

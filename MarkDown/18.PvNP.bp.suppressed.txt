@@ -1,9 +1,13 @@
 GO.ID	GO.Term	Z-score	Background
+GO:0050911	detection of chemical stimulus involved in sensory perception of smell	-5.028	-16.379
 GO:0061844	antimicrobial humoral immune response mediated by antimicrobial peptide	-5.06	-0.726
+GO:0006120	mitochondrial electron transport, NADH to ubiquinone	-5.084	-6.628
 GO:0007267	cell-cell signaling	-5.09	11.876
 GO:0019722	calcium-mediated signaling	-5.194	6.46
+GO:0006956	complement activation	-5.22	-17.133
 GO:0048025	negative regulation of mRNA splicing, via spliceosome	-5.417	3.807
 GO:0000387	spliceosomal snRNP assembly	-5.469	1.641
+GO:0006334	nucleosome assembly	-5.49	-7.656
 GO:0090023	positive regulation of neutrophil chemotaxis	-5.568	5.177
 GO:0030595	leukocyte chemotaxis	-5.702	4.543
 GO:0007631	feeding behavior	-5.824	6.938
@@ -17,16 +21,24 @@ GO:0006370	7-methylguanosine mRNA capping	-6.48	3.091
 GO:0006397	mRNA processing	-6.535	4.011
 GO:0000375	RNA splicing, via transesterification reactions	-6.587	0.807
 GO:0010469	regulation of signaling receptor activity	-7.083	12.795
+GO:0006413	translational initiation	-7.127	-32.154
+GO:0006357	regulation of transcription by RNA polymerase II	-7.242	-7.366
+GO:0006351	transcription, DNA-templated	-7.252	-8.222
 GO:0000245	spliceosomal complex assembly	-7.258	2.186
+GO:0002181	cytoplasmic translation	-7.329	-19.401
 GO:0045292	mRNA cis splicing, via spliceosome	-7.357	4.197
 GO:0006368	transcription elongation from RNA polymerase II promoter	-7.395	4.353
 GO:0000381	regulation of alternative mRNA splicing, via spliceosome	-7.506	4.65
 GO:0060326	cell chemotaxis	-7.609	5.776
+GO:0032981	mitochondrial respiratory chain complex I assembly	-7.654	-6.485
 GO:0006955	immune response	-7.84	0.705
 GO:0042795	snRNA transcription by RNA polymerase II	-7.978	6.739
+GO:0006412	translation	-8.245	-24.39
 GO:0006935	chemotaxis	-8.477	8.366
 GO:0007193	adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway	-8.829	5.326
+GO:0006614	SRP-dependent cotranslational protein targeting to membrane	-8.888	-28.842
 GO:0007218	neuropeptide signaling pathway	-9.058	10.041
+GO:0006364	rRNA processing	-9.103	-17.092
 GO:0001580	detection of chemical stimulus involved in sensory perception of bitter taste	-9.107	6.259
 GO:0008380	RNA splicing	-9.213	2.381
 GO:0007189	adenylate cyclase-activating G protein-coupled receptor signaling pathway	-9.26	11.718
@@ -37,6 +49,7 @@ GO:0007187	G protein-coupled receptor signaling pathway, coupled to cyclic nucle
 GO:0006369	termination of RNA polymerase II transcription	-10.061	2.117
 GO:0006405	RNA export from nucleus	-10.586	0.593
 GO:0007204	positive regulation of cytosolic calcium ion concentration	-10.867	12.317
+GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	-10.999	-28.478
 GO:0006406	mRNA export from nucleus	-13.536	-3.307
 GO:0031124	mRNA 3'-end processing	-14.93	3.352
 GO:0000398	mRNA splicing, via spliceosome	-21.7	7.271

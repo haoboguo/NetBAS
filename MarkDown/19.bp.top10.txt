@@ -1,0 +1,19 @@
+id	term	p	z.d	z.n
+GO:0060070	canonical Wnt signaling pathway	4.235152384753268E-6	4.453	16.995
+GO:0006099	tricarboxylic acid cycle	2.074230217972897E-4	3.530	7.383
+GO:0009058	biosynthetic process	2.450185319880519E-4	3.486	NA
+GO:0033146	regulation of intracellular estrogen receptor signaling pathway	3.6754838509215606E-4	3.376	NA
+GO:0006782	protoporphyrinogen IX biosynthetic process	5.434778719989333E-4	3.267	NA
+GO:0006783	heme biosynthetic process	6.208425079098426E-4	3.229	NA
+GO:0045600	positive regulation of fat cell differentiation	0.0020201884275612867	2.875	3.869
+GO:0045893	positive regulation of transcription, DNA-templated	0.002401361896988516	2.820	11.238
+GO:0016055	Wnt signaling pathway	0.003399125490827231	2.707	8.136
+GO:0044332	Wnt signaling pathway involved in dorsal/ventral axis specification	0.003549710662803944	2.692	NA
+GO:0061024	membrane organization	NA	NA	13.377
+GO:0008286	insulin receptor signaling pathway	0.02199889309281147	2.014	11.902
+GO:0035567	non-canonical Wnt signaling pathway	0.07917486693054947	1.411	11.216
+GO:0090090	negative regulation of canonical Wnt signaling pathway	NA	NA	9.517
+GO:0006986	response to unfolded protein	NA	NA	9.000
+GO:0090263	positive regulation of canonical Wnt signaling pathway	NA	NA	8.943
+GO:1904886	beta-catenin destruction complex disassembly	0.008280498333162334	2.396	8.936
+GO:0045165	cell fate commitment	NA	NA	8.858

@@ -23,7 +23,8 @@ library(gplots)
 library(microbenchmark)
 library(matrixStats)
 
-network <- read.csv("../Data/human.pin.csv", header=T, stringsAsFactors=F)
+network <- read.csv("../Data/human.pin.csv", colClasses = c("character", "character"))
+names(network) = c("geneA", "geneB")
 geneA <- network$geneA
 geneB <- network$geneB
 
@@ -406,7 +407,8 @@ heatmap.2(bp.fig, col=my_palette, dendrogram='none',
           margins = c(5,3.8), key.title = NA, key.xlab=NA, key.ylab=NA,
           scale="none", symbreaks=F, symm=F, symkey = F,
           srtCol=45, adjCol=c(0.9,0), adjRow=c(0.2,0), srtRow=45,
-          cexRow = 0.9, cexCol=0.9, 
+          cexRow = 0.9, cexCol=0.9,
+          cellnote = 
           main="Enriched MF Terms")
 dev.off()
 

@@ -1,4 +1,5 @@
 GO.ID	GO.Term	Z-score	Background
+GO:0005768	endosome	5.004	9.651
 GO:0032588	trans-Golgi network membrane	5.036	3.408
 GO:0005783	endoplasmic reticulum	5.147	-4.128
 GO:0005788	endoplasmic reticulum lumen	5.181	4.057
@@ -9,21 +10,32 @@ GO:0031982	vesicle	5.533	4.922
 GO:0005789	endoplasmic reticulum membrane	6.017	-0.108
 GO:1904813	ficolin-1-rich granule lumen	6.025	-4.215
 GO:0034774	secretory granule lumen	6.078	-4.283
+GO:0005886	plasma membrane	6.213	22.807
+GO:0031901	early endosome membrane	6.33	6.173
 GO:0043231	intracellular membrane-bounded organelle	6.444	3.071
 GO:0005764	lysosome	6.447	1.936
+GO:0000139	Golgi membrane	6.506	8.992
 GO:0030669	clathrin-coated endocytic vesicle membrane	6.611	-1.34
 GO:0005905	clathrin-coated pit	6.613	3.539
 GO:0016342	catenin complex	6.627	2.986
+GO:0016324	apical plasma membrane	6.764	6.995
 GO:0030672	synaptic vesicle membrane	6.876	3.828
 GO:0031902	late endosome membrane	6.915	4.417
 GO:0045334	clathrin-coated endocytic vesicle	6.968	-0.228
 GO:0042470	melanosome	7.157	1.366
+GO:0048471	perinuclear region of cytoplasm	7.365	8.21
 GO:0032991	protein-containing complex	7.43	4.133
+GO:0015629	actin cytoskeleton	7.561	5.711
+GO:0005794	Golgi apparatus	7.63	9.185
+GO:0005769	early endosome	7.954	6.52
+GO:0009986	cell surface	8.007	11.654
 GO:0005739	mitochondrion	8.592	-8.585
 GO:0030136	clathrin-coated vesicle	9.565	4.365
 GO:0043209	myelin sheath	9.6	-3.901
 GO:0005765	lysosomal membrane	10.482	-1.767
+GO:0016592	mediator complex	11.004	7.323
 GO:0030665	clathrin-coated vesicle membrane	12.022	3.518
 GO:0005759	mitochondrial matrix	12.034	-14.808
+GO:0005737	cytoplasm	12.17	5.53
 GO:0005829	cytosol	12.288	-2.935
 GO:0070062	extracellular exosome	13.938	-9.392

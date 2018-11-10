@@ -86,7 +86,7 @@ heatmap.2(cc.matrix, col=my_palette, dendrogram='none',
           colsep = 1:2, rowsep = 1:18,
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Cellular Composition Terms", xlab="",
-          margins = c(3.2,5), key.title = NA, key.xlab="Z-score (NetBAS)", key.ylab=NA,
+          margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
           density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
@@ -117,7 +117,7 @@ heatmap.2(mf.matrix, col=my_palette, dendrogram='none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=mf.matrix,
+          cellnote=cbind(mf.pval, mf.matrix[,2]),
           main="")
 dev.off()
 png(filename = "19.mf.DAVIDvsNetBAS.tmp.png",width=8, height=3.5, res=1200, unit="in")
@@ -126,12 +126,12 @@ heatmap.2(cc.matrix, col=my_palette, dendrogram='none',
           colsep = 1:2, rowsep = 1:18,
           trace='none', Rowv=F, Colv=F, #revC=T, #labCol=NA,
           ylab="Molecular Function Terms", xlab="",
-          margins = c(3.2,5), key.title = NA, key.xlab="Z-score (NetBAS)", key.ylab=NA,
+          margins = c(3.2,5), key.title = NA, key.xlab=NA, key.ylab=NA,
           density.info = 'none',
           scale="none", symbreaks=F, symm=F, symkey = F,
           adjCol=c(0.5,0), adjRow=c(0.2,0), srtRow=45, srtCol=0,
           cexRow = 0.9, cexCol=1.2,
-          cellnote=mf.matrix,
+          cellnote=cbind(mf.pval, mf.matrix[,2]),
           main="")
 dev.off()
 ```

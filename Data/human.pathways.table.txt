@@ -1,4 +1,4 @@
-pathway	external_id	source	hgnc_symbol_ids
+pathway	id	source	gene
 Citalopram Pathway, Pharmacokinetics	PA164713429	PharmGKB	CYP3A4,CYP2C19,ABCB1,CYP2D6,SLC6A4
 Artemisinin and Derivatives Pathway, Pharmacokinetics	PA165378192	PharmGKB	UGT2B7,CYP2B6,CYP2A6,CYP3A4,CYP3A5,UGT1A9
 PKB-mediated events	R-HSA-109703	Reactome	AKT2,PDE3B

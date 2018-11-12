@@ -1,0 +1,57 @@
+---
+title: "Single GO term"
+author: "HBG"
+date: "11/12/2018"
+output: pdf_document
+---
+#NetBAS calculation based on a single GO term
+```{r}
+#Read the network
+network <- read.csv("../Data/human.pin.csv", colClasses = c("character", "character"))
+names(network) = c("geneA", "geneB")
+geneA <- network$geneA
+geneB <- network$geneB
+go.category <- c("GO:0005049") #a single GO term
+
+go.file <- read.csv("../Data/human.all.go.csv", header=T, stringsAsFactors=F)
+go.orf <- go.file$gene
+go.id <- go.file$goid
+genes.list <- go.orf[which(go.id %in% go.category)]
+
+panc.file <- read.csv("../rnf43.csv",header=TRUE,stringsAsFactors=F)
+panc.gene <- panc.file$gene
+panc.z <- panc.file$zPanc_vs_other
+
+gene.list <- panc.gene[which(panc.z > 2)]
+background.list <- panc.gene[which(panc.z <=2)]
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+
+bgA <- geneB[which(geneA %in% background.list)]
+bgB <- geneA[which(geneB %in% background.list)]
+bg.all <- c(bgA, bgB)
+
+
+gl.count <- length(which(gl.all %in% genes.list))
+#bg.count <- length(which(bg.all %in% genes.list))
+
+gl.perm.count <- c()
+
+for (p in 1:100) {
+permutation.file <- paste("../ms02star/human/", "ms02.", p, ".csv", sep="")
+permutation <- read.csv(permutation.file, header=T, stringsAsFactors = F)
+geneA <- permutation$id1
+geneB <- permutation$id2
+
+gl.perm.A <- geneB[which(geneA %in% gene.list)]
+gl.perm.B <- geneA[which(geneB %in% gene.list)]
+gl.perm.all <- c(gl.perm.A, gl.perm.B)
+gl.count.2 <- length(which(gl.perm.all %in% genes.list))
+gl.perm.count <- rbind(gl.perm.count, gl.count.2)
+}
+
+z <- (gl.count - mean(gl.perm.count))/sd(gl.perm.count)
+z
+
+```

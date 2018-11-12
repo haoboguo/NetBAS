@@ -6,7 +6,7 @@ GO:0005524	ATP binding	8.8E-4	3.129	10.718
 GO:0017147	Wnt-protein binding	0.0028	2.776	12.286
 GO:0044212	transcription regulatory region DNA binding	0.0081	2.404	4.533
 GO:0003713	transcription coactivator activity	0.0085	2.388	7.432
-GO:0005049	nuclear export signal receptor activity	0.0094	2.347	NA
+GO:0005049	nuclear export signal receptor activity	0.0094	2.347	0.363
 GO:0042802	identical protein binding	0.0096	2.340	6.647
 GO:0042803	protein homodimerization activity	0.014	2.211	6.958
 GO:0005109	frizzled binding	NA	NA	15.947

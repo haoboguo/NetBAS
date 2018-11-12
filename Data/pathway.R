@@ -10,11 +10,11 @@ pair <- c("Source", "Pathway", "Gene")
 
 for (i in 1:length(pathway)) {
   path <- as.character(pathway[i])
-  as.character(reso <- resource[i])
+  reso <- as.character(resource[i])
   gene.expand <- as.character(unlist(strsplit(as.character(gene[i]), ",")))
      for (j in 1:length(gene.expand)) {
         pair <- rbind(pair, c(reso, path, gene.expand[j]))
   }
 }
 
-write.table(pair, file="human.pathway.csv", sep=",", row.names = F, col.names=F, quote=F)
+write.table(pair, file="human.pathway.csv", sep="\t", row.names = F, col.names=F, quote=F)

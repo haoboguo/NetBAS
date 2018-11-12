@@ -11,7 +11,7 @@ network <- read.csv("../Data/human.pin.csv", colClasses = c("character", "charac
 names(network) = c("geneA", "geneB")
 geneA <- network$geneA
 geneB <- network$geneB
-go.category <- c("GO:0005049") #a single GO term
+go.category <- c("GO:0043234") #a single GO term
 
 go.file <- read.csv("../Data/human.all.go.csv", header=T, stringsAsFactors=F)
 go.orf <- go.file$gene

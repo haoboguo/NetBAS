@@ -6,7 +6,7 @@ GO:0005739	mitochondrion	2.6E-4	3.467	8.592
 GO:0005783	endoplasmic reticulum	0.0017	2.934	5.147
 GO:0005789	endoplasmic reticulum membrane	0.0057	2.533	6.017
 GO:0043231	intracellular membrane-bounded organelle	0.0083	2.394	6.444
-GO:1990909	Wnt signalosome	0.017	2.123	NA
+GO:1990909	Wnt signalosome	0.017	2.123	7.422
 GO:0016020	membrane	0.019	2.076	6.444
 GO:0043234	protein complex	0.022	2.012	NA
 GO:0070062	extracellular exosome	0.024	1.985	13.938

@@ -17,4 +17,4 @@ for (i in 1:length(pathway)) {
   }
 }
 
-write.table(pair, file="human.pathway.csv", sep="\t", row.names = F, col.names=F, quote=F)
+write.table(pair, file="human.pathway.csv", sep="\t", row.names = F, col.names=F, quote=T)

@@ -1,17 +1,8 @@
-GO.ID	GO.Term	Z-score	Background
-GO:0005840	ribosome	-5.258	-11.685
-GO:0042788	polysomal ribosome	-5.518	-15.905
-GO:0032040	small-subunit processome	-5.726	-12.5
+GO.ID	GO.Term	PANC17	Background
 GO:0046540	U4/U6 x U5 tri-snRNP complex	-6.188	1.379
-GO:0005730	nucleolus	-6.195	-13.522
-GO:0022627	cytosolic small ribosomal subunit	-6.303	-18.042
 GO:0016607	nuclear speck	-6.766	5.215
 GO:0005887	integral component of plasma membrane	-6.994	22.597
-GO:0005747	mitochondrial respiratory chain complex I	-7.051	-7.126
-GO:0000786	nucleosome	-7.537	-6.601
 GO:0005689	U12-type spliceosomal complex	-7.749	1.578
-GO:0035145	exon-exon junction complex	-7.822	-6.296
-GO:0022625	cytosolic large ribosomal subunit	-8.48	-21.588
 GO:0071007	U2-type catalytic step 2 spliceosome	-8.79	3.846
 GO:0005681	spliceosomal complex	-10.953	4.848
 GO:0071013	catalytic step 2 spliceosome	-15.544	3.609

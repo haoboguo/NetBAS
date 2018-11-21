@@ -1,11 +1,8 @@
-GO.ID	GO.Term	Z-score	Background
-GO:0019843	rRNA binding	-5.091	-13.918
+GO.ID	GO.Term	PANC17	Background
 GO:0005184	neuropeptide hormone activity	-5.289	6.653
 GO:0005179	hormone activity	-5.354	9.2
-GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	-5.356	-5.817
 GO:0004842	ubiquitin-protein transferase activity	-5.415	5.227
 GO:0042923	neuropeptide binding	-5.541	4.641
-GO:0017056	structural constituent of nuclear pore	-5.64	-5.173
 GO:0008528	G protein-coupled peptide receptor activity	-5.642	9.464
 GO:0003727	single-stranded RNA binding	-5.647	0.13
 GO:0017046	peptide hormone binding	-5.8	11.129
@@ -15,11 +12,6 @@ GO:0003729	mRNA binding	-6.518	-3.761
 GO:0030594	neurotransmitter receptor activity	-6.527	7.261
 GO:0016493	C-C chemokine receptor activity	-6.932	3.846
 GO:0019956	chemokine binding	-6.973	3.877
-GO:0008137	NADH dehydrogenase (ubiquinone) activity	-7.429	-6.824
 GO:0008009	chemokine activity	-7.533	5.775
-GO:0046872	metal ion binding	-8.414	-13.711
-GO:0003735	structural constituent of ribosome	-8.425	-22.542
 GO:0033038	bitter taste receptor activity	-8.653	5.677
-GO:0003677	DNA binding	-11.491	-9.488
 GO:0004930	G protein-coupled receptor activity	-14.432	10.265
-GO:0003723	RNA binding	-14.629	-16.097

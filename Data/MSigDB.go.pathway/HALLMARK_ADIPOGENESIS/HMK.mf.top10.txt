@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008137"	"NADH dehydrogenase (ubiquinone) activity"	"18.01"	"0.014512588262461563"
+"GO:0004129"	"cytochrome-c oxidase activity"	"15.36"	"0.04046148228336384"
+"GO:0004332"	"fructose-bisphosphate aldolase activity"	"14.398"	NA
+"GO:0008121"	"ubiquinol-cytochrome-c reductase activity"	"13.923"	"1.3540632503639594E-4"
+"GO:0009055"	"electron carrier activity"	"13.446"	"1.475225361880843E-13"
+"GO:0051082"	"unfolded protein binding"	"11.813"	NA
+"GO:0005525"	"GTP binding"	"11.777"	NA
+"GO:0030170"	"pyridoxal phosphate binding"	"11.386"	NA
+"GO:0003954"	"NADH dehydrogenase activity"	"11.144"	"0.014512588262461563"
+"GO:0061609"	"fructose-1-phosphate aldolase activity"	"10.701"	NA

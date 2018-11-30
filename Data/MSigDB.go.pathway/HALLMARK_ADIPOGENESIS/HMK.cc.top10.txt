@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005739"	"mitochondrion"	"26.675"	"6.545746311358664E-32"
+"GO:0005759"	"mitochondrial matrix"	"25.948"	"4.455184275701134E-14"
+"GO:0005743"	"mitochondrial inner membrane"	"21.602"	"2.0558822496051923E-26"
+"GO:0005747"	"mitochondrial respiratory chain complex I"	"18.954"	"0.014260378778717223"
+"GO:0005751"	"mitochondrial respiratory chain complex IV"	"16.522"	NA
+"GO:0070062"	"extracellular exosome"	"15.986"	8.316818166755048E-13
+"GO:0043209"	"myelin sheath"	"15.674"	"2.063867943204694E-6"
+"GO:0005750"	"mitochondrial respiratory chain complex III"	"15.17"	"2.9084492388474E-4"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"12.837"	NA
+"GO:0005758"	"mitochondrial intermembrane space"	"11.7"	"0.001158857059950851"

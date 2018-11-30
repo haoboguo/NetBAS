@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Parkinson's disease"	"23.029"	"3.7806576052790044E-7"
+"Oxidative phosphorylation"	"22.952"	"1.6666461869586632E-7"
+"Alzheimer's disease"	"18.985"	"8.516529212185684E-8"
+"Glycolysis / Gluconeogenesis"	"16.609"	"0.008453690057926878"
+"Thermogenesis"	"16.448"	NA
+"Non-alcoholic fatty liver disease (NAFLD)"	"15.334"	"1.8584815733553913E-8"
+"Citrate cycle (TCA cycle)"	"15.266"	"2.887014626734238E-12"
+"Huntington's disease"	"15.249"	"5.408558613635607E-7"
+"Fructose and mannose metabolism"	"12.499"	NA
+"Pyruvate metabolism"	"12.331"	"0.006575610355881105"

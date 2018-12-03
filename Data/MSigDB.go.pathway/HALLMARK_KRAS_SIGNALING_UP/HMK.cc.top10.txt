@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"22.03"	"5.872126540719913E-5"
+"GO:0005576"	"extracellular region"	"15.716"	"1.82892567996429E-7"
+"GO:0005887"	"integral component of plasma membrane"	"15.6"	"1.3843188188965478E-4"
+"GO:0009897"	"external side of plasma membrane"	"15.14"	"0.014002937173398301"
+"GO:0005615"	"extracellular space"	"13.703"	"7.784502971250563E-13"
+"GO:0045121"	"membrane raft"	"10.869"	"0.008197498187172955"
+"GO:0009986"	"cell surface"	"10.309"	"1.3923380046149233E-5"
+"GO:0035631"	"CD40 receptor complex"	"9.195"	NA
+"GO:0097342"	"ripoptosome"	"9.116"	NA
+"GO:0043235"	"receptor complex"	"8.514"	"0.020811062538602678"

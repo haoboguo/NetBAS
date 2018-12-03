@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0002116"	"semaphorin receptor complex"	"30.842"	"0.019744788850359383"
+"GO:0034679"	"integrin alpha9-beta1 complex"	"15.772"	NA
+"GO:0016533"	"cyclin-dependent protein kinase 5 holoenzyme complex"	"12.504"	NA
+"GO:0000836"	"Hrd1p ubiquitin ligase complex"	"12.491"	NA
+"GO:0097058"	"CRLF-CLCF1 complex"	"12.167"	NA
+"GO:0005667"	"transcription factor complex"	"11.938"	NA
+"GO:0016513"	"core-binding factor complex"	"11.158"	NA
+"GO:0005886"	"plasma membrane"	"11.146"	"0.003914155480350469"
+"GO:0035868"	"alphav-beta3 integrin-HMGB1 complex"	"11.014"	NA
+"GO:0043235"	"receptor complex"	"10.751"	"0.0027927258441718603"

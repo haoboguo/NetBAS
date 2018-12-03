@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Ribosome biogenesis in eukaryotes"	"35.618"	"6.406985711835426E-6"
+"Systemic lupus erythematosus"	"20.239"	NA
+"Alcoholism"	"14.564"	NA
+"Necroptosis"	"9.904"	NA
+"Ribosome"	"9.829"	NA
+"RNA degradation"	"9.282"	NA
+"RNA transport"	"8.643"	NA
+"Glycolysis / Gluconeogenesis"	"7.563"	NA
+"Pathogenic Escherichia coli infection"	"7.504"	NA
+"Amino sugar and nucleotide sugar metabolism"	"7.246"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0016999"	"antibiotic metabolic process"	"22.327"	NA
+"GO:0042843"	"D-xylose catabolic process"	"22.327"	NA
+"GO:0072340"	"cellular lactam catabolic process"	"22.327"	NA
+"GO:0015727"	"lactate transport"	"15.772"	NA
+"GO:0060748"	"tertiary branching involved in mammary gland duct morphogenesis"	"13.983"	NA
+"GO:0045720"	"negative regulation of integrin biosynthetic process"	"13.16"	NA
+"GO:0019102"	"male somatic sex determination"	"13.15"	NA
+"GO:0060520"	"activation of prostate induction by androgen receptor signaling pathway"	"13.15"	NA
+"GO:0048638"	"regulation of developmental growth"	"12.899"	NA
+"GO:0045726"	"positive regulation of integrin biosynthetic process"	"12.562"	NA

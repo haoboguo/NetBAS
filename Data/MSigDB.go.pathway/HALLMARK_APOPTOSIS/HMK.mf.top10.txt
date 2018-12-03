@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0097383"	"dIDP diphosphatase activity"	"31.591"	NA
+"GO:1901640"	"XTP binding"	"31.591"	NA
+"GO:1901641"	"ITP binding"	"31.591"	NA
+"GO:1990003"	"IDP phosphatase activity"	"31.591"	NA
+"GO:0097153"	"cysteine-type endopeptidase activity involved in apoptotic process"	"28.141"	"2.566829260029406E-13"
+"GO:0097199"	"cysteine-type endopeptidase activity involved in apoptotic signaling pathway"	"24.158"	NA
+"GO:0005123"	"death receptor binding"	"22.373"	"4.759678159395691E-7"
+"GO:0051434"	"BH3 domain binding"	"19.451"	4.965581674409381E-4
+"GO:0097200"	"cysteine-type endopeptidase activity involved in execution phase of apoptosis"	"17.655"	"2.4978747213825857E-4"
+"GO:0035877"	"death effector domain binding"	"17.326"	NA

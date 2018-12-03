@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"31.386"	"8.496201109107714E-8"
+"GO:0043235"	"receptor complex"	"17.032"	"1.8333671795419977E-7"
+"GO:0009986"	"cell surface"	"15.857"	"2.0588176024455485E-4"
+"GO:0031012"	"extracellular matrix"	"15.774"	"1.1002211223551566E-5"
+"GO:0005887"	"integral component of plasma membrane"	"15.408"	"1.9155888716717928E-4"
+"GO:0005942"	"phosphatidylinositol 3-kinase complex"	"15.134"	NA
+"GO:0043005"	"neuron projection"	"14.894"	"1.1293507920738169E-4"
+"GO:0005911"	"cell-cell junction"	"14.555"	"0.00939066720239384"
+"GO:0005901"	"caveola"	"14.202"	"1.820814663063669E-5"
+"GO:0005938"	"cell cortex"	"13.978"	NA

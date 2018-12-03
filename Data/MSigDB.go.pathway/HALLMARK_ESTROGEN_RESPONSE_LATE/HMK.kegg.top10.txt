@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Cytokine-cytokine receptor interaction"	"23.184"	NA
+"Jak-STAT signaling pathway"	"22.194"	"0.03171315422663592"
+"Pathways in cancer"	"17.798"	NA
+"PI3K-Akt signaling pathway"	"15.005"	NA
+"Hepatitis B"	"14.79"	"0.08979402117401433"
+"Human papillomavirus infection"	"13.324"	NA
+"MicroRNAs in cancer"	"12.532"	NA
+"Kaposi,s sarcoma-associated herpesvirus infection"	"12.32"	NA
+"Non-small cell lung cancer"	"12.234"	NA
+"Neuroactive ligand-receptor interaction"	"12.093"	NA

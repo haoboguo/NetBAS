@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0002323"	"natural killer cell activation involved in immune response"	"58.317"	NA
+"GO:0033141"	"positive regulation of peptidyl-serine phosphorylation of STAT protein"	"55.736"	NA
+"GO:0019221"	"cytokine-mediated signaling pathway"	"49.715"	"4.3422403813831145E-63"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"45.302"	NA
+"GO:0042531"	"positive regulation of tyrosine phosphorylation of STAT protein"	"43.449"	"1.3260195702895077E-5"
+"GO:0060337"	"type I interferon signaling pathway"	"39.946"	"1.8457761978896158E-6"
+"GO:0010469"	"regulation of receptor activity"	"39.759"	NA
+"GO:0006955"	"immune response"	"39.171"	"3.3763303152171824E-34"
+"GO:0006954"	"inflammatory response"	"38.287"	"1.209503234122887E-26"
+"GO:0007259"	"JAK-STAT cascade"	"37.519"	"5.0495718458813973E-11"

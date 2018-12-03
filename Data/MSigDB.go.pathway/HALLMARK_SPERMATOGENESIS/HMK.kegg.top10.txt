@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Glycolysis / Gluconeogenesis"	"9.722"	"0.020361851607056485"
+"Glycerophospholipid metabolism"	"8.561"	NA
+"Taste transduction"	"8.387"	NA
+"Oocyte meiosis"	"8.042"	"0.07222456661181595"
+"Progesterone-mediated oocyte maturation"	"7.539"	"0.006792747077511569"
+"Proteasome"	"7.279"	NA
+"Alcoholism"	"6.956"	NA
+"Pentose phosphate pathway"	"6.913"	NA
+"Cell cycle"	"6.83"	"0.0043440895589631524"
+"Thiamine metabolism"	"6.789"	NA

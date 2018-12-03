@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0070062"	"extracellular exosome"	"11.525"	"1.3200143936179822E-4"
+"GO:0005789"	"endoplasmic reticulum membrane"	"11.514"	"5.853308737535641E-7"
+"GO:0005576"	"extracellular region"	"10.519"	"0.012969470203750352"
+"GO:0005783"	"endoplasmic reticulum"	"10.346"	"1.574284614580334E-6"
+"GO:0016021"	"integral component of membrane"	"10.22"	NA
+"GO:0005788"	"endoplasmic reticulum lumen"	"10.005"	NA
+"GO:0009986"	"cell surface"	"9.326"	NA
+"GO:0005887"	"integral component of plasma membrane"	"8.182"	NA
+"GO:0005759"	"mitochondrial matrix"	"8.157"	NA
+"GO:0005886"	"plasma membrane"	"8.014"	0.007417152759451302

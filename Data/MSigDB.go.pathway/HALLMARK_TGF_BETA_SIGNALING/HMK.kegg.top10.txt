@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"TGF-beta signaling pathway"	"36.326"	"5.409158331861093E-27"
+"Hippo signaling pathway"	"25.44"	"4.672171589537889E-14"
+"Signaling pathways regulating pluripotency of stem cells"	"25.026"	"2.3347714375370796E-10"
+"Pathways in cancer"	"19.049"	"3.317283568453571E-4"
+"Gastric cancer"	"17.911"	NA
+"Wnt signaling pathway"	"17.35"	"0.04551280159546343"
+"Adherens junction"	"17.295"	"2.8391271717513195E-6"
+"Hepatocellular carcinoma"	"17.092"	NA
+"Colorectal cancer"	"16.525"	"2.6069324719547387E-5"
+"AGE-RAGE signaling pathway in diabetic complications"	"16.484"	NA

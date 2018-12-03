@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004252"	"serine-type endopeptidase activity"	"36.086"	"1.6435050722570752E-30"
+"GO:0003823"	"antigen binding"	"26.789"	NA
+"GO:0034987"	"immunoglobulin receptor binding"	"25.07"	NA
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"22.475"	"0.015077405028431788"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"20.718"	"7.043832328046264E-5"
+"GO:0004713"	"protein tyrosine kinase activity"	"18.796"	"0.016717855865291245"
+"GO:0004866"	"endopeptidase inhibitor activity"	"16.352"	"6.888635201764383E-7"
+"GO:0001784"	"phosphotyrosine binding"	"16.287"	NA
+"GO:0017124"	"SH3 domain binding"	"15.948"	"6.233330351965125E-5"
+"GO:0004888"	"transmembrane signaling receptor activity"	"15.818"	NA

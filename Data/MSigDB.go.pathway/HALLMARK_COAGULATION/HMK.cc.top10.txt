@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005576"	"extracellular region"	"45.398"	"7.594667670880335E-43"
+"GO:0062023"	NA	"43.759"	NA
+"GO:0031012"	"extracellular matrix"	"41.295"	"1.1454374212699158E-18"
+"GO:0005615"	"extracellular space"	"41.151"	"8.056295433278811E-54"
+"GO:0005788"	"endoplasmic reticulum lumen"	"33.13"	"1.7587528898495224E-5"
+"GO:0005886"	"plasma membrane"	"30.39"	"1.9749288060062117E-6"
+"GO:0005579"	"membrane attack complex"	"26.817"	"1.3019345793667638E-5"
+"GO:0031093"	"platelet alpha granule lumen"	"26.299"	"1.1884743510895918E-25"
+"GO:0009897"	"external side of plasma membrane"	"26.296"	"2.538364911939068E-7"
+"GO:0005604"	"basement membrane"	"25.879"	"6.577104983100973E-4"

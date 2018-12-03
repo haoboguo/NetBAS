@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0016121"	"carotene catabolic process"	"31.591"	NA
+"GO:0060070"	"canonical Wnt signaling pathway"	"26.152"	"7.640566629767001E-19"
+"GO:0000122"	"negative regulation of transcription from RNA polymerase II promoter"	"23.936"	"4.3491470951415565E-11"
+"GO:0045944"	"positive regulation of transcription from RNA polymerase II promoter"	"23.052"	"4.2690368185704366E-9"
+"GO:0045893"	"positive regulation of transcription, DNA-templated"	"22.587"	"1.3231240238285712E-13"
+"GO:0045892"	"negative regulation of transcription, DNA-templated"	"21.325"	"1.3727377948536392E-9"
+"GO:0090090"	"negative regulation of canonical Wnt signaling pathway"	"19.895"	"1.1290165828270342E-10"
+"GO:1904886"	"beta-catenin destruction complex disassembly"	"19.663"	"1.324987848839447E-9"
+"GO:0016055"	"Wnt signaling pathway"	"18.338"	"2.6272098082316756E-18"
+"GO:0030860"	"regulation of polarized epithelial cell differentiation"	"17.533"	NA

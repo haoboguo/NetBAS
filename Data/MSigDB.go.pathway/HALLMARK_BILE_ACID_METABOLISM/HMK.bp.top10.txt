@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0042738"	"exogenous drug catabolic process"	"40.115"	NA
+"GO:0006082"	"organic acid metabolic process"	"37.184"	"3.924384130837409E-29"
+"GO:0016125"	"sterol metabolic process"	"37.145"	"5.08704845516094E-21"
+"GO:0019373"	"epoxygenase P450 pathway"	"36.647"	NA
+"GO:0016558"	"protein import into peroxisome matrix"	"33.115"	"9.61443740730632E-11"
+"GO:1901094"	"negative regulation of protein homotetramerization"	"30.841"	NA
+"GO:0016560"	"protein import into peroxisome matrix, docking"	"30.811"	NA
+"GO:0055114"	"oxidation-reduction process"	"29.976"	"7.364485832790137E-30"
+"GO:0006805"	"xenobiotic metabolic process"	"28.462"	"0.003557212603257504"
+"GO:0007031"	"peroxisome organization"	"27.798"	"1.1477151597762828E-18"

@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Cytokine-cytokine receptor interaction"	"21.951"	NA
+"Focal adhesion"	"21.212"	"5.546428396062406E-7"
+"ECM-receptor interaction"	"20.528"	"0.004117193689148742"
+"Chemokine signaling pathway"	"20.482"	"0.032031431345716926"
+"Neuroactive ligand-receptor interaction"	"18.766"	NA
+"Axon guidance"	"18.195"	NA
+"Rap1 signaling pathway"	"17.501"	NA
+"Taste transduction"	"16.315"	NA
+"Regulation of actin cytoskeleton"	"15.366"	"0.007444274196051286"
+"Phospholipase D signaling pathway"	"14.215"	NA

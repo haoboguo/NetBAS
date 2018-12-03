@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Olfactory transduction"	"33.228"	NA
+"Ras signaling pathway"	"30.423"	"2.420420188890738E-15"
+"MAPK signaling pathway"	"29.43"	"2.4235578455651374E-17"
+"PI3K-Akt signaling pathway"	"26.933"	"8.045392923571093E-15"
+"Rap1 signaling pathway"	"24.68"	"5.083276201804584E-11"
+"Regulation of actin cytoskeleton"	"23.904"	"2.4606891546942583E-8"
+"Pathways in cancer"	"22.853"	"3.882011241325299E-16"
+"Jak-STAT signaling pathway"	"22.824"	"0.015518838195463014"
+"Neurotrophin signaling pathway"	"22.661"	"9.210147335571549E-17"
+"Toll-like receptor signaling pathway"	"22.606"	"1.826456635672671E-9"

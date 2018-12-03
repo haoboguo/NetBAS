@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Complement and coagulation cascades"	"62.947"	"1.2933837265656824E-55"
+"ECM-receptor interaction"	"42.66"	"1.8221721455059182E-4"
+"Focal adhesion"	"25.56"	"0.002056620777099125"
+"Staphylococcus aureus infection"	"24.414"	NA
+"Neuroactive ligand-receptor interaction"	"21.182"	NA
+"Protein digestion and absorption"	"19.1"	NA
+"Amoebiasis"	"17.914"	"0.015314094109584075"
+"Malaria"	"17.449"	"0.029752514605444307"
+"Regulation of actin cytoskeleton"	"16.961"	"0.025632912451738835"
+"Proteoglycans in cancer"	"15.85"	"0.00619939311831203"

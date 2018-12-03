@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0048179"	"activin receptor complex"	"31.445"	NA
+"GO:0005667"	"transcription factor complex"	"24.584"	"1.822057625237315E-7"
+"GO:0071141"	"SMAD protein complex"	"24.072"	"0.022174214081424556"
+"GO:0034673"	"inhibin-betaglycan-ActRII complex"	"21.241"	NA
+"GO:0070022"	"transforming growth factor beta receptor homodimeric complex"	"18.309"	"0.011148041365498861"
+"GO:0016342"	"catenin complex"	"17.244"	"1.713971686651951E-6"
+"GO:0070724"	"BMP receptor complex"	"16.161"	NA
+"GO:0043235"	"receptor complex"	"15.971"	"0.002184460519321202"
+"GO:1990718"	"axonemal central pair projection"	"15.772"	NA
+"GO:0071144"	"SMAD2-SMAD3 protein complex"	"15.646"	NA

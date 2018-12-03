@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Cell cycle"	"35.262"	"2.102107903607423E-44"
+"Homologous recombination"	"21.003"	"0.08398222191812302"
+"DNA replication"	"19.291"	"1.6986442492756838E-6"
+"Fanconi anemia pathway"	"18.906"	NA
+"p53 signaling pathway"	"17.88"	"0.025357943841534218"
+"Oocyte meiosis"	"15.187"	"2.626317562670792E-7"
+"Progesterone-mediated oocyte maturation"	"15.122"	"1.282649142754994E-5"
+"Mismatch repair"	"15.029"	NA
+"Cellular senescence"	"14.16"	NA
+"Nucleotide excision repair"	"13.535"	"0.007603535499826851"

@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Focal adhesion"	"24.283"	"8.125094091899597E-11"
+"Pathways in cancer"	"23.233"	"7.814309820770696E-9"
+"Axon guidance"	"23.113"	NA
+"Proteoglycans in cancer"	"21.499"	"2.113440075663912E-6"
+"Rap1 signaling pathway"	"20.502"	"9.034335716776083E-9"
+"Ras signaling pathway"	"20.416"	"9.640988007898924E-4"
+"ErbB signaling pathway"	"20.239"	"4.263037776540665E-4"
+"Jak-STAT signaling pathway"	"19.806"	"0.08182024757188947"
+"Hepatocellular carcinoma"	"18.603"	NA
+"MicroRNAs in cancer"	"18.582"	"3.117201120055378E-6"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0036403"	"arachidonate 8(S)-lipoxygenase activity"	"14.1"	NA
+"GO:0001735"	"prenylcysteine oxidase activity"	"12.411"	NA
+"GO:0000248"	"C-5 sterol desaturase activity"	"12.109"	NA
+"GO:0016250"	"N-sulfoglucosamine sulfohydrolase activity"	"11.543"	NA
+"GO:0004063"	"aryldialkylphosphatase activity"	"11.13"	NA
+"GO:0008496"	"mannan endo-1,6-alpha-mannosidase activity"	"11.13"	NA
+"GO:0004016"	"adenylate cyclase activity"	"10.507"	NA
+"GO:0050613"	"delta14-sterol reductase activity"	"10.053"	NA
+"GO:0016936"	"galactoside binding"	"9.696"	NA
+"GO:0005506"    "iron ion binding"      "9.695"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005484"	"SNAP receptor activity"	"53.439"	"4.757262747859521E-13"
+"GO:0000149"	"SNARE binding"	"44.318"	"5.8783756795557955E-15"
+"GO:0019905"	"syntaxin binding"	"42.595"	"5.609980573083258E-11"
+"GO:0030276"	"clathrin binding"	"25.693"	"3.0233038149859306E-5"
+"GO:0035615"	"clathrin adaptor activity"	"23.631"	"0.0012575006611109483"
+"GO:0003777"	"microtubule motor activity"	"20.973"	NA
+"GO:0019869"	"chloride channel inhibitor activity"	"20.748"	NA
+"GO:0032395"	"MHC class II receptor activity"	"20.07"	NA
+"GO:0017112"	"Rab guanyl-nucleotide exchange factor activity"	"19.463"	NA
+"GO:0042605"	"peptide antigen binding"	"18.821"	NA

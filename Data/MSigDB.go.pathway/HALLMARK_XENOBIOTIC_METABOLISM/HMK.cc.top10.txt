@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0031090"	"organelle membrane"	"53.678"	"9.650974628610909E-5"
+"GO:0005789"	"endoplasmic reticulum membrane"	"23.992"	"6.677770019534397E-8"
+"GO:0005759"	"mitochondrial matrix"	"21.431"	"1.233717295019584E-5"
+"GO:0070062"	"extracellular exosome"	"21.417"	"7.582271890177352E-14"
+"GO:0005739"	"mitochondrion"	"17.48"	"1.7693532579896447E-8"
+"GO:0005737"	"cytoplasm"	"14.849"	"1.8442171665592435E-14"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"14.4"	NA
+"GO:0043209"	"myelin sheath"	"13.812"	NA
+"GO:0072562"	"blood microparticle"	"13.36"	"2.3901687823815737E-4"
+"GO:0034774"	"secretory granule lumen"	"12.03"	"3.03913413638061E-4"

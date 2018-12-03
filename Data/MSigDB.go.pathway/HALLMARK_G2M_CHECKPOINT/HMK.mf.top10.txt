@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0017060"	"3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase activity"	"31.591"	NA
+"GO:0004693"	"cyclin-dependent protein serine/threonine kinase activity"	"23.088"	"0.05536436726805469"
+"GO:0003682"	"chromatin binding"	"21.493"	"1.5475405241314453E-16"
+"GO:0005302"	"L-tyrosine transmembrane transporter activity"	"18.221"	NA
+"GO:0047277"	"globoside alpha-N-acetylgalactosaminyltransferase activity"	"18.221"	NA
+"GO:0016538"	"cyclin-dependent protein serine/threonine kinase regulator activity"	"18.166"	"4.4281405896793217E-7"
+"GO:0003684"	"damaged DNA binding"	"17.725"	"0.03360374600970909"
+"GO:0003690"	"double-stranded DNA binding"	"17.493"	"1.1690784951209194E-5"
+"GO:0043515"	"kinetochore binding"	"17.45"	NA
+"GO:0051010"	"microtubule plus-end binding"	"17.2"	NA

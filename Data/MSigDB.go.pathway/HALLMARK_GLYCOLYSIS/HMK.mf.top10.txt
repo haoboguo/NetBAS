@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008146"	"sulfotransferase activity"	"40.619"	"1.330006146233217E-7"
+"GO:0008467"	"[heparan sulfate]-glucosamine 3-sulfotransferase 1 activity"	"33.752"	NA
+"GO:0005362"	"low-affinity glucose:sodium symporter activity"	"31.591"	NA
+"GO:0004062"	"aryl sulfotransferase activity"	"26.258"	NA
+"GO:0030021"	"extracellular matrix structural constituent conferring compression resistance"	"22.774"	NA
+"GO:0005524"	"ATP binding"	"22.739"	"0.03108295289119795"
+"GO:0015018"	"galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity"	"21.156"	"0.03356284748893195"
+"GO:0017095"	"heparan sulfate 6-O-sulfotransferase activity"	"20.281"	NA
+"GO:0015016"	"[heparan sulfate]-glucosamine N-sulfotransferase activity"	"20.04"	NA
+"GO:0030170"	"pyridoxal phosphate binding"	"19.943"	"0.003930433782197486"

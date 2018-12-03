@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003723"	"RNA binding"	"23.744"	"3.9781302392741296E-66"
+"GO:0003729"	"mRNA binding"	"22.515"	"1.0258467237558826E-14"
+"GO:0003743"	"translation initiation factor activity"	"19.589"	"1.410825508271096E-9"
+"GO:0036002"	"pre-mRNA binding"	"15.656"	"0.004134459154356595"
+"GO:0003730"	"mRNA 3'-UTR binding"	"15.489"	"2.4870968947056183E-5"
+"GO:0003735"	"structural constituent of ribosome"	"15.365"	"2.2397317537424974E-7"
+"GO:0098782"	"mechanically-gated potassium channel activity"	"14.1"	NA
+"GO:0017070"	"U6 snRNA binding"	"13.959"	NA
+"GO:0000339"	"RNA cap binding"	"13.884"	"1.4249724980394032E-5"
+"GO:0043021"	"ribonucleoprotein complex binding"	"13.593"	"2.965910273476294E-11"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000768"	"syncytium formation by plasma membrane fusion"	"25.807"	NA
+"GO:2000609"	"regulation of thyroid hormone generation"	"22.327"	NA
+"GO:0002818"	"intracellular defense response"	"15.772"	NA
+"GO:0018191"	"peptidyl-serine octanoylation"	"15.772"	NA
+"GO:0045062"	"extrathymic T cell selection"	"14.719"	NA
+"GO:0048013"	"ephrin receptor signaling pathway"	"14.174"	"0.001332670432061729"
+"GO:0042404"	"thyroid hormone catabolic process"	"12.865"	NA
+"GO:1903621"	"protein localization to photoreceptor connecting cilium"	"12.398"	NA
+"GO:0097254"	"renal tubular secretion"	"11.13"	NA
+"GO:0001866"	"NK T cell proliferation"	"10.918"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0031259"	"uropod membrane"	"31.591"	NA
+"GO:0005759"	"mitochondrial matrix"	"13.386"	NA
+"GO:0070062"	"extracellular exosome"	"11.704"	"1.3176741923296744E-5"
+"GO:0005739"	"mitochondrion"	"10.325"	"7.278246880181721E-4"
+"GO:0043209"	"myelin sheath"	"8.849"	"0.015021347330644547"
+"GO:0005829"	"cytosol"	"7.76"	"6.618627762068389E-6"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"7.656"	NA
+"GO:0005737"	"cytoplasm"	"7.41"	"1.3867373593488284E-6"
+"GO:0016020"	"membrane"	"7.129"	"0.023557970539975284"
+"GO:0034774"	"secretory granule lumen"	"7.064"	NA

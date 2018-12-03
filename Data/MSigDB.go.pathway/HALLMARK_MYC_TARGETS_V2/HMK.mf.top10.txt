@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003723"	"RNA binding"	"22.212"	"7.464102934820537E-19"
+"GO:0030515"	"snoRNA binding"	"21.218"	"0.09037048090429908"
+"GO:0034511"	"U3 snoRNA binding"	"14.426"	NA
+"GO:0003834"	"beta-carotene 15,15'-monooxygenase activity"	"14.1"	NA
+"GO:0010436"	"carotenoid dioxygenase activity"	"14.1"	NA
+"GO:0005524"	"ATP binding"	"11.269"	"0.0026949856153808526"
+"GO:0003674"	"molecular_function"	"10.997"	NA
+"GO:0019843"	"rRNA binding"	"10.583"	"0.01739518795422564"
+"GO:0046982"	"protein heterodimerization activity"	"10.504"	NA
+"GO:0042134"	"rRNA primary transcript binding"	"9.863"	NA

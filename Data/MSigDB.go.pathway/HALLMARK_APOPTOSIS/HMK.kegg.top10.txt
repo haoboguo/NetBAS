@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Apoptosis - multiple species"	"34.192"	NA
+"Hepatitis B"	"29.849"	"2.6272036805300596E-11"
+"Pathways in cancer"	"29.473"	"1.245324123477216E-12"
+"TNF signaling pathway"	"26.252"	"1.6847191749969957E-6"
+"Apoptosis"	"26.148"	"2.461594010621662E-15"
+"Small cell lung cancer"	"22.999"	"8.900154607962165E-5"
+"AGE-RAGE signaling pathway in diabetic complications"	"22.567"	NA
+"NOD-like receptor signaling pathway"	"22.442"	"4.003721515991134E-5"
+"Toll-like receptor signaling pathway"	"21.473"	"0.0020917423196404007"
+"Pancreatic cancer"	"21.028"	"0.004788502107959644"

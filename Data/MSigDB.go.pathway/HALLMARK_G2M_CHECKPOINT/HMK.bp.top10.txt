@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0051301"	"cell division"	"41.826"	"5.763267531008319E-42"
+"GO:0006260"	"DNA replication"	"31.847"	"1.0479510504317338E-28"
+"GO:0043413"	"macromolecule glycosylation"	"31.591"	NA
+"GO:0006270"	"DNA replication initiation"	"25.991"	"3.1176383460688295E-17"
+"GO:0000070"	"mitotic sister chromatid segregation"	"25.76"	"4.4670842816404514E-33"
+"GO:0000083"	"regulation of transcription involved in G1/S transition of mitotic cell cycle"	"25.295"	"1.0741298728379957E-5"
+"GO:0007059"	"chromosome segregation"	"24.963"	"2.653340590667637E-37"
+"GO:0051382"	"kinetochore assembly"	"24.815"	"0.00756533151956673"
+"GO:0034080"	"CENP-A containing nucleosome assembly"	"24.731"	NA
+"GO:0051315"	"attachment of mitotic spindle microtubules to kinetochore"	"23.933"	"0.004218169584259825"

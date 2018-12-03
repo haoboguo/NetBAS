@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003735"	"structural constituent of ribosome"	"23.05"	NA
+"GO:0015254"	"glycerol channel activity"	"19.06"	NA
+"GO:0003947"	"(N-acetylneuraminyl)-galactosylglucosylceramide N-acetylgalactosaminyltransferase activity"	"18.221"	NA
+"GO:0017159"	"pantetheine hydrolase activity"	"18.221"	NA
+"GO:0004024"	"alcohol dehydrogenase activity, zinc-dependent"	"14.753"	NA
+"GO:0015152"	"glucose-6-phosphate transmembrane transporter activity"	"14.1"	NA
+"GO:0004613"	"phosphoenolpyruvate carboxykinase (GTP) activity"	"13.616"	NA
+"GO:0004474"	"malate synthase activity"	"11.904"	NA
+"GO:0005345"	"purine nucleobase transmembrane transporter activity"	"11.904"	NA
+"GO:0005350"	"pyrimidine nucleobase transmembrane transporter activity"	"11.904"	NA

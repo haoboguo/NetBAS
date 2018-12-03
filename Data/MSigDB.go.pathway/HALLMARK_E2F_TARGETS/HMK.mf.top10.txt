@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003684"	"damaged DNA binding"	"28.487"	"5.572950279381972E-15"
+"GO:0003697"	"single-stranded DNA binding"	"23.117"	"3.6653305488642926E-13"
+"GO:0003689"	"DNA clamp loader activity"	"21.422"	"7.077186761674226E-5"
+"GO:0003682"	"chromatin binding"	"21.224"	"9.817527333344473E-12"
+"GO:0043142"	"single-stranded DNA-dependent ATPase activity"	"21.075"	"0.007411496968870581"
+"GO:0008408"	"3'-5' exonuclease activity"	"20.965"	"2.3971739614635562E-4"
+"GO:0003887"	"DNA-directed DNA polymerase activity"	"20.369"	"6.350552152376334E-7"
+"GO:0003688"	"DNA replication origin binding"	"20.079"	"2.0349349998294977E-4"
+"GO:0043138"	"3'-5' DNA helicase activity"	"19.18"	NA
+"GO:0004003"	"ATP-dependent DNA helicase activity"	"19.077"	"3.3990446756295415E-6"

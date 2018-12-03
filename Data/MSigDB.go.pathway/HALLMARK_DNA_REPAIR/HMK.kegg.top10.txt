@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Nucleotide excision repair"	"77.438"	"2.0642495093536507E-33"
+"Basal transcription factors"	"67.095"	"4.336618342365076E-12"
+"Pyrimidine metabolism"	"47.736"	"5.114369953939463E-37"
+"RNA polymerase"	"46.512"	"1.8810596810294502E-17"
+"Mismatch repair"	"43.533"	"1.0010328143452649E-12"
+"Purine metabolism"	"43.371"	"1.7916274169932269E-40"
+"DNA replication"	"41.895"	"3.1059191856037744E-18"
+"Base excision repair"	"41.196"	"1.896136567460369E-9"
+"Spliceosome"	"39.717"	NA
+"Fanconi anemia pathway"	"34.44"	"2.2098713377952234E-4"

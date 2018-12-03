@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005730"	"nucleolus"	"36.847"	"4.160549507707643E-25"
+"GO:0032040"	"small-subunit processome"	"35.352"	"3.899753439597484E-6"
+"GO:0030687"	"preribosome, large subunit precursor"	"23.435"	"3.067085508232914E-8"
+"GO:0000786"	"nucleosome"	"22.238"	NA
+"GO:0030686"	"90S preribosome"	"17.627"	"2.0645427248835683E-6"
+"GO:0030688"	"preribosome, small subunit precursor"	"15.923"	"0.027324257684257964"
+"GO:0031428"	"box C/D snoRNP complex"	"15.152"	NA
+"GO:0034388"	"Pwp2p-containing subcomplex of 90S preribosome"	"13.633"	NA
+"GO:0034455"	"t-UTP complex"	"13.119"	NA
+"GO:0000788"	"nuclear nucleosome"	"12.274"	NA

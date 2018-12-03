@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"p53 signaling pathway"	"19.611"	"2.18493957268622E-21"
+"Pathways in cancer"	"18.31"	"5.113935944408464E-6"
+"Cell cycle"	"18.283"	"1.1694117839821223E-5"
+"Hepatitis B"	"17.954"	"5.0966980216920856E-5"
+"Pancreatic cancer"	"17.647"	"0.005913853043307812"
+"Chronic myeloid leukemia"	"17.41"	"0.0017248366369395235"
+"Cellular senescence"	"16.128"	NA
+"MicroRNAs in cancer"	"15.975"	"4.437653788835756E-5"
+"FoxO signaling pathway"	"15.846"	"1.3010694505753023E-4"
+"Colorectal cancer"	"15.807"	"0.004833641530817884"

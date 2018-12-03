@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Fanconi anemia pathway"	"36.701"	"9.517364578035119E-8"
+"Homologous recombination"	"34.19"	"8.475449403918897E-12"
+"Cell cycle"	"32.522"	"4.365157704495026E-33"
+"DNA replication"	"31.647"	"6.208864061390025E-30"
+"Mismatch repair"	"26.752"	"1.472110113921348E-18"
+"Nucleotide excision repair"	"24.223"	"3.556255225706637E-12"
+"Base excision repair"	"20.634"	"5.538654092565575E-7"
+"p53 signaling pathway"	"19.036"	"6.419922806502075E-8"
+"Systemic lupus erythematosus"	"16.418"	NA
+"Cellular senescence"	"13.681"	NA

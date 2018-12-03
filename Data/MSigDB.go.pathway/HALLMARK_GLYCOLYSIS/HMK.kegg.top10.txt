@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Glycosaminoglycan biosynthesis - heparan sulfate / heparin"	"50.951"	"4.979455503230529E-10"
+"Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"	"32.497"	"4.0774405687868315E-5"
+"Glycolysis / Gluconeogenesis"	"28.483"	"5.167381112753952E-16"
+"Pyruvate metabolism"	"21.925"	"7.880072470819335E-8"
+"Citrate cycle (TCA cycle)"	"20.26"	"3.177651724084468E-4"
+"Starch and sucrose metabolism"	"19.055"	"3.5824264099792596E-6"
+"Cysteine and methionine metabolism"	"18.822"	"1.0721128804958435E-4"
+"Glycine, serine and threonine metabolism"	"18.449"	"0.007976917454234915"
+"Propanoate metabolism"	"18.112"	NA
+"Aminoacyl-tRNA biosynthesis"	"17.933"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000777"	"condensed chromosome kinetochore"	"45.133"	"4.7030308881862235E-11"
+"GO:0000776"	"kinetochore"	"31.814"	"4.796120232241332E-13"
+"GO:0000775"	"chromosome, centromeric region"	"31.418"	"1.5510615508909087E-24"
+"GO:0000784"	"nuclear chromosome, telomeric region"	"28.042"	"1.0185258849431396E-16"
+"GO:0035861"	"site of double-strand break"	"26.959"	"6.611070230682823E-7"
+"GO:0005694"	"chromosome"	"26.458"	"1.940298484004905E-74"
+"GO:0000785"	"chromatin"	"24.084"	"2.3448803435138036E-19"
+"GO:0031080"	"nuclear pore outer ring"	"23.039"	NA
+"GO:0008278"	"cohesin complex"	"23.021"	NA
+"GO:0000781"	"chromosome, telomeric region"	"22.981"	"8.16827820554533E-20"

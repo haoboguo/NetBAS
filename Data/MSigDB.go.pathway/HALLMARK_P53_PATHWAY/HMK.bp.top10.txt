@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0045893"	"positive regulation of transcription, DNA-templated"	"20.454"	"2.23377793899855E-6"
+"GO:0045944"	"positive regulation of transcription from RNA polymerase II promoter"	"20.411"	"1.6537551025395957E-6"
+"GO:0000122"	"negative regulation of transcription from RNA polymerase II promoter"	"18.294"	"3.3815886293005816E-6"
+"GO:0002818"	"intracellular defense response"	"18.221"	NA
+"GO:1901053"	"sarcosine catabolic process"	"18.221"	NA
+"GO:0046709"	"IDP catabolic process"	"16.048"	NA
+"GO:0045892"	"negative regulation of transcription, DNA-templated"	"15.915"	"3.0211505451148916E-6"
+"GO:0006974"	"cellular response to DNA damage stimulus"	"15.848"	"8.518784615450908E-13"
+"GO:0006977"	"DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest"	"14.169"	"1.5805246641294537E-9"
+"GO:0043066"	"negative regulation of apoptotic process"	"14.124"	"1.5161748301323593E-5"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005024"	"transforming growth factor beta-activated receptor activity"	"36.895"	"3.965118486261319E-4"
+"GO:0046332"	"SMAD binding"	"34.556"	"6.700141856296273E-29"
+"GO:0048185"	"activin binding"	"33.552"	"5.60659166445642E-6"
+"GO:0034713"	"type I transforming growth factor beta receptor binding"	"33.272"	"2.154446085795673E-6"
+"GO:0005160"	"transforming growth factor beta receptor binding"	"33.156"	"1.9034135339158146E-12"
+"GO:0070411"	"I-SMAD binding"	"31.8"	"9.376876746543526E-11"
+"GO:0016503"	"pheromone receptor activity"	"31.591"	NA
+"GO:0005026"	"transforming growth factor beta receptor activity, type II"	"29.761"	NA
+"GO:0019838"	"growth factor binding"	"28.741"	"2.300658591739997E-6"
+"GO:0004675"	"transmembrane receptor protein serine/threonine kinase activity"	"28.455"	"1.7081546413850103E-7"

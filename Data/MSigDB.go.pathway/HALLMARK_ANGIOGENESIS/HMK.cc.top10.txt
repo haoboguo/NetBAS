@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"23.62"	"0.005794794133713747"
+"GO:0005887"	"integral component of plasma membrane"	"22.874"	"0.0024442509802583504"
+"GO:0005576"	"extracellular region"	"18.604"	"6.034877927329028E-10"
+"GO:0031012"	"extracellular matrix"	"18.279"	"4.522880977578265E-6"
+"GO:1990512"	"Cry-Per complex"	"18.221"	NA
+"GO:0005615"	"extracellular space"	"17.15"	"8.83626793596704E-12"
+"GO:0009897"	"external side of plasma membrane"	"15.929"	NA
+"GO:0009986"	"cell surface"	"13.659"	"7.865960099686772E-6"
+"GO:0034358"	"plasma lipoprotein particle"	"12.865"	"0.07031109669732223"
+"GO:0043235"    "receptor complex"      "12.454"	"0.0031208250007474683"

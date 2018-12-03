@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005759"	"mitochondrial matrix"	"11.814"	NA
+"GO:0000777"	"condensed chromosome kinetochore"	"9.367"	NA
+"GO:0000775"	"chromosome, centromeric region"	"8.471"	"0.012211878219779081"
+"GO:0005813"	"centrosome"	"8.148"	"0.06922033333363917"
+"GO:0070062"	"extracellular exosome"	"8.104"	NA
+"GO:0005680"	"anaphase-promoting complex"	"8.014"	NA
+"GO:0000796"	"condensin complex"	"8.008"	NA
+"GO:0000786"	"nucleosome"	"7.923"	"0.04278354953809287"
+"GO:0000776"	"kinetochore"	"7.654"	"0.07107084245514333"
+"GO:0000502"	"proteasome complex"	"7.465"	NA

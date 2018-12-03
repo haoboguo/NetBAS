@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0042738"	"exogenous drug catabolic process"	"47.245"	NA
+"GO:0006082"	"organic acid metabolic process"	"44.93"	"1.8036979768929037E-50"
+"GO:0019373"	"epoxygenase P450 pathway"	"44.464"	"1.4449932750284315E-6"
+"GO:0055114"	"oxidation-reduction process"	"43.907"	"8.973753696696164E-30"
+"GO:0016125"	"sterol metabolic process"	"42.493"	"1.226462097293417E-4"
+"GO:0006805"	"xenobiotic metabolic process"	"40.364"	"2.064874504752587E-14"
+"GO:0008202"	"steroid metabolic process"	"33.235"	"3.1915020570857514E-9"
+"GO:0070989"	"oxidative demethylation"	"32.213"	NA
+"GO:0017144"	"drug metabolic process"	"31.884"	"4.6717438503945794E-5"
+"GO:0042737"	"drug catabolic process"	"31.833"	NA

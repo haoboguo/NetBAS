@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"19.441"	NA
+"GO:0006954"	"inflammatory response"	"16.975"	"1.6071446359021486E-9"
+"GO:0038095"	"Fc-epsilon receptor signaling pathway"	"16.164"	NA
+"GO:0046854"	"phosphatidylinositol phosphorylation"	"16.159"	"0.084367332124757"
+"GO:0006955"	"immune response"	"15.902"	"7.895956655206577E-8"
+"GO:0006935"	"chemotaxis"	"15.755"	"1.8079565460065668E-9"
+"GO:0050900"	"leukocyte migration"	"15.356"	"8.641253300206854E-7"
+"GO:0051897"	"positive regulation of protein kinase B signaling"	"15.295"	"0.06479805548773462"
+"GO:0050852"	"T cell receptor signaling pathway"	"15.263"	NA
+"GO:0018108"	"peptidyl-tyrosine phosphorylation"	"14.904"	"1.5355543730303066E-6"

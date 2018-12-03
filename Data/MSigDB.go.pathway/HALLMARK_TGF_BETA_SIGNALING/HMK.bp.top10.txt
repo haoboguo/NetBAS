@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0030509"	"BMP signaling pathway"	"42.652"	"1.302477864578306E-23"
+"GO:0007179"	"transforming growth factor beta receptor signaling pathway"	"34.961"	"7.140880811579757E-38"
+"GO:0032924"	"activin receptor signaling pathway"	"34.958"	"4.628616501030643E-6"
+"GO:0071773"	"cellular response to BMP stimulus"	"34.783"	"4.5484127416359793E-23"
+"GO:0060389"	"pathway-restricted SMAD protein phosphorylation"	"34.772"	"2.867174904288099E-17"
+"GO:0007389"	"pattern specification process"	"34.048"	"3.962879136148108E-10"
+"GO:0010862"	"positive regulation of pathway-restricted SMAD protein phosphorylation"	"32.412"	"1.0399662593142517E-10"
+"GO:0060118"	"vestibular receptor cell development"	"31.591"	NA
+"GO:0060300"	"regulation of cytokine activity"	"31.591"	NA
+"GO:0086065"	"cell communication involved in cardiac conduction"	"31.591"	NA

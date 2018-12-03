@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"RNA degradation"	"23.655"	"1.7578279423827545E-16"
+"Ribosome"	"22.618"	NA
+"Ribosome biogenesis in eukaryotes"	"18.027"	NA
+"RNA transport"	"13.152"	"1.5637542974067563E-4"
+"Protein processing in endoplasmic reticulum"	"11.138"	"5.960564880675389E-11"
+"Cysteine and methionine metabolism"	"8.255"	NA
+"mRNA surveillance pathway"	"8.027"	NA
+"Antigen processing and presentation"	"7.98"	NA
+"Amino sugar and nucleotide sugar metabolism"	"7.741"	NA
+"Phagosome"	"7.114"	NA

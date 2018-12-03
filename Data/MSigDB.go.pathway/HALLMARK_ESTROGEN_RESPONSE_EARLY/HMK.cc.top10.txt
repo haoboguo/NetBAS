@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005667"	"transcription factor complex"	"13.435"	NA
+"GO:0005886"	"plasma membrane"	"12.585"	"0.0012047801418584277"
+"GO:0005737"	"cytoplasm"	"12.445"	"0.013358296407438776"
+"GO:0016592"	"mediator complex"	"12.378"	NA
+"GO:0090575"	"RNA polymerase II transcription factor complex"	"12.344"	NA
+"GO:0000118"	"histone deacetylase complex"	"11.462"	NA
+"GO:0017053"	"transcriptional repressor complex"	"10.904"	NA
+"GO:0000790"	"nuclear chromatin"	"10.726"	"0.04700215738899595"
+"GO:0043235"	"receptor complex"	"10.132"	NA
+"GO:0005882"	"intermediate filament"	"9.576"	"0.0637189879296248"

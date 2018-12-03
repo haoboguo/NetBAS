@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Axon guidance"	"12.106"	"0.05173859653050653"
+"Jak-STAT signaling pathway"	"10.459"	NA
+"Fc epsilon RI signaling pathway"	"8.682"	NA
+"Phospholipase D signaling pathway"	"6.949"	NA
+"Natural killer cell mediated cytotoxicity"	"	6.919"	NA
+"Prolactin signaling pathway"	"6.868"	NA
+"Fc gamma R-mediated phagocytosis"	"6.591"	NA
+"Osteoclast differentiation"	"6.472"	NA
+"Chemokine signaling pathway"	"6.379"	NA
+"Glycosaminoglycan degradation"	"6.311"	NA

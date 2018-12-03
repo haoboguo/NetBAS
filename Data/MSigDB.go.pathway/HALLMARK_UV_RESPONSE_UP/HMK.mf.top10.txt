@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005524"	"ATP binding"	"14.451"	"0.014810880536314314"
+"GO:0019807"	"aspartoacylase activity"	"8.709"	NA
+"GO:0000287"	"magnesium ion binding"	"7.731"	NA
+"GO:0033754"	"indoleamine 2,3-dioxygenase activity"	"7.473"	NA
+"GO:0030170"	"pyridoxal phosphate binding"	"7.31"	NA
+"GO:0016887"	"ATPase activity"	"7.009"	NA
+"GO:0051287"	"NAD binding"	"6.987"	NA
+"GO:0051082"	"unfolded protein binding"	"6.764"	"0.07711549616397018"
+"GO:0046961"	"proton-transporting ATPase activity, rotational mechanism"	"6.458"	NA
+"GO:0031072"	"heat shock protein binding"	"6.347"	"0.0011908322333628394"

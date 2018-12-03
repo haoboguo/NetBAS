@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Steroid hormone biosynthesis"	"27.057"	"7.797558582903799E-4"
+"Peroxisome"	"26.108"	"2.912158026912544E-51"
+"Chemical carcinogenesis"	"22.025"	NA
+"Linoleic acid metabolism"	"22.002"	NA
+"Retinol metabolism"	"21.492"	NA
+"Metabolism of xenobiotics by cytochrome P450"	"21.017"	NA
+"Arachidonic acid metabolism"	"19.969"	NA
+"Drug metabolism - cytochrome P450"	"17.25"	NA
+"Primary bile acid biosynthesis"	"16.91"	"4.4747704190085645E-20"
+"Steroid biosynthesis"	"11.787"	NA

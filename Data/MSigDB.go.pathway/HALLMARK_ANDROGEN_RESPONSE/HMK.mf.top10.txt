@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0047837"	"D-xylose 1-dehydrogenase (NADP+) activity"	"22.327"	NA
+"GO:0070974"	"POU domain binding"	"13.15"	NA
+"GO:0004882"	"androgen receptor activity"	"12.636"	NA
+"GO:0005515"	"protein binding"	"11.831"	"6.626508118785931E-4"
+"GO:0001077"	"transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding"	"9.837"	NA
+"GO:0016298"	"lipase activity"	"9.399"	NA
+"GO:0000978"	"RNA polymerase II core promoter proximal region sequence-specific DNA binding"	"8.937"	NA
+"GO:0005497"	"androgen binding"	"8.758"	NA
+"GO:0008134"	"transcription factor binding"	"8.486"	NA
+"GO:0004465"	"lipoprotein lipase activity"	"8.436"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0019005"	"SCF ubiquitin ligase complex"	"12.122"	"0.09464702522854695"
+"GO:0000151"	"ubiquitin ligase complex"	"10.185"	"0.03078040189470169"
+"GO:0031838"	"haptoglobin-hemoglobin complex"	"10.032"	NA
+"GO:0005833"	"hemoglobin complex"	"9.512"	"4.775199289713932E-6"
+"GO:0030665"	"clathrin-coated vesicle membrane"	"9.294"	NA
+"GO:0005829"	"cytosol"	"9.094"	"7.369595090719969E-8"
+"GO:0005737"	"cytoplasm"	"8.64"	"3.3239566851321403E-6"
+"GO:0043194"	"axon initial segment"	"7.873"	NA
+"GO:0005839"	"proteasome core complex"	"7.781"	NA
+"GO:0033268"	"node of Ranvier"	"7.694"	NA

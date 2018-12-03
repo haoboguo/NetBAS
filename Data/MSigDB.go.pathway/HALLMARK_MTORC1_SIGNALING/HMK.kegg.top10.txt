@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Proteasome"	"31.533"	"2.0250873736651963E-7"
+"Glycolysis / Gluconeogenesis"	"25.354"	"8.16160936620692E-6"
+"Pyruvate metabolism"	"17.457"	NA
+"Amino sugar and nucleotide sugar metabolism"	"17.063"	NA
+"Protein processing in endoplasmic reticulum"	"16.799"	"0.008063282656211956"
+"Phagosome"	"16.179"	"0.03521316900252322"
+"Citrate cycle (TCA cycle)"	"15.809"	NA
+"Glycine, serine and threonine metabolism"	"14.995"	"0.008175003005778352"
+"Cysteine and methionine metabolism"	"14.477"	NA
+"Fructose and mannose metabolism"	"14.173"	"0.003994429770021325"

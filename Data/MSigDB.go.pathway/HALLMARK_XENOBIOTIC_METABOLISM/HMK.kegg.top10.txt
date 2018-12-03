@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Metabolism of xenobiotics by cytochrome P450"	"39.389"	"2.4176725001816208E-11"
+"Chemical carcinogenesis"	"39.221"	"9.128701604417226E-10"
+"Drug metabolism - cytochrome P450"	"38.885"	"1.1946555471478659E-9"
+"Steroid hormone biosynthesis"	"33.971"	"2.0418653618474612E-4"
+"Retinol metabolism"	"32.789"	"6.960247336476223E-6"
+"Linoleic acid metabolism"	"29.176"	NA
+"Arachidonic acid metabolism"	"27.19"	"2.809622090102613E-4"
+"Primary bile acid biosynthesis"	"22.135"	NA
+"Drug metabolism - other enzymes"	"19.516"	"0.0027362119267672408"
+"Glycolysis / Gluconeogenesis"	"17.482"	"5.037362165047701E-4"

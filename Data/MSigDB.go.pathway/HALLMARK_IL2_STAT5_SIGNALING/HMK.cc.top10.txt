@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"19.822"	"3.641024517844716E-14"
+"GO:0005887"	"integral component of plasma membrane"	"15.536"	"1.0181120767297922E-9"
+"GO:0005576"	"extracellular region"	"13.65"	"5.316765603077458E-12"
+"GO:0005615"	"extracellular space"	"11.498"	"2.137279985794322E-4"
+"GO:0043235"	"receptor complex"	"10.871"	"1.7592196822007687E-4"
+"GO:0009986"	"cell surface"	"9.72"	"1.673178173017797E-11"
+"GO:0098636"	"protein complex involved in cell adhesion"	"9.348"	"0.0048352870811738296"
+"GO:0009897"	"external side of plasma membrane"	"9.181"	"1.2288786216488205E-11"
+"GO:0005942"	"phosphatidylinositol 3-kinase complex"	"9.175"	NA
+"GO:0005788"	"endoplasmic reticulum lumen"	"9.033"	NA

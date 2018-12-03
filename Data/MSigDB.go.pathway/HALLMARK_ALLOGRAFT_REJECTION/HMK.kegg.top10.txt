@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Autoimmune thyroid disease"	"52.186"	"1.620627355202226E-19"
+"Graft-versus-host disease"	"50.043"	"1.1269300427654036E-24"
+"Allograft rejection"	"49.944"	"1.5941030467558435E-30"
+"Hematopoietic cell lineage"	"49.216"	"2.3347808668007987E-12"
+"Cell adhesion molecules (CAMs)"	"45.403"	"3.593222620651406E-12"
+"Asthma"	"44.361"	"7.276768781493624E-14"
+"Natural killer cell mediated cytotoxicity"	"42.576"	"1.2649441995594996E-11"
+"Th1 and Th2 cell differentiation"	"42.545"	NA
+"Jak-STAT signaling pathway"	"42.055"	"5.818013902504437E-19"
+"Th17 cell differentiation"	"41.367"	NA

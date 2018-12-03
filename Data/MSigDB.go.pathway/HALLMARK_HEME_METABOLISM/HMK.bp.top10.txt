@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000209"	"protein polyubiquitination"	"15.614"	NA
+"GO:0018350"	"protein esterification"	"14.1"	NA
+"GO:0044258"	"intestinal lipid catabolic process"	"14.1"	NA
+"GO:0061024"	"membrane organization"	"12.729"	NA
+"GO:0043687"	"post-translational protein modification"	"11.938"	NA
+"GO:0031146"	"SCF-dependent proteasomal ubiquitin-dependent protein catabolic process"	"10.691"	NA
+"GO:0006511"	"ubiquitin-dependent protein catabolic process"	"10.25"	NA
+"GO:0000272"	"polysaccharide catabolic process"	"10.09"	NA
+"GO:0016579"	"protein deubiquitination"	"9.489"	NA
+"GO:0044245"	"polysaccharide digestion"	"9.191"	NA

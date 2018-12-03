@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Regulation of actin cytoskeleton"	"27.658"	"5.613204669900637E-9"
+"Focal adhesion"	"22.635"	"0.001102988964881558"
+"Axon guidance"	"22.195"	"0.005245190995667903"
+"Bacterial invasion of epithelial cells"	"21.406"	"3.857786508275076E-8"
+"Oocyte meiosis"	"20.702"	"1.1256328649893487E-6"
+"Fc gamma R-mediated phagocytosis"	"19.515"	"9.423017972184719E-6"
+"Ras signaling pathway"	"19.134"	"5.231050526311149E-4"
+"Leukocyte transendothelial migration"	"17.417"	"5.893472412310235E-4"
+"Vasopressin-regulated water reabsorption"	"17.248"	NA
+"Cell cycle"	"15.969"	"3.1176968367791003E-6"

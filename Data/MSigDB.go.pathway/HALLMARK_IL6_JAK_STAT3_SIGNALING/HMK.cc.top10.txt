@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"46.169"	"1.1758069865619039E-17"
+"GO:0009897"	"external side of plasma membrane"	"37.198"	"1.541346265495983E-9"
+"GO:0005887"	"integral component of plasma membrane"	"36.603"	"5.203392131684608E-13"
+"GO:0005896"	"interleukin-6 receptor complex"	"29.674"	"0.013928135812238302"
+"GO:0005576"	"extracellular region"	"28.121"	"1.0090380065606973E-9"
+"GO:0005615"	"extracellular space"	"27.84"	"8.002914226501848E-13"
+"GO:0043235"	"receptor complex"	"27.218"	"2.1571654104499128E-12"
+"GO:0070110"	"ciliary neurotrophic factor receptor complex"	"24.382"	"0.013928135812238302"
+"GO:0043514"	"interleukin-12 complex"	"24.113"	NA
+"GO:0045121"	"membrane raft"	"21.746"	"3.1211783110518515E-4"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0016558"	"protein import into peroxisome matrix"	"27.461"	"6.894343193488068E-7"
+"GO:1901094"	"negative regulation of protein homotetramerization"	"24.297"	"0.011401670550768054"
+"GO:0016560"	"protein import into peroxisome matrix, docking"	"24.192"	"1.9262818001500564E-4"
+"GO:0007031"	"peroxisome organization"	"22.127"	"2.934583174646952E-19
+"GO:0045046"	"protein import into peroxisome membrane"	"21.493"	NA
+"GO:0033540"	"fatty acid beta-oxidation using acyl-CoA oxidase"	"17.502"	"2.666718644999549E-13"
+"GO:0044375"	"regulation of peroxisome size"	"17.16"	"0.017054168443702236"
+"GO:0006625"	"protein targeting to peroxisome"	"17.099"	"2.2549762562862894E-6"
+"GO:0009446"	"putrescine biosynthetic process"	"15.772"	NA
+"GO:1901307"	"positive regulation of spermidine biosynthetic process"	"15.772"	NA

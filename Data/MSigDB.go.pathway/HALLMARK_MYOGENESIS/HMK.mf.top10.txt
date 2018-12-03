@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008307"	"structural constituent of muscle"	"59.723"	"1.0803942201720494E-26"
+"GO:0051015"	"actin filament binding"	"44.385"	"2.791218428670831E-8"
+"GO:0030172"	"troponin C binding"	"37.306"	"0.033041576110490606"
+"GO:0031014"	"troponin T binding"	"36.919"	"7.294211689563082E-4"
+"GO:0031013"	"troponin I binding"	"35.545"	"0.001796916865328034"
+"GO:0003779"	"actin binding"	"35.034"	"6.441158365613595E-26"
+"GO:0032038"	"myosin II heavy chain binding"	"32.031"	"0.02215018651573929"
+"GO:0030899"	"calcium-dependent ATPase activity"	"30.233"	NA
+"GO:0005509"	"calcium ion binding"	"28.884"	"5.071818523418708E-6"
+"GO:0005523"	"tropomyosin binding"	"28.028"	"0.010280892083380722"

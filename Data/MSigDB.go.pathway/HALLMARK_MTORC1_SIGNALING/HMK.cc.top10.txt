@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000502"	"proteasome complex"	"31.196"	"1.6850735313536919E-9"
+"GO:0070062"	"extracellular exosome"	"25.058"	"2.9582204391315548E-19"
+"GO:0005759"	"mitochondrial matrix"	"22.777"	"0.03622069081917507"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"22.565"	NA
+"GO:0005839"	"proteasome core complex"	"22.089"	"0.020331444567675622"
+"GO:0022624"	"proteasome accessory complex"	"21.86"	"1.8959412701842753E-7"
+"GO:0034774"	"secretory granule lumen"	"20.773"	NA
+"GO:0008540"	"proteasome regulatory particle, base subcomplex"	"18.557"	"0.006798842705488449"
+"GO:0019774"	"proteasome core complex, beta-subunit complex"	"17.662"	NA
+"GO:0005838"	"proteasome regulatory particle"	"16.746"	"2.804958117115352E-6"

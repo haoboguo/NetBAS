@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005861"	"troponin complex"	"56.463"	"3.3714911932664885E-11"
+"GO:0005862"	"muscle thin filament tropomyosin"	"35.973"	"0.041271607330275975"
+"GO:1990584"	"cardiac Troponin complex"	"35.704"	NA
+"GO:0030018"	"Z disc"	"35.556"	"6.011315254005445E-15"
+"GO:0097512"	"cardiac myofibril"	"34.119"	NA
+"GO:0005859"	"muscle myosin complex"	"31.287"	"5.825960121704796E-20"
+"GO:0030017"	"sarcomere"	"31.009"	"2.166817627245251E-47"
+"GO:0005865"	"striated muscle thin filament"	"28.257"	"5.58484635585612E-13"
+"GO:0030016"	"myofibril"	"27.897"	"6.259080522598346E-48"
+"GO:0032982"	"myosin filament"	"25.711"	"7.928215758079272E-17"

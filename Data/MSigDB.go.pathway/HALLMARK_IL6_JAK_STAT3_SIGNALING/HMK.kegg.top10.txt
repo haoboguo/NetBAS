@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Cytokine-cytokine receptor interaction"	"68.965"	"1.4275061095198893E-50"
+"Jak-STAT signaling pathway"	"67.279"	"3.4304315840239438E-37"
+"Chemokine signaling pathway"	"37.545"	"1.7536787739948167E-7"
+"Toll-like receptor signaling pathway"	"36.764"	"1.7478739817575692E-10"
+"Pathways in cancer"	"36.444"	"0.015112808251610502"
+"Natural killer cell mediated cytotoxicity"	"34.869"	"7.752521536864218E-5"
+"Kaposi's sarcoma-associated herpesvirus infection"	"33.201"	NA
+"Hepatitis C"	"32.685"	"3.138012939666741E-7"
+"Measles"	"30.825"	"2.0308254857906223E-11"
+"PI3K-Akt signaling pathway"	"30.475"	"7.943974622961222E-6"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID
+"GO:0008353"	"RNA polymerase II carboxy-terminal domain kinase activity"	"48.788"	"2.6524838283086796E-4"
+"GO:0008094"	"DNA-dependent ATPase activity"	"46.232"	"1.7489928787266534E-8"
+"GO:0003684"	"damaged DNA binding"	"44.787"	"1.5256072674342704E-18"
+"GO:0003887"	"DNA-directed DNA polymerase activity"	"42.066"	"9.557716116868617E-13"
+"GO:0003899"	"DNA-directed RNA polymerase activity"	"40.032"	"4.3214229513954314E-23"
+"GO:0001055"	"RNA polymerase II activity"	"38.84"	"5.004757634637885E-11"
+"GO:0001056"	"RNA polymerase III activity"	"36.614"	"5.572765405984382E-11"
+"GO:0001054"	"RNA polymerase I activity"	"33.461"	"2.1731194246922355E-10"
+"GO:0003689"	"DNA clamp loader activity"	"32.084"	"2.7809014464212543E-5"
+"GO:0003697"	"single-stranded DNA binding"	"31.926"	"9.368131774833504E-9"

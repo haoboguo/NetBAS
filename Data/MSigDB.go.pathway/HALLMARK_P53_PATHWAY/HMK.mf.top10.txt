@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008134"	"transcription factor binding"	"19.387"	"0.00173109168869278"
+"GO:0000978"	"RNA polymerase II core promoter proximal region sequence-specific DNA binding"	"18.455"	NA
+"GO:0008480"	"sarcosine dehydrogenase activity"	"18.221"	NA
+"GO:0001077"	"transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding"	"16.202"	NA
+"GO:0003700"	"transcription factor activity, sequence-specific DNA binding"	"15.397"	"0.05447492647982126"
+"GO:0003713"	"transcription coactivator activity"	"14.334"	NA
+"GO:0003682"	"chromatin binding"	"13.985"	"0.05436608900472949"
+"GO:0002039"	"p53 binding"	"13.489"	"7.285819806305325E-7"
+"GO:0005515"	"protein binding"	"13.182"	"9.688628295112696E-12"
+"GO:0044212"	"transcription regulatory region DNA binding"	"13.066"	"0.013970821053706554"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0042605"	"peptide antigen binding"	"46.862"	"1.5471565414157705E-5"
+"GO:0032395"	"MHC class II receptor activity"	"35.897"	"2.133109847034657E-5"
+"GO:0004715"	"non-membrane spanning protein tyrosine kinase activity"	"31.61"	"9.008703487100415E-7"
+"GO:0003823"	"antigen binding"	"30.434"	"2.1029205037305188E-10"
+"GO:0001784"	"phosphotyrosine binding"	"29.733"	NA
+"GO:0042608"	"T cell receptor binding"	"27.692"	"0.0019314448250602242"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"26.404"	"7.899365030751001E-5"
+"GO:0004713"	"protein tyrosine kinase activity"	"25.951"	"4.688478195856382E-5"
+"GO:0004896"	"cytokine receptor activity"	"25.558"	"1.9745612248532113E-12"
+"GO:0034987"	"immunoglobulin receptor binding"	"25.448"	NA

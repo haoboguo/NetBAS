@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0009897"	"external side of plasma membrane"	"26.453"	"4.73939009455918E-8"
+"GO:0000502"	"proteasome complex"	"24.464"	"6.414174395237097E-5"
+"GO:0005839"	"proteasome core complex"	"23.759"	"2.0764906612717886E-6"
+"GO:0042613"	"MHC class II protein complex"	"23.175"	"7.228650826298498E-5"
+"GO:0035631"	"CD40 receptor complex"	"22.802"	NA
+"GO:0071556"	"integral component of lumenal side of endoplasmic reticulum membrane"	"21.491"	"1.540930606489654E-8"
+"GO:0005886"	"plasma membrane"	"21.423"	"8.535971252068761E-4"
+"GO:0097342"	"ripoptosome"	"21.079"	"0.07074857360303387"
+"GO:0019774"	"proteasome core complex, beta-subunit complex"	"19.309"	NA
+"GO:0005576"	"extracellular region"	"18.959"	"4.631503973665951E-5"

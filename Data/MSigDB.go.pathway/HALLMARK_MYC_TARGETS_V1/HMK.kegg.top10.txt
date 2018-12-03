@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Spliceosome"	"28.748"	"6.360305766118762E-18"
+"mRNA surveillance pathway"	"21.311"	"0.010331419604315235"
+"Proteasome"	"17.772"	"1.7748035610662023E-12"
+"RNA transport"	"17.363"	"5.7133335305744626E-8"
+"Ribosome"	"17.158"	"1.846039976179626E-5"
+"RNA degradation"	"16.573"	"0.07127988578366938"
+"Systemic lupus erythematosus"	"15.562"	NA
+"Glycolysis / Gluconeogenesis"	"13.416"	NA
+"Amino sugar and nucleotide sugar metabolism"	"12.931"	NA
+"Ribosome biogenesis in eukaryotes"	"12.641"	NA

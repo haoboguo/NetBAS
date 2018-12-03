@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006024"	"glycosaminoglycan biosynthetic process"	"35.609"	"1.4806833848281626E-18"
+"GO:0030203"	"glycosaminoglycan metabolic process"	"30.139"	"1.201926994958085E-17"
+"GO:0015012"	"heparan sulfate proteoglycan biosynthetic process"	"29.937"	"0.00319883674768314"
+"GO:0050650"	"chondroitin sulfate proteoglycan biosynthetic process"	"29.335"	"2.1486062164064224E-5"
+"GO:0030206"	"chondroitin sulfate biosynthetic process"	"28.037"	"8.393116067958773E-6"
+"GO:0015015"	"heparan sulfate proteoglycan biosynthetic process, enzymatic modification"	"20.088"	NA
+"GO:0030210"	"heparin biosynthetic process"	"19.364"	"0.08835118395572514"
+"GO:0015014"	"heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process"	"18.398"	NA
+"GO:0006477"	"protein sulfation"	"18.388"	"0.07774678294840226"
+"GO:0001523"	"retinoid metabolic process"	"17.915"	"0.0036246479387702936"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0032981"	"mitochondrial respiratory chain complex I assembly"	"158.174"	"2.862480137519431E-38"
+"GO:0006120"	"mitochondrial electron transport, NADH to ubiquinone"	"130.815"	"4.539940550862643E-41"
+"GO:1902600"	"hydrogen ion transmembrane transport"	"53.518"	"2.0528882207748253E-66"
+"GO:0009060"	"aerobic respiration"	"45.93"	"1.4290637684284309E-50"
+"GO:0006123"	"mitochondrial electron transport, cytochrome c to oxygen"	"44.611"	"4.346993234081119E-19"
+"GO:0015990"	"electron transport coupled proton transport"	"42.851"	NA
+"GO:0042775"	"mitochondrial ATP synthesis coupled electron transport"	"39.547"	"4.54745842283447E-79"
+"GO:0070125"	"mitochondrial translational elongation"	"37.917"	"5.950987305738012E-6"
+"GO:0070126"	"mitochondrial translational termination"	"37.582"	"6.229701858431838E-7"
+"GO:0045333"	"cellular respiration"	"36.017"	"1.9321266241108E-111"

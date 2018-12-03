@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006260"	"DNA replication"	"47.567"	"5.716333412737364E-53"
+"GO:0051301"	"cell division"	"39.109"	"5.697261138366359E-31"
+"GO:0006281"	"DNA repair"	"35.058"	"9.2571418471795E-34"
+"GO:0000724"	"double-strand break repair via homologous recombination"	"33.958"	"3.471108332348522E-13"
+"GO:0006270"	"DNA replication initiation"	"30.575"	"1.5648210436953117E-15"
+"GO:0000723"	"telomere maintenance"	"30.251"	"3.803689944312475E-21"
+"GO:0032201"	"telomere maintenance via semi-conservative replication"	"27.859"	NA
+"GO:0051321"	"meiotic cell cycle"	"27.291"	"4.718600839753733E-19"
+"GO:0006302"	"double-strand break repair"	"26.302"	"2.837340604736332E-20"
+"GO:0000076"	"DNA replication checkpoint"	"26.233"	NA

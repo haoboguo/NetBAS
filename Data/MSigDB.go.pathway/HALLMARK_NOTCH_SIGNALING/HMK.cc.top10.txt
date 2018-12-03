@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0097541"	"axonemal basal plate"	"27.428"	NA
+"GO:0019005"	"SCF ubiquitin ligase complex"	"22.77"	"8.7818480971123E-5"
+"GO:0002193"	"MAML1-RBP-Jkappa- ICN1 complex"	"16.423"	NA
+"GO:0070765"	"gamma-secretase complex"	"15.201"	"0.008477308357441104"
+"GO:1990909"	"Wnt signalosome"	"13.653"	"0.018558300476122676"
+"GO:0000151"	"ubiquitin ligase complex"	"13.378"	"0.018558300476122676"
+"GO:0030877"	"beta-catenin destruction complex"	"11.235" NA
+"GO:0042568"	"insulin-like growth factor binary complex"	"10.488"	NA
+"GO:1990851"	"Wnt-Frizzled-LRP5/6 complex"	"9.512"	NA
+"GO:0031464"	"Cul4A-RING E3 ubiquitin ligase complex"	"8.766"	NA

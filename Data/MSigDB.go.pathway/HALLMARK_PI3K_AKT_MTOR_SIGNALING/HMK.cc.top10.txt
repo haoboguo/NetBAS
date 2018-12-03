@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"32.46"	"1.1612068170683552E-5"
+"GO:1990718"	"axonemal central pair projection"	"31.591"	NA
+"GO:0042827"	"platelet dense granule"	"18.221"	NA
+"GO:0005737"	"cytoplasm"	"15.748"	"6.902519162591983E-13"
+"GO:0043235"	"receptor complex"	"15.521"	NA
+"GO:0005856"	"cytoskeleton"	"15.166"	"0.032604071137350005"
+"GO:0030027"	"lamellipodium"	"14.951"	"0.01600987602825958"
+"GO:0045121"	"membrane raft"	"14.798"	"3.888319420979358E-7"
+"GO:0071986"	"Ragulator complex"	"12.584"	NA
+"GO:0005942"	"phosphatidylinositol 3-kinase complex"	"12.542"	NA

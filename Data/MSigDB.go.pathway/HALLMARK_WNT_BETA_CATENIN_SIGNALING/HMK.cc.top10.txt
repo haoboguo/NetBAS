@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005667"	"transcription factor complex"	"17.138"	"5.087748198948424E-4"
+"GO:1990909"	"Wnt signalosome"	"15.449"	"0.02329643441237642"
+"GO:0000118"	"histone deacetylase complex"	"15.362"	"9.739503973737296E-6"
+"GO:0017053"	"transcriptional repressor complex"	"14.434"	"0.01209617794870481"
+"GO:1990851"	"Wnt-Frizzled-LRP5/6 complex"	"14.262"	NA
+"GO:0005654"	"nucleoplasm"	"14.216"	"9.590187332592168E-8"
+"GO:0030877"	"beta-catenin destruction complex"	"14.016"	"3.995503418084229E-4"
+"GO:0016342"	"catenin complex"	"13.642"	NA
+"GO:0002193"	"MAML1-RBP-Jkappa- ICN1 complex"	"12.53"	"1.3369574467548111E-5"
+"GO:0000790"	"nuclear chromatin"	"10.552"	"4.212654045949795E-6"

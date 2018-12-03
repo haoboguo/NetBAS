@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0071013"	"catalytic step 2 spliceosome"	"30.177"	"8.043351350131274E-17"
+"GO:0005681"	"spliceosomal complex"	"28.139"	"1.7614060741472678E-17"
+"GO:0071007"	"U2-type catalytic step 2 spliceosome"	"25.159"	NA
+"GO:0005689"	"U12-type spliceosomal complex"	"24.069"	"2.443211466821354E-7"
+"GO:0046540"	"U4/U6 x U5 tri-snRNP complex"	"23.207"	"0.0017455205299267247"
+"GO:0061702"	"inflammasome complex"	"22.327"	NA
+"GO:0016607"	"nuclear speck"	"21.177"	"0.005510164053525545"
+"GO:0005686"	"U2 snRNP"	"20.256"	"4.3354493131431324E-8"
+"GO:0071005"	"U2-type precatalytic spliceosome"	"20.198"	NA
+"GO:0022627"	"cytosolic small ribosomal subunit"	"19.374"	"0.0016176597537837082"

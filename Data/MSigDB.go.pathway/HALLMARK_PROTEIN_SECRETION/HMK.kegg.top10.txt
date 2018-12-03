@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"SNARE interactions in vesicular transport"	"59.573"	"8.107446454830813E-12"
+"Endocytosis"	"30.663"	"8.751074400426795E-14"
+"Synaptic vesicle cycle"	"27.941"	"1.1373655272330614E-6"
+"Lysosome"	"24.444"	"1.4215163630477865E-12"
+"Phagosome"	"23.842"	"4.693013264817133E-5"
+"Vasopressin-regulated water reabsorption"	"21.608"	NA
+"Hematopoietic cell lineage"	"20.868"	NA
+"Asthma"	"18.415"	NA
+"Graft-versus-host disease"	"17.022"	NA
+"Allograft rejection"	"16.436"	NA

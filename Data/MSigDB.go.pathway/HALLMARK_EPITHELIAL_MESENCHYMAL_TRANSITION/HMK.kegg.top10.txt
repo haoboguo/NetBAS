@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"ECM-receptor interaction"	"62.841"	"1.81798774190333E-31"
+"Focal adhesion"	"42.09"	"1.7238775477210432E-24"
+"Protein digestion and absorption"	"38.867"	"1.5438328586823957E-8"
+"Regulation of actin cytoskeleton"	"32.021"	"6.261411282207816E-4"
+"Hypertrophic cardiomyopathy (HCM)"	"27.599"	"2.843635933036352E-10"
+"Proteoglycans in cancer"	"26.874"	"7.247335336756889E-13"
+"Dilated cardiomyopathy (DCM)"	"25.603"	"8.973031383218435E-9"
+"Arrhythmogenic right ventricular cardiomyopathy (ARVC)"	"25.259"	"1.0837035997701096E-7"
+"Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"	"23.396"	NA
+"PI3K-Akt signaling pathway"	"22.06"	"1.843276078367667E-15"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"
+"GO:0005089"	"Rho guanyl-nucleotide exchange factor activity"	"13.461"	NA
+"GO:0005096"	"GTPase activator activity"	"12.658"	NA
+"GO:0005125"	"cytokine activity"	"11.944"	"3.45115388605758E-5"
+"GO:0019955"	"cytokine binding"	"10.934"	"9.805777314990614E-7"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"10.731"	NA
+"GO:0005085"	"guanyl-nucleotide exchange factor activity"	"10.625"	NA
+"GO:0019901"	"protein kinase binding"	"9.643"	"0.06778336133578217"
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"9.484"	NA
+"GO:0004896"	"cytokine receptor activity"	"9.409"	"5.248471275707925E-8"
+"GO:0004715"	"non-membrane spanning protein tyrosine kinase activity"	"9.382"	NA

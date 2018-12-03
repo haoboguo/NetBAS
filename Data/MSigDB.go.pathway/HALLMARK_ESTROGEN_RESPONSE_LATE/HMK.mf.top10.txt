@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005132"	"type I interferon receptor binding"	"16.505"	NA
+"GO:0004896"	"cytokine receptor activity"	"15.027"	"0.07919668289001676"
+"GO:0005146"	"leukemia inhibitory factor receptor binding"	"14.452"	NA
+"GO:0005127"	"ciliary neurotrophic factor receptor binding"	"13.52"	NA
+"GO:0019955"	"cytokine binding"	"12.87"	NA
+"GO:0004930"	"G-protein coupled receptor activity"	"12.574"	NA
+"GO:0005142"	"interleukin-11 receptor binding"	"11.624"	NA
+"GO:0020037"	"heme binding"	"11.168"	NA
+"GO:0004897"	"ciliary neurotrophic factor receptor activity"	"10.972"	NA
+"GO:0005125"	"cytokine activity"	"10.494"	NA

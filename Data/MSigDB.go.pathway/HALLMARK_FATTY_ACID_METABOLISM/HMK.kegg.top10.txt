@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Glycolysis / Gluconeogenesis"	"29.986"	"2.7719236605754823E-10"
+"Citrate cycle (TCA cycle)"	"21.601"	"1.527581227975081E-20"
+"Pyruvate metabolism"	"21.47"	"5.325168203538426E-12"
+"Valine, leucine and isoleucine degradation"	"21.187"	"6.46722533919846E-23"
+"Glycine, serine and threonine metabolism"	"18.449"	"0.03820922308925224"
+"Propanoate metabolism"	"16.967"	"1.3891975764013031E-12"
+"Proteasome"	"16.523"	NA
+"Cysteine and methionine metabolism"	"16.486"	"0.005770119342086714"
+"Glyoxylate and dicarboxylate metabolism"	"16.486"	"2.428043856855936E-8"
+"Pentose phosphate pathway"	"16.214"	NA

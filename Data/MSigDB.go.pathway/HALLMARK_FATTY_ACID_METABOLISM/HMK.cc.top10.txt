@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005759"	"mitochondrial matrix"	"32.894"	"6.821167719250467E-26"
+"GO:0070062"	"extracellular exosome"	"28.191"	"1.4179667541634244E-12"
+"GO:0005739"	"mitochondrion"	"24.473"	"1.763399309716872E-40"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"22.088"	NA
+"GO:0005829"	"cytosol"	"19.354"	"7.748674165242358E-8"
+"GO:0034774"	"secretory granule lumen"	"19.2"	NA
+"GO:0043209"	"myelin sheath"	"18.771"	"3.1195905327325516E-8"
+"GO:0030678"	"mitochondrial ribonuclease P complex"	"16.859"	NA
+"GO:0005737"	"cytoplasm"	"15.727"	"1.2219331336775793E-23"
+"GO:0000502"	"proteasome complex"	"15.352"	NA

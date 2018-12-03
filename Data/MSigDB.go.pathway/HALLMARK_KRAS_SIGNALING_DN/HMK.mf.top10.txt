@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004930"	"G-protein coupled receptor activity"	"52.186"	NA
+"GO:0033038"	"bitter taste receptor activity"	"27.567"	NA
+"GO:0008009"	"chemokine activity"	"27.237"	NA
+"GO:0016493"	"C-C chemokine receptor activity"	"21.776"	NA
+"GO:0019956"	"chemokine binding"	"21.693"	NA
+"GO:0042923"	"neuropeptide binding"	"21.335"	NA
+"GO:0019957"	"C-C chemokine binding"	"21.315"	NA
+"GO:0030594"	"neurotransmitter receptor activity"	"18.88"	"0.08118992849869908"
+"GO:0004993"	"G-protein coupled serotonin receptor activity"	"18.657"	NA
+"GO:0008528"	"G-protein coupled peptide receptor activity"	"18.057"	NA

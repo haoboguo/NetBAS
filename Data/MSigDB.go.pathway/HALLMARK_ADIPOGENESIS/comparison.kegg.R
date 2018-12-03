@@ -12,11 +12,11 @@ david <- filename$DAVID
 #convert DAVID p-values to z-scores
 z.david <- c()
 for (i in 1:10) {
-    z.val <- round(abs(david[i] - sqrt(2)*erfcinv(2*david[i])),3)
+    z.val <- abs(david[i] - sqrt(2)*erfcinv(2*david[i]))
     z.david <- rbind(z.david, z.val)
 }
 
-scale.factor <- max(netbas) / 6.885
+scale.factor <- max(netbas) / max(z.david[!is.na(z.david)])
 
 z.david <- round(z.david * scale.factor,3)
 

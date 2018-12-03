@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0010499"	"proteasomal ubiquitin-independent protein catabolic process"	"21.195"	NA
+"GO:0006096"	"glycolytic process"	"20.304"	"3.2950893305184517E-9"
+"GO:0043312"	"neutrophil degranulation"	"19.615"	NA
+"GO:0043687"	"post-translational protein modification"	"19.479"	NA
+"GO:0061621"	"canonical glycolysis"	"19.174"	"1.29928213825949E-8"
+"GO:0010498"	"proteasomal protein catabolic process"	"18.593"	"8.224014738035182E-9"
+"GO:0006094"	"gluconeogenesis"	"17.743"	"2.0401445560780403E-5"
+"GO:0016579"	"protein deubiquitination"	"17.113"	NA
+"GO:0042026"	"protein refolding"	"16.488"	NA
+"GO:0006986"	"response to unfolded protein"	"16.381"	"1.1856530407986142E-8"

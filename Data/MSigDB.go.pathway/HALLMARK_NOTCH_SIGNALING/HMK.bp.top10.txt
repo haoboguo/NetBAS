@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0001680"	"tRNA 3'-terminal CCA addition"	"42.441"	NA
+"GO:0070782"	"phosphatidylserine exposure on apoptotic cell surface"	"31.591"	NA
+"GO:0000209"	"protein polyubiquitination"	"28.68"	"0.011010912889089307"
+"GO:0002093"	"auditory receptor cell morphogenesis"	"26.356"	NA
+"GO:0036066"	"protein O-linked fucosylation"	"23.452"	NA
+"GO:0007219"	"Notch signaling pathway"	"23.408"	"7.783949811976691E-21"
+"GO:0060070"	"canonical Wnt signaling pathway"	"23.225"	"3.415032385297858E-8"
+"GO:0007220"	"Notch receptor processing"	"22.801"	"6.580535866647185E-11"
+"GO:0035333"	"Notch receptor processing, ligand-dependent"	"22.767"	NA
+"GO:0061314"	"Notch signaling involved in heart development"	"22.501"	"1.1778905156552357E-4"

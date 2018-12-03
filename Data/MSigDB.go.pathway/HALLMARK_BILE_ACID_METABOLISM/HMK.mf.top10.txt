@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004497"	"monooxygenase activity"	"52.303"	"5.155561289812896E-5"
+"GO:0020037"	"heme binding"	"49.749"	"2.4867969415454506E-4"
+"GO:0005506"	"iron ion binding"	"48.864"	"1.0623438217300757E-4"
+"GO:0070330"	"aromatase activity"	"46.184"	NA
+"GO:0008395"	"steroid hydroxylase activity"	"45.222"	"5.736895453239381E-8"
+"GO:0016712"	"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen"	"40.732"	NA
+"GO:0008392"	"arachidonic acid epoxygenase activity"	"34.184"	NA
+"GO:0019825"	"oxygen binding"	"29.533"	NA
+"GO:0000268"	"peroxisome targeting sequence binding"	"26.933"	"0.0315856221524816"
+"GO:0005052"	"peroxisome matrix targeting signal-1 binding"	"26.933"	NA

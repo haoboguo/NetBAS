@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004984"	"olfactory receptor activity"	"106.482"	NA
+"GO:0005549"	"odorant binding"	"66.18"	NA
+"GO:0004713"	"protein tyrosine kinase activity"	"32.667"	"7.41669697505827E-4"
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"30.711"	"4.386078669549611E-4"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"28.875"	"1.8511596205163998E-6"
+"GO:0016303"	"1-phosphatidylinositol-3-kinase activity"	"26.349"	"5.576657581318064E-6"
+"GO:0005104"	"fibroblast growth factor receptor binding"	"23.604"	"0.010490828709876132"
+"GO:0004888"	"transmembrane signaling receptor activity"	"22.708"	NA
+"GO:0047734"	"CDP-glycerol diphosphatase activity"	"22.327"	NA
+"GO:0070042"	"rRNA (uridine-N3-)-methyltransferase activity"	"22.327"	NA

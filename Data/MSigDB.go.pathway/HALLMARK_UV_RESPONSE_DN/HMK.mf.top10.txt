@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0036403"	"arachidonate 8(S)-lipoxygenase activity"	"28.27"	NA
+"GO:0004713"	"protein tyrosine kinase activity"	"21.841"	"1.5284019053905512E-5"
+"GO:0001784"	"phosphotyrosine binding"	"19.872"	NA
+"GO:0005070"	"SH3/SH2 adaptor activity"	"19.324"	NA
+"GO:0004715"	"non-membrane spanning protein tyrosine kinase activity"	"18.771"	NA
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"17.448"	"0.0025038147176721344"
+"GO:0005160"	"transforming growth factor beta receptor binding"	"17.251"	"0.007605416467558798"
+"GO:0046875"	"ephrin receptor binding"	"16.524"	NA
+"GO:1903924"	"estradiol binding"	"15.772"	NA
+"GO:0017124"	"SH3 domain binding"	"15.55"	NA

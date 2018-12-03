@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005839"	"proteasome core complex"	"20.985"	"0.004460195553289879"
+"GO:0000502"	"proteasome complex"	"19.947"	"0.0038713620053071975"
+"GO:0042825"	"TAP complex"	"17.748"	NA
+"GO:0019774"	"proteasome core complex, beta-subunit complex"	"17.343"	NA
+"GO:0035631"	"CD40 receptor complex"	"15.153"	NA
+"GO:1990111"	"spermatoproteasome complex"	"12.257"	"0.023645374661538737"
+"GO:0008385"	"IkappaB kinase complex"	"10.993"	NA
+"GO:0008537"	"proteasome activator complex"	"10.751"	NA
+"GO:0097342"	"ripoptosome"	"10.732"	NA
+"GO:0019773"	"proteasome core complex, alpha-subunit complex"	"10.058"	NA

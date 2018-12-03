@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"50.323"	"9.309002726459143E-18"
+"GO:0042613"	"MHC class II protein complex"	"49.755"	"2.3873464123867626E-9"
+"GO:0071556"	"integral component of lumenal side of endoplasmic reticulum membrane"	"47.667"	"5.881524619073444E-7"
+"GO:0009897"	"external side of plasma membrane"	"43.203"	"3.4013548447158E-24"
+"GO:0005887"	"integral component of plasma membrane"	"36.149"	"7.806076211302352E-16"
+"GO:0030658"	"transport vesicle membrane"	"34.629"	"0.0076942718136039446"
+"GO:0042101"	"T cell receptor complex"	"32.744"	"1.5345200233491511E-15"
+"GO:0030669"	"clathrin-coated endocytic vesicle membrane"	"28.204"	"0.017030706601470512"
+"GO:0009986"	"cell surface"	"25.784"	1.233208421431712E-23
+"GO:0042105"	"alpha-beta T cell receptor complex"	"25.277"	"6.702627073594221E-8"

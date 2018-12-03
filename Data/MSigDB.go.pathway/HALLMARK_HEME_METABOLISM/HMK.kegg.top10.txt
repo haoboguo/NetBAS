@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Endocytosis"	"10.064"	NA
+"Epstein-Barr virus infection"	"8.383"	NA
+"Proteasome"	"7.312"	NA
+"Longevity regulating pathway - multiple species"	"7.068"	NA
+"FoxO signaling pathway"	"6.575"	NA
+"Antigen processing and presentation"	"6.464"	NA
+"Toxoplasmosis"	"6.316"	NA
+"Measles"	"6.07"	NA
+"Estrogen signaling pathway"	"5.908"	NA
+"Protein processing in endoplasmic reticulum"	"5.903"	NA

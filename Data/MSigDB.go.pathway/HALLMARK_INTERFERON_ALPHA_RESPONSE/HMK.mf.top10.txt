@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004842"	"ubiquitin-protein transferase activity"	"19.913"	NA
+"GO:0004298"	"threonine-type endopeptidase activity"	"19.198"	"0.004831986409248493"
+"GO:0046978"	"TAP1 binding"	"18.058"	NA
+"GO:0015433"	"peptide antigen-transporting ATPase activity"	"17.748"	NA
+"GO:0004175"	"endopeptidase activity"	"16.954"	NA
+"GO:0050700"	"CARD domain binding"	"16.328"	NA
+"GO:0023029"	"MHC class Ib protein binding"	"15.859"	NA
+"GO:0005132"	"type I interferon receptor binding"	"15.273"	NA
+"GO:0046979"	"TAP2 binding"	"13.876"	NA
+"GO:0005164"	"tumor necrosis factor receptor binding"	"12.808"	NA

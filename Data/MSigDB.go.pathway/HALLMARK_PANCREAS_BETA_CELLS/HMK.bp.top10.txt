@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006614"	"SRP-dependent cotranslational protein targeting to membrane"	"28.637"	"0.02089350644371088"
+"GO:0000184"	"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"	"23.239"	NA
+"GO:0006413"	"translational initiation"	"22.236"	NA
+"GO:0006412"	"translation"	"22.009"	NA
+"GO:0002181"	"cytoplasmic translation"	"20.893"	NA
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"19.135"	NA
+"GO:0002684"	"positive regulation of immune system process"	"15.772"	NA
+"GO:0007189"	"adenylate cyclase-activating G-protein coupled receptor signaling pathway"	"14.223"	NA
+"GO:0070741"	"response to interleukin-6"	"14.114"	NA
+"GO:0015760"	"glucose-6-phosphate transport"	"13.803"	NA

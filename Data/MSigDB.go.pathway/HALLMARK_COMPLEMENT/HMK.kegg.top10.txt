@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Complement and coagulation cascades"	"36.839"	"7.210378917115352E-31"
+"Chemokine signaling pathway"	"26.257"	"1.0544115546918368E-7"
+"Focal adhesion"	"23.339"	"0.007086793421913608"
+"Staphylococcus aureus infection"	"23.32"	"8.317876010136632E-7"
+"Ras signaling pathway"	"22.968"	"4.6167317368991245E-4"
+"Rap1 signaling pathway"	"22.572"	"2.2598624358390504E-4"
+"Pathways in cancer"	"22.49"	"6.213098697036294E-4"
+"Natural killer cell mediated cytotoxicity"	"21.509"	"1.2929608285052369E-4"
+"Cytokine-cytokine receptor interaction"	"21.239"	NA
+"PI3K-Akt signaling pathway"	"21.199"	"0.0029905479787221967"

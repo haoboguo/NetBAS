@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"32.793"	NA
+"GO:0002818"	"intracellular defense response"	"31.591"	NA
+"GO:0000768"	"syncytium formation by plasma membrane fusion"	"21.072"	NA
+"GO:0010469"	"regulation of receptor activity"	"20.86"	NA
+"GO:0006935"	"chemotaxis"	"20.182"	"1.1056271037524032E-5"
+"GO:0048010"	"vascular endothelial growth factor receptor signaling pathway"	"20.174"	"9.73019703275314E-7"
+"GO:0070098"	"chemokine-mediated signaling pathway"	"20.001"	NA
+"GO:0030198"	"extracellular matrix organization"	"19.196"	"7.275634328508621E-10"
+"GO:0060326"	"cell chemotaxis"	"18.83"	"0.0015888213683303196"
+"GO:0006954"	"inflammatory response"	"17.249"	"2.4059310247542427E-4"

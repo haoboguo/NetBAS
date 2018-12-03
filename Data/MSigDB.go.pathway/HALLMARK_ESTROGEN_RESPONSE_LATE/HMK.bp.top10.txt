@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0002323"	"natural killer cell activation involved in immune response"	"16.162"	NA
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"16.031"	NA
+"GO:0033141"	"positive regulation of peptidyl-serine phosphorylation of STAT protein"	"15.683"	NA
+"GO:0019221"	"cytokine-mediated signaling pathway"	"15.675"	"0.09630767958346256"
+"GO:0042531"	"positive regulation of tyrosine phosphorylation of STAT protein"	"14.535"	NA
+"GO:0010469"	"regulation of receptor activity"	"12.855"	NA
+"GO:0048861"	"leukemia inhibitory factor signaling pathway"	"12.701"	NA
+"GO:0006935"	"chemotaxis"	"12.345"	NA
+"GO:1901676"	"positive regulation of histone H3-K27 acetylation"	"12.16"	NA
+"GO:0070120"	"ciliary neurotrophic factor-mediated signaling pathway"	"12.08"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005524"	"ATP binding"	"26.219"	NA
+"GO:0004321"	"fatty-acyl-CoA synthase activity"	"25.839"	NA
+"GO:0015645"	"fatty acid ligase activity"	"25.839"	"8.776929532391588E-4"
+"GO:0005362"	"low-affinity glucose:sodium symporter activity"	"22.327"	NA
+"GO:0047760"	"butyrate-CoA ligase activity"	"19.828"	NA
+"GO:0051082"	"unfolded protein binding"	"19.392"	NA
+"GO:0030170"	"pyridoxal phosphate binding"	"17.771"	NA
+"GO:0008709"	"cholate 7-alpha-dehydrogenase activity"	"17.264"	NA
+"GO:0030283"	"testosterone dehydrogenase [NAD(P)] activity"	"17.264"	NA
+"GO:0047015"	"3-hydroxy-2-methylbutyryl-CoA dehydrogenase activity"	"17.264"	NA

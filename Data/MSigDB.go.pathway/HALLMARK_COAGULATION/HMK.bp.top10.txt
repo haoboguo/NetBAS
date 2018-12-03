@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0030449"	"regulation of complement activation"	"47.73"	"1.3283982292367678E-15"
+"GO:0006956"	"complement activation"	"44.521"	"1.0558022561126212E-15"
+"GO:0006958"	"complement activation, classical pathway"	"44.035"	"2.073458501528643E-11"
+"GO:0042730"	"fibrinolysis"	"41.222"	"7.774169740228929E-33"
+"GO:0030198"	"extracellular matrix organization"	"38.15"	"3.8876010799319226E-32"
+"GO:0007597"	"blood coagulation, intrinsic pathway"	"36.647"	"1.662388963477663E-19"
+"GO:0051918"	"negative regulation of fibrinolysis"	"33.208"	"4.719947510310719E-11"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"31.657"	NA
+"GO:0022617"	"extracellular matrix disassembly"	"30.818"	"4.306093694022582E-29"
+"GO:0006508"	"proteolysis"	"30.668"	"5.764818480866801E-49"

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000398"	"mRNA splicing, via spliceosome"	"32.985"	"2.3333644178829033E-23"
+"GO:0008380"	"RNA splicing"	"24.639"	"2.2155504047467837E-21"
+"GO:0006413"	"translational initiation"	"24.326"	"1.2583525344398062E-18"
+"GO:0000184"	"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"	"24.021"	"8.823819594275642E-12"
+"GO:0031124"	"mRNA 3'-end processing"	"23.146"	"6.032831733353022E-7"
+"GO:0070255"	"regulation of mucus secretion"	"22.327"	NA
+"GO:0006397"	"mRNA processing"	"22.283"	"4.349280521749127E-19"
+"GO:0006614"	"SRP-dependent cotranslational protein targeting to membrane"	"21.113"	"1.3179052033954004E-7"
+"GO:0006369"	"termination of RNA polymerase II transcription"	"20.918"	"2.419812281098901E-9"
+"GO:0000375"	"RNA splicing, via transesterification reactions"	"20.472"	"3.570594548313829E-23"

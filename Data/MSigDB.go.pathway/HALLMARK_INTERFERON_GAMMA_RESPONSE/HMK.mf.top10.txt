@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005132"	"type I interferon receptor binding"	"49.197"	NA
+"GO:0005126"	"cytokine receptor binding"	"28.543"	"8.69296265378253E-9"
+"GO:0005125"	"cytokine activity"	"23.319"	"6.287003475827847E-6"
+"GO:0004842"	"ubiquitin-protein transferase activity"	"22.931"	"0.09057034284760157"
+"GO:0004298"	"threonine-type endopeptidase activity"	"22.091"	"2.6427649095671127E-6"
+"GO:0042605"	"peptide antigen binding"	"22.069"	"1.199354550835571E-5"
+"GO:0005164"	"tumor necrosis factor receptor binding"	"21.764"	"0.039962949395718525"
+"GO:0004175"	"endopeptidase activity"	"20.516"	"1.1412528669872944E-4"
+"GO:0004896"	"cytokine receptor activity"	"19.545"	"5.8833777335158194E-5"
+"GO:0019955"	"cytokine binding"	"18.689"	"0.0205394623527427"

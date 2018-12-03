@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0031231"	"intrinsic component of peroxisomal membrane"	"28.643"	"5.602198557909046E-13"
+"GO:0005777"	"peroxisome"	"26.78"	"2.1416279433804823E-57"
+"GO:0005778"	"peroxisomal membrane"	"25.575"	"4.7145552051071835E-28"
+"GO:0005779"	"integral component of peroxisomal membrane"	"21.211"	"5.602198557909046E-13"
+"GO:0005782"	"peroxisomal matrix"	"21.059"	"6.385361670233501E-28"
+"GO:0032994"	"protein-lipid complex"	"13.547"	NA
+"GO:0070062"	"extracellular exosome"	"12.389"	"9.931514065554795E-6"
+"GO:1990429"	"peroxisomal importomer complex"	"12.152"	NA
+"GO:0005759"	"mitochondrial matrix"	"12.119"	"0.07391532997067846"
+"GO:0005739"	"mitochondrion"	"11.062"	"6.982262568483991E-14"

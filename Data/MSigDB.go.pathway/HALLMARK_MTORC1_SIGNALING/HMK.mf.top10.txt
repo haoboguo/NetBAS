@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0017159"	"pantetheine hydrolase activity"	"22.327"	NA
+"GO:0004298"	"threonine-type endopeptidase activity"	"21.145"	"0.02254725497226658"
+"GO:0004175"	"endopeptidase activity"	"20.654"	NA
+"GO:0005524"	"ATP binding"	"20.486"	"7.546852581442986E-6"
+"GO:0051082"	"unfolded protein binding"	"16.948"	"3.1712105569392635E-5"
+"GO:0047734"	"CDP-glycerol diphosphatase activity"	"15.772"	NA
+"GO:0051087"	"chaperone binding"	"15.437"	"2.8603527234188247E-4"
+"GO:0031072"	"heat shock protein binding"	"15.346"	NA
+"GO:0042623"	"ATPase activity, coupled"	"14.647"	"0.030012847096617976"
+"GO:0016887"	"ATPase activity"	"14.291"	"0.010301274972373091"

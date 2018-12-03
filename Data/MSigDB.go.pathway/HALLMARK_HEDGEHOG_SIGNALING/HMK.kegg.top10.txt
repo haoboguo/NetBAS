@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Axon guidance"	"20.03"	"4.05694695459141E-5"
+"Focal adhesion"	"16.563"	NA
+"Pathways in cancer"	"15.221"	"0.006960693262923014"
+"Human papillomavirus infection"	"13.326"	NA
+"Ras signaling pathway"	"13.038"	"0.03399776862874622"
+"Proteoglycans in cancer"	"12.828"	NA
+"Adherens junction"	"12.721"	NA
+"Regulation of actin cytoskeleton"	"11.719"	NA
+"Rap1 signaling pathway"	"11.698"	NA
+"Chronic myeloid leukemia"	"10.654"	NA

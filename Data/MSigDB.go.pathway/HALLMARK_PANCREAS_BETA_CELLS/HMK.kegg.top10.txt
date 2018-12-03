@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Ribosome"	"25.044"	NA
+"Neuroactive ligand-receptor interaction"	"13.982"	NA
+"Protein export"	"9.785"	"2.4575702248904535E-6"
+"Porphyrin and chlorophyll metabolism"	"7.124"	NA
+"cAMP signaling pathway"	"6.85"	NA
+"Ovarian steroidogenesis"	"6.346"	NA
+"Renin secretion"	"6.194"	NA
+"Regulation of lipolysis in adipocytes"	"5.909"	NA
+"Steroid hormone biosynthesis"	"5.569"	NA
+"Glutamatergic synapse"	"5.245"	NA

@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Jak-STAT signaling pathway"	"22.052"	"9.04197626878579E-11"
+"Pathways in cancer"	"20.362"	"0.022527626677218568"
+"Cytokine-cytokine receptor interaction"	"18.397"	"3.293176389378677E-13"
+"PI3K-Akt signaling pathway"	"14.855"	"3.567318740076363E-4"
+"Hepatitis B"	"14.662"	NA
+"Proteoglycans in cancer"	"14.117"	NA
+"Human papillomavirus infection"	"13.957"	NA
+"MicroRNAs in cancer"	"13.862"	"0.03893213681210135"
+"Small cell lung cancer"	"13.82"	"0.0022899095918723564"
+"Focal adhesion"	"13.801"	"0.04647613750679463"

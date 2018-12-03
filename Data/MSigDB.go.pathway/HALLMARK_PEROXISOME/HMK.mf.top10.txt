@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000268"	"peroxisome targeting sequence binding"	"23.906"	NA
+"GO:0005052"	"peroxisome matrix targeting signal-1 binding"	"23.906"	NA
+"GO:0052899"	"N(1),N(12)-diacetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity"	"15.772"	NA
+"GO:0052902"	"spermidine:oxygen oxidoreductase (3-aminopropanal-forming) activity"	"15.772"	NA
+"GO:0052903"	"N1-acetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity"	"15.772"	NA
+"GO:0052904"	"N1-acetylspermidine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity"	"15.772"	NA
+"GO:0008508"	"bile acid:sodium symporter activity"	"13.182"	NA
+"GO:0033745"	"L-methionine-(R)-S-oxide reductase activity"	"12.119"	NA
+"GO:0042171"	"lysophosphatidic acid acyltransferase activity"	"11.957"	NA
+"GO:0051264"	"mono-olein transacylation activity"	"11.728"	NA

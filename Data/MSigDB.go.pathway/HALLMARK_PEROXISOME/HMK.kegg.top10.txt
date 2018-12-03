@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Peroxisome"	"27.134"	"1.0381002135878426E-51"
+"Glycolysis / Gluconeogenesis"	"10.061"	NA
+"Necroptosis"	"9.114"	NA
+"Nucleotide excision repair"	"8.838"	"0.09686156193834712"
+"Drug metabolism - other enzymes"	"8.709"	NA
+"Pyruvate metabolism"	"8.436"	NA
+"D-Arginine and D-ornithine metabolism"	"8.388"	NA
+"Citrate cycle (TCA cycle)"	"8.012"	NA
+"Fatty acid degradation"	"7.687"	"3.2894752009530205E-7"
+"Legionellosis"	"7.396"	NA

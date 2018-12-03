@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0033829"	"O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase activity"	"50.172"	NA
+"GO:0034062"	"RNA polymerase activity"	"42.441"	NA
+"GO:0052927"	"CTP:tRNA cytidylyltransferase activity"	"42.441"	NA
+"GO:0052928"	"CTP:3'-cytidine-tRNA cytidylyltransferase activity"	"42.441"	NA
+"GO:0052929"	"ATP:3'-cytidine-cytidine-tRNA adenylyltransferase activity"	"42.441"	NA
+"GO:0004068"	"aspartate 1-decarboxylase activity"	"30.036"	NA
+"GO:0004842"	"ubiquitin-protein transferase activity"	"29.708"	"0.006926995723398319"
+"GO:0004782"	"sulfinoalanine decarboxylase activity"	"29.688"	NA
+"GO:0005109"	"frizzled binding"	"22.247"	"3.842635367186699E-5"
+"GO:0008442"	"3-hydroxyisobutyrate dehydrogenase activity"	"18.679"	NA

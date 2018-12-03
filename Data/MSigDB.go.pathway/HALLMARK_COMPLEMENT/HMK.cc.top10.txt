@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005886"	"plasma membrane"	"43.591"	"7.8049952703142E-13"
+"GO:0005576"	"extracellular region"	"31.126"	"3.6819427639114465E-29"
+"GO:0009897"	"external side of plasma membrane"	"29.249"	"2.161351454450967E-6"
+"GO:0005887"	"integral component of plasma membrane"	"27.559"	"0.022392589524496062"
+"GO:0005615"	"extracellular space"	"27.132"	"4.242231300839153E-25"
+"GO:0042571"	"immunoglobulin complex, circulating"	"25.919"	NA
+"GO:0009986"	"cell surface"	"19.023"	"2.0979539682001326E-9"
+"GO:0043235"	"receptor complex"	"18.071"	NA
+"GO:0005788"	"endoplasmic reticulum lumen"	"16.828"	"1.6091542544119207E-6"
+"GO:0005579"	"membrane attack complex"	"15.402"	NA

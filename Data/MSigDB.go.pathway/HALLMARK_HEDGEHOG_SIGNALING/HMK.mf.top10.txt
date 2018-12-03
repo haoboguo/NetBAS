@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0017154"	"semaphorin receptor activity"	"30.842"	"0.022519057977001027"
+"GO:0043185"	"vascular endothelial growth factor receptor 3 binding"	"18.787"	NA
+"GO:0016298"	"lipase activity"	"18.31"	NA
+"GO:0016810"	"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds"	"17.306"	NA
+"GO:0005021"	"vascular endothelial growth factor-activated receptor activity"	"16.191"	"0.013196465038154805"
+"GO:0003846"	"2-acylglycerol O-acyltransferase activity"	"14.198"	NA
+"GO:0030215"	"semaphorin receptor binding"	"13.97"	NA
+"GO:0071820"	"N-box binding"	"13.631"	NA
+"GO:0004465"	"lipoprotein lipase activity"	"13.415"	NA
+"GO:0043184"	"vascular endothelial growth factor receptor 2 binding"	"12.806"	NA

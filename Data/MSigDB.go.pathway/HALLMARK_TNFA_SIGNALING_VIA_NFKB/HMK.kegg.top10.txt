@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"TNF signaling pathway"	"32.845"	"1.222861995085839E-28"
+"Cytokine-cytokine receptor interaction"	"32.353"	"1.8156365195934687E-14"
+"RIG-I-like receptor signaling pathway"	"31.79"	"6.731003110812471E-5"
+"Toll-like receptor signaling pathway"	"31.684"	"2.0397363976954996E-10"
+"NF-kappa B signaling pathway"	"30.441"	"6.790538331872108E-13"
+"Hepatitis B"	"29.058"	"1.4967102783257474E-7"
+"Pathways in cancer"	"27.775"	"7.419928025686586E-4"
+"NOD-like receptor signaling pathway"	"26.759"	"2.2482975431971194E-12"
+"IL-17 signaling pathway"	"26.703"	NA
+"Osteoclast differentiation"	"25.632"	"6.143377590981733E-10"

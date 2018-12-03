@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0050911"	"detection of chemical stimulus involved in sensory perception of smell"	"105.571"	NA
+"GO:0000165"	"MAPK cascade"	"32.102"	9.524655092697067E-18
+"GO:0031161"	"phosphatidylinositol catabolic process"	"31.591"	NA
+"GO:0018108"	"peptidyl-tyrosine phosphorylation"	"31.164"	"0.001212658675503037"
+"GO:0046854"	"phosphatidylinositol phosphorylation"	"28.343"	"1.5399922366894076E-6"
+"GO:0007165"	"signal transduction"	"27.435"	"1.5137279098089766E-35"
+"GO:0036092"	"phosphatidylinositol-3-phosphate biosynthetic process"	"26.871"	"4.62286763420183E-7"
+"GO:0051897"	"positive regulation of protein kinase B signaling"	"24.915"	NA
+"GO:0035556"	"intracellular signal transduction"	"23.821"	"2.725166851924647E-40"
+"GO:0038095"	"Fc-epsilon receptor signaling pathway"	"23.193"	"1.224743563725382E-7"

@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"RIG-I-like receptor signaling pathway"	"43.898"	"3.3799991915866673E-6"
+"Cytokine-cytokine receptor interaction"	"42.876"	"2.197565033674831E-7"
+"Jak-STAT signaling pathway"	"39.99"	"5.416396572366746E-11"
+"Toll-like receptor signaling pathway"	"36.386"	"3.780982815475859E-10"
+"Autoimmune thyroid disease"	"35.901"	"3.0455760900570697E-6"
+"NOD-like receptor signaling pathway"	"35.626"	"4.850032884530995E-7"
+"Herpes simplex infection"	"34.682"	"1.2219974902137484E-22"
+"Hepatitis C"	"33.523"	"1.1161965292518352E-9"
+"NF-kappa B signaling pathway"	"32.063"	"2.0700562079541892E-5"
+"Th1 and Th2 cell differentiation"	"30.638"	NA

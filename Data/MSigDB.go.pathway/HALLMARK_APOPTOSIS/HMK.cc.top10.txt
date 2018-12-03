@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0043160"	"acrosomal lumen"	"22.327"	NA
+"GO:0031264"	"death-inducing signaling complex"	"19.898"	"4.788994414642228E-5"
+"GO:0097136"	"Bcl-2 family protein complex"	"18.68"	"2.3526016022904732E-6"
+"GO:0097342"	"ripoptosome"	"18.246"	"0.05768337191901146"
+"GO:0031265"	"CD95 death-inducing signaling complex"	"16.816"	"0.001040787199547424"
+"GO:0005741"	"mitochondrial outer membrane"	"13.59"	"1.066463436043012E-10"
+"GO:0043293"	"apoptosome"	"13.548"	NA
+"GO:0005615"	"extracellular space"	"13.534"	"9.651932941534296E-9"
+"GO:0005886"	"plasma membrane"	"13.279"	"2.443371616372771E-4"
+"GO:0005737"	"cytoplasm"	"13.139"	"6.091366644496742E-15"

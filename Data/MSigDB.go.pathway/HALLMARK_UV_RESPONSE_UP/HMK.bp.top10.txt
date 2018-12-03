@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0048749"	"compound eye development"	"22.35"	NA
+"GO:0015819"	"lysine transport"	"18.221"	NA
+"GO:0080144"	"amino acid homeostasis"	"18.221"	NA
+"GO:2000609"	"regulation of thyroid hormone generation"	"15.772"	NA
+"GO:0042941"	"D-alanine transport"	"11.904"	NA
+"GO:0060300"	"regulation of cytokine activity"	"10.488"	NA
+"GO:0006099"	"tricarboxylic acid cycle"	"8.771"	NA
+"GO:1901207"	"regulation of heart looping"	"8.518"	NA
+"GO:1903954"	"positive regulation of voltage-gated potassium channel activity involved in atrial cardiac muscle cell action potential repolarization"	"8.518"	NA
+"GO:0033159"	"negative regulation of protein import into nucleus, translocation"	"8.346"	NA

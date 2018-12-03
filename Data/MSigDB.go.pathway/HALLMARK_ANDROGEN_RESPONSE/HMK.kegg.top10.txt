@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Prostate cancer"	"10.325"	"0.03935002004577438"
+"Human papillomavirus infection"	"8.563"	NA
+"PI3K-Akt signaling pathway"	"8.093"	NA
+"Cellular senescence"	"7.962"	NA
+"Pathways in cancer"	"7.667"	"0.04963294038763568"
+"Fluid shear stress and atherosclerosis"	"7.52"	NA
+"Proteasome"	"7.34"	NA
+"MAPK signaling pathway"	"7.325"	NA
+"Non-homologous end-joining"	"7.212"	NA
+"Thyroid hormone signaling pathway"	"7.163"	NA

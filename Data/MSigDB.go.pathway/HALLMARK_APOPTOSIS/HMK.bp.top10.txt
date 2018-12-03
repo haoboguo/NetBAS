@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0016077"	"snoRNA catabolic process"	"31.591"	NA
+"GO:0035863"	"dITP catabolic process"	"31.591"	NA
+"GO:1901639"	"XDP catabolic process"	"31.591"	NA
+"GO:0006919"	"activation of cysteine-type endopeptidase activity involved in apoptotic process"	"27.164"	"9.336919796110533E-20"
+"GO:0006915"	"apoptotic process"	"26"	"5.566901943126242E-65"
+"GO:0097192"	"extrinsic apoptotic signaling pathway in absence of ligand"	"23.933"	"6.214014116495045E-15"
+"GO:0097194"	"execution phase of apoptosis"	"22.314"	"8.616573300318664E-21"
+"GO:1902042"	"negative regulation of extrinsic apoptotic signaling pathway via death domain receptors"	"20.423"	"3.6325114821552413E-13"
+"GO:0042981"	"regulation of apoptotic process"	"19.934"	"1.2003159562076845E-61"
+"GO:0033209"	"tumor necrosis factor-mediated signaling pathway"	"19.915"	"0.009377596230131697"

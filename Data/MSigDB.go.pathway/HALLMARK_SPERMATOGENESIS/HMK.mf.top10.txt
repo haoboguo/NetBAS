@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005362"	"low-affinity glucose:sodium symporter activity"	"14.1"	NA
+"GO:0005524"	"ATP binding"	"12.778"	"1.5639313176287796E-6"
+"GO:0008506"	"sucrose:proton symporter activity"	"9.477"	NA
+"GO:0033038"	"bitter taste receptor activity"	"8.193"	NA
+"GO:0004502"	"kynurenine 3-monooxygenase activity"	"7.923"	NA
+"GO:0000287"	"magnesium ion binding"	"7.881"	NA
+"GO:0003846"	"2-acylglycerol O-acyltransferase activity"	"7.866"	NA
+"GO:0003873"	"6-phosphofructo-2-kinase activity"	"7.416"	NA
+"GO:0015245"	"fatty acid transporter activity"	"7.395"	NA
+"GO:0003924"	"GTPase activity"	"7.386"	NA

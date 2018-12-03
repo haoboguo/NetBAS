@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Glycosaminoglycan biosynthesis - heparan sulfate / heparin"	"38.435"	"8.330131253846235E-4"
+"Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"	"35.715"	NA
+"Glucagon signaling pathway"	"15.587"	"7.071279060605589E-5"
+"Glycolysis / Gluconeogenesis"	"14.707"	"3.0358196173500394E-24"
+"Pyruvate metabolism"	"14.06"	"0.005728271192679156"
+"Insulin signaling pathway"	"13.958"	"3.745163773167451E-5"
+"Cysteine and methionine metabolism"	"13.078"	NA
+"Propanoate metabolism"	"12.508"	NA
+"Insulin resistance"	"12.072"	"0.003378816291290169"
+"Aminoacyl-tRNA biosynthesis"	"12.049"	NA

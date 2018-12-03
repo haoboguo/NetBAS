@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003834"	"beta-carotene 15,15'-monooxygenase activity"	"31.591"	NA
+"GO:0010436"	"carotenoid dioxygenase activity"	"31.591"	NA
+"GO:0008013"	"beta-catenin binding"	"23.012"	"8.243787607796355E-4"
+"GO:0005109"	"frizzled binding"	"20.289"	"1.2208436955278479E-6"
+"GO:0003713"	"transcription coactivator activity"	"19.074"	"0.030417872708275968"
+"GO:0008134"	"transcription factor binding"	"18.76"	"4.2771305336618044E-11"
+"GO:0003700"	"transcription factor activity, sequence-specific DNA binding"	"18.547"	"0.0013368594361817404"
+"GO:0000978"	"RNA polymerase II core promoter proximal region sequence-specific DNA binding"	"18.459"	"0.04557618496969061"
+"GO:0003714"	"transcription corepressor activity"	"18.459"	NA
+"GO:0044212"	"transcription regulatory region DNA binding"	"16.909"	"1.3360954538791915E-5"

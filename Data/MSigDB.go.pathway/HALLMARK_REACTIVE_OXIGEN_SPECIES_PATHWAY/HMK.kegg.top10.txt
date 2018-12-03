@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Oxidative phosphorylation"	"21.443"	NA
+"Parkinson's disease"	"19.033"	NA
+"Glutathione metabolism"	"17.416"	"5.118234108180931E-8"
+"Retrograde endocannabinoid signaling"	"16.667"	NA
+"Alzheimer's disease"	"15.855"	NA
+"Thermogenesis"	"15.622"	NA
+"Glycolysis / Gluconeogenesis"	"15.386"	NA
+"Drug metabolism - other enzymes"	"13.05"	NA
+"Huntington's disease"	"13.049"	"0.045946918295745535"
+"Glycine' serine and threonine metabolism"	"11.723"	NA

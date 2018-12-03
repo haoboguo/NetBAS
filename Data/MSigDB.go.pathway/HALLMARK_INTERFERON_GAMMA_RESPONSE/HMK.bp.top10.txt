@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0002323"	"natural killer cell activation involved in immune response"	"47.691"	NA
+"GO:0033141"	"positive regulation of peptidyl-serine phosphorylation of STAT protein"	"42.91"	NA
+"GO:0060337"	"type I interferon signaling pathway"	"41.503"	"2.8094632453440185E-47"
+"GO:0006955"	"immune response"	"35.73"	"1.1978992162413249E-77"
+"GO:0002250"	"adaptive immune response"	"33.871"	"1.7719910780524308E-12"
+"GO:0051607"	"defense response to virus"	"32.589"	"2.5815875425317582E-36"
+"GO:0006954"	"inflammatory response"	"30.916"	"1.2273303671039142E-16"
+"GO:0043123"	"positive regulation of I-kappaB kinase/NF-kappaB signaling"	"30.728"	"1.5513213206552088E-7"
+"GO:0050852"	"T cell receptor signaling pathway"	"29.875"	"6.695684198695104E-12"
+"GO:0019221"	"cytokine-mediated signaling pathway"	"29.481"	"8.993654350729709E-77"

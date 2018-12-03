@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005654"	"nucleoplasm"	"16.217"	"4.5744619491862235E-5"
+"GO:0005667"	"transcription factor complex"	"15.655"	"1.1027748260410047E-4"
+"GO:0000307"	"cyclin-dependent protein kinase holoenzyme complex"	"11.959"	"5.776601705350183E-4"
+"GO:0000790"	"nuclear chromatin"	"11.836"	"0.006028636502531122"
+"GO:0005634"	"nucleus"	"11.658"	"1.2347217762929669E-7"
+"GO:0090575"	"RNA polymerase II transcription factor complex"	"10.422"	"1.2984951338940995E-4"
+"GO:0005737"	"cytoplasm"	"10.226"	"4.171721686403699E-7"
+"GO:0005730"	"nucleolus"	"10.005"	"1.6630532459160563E-6"
+"GO:0032991"	"macromolecular complex"	"9.482"	"4.638939885377817E-4"
+"GO:0017053"	"transcriptional repressor complex"	"8.655"	NA

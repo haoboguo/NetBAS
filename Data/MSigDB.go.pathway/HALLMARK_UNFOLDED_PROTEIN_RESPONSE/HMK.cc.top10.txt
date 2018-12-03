@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000178"	"exosome (RNase complex)"	"24.479"	"1.4708493509435E-7"
+"GO:0000176"	"nuclear exosome (RNase complex)"	"23.523"	"1.1574629102165832E-6"
+"GO:0022627"	"cytosolic small ribosomal subunit"	"22.536"	NA
+"GO:0000177"	"cytoplasmic exosome (RNase complex)"	"22.095"	"0.0030465750836873775"
+"GO:0032040"	"small-subunit processome"	"20.514"	"0.016066422143910228"
+"GO:0005730"	"nucleolus"	"20.23"	"1.2355762028740354E-8"
+"GO:0022625"	"cytosolic large ribosomal subunit"	"20.059"	NA
+"GO:0030014"	"CCR4-NOT complex"	"18.046"	"0.0034692571981356887"
+"GO:0016020"	"membrane"	"16.435"	NA
+"GO:0042788"	"polysomal ribosome"	"16.319"	NA

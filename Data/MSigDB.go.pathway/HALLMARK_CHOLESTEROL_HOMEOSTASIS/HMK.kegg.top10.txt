@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Steroid biosynthesis"	"16.843"	"7.146629301965599E-13"
+"Glycosaminoglycan degradation"	"9.597"	NA
+"Phagosome"	"8.47"	NA
+"Gap junction"	"8.325"	NA
+"Fat digestion and absorption"	"7.74"	NA
+"Other glycan degradation"	"7.675"	NA
+"Toxoplasmosis"	"7.35"	NA
+"Glycolysis / Gluconeogenesis"	"7.282"	"0.09084351512285274"
+"Protein processing in endoplasmic reticulum"	"6.925"	NA
+"Antigen processing and presentation"	"6.919"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0031090"	"organelle membrane"	"43.054"	"1.5308852575601053E-9"
+"GO:0005779"	"integral component of peroxisomal membrane"	"25.625"	"7.234747158315143E-15"
+"GO:0005778"	"peroxisomal membrane"	"25.331"	"4.7799032836698324E-29"
+"GO:0005777"	"peroxisome"	"23.998"	"5.085331975199137E-57"
+"GO:1990429"	"peroxisomal importomer complex"	"18.195"	NA
+"GO:0032994"	"protein-lipid complex"	"16.601"	NA
+"GO:0005789"	"endoplasmic reticulum membrane"	"14.45"	"1.4660551284124077E-6"
+"GO:0043231"	"intracellular membrane-bounded organelle"	"11.185"	"1.7612430670938436E-5"
+"GO:0005782"	"peroxisomal matrix"	"10.803"	"5.5364015478070616E-27"
+"GO:0005737"	"cytoplasm"	"9.51"	"9.085571278345537E-10"

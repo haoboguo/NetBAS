@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Dilated cardiomyopathy (DCM)"	"41.149"	"1.0734126152886833E-17"
+"Hypertrophic cardiomyopathy (HCM)"	"40.821"	"4.69545193676543E-17"
+"Cardiac muscle contraction"	"33.742"	"7.715761126658169E-8"
+"Adrenergic signaling in cardiomyocytes"	"23.79"	"9.90667691885181E-7"
+"Arrhythmogenic right ventricular cardiomyopathy (ARVC)"	"21.425"	"2.6622592840723286E-6"
+"Focal adhesion"	"21.026"	"1.3243740842139403E-7"
+"Regulation of actin cytoskeleton"	"20.011"	"9.523717157467112E-5"
+"Vascular smooth muscle contraction"	"18.168"	NA
+"ECM-receptor interaction"	"17.623"	"3.117696836750023E-6"
+"Oxytocin signaling pathway"	"17.465"	"0.005533926562391736"

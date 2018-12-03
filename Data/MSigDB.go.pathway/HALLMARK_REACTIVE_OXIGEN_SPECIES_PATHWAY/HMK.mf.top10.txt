@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008137"	"NADH dehydrogenase (ubiquinone) activity"	"29.216"	"0.006340081688256794"
+"GO:0004602"	"glutathione peroxidase activity"	"16.552"	"1.8461885333764015E-5"
+"GO:0005524"	"ATP binding"	"14.418"	"0.07381847750067633"
+"GO:0003954"	"NADH dehydrogenase activity"	"12.839"	"0.006340081688256794"
+"GO:0004364"	"glutathione transferase activity"	"12.696"	NA
+"GO:0009055"	"electron carrier activity"	"11.871"	"2.1363813691869848E-4"
+"GO:0047066"	"phospholipid-hydroperoxide glutathione peroxidase activity"	"11.798"	NA
+"GO:0008379"	"thioredoxin peroxidase activity"	"11.648"	"6.01454576670713E-5"
+"GO:0030170"	"pyridoxal phosphate binding"	"11.287"	NA
+"GO:0004550"	"nucleoside diphosphate kinase activity"	"9.772"	NA

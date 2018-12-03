@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006364"	"rRNA processing"	"31.834"	"7.737111234957118E-10"
+"GO:0006413"	"translational initiation"	"31.534"	"2.0352481328398953E-7"
+"GO:0006614"	"SRP-dependent cotranslational protein targeting to membrane"	"28.206"	NA
+"GO:0000184"	"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay"	"27.594"	"9.817768095412504E-5"
+"GO:0043928"	"exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay"	"24.131"	"9.230303068945992E-14"
+"GO:0006412"	"translation"	"23.811"	"1.1853363049651655E-9"
+"GO:0090503"	"RNA phosphodiester bond hydrolysis, exonucleolytic"	"21.355"	"1.6691533052481557E-9"
+"GO:0016075"	"rRNA catabolic process"	"20.235"	"1.6139301251318126E-4"
+"GO:0034475"	"U4 snRNA 3'-end processing"	"19.127"	"9.795999336612566E-4"
+"GO:0034427"	"nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5'"	"19.015"	"0.0015620401150407241"

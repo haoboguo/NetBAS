@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"70.259"	"0.05533097943955223"
+"GO:0007218"	"neuropeptide signaling pathway"	"35.074"	NA
+"GO:0007204"	"positive regulation of cytosolic calcium ion concentration"	"34.804"	"7.145863745972917E-4"
+"GO:0070098"	"chemokine-mediated signaling pathway"	"32.842"	NA
+"GO:0010469"	"regulation of receptor activity"	"32.455"	NA
+"GO:0007187"	"G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger"	"29.472"	"0.060152430871733026"
+"GO:0006935"	"chemotaxis"	"29.459"	"0.007239812324486369"
+"GO:0001580"	"detection of chemical stimulus involved in sensory perception of bitter taste"	"27.496" NA
+"GO:0006954"	"inflammatory response"	"26.619"	NA
+"GO:0007193"	"adenylate cyclase-inhibiting G-protein coupled receptor signaling pathway"	"26.54"	NA

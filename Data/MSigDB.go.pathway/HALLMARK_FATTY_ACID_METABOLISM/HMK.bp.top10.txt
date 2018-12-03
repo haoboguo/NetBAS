@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006096"	"glycolytic process"	"22.927"	"2.8530559606430835E-5"
+"GO:0061621"	"canonical glycolysis"	"22.405"	"0.001684606377955126"
+"GO:0006094"	"gluconeogenesis"	"22.39"	"3.3843081132137655E-7"
+"GO:0055114"	"oxidation-reduction process"	"22.301"	"2.3088221272766275E-76"
+"GO:0006099"	"tricarboxylic acid cycle"	"21.594"	"6.861387683146002E-26"
+"GO:0009083"	"branched-chain amino acid catabolic process"	"19.704"	"2.3687154158944974E-5"
+"GO:0042026"	"protein refolding"	"18.566"	NA
+"GO:0006986"	"response to unfolded protein"	"18.325"	NA
+"GO:0043312"	"neutrophil degranulation"	"18.018"	NA
+"GO:0070901"	"mitochondrial tRNA methylation"	"16.988"	NA

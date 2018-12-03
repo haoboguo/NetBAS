@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0016495"	"C-X3-C chemokine receptor activity"	"31.591"	NA
+"GO:0005005"	"transmembrane-ephrin receptor activity"	"23.88"	NA
+"GO:0016412"	"serine O-acyltransferase activity"	"15.772"	NA
+"GO:0005003"	"ephrin receptor activity"	"14.81"	NA
+"GO:0033798"	"thyroxine 5-deiodinase activity"	"12.865"	NA
+"GO:0046875"	"ephrin receptor binding"	"12.832"	NA
+"GO:0004713"	"protein tyrosine kinase activity"	"12.059"	NA
+"GO:0050262"	"ribosylnicotinamide kinase activity"	"11.728"	NA
+"GO:0061769"	"ribosylnicotinate kinase activity"	"11.728"	NA
+"GO:0005139"	"interleukin-7 receptor binding"	"11.446"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"17.106"	"0.02931058076216448"
+"GO:0004713"	"protein tyrosine kinase activity"	"15.923"	"7.548079179035659E-4"
+"GO:0004252"	"serine-type endopeptidase activity"	"14.217"	"0.0208360292832709"
+"GO:0004930"	"G-protein coupled receptor activity"	"13.948"	NA
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"13.676"	"0.0033583621670414594"
+"GO:0016303"	"1-phosphatidylinositol-3-kinase activity"	"13.333"	NA
+"GO:0008083"	"growth factor activity"	"11.822"	"1.0403190521194299E-5"
+"GO:0033038"	"bitter taste receptor activity"	"11.605"	NA
+"GO:0008009"	"chemokine activity"	"10.856"	"0.09787754957061873"
+"GO:0001784"	"phosphotyrosine binding"	"10.777"	NA

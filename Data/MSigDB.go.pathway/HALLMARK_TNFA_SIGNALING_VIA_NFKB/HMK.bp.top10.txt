@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006954"	"inflammatory response"	"31.948"	"2.103478297052025E-29"
+"GO:0007186"	"G-protein coupled receptor signaling pathway"	"28.418"	NA
+"GO:0045944"	"positive regulation of transcription from RNA polymerase II promoter"	"28.368"	"4.685732910181015E-22"
+"GO:0033209"	"tumor necrosis factor-mediated signaling pathway"	"27.017"	"0.07321047412538129"
+"GO:0043123"	"positive regulation of I-kappaB kinase/NF-kappaB signaling"	"25.508"	"2.5667295563217202E-12"
+"GO:0006955"	"immune response"	"24.429"	"2.57944109251954E-26"
+"GO:0010803"	"regulation of tumor necrosis factor-mediated signaling pathway"	"23.249"	"2.287191352223465E-5"
+"GO:0019221"	"cytokine-mediated signaling pathway"	"22.787"	"2.9901634192369197E-22"
+"GO:0071222"	"cellular response to lipopolysaccharide"	"22.444"	"2.039495517115123E-22"
+"GO:0046603"	"negative regulation of mitotic centrosome separation"	"22.327"	NA

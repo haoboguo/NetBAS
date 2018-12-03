@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008134"	"transcription factor binding"	"21.414"	"5.009530829514716E-4"
+"GO:0030374"	"ligand-dependent nuclear receptor transcription coactivator activity"	"17.812"	NA
+"GO:0003700"	"transcription factor activity, sequence-specific DNA binding"	"16.261"	"0.00785851883759504"
+"GO:0003713"	"transcription coactivator activity"	"15.951"	NA
+"GO:0000978"	"RNA polymerase II core promoter proximal region sequence-specific DNA binding"	"15.625"	"0.016347903630268567"
+"GO:0003707"	"steroid hormone receptor activity"	"15.529"	"0.026522084859752812"
+"GO:0004879"	"RNA polymerase II transcription factor activity, ligand-activated sequence-specific DNA binding"	"15.267"	NA
+"GO:0016922"	"ligand-dependent nuclear receptor binding"	"15.116"	NA
+"GO:0001077"	"transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding"	"14.482"	"2.7009997512915835E-4"
+"GO:0035257"	"nuclear hormone receptor binding"	"13.693"	NA

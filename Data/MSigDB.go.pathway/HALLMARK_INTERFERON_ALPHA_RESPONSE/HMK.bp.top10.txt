@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0060337"	"type I interferon signaling pathway"	"26.563"	"4.822770516817166E-34"
+"GO:0032480"	"negative regulation of type I interferon production"	"25.174"	"4.8628424930087356E-5"
+"GO:0051607"	"defense response to virus"	"24.407"	"1.8211599607080092E-28"
+"GO:0045087"	"innate immune response"	"20.944"	"3.093500373197306E-36"
+"GO:0034344"	"regulation of type III interferon production"	"20.235"	NA
+"GO:0039528"	"cytoplasmic pattern recognition receptor signaling pathway in response to virus"	"20.235"	"1.5586859256644338E-4"
+"GO:0016579"	"protein deubiquitination"	"19.483"	NA
+"GO:0010499"	"proteasomal ubiquitin-independent protein catabolic process"	"19.428"	NA
+"GO:0043123"	"positive regulation of I-kappaB kinase/NF-kappaB signaling"	"19.197"	"0.002306419900651119"
+"GO:0009597"	"detection of virus"	"17.382"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0004930"	"G-protein coupled receptor activity"	"24.619"	NA
+"GO:0008201"	"heparin binding"	"18.049"	"2.3420577593802732E-18"
+"GO:0008009"	"chemokine activity"	"16.74"	"0.09419499264105413"
+"GO:0050840"	"extracellular matrix binding"	"15.955"	"1.6323885216913342E-4"
+"GO:0005178"	"integrin binding"	"15.953"	NA
+"GO:0033038"	"bitter taste receptor activity"	"15.762"	NA
+"GO:0043185"	"vascular endothelial growth factor receptor 3 binding"	"15.562"	NA
+"GO:0008083"	"growth factor activity"	"14.446"	"3.0279748835315175E-4"
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"14.313"	NA
+"GO:0008747"	"N-acetylneuraminate lyase activity"	"14.1"	NA

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0097711"	"ciliary basal body docking"	"66.593"	NA
+"GO:0010389"	"regulation of G2/M transition of mitotic cell cycle"	"58.884"	NA
+"GO:0051301"	"cell division"	"56.84"	"1.2465461972609567E-39"
+"GO:0000086"	"G2/M transition of mitotic cell cycle"	"54.93"	"4.5006321053253384E-21"
+"GO:0051056"	"regulation of small GTPase mediated signal transduction"	"54.488"	"6.786210438825666E-30"
+"GO:0007266"	"Rho protein signal transduction"	"44.656"	"1.3039264941446279E-8"
+"GO:0060271"	"cilium morphogenesis"	"41.225"	"0.008351282901086568"
+"GO:0030036"	"actin cytoskeleton organization"	"40.7"	"1.6600178914114637E-46"
+"GO:0007015"	"actin filament organization"	"40.299"	"3.842201302493916E-29"
+"GO:0030031"	"cell projection assembly"	"35.544"	"2.4388919119872026E-20"

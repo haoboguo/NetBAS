@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0090122"	"cholesterol ester hydrolysis involved in cholesterol transport"	"12.865"	NA
+"GO:0030328"	"prenylcysteine catabolic process"	"12.411"	NA
+"GO:0055114"	"oxidation-reduction process"	"11.587"	"1.0327775065956874E-9"
+"GO:0016126"	"sterol biosynthetic process"	"11.543"	"1.876266162010804E-24"
+"GO:0003017"	"lymph circulation"	"11.13"	NA
+"GO:0046395"	"carboxylic acid catabolic process"	"11.13"	"0.0440355233958436"
+"GO:0046434"	"organophosphate catabolic process"	"11.13"	NA
+"GO:0006695"	"cholesterol biosynthetic process"	"9.355"	"2.4157221834935693E-25"
+"GO:0030860"	"regulation of polarized epithelial cell differentiation"	"9.071"	NA
+"GO:0043312"	"neutrophil degranulation"	"8.998"	NA

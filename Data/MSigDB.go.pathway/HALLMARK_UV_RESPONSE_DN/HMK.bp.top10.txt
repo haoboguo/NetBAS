@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0046603"	"negative regulation of mitotic centrosome separation"	"22.327"	NA
+"GO:0007165"	"signal transduction"	"21.24"	"2.9660781109124578E-12"
+"GO:0018108"	"peptidyl-tyrosine phosphorylation"	"19.537"	"1.3715829176415745E-4"
+"GO:0045893"	"positive regulation of transcription, DNA-templated"	"18.983"	"1.066232905180911E-5"
+"GO:0007411"	"axon guidance"	"18.853"	"0.009990023747316293"
+"GO:0007173"	"epidermal growth factor receptor signaling pathway"	"18.586"	NA
+"GO:1902939"	"negative regulation of intracellular calcium activated chloride channel activity"	"18.221"	NA
+"GO:0030335"	"positive regulation of cell migration"	"18.164"	"6.976937084633564E-11"
+"GO:0048013"	"ephrin receptor signaling pathway"	"17.919"	"0.0055964468766488435"
+"GO:0046854"	"phosphatidylinositol phosphorylation"	"17.755"	"0.0010311654568596696"

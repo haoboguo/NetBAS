@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003723"	"RNA binding"	"22.384"	"6.117899639725223E-14"
+"GO:0004584"	"dolichyl-phosphate-mannose-glycolipid alpha-mannosyltransferase activity"	"22.327"	NA
+"GO:0047734"	"CDP-glycerol diphosphatase activity"	"22.327"	NA
+"GO:0004532"	"exoribonuclease activity"	"20.561"	"2.5512800933603688E-11"
+"GO:0003735"	"structural constituent of ribosome"	"19.685"	NA
+"GO:0000175"	"3'-5'-exoribonuclease activity"	"18.73"	"1.6774307872231384E-8"
+"GO:0003743"	"translation initiation factor activity"	"18.337"	"4.849333688907915E-4"
+"GO:0004535"	"poly(A)-specific ribonuclease activity"	"13.871"	"0.0026483223729652995"
+"GO:0019843"	"rRNA binding"	"12.658"	"0.053152894757034684"
+"GO:0005524"	"ATP binding"	"12.181"	"0.03217965708324354"

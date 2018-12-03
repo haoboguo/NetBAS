@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005737"	"cytoplasm"	"9.221"	"7.990139423317657E-8"
+"GO:0005789"	"endoplasmic reticulum membrane"	"9.18"	"0.0021974279250274106"
+"GO:0005829"	"cytosol"	"8.733"	"7.455098698714937E-5"
+"GO:0000502"	"proteasome complex"	"8.618"	NA
+"GO:0032991"	"macromolecular complex"	"8.193"	"0.05902304421104936"
+"GO:0005783"	"endoplasmic reticulum"	"7.506"	"0.005700783133645655"
+"GO:0032807"	"DNA ligase IV complex"	"7.463"	NA
+"GO:0005958"	"DNA-dependent protein kinase-DNA ligase 4 complex"	"7.427"	NA
+"GO:0070419"	"nonhomologous end joining complex"	"7.191"	"0.0464331880685146"
+"GO:0000308"	"cytoplasmic cyclin-dependent protein kinase holoenzyme complex"	"6.945"	NA

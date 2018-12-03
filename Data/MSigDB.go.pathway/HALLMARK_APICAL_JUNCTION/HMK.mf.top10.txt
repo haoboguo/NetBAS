@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0003779"	"actin binding"	"38.653"	"3.578290542628649E-16"
+"GO:0005088"	"Ras guanyl-nucleotide exchange factor activity"	"37.39"	"0.012680785690417976"
+"GO:0051015"	"actin filament binding"	"34.475"	"2.1964666573739323E-8"
+"GO:0004713"	"protein tyrosine kinase activity"	"33.529"	NA
+"GO:0046934"	"phosphatidylinositol-4,5-bisphosphate 3-kinase activity"	"29.587"	"0.030138361549479128"
+"GO:0017124"	"SH3 domain binding"	"26.748"	"0.0019390571984603184"
+"GO:0005178"	"integrin binding"	"25.16"	"2.101740249902402E-31"
+"GO:0005509"	"calcium ion binding"	"24.094"	"1.004233612432882E-6"
+"GO:0001784"	"phosphotyrosine binding"	"23.668"	NA
+"GO:0045296"	"cadherin binding"	"23.601"	"4.521912140721354E-8"

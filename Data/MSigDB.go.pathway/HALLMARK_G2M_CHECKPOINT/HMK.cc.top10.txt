@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0000777"	"condensed chromosome kinetochore"	"44.836"	"7.784951464524656E-10"
+"GO:0000776"	"kinetochore"	"32.097"	"2.268596754894958E-15"
+"GO:0000775"	"chromosome, centromeric region"	"31.002"	"7.175849355024927E-22"
+"GO:0005680"	"anaphase-promoting complex"	"26.213"	"0.0016940399458188122"
+"GO:0000307"	"cyclin-dependent protein kinase holoenzyme complex"	"23.268"	"2.1084384960861787E-6"
+"GO:0000778"	"condensed nuclear chromosome kinetochore"	"22.944"	"1.73059830778246E-4"
+"GO:0031080"	"nuclear pore outer ring"	"22.851"	NA
+"GO:0000785"	"chromatin"	"22.161"	"1.7103282551936798E-15"
+"GO:0005694"	"chromosome"	"21.593"	"3.2717071849925305E-49"
+"GO:0000940"	"condensed chromosome outer kinetochore"	"21.153"	"5.307953436317211E-6"

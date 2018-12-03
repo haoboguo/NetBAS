@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0005669"	"transcription factor TFIID complex"	"58.951"	"3.813304064505464E-23"
+"GO:0005675"	"holo TFIIH complex"	"56.735"	"1.0260600754523577E-6"
+"GO:0000439"	"core TFIIH complex"	"50.48"	"3.964491767223789E-7"
+"GO:0005654"	"nucleoplasm"	"46.917"	"1.5044673640581326E-35"
+"GO:0043625"	"delta DNA polymerase complex"	"43.514"	"3.4309809378715004E-4"
+"GO:0005665"	"DNA-directed RNA polymerase II, core complex"	"42.914"	"3.0631361636572682E-15"
+"GO:0032039"	"integrator complex"	"39.411"	NA
+"GO:0005666"	"DNA-directed RNA polymerase III complex"	"38.354"	"6.020428103058743E-11"
+"GO:0000438"	"core TFIIH complex portion of holo TFIIH complex"	"37.46"	NA
+"GO:0071013"	"catalytic step 2 spliceosome"	"36.189"	NA

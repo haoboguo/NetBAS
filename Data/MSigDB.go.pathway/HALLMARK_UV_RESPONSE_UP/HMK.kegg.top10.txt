@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Glycolysis / Gluconeogenesis"	"10.499"	NA
+"Citrate cycle (TCA cycle)"	"9.238"	NA
+"Pyruvate metabolism"	"8.819"	NA
+"Pentose phosphate pathway"	"7.503"	NA
+"Aminoacyl-tRNA biosynthesis"	"7.177"	NA
+"Phagosome"	"7.068"	"0.09457381607231581"
+"Starch and sucrose metabolism"	"7.015"	NA
+"Collecting duct acid secretion"	"6.946"	"0.06973360471853235"
+"Glucagon signaling pathway"	"6.823"	NA
+"Cysteine and methionine metabolism"	"6.658"	NA

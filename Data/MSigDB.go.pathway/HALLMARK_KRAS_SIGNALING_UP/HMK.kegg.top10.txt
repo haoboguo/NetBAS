@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Cytokine-cytokine receptor interaction"	"20.983"	"4.685268864139577E-4"
+"Chemokine signaling pathway"	"18.551"	"0.07697151054442938"
+"Pathways in cancer"	"15.985"	"0.0037732861066441595"
+"Toll-like receptor signaling pathway"	"15.024"	"0.027029907342856676"
+"Ras signaling pathway"	"14.916"	NA
+"PI3K-Akt signaling pathway"	"14.859"	"0.04858446726315184"
+"TNF signaling pathway"	"14.483"	"6.960977854638939E-6"
+"Regulation of actin cytoskeleton"	"14.2"	NA
+"Chagas disease (American trypanosomiasis)"	"14.197"	NA
+"Fc epsilon RI signaling pathway"	"14.086"	NA

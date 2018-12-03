@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Pathways in cancer"	"21.797"	"0.005823999381601536"
+"Jak-STAT signaling pathway"	"20.499"	NA
+"Thyroid hormone signaling pathway"	"19.671"	NA
+"MicroRNAs in cancer"	"18.95"	NA
+"Hepatitis B"	"17.615"	NA
+"Chronic myeloid leukemia"	"16.8"	NA
+"Breast cancer"	"15.801"	NA
+"ErbB signaling pathway"	"15.134"	NA
+"Prostate cancer"	"15.052"	NA
+"Non-small cell lung cancer"	"14.762"	NA

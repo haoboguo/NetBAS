@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0008137"	"NADH dehydrogenase (ubiquinone) activity"	"143.608"	"1.0207066054658404E-40"
+"GO:0004129"	"cytochrome-c oxidase activity"	"71.112"	"5.677802945652929E-22"
+"GO:0003954"	"NADH dehydrogenase activity"	"62.818"	"1.0207066054658404E-40"
+"GO:0009055"	"electron carrier activity"	"41.228"	"2.9577810938511444E-45"
+"GO:0004321"	"fatty-acyl-CoA synthase activity"	"37.522"	NA
+"GO:0015645"	"fatty acid ligase activity"	"37.522"	NA
+"GO:0008121"	"ubiquinol-cytochrome-c reductase activity"	"34.773"	"4.177397469313241E-10"
+"GO:0004466"	"long-chain-acyl-CoA dehydrogenase activity"	"33.485"	NA
+"GO:0046961"	"proton-transporting ATPase activity, rotational mechanism"	"30.206"	"3.4285232503903244E-19"
+"GO:0051537"	"2 iron, 2 sulfur cluster binding"	"30.097"	"2.3117708857101852E-10"

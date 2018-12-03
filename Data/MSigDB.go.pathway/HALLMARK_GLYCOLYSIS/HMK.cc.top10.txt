@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0070062"	"extracellular exosome"	"29.767"	"1.7373159588497676E-18"
+"GO:0005759"	"mitochondrial matrix"	"27.399"	"0.01511831633479163"
+"GO:0043202"	"lysosomal lumen"	"23.492"	"3.0995551369704716E-8"
+"GO:0005796"	"Golgi lumen"	"22.018"	"8.187845272013348E-6"
+"GO:0005829"	"cytosol"	"19.551"	"1.0316332898436385E-10"
+"GO:0043209"	"myelin sheath"	"18.527"	"5.426225026197826E-4"
+"GO:0005739"	"mitochondrion"	"18.39"	"9.744936243534204E-5"
+"GO:1904813"	"ficolin-1-rich granule lumen"	"18.079"	NA
+"GO:0034774"	"secretory granule lumen"	"16.342"	NA
+"GO:0000139"	"Golgi membrane"	"15.418"	"1.2502348488376793E-11"

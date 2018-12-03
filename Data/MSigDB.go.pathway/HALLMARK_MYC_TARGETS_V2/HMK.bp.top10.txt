@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006364"	"rRNA processing"	"40.305"	"3.898593284943992E-15"
+"GO:0000462"	"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"	"21.503"	"2.260704009518469E-4"
+"GO:0006334"	"nucleosome assembly"	"19.666"	NA
+"GO:0000027"	"ribosomal large subunit assembly"	"19.486"	"0.07742136630535686"
+"GO:0035238"	"vitamin A biosynthetic process"	"18.221"	NA
+"GO:1901810"	"beta-carotene metabolic process"	"18.221"	NA
+"GO:0042273"	"ribosomal large subunit biogenesis"	"17.762"	"1.781855177709407E-9"
+"GO:2000234"	"positive regulation of rRNA processing"	"15.845"	NA
+"GO:0006325"	"chromatin organization"	"15.641"	"0.011107495286291378"
+"GO:0006413"	"translational initiation"	"14.692"	NA

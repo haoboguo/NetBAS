@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Notch signaling pathway"	"35.248"	"5.772881670391749E-24"
+"Basal cell carcinoma"	"25.417"	"2.539827506257255E-6"
+"Human papillomavirus infection"	"18.11"	NA
+"Breast cancer"	"16.807"	NA
+"Wnt signaling pathway"	"14.923"	"1.0173859955807964E-13"
+"Hippo signaling pathway"	"13.644"	"2.2236337670742746E-6"
+"Ubiquitin mediated proteolysis"	"13.088"	"0.019346798925044456"
+"Pathways in cancer"	"12.23"	"2.1292248409698714E-5"
+"Other types of O-glycan biosynthesis"	"11.853"	NA
+"Th1 and Th2 cell differentiation"	"11.615"	NA

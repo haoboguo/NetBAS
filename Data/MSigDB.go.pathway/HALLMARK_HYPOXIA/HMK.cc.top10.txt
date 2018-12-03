@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0070062"	"extracellular exosome"	"22.241"	"1.061770713006806E-11"
+"GO:0005759"	"mitochondrial matrix"	"18.12"	NA
+"GO:0005737"	"cytoplasm"	"13.59"	"1.7326525293271341E-13"
+"GO:0031012"	"extracellular matrix"	"13.27"	"2.379440724073428E-9"
+"GO:0005829"	"cytosol"	"12.947"	"5.8540077602673635E-12"
+"GO:0060473"	"cortical granule"	"12.398"	NA
+"GO:0005739"	"mitochondrion"	"12.318"	"0.03812094809964318"
+"GO:0042627"	"chylomicron"	"12.19"	NA
+"GO:0034361"	"very-low-density lipoprotein particle"	"12.047"	NA
+"GO:0043209"    "myelin sheath" "11.787"	"0.010891704040920946"

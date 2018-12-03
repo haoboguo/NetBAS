@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"RIG-I-like receptor signaling pathway"	"27.377"	"5.325239617377908E-5"
+"Proteasome"	"22.698"	"0.0021970038507996845"
+"NOD-like receptor signaling pathway"	"21.761"	"0.04359430555212942"
+"NF-kappa B signaling pathway"	"17.816"	NA
+"Hepatitis C"	"16.39"	"0.0010738090640703111"
+"Herpes simplex infection"	"15.955"	"7.612836464356898E-8"
+"Toll-like receptor signaling pathway"	"15.867"	"0.02481781073422435"
+"Cytosolic DNA-sensing pathway"	"14.245"	"0.006365149128214831"
+"Hepatitis B"	"11.989"	"0.054645003036994745"
+"Autoimmune thyroid disease"	"11.938"	NA

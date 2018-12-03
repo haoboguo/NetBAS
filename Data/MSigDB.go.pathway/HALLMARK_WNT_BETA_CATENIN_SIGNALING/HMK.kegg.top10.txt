@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Notch signaling pathway"	"26.747"	"4.9564120980369926E-20"
+"Basal cell carcinoma"	"23.374"	"1.7130931404070475E-15"
+"Wnt signaling pathway"	"19.697"	"2.0040701625299808E-23"
+"Breast cancer"	"17.204"	NA
+"Human papillomavirus infection"	"15.686"	NA
+"Hepatocellular carcinoma"	"14.96"	NA
+"Pathways in cancer"	"14.307"	"4.064352642337998E-11"
+"Gastric cancer"	"14.134"	NA
+"Hippo signaling pathway"	"13.852"	"9.325509861732626E-12"
+"Cushing,s syndrome"	"13.205"	NA

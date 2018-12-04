@@ -28,7 +28,7 @@ rownames(zscores) <- pathway
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
 my_palette <- colorRampPalette(c("white", "red2"))(n=9)
 
-p.david <- c("1.0E-51", "NA", "NA", 9.7E-2", "NA", "NA", "NA", "NA", "3.3E-7", "NA")
+p.david <- c("1.0E-51", "NA", "NA", "9.7E-2", "NA", "NA", "NA", "NA", "3.3E-7", "NA")
 note <- cbind(netbas, p.david)
 
 png(filename= "netbas-david.kegg.top10.png", width=5, height=6, res=1200, unit="in")

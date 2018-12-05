@@ -1,4 +1,4 @@
-"GO.ID"	"GO.Term"	"Z-score"	"DAVID"
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
 "GO:0000165"	"MAPK cascade"	"36.113"	"1.3011403274346495E-8"
 "GO:0018108"	"peptidyl-tyrosine phosphorylation"	"32.159"	"0.04088182734976091"
 "GO:0007155"	"cell adhesion"	"31.28"	"2.7899445385160427E-67"

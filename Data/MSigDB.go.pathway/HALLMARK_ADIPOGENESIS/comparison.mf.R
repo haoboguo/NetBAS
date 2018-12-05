@@ -14,11 +14,11 @@ david <- filename$DAVID
 #convert DAVID p-values to z-scores
 z.david <- c()
 for (i in 1:10) {
-    z.val <- round(abs(david[i] - sqrt(2)*erfcinv(2*david[i])),3)
+    z.val <- abs(david[i] - sqrt(2)*erfcinv(2*david[i]))
     z.david <- rbind(z.david, z.val)
 }
 
-scale.factor <- max(netbas) / 7.297
+scale.factor <- max(netbas) / max(z.david[!is.na(z.david)])
 
 z.david <- round(z.david * scale.factor,3)
 
@@ -30,7 +30,7 @@ rownames(zscores) <- go.id
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
 my_palette <- colorRampPalette(c("white", "red2"))(n=9)
 
-p.david <- c("1.5E-2", "4.0E-2", "NA", "1.4E-4", "1.5E-13", "NA", "NA","NA","1.5E-2", "NA")
+p.david <- c("1.5E-2", "4.0E-2", "NA", "1.4E-4", "1.5E-13", "NA", "NA", "NA", "1.5E-2", "NA")
 note <- cbind(netbas, p.david)
 
 png(filename= "netbas-david.mf.top10.png", width=3.5, height=6, res=1200, unit="in")

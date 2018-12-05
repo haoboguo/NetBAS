@@ -8,4 +8,4 @@
 "GO:0009897"	"external side of plasma membrane"	"15.929"	NA
 "GO:0009986"	"cell surface"	"13.659"	"7.865960099686772E-6"
 "GO:0034358"	"plasma lipoprotein particle"	"12.865"	"0.07031109669732223"
-"GO:0043235"    "receptor complex"      "12.454"	"0.0031208250007474683"
+"GO:0043235"	"receptor complex"	"12.454"	"0.0031208250007474683"

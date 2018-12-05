@@ -18,7 +18,7 @@ for (i in 1:10) {
     z.david <- rbind(z.david, z.val)
 }
 
-scale.factor <- max(netbas) / 12.57864
+scale.factor <- max(netbas) / max(z.david[!is.na(z.david)])
 
 z.david <- round(z.david * scale.factor,3)
 
@@ -30,7 +30,7 @@ rownames(zscores) <- go.id
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
 my_palette <- colorRampPalette(c("white", "red2"))(n=9)
 
-p.david <- c("2.5E-5", "5.2E-3", "1.4E-36", "3.6E-13", "3.7E-5", "1.8E-5", "4.6E-15","3.5E-2","3.3E-2", "5.0E-15")
+p.david <- c("2.5E-5", "5.2E-3", "1.4E-36", "3.6E-13", "3.7E-5", "1.8E-5", "4.6E-15", "3.5E-2", "3.3E-2", "5.0E-15")
 note <- cbind(netbas, p.david)
 
 png(filename= "netbas-david.bp.top10.png", width=3.5, height=6, res=1200, unit="in")

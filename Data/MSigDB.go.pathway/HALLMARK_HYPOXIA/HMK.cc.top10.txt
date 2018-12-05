@@ -8,4 +8,4 @@
 "GO:0005739"	"mitochondrion"	"12.318"	"0.03812094809964318"
 "GO:0042627"	"chylomicron"	"12.19"	NA
 "GO:0034361"	"very-low-density lipoprotein particle"	"12.047"	NA
-"GO:0043209"    "myelin sheath" "11.787"	"0.010891704040920946"
+"GO:0043209"	"myelin sheath"	"11.787"	"0.010891704040920946"

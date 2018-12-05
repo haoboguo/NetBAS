@@ -1,4 +1,4 @@
-"GO.ID"	"GO.Term"	"NetBAS"
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
 "GO:0005089"	"Rho guanyl-nucleotide exchange factor activity"	"13.461"	NA
 "GO:0005096"	"GTPase activator activity"	"12.658"	NA
 "GO:0005125"	"cytokine activity"	"11.944"	"3.45115388605758E-5"

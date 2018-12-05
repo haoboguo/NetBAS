@@ -8,4 +8,4 @@
 "GO:0004016"	"adenylate cyclase activity"	"10.507"	NA
 "GO:0050613"	"delta14-sterol reductase activity"	"10.053"	NA
 "GO:0016936"	"galactoside binding"	"9.696"	NA
-"GO:0005506"    "iron ion binding"      "9.695"	NA
+"GO:0005506"	"iron ion binding"	"9.695"	NA

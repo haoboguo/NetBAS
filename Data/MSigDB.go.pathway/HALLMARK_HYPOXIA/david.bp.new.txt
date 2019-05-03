@@ -1,0 +1,1024 @@
+GO:0005975~carbohydrate metabolic process	1.44638656834568e-35
+GO:0046031~ADP metabolic process	2.66340816406967e-32
+GO:0061620~glycolytic process through glucose-6-phosphate	1.16275293876305e-31
+GO:0061615~glycolytic process through fructose-6-phosphate	1.16275293876305e-31
+GO:0019320~hexose catabolic process	8.57956759313427e-31
+GO:0006165~nucleoside diphosphate phosphorylation	1.27466428394288e-30
+GO:0006096~glycolytic process	1.69331650429702e-30
+GO:0044723~single-organism carbohydrate metabolic process	1.99095253376133e-30
+GO:0044724~single-organism carbohydrate catabolic process	2.07567361838221e-30
+GO:0006757~ATP generation from ADP	2.63404146812691e-30
+GO:0006007~glucose catabolic process	7.0889901827246e-30
+GO:0009179~purine ribonucleoside diphosphate metabolic process	7.15852654828669e-30
+GO:0009135~purine nucleoside diphosphate metabolic process	7.15852654828669e-30
+GO:0061718~glucose catabolic process to pyruvate	7.83914496645043e-30
+GO:0006735~NADH regeneration	7.83914496645043e-30
+GO:0061621~canonical glycolysis	7.83914496645043e-30
+GO:0046939~nucleotide phosphorylation	9.96602925958754e-30
+GO:0009185~ribonucleoside diphosphate metabolic process	1.38129332610577e-29
+GO:0006006~glucose metabolic process	1.40131191703844e-29
+GO:0046365~monosaccharide catabolic process	1.62305857159437e-29
+GO:0006090~pyruvate metabolic process	8.97277521678469e-29
+GO:0016052~carbohydrate catabolic process	1.15441772456865e-28
+GO:0009132~nucleoside diphosphate metabolic process	1.79095453304757e-28
+GO:0019318~hexose metabolic process	4.89676827537279e-28
+GO:0016051~carbohydrate biosynthetic process	6.96703295219779e-28
+GO:0005996~monosaccharide metabolic process	2.78615700223682e-27
+GO:0046496~nicotinamide nucleotide metabolic process	7.71160813256086e-26
+GO:0019362~pyridine nucleotide metabolic process	7.71160813256086e-26
+GO:0006734~NADH metabolic process	7.9008083494342e-26
+GO:1901135~carbohydrate derivative metabolic process	9.48197668548667e-26
+GO:0072524~pyridine-containing compound metabolic process	4.41399127686703e-25
+GO:0006733~oxidoreduction coenzyme metabolic process	2.2402111784896e-24
+GO:0044710~single-organism metabolic process	5.14267224205615e-24
+GO:0006091~generation of precursor metabolites and energy	5.35875173348721e-24
+GO:0044262~cellular carbohydrate metabolic process	2.30772383735247e-23
+GO:0019674~NAD metabolic process	5.23934460339029e-23
+GO:0006094~gluconeogenesis	5.15606581374593e-21
+GO:0019319~hexose biosynthetic process	1.20051628861128e-20
+GO:0046034~ATP metabolic process	3.08361297068935e-20
+GO:0046364~monosaccharide biosynthetic process	3.48923603206743e-20
+GO:0070482~response to oxygen levels	2.74896096265543e-19
+GO:0009205~purine ribonucleoside triphosphate metabolic process	3.93887678669571e-19
+GO:0036293~response to decreased oxygen levels	5.21141661206559e-19
+GO:0009199~ribonucleoside triphosphate metabolic process	7.14439160632771e-19
+GO:0009144~purine nucleoside triphosphate metabolic process	7.87809017400138e-19
+GO:0006024~glycosaminoglycan biosynthetic process	1.48068338482816e-18
+GO:0006023~aminoglycan biosynthetic process	1.78045008617553e-18
+GO:0009167~purine ribonucleoside monophosphate metabolic process	2.24827771415014e-18
+GO:0001666~response to hypoxia	2.46736464621443e-18
+GO:0009126~purine nucleoside monophosphate metabolic process	2.46736464621443e-18
+GO:0006732~coenzyme metabolic process	3.13898093143087e-18
+GO:0009141~nucleoside triphosphate metabolic process	6.69659696119226e-18
+GO:0009161~ribonucleoside monophosphate metabolic process	6.69659696119226e-18
+GO:0030203~glycosaminoglycan metabolic process	1.20192699495809e-17
+GO:1901564~organonitrogen compound metabolic process	1.54292135815323e-17
+GO:0009123~nucleoside monophosphate metabolic process	2.24547237840319e-17
+GO:0006022~aminoglycan metabolic process	3.90623074018535e-17
+GO:0006163~purine nucleotide metabolic process	7.90364101108467e-17
+GO:0051186~cofactor metabolic process	8.04646020423108e-17
+GO:0046128~purine ribonucleoside metabolic process	8.46995677029495e-17
+GO:0019693~ribose phosphate metabolic process	8.84321236667101e-17
+GO:0042278~purine nucleoside metabolic process	1.05895331321965e-16
+GO:0009150~purine ribonucleotide metabolic process	1.20362537346027e-16
+GO:0009117~nucleotide metabolic process	1.4570334218992e-16
+GO:0006753~nucleoside phosphate metabolic process	2.14932166594443e-16
+GO:0009259~ribonucleotide metabolic process	2.8192357849407e-16
+GO:0016310~phosphorylation	3.97356385185402e-16
+GO:0072521~purine-containing compound metabolic process	4.75515345775732e-16
+GO:0055086~nucleobase-containing small molecule metabolic process	5.3520513598235e-16
+GO:0055114~oxidation-reduction process	6.67531206991698e-16
+GO:0009119~ribonucleoside metabolic process	7.8264483373919e-16
+GO:0032787~monocarboxylic acid metabolic process	1.25951841088367e-15
+GO:0044281~small molecule metabolic process	1.62192599504271e-15
+GO:0009056~catabolic process	1.79408714591121e-15
+GO:0009116~nucleoside metabolic process	4.85085623441133e-15
+GO:1901575~organic substance catabolic process	5.1605713627872e-15
+GO:0070887~cellular response to chemical stimulus	5.84502742522384e-15
+GO:0042221~response to chemical	7.91531505368519e-15
+GO:0044711~single-organism biosynthetic process	9.60299540803244e-15
+GO:0001944~vasculature development	1.58805516351614e-14
+GO:1901657~glycosyl compound metabolic process	1.83537309017075e-14
+GO:0044282~small molecule catabolic process	2.03576599665862e-14
+GO:0009605~response to external stimulus	2.86402145634335e-14
+GO:0044712~single-organism catabolic process	4.84738460291434e-14
+GO:1901137~carbohydrate derivative biosynthetic process	5.39284827133138e-14
+GO:0006796~phosphate-containing compound metabolic process	5.97300094068321e-14
+GO:0006793~phosphorus metabolic process	6.66811913838372e-14
+GO:0009628~response to abiotic stimulus	8.36950378763798e-14
+GO:0001568~blood vessel development	1.13926002893214e-13
+GO:0006082~organic acid metabolic process	1.30138310867738e-13
+GO:0019752~carboxylic acid metabolic process	1.61429946127461e-13
+GO:0010033~response to organic substance	1.75202598356101e-13
+GO:0043436~oxoacid metabolic process	1.94684380520621e-13
+GO:0005976~polysaccharide metabolic process	3.1540997145402e-13
+GO:0034637~cellular carbohydrate biosynthetic process	4.06027789504339e-13
+GO:0019637~organophosphate metabolic process	1.03087175953383e-12
+GO:1901576~organic substance biosynthetic process	1.06658009358569e-12
+GO:0009058~biosynthetic process	1.21054280900012e-12
+GO:0008219~cell death	1.25093785010787e-12
+GO:0071453~cellular response to oxygen levels	1.33763239820269e-12
+GO:0072358~cardiovascular system development	2.2137572856928e-12
+GO:0072359~circulatory system development	2.2137572856928e-12
+GO:0071456~cellular response to hypoxia	2.43664660473666e-12
+GO:0071704~organic substance metabolic process	3.44979239866399e-12
+GO:0071310~cellular response to organic substance	3.81126989605083e-12
+GO:0012501~programmed cell death	5.07616496025472e-12
+GO:0036294~cellular response to decreased oxygen levels	5.45747322388872e-12
+GO:0044237~cellular metabolic process	5.54398244659201e-12
+GO:0044264~cellular polysaccharide metabolic process	6.12863788869881e-12
+GO:0042981~regulation of apoptotic process	1.25533013586967e-11
+GO:0010941~regulation of cell death	1.34718890252939e-11
+GO:0008152~metabolic process	1.67485964588026e-11
+GO:0043067~regulation of programmed cell death	1.73135645752939e-11
+GO:0006915~apoptotic process	2.04348084904351e-11
+GO:0000271~polysaccharide biosynthetic process	6.15459740083816e-11
+GO:0044238~primary metabolic process	8.65930717380031e-11
+GO:0006027~glycosaminoglycan catabolic process	8.8055786928826e-11
+GO:0005977~glycogen metabolic process	1.14838232142156e-10
+GO:0044042~glucan metabolic process	1.33468417640918e-10
+GO:0006073~cellular glucan metabolic process	1.33468417640918e-10
+GO:0009991~response to extracellular stimulus	2.03825711511231e-10
+GO:0033993~response to lipid	2.25129233555099e-10
+GO:0040011~locomotion	2.61076653682554e-10
+GO:0006950~response to stress	2.62585570030036e-10
+GO:0006026~aminoglycan catabolic process	3.01090230230837e-10
+GO:0009719~response to endogenous stimulus	3.85795703491553e-10
+GO:0044283~small molecule biosynthetic process	3.94849088523341e-10
+GO:0001525~angiogenesis	4.19626539480858e-10
+GO:0010038~response to metal ion	4.38893639701471e-10
+GO:0048514~blood vessel morphogenesis	4.48548257398831e-10
+GO:1903510~mucopolysaccharide metabolic process	6.39973496035011e-10
+GO:0008283~cell proliferation	6.73794411200567e-10
+GO:1901700~response to oxygen-containing compound	7.1454236213831e-10
+GO:0006112~energy reserve metabolic process	7.91332589797153e-10
+GO:0010035~response to inorganic substance	9.32959193248528e-10
+GO:0031667~response to nutrient levels	1.56717609705666e-09
+GO:0009893~positive regulation of metabolic process	1.66754286118344e-09
+GO:0032502~developmental process	1.73338381935325e-09
+GO:0044763~single-organism cellular process	2.63789650050891e-09
+GO:0060548~negative regulation of cell death	2.65626215388321e-09
+GO:0048731~system development	2.79633593886857e-09
+GO:0048545~response to steroid hormone	3.05020877004436e-09
+GO:0009725~response to hormone	3.07715308126198e-09
+GO:0014070~response to organic cyclic compound	3.40419268719161e-09
+GO:0006807~nitrogen compound metabolic process	3.88077981091243e-09
+GO:0031960~response to corticosteroid	3.95436761660826e-09
+GO:0048856~anatomical structure development	4.15752298375023e-09
+GO:0043066~negative regulation of apoptotic process	4.30678210641255e-09
+GO:0033692~cellular polysaccharide biosynthetic process	4.47492078235874e-09
+GO:0006029~proteoglycan metabolic process	4.5502454115615e-09
+GO:0048513~animal organ development	4.9513752409807e-09
+GO:0042325~regulation of phosphorylation	5.17109119118007e-09
+GO:0006928~movement of cell or subcellular component	5.3427732675689e-09
+GO:0043069~negative regulation of programmed cell death	5.89827483946764e-09
+GO:0009611~response to wounding	6.93727157651042e-09
+GO:0044767~single-organism developmental process	9.9893011231488e-09
+GO:0051384~response to glucocorticoid	1.05735597958719e-08
+GO:0007275~multicellular organism development	1.3242362107055e-08
+GO:0019220~regulation of phosphate metabolic process	1.32708308435672e-08
+GO:0051174~regulation of phosphorus metabolic process	1.35237072183768e-08
+GO:0016477~cell migration	2.02771700022546e-08
+GO:0009653~anatomical structure morphogenesis	2.13844003077544e-08
+GO:0009888~tissue development	2.23909074091624e-08
+GO:0048519~negative regulation of biological process	2.32678594870253e-08
+GO:0042592~homeostatic process	2.5418109401707e-08
+GO:0007568~aging	2.57501376298017e-08
+GO:0010604~positive regulation of macromolecule metabolic process	3.06092079683943e-08
+GO:0010942~positive regulation of cell death	3.22690251152525e-08
+GO:0042127~regulation of cell proliferation	3.92112222558035e-08
+GO:0048870~cell motility	4.37365205243255e-08
+GO:0051674~localization of cell	4.37365205243255e-08
+GO:0044707~single-multicellular organism process	4.50737306198294e-08
+GO:0005978~glycogen biosynthetic process	4.72914838557611e-08
+GO:0048872~homeostasis of number of cells	4.85681519136518e-08
+GO:0043068~positive regulation of programmed cell death	5.18172637054035e-08
+GO:0043618~regulation of transcription from RNA polymerase II promoter in response to stress	5.32924520364745e-08
+GO:0031325~positive regulation of cellular metabolic process	6.03495018257522e-08
+GO:0033554~cellular response to stress	8.43722747573562e-08
+GO:0030334~regulation of cell migration	8.53456475288991e-08
+GO:0048732~gland development	8.7146186672592e-08
+GO:0007166~cell surface receptor signaling pathway	9.15867599375634e-08
+GO:0048523~negative regulation of cellular process	9.51589533251656e-08
+GO:0043620~regulation of DNA-templated transcription in response to stress	1.03189801780579e-07
+GO:0044249~cellular biosynthetic process	1.11392480104163e-07
+GO:0044699~single-organism process	1.13512348547898e-07
+GO:0009250~glucan biosynthetic process	1.28589162077719e-07
+GO:0071363~cellular response to growth factor stimulus	1.45667969628668e-07
+GO:0051270~regulation of cellular component movement	1.47511165004604e-07
+GO:0065008~regulation of biological quality	1.70556221378624e-07
+GO:0043065~positive regulation of apoptotic process	1.84245539340913e-07
+GO:1901136~carbohydrate derivative catabolic process	1.8735393785757e-07
+GO:0002262~myeloid cell homeostasis	1.89988760688976e-07
+GO:0042594~response to starvation	2.03497995724348e-07
+GO:0001932~regulation of protein phosphorylation	2.20633793546546e-07
+GO:0031668~cellular response to extracellular stimulus	2.71944200069749e-07
+GO:0009059~macromolecule biosynthetic process	2.90979636978842e-07
+GO:0071496~cellular response to external stimulus	2.92866545189621e-07
+GO:0070848~response to growth factor	2.94849652610031e-07
+GO:0042060~wound healing	2.96084884525697e-07
+GO:0006790~sulfur compound metabolic process	3.04360669855032e-07
+GO:0044092~negative regulation of molecular function	3.44274320717625e-07
+GO:2000145~regulation of cell motility	3.4454293396068e-07
+GO:0030207~chondroitin sulfate catabolic process	3.5051048832199e-07
+GO:0010562~positive regulation of phosphorus metabolic process	3.68804393889885e-07
+GO:0045937~positive regulation of phosphate metabolic process	3.68804393889885e-07
+GO:0030204~chondroitin sulfate metabolic process	3.83837029895761e-07
+GO:0050896~response to stimulus	4.00989989581209e-07
+GO:0032501~multicellular organismal process	4.57242993807565e-07
+GO:0030166~proteoglycan biosynthetic process	4.60671653365332e-07
+GO:0007167~enzyme linked receptor protein signaling pathway	4.77102780210012e-07
+GO:0048659~smooth muscle cell proliferation	5.068339818445e-07
+GO:0050654~chondroitin sulfate proteoglycan metabolic process	5.39588376341616e-07
+GO:0050673~epithelial cell proliferation	5.58133867142617e-07
+GO:0009746~response to hexose	5.96858367360263e-07
+GO:0071495~cellular response to endogenous stimulus	6.22659108617456e-07
+GO:0048511~rhythmic process	6.64811864964769e-07
+GO:0048660~regulation of smooth muscle cell proliferation	7.09373760909712e-07
+GO:0006109~regulation of carbohydrate metabolic process	7.66626343353865e-07
+GO:0040012~regulation of locomotion	7.72872472095064e-07
+GO:0034284~response to monosaccharide	8.15231880005733e-07
+GO:0051240~positive regulation of multicellular organismal process	8.33996176904352e-07
+GO:0044275~cellular carbohydrate catabolic process	8.70546694898817e-07
+GO:1901566~organonitrogen compound biosynthetic process	8.72487579446538e-07
+GO:0042327~positive regulation of phosphorylation	9.41252561612784e-07
+GO:1901342~regulation of vasculature development	9.51050731935648e-07
+GO:0009892~negative regulation of metabolic process	1.06472225037835e-06
+GO:0050793~regulation of developmental process	1.09240697100038e-06
+GO:0048878~chemical homeostasis	1.13447915578833e-06
+GO:0030388~fructose 1,6-bisphosphate metabolic process	1.14230001446792e-06
+GO:0001934~positive regulation of protein phosphorylation	1.19599954428513e-06
+GO:0010243~response to organonitrogen compound	1.27984035531941e-06
+GO:0031324~negative regulation of cellular metabolic process	1.42484533481943e-06
+GO:0008284~positive regulation of cell proliferation	1.54555520270312e-06
+GO:0033002~muscle cell proliferation	1.78881810744792e-06
+GO:0045765~regulation of angiogenesis	1.78925995341403e-06
+GO:0072593~reactive oxygen species metabolic process	1.78925995341403e-06
+GO:1901701~cellular response to oxygen-containing compound	1.92559655037748e-06
+GO:0051246~regulation of protein metabolic process	2.17417052628515e-06
+GO:0042326~negative regulation of phosphorylation	2.29311431194805e-06
+GO:0031669~cellular response to nutrient levels	2.29702672234298e-06
+GO:0051196~regulation of coenzyme metabolic process	2.34248787125151e-06
+GO:0051193~regulation of cofactor metabolic process	2.34248787125151e-06
+GO:0051239~regulation of multicellular organismal process	2.4933041892427e-06
+GO:0071385~cellular response to glucocorticoid stimulus	3.02464879811128e-06
+GO:0015980~energy derivation by oxidation of organic compounds	3.11860653588794e-06
+GO:0009743~response to carbohydrate	3.16633787419885e-06
+GO:0032269~negative regulation of cellular protein metabolic process	3.26124225671042e-06
+GO:0051248~negative regulation of protein metabolic process	3.36106562292841e-06
+GO:0034101~erythrocyte homeostasis	3.37486836354976e-06
+GO:0019725~cellular homeostasis	3.4643680216301e-06
+GO:0010675~regulation of cellular carbohydrate metabolic process	3.86571371139359e-06
+GO:0051156~glucose 6-phosphate metabolic process	4.27826183116951e-06
+GO:0044272~sulfur compound biosynthetic process	4.28923877398521e-06
+GO:0071384~cellular response to corticosteroid stimulus	4.35315056108467e-06
+GO:2000026~regulation of multicellular organismal development	4.52676793269299e-06
+GO:0010563~negative regulation of phosphorus metabolic process	4.77808640375767e-06
+GO:0045936~negative regulation of phosphate metabolic process	4.77808640375767e-06
+GO:0006468~protein phosphorylation	4.83288743909745e-06
+GO:0005980~glycogen catabolic process	5.41584282186525e-06
+GO:0000302~response to reactive oxygen species	5.79535884819617e-06
+GO:0006935~chemotaxis	5.93626922107313e-06
+GO:0008285~negative regulation of cell proliferation	6.04244443981409e-06
+GO:1904018~positive regulation of vasculature development	6.05947690081084e-06
+GO:0042330~taxis	6.09763863856369e-06
+GO:0070372~regulation of ERK1 and ERK2 cascade	6.33274766568317e-06
+GO:0044247~cellular polysaccharide catabolic process	6.77747597134658e-06
+GO:0009251~glucan catabolic process	6.77747597134658e-06
+GO:0046835~carbohydrate phosphorylation	6.77747597134658e-06
+GO:0023056~positive regulation of signaling	6.87045653427852e-06
+GO:0051247~positive regulation of protein metabolic process	7.57271104070807e-06
+GO:0030198~extracellular matrix organization	7.60594909408991e-06
+GO:0032268~regulation of cellular protein metabolic process	7.61067189343635e-06
+GO:0009891~positive regulation of biosynthetic process	7.84988612849907e-06
+GO:0043062~extracellular structure organization	7.88108001239694e-06
+GO:0030206~chondroitin sulfate biosynthetic process	8.39311606795877e-06
+GO:0050678~regulation of epithelial cell proliferation	1.00109959735065e-05
+GO:1904035~regulation of epithelial cell apoptotic process	1.04347236115975e-05
+GO:0044273~sulfur compound catabolic process	1.04687594417766e-05
+GO:0030154~cell differentiation	1.09932936837318e-05
+GO:0045859~regulation of protein kinase activity	1.14732874249199e-05
+GO:0031399~regulation of protein modification process	1.19727197096979e-05
+GO:0009966~regulation of signal transduction	1.19755241736768e-05
+GO:0043170~macromolecule metabolic process	1.23568821839947e-05
+GO:1901698~response to nitrogen compound	1.24200691815207e-05
+GO:0000272~polysaccharide catabolic process	1.25173282364231e-05
+GO:0043549~regulation of kinase activity	1.28007792625388e-05
+GO:0006979~response to oxidative stress	1.32352624312622e-05
+GO:0030335~positive regulation of cell migration	1.37153108800207e-05
+GO:0030097~hemopoiesis	1.3959682803553e-05
+GO:0009967~positive regulation of signal transduction	1.43260917605575e-05
+GO:0048522~positive regulation of cellular process	1.44124541056954e-05
+GO:0010647~positive regulation of cell communication	1.50732235857235e-05
+GO:0009100~glycoprotein metabolic process	1.53774379857177e-05
+GO:0045766~positive regulation of angiogenesis	1.60234119952407e-05
+GO:0034097~response to cytokine	1.70905941229028e-05
+GO:0009057~macromolecule catabolic process	1.77503841936319e-05
+GO:0051094~positive regulation of developmental process	1.93454363187862e-05
+GO:1901360~organic cyclic compound metabolic process	2.01118428677997e-05
+GO:0009749~response to glucose	2.02771160748299e-05
+GO:0048646~anatomical structure formation involved in morphogenesis	2.05528461389016e-05
+GO:0006000~fructose metabolic process	2.09110011043592e-05
+GO:2000147~positive regulation of cell motility	2.09578657907944e-05
+GO:0006357~regulation of transcription from RNA polymerase II promoter	2.13285054786028e-05
+GO:0050650~chondroitin sulfate proteoglycan biosynthetic process	2.14860621640642e-05
+GO:0042493~response to drug	2.228314832627e-05
+GO:0065009~regulation of molecular function	2.37395258542769e-05
+GO:0051716~cellular response to stimulus	2.42552963452763e-05
+GO:0071396~cellular response to lipid	2.45049194686883e-05
+GO:0010906~regulation of glucose metabolic process	2.46562235367714e-05
+GO:0040007~growth	2.49853152208709e-05
+GO:0002520~immune system development	2.49955599205524e-05
+GO:0070371~ERK1 and ERK2 cascade	2.51112464906247e-05
+GO:0048518~positive regulation of biological process	2.51182599580316e-05
+GO:0010646~regulation of cell communication	2.75349237706854e-05
+GO:1901654~response to ketone	2.76501608657646e-05
+GO:0042698~ovulation cycle	2.83544319715141e-05
+GO:0031328~positive regulation of cellular biosynthetic process	2.87268228636955e-05
+GO:0010605~negative regulation of macromolecule metabolic process	2.89513481164092e-05
+GO:0051272~positive regulation of cellular component movement	2.89830451440711e-05
+GO:0032870~cellular response to hormone stimulus	2.90870785769103e-05
+GO:0006139~nucleobase-containing compound metabolic process	3.0531996982241e-05
+GO:0040017~positive regulation of locomotion	3.08013188093979e-05
+GO:0048534~hematopoietic or lymphoid organ development	3.13868183636412e-05
+GO:0048869~cellular developmental process	3.16905251269565e-05
+GO:0006725~cellular aromatic compound metabolic process	3.23316325583744e-05
+GO:0010648~negative regulation of cell communication	3.38706982493361e-05
+GO:0006140~regulation of nucleotide metabolic process	3.50004539831098e-05
+GO:0043086~negative regulation of catalytic activity	3.53948050646908e-05
+GO:0023057~negative regulation of signaling	3.60684820048456e-05
+GO:0043408~regulation of MAPK cascade	3.63034841018328e-05
+GO:0030324~lung development	3.72065225644547e-05
+GO:0048146~positive regulation of fibroblast proliferation	3.87140373726873e-05
+GO:0006366~transcription from RNA polymerase II promoter	4.00974281244771e-05
+GO:0050790~regulation of catalytic activity	4.07733549973914e-05
+GO:0046483~heterocycle metabolic process	4.22809607524016e-05
+GO:0030099~myeloid cell differentiation	4.38511208367878e-05
+GO:0097190~apoptotic signaling pathway	4.41888571529389e-05
+GO:0023051~regulation of signaling	4.48080721108885e-05
+GO:0030323~respiratory tube development	4.50534379629006e-05
+GO:0001890~placenta development	4.59033872179377e-05
+GO:0048584~positive regulation of response to stimulus	4.63176982516492e-05
+GO:0031401~positive regulation of protein modification process	4.68434661612731e-05
+GO:0022610~biological adhesion	4.83003035632335e-05
+GO:0001933~negative regulation of protein phosphorylation	5.0509253504228e-05
+GO:1902533~positive regulation of intracellular signal transduction	5.09431066892223e-05
+GO:0009968~negative regulation of signal transduction	5.09658643687225e-05
+GO:0001935~endothelial cell proliferation	5.12584705543714e-05
+GO:0044267~cellular protein metabolic process	5.13576008510377e-05
+GO:0048662~negative regulation of smooth muscle cell proliferation	5.37496338660804e-05
+GO:1902531~regulation of intracellular signal transduction	5.41178967040914e-05
+GO:0009267~cellular response to starvation	5.45558537745307e-05
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	6.03384736457004e-05
+GO:0032964~collagen biosynthetic process	6.1572090854888e-05
+GO:0015758~glucose transport	6.16821498812095e-05
+GO:0032103~positive regulation of response to external stimulus	6.28142609228465e-05
+GO:0010557~positive regulation of macromolecule biosynthetic process	6.28983764754426e-05
+GO:0009607~response to biotic stimulus	6.6209726991028e-05
+GO:0043467~regulation of generation of precursor metabolites and energy	6.87644747702406e-05
+GO:0008645~hexose transport	6.95663193443331e-05
+GO:0015749~monosaccharide transport	6.95663193443331e-05
+GO:0009887~organ morphogenesis	7.1007682120945e-05
+GO:0044260~cellular macromolecule metabolic process	7.20163958135475e-05
+GO:1904019~epithelial cell apoptotic process	7.39176945957647e-05
+GO:0055082~cellular chemical homeostasis	7.47045947688701e-05
+GO:0032270~positive regulation of cellular protein metabolic process	7.49294977422532e-05
+GO:0032355~response to estradiol	7.82703139530384e-05
+GO:1901565~organonitrogen compound catabolic process	7.88733444520398e-05
+GO:0060429~epithelium development	8.24195001958468e-05
+GO:0036499~PERK-mediated unfolded protein response	8.68636870060765e-05
+GO:0048585~negative regulation of response to stimulus	8.78130417045909e-05
+GO:0007507~heart development	8.80968224853917e-05
+GO:0070997~neuron death	8.9210312860777e-05
+GO:0006464~cellular protein modification process	9.4202172242066e-05
+GO:0036211~protein modification process	9.4202172242066e-05
+GO:0042542~response to hydrogen peroxide	9.84029351730276e-05
+GO:0007155~cell adhesion	0.000100402194313399
+GO:0051338~regulation of transferase activity	0.00010091410250844
+GO:0048608~reproductive structure development	0.000101102640858409
+GO:0000165~MAPK cascade	0.000102633555977097
+GO:0043281~regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.000108505314621881
+GO:0061458~reproductive system development	0.000115252538244012
+GO:0034645~cellular macromolecule biosynthetic process	0.000120171694569905
+GO:0002521~leukocyte differentiation	0.000120790028365128
+GO:0060541~respiratory system development	0.000122512963479435
+GO:0001775~cell activation	0.000125415315417386
+GO:0002376~immune system process	0.000125525837265143
+GO:0042593~glucose homeostasis	0.000126971717666848
+GO:0033500~carbohydrate homeostasis	0.000126971717666848
+GO:0043470~regulation of carbohydrate catabolic process	0.000128589423712439
+GO:1900542~regulation of purine nucleotide metabolic process	0.000132741300240847
+GO:0032879~regulation of localization	0.000135875584588055
+GO:1990267~response to transition metal nanoparticle	0.000143900202731455
+GO:0046903~secretion	0.000147638266489224
+GO:0071248~cellular response to metal ion	0.000151625534518457
+GO:0045944~positive regulation of transcription from RNA polymerase II promoter	0.000154786224585854
+GO:1903508~positive regulation of nucleic acid-templated transcription	0.000156309658661834
+GO:0045893~positive regulation of transcription, DNA-templated	0.000156309658661834
+GO:0007165~signal transduction	0.000157076906729837
+GO:0061061~muscle structure development	0.000158478521290964
+GO:0051254~positive regulation of RNA metabolic process	0.000161976317119285
+GO:0007154~cell communication	0.000163144611141998
+GO:0005984~disaccharide metabolic process	0.000169032888249638
+GO:0097201~negative regulation of transcription from RNA polymerase II promoter in response to stress	0.000169032888249638
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	0.000176738037191431
+GO:0036003~positive regulation of transcription from RNA polymerase II promoter in response to stress	0.000177111289178892
+GO:0022603~regulation of anatomical structure morphogenesis	0.00018010865182715
+GO:0044700~single organism signaling	0.000180440566749514
+GO:0080090~regulation of primary metabolic process	0.000183957074409246
+GO:0023014~signal transduction by protein phosphorylation	0.000189975611129767
+GO:0040008~regulation of growth	0.000191157415226344
+GO:0071216~cellular response to biotic stimulus	0.000194891492881817
+GO:0044706~multi-multicellular organism process	0.00019615519909112
+GO:0032496~response to lipopolysaccharide	0.000200212530939637
+GO:0043412~macromolecule modification	0.000201095342466577
+GO:0052547~regulation of peptidase activity	0.000201465371455122
+GO:1902680~positive regulation of RNA biosynthetic process	0.000203147942419893
+GO:0035556~intracellular signal transduction	0.000203912800151047
+GO:0048661~positive regulation of smooth muscle cell proliferation	0.000206517472906895
+GO:0018209~peptidyl-serine modification	0.000208408462142617
+GO:0070374~positive regulation of ERK1 and ERK2 cascade	0.000212263937476053
+GO:0051173~positive regulation of nitrogen compound metabolic process	0.000222342053979154
+GO:0051707~response to other organism	0.000223842527634046
+GO:0043207~response to external biotic stimulus	0.000223842527634046
+GO:0031323~regulation of cellular metabolic process	0.000250929793297431
+GO:0003012~muscle system process	0.000253706743087209
+GO:0023052~signaling	0.000256240376684081
+GO:0048771~tissue remodeling	0.000261576186318194
+GO:0051241~negative regulation of multicellular organismal process	0.000266500183993038
+GO:0009894~regulation of catabolic process	0.00027067203234481
+GO:2000116~regulation of cysteine-type endopeptidase activity	0.000271031246505055
+GO:0034976~response to endoplasmic reticulum stress	0.000286014591688511
+GO:0009266~response to temperature stimulus	0.00028725603531679
+GO:0019538~protein metabolic process	0.000288055476518294
+GO:0009118~regulation of nucleoside metabolic process	0.000291333125493584
+GO:1903578~regulation of ATP metabolic process	0.000291333125493584
+GO:0030208~dermatan sulfate biosynthetic process	0.000304676006627714
+GO:0002237~response to molecule of bacterial origin	0.000304866928510649
+GO:0034599~cellular response to oxidative stress	0.000313515399730103
+GO:0007565~female pregnancy	0.000319137449933054
+GO:0045595~regulation of cell differentiation	0.000356818673204223
+GO:0007178~transmembrane receptor protein serine/threonine kinase signaling pathway	0.00035842359304175
+GO:0045860~positive regulation of protein kinase activity	0.000359073599129612
+GO:0031327~negative regulation of cellular biosynthetic process	0.000362453431409696
+GO:0010594~regulation of endothelial cell migration	0.000365873609065741
+GO:0014074~response to purine-containing compound	0.00037850202482611
+GO:0044248~cellular catabolic process	0.000382784084721506
+GO:0045321~leukocyte activation	0.00039048800572241
+GO:0035295~tube development	0.000392258466428359
+GO:0006012~galactose metabolic process	0.000392732986485844
+GO:0030205~dermatan sulfate metabolic process	0.000392732986485844
+GO:2000377~regulation of reactive oxygen species metabolic process	0.000396060836299057
+GO:0090287~regulation of cellular response to growth factor stimulus	0.000398095965318331
+GO:0006954~inflammatory response	0.000409162513206321
+GO:0071900~regulation of protein serine/threonine kinase activity	0.000410193739172453
+GO:1900046~regulation of hemostasis	0.000412160820996752
+GO:0030193~regulation of blood coagulation	0.000412160820996752
+GO:0043542~endothelial cell migration	0.00041316258067617
+GO:0032965~regulation of collagen biosynthetic process	0.000417442728651465
+GO:0019222~regulation of metabolic process	0.000420657210805647
+GO:0010628~positive regulation of gene expression	0.000425404353547354
+GO:0071241~cellular response to inorganic substance	0.000431467348731683
+GO:0002573~myeloid leukocyte differentiation	0.000432891288066948
+GO:0001701~in utero embryonic development	0.000459653008601547
+GO:0045926~negative regulation of growth	0.000470305096961007
+GO:0009890~negative regulation of biosynthetic process	0.00047995799671693
+GO:0009889~regulation of biosynthetic process	0.000483934228561713
+GO:0071383~cellular response to steroid hormone stimulus	0.000485289750142378
+GO:0048144~fibroblast proliferation	0.000497696747851704
+GO:0043410~positive regulation of MAPK cascade	0.000498559326530793
+GO:0008643~carbohydrate transport	0.00051143637981665
+GO:0007179~transforming growth factor beta receptor signaling pathway	0.00051143637981665
+GO:0071345~cellular response to cytokine stimulus	0.000514576048671469
+GO:0048145~regulation of fibroblast proliferation	0.000529082036111642
+GO:0030201~heparan sulfate proteoglycan metabolic process	0.000533237052181979
+GO:0006110~regulation of glycolytic process	0.000533237052181979
+GO:0001501~skeletal system development	0.000554353304115431
+GO:0050679~positive regulation of epithelial cell proliferation	0.000558870061973401
+GO:0009617~response to bacterium	0.00056100708223727
+GO:0050818~regulation of coagulation	0.000561985482499746
+GO:0051402~neuron apoptotic process	0.00059541043165889
+GO:0001892~embryonic placenta development	0.000596457166731686
+GO:0006739~NADP metabolic process	0.000598946225713908
+GO:0050651~dermatan sulfate proteoglycan biosynthetic process	0.000614299626257735
+GO:1901652~response to peptide	0.000631632510165876
+GO:0060322~head development	0.000652414542743612
+GO:0032101~regulation of response to external stimulus	0.000663379537333151
+GO:0045597~positive regulation of cell differentiation	0.000693550924430082
+GO:0061041~regulation of wound healing	0.000696661663407239
+GO:0034641~cellular nitrogen compound metabolic process	0.000704810121011606
+GO:0007417~central nervous system development	0.000725569157197391
+GO:0033673~negative regulation of kinase activity	0.00072656564976083
+GO:0031099~regeneration	0.000736292850436137
+GO:0071548~response to dexamethasone	0.000747258042992
+GO:0010712~regulation of collagen metabolic process	0.000747258042992
+GO:0050655~dermatan sulfate proteoglycan metabolic process	0.000749684660567693
+GO:0033674~positive regulation of kinase activity	0.000754874904139354
+GO:0010632~regulation of epithelial cell migration	0.000764233788391668
+GO:0035914~skeletal muscle cell differentiation	0.000780016402617088
+GO:1902532~negative regulation of intracellular signal transduction	0.00078778992250055
+GO:0048583~regulation of response to stimulus	0.00079168457762172
+GO:0007519~skeletal muscle tissue development	0.0007942581190474
+GO:0001558~regulation of cell growth	0.000804077405136838
+GO:0010558~negative regulation of macromolecule biosynthetic process	0.000806178170190286
+GO:0071560~cellular response to transforming growth factor beta stimulus	0.000814509150178935
+GO:0007399~nervous system development	0.000821259090226642
+GO:0044246~regulation of multicellular organismal metabolic process	0.000830371491763452
+GO:0009101~glycoprotein biosynthetic process	0.000835002996095563
+GO:0030879~mammary gland development	0.000835857339997762
+GO:0043200~response to amino acid	0.000839120500576594
+GO:0016101~diterpenoid metabolic process	0.000839120500576594
+GO:0030218~erythrocyte differentiation	0.000839120500576594
+GO:0007623~circadian rhythm	0.000856916194201726
+GO:0071559~response to transforming growth factor beta	0.000872211938730699
+GO:0044236~multicellular organism metabolic process	0.000873870218065258
+GO:1904031~positive regulation of cyclin-dependent protein kinase activity	0.000919798218625025
+GO:0051591~response to cAMP	0.000934946054649323
+GO:0031326~regulation of cellular biosynthetic process	0.000971740937988025
+GO:0044093~positive regulation of molecular function	0.000975812937308953
+GO:0045934~negative regulation of nucleobase-containing compound metabolic process	0.000996335401117326
+GO:0071407~cellular response to organic cyclic compound	0.00101407217520953
+GO:0051220~cytoplasmic sequestering of protein	0.00101579481091583
+GO:0051172~negative regulation of nitrogen compound metabolic process	0.00102640453110129
+GO:0001936~regulation of endothelial cell proliferation	0.00103898134205518
+GO:0090100~positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.00103898134205518
+GO:0043009~chordate embryonic development	0.00104773599680204
+GO:0060538~skeletal muscle organ development	0.00106196078541552
+GO:0031400~negative regulation of protein modification process	0.00106682971903113
+GO:0030199~collagen fibril organization	0.0011186178784679
+GO:0031952~regulation of protein autophosphorylation	0.0011186178784679
+GO:0009987~cellular process	0.00112258093076533
+GO:0060537~muscle tissue development	0.00113403970094854
+GO:0009792~embryo development ending in birth or egg hatching	0.00116679225309684
+GO:0001938~positive regulation of endothelial cell proliferation	0.00117990203147976
+GO:0052548~regulation of endopeptidase activity	0.00126382815737785
+GO:0046351~disaccharide biosynthetic process	0.00128460632022416
+GO:0071332~cellular response to fructose stimulus	0.00128460632022416
+GO:0010631~epithelial cell migration	0.00131260922000599
+GO:0006721~terpenoid metabolic process	0.00140500147131565
+GO:0090132~epithelium migration	0.00143836406158668
+GO:0007595~lactation	0.00147060747134508
+GO:0051651~maintenance of location in cell	0.00154658010056817
+GO:1903034~regulation of response to wounding	0.00156381669368675
+GO:0009409~response to cold	0.00160329490863491
+GO:0006875~cellular metal ion homeostasis	0.00165807137529789
+GO:0035967~cellular response to topologically incorrect protein	0.00169763032179131
+GO:0071222~cellular response to lipopolysaccharide	0.00169763032179131
+GO:0006469~negative regulation of protein kinase activity	0.00171297238859619
+GO:0090130~tissue migration	0.00171297238859619
+GO:0006984~ER-nucleus signaling pathway	0.00174408425082032
+GO:0043085~positive regulation of catalytic activity	0.001782804874309
+GO:0009127~purine nucleoside monophosphate biosynthetic process	0.00181831544622716
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	0.00181831544622716
+GO:0051235~maintenance of location	0.00195595430980898
+GO:1904705~regulation of vascular smooth muscle cell proliferation	0.00195967439491561
+GO:1990874~vascular smooth muscle cell proliferation	0.00195967439491561
+GO:0050865~regulation of cell activation	0.00199769619432489
+GO:0055065~metal ion homeostasis	0.00202623578692941
+GO:0001678~cellular glucose homeostasis	0.00203700068267276
+GO:0010677~negative regulation of cellular carbohydrate metabolic process	0.00205097556692585
+GO:0050878~regulation of body fluid levels	0.00207211911258708
+GO:0044057~regulation of system process	0.00211018494527858
+GO:0071219~cellular response to molecule of bacterial origin	0.00212538072957556
+GO:0022612~gland morphogenesis	0.00212898932891804
+GO:0009152~purine ribonucleotide biosynthetic process	0.00215035951658879
+GO:0032844~regulation of homeostatic process	0.00218282170243415
+GO:0008015~blood circulation	0.00218805865356065
+GO:0018105~peptidyl-serine phosphorylation	0.00220836898532328
+GO:0042113~B cell activation	0.00220836898532328
+GO:0048729~tissue morphogenesis	0.00225495145164301
+GO:0009612~response to mechanical stimulus	0.00229488398369942
+GO:0019219~regulation of nucleobase-containing compound metabolic process	0.00231335097781621
+GO:0003013~circulatory system process	0.00235096367770775
+GO:0007420~brain development	0.00236745159272249
+GO:0022602~ovulation cycle process	0.0024081969182772
+GO:0000122~negative regulation of transcription from RNA polymerase II promoter	0.00251049839685338
+GO:0043434~response to peptide hormone	0.0025794610258414
+GO:0006164~purine nucleotide biosynthetic process	0.00259589093166818
+GO:0033135~regulation of peptidyl-serine phosphorylation	0.0026368041053783
+GO:2001236~regulation of extrinsic apoptotic signaling pathway	0.00265036668009374
+GO:0006941~striated muscle contraction	0.00265036668009374
+GO:0006629~lipid metabolic process	0.00270080633812495
+GO:0050921~positive regulation of chemotaxis	0.00274840900009987
+GO:0003006~developmental process involved in reproduction	0.00281101303638049
+GO:0002009~morphogenesis of an epithelium	0.00285142299087777
+GO:0051348~negative regulation of transferase activity	0.00286478598156755
+GO:0050801~ion homeostasis	0.00295851373263258
+GO:1901214~regulation of neuron death	0.00296084020362707
+GO:0043255~regulation of carbohydrate biosynthetic process	0.00297164546909913
+GO:0043154~negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.00297164546909913
+GO:0051128~regulation of cellular component organization	0.00300987987697615
+GO:0009260~ribonucleotide biosynthetic process	0.00303691232211238
+GO:0051271~negative regulation of cellular component movement	0.00311278409481283
+GO:0007589~body fluid secretion	0.00312620504634797
+GO:0048468~cell development	0.00313066993617554
+GO:0090092~regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.00318390665534435
+GO:0045912~negative regulation of carbohydrate metabolic process	0.00319197086718993
+GO:0014910~regulation of smooth muscle cell migration	0.00319197086718993
+GO:0015012~heparan sulfate proteoglycan biosynthetic process	0.00319883674768314
+GO:0034614~cellular response to reactive oxygen species	0.00323055746934875
+GO:1902578~single-organism localization	0.00328595379993259
+GO:1903524~positive regulation of blood circulation	0.0032864799425913
+GO:0010629~negative regulation of gene expression	0.00329362550513581
+GO:0046390~ribose phosphate biosynthetic process	0.00329772278181401
+GO:0030336~negative regulation of cell migration	0.00336650672532397
+GO:0010817~regulation of hormone levels	0.00342723195228333
+GO:0072522~purine-containing compound biosynthetic process	0.00345001386473876
+GO:0009156~ribonucleoside monophosphate biosynthetic process	0.0034525882502156
+GO:0050864~regulation of B cell activation	0.00349402774973085
+GO:1904706~negative regulation of vascular smooth muscle cell proliferation	0.00351597590436409
+GO:0009750~response to fructose	0.00351597590436409
+GO:0019388~galactose catabolic process	0.00351597590436409
+GO:0051179~localization	0.00351626683607965
+GO:0008209~androgen metabolic process	0.00356852366640299
+GO:0051341~regulation of oxidoreductase activity	0.00362464793877029
+GO:0001523~retinoid metabolic process	0.00362464793877029
+GO:0006720~isoprenoid metabolic process	0.00363160313097767
+GO:0050918~positive chemotaxis	0.00365219095259452
+GO:0007584~response to nutrient	0.00367901248045196
+GO:0048871~multicellular organismal homeostasis	0.00374470493422038
+GO:0032940~secretion by cell	0.00374773542530221
+GO:0033138~positive regulation of peptidyl-serine phosphorylation	0.0038027768077874
+GO:0032507~maintenance of protein location in cell	0.0038027768077874
+GO:0001822~kidney development	0.0038056482456716
+GO:0098609~cell-cell adhesion	0.00385462850791294
+GO:0045740~positive regulation of DNA replication	0.0038983381109069
+GO:0098771~inorganic ion homeostasis	0.00391216024684402
+GO:0002026~regulation of the force of heart contraction	0.00396326065002126
+GO:0000079~regulation of cyclin-dependent protein serine/threonine kinase activity	0.00398709243948531
+GO:0001667~ameboidal-type cell migration	0.00398941319166215
+GO:0001655~urogenital system development	0.00398941319166215
+GO:0044765~single-organism transport	0.0040459316322426
+GO:0048812~neuron projection morphogenesis	0.00411647467263073
+GO:0014909~smooth muscle cell migration	0.00415548103829448
+GO:0022414~reproductive process	0.00417380694047615
+GO:1904029~regulation of cyclin-dependent protein kinase activity	0.00417771215382455
+GO:0030968~endoplasmic reticulum unfolded protein response	0.00422245920553468
+GO:0050900~leukocyte migration	0.00425086779174583
+GO:0000003~reproduction	0.00425628470501025
+GO:0044255~cellular lipid metabolic process	0.00432171587535706
+GO:0042036~negative regulation of cytokine biosynthetic process	0.00438354399872899
+GO:0071549~cellular response to dexamethasone stimulus	0.00438354399872899
+GO:0061614~pri-miRNA transcription from RNA polymerase II promoter	0.00438354399872899
+GO:0097485~neuron projection guidance	0.00441427488309168
+GO:0006002~fructose 6-phosphate metabolic process	0.00448644539592184
+GO:0006952~defense response	0.00449876939295525
+GO:0097191~extrinsic apoptotic signaling pathway	0.00457327441088492
+GO:0043405~regulation of MAP kinase activity	0.00459504985453256
+GO:2001233~regulation of apoptotic signaling pathway	0.00460157864306004
+GO:0034620~cellular response to unfolded protein	0.004710135933968
+GO:2000146~negative regulation of cell motility	0.00480368091198141
+GO:0046683~response to organophosphorus	0.0048815505608354
+GO:0006081~cellular aldehyde metabolic process	0.00499511385363542
+GO:0006936~muscle contraction	0.00504387503993143
+GO:0051100~negative regulation of binding	0.00505750977282473
+GO:0097193~intrinsic apoptotic signaling pathway	0.00506177434844654
+GO:0051093~negative regulation of developmental process	0.00516001406172071
+GO:0009124~nucleoside monophosphate biosynthetic process	0.00522945403647566
+GO:0003007~heart morphogenesis	0.00523594442843492
+GO:0072595~maintenance of protein localization in organelle	0.00530260004458665
+GO:0051385~response to mineralocorticoid	0.00530260004458665
+GO:0051171~regulation of nitrogen compound metabolic process	0.00536630512114745
+GO:0045185~maintenance of protein location	0.00546034156258106
+GO:0072001~renal system development	0.00551096192274794
+GO:0030855~epithelial cell differentiation	0.00563199431376809
+GO:0061418~regulation of transcription from RNA polymerase II promoter in response to hypoxia	0.00580223245388223
+GO:0050920~regulation of chemotaxis	0.00581715301293995
+GO:0007050~cell cycle arrest	0.00588962910743836
+GO:2000117~negative regulation of cysteine-type endopeptidase activity	0.00594357287467127
+GO:0035966~response to topologically incorrect protein	0.00614606697160748
+GO:0060255~regulation of macromolecule metabolic process	0.00617882527533436
+GO:0071331~cellular response to hexose stimulus	0.00619614327573186
+GO:0071326~cellular response to monosaccharide stimulus	0.00619614327573186
+GO:0007435~salivary gland morphogenesis	0.0063291319940333
+GO:0002931~response to ischemia	0.0063291319940333
+GO:0034654~nucleobase-containing compound biosynthetic process	0.00644084032768252
+GO:0030003~cellular cation homeostasis	0.00654298465613121
+GO:0007588~excretion	0.00663473290733975
+GO:0080134~regulation of response to stress	0.00665765522792453
+GO:0051195~negative regulation of cofactor metabolic process	0.00675143046479675
+GO:0031953~negative regulation of protein autophosphorylation	0.00675143046479675
+GO:0045820~negative regulation of glycolytic process	0.00675143046479675
+GO:0051198~negative regulation of coenzyme metabolic process	0.00675143046479675
+GO:0009790~embryo development	0.0068831948744206
+GO:0043523~regulation of neuron apoptotic process	0.00706522885072516
+GO:0002274~myeloid leukocyte activation	0.00708247194470615
+GO:0051347~positive regulation of transferase activity	0.00716536848645703
+GO:0030595~leukocyte chemotaxis	0.00720420942044836
+GO:0010634~positive regulation of epithelial cell migration	0.00728206793201655
+GO:0014812~muscle cell migration	0.00737944797193311
+GO:0014706~striated muscle tissue development	0.00738272886173631
+GO:0046649~lymphocyte activation	0.00746554604481629
+GO:0055080~cation homeostasis	0.00746554604481629
+GO:0044702~single organism reproductive process	0.00762662841842637
+GO:0010595~positive regulation of endothelial cell migration	0.00777162868113553
+GO:0010466~negative regulation of peptidase activity	0.00786953871008672
+GO:0071902~positive regulation of protein serine/threonine kinase activity	0.00799862096129132
+GO:1990440~positive regulation of transcription from RNA polymerase II promoter in response to endoplasmic reticulum stress	0.0080407813566916
+GO:0090257~regulation of muscle system process	0.00804887673381688
+GO:0001894~tissue homeostasis	0.00804887673381688
+GO:0045737~positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.00807698934404603
+GO:0030212~hyaluronan metabolic process	0.00807698934404603
+GO:0006873~cellular ion homeostasis	0.00812736396351263
+GO:0043534~blood vessel endothelial cell migration	0.00817727339816931
+GO:0045786~negative regulation of cell cycle	0.00828174971230738
+GO:0007267~cell-cell signaling	0.00828694709447227
+GO:0007599~hemostasis	0.00857960767201315
+GO:0018130~heterocycle biosynthetic process	0.00861975176870326
+GO:0060326~cell chemotaxis	0.008623975597893
+GO:0007431~salivary gland development	0.00871639680150143
+GO:1903507~negative regulation of nucleic acid-templated transcription	0.00873076756147077
+GO:0051726~regulation of cell cycle	0.00874785971385239
+GO:0001503~ossification	0.00880103112383915
+GO:0032963~collagen metabolic process	0.00881788620710512
+GO:0071322~cellular response to carbohydrate stimulus	0.00881788620710512
+GO:0032642~regulation of chemokine production	0.00902967679539854
+GO:0001570~vasculogenesis	0.00902967679539854
+GO:0019438~aromatic compound biosynthetic process	0.00923003880837789
+GO:0071417~cellular response to organonitrogen compound	0.00924900486115611
+GO:0010556~regulation of macromolecule biosynthetic process	0.00937491652322518
+GO:0001974~blood vessel remodeling	0.00938467667998291
+GO:1904036~negative regulation of epithelial cell apoptotic process	0.00938467667998291
+GO:0018193~peptidyl-amino acid modification	0.00942795483945169
+GO:0071850~mitotic cell cycle arrest	0.00943133560602645
+GO:0046184~aldehyde biosynthetic process	0.00943133560602645
+GO:2000113~negative regulation of cellular macromolecule biosynthetic process	0.00956196311475733
+GO:0007517~muscle organ development	0.00989675160270931
+GO:0006111~regulation of gluconeogenesis	0.010082083501835
+GO:0030890~positive regulation of B cell proliferation	0.010082083501835
+GO:0040013~negative regulation of locomotion	0.010083206147278
+GO:1902679~negative regulation of RNA biosynthetic process	0.0102659582367716
+GO:0097529~myeloid leukocyte migration	0.0102807436179906
+GO:0009165~nucleotide biosynthetic process	0.010392909587959
+GO:2001057~reactive nitrogen species metabolic process	0.0104136680787395
+GO:0044259~multicellular organismal macromolecule metabolic process	0.0105643215010566
+GO:0003018~vascular process in circulatory system	0.0105791408453301
+GO:0045913~positive regulation of carbohydrate metabolic process	0.0109037664466323
+GO:1901655~cellular response to ketone	0.0109037664466323
+GO:1901293~nucleoside phosphate biosynthetic process	0.0110989084875598
+GO:0050729~positive regulation of inflammatory response	0.0113247252666792
+GO:0001776~leukocyte homeostasis	0.0114085137244454
+GO:0031100~organ regeneration	0.0114085137244454
+GO:0032602~chemokine production	0.0114085137244454
+GO:0048286~lung alveolus development	0.0115651926042328
+GO:0032570~response to progesterone	0.0115651926042328
+GO:0051592~response to calcium ion	0.0117185698494473
+GO:0043627~response to estrogen	0.0119280625679165
+GO:0032941~secretion by tissue	0.0119280625679165
+GO:0008637~apoptotic mitochondrial changes	0.0121216371168582
+GO:0016049~cell growth	0.0122103928872699
+GO:0051260~protein homooligomerization	0.0122126319859067
+GO:0046677~response to antibiotic	0.0123513021442928
+GO:2000351~regulation of endothelial cell apoptotic process	0.0123513021442928
+GO:0060840~artery development	0.0124625613931955
+GO:0006089~lactate metabolic process	0.0125062091614562
+GO:0009312~oligosaccharide biosynthetic process	0.0125062091614562
+GO:0050730~regulation of peptidyl-tyrosine phosphorylation	0.0125564116059168
+GO:0043406~positive regulation of MAP kinase activity	0.0128663591966329
+GO:0014031~mesenchymal cell development	0.0128693777712005
+GO:0008625~extrinsic apoptotic signaling pathway via death domain receptors	0.0130121543580302
+GO:0046686~response to cadmium ion	0.0131673542445212
+GO:0031175~neuron projection development	0.0132599738666697
+GO:0000904~cell morphogenesis involved in differentiation	0.0134220863398874
+GO:0009142~nucleoside triphosphate biosynthetic process	0.0135769813421301
+GO:0030182~neuron differentiation	0.0137491402106068
+GO:0051049~regulation of transport	0.0137880900495197
+GO:0016239~positive regulation of macroautophagy	0.0140135049274456
+GO:0045639~positive regulation of myeloid cell differentiation	0.0141571779359321
+GO:0055088~lipid homeostasis	0.0142785614611937
+GO:0010469~regulation of receptor activity	0.0142785614611937
+GO:0006986~response to unfolded protein	0.0147000598092184
+GO:0007411~axon guidance	0.0147515382396518
+GO:0001818~negative regulation of cytokine production	0.0147515382396518
+GO:0002690~positive regulation of leukocyte chemotaxis	0.0147528754248832
+GO:0090407~organophosphate biosynthetic process	0.015106340340091
+GO:0051896~regulation of protein kinase B signaling	0.0152090819868566
+GO:0001101~response to acid chemical	0.0152352317918531
+GO:0048666~neuron development	0.0155048594876511
+GO:0000902~cell morphogenesis	0.015544924461324
+GO:0051253~negative regulation of RNA metabolic process	0.015544924461324
+GO:0071901~negative regulation of protein serine/threonine kinase activity	0.0156892071605354
+GO:0030195~negative regulation of blood coagulation	0.0157966361558588
+GO:1900047~negative regulation of hemostasis	0.0157966361558588
+GO:0048569~post-embryonic organ development	0.0159567866108694
+GO:1901362~organic cyclic compound biosynthetic process	0.0161138110027952
+GO:1901215~negative regulation of neuron death	0.0162957872923004
+GO:1903409~reactive oxygen species biosynthetic process	0.0166342214219836
+GO:0019217~regulation of fatty acid metabolic process	0.0166342214219836
+GO:0030155~regulation of cell adhesion	0.016692241878346
+GO:2001235~positive regulation of apoptotic signaling pathway	0.016715790107438
+GO:0061138~morphogenesis of a branching epithelium	0.016715790107438
+GO:0045787~positive regulation of cell cycle	0.0167213447641085
+GO:0048008~platelet-derived growth factor receptor signaling pathway	0.016733840286907
+GO:0072577~endothelial cell apoptotic process	0.016733840286907
+GO:0030162~regulation of proteolysis	0.0168333659742778
+GO:0048762~mesenchymal cell differentiation	0.0169703421950717
+GO:0001889~liver development	0.017190036119218
+GO:0045981~positive regulation of nucleotide metabolic process	0.017710731094009
+GO:1900544~positive regulation of purine nucleotide metabolic process	0.017710731094009
+GO:0019682~glyceraldehyde-3-phosphate metabolic process	0.0178171269112339
+GO:0018126~protein hydroxylation	0.0178171269112339
+GO:0035886~vascular smooth muscle cell differentiation	0.0178171269112339
+GO:0051346~negative regulation of hydrolase activity	0.0178956449884507
+GO:0098602~single organism cell adhesion	0.0179291614394912
+GO:2000379~positive regulation of reactive oxygen species metabolic process	0.017968169248371
+GO:0019216~regulation of lipid metabolic process	0.0180723062755457
+GO:0006754~ATP biosynthetic process	0.0186999592980814
+GO:0035272~exocrine system development	0.0186999592980814
+GO:0031663~lipopolysaccharide-mediated signaling pathway	0.0186999592980814
+GO:0048260~positive regulation of receptor-mediated endocytosis	0.0186999592980814
+GO:0061008~hepaticobiliary system development	0.0187832148407773
+GO:0010951~negative regulation of endopeptidase activity	0.0190870149866382
+GO:0051050~positive regulation of transport	0.0193455631856312
+GO:0035239~tube morphogenesis	0.0194620829364428
+GO:0061448~connective tissue development	0.0195451992777356
+GO:0002694~regulation of leukocyte activation	0.0196630838820375
+GO:0050819~negative regulation of coagulation	0.019728999573653
+GO:0046716~muscle cell cellular homeostasis	0.0197644698504871
+GO:0045978~negative regulation of nucleoside metabolic process	0.0197644698504871
+GO:0014912~negative regulation of smooth muscle cell migration	0.0197644698504871
+GO:1903579~negative regulation of ATP metabolic process	0.0197644698504871
+GO:1904659~glucose transmembrane transport	0.0197644698504871
+GO:0035994~response to muscle stretch	0.0197644698504871
+GO:0035428~hexose transmembrane transport	0.0197644698504871
+GO:0050880~regulation of blood vessel size	0.0198976542390372
+GO:0045892~negative regulation of transcription, DNA-templated	0.020069162715863
+GO:0050871~positive regulation of B cell activation	0.0200908174591896
+GO:0008585~female gonad development	0.0200908174591896
+GO:0016337~single organismal cell-cell adhesion	0.0203686104775974
+GO:0035150~regulation of tube size	0.0204707879671729
+GO:0010468~regulation of gene expression	0.0207235099634638
+GO:0007569~cell aging	0.0208312186097002
+GO:0046879~hormone secretion	0.0209622239029
+GO:0051259~protein oligomerization	0.0210744261598316
+GO:0060249~anatomical structure homeostasis	0.0211211410328302
+GO:0065007~biological regulation	0.0212561877302564
+GO:0043524~negative regulation of neuron apoptotic process	0.0216492310533996
+GO:1902895~positive regulation of pri-miRNA transcription from RNA polymerase II promoter	0.0217965914856078
+GO:0046697~decidualization	0.0217965914856078
+GO:0032722~positive regulation of chemokine production	0.0218792404803677
+GO:0043535~regulation of blood vessel endothelial cell migration	0.0218792404803677
+GO:0003008~system process	0.0223642358022787
+GO:0048568~embryonic organ development	0.0225957596405798
+GO:0048699~generation of neurons	0.0227381756470386
+GO:0050817~coagulation	0.02288122977444
+GO:0051098~regulation of binding	0.0228842299011257
+GO:0008544~epidermis development	0.0228842299011257
+GO:0032868~response to insulin	0.0229835834160649
+GO:0001541~ovarian follicle development	0.0230004766567847
+GO:0046545~development of primary female sexual characteristics	0.0231522119639548
+GO:0045637~regulation of myeloid cell differentiation	0.0233522331666539
+GO:0016043~cellular component organization	0.0237144735566822
+GO:0031664~regulation of lipopolysaccharide-mediated signaling pathway	0.0239113070412225
+GO:0051412~response to corticosterone	0.0239113070412225
+GO:0019400~alditol metabolic process	0.0239113070412225
+GO:0042692~muscle cell differentiation	0.0243843363499943
+GO:0043491~protein kinase B signaling	0.0247860873728789
+GO:1902041~regulation of extrinsic apoptotic signaling pathway via death domain receptors	0.0253351645812211
+GO:0009914~hormone transport	0.0254117300494314
+GO:0001763~morphogenesis of a branching structure	0.025429332611028
+GO:0001657~ureteric bud development	0.0256245188253274
+GO:0022008~neurogenesis	0.0260582822552382
+GO:0097009~energy homeostasis	0.0261064703049794
+GO:2000112~regulation of cellular macromolecule biosynthetic process	0.0261248395078902
+GO:0051046~regulation of secretion	0.0263774317691473
+GO:0072164~mesonephric tubule development	0.0264825689209373
+GO:0042035~regulation of cytokine biosynthetic process	0.0264825689209373
+GO:0072163~mesonephric epithelium development	0.0264825689209373
+GO:0030888~regulation of B cell proliferation	0.0265485698546131
+GO:0042311~vasodilation	0.0265485698546131
+GO:0019221~cytokine-mediated signaling pathway	0.0266522251740403
+GO:2000027~regulation of organ morphogenesis	0.0267017370549199
+GO:0030098~lymphocyte differentiation	0.0271465914606179
+GO:0046883~regulation of hormone secretion	0.0275671094735073
+GO:0032922~circadian regulation of gene expression	0.0277926303431749
+GO:1901699~cellular response to nitrogen compound	0.0279628391551286
+GO:0002684~positive regulation of immune system process	0.0281083305139542
+GO:0002688~regulation of leukocyte chemotaxis	0.0282499492669532
+GO:0046129~purine ribonucleoside biosynthetic process	0.0282499492669532
+GO:0042451~purine nucleoside biosynthetic process	0.0282499492669532
+GO:0017015~regulation of transforming growth factor beta receptor signaling pathway	0.0282499492669532
+GO:1903844~regulation of cellular response to transforming growth factor beta stimulus	0.0282499492669532
+GO:0072507~divalent inorganic cation homeostasis	0.0283512132463241
+GO:0032967~positive regulation of collagen biosynthetic process	0.0283799730422156
+GO:0051090~regulation of sequence-specific DNA binding transcription factor activity	0.0288925107152434
+GO:0050727~regulation of inflammatory response	0.0289970751055638
+GO:0050829~defense response to Gram-negative bacterium	0.0290672914034707
+GO:1900543~negative regulation of purine nucleotide metabolic process	0.0290672914034707
+GO:0001836~release of cytochrome c from mitochondria	0.0290672914034707
+GO:0001658~branching involved in ureteric bud morphogenesis	0.0290672914034707
+GO:1901653~cellular response to peptide	0.0292088799200595
+GO:0030100~regulation of endocytosis	0.0294663324578504
+GO:0032989~cellular component morphogenesis	0.02989563451568
+GO:0022037~metencephalon development	0.0300860465148001
+GO:1903530~regulation of secretion by cell	0.0303182908590833
+GO:0019229~regulation of vasoconstriction	0.0303724865238779
+GO:0060135~maternal process involved in female pregnancy	0.0303724865238779
+GO:0045980~negative regulation of nucleotide metabolic process	0.0303724865238779
+GO:0002718~regulation of cytokine production involved in immune response	0.0303724865238779
+GO:0045861~negative regulation of proteolysis	0.0305416233897536
+GO:0001816~cytokine production	0.0306530984181572
+GO:0035902~response to immobilization stress	0.0307297444069524
+GO:0010714~positive regulation of collagen metabolic process	0.0307297444069524
+GO:0044253~positive regulation of multicellular organismal metabolic process	0.0307297444069524
+GO:1903506~regulation of nucleic acid-templated transcription	0.0307869827346209
+GO:0001823~mesonephros development	0.0310299774851866
+GO:0030810~positive regulation of nucleotide biosynthetic process	0.0310299774851866
+GO:0042089~cytokine biosynthetic process	0.0310299774851866
+GO:1900373~positive regulation of purine nucleotide biosynthetic process	0.0310299774851866
+GO:0051130~positive regulation of cellular component organization	0.0311447536268121
+GO:0071840~cellular component organization or biogenesis	0.0316493436842258
+GO:0030522~intracellular receptor signaling pathway	0.0317032696826268
+GO:0061045~negative regulation of wound healing	0.0317081377187043
+GO:0019915~lipid storage	0.0317081377187043
+GO:0001837~epithelial to mesenchymal transition	0.0319912158352246
+GO:0008630~intrinsic apoptotic signaling pathway in response to DNA damage	0.0319912158352246
+GO:0048598~embryonic morphogenesis	0.032547027079728
+GO:0007423~sensory organ development	0.0327235633207728
+GO:0042107~cytokine metabolic process	0.0329697959498626
+GO:2001237~negative regulation of extrinsic apoptotic signaling pathway	0.0329697959498626
+GO:0085029~extracellular matrix assembly	0.0331537503770156
+GO:0043536~positive regulation of blood vessel endothelial cell migration	0.0331537503770156
+GO:1904037~positive regulation of epithelial cell apoptotic process	0.0331537503770156
+GO:0060669~embryonic placenta morphogenesis	0.0331537503770156
+GO:0050927~positive regulation of positive chemotaxis	0.0331537503770156
+GO:0070663~regulation of leukocyte proliferation	0.0332586316429909
+GO:2001141~regulation of RNA biosynthetic process	0.0336415671498712
+GO:0051336~regulation of hydrolase activity	0.0336568874356983
+GO:0010952~positive regulation of peptidase activity	0.0336792158047003
+GO:0030330~DNA damage response, signal transduction by p53 class mediator	0.0339657482686089
+GO:0005985~sucrose metabolic process	0.0340879237512533
+GO:0005988~lactose metabolic process	0.0340879237512533
+GO:1904640~response to methionine	0.0340879237512533
+GO:0051365~cellular response to potassium ion starvation	0.0340879237512533
+GO:0005989~lactose biosynthetic process	0.0340879237512533
+GO:0045785~positive regulation of cell adhesion	0.034216985561331
+GO:0060395~SMAD protein signal transduction	0.0344704411601856
+GO:0009206~purine ribonucleoside triphosphate biosynthetic process	0.0344704411601856
+GO:0002685~regulation of leukocyte migration	0.0344992540300055
+GO:2001234~negative regulation of apoptotic signaling pathway	0.0345806208550745
+GO:0001817~regulation of cytokine production	0.0348357777027809
+GO:0032102~negative regulation of response to external stimulus	0.034936982393759
+GO:0002576~platelet degranulation	0.0349790993208104
+GO:1903532~positive regulation of secretion by cell	0.0351691376482434
+GO:0051051~negative regulation of transport	0.0353097288405938
+GO:0001782~B cell homeostasis	0.0356499931798749
+GO:0050926~regulation of positive chemotaxis	0.0356499931798749
+GO:0042730~fibrinolysis	0.0356499931798749
+GO:0050794~regulation of cellular process	0.0358206662914019
+GO:1901216~positive regulation of neuron death	0.0358968833104892
+GO:0009145~purine nucleoside triphosphate biosynthetic process	0.0358968833104892
+GO:0046660~female sex differentiation	0.0360098717612818
+GO:0002687~positive regulation of leukocyte migration	0.0370580844029649
+GO:0060675~ureteric bud morphogenesis	0.037353362029247
+GO:0050708~regulation of protein secretion	0.037695210787657
+GO:0015711~organic anion transport	0.0377737446616954
+GO:0006874~cellular calcium ion homeostasis	0.0379768131651517
+GO:1901890~positive regulation of cell junction assembly	0.0382165107396242
+GO:1902893~regulation of pri-miRNA transcription from RNA polymerase II promoter	0.0382165107396242
+GO:0034219~carbohydrate transmembrane transport	0.0382165107396242
+GO:0046685~response to arsenic-containing substance	0.0382165107396242
+GO:0033028~myeloid cell apoptotic process	0.0382165107396242
+GO:0009896~positive regulation of catabolic process	0.038481231546752
+GO:0072171~mesonephric tubule morphogenesis	0.0388397473102799
+GO:0042310~vasoconstriction	0.0388397473102799
+GO:0006898~receptor-mediated endocytosis	0.0401184506063071
+GO:0006355~regulation of transcription, DNA-templated	0.0402214554331999
+GO:0030183~B cell differentiation	0.0403074948769549
+GO:0006809~nitric oxide biosynthetic process	0.0403558997612751
+GO:1903708~positive regulation of hemopoiesis	0.0404507138778005
+GO:0006351~transcription, DNA-templated	0.040584011945326
+GO:2000352~negative regulation of endothelial cell apoptotic process	0.0408513761330491
+GO:0045807~positive regulation of endocytosis	0.0414255809890119
+GO:0097659~nucleic acid-templated transcription	0.0415007535979645
+GO:1901863~positive regulation of muscle tissue development	0.0419016709386986
+GO:0090090~negative regulation of canonical Wnt signaling pathway	0.0422505326941783
+GO:0070555~response to interleukin-1	0.04256114509985
+GO:0072331~signal transduction by p53 class mediator	0.0431885579894291
+GO:0051147~regulation of muscle cell differentiation	0.0431885579894291
+GO:0009201~ribonucleoside triphosphate biosynthetic process	0.043476903657204
+GO:1903035~negative regulation of response to wounding	0.043476903657204
+GO:0070741~response to interleukin-6	0.0435526970292481
+GO:0021680~cerebellar Purkinje cell layer development	0.0435526970292481
+GO:0042149~cellular response to glucose starvation	0.0435526970292481
+GO:0045909~positive regulation of vasodilation	0.0435526970292481
+GO:0070229~negative regulation of lymphocyte apoptotic process	0.0435526970292481
+GO:0006897~endocytosis	0.0437053708534682
+GO:0007596~blood coagulation	0.0443846221502848
+GO:0010638~positive regulation of organelle organization	0.0446761489960917
+GO:0055074~calcium ion homeostasis	0.0447851887244738
+GO:0002682~regulation of immune system process	0.0449239445869924
+GO:0009311~oligosaccharide metabolic process	0.0450814323063979
+GO:0046849~bone remodeling	0.0450814323063979
+GO:1903426~regulation of reactive oxygen species biosynthetic process	0.0450814323063979
+GO:0061428~negative regulation of transcription from RNA polymerase II promoter in response to hypoxia	0.045191683992381
+GO:0070837~dehydroascorbic acid transport	0.045191683992381
+GO:0061419~positive regulation of transcription from RNA polymerase II promoter in response to hypoxia	0.045191683992381
+GO:0006275~regulation of DNA replication	0.0460726534211018
+GO:0060070~canonical Wnt signaling pathway	0.0461043853378796
+GO:0001893~maternal placenta development	0.0463186151829693
+GO:0030224~monocyte differentiation	0.0463186151829693
+GO:0033280~response to vitamin D	0.0463186151829693
+GO:0050789~regulation of biological process	0.0464490478651803
+GO:0003151~outflow tract morphogenesis	0.0467150831433982
+GO:0048857~neural nucleus development	0.0467150831433982
+GO:0046209~nitric oxide metabolic process	0.0467150831433982
+GO:0006811~ion transport	0.0468028184956121
+GO:0044271~cellular nitrogen compound biosynthetic process	0.047203637534848
+GO:0008217~regulation of blood pressure	0.0480163740332207
+GO:0030308~negative regulation of cell growth	0.0480163740332207
+GO:0046777~protein autophosphorylation	0.0483241797725047
+GO:0043280~positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0485008919573413
+GO:0042455~ribonucleoside biosynthetic process	0.0485008919573413
+GO:0043271~negative regulation of ion transport	0.0485008919573413
+GO:0042770~signal transduction in response to DNA damage	0.0485008919573413
+GO:0010822~positive regulation of mitochondrion organization	0.048978824084675
+GO:0010821~regulation of mitochondrion organization	0.0491163381662684
+GO:0042180~cellular ketone metabolic process	0.0491163381662684
+GO:0030513~positive regulation of BMP signaling pathway	0.0491473058835077
+GO:0071392~cellular response to estradiol stimulus	0.0491473058835077
+GO:0045736~negative regulation of cyclin-dependent protein serine/threonine kinase activity	0.0491473058835077
+GO:0010039~response to iron ion	0.0491473058835077
+GO:1904030~negative regulation of cyclin-dependent protein kinase activity	0.0491473058835077
+GO:0060048~cardiac muscle contraction	0.0497411288823914
+GO:0072503~cellular divalent inorganic cation homeostasis	0.0499363686924132

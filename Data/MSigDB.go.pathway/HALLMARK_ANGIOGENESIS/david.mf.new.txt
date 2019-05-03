@@ -1,0 +1,30 @@
+GO:0005539~glycosaminoglycan binding	2.049819550914e-20
+GO:0008201~heparin binding	2.34205775938027e-18
+GO:1901681~sulfur compound binding	3.3199902967425e-16
+GO:0005102~receptor binding	4.51970755247762e-09
+GO:0097367~carbohydrate derivative binding	2.8725365250681e-07
+GO:0050840~extracellular matrix binding	0.000163238852169133
+GO:0008083~growth factor activity	0.000302797488353152
+GO:0005515~protein binding	0.0003228505546029
+GO:0005125~cytokine activity	0.000990633388221008
+GO:0098772~molecular function regulator	0.00139043006822681
+GO:0070851~growth factor receptor binding	0.00214605466043628
+GO:0019838~growth factor binding	0.00214605466043628
+GO:0060089~molecular transducer activity	0.00492446937532182
+GO:0004872~receptor activity	0.00492446937532182
+GO:0005518~collagen binding	0.00734140020195544
+GO:0038024~cargo receptor activity	0.00848966433740115
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.0106897637876077
+GO:0005201~extracellular matrix structural constituent	0.0118236556928488
+GO:0005509~calcium ion binding	0.0136550181936522
+GO:0030246~carbohydrate binding	0.01582962119638
+GO:0002020~protease binding	0.0231255223463035
+GO:0005085~guanyl-nucleotide exchange factor activity	0.0237170020787879
+GO:0043169~cation binding	0.0275855794491757
+GO:0005488~binding	0.0295900915627728
+GO:0005161~platelet-derived growth factor receptor binding	0.0298014191648035
+GO:0045236~CXCR chemokine receptor binding	0.0337092193433139
+GO:0005112~Notch binding	0.0356573862399988
+GO:0043167~ion binding	0.0381783119084469
+GO:0017134~fibroblast growth factor binding	0.0453411783301364
+GO:0004866~endopeptidase inhibitor activity	0.0477823822288858

@@ -1,0 +1,55 @@
+GO:0044212~transcription regulatory region DNA binding	1.92006284632652e-05
+GO:0000975~regulatory region DNA binding	2.03292402517871e-05
+GO:0001067~regulatory region nucleic acid binding	2.07185909187687e-05
+GO:0000989~transcription factor activity, transcription factor binding	0.000115385487273132
+GO:0000988~transcription factor activity, protein binding	0.000130485025989118
+GO:0003714~transcription corepressor activity	0.00019073810469558
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	0.000247493817077373
+GO:0001077~transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.000270099975129158
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.000392442188286813
+GO:0042803~protein homodimerization activity	0.000399909257980609
+GO:0008134~transcription factor binding	0.000500953082951472
+GO:0000976~transcription regulatory region sequence-specific DNA binding	0.00057447353549833
+GO:0046983~protein dimerization activity	0.000827775631702473
+GO:1990837~sequence-specific double-stranded DNA binding	0.000981696416872309
+GO:0003712~transcription cofactor activity	0.00107679235352656
+GO:0042802~identical protein binding	0.00167994157280169
+GO:0001047~core promoter binding	0.00194288786418394
+GO:0015297~antiporter activity	0.002018623152617
+GO:0005102~receptor binding	0.00237276888090513
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.00245526726305554
+GO:0001012~RNA polymerase II regulatory region DNA binding	0.00258499154495399
+GO:1901682~sulfur compound transmembrane transporter activity	0.00307371937742893
+GO:0003690~double-stranded DNA binding	0.00309066269975138
+GO:0015291~secondary active transmembrane transporter activity	0.00421336756038614
+GO:0042826~histone deacetylase binding	0.00517767806069682
+GO:0008289~lipid binding	0.00553902106283637
+GO:0004312~fatty acid synthase activity	0.00609200611591819
+GO:0001134~transcription factor activity, transcription factor recruiting	0.00609200611591819
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	0.00622356856660677
+GO:0043565~sequence-specific DNA binding	0.00715202855566871
+GO:0072341~modified amino acid binding	0.00715969999432207
+GO:0003700~transcription factor activity, sequence-specific DNA binding	0.00785851883759504
+GO:0001071~nucleic acid binding transcription factor activity	0.0079322683986517
+GO:0000987~core promoter proximal region sequence-specific DNA binding	0.00835799726793093
+GO:0001159~core promoter proximal region DNA binding	0.00863840135958975
+GO:0005215~transporter activity	0.00975483443617839
+GO:0005515~protein binding	0.0104882491539794
+GO:0000978~RNA polymerase II core promoter proximal region sequence-specific DNA binding	0.0163479036302686
+GO:0019904~protein domain specific binding	0.0171872019262537
+GO:0022857~transmembrane transporter activity	0.0175866577824357
+GO:0022804~active transmembrane transporter activity	0.0197394529065882
+GO:0001076~transcription factor activity, RNA polymerase II transcription factor binding	0.0213714746629706
+GO:0099516~ion antiporter activity	0.0231537191641818
+GO:0022892~substrate-specific transporter activity	0.0232850311000504
+GO:0003707~steroid hormone receptor activity	0.0265220848597528
+GO:0008144~drug binding	0.0278920489861036
+GO:0016628~oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	0.0300780519174872
+GO:0019899~enzyme binding	0.0316373952525082
+GO:0022891~substrate-specific transmembrane transporter activity	0.0316644349358645
+GO:0042562~hormone binding	0.0326862366663199
+GO:0005520~insulin-like growth factor binding	0.0371038892042538
+GO:0046943~carboxylic acid transmembrane transporter activity	0.0391816905543104
+GO:0005342~organic acid transmembrane transporter activity	0.0423564981009482
+GO:0008092~cytoskeletal protein binding	0.0437541701158955
+GO:0015175~neutral amino acid transmembrane transporter activity	0.0473348555432648

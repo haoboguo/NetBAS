@@ -1,0 +1,9 @@
+# Coverage: 1
+hsa00230
+hsa03420
+hsa03022
+hsa00240
+hsa03410
+hsa03460
+hsa05016
+hsa03440

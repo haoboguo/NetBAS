@@ -1,0 +1,107 @@
+GO:0005576~extracellular region	3.68194276391145e-29
+GO:0044421~extracellular region part	7.7172803955466e-28
+GO:0005615~extracellular space	4.24223130083915e-25
+GO:1903561~extracellular vesicle	5.9873893543867e-23
+GO:0043230~extracellular organelle	6.13544677511892e-23
+GO:0070062~extracellular exosome	1.95860337449171e-22
+GO:0031988~membrane-bounded vesicle	4.0781660389887e-21
+GO:0031982~vesicle	4.29247874366812e-21
+GO:0071944~cell periphery	4.1323461865462e-13
+GO:0072562~blood microparticle	5.84170522986314e-13
+GO:0005886~plasma membrane	7.8049952703142e-13
+GO:0098857~membrane microdomain	9.23903941937359e-10
+GO:0098589~membrane region	1.1296843118403e-09
+GO:0098552~side of membrane	1.84725648639696e-09
+GO:0009986~cell surface	2.09795396820013e-09
+GO:0031093~platelet alpha granule lumen	5.54866455349001e-09
+GO:0031091~platelet alpha granule	6.09944522710621e-09
+GO:0045121~membrane raft	6.23655201468693e-09
+GO:0060205~cytoplasmic membrane-bounded vesicle lumen	1.40264171774031e-08
+GO:0031983~vesicle lumen	1.55081975927027e-08
+GO:0005764~lysosome	1.55471786689255e-08
+GO:0000323~lytic vacuole	1.55471786689255e-08
+GO:0044459~plasma membrane part	1.57388275400997e-08
+GO:0019898~extrinsic component of membrane	2.10865064304917e-08
+GO:0034774~secretory granule lumen	2.35712745256786e-08
+GO:0019897~extrinsic component of plasma membrane	3.7806413055045e-08
+GO:0031012~extracellular matrix	4.52556856303242e-08
+GO:0030141~secretory granule	4.81104648944295e-08
+GO:0044444~cytoplasmic part	6.28943033622492e-08
+GO:0005829~cytosol	1.50569706234891e-07
+GO:0016023~cytoplasmic, membrane-bounded vesicle	2.51182873725786e-07
+GO:0005773~vacuole	4.35421429573884e-07
+GO:0099503~secretory vesicle	5.37574410188271e-07
+GO:0031410~cytoplasmic vesicle	5.37723661279291e-07
+GO:0097708~intracellular vesicle	5.57266191592085e-07
+GO:0005737~cytoplasm	5.5773869541839e-07
+GO:0005925~focal adhesion	8.82636687501785e-07
+GO:0005924~cell-substrate adherens junction	9.85153460389639e-07
+GO:0030055~cell-substrate junction	1.17144787988679e-06
+GO:0005788~endoplasmic reticulum lumen	1.60915425441192e-06
+GO:0009897~external side of plasma membrane	2.16135145445097e-06
+GO:0043227~membrane-bounded organelle	3.24372411103382e-06
+GO:0005912~adherens junction	4.23189331373591e-06
+GO:0070161~anchoring junction	6.21846707777373e-06
+GO:0031234~extrinsic component of cytoplasmic side of plasma membrane	1.14869148515275e-05
+GO:0098805~whole membrane	9.37593108696712e-05
+GO:0005581~collagen trimer	0.00010255723575527
+GO:0098797~plasma membrane protein complex	0.000151301922046215
+GO:0031233~intrinsic component of external side of plasma membrane	0.000173332103393718
+GO:0005793~endoplasmic reticulum-Golgi intermediate compartment	0.00017420803748935
+GO:0031974~membrane-enclosed lumen	0.000233830916098323
+GO:0043233~organelle lumen	0.000281926165789602
+GO:0009898~cytoplasmic side of plasma membrane	0.000312019383418409
+GO:0012505~endomembrane system	0.000429274396124393
+GO:0033116~endoplasmic reticulum-Golgi intermediate compartment membrane	0.000567767486201553
+GO:0098562~cytoplasmic side of membrane	0.000586870259655554
+GO:0030054~cell junction	0.000606791580148021
+GO:0043226~organelle	0.000721300716003945
+GO:0044433~cytoplasmic vesicle part	0.000825223820147376
+GO:0072557~IPAF inflammasome complex	0.00108140969855375
+GO:0097651~phosphatidylinositol 3-kinase complex, class I	0.00108140969855375
+GO:0016020~membrane	0.00118095056213764
+GO:0043234~protein complex	0.00122494461066645
+GO:0042629~mast cell granule	0.00133131301314632
+GO:0030134~ER to Golgi transport vesicle	0.00139630710508982
+GO:0005775~vacuolar lumen	0.0014385052311647
+GO:0005578~proteinaceous extracellular matrix	0.00159563646711545
+GO:0097169~AIM2 inflammasome complex	0.00161086699428329
+GO:0005794~Golgi apparatus	0.00180556067466198
+GO:0031904~endosome lumen	0.0025038555904473
+GO:0031232~extrinsic component of external side of plasma membrane	0.0029654488058376
+GO:0072559~NLRP3 inflammasome complex	0.0029654488058376
+GO:0032991~macromolecular complex	0.00297955233225279
+GO:0031226~intrinsic component of plasma membrane	0.00347956927577659
+GO:0044437~vacuolar part	0.00393497918553436
+GO:0098796~membrane protein complex	0.00466625417148642
+GO:0005834~heterotrimeric G-protein complex	0.00497820112734532
+GO:0001772~immunological synapse	0.00541811596024866
+GO:0005768~endosome	0.00548518946532915
+GO:0061702~inflammasome complex	0.00679884270548845
+GO:0070013~intracellular organelle lumen	0.0103744512195302
+GO:0043209~myelin sheath	0.0104328030954028
+GO:0030133~transport vesicle	0.0112936826427201
+GO:0043202~lysosomal lumen	0.0140113575912279
+GO:0005783~endoplasmic reticulum	0.0154074136287088
+GO:0005622~intracellular	0.0172194996439181
+GO:0030426~growth cone	0.0173276013422012
+GO:0048471~perinuclear region of cytoplasm	0.0180572585744648
+GO:0005942~phosphatidylinositol 3-kinase complex	0.0185219082291826
+GO:0030427~site of polarized growth	0.0198154616055782
+GO:1905286~serine-type peptidase complex	0.0209606890952944
+GO:0005887~integral component of plasma membrane	0.0223925895244961
+GO:0044432~endoplasmic reticulum part	0.0236167159683936
+GO:0031225~anchored component of membrane	0.0253788233776479
+GO:0005944~phosphatidylinositol 3-kinase complex, class IB	0.0312765461759836
+GO:0030895~apolipoprotein B mRNA editing enzyme complex	0.0312765461759836
+GO:0044431~Golgi apparatus part	0.031321650987996
+GO:0005765~lysosomal membrane	0.0338993002679653
+GO:0098852~lytic vacuole membrane	0.0338993002679653
+GO:0005911~cell-cell junction	0.0403868787192827
+GO:0072558~NLRP1 inflammasome complex	0.0414842682047699
+GO:0036021~endolysosome lumen	0.0414842682047699
+GO:0030135~coated vesicle	0.0425185144860042
+GO:0044463~cell projection part	0.0442748353841138
+GO:0014069~postsynaptic density	0.0454711203379309
+GO:0099572~postsynaptic specialization	0.0454711203379309
+GO:0043005~neuron projection	0.049342589651922

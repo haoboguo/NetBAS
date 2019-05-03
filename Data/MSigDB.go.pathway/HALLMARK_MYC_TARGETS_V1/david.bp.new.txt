@@ -1,0 +1,670 @@
+GO:0034641~cellular nitrogen compound metabolic process	1.75297788918283e-45
+GO:0006807~nitrogen compound metabolic process	3.72323308879826e-43
+GO:0010608~posttranscriptional regulation of gene expression	3.72757360982818e-30
+GO:0044260~cellular macromolecule metabolic process	9.81443298604032e-30
+GO:0016071~mRNA metabolic process	2.75670434017067e-29
+GO:0044237~cellular metabolic process	6.37088772758253e-29
+GO:0006139~nucleobase-containing compound metabolic process	1.47692003641624e-28
+GO:0006725~cellular aromatic compound metabolic process	7.95314248222726e-28
+GO:0046483~heterocycle metabolic process	1.71400809423444e-27
+GO:0006396~RNA processing	1.85999623565062e-27
+GO:0090304~nucleic acid metabolic process	5.49333431450081e-27
+GO:0043170~macromolecule metabolic process	6.93819527695241e-27
+GO:0044238~primary metabolic process	1.56684117567982e-26
+GO:1901360~organic cyclic compound metabolic process	2.613143346454e-26
+GO:0010467~gene expression	1.05331566364906e-25
+GO:0071704~organic substance metabolic process	2.10522132509638e-25
+GO:0006412~translation	2.26035707020826e-25
+GO:0043043~peptide biosynthetic process	1.24521626971582e-24
+GO:0008152~metabolic process	5.40311245910514e-24
+GO:1901564~organonitrogen compound metabolic process	6.81360713938127e-24
+GO:0043604~amide biosynthetic process	1.03916858054266e-23
+GO:0000398~mRNA splicing, via spliceosome	2.3333644178829e-23
+GO:0000377~RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	2.3333644178829e-23
+GO:0000375~RNA splicing, via transesterification reactions	3.57059454831383e-23
+GO:0022613~ribonucleoprotein complex biogenesis	1.26627371789763e-22
+GO:0006518~peptide metabolic process	9.35687244163348e-22
+GO:0044271~cellular nitrogen compound biosynthetic process	1.3858480713685e-21
+GO:0044772~mitotic cell cycle phase transition	1.4825159134868e-21
+GO:0044770~cell cycle phase transition	1.6108002250818e-21
+GO:0043488~regulation of mRNA stability	2.07128034765954e-21
+GO:0008380~RNA splicing	2.21555040474678e-21
+GO:0044403~symbiosis, encompassing mutualism through parasitism	2.72105270814472e-21
+GO:0044419~interspecies interaction between organisms	2.72105270814472e-21
+GO:0016032~viral process	4.05432100266056e-21
+GO:0044764~multi-organism cellular process	5.56273622374477e-21
+GO:0043487~regulation of RNA stability	6.60412852474277e-21
+GO:1901566~organonitrogen compound biosynthetic process	7.68545498629469e-21
+GO:0043603~cellular amide metabolic process	1.41301553538915e-20
+GO:0051436~negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	7.30273623654055e-20
+GO:0051439~regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	9.63682251697739e-20
+GO:1904666~regulation of ubiquitin protein ligase activity	1.1430988064148e-19
+GO:1904667~negative regulation of ubiquitin protein ligase activity	1.26591128183403e-19
+GO:0044265~cellular macromolecule catabolic process	2.35389639206356e-19
+GO:0034645~cellular macromolecule biosynthetic process	2.6073932406857e-19
+GO:0051437~positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	2.79605085877137e-19
+GO:0006397~mRNA processing	4.34928052174913e-19
+GO:0051444~negative regulation of ubiquitin-protein transferase activity	7.60595411756222e-19
+GO:1904668~positive regulation of ubiquitin protein ligase activity	1.22728643854731e-18
+GO:0006413~translational initiation	1.25835253443981e-18
+GO:0044249~cellular biosynthetic process	2.41371747182418e-18
+GO:0006259~DNA metabolic process	2.98341338992021e-18
+GO:0051438~regulation of ubiquitin-protein transferase activity	3.79095187935881e-18
+GO:0009058~biosynthetic process	3.91716665293349e-18
+GO:0009059~macromolecule biosynthetic process	3.96104218981366e-18
+GO:0051443~positive regulation of ubiquitin-protein transferase activity	4.3163092890716e-18
+GO:1903047~mitotic cell cycle process	7.15773180248178e-18
+GO:2000060~positive regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	9.02700712602178e-18
+GO:1901576~organic substance biosynthetic process	1.25151364367482e-17
+GO:0031145~anaphase-promoting complex-dependent catabolic process	1.65327283314408e-17
+GO:0006403~RNA localization	1.67208271364037e-17
+GO:0000278~mitotic cell cycle	3.12063407363497e-17
+GO:0009057~macromolecule catabolic process	4.36009492444733e-17
+GO:2000058~regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	6.42886847938673e-17
+GO:1901990~regulation of mitotic cell cycle phase transition	1.5764198833985e-16
+GO:0031397~negative regulation of protein ubiquitination	3.46086329070944e-16
+GO:0051276~chromosome organization	6.91100201210924e-16
+GO:0006521~regulation of cellular amino acid metabolic process	7.38272071529926e-16
+GO:1901987~regulation of cell cycle phase transition	1.11081431670092e-15
+GO:1903321~negative regulation of protein modification by small protein conjugation or removal	1.75157292826966e-15
+GO:0033238~regulation of cellular amine metabolic process	3.68382795854848e-15
+GO:0007346~regulation of mitotic cell cycle	5.99277919532089e-15
+GO:0022402~cell cycle process	7.92875449715198e-15
+GO:1903320~regulation of protein modification by small protein conjugation or removal	8.49078261127002e-15
+GO:1903322~positive regulation of protein modification by small protein conjugation or removal	8.63668921980853e-15
+GO:0006401~RNA catabolic process	8.71861594989679e-15
+GO:0031396~regulation of protein ubiquitination	1.21451491947683e-14
+GO:0031398~positive regulation of protein ubiquitination	1.94411944315302e-14
+GO:0016070~RNA metabolic process	2.89049106411765e-14
+GO:0042254~ribosome biogenesis	7.5649995042338e-14
+GO:0006402~mRNA catabolic process	7.74704044904276e-14
+GO:0071840~cellular component organization or biogenesis	1.1936233988578e-13
+GO:0044248~cellular catabolic process	1.33109137252489e-13
+GO:1903050~regulation of proteolysis involved in cellular protein catabolic process	1.70655587625235e-13
+GO:0034655~nucleobase-containing compound catabolic process	1.77354759608111e-13
+GO:0000956~nuclear-transcribed mRNA catabolic process	2.08686267773936e-13
+GO:0002479~antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent	2.10486618929848e-13
+GO:0044106~cellular amine metabolic process	2.15112098188933e-13
+GO:0044267~cellular protein metabolic process	3.73723747918787e-13
+GO:0042590~antigen processing and presentation of exogenous peptide antigen via MHC class I	3.99221543941777e-13
+GO:0009056~catabolic process	5.46352226272088e-13
+GO:0042176~regulation of protein catabolic process	7.10090376636712e-13
+GO:0009308~amine metabolic process	7.14438604222175e-13
+GO:1903052~positive regulation of proteolysis involved in cellular protein catabolic process	8.78371949371805e-13
+GO:1903362~regulation of cellular protein catabolic process	9.4528120116834e-13
+GO:0006417~regulation of translation	1.00266573150219e-12
+GO:0046700~heterocycle catabolic process	1.07779556516964e-12
+GO:0038061~NIK/NF-kappaB signaling	1.11075311133417e-12
+GO:0044270~cellular nitrogen compound catabolic process	1.58462494473824e-12
+GO:1901575~organic substance catabolic process	1.62010678928571e-12
+GO:0051171~regulation of nitrogen compound metabolic process	1.72612068914914e-12
+GO:0007049~cell cycle	1.94589435589018e-12
+GO:0002474~antigen processing and presentation of peptide antigen via MHC class I	2.02894004377099e-12
+GO:0019439~aromatic compound catabolic process	2.07665499802711e-12
+GO:0000723~telomere maintenance	2.42287087930541e-12
+GO:0045862~positive regulation of proteolysis	2.50772852527553e-12
+GO:0051246~regulation of protein metabolic process	2.60141307351604e-12
+GO:1903364~positive regulation of cellular protein catabolic process	3.7205262602647e-12
+GO:0032268~regulation of cellular protein metabolic process	3.78120324852777e-12
+GO:0034248~regulation of cellular amide metabolic process	6.35324826086316e-12
+GO:1901361~organic cyclic compound catabolic process	6.53541002626377e-12
+GO:0042787~protein ubiquitination involved in ubiquitin-dependent protein catabolic process	8.13356530870577e-12
+GO:0010605~negative regulation of macromolecule metabolic process	8.30369911529011e-12
+GO:0000184~nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	8.82381959427564e-12
+GO:0016043~cellular component organization	9.39213593284195e-12
+GO:0032200~telomere organization	1.02177818635957e-11
+GO:0002223~stimulatory C-type lectin receptor signaling pathway	1.3000016812462e-11
+GO:0071897~DNA biosynthetic process	1.38508029870022e-11
+GO:0002220~innate immune response activating cell surface receptor signaling pathway	1.68969915635903e-11
+GO:0006913~nucleocytoplasmic transport	1.74640054558946e-11
+GO:0009894~regulation of catabolic process	2.30036405132164e-11
+GO:0032269~negative regulation of cellular protein metabolic process	2.50014987920872e-11
+GO:0051169~nuclear transport	2.55023513978575e-11
+GO:0019538~protein metabolic process	2.57982769647779e-11
+GO:0010564~regulation of cell cycle process	3.0080811639496e-11
+GO:0009892~negative regulation of metabolic process	3.02681995289913e-11
+GO:0051248~negative regulation of protein metabolic process	3.19097253891186e-11
+GO:0022618~ribonucleoprotein complex assembly	3.38283018074736e-11
+GO:0051704~multi-organism process	3.44138369081046e-11
+GO:0031331~positive regulation of cellular catabolic process	3.60025718707526e-11
+GO:0060255~regulation of macromolecule metabolic process	3.91405784736494e-11
+GO:0044843~cell cycle G1/S phase transition	4.25416351464428e-11
+GO:0031329~regulation of cellular catabolic process	5.00420170538838e-11
+GO:0051726~regulation of cell cycle	6.4710643077019e-11
+GO:0071826~ribonucleoprotein complex subunit organization	7.83856794187856e-11
+GO:0000082~G1/S transition of mitotic cell cycle	8.4231893670588e-11
+GO:0030162~regulation of proteolysis	8.67137578503461e-11
+GO:0072594~establishment of protein localization to organelle	9.14439479281657e-11
+GO:0031324~negative regulation of cellular metabolic process	1.12783377882375e-10
+GO:1904874~positive regulation of telomerase RNA localization to Cajal body	1.26706924580457e-10
+GO:1904872~regulation of telomerase RNA localization to Cajal body	1.26706924580457e-10
+GO:0006278~RNA-dependent DNA biosynthetic process	1.28453455646594e-10
+GO:0019222~regulation of metabolic process	1.3761990511972e-10
+GO:0071166~ribonucleoprotein complex localization	1.42539420999212e-10
+GO:0090672~telomerase RNA localization	2.23109589030497e-10
+GO:0090671~telomerase RNA localization to Cajal body	2.23109589030497e-10
+GO:0090670~RNA localization to Cajal body	2.23109589030497e-10
+GO:0060071~Wnt signaling pathway, planar cell polarity pathway	2.36190374918027e-10
+GO:0034660~ncRNA metabolic process	2.93108676731566e-10
+GO:0090175~regulation of establishment of planar polarity	3.35669255533368e-10
+GO:0019058~viral life cycle	3.66942844898377e-10
+GO:0031323~regulation of cellular metabolic process	3.67630645641827e-10
+GO:0034654~nucleobase-containing compound biosynthetic process	3.78073895814757e-10
+GO:0031400~negative regulation of protein modification process	3.98813399159006e-10
+GO:0033365~protein localization to organelle	5.09719089443175e-10
+GO:0080090~regulation of primary metabolic process	5.50585566235046e-10
+GO:0018130~heterocycle biosynthetic process	7.43712634675093e-10
+GO:0045732~positive regulation of protein catabolic process	7.94363269144672e-10
+GO:0043933~macromolecular complex subunit organization	8.06243986777758e-10
+GO:0071426~ribonucleoprotein complex export from nucleus	8.13976655908743e-10
+GO:0019438~aromatic compound biosynthetic process	8.73253581411561e-10
+GO:0090263~positive regulation of canonical Wnt signaling pathway	1.11477055538702e-09
+GO:0007164~establishment of tissue polarity	1.23550154362809e-09
+GO:0001736~establishment of planar polarity	1.23550154362809e-09
+GO:0009896~positive regulation of catabolic process	1.29009079886445e-09
+GO:0006405~RNA export from nucleus	1.36798139572352e-09
+GO:0034470~ncRNA processing	1.59969436808054e-09
+GO:0006364~rRNA processing	1.64181223174364e-09
+GO:0043161~proteasome-mediated ubiquitin-dependent protein catabolic process	1.72683635813806e-09
+GO:0006996~organelle organization	2.01250195519557e-09
+GO:0006369~termination of RNA polymerase II transcription	2.4198122810989e-09
+GO:0016072~rRNA metabolic process	2.48244847392092e-09
+GO:0044033~multi-organism metabolic process	2.82209626028284e-09
+GO:0051168~nuclear export	2.96916835660585e-09
+GO:0010565~regulation of cellular ketone metabolic process	3.21983392506686e-09
+GO:1901362~organic cyclic compound biosynthetic process	3.31979323461348e-09
+GO:0051347~positive regulation of transferase activity	3.64619374382293e-09
+GO:0051348~negative regulation of transferase activity	4.29168133449706e-09
+GO:0001738~morphogenesis of a polarized epithelium	4.33050247354855e-09
+GO:0002478~antigen processing and presentation of exogenous peptide antigen	4.45954732689145e-09
+GO:0032204~regulation of telomere maintenance	4.46659816967121e-09
+GO:0090090~negative regulation of canonical Wnt signaling pathway	5.65874658753421e-09
+GO:0010604~positive regulation of macromolecule metabolic process	5.99701089641899e-09
+GO:0033209~tumor necrosis factor-mediated signaling pathway	6.1941712521943e-09
+GO:0010498~proteasomal protein catabolic process	6.20700029065106e-09
+GO:0050852~T cell receptor signaling pathway	6.61580752180736e-09
+GO:0007004~telomere maintenance via telomerase	7.25469545168682e-09
+GO:0042180~cellular ketone metabolic process	7.4886263445427e-09
+GO:0019884~antigen processing and presentation of exogenous antigen	7.71332552163372e-09
+GO:0051052~regulation of DNA metabolic process	7.87676139471614e-09
+GO:1904871~positive regulation of protein localization to Cajal body	9.58615356487208e-09
+GO:1904869~regulation of protein localization to Cajal body	9.58615356487208e-09
+GO:0010033~response to organic substance	9.6472866261894e-09
+GO:0051054~positive regulation of DNA metabolic process	9.87691795051828e-09
+GO:0010468~regulation of gene expression	1.2374687593587e-08
+GO:0050658~RNA transport	1.29979902001359e-08
+GO:0050657~nucleic acid transport	1.29979902001359e-08
+GO:0044085~cellular component biogenesis	1.35193453297469e-08
+GO:0043632~modification-dependent macromolecule catabolic process	1.48520293774247e-08
+GO:0051236~establishment of RNA localization	1.61356727899639e-08
+GO:0048002~antigen processing and presentation of peptide antigen	1.61356727899639e-08
+GO:0038095~Fc-epsilon receptor signaling pathway	1.61356727899639e-08
+GO:0002758~innate immune response-activating signal transduction	1.7370275908458e-08
+GO:0046907~intracellular transport	1.77113722804806e-08
+GO:1903405~protein localization to nuclear body	2.13708911953753e-08
+GO:1990173~protein localization to nucleoplasm	2.13708911953753e-08
+GO:1904867~protein localization to Cajal body	2.13708911953753e-08
+GO:0030177~positive regulation of Wnt signaling pathway	2.14682320638001e-08
+GO:0035567~non-canonical Wnt signaling pathway	2.3192151954153e-08
+GO:0002218~activation of innate immune response	2.59502046201444e-08
+GO:0050684~regulation of mRNA processing	2.60213638626126e-08
+GO:0010833~telomere maintenance via telomere lengthening	2.62628579699884e-08
+GO:0034622~cellular macromolecular complex assembly	2.7843275712005e-08
+GO:0000209~protein polyubiquitination	2.89994811685853e-08
+GO:0051338~regulation of transferase activity	2.98541512399847e-08
+GO:0031325~positive regulation of cellular metabolic process	3.12115439059732e-08
+GO:0006260~DNA replication	3.41464596597343e-08
+GO:0009893~positive regulation of metabolic process	3.42210964392752e-08
+GO:0032210~regulation of telomere maintenance via telomerase	3.49293460582832e-08
+GO:1903311~regulation of mRNA metabolic process	3.61843468238548e-08
+GO:0006511~ubiquitin-dependent protein catabolic process	3.82252077395237e-08
+GO:0019080~viral gene expression	3.92834532401873e-08
+GO:0019941~modification-dependent protein catabolic process	4.95338367806108e-08
+GO:0030178~negative regulation of Wnt signaling pathway	6.98019484865599e-08
+GO:0031123~RNA 3'-end processing	7.45203357710538e-08
+GO:1904356~regulation of telomere maintenance via telomere lengthening	8.28971927686195e-08
+GO:2000278~regulation of DNA biosynthetic process	9.7205029133262e-08
+GO:0006270~DNA replication initiation	1.09346328362307e-07
+GO:0014070~response to organic cyclic compound	1.1131262091412e-07
+GO:0038093~Fc receptor signaling pathway	1.15408378858749e-07
+GO:0015931~nucleobase-containing compound transport	1.27495352449043e-07
+GO:1904816~positive regulation of protein localization to chromosome, telomeric region	1.30668133467399e-07
+GO:0006614~SRP-dependent cotranslational protein targeting to membrane	1.3179052033954e-07
+GO:0002181~cytoplasmic translation	1.32946254093409e-07
+GO:0033044~regulation of chromosome organization	1.83175550775768e-07
+GO:2000027~regulation of organ morphogenesis	1.85360513195764e-07
+GO:0032508~DNA duplex unwinding	1.8647078348647e-07
+GO:0045089~positive regulation of innate immune response	2.20774976028543e-07
+GO:2000573~positive regulation of DNA biosynthetic process	2.3847037828198e-07
+GO:0006353~DNA-templated transcription, termination	2.57413058667964e-07
+GO:0006613~cotranslational protein targeting to membrane	2.57413058667964e-07
+GO:0045047~protein targeting to ER	2.82029196509163e-07
+GO:0019882~antigen processing and presentation	3.13164574859083e-07
+GO:1904814~regulation of protein localization to chromosome, telomeric region	3.24270836752977e-07
+GO:0032392~DNA geometric change	3.25271630156839e-07
+GO:0051641~cellular localization	3.28191669922181e-07
+GO:0050851~antigen receptor-mediated signaling pathway	3.30387201119131e-07
+GO:0006457~protein folding	3.48829099909144e-07
+GO:0006446~regulation of translational initiation	4.01923319152694e-07
+GO:0072599~establishment of protein localization to endoplasmic reticulum	4.02381408778923e-07
+GO:0051603~proteolysis involved in cellular protein catabolic process	4.19155546925761e-07
+GO:0071310~cellular response to organic substance	5.92290881042012e-07
+GO:0031124~mRNA 3'-end processing	6.03283173335302e-07
+GO:0060828~regulation of canonical Wnt signaling pathway	6.46353311647828e-07
+GO:0045088~regulation of innate immune response	7.41996996041468e-07
+GO:0051028~mRNA transport	8.45624061609028e-07
+GO:0060070~canonical Wnt signaling pathway	8.54434202639126e-07
+GO:0044257~cellular protein catabolic process	9.79021872877939e-07
+GO:0065003~macromolecular complex assembly	9.91592953077481e-07
+GO:0032206~positive regulation of telomere maintenance	1.05746948287551e-06
+GO:0048024~regulation of mRNA splicing, via spliceosome	1.20183730169275e-06
+GO:0032212~positive regulation of telomere maintenance via telomerase	1.37562188582496e-06
+GO:0030163~protein catabolic process	1.57732325348401e-06
+GO:1904358~positive regulation of telomere maintenance via telomere lengthening	1.66558054082598e-06
+GO:0048522~positive regulation of cellular process	1.72116926884292e-06
+GO:0070647~protein modification by small protein conjugation or removal	1.73543849278373e-06
+GO:0051649~establishment of localization in cell	1.76213953430498e-06
+GO:0071407~cellular response to organic cyclic compound	1.89909123553248e-06
+GO:1904851~positive regulation of establishment of protein localization to telomere	1.91430387930447e-06
+GO:0070972~protein localization to endoplasmic reticulum	1.93916457025001e-06
+GO:0033043~regulation of organelle organization	1.97973902588435e-06
+GO:0032446~protein modification by small protein conjugation	2.5988398444377e-06
+GO:0060249~anatomical structure homeostasis	2.63979104547716e-06
+GO:0071427~mRNA-containing ribonucleoprotein complex export from nucleus	2.73982349688993e-06
+GO:0006406~mRNA export from nucleus	2.73982349688993e-06
+GO:0070887~cellular response to chemical stimulus	2.90469904131361e-06
+GO:0070203~regulation of establishment of protein localization to telomere	3.16227340399665e-06
+GO:0070199~establishment of protein localization to chromosome	3.96271865367147e-06
+GO:0043484~regulation of RNA splicing	4.05021500346137e-06
+GO:0071356~cellular response to tumor necrosis factor	4.27614021117225e-06
+GO:0006605~protein targeting	4.56238988975776e-06
+GO:0070202~regulation of establishment of protein localization to chromosome	4.92532754654063e-06
+GO:0051173~positive regulation of nitrogen compound metabolic process	5.76739629251249e-06
+GO:0006261~DNA-dependent DNA replication	5.96988358533444e-06
+GO:0019083~viral transcription	6.89338606596732e-06
+GO:0048523~negative regulation of cellular process	8.78838216537304e-06
+GO:0032270~positive regulation of cellular protein metabolic process	8.9125349776177e-06
+GO:0065008~regulation of biological quality	9.2924957531092e-06
+GO:0034612~response to tumor necrosis factor	9.61178346831849e-06
+GO:0070198~protein localization to chromosome, telomeric region	1.16027466728572e-05
+GO:0048518~positive regulation of biological process	1.19432556567497e-05
+GO:0031349~positive regulation of defense response	1.39597879134756e-05
+GO:0030111~regulation of Wnt signaling pathway	1.50259045783026e-05
+GO:0044093~positive regulation of molecular function	1.53782439127497e-05
+GO:0010638~positive regulation of organelle organization	1.58883465258313e-05
+GO:1903829~positive regulation of cellular protein localization	1.68902574282475e-05
+GO:0033036~macromolecule localization	1.87879015533149e-05
+GO:0048519~negative regulation of biological process	1.89970012948989e-05
+GO:0002429~immune response-activating cell surface receptor signaling pathway	1.92107945707707e-05
+GO:0070200~establishment of protein localization to telomere	1.96621417589045e-05
+GO:0034613~cellular protein localization	1.96811325593933e-05
+GO:0016567~protein ubiquitination	2.07430807851794e-05
+GO:0071103~DNA conformation change	2.17518580577728e-05
+GO:0070727~cellular macromolecule localization	2.35004100899472e-05
+GO:0031100~organ regeneration	2.404553009871e-05
+GO:0050821~protein stabilization	2.44747314269712e-05
+GO:0043086~negative regulation of catalytic activity	2.73299290906248e-05
+GO:0051247~positive regulation of protein metabolic process	3.19870392594249e-05
+GO:0006886~intracellular protein transport	3.24381316917136e-05
+GO:0000245~spliceosomal complex assembly	3.93472561787899e-05
+GO:1902582~single-organism intracellular transport	4.11806945328494e-05
+GO:0044092~negative regulation of molecular function	4.57309728598967e-05
+GO:0031399~regulation of protein modification process	4.60054561756439e-05
+GO:0080134~regulation of response to stress	4.74406000317393e-05
+GO:0007339~binding of sperm to zona pellucida	4.98889590086644e-05
+GO:2001252~positive regulation of chromosome organization	5.01910503074846e-05
+GO:0002768~immune response-regulating cell surface receptor signaling pathway	5.026966431824e-05
+GO:0071345~cellular response to cytokine stimulus	5.16314493286715e-05
+GO:0002757~immune response-activating signal transduction	5.28282474475866e-05
+GO:0002253~activation of immune response	5.46106525299195e-05
+GO:0034502~protein localization to chromosome	5.84400693430914e-05
+GO:0009987~cellular process	6.0938701091414e-05
+GO:0006612~protein targeting to membrane	6.19951715277197e-05
+GO:0043085~positive regulation of catalytic activity	6.32884795688227e-05
+GO:2000112~regulation of cellular macromolecule biosynthetic process	6.44537883724922e-05
+GO:0000387~spliceosomal snRNP assembly	6.52181619763761e-05
+GO:1901998~toxin transport	6.52181619763761e-05
+GO:0071396~cellular response to lipid	6.91311148680529e-05
+GO:0051172~negative regulation of nitrogen compound metabolic process	7.35048195171544e-05
+GO:0048025~negative regulation of mRNA splicing, via spliceosome	8.17459910898538e-05
+GO:0016055~Wnt signaling pathway	8.66800370792942e-05
+GO:0010556~regulation of macromolecule biosynthetic process	8.83864813235412e-05
+GO:0198738~cell-cell signaling by wnt	8.88612812300729e-05
+GO:0042221~response to chemical	9.57604387174407e-05
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	9.68648075040315e-05
+GO:0009163~nucleoside biosynthetic process	0.000110032748349014
+GO:0034097~response to cytokine	0.000111449436119905
+GO:0033993~response to lipid	0.000112594503289678
+GO:0002764~immune response-regulating signaling pathway	0.000115545894108469
+GO:0009124~nucleoside monophosphate biosynthetic process	0.000115738459276777
+GO:1901659~glycosyl compound biosynthetic process	0.000122502079056564
+GO:1901654~response to ketone	0.000138740557718519
+GO:0000302~response to reactive oxygen species	0.000142214987663801
+GO:0009889~regulation of biosynthetic process	0.000159534171416818
+GO:0006268~DNA unwinding involved in DNA replication	0.000161384597581251
+GO:0031326~regulation of cellular biosynthetic process	0.000190679476441027
+GO:0045087~innate immune response	0.000201070976406285
+GO:0035036~sperm-egg recognition	0.000203032651059424
+GO:0031401~positive regulation of protein modification process	0.000217802374991778
+GO:0033119~negative regulation of RNA splicing	0.000227316285657429
+GO:0031347~regulation of defense response	0.000246673992741327
+GO:0034504~protein localization to nucleus	0.000258195886881456
+GO:0008334~histone mRNA metabolic process	0.000262869668335256
+GO:1904951~positive regulation of establishment of protein localization	0.000269690332023653
+GO:0017148~negative regulation of translation	0.000270634660484972
+GO:0031647~regulation of protein stability	0.000276591690002328
+GO:0002009~morphogenesis of an epithelium	0.000293826208735269
+GO:0090150~establishment of protein localization to membrane	0.000294336705387623
+GO:0006508~proteolysis	0.000317182278307941
+GO:1905114~cell surface receptor signaling pathway involved in cell-cell signaling	0.000333534370682589
+GO:0001649~osteoblast differentiation	0.000385176027150428
+GO:0034249~negative regulation of cellular amide metabolic process	0.000386941428643551
+GO:0071392~cellular response to estradiol stimulus	0.000393406643765778
+GO:0050686~negative regulation of mRNA processing	0.000393406643765778
+GO:0006325~chromatin organization	0.000453162380231907
+GO:0007005~mitochondrion organization	0.000454228845744031
+GO:0050790~regulation of catalytic activity	0.000459240780831049
+GO:1901700~response to oxygen-containing compound	0.000501844610113548
+GO:0006221~pyrimidine nucleotide biosynthetic process	0.000502675652616285
+GO:0019219~regulation of nucleobase-containing compound metabolic process	0.000509730400513054
+GO:1901698~response to nitrogen compound	0.000512991068069264
+GO:0044281~small molecule metabolic process	0.000548428192878301
+GO:0034614~cellular response to reactive oxygen species	0.000551093143318247
+GO:0051170~nuclear import	0.000619570694423376
+GO:0010558~negative regulation of macromolecule biosynthetic process	0.000619662884788117
+GO:0010629~negative regulation of gene expression	0.000623296825314272
+GO:1900182~positive regulation of protein localization to nucleus	0.000635014687654792
+GO:0032774~RNA biosynthetic process	0.000658946437488483
+GO:0031099~regeneration	0.000660404018666879
+GO:1903827~regulation of cellular protein localization	0.000670612768119807
+GO:1902580~single-organism cellular localization	0.000686919682892799
+GO:0048255~mRNA stabilization	0.000704728569268639
+GO:0042769~DNA damage response, detection of DNA damage	0.000704728569268639
+GO:0090666~scaRNA localization to Cajal body	0.000752804945749505
+GO:0009890~negative regulation of biosynthetic process	0.000770060638344268
+GO:0050778~positive regulation of immune response	0.000779289828641416
+GO:1903312~negative regulation of mRNA metabolic process	0.000783221970766394
+GO:0043489~RNA stabilization	0.000783221970766394
+GO:0065009~regulation of molecular function	0.000812390694381173
+GO:0009123~nucleoside monophosphate metabolic process	0.000851400857566754
+GO:0051130~positive regulation of cellular component organization	0.0008521734100095
+GO:0009116~nucleoside metabolic process	0.000869617081356573
+GO:0009165~nucleotide biosynthetic process	0.000896411517338177
+GO:0010035~response to inorganic substance	0.000925744959939595
+GO:0009988~cell-cell recognition	0.000963020155853384
+GO:1901293~nucleoside phosphate biosynthetic process	0.000967480855159915
+GO:0010557~positive regulation of macromolecule biosynthetic process	0.00100901905147829
+GO:0006281~DNA repair	0.00104658903385649
+GO:0045184~establishment of protein localization	0.00107057039217516
+GO:0051384~response to glucocorticoid	0.0012187337480416
+GO:0031327~negative regulation of cellular biosynthetic process	0.00123152862881989
+GO:0009719~response to endogenous stimulus	0.00123221508496246
+GO:0007067~mitotic nuclear division	0.00128185061695379
+GO:0090305~nucleic acid phosphodiester bond hydrolysis	0.00128286539260293
+GO:1901657~glycosyl compound metabolic process	0.00138145938364083
+GO:0006796~phosphate-containing compound metabolic process	0.00138476211016457
+GO:0072528~pyrimidine-containing compound biosynthetic process	0.0013882736090284
+GO:0006793~phosphorus metabolic process	0.00144731120471456
+GO:0007050~cell cycle arrest	0.00144868239793317
+GO:0045787~positive regulation of cell cycle	0.00169707537530431
+GO:0016310~phosphorylation	0.00187860658589546
+GO:0031328~positive regulation of cellular biosynthetic process	0.00188050883794251
+GO:0048729~tissue morphogenesis	0.00192253145953601
+GO:0006950~response to stress	0.00201710306686845
+GO:2000113~negative regulation of cellular macromolecule biosynthetic process	0.00202132334989852
+GO:0006974~cellular response to DNA damage stimulus	0.00204304468796307
+GO:1903749~positive regulation of establishment of protein localization to mitochondrion	0.00205595745528885
+GO:0006220~pyrimidine nucleotide metabolic process	0.00209488679202335
+GO:0009141~nucleoside triphosphate metabolic process	0.00210324941513517
+GO:0009142~nucleoside triphosphate biosynthetic process	0.00213029472117665
+GO:0031960~response to corticosteroid	0.00215758847452226
+GO:0022607~cellular component assembly	0.00220722066144029
+GO:0051128~regulation of cellular component organization	0.00222878280230448
+GO:0007093~mitotic cell cycle checkpoint	0.00223593027415488
+GO:0090068~positive regulation of cell cycle process	0.00227424503304188
+GO:0042455~ribonucleoside biosynthetic process	0.00233852478445578
+GO:0072527~pyrimidine-containing compound metabolic process	0.00237445341381065
+GO:0001731~formation of translation preinitiation complex	0.00242240985728817
+GO:0006282~regulation of DNA repair	0.00250387941099739
+GO:0009891~positive regulation of biosynthetic process	0.00250505417131299
+GO:0032355~response to estradiol	0.00254252299906921
+GO:0042493~response to drug	0.00255465500503619
+GO:0075522~IRES-dependent viral translational initiation	0.00257640831874508
+GO:0032069~regulation of nuclease activity	0.00272999691561988
+GO:0009147~pyrimidine nucleoside triphosphate metabolic process	0.00272999691561988
+GO:0045786~negative regulation of cell cycle	0.00273686795678205
+GO:0061077~chaperone-mediated protein folding	0.0028142707820242
+GO:0006213~pyrimidine nucleoside metabolic process	0.0028142707820242
+GO:0006338~chromatin remodeling	0.00286398176537747
+GO:0045931~positive regulation of mitotic cell cycle	0.00287322870230994
+GO:0071702~organic substance transport	0.00295289235339641
+GO:0042542~response to hydrogen peroxide	0.00299031116751437
+GO:0000165~MAPK cascade	0.00322733222757682
+GO:0009156~ribonucleoside monophosphate biosynthetic process	0.00322897741255755
+GO:0048513~animal organ development	0.00328660056804687
+GO:0045934~negative regulation of nucleobase-containing compound metabolic process	0.00328882055739057
+GO:0098789~pre-mRNA cleavage required for polyadenylation	0.00340968330214875
+GO:0010822~positive regulation of mitochondrion organization	0.00346570545661086
+GO:1903747~regulation of establishment of protein localization to mitochondrion	0.00349461612576656
+GO:0071705~nitrogen compound transport	0.00364449618105021
+GO:0010243~response to organonitrogen compound	0.00372756072481302
+GO:0072657~protein localization to membrane	0.00383039077727014
+GO:0048545~response to steroid hormone	0.00415096600763268
+GO:0097421~liver regeneration	0.00419576768486607
+GO:0051973~positive regulation of telomerase activity	0.00419576768486607
+GO:0071353~cellular response to interleukin-4	0.00419576768486607
+GO:0006366~transcription from RNA polymerase II promoter	0.00423459760026324
+GO:0019221~cytokine-mediated signaling pathway	0.0042704909496349
+GO:0060429~epithelium development	0.00432999146011466
+GO:0032070~regulation of deoxyribonuclease activity	0.00435133055991439
+GO:0000075~cell cycle checkpoint	0.00461896847034818
+GO:0010821~regulation of mitochondrion organization	0.00461896847034818
+GO:0006415~translational termination	0.00468673385444978
+GO:0042255~ribosome assembly	0.00472661677569623
+GO:0010628~positive regulation of gene expression	0.00481816544741029
+GO:0023014~signal transduction by protein phosphorylation	0.00505960895557341
+GO:0043412~macromolecule modification	0.00510070210382297
+GO:0006399~tRNA metabolic process	0.00515664783239967
+GO:0033554~cellular response to stress	0.00521649766660444
+GO:0033750~ribosome localization	0.00539881705029078
+GO:0033753~establishment of ribosome localization	0.00539881705029078
+GO:0000054~ribosomal subunit export from nucleus	0.00539881705029078
+GO:0019081~viral translation	0.00539881705029078
+GO:0070670~response to interleukin-4	0.00555586725534034
+GO:0042451~purine nucleoside biosynthetic process	0.00556816446730713
+GO:0046129~purine ribonucleoside biosynthetic process	0.00556816446730713
+GO:0008104~protein localization	0.00571876238848285
+GO:0046134~pyrimidine nucleoside biosynthetic process	0.00606118641532375
+GO:0006810~transport	0.00606368545917662
+GO:1901989~positive regulation of cell cycle phase transition	0.00628242829908127
+GO:0032880~regulation of protein localization	0.00634667803141972
+GO:0009161~ribonucleoside monophosphate metabolic process	0.00685661658170968
+GO:0042273~ribosomal large subunit biogenesis	0.0069895181190268
+GO:0009201~ribonucleoside triphosphate biosynthetic process	0.00736198541993267
+GO:0071822~protein complex subunit organization	0.00756221269886875
+GO:1901701~cellular response to oxygen-containing compound	0.00759256682991593
+GO:0050776~regulation of immune response	0.00759256682991593
+GO:0051234~establishment of localization	0.00768642048122116
+GO:0014074~response to purine-containing compound	0.00770567826526069
+GO:0071548~response to dexamethasone	0.00773807314377668
+GO:0098787~mRNA cleavage involved in mRNA processing	0.00780138954483634
+GO:0002192~IRES-dependent translational initiation	0.00780138954483634
+GO:0032211~negative regulation of telomere maintenance via telomerase	0.00780138954483634
+GO:0071428~rRNA-containing ribonucleoprotein complex export from nucleus	0.00780138954483634
+GO:1902806~regulation of cell cycle G1/S phase transition	0.00794351393733004
+GO:2001251~negative regulation of chromosome organization	0.00796793300079106
+GO:1901991~negative regulation of mitotic cell cycle phase transition	0.0081981172229413
+GO:0042981~regulation of apoptotic process	0.00831231715307661
+GO:0035690~cellular response to drug	0.00855723468130506
+GO:0009117~nucleotide metabolic process	0.00894335181736708
+GO:0000288~nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	0.00898217809160247
+GO:2001022~positive regulation of response to DNA damage stimulus	0.00898217809160247
+GO:0000381~regulation of alternative mRNA splicing, via spliceosome	0.00899322592329429
+GO:0019048~modulation by virus of host morphology or physiology	0.00899322592329429
+GO:1900363~regulation of mRNA polyadenylation	0.00915162153921598
+GO:0009263~deoxyribonucleotide biosynthetic process	0.00915162153921598
+GO:2001020~regulation of response to DNA damage stimulus	0.00922996807495721
+GO:0010942~positive regulation of cell death	0.00927335949896779
+GO:0043067~regulation of programmed cell death	0.00931442507856444
+GO:0006468~protein phosphorylation	0.00975871002090815
+GO:0012501~programmed cell death	0.00975871002090815
+GO:1902579~multi-organism localization	0.00987285598579197
+GO:0044766~multi-organism transport	0.00987285598579197
+GO:0006753~nucleoside phosphate metabolic process	0.00990763445734954
+GO:0006310~DNA recombination	0.0100654322048165
+GO:0071824~protein-DNA complex subunit organization	0.0100654322048165
+GO:0009112~nucleobase metabolic process	0.0103606809866418
+GO:0015031~protein transport	0.0103617783399417
+GO:0008283~cell proliferation	0.0104392842063248
+GO:0032846~positive regulation of homeostatic process	0.0105471613458959
+GO:0071732~cellular response to nitric oxide	0.0105979834955843
+GO:0009130~pyrimidine nucleoside monophosphate biosynthetic process	0.0105979834955843
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	0.0108189825572578
+GO:0009127~purine nucleoside monophosphate biosynthetic process	0.0108189825572578
+GO:0000060~protein import into nucleus, translocation	0.0110870964681355
+GO:0010941~regulation of cell death	0.0114574876618505
+GO:0097305~response to alcohol	0.0116704939526283
+GO:1901988~negative regulation of cell cycle phase transition	0.0116704939526283
+GO:0070201~regulation of establishment of protein localization	0.0118691673642251
+GO:0002190~cap-independent translational initiation	0.0121381506930518
+GO:0009129~pyrimidine nucleoside monophosphate metabolic process	0.0121381506930518
+GO:1900180~regulation of protein localization to nucleus	0.0122334784338871
+GO:0008219~cell death	0.0123360746836526
+GO:0045930~negative regulation of mitotic cell cycle	0.0124106269173468
+GO:0009119~ribonucleoside metabolic process	0.0124482538503743
+GO:0045739~positive regulation of DNA repair	0.0126262862027233
+GO:0009199~ribonucleoside triphosphate metabolic process	0.0126632964924591
+GO:0051253~negative regulation of RNA metabolic process	0.0130727344313811
+GO:0051972~regulation of telomerase activity	0.0134393990263402
+GO:0014075~response to amine	0.0134393990263402
+GO:0006839~mitochondrial transport	0.0137153915543615
+GO:1904357~negative regulation of telomere maintenance via telomere lengthening	0.0137698382260771
+GO:0060341~regulation of cellular localization	0.0138324886080134
+GO:0006351~transcription, DNA-templated	0.0138892752366374
+GO:0006979~response to oxidative stress	0.0143549493759188
+GO:0071495~cellular response to endogenous stimulus	0.0149666204406804
+GO:0034599~cellular response to oxidative stress	0.015233456159592
+GO:0000280~nuclear division	0.015474979461403
+GO:1902170~cellular response to reactive nitrogen species	0.0154908004132359
+GO:0002183~cytoplasmic translational initiation	0.0154908004132359
+GO:0071731~response to nitric oxide	0.0154908004132359
+GO:1901070~guanosine-containing compound biosynthetic process	0.0154908004132359
+GO:0051084~'de novo' posttranslational protein folding	0.0154908004132359
+GO:0007338~single fertilization	0.0156899935634898
+GO:0022603~regulation of anatomical structure morphogenesis	0.0157414552302489
+GO:0009167~purine ribonucleoside monophosphate metabolic process	0.0160221578430552
+GO:0044003~modification by symbiont of host morphology or physiology	0.0160544771963481
+GO:0042220~response to cocaine	0.0160544771963481
+GO:0001889~liver development	0.0161723927215522
+GO:0045471~response to ethanol	0.0161723927215522
+GO:0009126~purine nucleoside monophosphate metabolic process	0.0164710199065592
+GO:0009725~response to hormone	0.0170707679759256
+GO:0051254~positive regulation of RNA metabolic process	0.017136844759753
+GO:0045292~mRNA cis splicing, via spliceosome	0.0172988302067058
+GO:0065004~protein-DNA complex assembly	0.0176484359244953
+GO:0061008~hepaticobiliary system development	0.0176786237609048
+GO:0006464~cellular protein modification process	0.0181637988037497
+GO:0036211~protein modification process	0.0181637988037497
+GO:0043279~response to alkaloid	0.0182006292928093
+GO:0055086~nucleobase-containing small molecule metabolic process	0.0185466131436875
+GO:0006418~tRNA aminoacylation for protein translation	0.0189353101972448
+GO:0006206~pyrimidine nucleobase metabolic process	0.0191917586149644
+GO:0006414~translational elongation	0.0192749694471835
+GO:0090501~RNA phosphodiester bond hydrolysis	0.0192749694471835
+GO:0046683~response to organophosphorus	0.0192749694471835
+GO:0010948~negative regulation of cell cycle process	0.0196279583872998
+GO:1903313~positive regulation of mRNA metabolic process	0.0199549768882298
+GO:0071383~cellular response to steroid hormone stimulus	0.0200217830218964
+GO:0072655~establishment of protein localization to mitochondrion	0.0202161369973174
+GO:0046128~purine ribonucleoside metabolic process	0.0205305344135492
+GO:0051252~regulation of RNA metabolic process	0.0205523006727747
+GO:0042177~negative regulation of protein catabolic process	0.0212549974040102
+GO:0051817~modification of morphology or physiology of other organism involved in symbiotic interaction	0.0212549974040102
+GO:0001503~ossification	0.0214207088261785
+GO:0042278~purine nucleoside metabolic process	0.0214207088261785
+GO:0097659~nucleic acid-templated transcription	0.0214807550222604
+GO:0051099~positive regulation of binding	0.021546900887299
+GO:0006952~defense response	0.0215814056571095
+GO:0070585~protein localization to mitochondrion	0.0216549817712827
+GO:0022414~reproductive process	0.0217391381438657
+GO:0000003~reproduction	0.0220775552076875
+GO:0043039~tRNA aminoacylation	0.0220836241449637
+GO:0044702~single organism reproductive process	0.0221229725691024
+GO:2000045~regulation of G1/S transition of mitotic cell cycle	0.0221409469322494
+GO:1904586~cellular response to putrescine	0.0225024627385865
+GO:1904585~response to putrescine	0.0225024627385865
+GO:0016569~covalent chromatin modification	0.0228110587119794
+GO:0043038~amino acid activation	0.0231926333354956
+GO:0031440~regulation of mRNA 3'-end processing	0.0232238221596938
+GO:0009148~pyrimidine nucleoside triphosphate biosynthetic process	0.0232238221596938
+GO:0006458~'de novo' protein folding	0.0232238221596938
+GO:0071385~cellular response to glucocorticoid stimulus	0.0243314301337757
+GO:0002684~positive regulation of immune system process	0.0244973250982051
+GO:0043241~protein complex disassembly	0.0247913290164695
+GO:0048285~organelle fission	0.0248076573573687
+GO:0016458~gene silencing	0.0249290879242705
+GO:0048511~rhythmic process	0.0258900050773046
+GO:0061136~regulation of proteasomal protein catabolic process	0.0259246273419621
+GO:0044773~mitotic DNA damage checkpoint	0.0268767461584289
+GO:0045727~positive regulation of translation	0.0268767461584289
+GO:0006955~immune response	0.0273536530581473
+GO:1901992~positive regulation of mitotic cell cycle phase transition	0.0279263067499546
+GO:0071384~cellular response to corticosteroid stimulus	0.0279263067499546
+GO:0043065~positive regulation of apoptotic process	0.0296785486474141
+GO:0032984~macromolecular complex disassembly	0.0297826586662896
+GO:0006297~nucleotide-excision repair, DNA gap filling	0.0298565576939623
+GO:0040029~regulation of gene expression, epigenetic	0.0303068241329419
+GO:0043068~positive regulation of programmed cell death	0.0314285538780328
+GO:0050685~positive regulation of mRNA processing	0.0322153890657953
+GO:0019079~viral genome replication	0.0323403976797403
+GO:0008037~cell recognition	0.0323431711869932
+GO:0009887~organ morphogenesis	0.0324541514910687
+GO:0009205~purine ribonucleoside triphosphate metabolic process	0.0325032735702289
+GO:0032844~regulation of homeostatic process	0.0328148543263047
+GO:0080135~regulation of cellular response to stress	0.0328812849271723
+GO:0009206~purine ribonucleoside triphosphate biosynthetic process	0.0331340688967071
+GO:0006977~DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	0.0331340688967071
+GO:0044774~mitotic DNA integrity checkpoint	0.0333096528566924
+GO:0051701~interaction with host	0.0338905029626836
+GO:0031570~DNA integrity checkpoint	0.0338905029626836
+GO:0071156~regulation of cell cycle arrest	0.0342957506303973
+GO:1902400~intracellular signal transduction involved in G1 DNA damage checkpoint	0.0345095447681488
+GO:1902402~signal transduction involved in mitotic DNA damage checkpoint	0.0345095447681488
+GO:0009145~purine nucleoside triphosphate biosynthetic process	0.0345095447681488
+GO:0072413~signal transduction involved in mitotic cell cycle checkpoint	0.0345095447681488
+GO:0072431~signal transduction involved in mitotic G1 DNA damage checkpoint	0.0345095447681488
+GO:1902403~signal transduction involved in mitotic DNA integrity checkpoint	0.0345095447681488
+GO:0006271~DNA strand elongation involved in DNA replication	0.0346449546633009
+GO:0032205~negative regulation of telomere maintenance	0.0346449546633009
+GO:0006379~mRNA cleavage	0.0346449546633009
+GO:0009144~purine nucleoside triphosphate metabolic process	0.0366017427551557
+GO:0006915~apoptotic process	0.0370353703296936
+GO:0000083~regulation of transcription involved in G1/S transition of mitotic cell cycle	0.0371433700277533
+GO:0072422~signal transduction involved in DNA damage checkpoint	0.0373480360436415
+GO:0072401~signal transduction involved in DNA integrity checkpoint	0.0373480360436415
+GO:0035821~modification of morphology or physiology of other organism	0.0384089956627058
+GO:0072395~signal transduction involved in cell cycle checkpoint	0.038810812656606
+GO:0075733~intracellular transport of virus	0.0403024358367594
+GO:0009566~fertilization	0.0408758081299439
+GO:0034644~cellular response to UV	0.0418227643174423
+GO:1902583~multi-organism intracellular transport	0.0418227643174423
+GO:1902581~multi-organism cellular localization	0.0418227643174423
+GO:0018205~peptidyl-lysine modification	0.0421157215361679
+GO:0071549~cellular response to dexamethasone stimulus	0.0423393776898567
+GO:0051053~negative regulation of DNA metabolic process	0.0427930061563391
+GO:0006289~nucleotide-excision repair	0.0439313440992183
+GO:0046078~dUMP metabolic process	0.0445011699559284
+GO:0009177~pyrimidine deoxyribonucleoside monophosphate biosynthetic process	0.0445011699559284
+GO:0046794~transport of virus	0.0449489313063695
+GO:1900740~positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	0.0450333650233163
+GO:0043928~exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay	0.0450333650233163
+GO:1900739~regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	0.0450333650233163
+GO:0034250~positive regulation of cellular amide metabolic process	0.0450866066564056
+GO:0006986~response to unfolded protein	0.0460262233950765
+GO:0007623~circadian rhythm	0.0460262233950765
+GO:0051179~localization	0.0464922968909991
+GO:0032870~cellular response to hormone stimulus	0.0477034414868442
+GO:1902808~positive regulation of cell cycle G1/S phase transition	0.0477889912230909
+GO:0031571~mitotic G1 DNA damage checkpoint	0.0481880242554032
+GO:0044819~mitotic G1/S transition checkpoint	0.0481880242554032
+GO:0044783~G1 DNA damage checkpoint	0.0498494825294003

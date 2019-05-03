@@ -25,15 +25,19 @@ length(sub.web[,1])
 
 library(igraph)
 library(gplots)
+'%ni%' <- Negate('%in%')
+connected.set <- unique(c(subA, subB))
+isolated <- gene.list[which(gene.list %ni% connected.set)]
 
 sub.graph <- graph.data.frame(sub.web, directed = F)
+sub.graph.iso <- sub.graph %>% add_vertices(length(isolated))
 
 pdf("HALLMARK_KRAS_SIGNALING_UP.full.pdf")
-plot(sub.graph, vertex.label=NA, vertex.size=6)
+plot(sub.graph.iso, vertex.label=NA, vertex.size=6)
 dev.off()
 
 #the largest clique of the sub network
-sub.largest.clique <- largest_cliques(sub.graph)
+sub.largest.clique <- largest_cliques(sub.graph.iso)
 
 #total number of largest clques
 length(sub.largest.clique)
@@ -47,6 +51,6 @@ degree
 sub.c1.graph <- graph.full(degree)
 V(sub.c1.graph)$name <- V(sub.graph)$name[sub.clique.1]
 
-pdf("HALLMARK_KRAS_SIGNALING_UP.clique.1.pdf")
+pdf("HALLMARK_KRAS_SIGNALING_UP.clique1.pdf")
 plot(sub.c1.graph)
 dev.off()

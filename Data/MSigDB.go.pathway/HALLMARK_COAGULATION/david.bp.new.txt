@@ -1,0 +1,650 @@
+GO:0006508~proteolysis	5.7648184808668e-49
+GO:0007596~blood coagulation	8.35926531547353e-43
+GO:0007599~hemostasis	6.90992002438936e-42
+GO:0050817~coagulation	6.90992002438936e-42
+GO:0042060~wound healing	2.33808964387778e-41
+GO:0009611~response to wounding	3.7893167151499e-41
+GO:0072376~protein activation cascade	5.21853107767167e-36
+GO:0050878~regulation of body fluid levels	3.27153101474087e-35
+GO:0016485~protein processing	6.77712616782997e-35
+GO:0051604~protein maturation	3.92984196488457e-34
+GO:0002576~platelet degranulation	1.30652609493777e-33
+GO:0042730~fibrinolysis	7.77416974022893e-33
+GO:0030198~extracellular matrix organization	3.88760107993192e-32
+GO:0043062~extracellular structure organization	4.34453223321887e-32
+GO:0030195~negative regulation of blood coagulation	1.17132329181593e-30
+GO:1900047~negative regulation of hemostasis	1.17132329181593e-30
+GO:0050819~negative regulation of coagulation	9.57796844663778e-30
+GO:1900046~regulation of hemostasis	1.28401553042023e-29
+GO:0030193~regulation of blood coagulation	1.28401553042023e-29
+GO:0022617~extracellular matrix disassembly	4.30609369402258e-29
+GO:0050818~regulation of coagulation	5.7681158997072e-29
+GO:1903035~negative regulation of response to wounding	2.31472667229621e-28
+GO:0061041~regulation of wound healing	4.2391794350237e-28
+GO:1903034~regulation of response to wounding	5.19846082582302e-28
+GO:0061045~negative regulation of wound healing	7.95622693580494e-28
+GO:0019538~protein metabolic process	5.76225483891928e-27
+GO:0006950~response to stress	7.62462620115998e-27
+GO:0032101~regulation of response to external stimulus	2.69178718014311e-26
+GO:0072378~blood coagulation, fibrin clot formation	8.70566378423202e-24
+GO:0045055~regulated exocytosis	1.03523304860885e-22
+GO:0048583~regulation of response to stimulus	1.00897080578234e-21
+GO:0080134~regulation of response to stress	1.44990621047795e-21
+GO:0030162~regulation of proteolysis	1.60188581234143e-21
+GO:0070613~regulation of protein processing	2.50134446722731e-21
+GO:1903317~regulation of protein maturation	3.16142809494393e-21
+GO:0044707~single-multicellular organism process	1.39398793278947e-20
+GO:0002526~acute inflammatory response	6.75075928115706e-20
+GO:0006887~exocytosis	8.02643592941754e-20
+GO:0007597~blood coagulation, intrinsic pathway	1.66238896347766e-19
+GO:0048584~positive regulation of response to stimulus	5.22102244763722e-19
+GO:2000257~regulation of protein activation cascade	5.73351193845163e-19
+GO:0016192~vesicle-mediated transport	8.37368439162013e-19
+GO:0032102~negative regulation of response to external stimulus	9.64800868515718e-19
+GO:0009605~response to external stimulus	3.81890566457468e-17
+GO:0002376~immune system process	3.93756007020841e-17
+GO:0031638~zymogen activation	9.02693408221365e-17
+GO:0032501~multicellular organismal process	1.01452630074334e-16
+GO:0051917~regulation of fibrinolysis	1.92733324532844e-16
+GO:0048518~positive regulation of biological process	3.83143772420692e-16
+GO:0051241~negative regulation of multicellular organismal process	4.31247736323643e-16
+GO:0030168~platelet activation	5.97293475749362e-16
+GO:0050896~response to stimulus	1.00590862511975e-15
+GO:0006956~complement activation	1.05580225611262e-15
+GO:0030449~regulation of complement activation	1.32839822923677e-15
+GO:0006952~defense response	1.92808736134729e-15
+GO:0032940~secretion by cell	2.96772398966862e-15
+GO:0065008~regulation of biological quality	7.27152135670923e-15
+GO:0051239~regulation of multicellular organismal process	7.93124056445607e-15
+GO:0031639~plasminogen activation	8.67786537860905e-15
+GO:0051246~regulation of protein metabolic process	1.13683182104529e-14
+GO:0006954~inflammatory response	1.62502831356671e-14
+GO:0002673~regulation of acute inflammatory response	2.0376118016577e-14
+GO:0046903~secretion	2.63249652636362e-14
+GO:0043170~macromolecule metabolic process	3.42583781283495e-14
+GO:0006959~humoral immune response	1.02446847879051e-13
+GO:0030574~collagen catabolic process	1.13666428085413e-13
+GO:0030194~positive regulation of blood coagulation	1.83362927588563e-13
+GO:1900048~positive regulation of hemostasis	1.83362927588563e-13
+GO:0022411~cellular component disassembly	1.85999878999544e-13
+GO:0032963~collagen metabolic process	2.03991895155635e-13
+GO:0050820~positive regulation of coagulation	2.78528778785439e-13
+GO:0002920~regulation of humoral immune response	3.15773196490445e-13
+GO:0044259~multicellular organismal macromolecule metabolic process	3.8214717924747e-13
+GO:0044243~multicellular organism catabolic process	4.1341438005408e-13
+GO:0016477~cell migration	1.37569691303987e-12
+GO:0048870~cell motility	1.85100304452278e-12
+GO:0051674~localization of cell	1.85100304452278e-12
+GO:0044236~multicellular organism metabolic process	2.91234284120152e-12
+GO:0002682~regulation of immune system process	5.43419883632223e-12
+GO:0090303~positive regulation of wound healing	5.83932370642129e-12
+GO:0052547~regulation of peptidase activity	6.00928409280449e-12
+GO:0051336~regulation of hydrolase activity	1.01541205893183e-11
+GO:0006957~complement activation, alternative pathway	1.07360398543689e-11
+GO:0044238~primary metabolic process	1.32305200415409e-11
+GO:0002684~positive regulation of immune system process	1.5568648972096e-11
+GO:1903036~positive regulation of response to wounding	1.94387564666135e-11
+GO:0048585~negative regulation of response to stimulus	2.02958137772817e-11
+GO:0031347~regulation of defense response	2.04288362030159e-11
+GO:0006958~complement activation, classical pathway	2.07345850152864e-11
+GO:0040011~locomotion	2.90989681595481e-11
+GO:0071704~organic substance metabolic process	4.06995131359768e-11
+GO:0032268~regulation of cellular protein metabolic process	4.64281111061302e-11
+GO:0051918~negative regulation of fibrinolysis	4.71994751031072e-11
+GO:0051346~negative regulation of hydrolase activity	6.04581627602229e-11
+GO:0050727~regulation of inflammatory response	6.22480721485461e-11
+GO:0045861~negative regulation of proteolysis	7.27581665325855e-11
+GO:0002455~humoral immune response mediated by circulating immunoglobulin	9.07616515777554e-11
+GO:0052548~regulation of endopeptidase activity	1.27136450484126e-10
+GO:0050900~leukocyte migration	1.52479641046881e-10
+GO:0050778~positive regulation of immune response	1.54963097211646e-10
+GO:0002253~activation of immune response	4.20176159162523e-10
+GO:0050776~regulation of immune response	5.71990823710172e-10
+GO:0010951~negative regulation of endopeptidase activity	6.18542415330079e-10
+GO:0050790~regulation of catalytic activity	6.83639928508506e-10
+GO:0002252~immune effector process	8.43427131477817e-10
+GO:0006928~movement of cell or subcellular component	8.78121158716014e-10
+GO:0008152~metabolic process	9.34342628721066e-10
+GO:0010466~negative regulation of peptidase activity	1.23209390382291e-09
+GO:0045087~innate immune response	2.00518806612213e-09
+GO:0006955~immune response	2.73849832456783e-09
+GO:2000145~regulation of cell motility	3.67313334600715e-09
+GO:0030334~regulation of cell migration	4.69403234669943e-09
+GO:0065009~regulation of molecular function	4.89434728336556e-09
+GO:0002697~regulation of immune effector process	6.93720499986596e-09
+GO:0040012~regulation of locomotion	8.41046007813504e-09
+GO:0048519~negative regulation of biological process	9.47162573210398e-09
+GO:0065007~biological regulation	1.05446973876893e-08
+GO:0001775~cell activation	1.16327997731495e-08
+GO:0016064~immunoglobulin mediated immune response	1.21357889364069e-08
+GO:0017187~peptidyl-glutamic acid carboxylation	1.33474637126346e-08
+GO:0018214~protein carboxylation	1.33474637126346e-08
+GO:0019724~B cell mediated immunity	1.38304638972331e-08
+GO:0051240~positive regulation of multicellular organismal process	1.77610779778433e-08
+GO:0051270~regulation of cellular component movement	1.93432759342056e-08
+GO:0031589~cell-substrate adhesion	2.2426453410215e-08
+GO:0048523~negative regulation of cellular process	2.49586245030511e-08
+GO:0048522~positive regulation of cellular process	2.92696803872174e-08
+GO:0032103~positive regulation of response to external stimulus	2.93138870263821e-08
+GO:0006465~signal peptide processing	3.60793636861328e-08
+GO:0007160~cell-matrix adhesion	4.41921467636367e-08
+GO:0043086~negative regulation of catalytic activity	4.55110895801674e-08
+GO:0051248~negative regulation of protein metabolic process	5.12765943781794e-08
+GO:0002460~adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	6.91222047920216e-08
+GO:0009653~anatomical structure morphogenesis	7.4087556929856e-08
+GO:0032879~regulation of localization	9.84592924611144e-08
+GO:0007167~enzyme linked receptor protein signaling pathway	1.24357146851627e-07
+GO:0002443~leukocyte mediated immunity	1.629968334504e-07
+GO:0032270~positive regulation of cellular protein metabolic process	1.84451528358778e-07
+GO:0002250~adaptive immune response	2.4178183315089e-07
+GO:0044765~single-organism transport	2.5027824693876e-07
+GO:0032269~negative regulation of cellular protein metabolic process	2.60604186541346e-07
+GO:0006897~endocytosis	3.15520982782916e-07
+GO:0002449~lymphocyte mediated immunity	4.67149779775288e-07
+GO:0044092~negative regulation of molecular function	4.97025833377944e-07
+GO:0009966~regulation of signal transduction	6.07368658186426e-07
+GO:0030335~positive regulation of cell migration	6.14219123254482e-07
+GO:0010646~regulation of cell communication	6.42263075441015e-07
+GO:0051247~positive regulation of protein metabolic process	6.89037282977952e-07
+GO:0044267~cellular protein metabolic process	7.23351305796878e-07
+GO:0010755~regulation of plasminogen activation	7.84480817878131e-07
+GO:0008283~cell proliferation	8.97365123764925e-07
+GO:2000147~positive regulation of cell motility	9.51272451872114e-07
+GO:0050793~regulation of developmental process	9.67082914606208e-07
+GO:0014812~muscle cell migration	1.02780772602252e-06
+GO:0023051~regulation of signaling	1.05110022597246e-06
+GO:0001525~angiogenesis	1.07425368523381e-06
+GO:0051128~regulation of cellular component organization	1.13748660764287e-06
+GO:0048646~anatomical structure formation involved in morphogenesis	1.17168180487084e-06
+GO:0009719~response to endogenous stimulus	1.20848868728056e-06
+GO:0033627~cell adhesion mediated by integrin	1.27001910802338e-06
+GO:0051272~positive regulation of cellular component movement	1.32432134359616e-06
+GO:0040017~positive regulation of locomotion	1.40479775715482e-06
+GO:0035987~endodermal cell differentiation	1.45586097930191e-06
+GO:0042981~regulation of apoptotic process	1.47521482952438e-06
+GO:1902578~single-organism localization	1.59321384857872e-06
+GO:0010810~regulation of cell-substrate adhesion	1.71762723079372e-06
+GO:0043067~regulation of programmed cell death	1.77719443717887e-06
+GO:0048514~blood vessel morphogenesis	1.90417265088932e-06
+GO:0051130~positive regulation of cellular component organization	1.9526376311976e-06
+GO:0051919~positive regulation of fibrinolysis	1.97611266504003e-06
+GO:0010631~epithelial cell migration	2.16004733607023e-06
+GO:0010941~regulation of cell death	2.17877546658532e-06
+GO:0090132~epithelium migration	2.45204610299505e-06
+GO:0022603~regulation of anatomical structure morphogenesis	2.68862735016666e-06
+GO:0051179~localization	2.75811500327273e-06
+GO:0019220~regulation of phosphate metabolic process	2.76733187358786e-06
+GO:0051174~regulation of phosphorus metabolic process	2.80342820075509e-06
+GO:0090130~tissue migration	3.14162716656987e-06
+GO:0042221~response to chemical	3.32316322762382e-06
+GO:0001568~blood vessel development	3.39482223687534e-06
+GO:0001932~regulation of protein phosphorylation	3.49165052579122e-06
+GO:0006810~transport	3.53054116750213e-06
+GO:0018200~peptidyl-glutamic acid modification	3.64490954442427e-06
+GO:0060191~regulation of lipase activity	3.74600668727552e-06
+GO:2000026~regulation of multicellular organismal development	3.85712516611103e-06
+GO:0042127~regulation of cell proliferation	3.85964812891185e-06
+GO:0050673~epithelial cell proliferation	4.17650280649259e-06
+GO:0001706~endoderm formation	4.35281343479697e-06
+GO:0001704~formation of primary germ layer	4.66905351900369e-06
+GO:0045862~positive regulation of proteolysis	5.85899414967431e-06
+GO:0014909~smooth muscle cell migration	5.997267846094e-06
+GO:0009628~response to abiotic stimulus	6.3837143124215e-06
+GO:0042304~regulation of fatty acid biosynthetic process	6.93710827612103e-06
+GO:0001944~vasculature development	7.25667878083198e-06
+GO:0080090~regulation of primary metabolic process	8.30571779856585e-06
+GO:0010562~positive regulation of phosphorus metabolic process	8.74392668638387e-06
+GO:0045937~positive regulation of phosphate metabolic process	8.74392668638387e-06
+GO:0051234~establishment of localization	9.0820438518513e-06
+GO:0044767~single-organism developmental process	9.72762737849298e-06
+GO:0007369~gastrulation	9.81509348865735e-06
+GO:0001667~ameboidal-type cell migration	9.86319596135667e-06
+GO:0010033~response to organic substance	9.99856008641792e-06
+GO:0044712~single-organism catabolic process	1.05743783392124e-05
+GO:0044710~single-organism metabolic process	1.15236956022093e-05
+GO:0031325~positive regulation of cellular metabolic process	1.16618702860032e-05
+GO:0042325~regulation of phosphorylation	1.24675168215262e-05
+GO:0010954~positive regulation of protein processing	1.36933426410291e-05
+GO:1903319~positive regulation of protein maturation	1.70109810086942e-05
+GO:0019222~regulation of metabolic process	2.05874653875742e-05
+GO:0010634~positive regulation of epithelial cell migration	2.09237698268429e-05
+GO:0050789~regulation of biological process	2.3852002622952e-05
+GO:0032502~developmental process	2.76382149782563e-05
+GO:0070887~cellular response to chemical stimulus	2.88166860690282e-05
+GO:0009893~positive regulation of metabolic process	3.1128311586148e-05
+GO:0071310~cellular response to organic substance	3.28227128655979e-05
+GO:0007492~endoderm development	3.43925892672403e-05
+GO:0030100~regulation of endocytosis	3.52323366217252e-05
+GO:0001935~endothelial cell proliferation	3.56441568804979e-05
+GO:0009056~catabolic process	3.65465590940203e-05
+GO:0001867~complement activation, lectin pathway	4.02994730286175e-05
+GO:0008284~positive regulation of cell proliferation	4.41535424015148e-05
+GO:0070848~response to growth factor	4.58745693314579e-05
+GO:0051094~positive regulation of developmental process	4.91212736154892e-05
+GO:0070527~platelet aggregation	5.25340172613343e-05
+GO:0030155~regulation of cell adhesion	5.42379077788672e-05
+GO:0032369~negative regulation of lipid transport	5.90062830931292e-05
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	5.94432341100955e-05
+GO:0071495~cellular response to endogenous stimulus	5.99806011211394e-05
+GO:0016043~cellular component organization	6.05878281395735e-05
+GO:0010632~regulation of epithelial cell migration	6.33875991094685e-05
+GO:0051049~regulation of transport	6.50320329271473e-05
+GO:0045834~positive regulation of lipid metabolic process	6.7573650046488e-05
+GO:0007044~cell-substrate junction assembly	6.86342888987104e-05
+GO:1902531~regulation of intracellular signal transduction	7.05049087765231e-05
+GO:0046890~regulation of lipid biosynthetic process	7.46616771205874e-05
+GO:0007275~multicellular organism development	7.49912929686514e-05
+GO:0006909~phagocytosis	7.66896406767873e-05
+GO:0006898~receptor-mediated endocytosis	7.82992432968017e-05
+GO:0007166~cell surface receptor signaling pathway	7.98554165293393e-05
+GO:0051093~negative regulation of developmental process	8.25508970258294e-05
+GO:0033619~membrane protein proteolysis	8.27432566150547e-05
+GO:1901700~response to oxygen-containing compound	8.39499502005094e-05
+GO:0006888~ER to Golgi vesicle-mediated transport	8.76874930388237e-05
+GO:0043066~negative regulation of apoptotic process	8.85415918768301e-05
+GO:0048856~anatomical structure development	8.92411320116983e-05
+GO:0010543~regulation of platelet activation	9.04474843826677e-05
+GO:0032368~regulation of lipid transport	9.38141496116112e-05
+GO:0010035~response to inorganic substance	9.76865997286217e-05
+GO:0001666~response to hypoxia	9.99103553655464e-05
+GO:0019216~regulation of lipid metabolic process	0.000102824157066685
+GO:0019835~cytolysis	0.000103207390387195
+GO:0043069~negative regulation of programmed cell death	0.000104822465716379
+GO:0071363~cellular response to growth factor stimulus	0.000107335695131344
+GO:0090207~regulation of triglyceride metabolic process	0.000117224858440256
+GO:0009892~negative regulation of metabolic process	0.00012024596768207
+GO:0050920~regulation of chemotaxis	0.000123790769263992
+GO:0051050~positive regulation of transport	0.00012793640412571
+GO:0036293~response to decreased oxygen levels	0.00012883887064268
+GO:0008219~cell death	0.000129792807066677
+GO:0006935~chemotaxis	0.000133676926305163
+GO:0042330~taxis	0.000136225161457073
+GO:0009967~positive regulation of signal transduction	0.000144475385324479
+GO:0050678~regulation of epithelial cell proliferation	0.000147769229771082
+GO:0009895~negative regulation of catabolic process	0.00014953711982621
+GO:0071840~cellular component organization or biogenesis	0.000150295418594085
+GO:0009725~response to hormone	0.000152007353749732
+GO:0034329~cell junction assembly	0.000154090682936381
+GO:1901342~regulation of vasculature development	0.000154973656531266
+GO:0035556~intracellular signal transduction	0.000161658872155134
+GO:1903318~negative regulation of protein maturation	0.000167553764675199
+GO:0043277~apoptotic cell clearance	0.000167553764675199
+GO:0010955~negative regulation of protein processing	0.000167553764675199
+GO:0045723~positive regulation of fatty acid biosynthetic process	0.000169594619157624
+GO:0033700~phospholipid efflux	0.000169594619157624
+GO:0034330~cell junction organization	0.000174981576570451
+GO:1904035~regulation of epithelial cell apoptotic process	0.000181633878820254
+GO:0051004~regulation of lipoprotein lipase activity	0.000210757426927837
+GO:0070482~response to oxygen levels	0.000213702572422146
+GO:0010647~positive regulation of cell communication	0.00021772757685059
+GO:0043085~positive regulation of catalytic activity	0.000226766290519777
+GO:2000377~regulation of reactive oxygen species metabolic process	0.000226972424324478
+GO:0032371~regulation of sterol transport	0.000231877771496993
+GO:0032374~regulation of cholesterol transport	0.000231877771496993
+GO:0023056~positive regulation of signaling	0.000236138224725694
+GO:0043542~endothelial cell migration	0.000236221166027297
+GO:0044093~positive regulation of molecular function	0.000243850605821882
+GO:0001934~positive regulation of protein phosphorylation	0.000252531764025996
+GO:0060627~regulation of vesicle-mediated transport	0.00025545969223884
+GO:0033628~regulation of cell adhesion mediated by integrin	0.00025678926924987
+GO:0033344~cholesterol efflux	0.00025678926924987
+GO:0060192~negative regulation of lipase activity	0.000257882114434988
+GO:0007178~transmembrane receptor protein serine/threonine kinase signaling pathway	0.000261413759644631
+GO:0031399~regulation of protein modification process	0.000262468463329619
+GO:0012501~programmed cell death	0.000272322677074589
+GO:0060548~negative regulation of cell death	0.000277730900393653
+GO:0007179~transforming growth factor beta receptor signaling pathway	0.000287133692154383
+GO:0031324~negative regulation of cellular metabolic process	0.000311305017686324
+GO:0071560~cellular response to transforming growth factor beta stimulus	0.000312062769005522
+GO:0060255~regulation of macromolecule metabolic process	0.00032851414269555
+GO:0044706~multi-multicellular organism process	0.000332270868314683
+GO:0071559~response to transforming growth factor beta	0.000332270868314683
+GO:0010604~positive regulation of macromolecule metabolic process	0.00034163591854783
+GO:0034109~homotypic cell-cell adhesion	0.000352330219412648
+GO:0051345~positive regulation of hydrolase activity	0.000362229668406755
+GO:0006639~acylglycerol metabolic process	0.000366153702492902
+GO:0007155~cell adhesion	0.000366288335893773
+GO:0010916~negative regulation of very-low-density lipoprotein particle clearance	0.000375288860811658
+GO:0010915~regulation of very-low-density lipoprotein particle clearance	0.000375288860811658
+GO:0006638~neutral lipid metabolic process	0.000383102503180065
+GO:0022610~biological adhesion	0.000387355656599473
+GO:0045765~regulation of angiogenesis	0.000411588881892192
+GO:0050921~positive regulation of chemotaxis	0.000418837862325431
+GO:0048261~negative regulation of receptor-mediated endocytosis	0.000438477681092484
+GO:0042327~positive regulation of phosphorylation	0.000439534943494377
+GO:0051129~negative regulation of cellular component organization	0.000466118955951147
+GO:0034446~substrate adhesion-dependent cell spreading	0.000473338440944611
+GO:0048731~system development	0.00048668320476193
+GO:0048259~regulation of receptor-mediated endocytosis	0.000500882065152251
+GO:0072358~cardiovascular system development	0.000517750922160445
+GO:0072359~circulatory system development	0.000517750922160445
+GO:1901343~negative regulation of vasculature development	0.000529614643752981
+GO:0006953~acute-phase response	0.000574714374095246
+GO:0019217~regulation of fatty acid metabolic process	0.000590778192342168
+GO:0051043~regulation of membrane protein ectodomain proteolysis	0.000594849211831791
+GO:0010757~negative regulation of plasminogen activation	0.000622207180752573
+GO:0007598~blood coagulation, extrinsic pathway	0.000622207180752573
+GO:0010901~regulation of very-low-density lipoprotein particle remodeling	0.000622207180752573
+GO:0006468~protein phosphorylation	0.000624931570739931
+GO:1904019~epithelial cell apoptotic process	0.000728837194380922
+GO:0072330~monocarboxylic acid biosynthetic process	0.000735185908196403
+GO:0007565~female pregnancy	0.000758780547165462
+GO:0042157~lipoprotein metabolic process	0.000807422656749253
+GO:0010038~response to metal ion	0.000822892879768832
+GO:0014910~regulation of smooth muscle cell migration	0.000838696397832563
+GO:0034369~plasma lipoprotein particle remodeling	0.000889548991515984
+GO:0034367~macromolecular complex remodeling	0.000889548991515984
+GO:0034368~protein-lipid complex remodeling	0.000889548991515984
+GO:0001952~regulation of cell-matrix adhesion	0.000889702699523294
+GO:0007165~signal transduction	0.000916314732932603
+GO:0034447~very-low-density lipoprotein particle clearance	0.000928428112016429
+GO:1901701~cellular response to oxygen-containing compound	0.000949084001023898
+GO:1902041~regulation of extrinsic apoptotic signaling pathway via death domain receptors	0.000964900446182017
+GO:1904018~positive regulation of vasculature development	0.00100915533086879
+GO:0009968~negative regulation of signal transduction	0.00103721116569845
+GO:0048771~tissue remodeling	0.00104632886764499
+GO:0045785~positive regulation of cell adhesion	0.00104718689228689
+GO:0048193~Golgi vesicle transport	0.00105301702400603
+GO:0008360~regulation of cell shape	0.00108564008639904
+GO:0006633~fatty acid biosynthetic process	0.00108564008639904
+GO:0048041~focal adhesion assembly	0.00110390103212767
+GO:0007045~cell-substrate adherens junction assembly	0.00110390103212767
+GO:0048869~cellular developmental process	0.00110518840842372
+GO:0009612~response to mechanical stimulus	0.00115663514405112
+GO:0001936~regulation of endothelial cell proliferation	0.00123291997930558
+GO:0006915~apoptotic process	0.00127333606366541
+GO:0031323~regulation of cellular metabolic process	0.00129253127721841
+GO:0071830~triglyceride-rich lipoprotein particle clearance	0.00129300359564549
+GO:0034382~chylomicron remnant clearance	0.00129300359564549
+GO:0010985~negative regulation of lipoprotein particle clearance	0.00129300359564549
+GO:0051704~multi-organism process	0.0013531708980348
+GO:0009888~tissue development	0.00137135909909072
+GO:0006641~triglyceride metabolic process	0.00140660767071533
+GO:0010517~regulation of phospholipase activity	0.00151184235654879
+GO:2001237~negative regulation of extrinsic apoptotic signaling pathway	0.00153201000897701
+GO:0002685~regulation of leukocyte migration	0.00157806902530254
+GO:0010811~positive regulation of cell-substrate adhesion	0.0015977078389376
+GO:0045923~positive regulation of fatty acid metabolic process	0.00172313102938422
+GO:0048659~smooth muscle cell proliferation	0.00180724578357444
+GO:0045216~cell-cell junction organization	0.00184194757653672
+GO:0044283~small molecule biosynthetic process	0.00184726374849822
+GO:0050679~positive regulation of epithelial cell proliferation	0.00185200253852755
+GO:2001236~regulation of extrinsic apoptotic signaling pathway	0.00185200253852755
+GO:0030154~cell differentiation	0.0019113270167299
+GO:0034333~adherens junction assembly	0.00201456158174153
+GO:0048598~embryonic morphogenesis	0.0020731629743275
+GO:1900026~positive regulation of substrate adhesion-dependent cell spreading	0.00208077731973061
+GO:0034381~plasma lipoprotein particle clearance	0.00208077731973061
+GO:0045807~positive regulation of endocytosis	0.00211710224268885
+GO:0048660~regulation of smooth muscle cell proliferation	0.00211710224268885
+GO:0034384~high-density lipoprotein particle clearance	0.00219348166234272
+GO:0097191~extrinsic apoptotic signaling pathway	0.00220189840942668
+GO:0050865~regulation of cell activation	0.00226722231318902
+GO:0070328~triglyceride homeostasis	0.00227559780827831
+GO:0055090~acylglycerol homeostasis	0.00227559780827831
+GO:0010605~negative regulation of macromolecule metabolic process	0.00245003634921691
+GO:0071827~plasma lipoprotein particle organization	0.0024813662596417
+GO:0051592~response to calcium ion	0.00255688473282222
+GO:0009894~regulation of catabolic process	0.00256215822640068
+GO:1902533~positive regulation of intracellular signal transduction	0.00257760080662422
+GO:0034332~adherens junction organization	0.0026522260586963
+GO:0010648~negative regulation of cell communication	0.00265585640204507
+GO:0070493~thrombin receptor signaling pathway	0.00272754346050779
+GO:0030301~cholesterol transport	0.00275756303918299
+GO:0023057~negative regulation of signaling	0.00275760654951818
+GO:0048661~positive regulation of smooth muscle cell proliferation	0.00289735863971509
+GO:0071825~protein-lipid complex subunit organization	0.00292655418924292
+GO:0015918~sterol transport	0.00304192810690003
+GO:0016525~negative regulation of angiogenesis	0.00304192810690003
+GO:0007154~cell communication	0.00317806467089399
+GO:0031329~regulation of cellular catabolic process	0.0032764415839795
+GO:0051051~negative regulation of transport	0.00328174794574892
+GO:0034370~triglyceride-rich lipoprotein particle remodeling	0.00331627801306404
+GO:0034372~very-low-density lipoprotein particle remodeling	0.00331627801306404
+GO:0032429~regulation of phospholipase A2 activity	0.00331627801306404
+GO:2000258~negative regulation of protein activation cascade	0.00331627801306404
+GO:0048012~hepatocyte growth factor receptor signaling pathway	0.00331627801306404
+GO:2000181~negative regulation of blood vessel morphogenesis	0.00334570314274852
+GO:0070371~ERK1 and ERK2 cascade	0.00337860083026305
+GO:0046486~glycerolipid metabolic process	0.00339260403845081
+GO:0010942~positive regulation of cell death	0.00341198110207144
+GO:1904036~negative regulation of epithelial cell apoptotic process	0.00341788718786871
+GO:2001233~regulation of apoptotic signaling pathway	0.00345189051659207
+GO:0045766~positive regulation of angiogenesis	0.00351015351071465
+GO:0008625~extrinsic apoptotic signaling pathway via death domain receptors	0.00366951120423054
+GO:0098602~single organism cell adhesion	0.00375961712505067
+GO:0031330~negative regulation of cellular catabolic process	0.00383911962017579
+GO:0009790~embryo development	0.00388082084391579
+GO:0051716~cellular response to stimulus	0.00389212225466902
+GO:0032375~negative regulation of cholesterol transport	0.00395879191149271
+GO:0032372~negative regulation of sterol transport	0.00395879191149271
+GO:0010896~regulation of triglyceride catabolic process	0.00395879191149271
+GO:0044700~single organism signaling	0.00398505013477954
+GO:0060326~cell chemotaxis	0.00403412797133592
+GO:0031401~positive regulation of protein modification process	0.0042804786044982
+GO:0009306~protein secretion	0.00438906402954464
+GO:2000351~regulation of endothelial cell apoptotic process	0.00454464383212537
+GO:0006509~membrane protein ectodomain proteolysis	0.00454464383212537
+GO:0016540~protein autoprocessing	0.00465420233813191
+GO:0030595~leukocyte chemotaxis	0.0046581523179945
+GO:0045806~negative regulation of endocytosis	0.00485729932356795
+GO:0031349~positive regulation of defense response	0.00497595353337054
+GO:0023052~signaling	0.00499685731402046
+GO:0046394~carboxylic acid biosynthetic process	0.00508794536132699
+GO:0050766~positive regulation of phagocytosis	0.00518264162314025
+GO:0045595~regulation of cell differentiation	0.00529329243144285
+GO:0016337~single organismal cell-cell adhesion	0.0052990658197163
+GO:0030163~protein catabolic process	0.00534610841996014
+GO:0010984~regulation of lipoprotein particle clearance	0.00540163695794252
+GO:0022604~regulation of cell morphogenesis	0.00582917377660239
+GO:1900024~regulation of substrate adhesion-dependent cell spreading	0.00587193979113099
+GO:0043065~positive regulation of apoptotic process	0.00613463817036138
+GO:0010876~lipid localization	0.00618112250378759
+GO:0034375~high-density lipoprotein particle remodeling	0.00620023380911955
+GO:1904707~positive regulation of vascular smooth muscle cell proliferation	0.00620023380911955
+GO:0034113~heterotypic cell-cell adhesion	0.00623615788821504
+GO:0048008~platelet-derived growth factor receptor signaling pathway	0.00623615788821504
+GO:0072577~endothelial cell apoptotic process	0.00623615788821504
+GO:0043207~response to external biotic stimulus	0.00645320142225559
+GO:0051707~response to other organism	0.00645320142225559
+GO:0043068~positive regulation of programmed cell death	0.0065340839749928
+GO:0042177~negative regulation of protein catabolic process	0.00654719609976237
+GO:2001234~negative regulation of apoptotic signaling pathway	0.0068031271747746
+GO:0048513~animal organ development	0.00686730093069286
+GO:0016053~organic acid biosynthetic process	0.00697480740683329
+GO:0007566~embryo implantation	0.0070043457227137
+GO:0010544~negative regulation of platelet activation	0.00704914119386601
+GO:0007266~Rho protein signal transduction	0.00705238792583767
+GO:0007568~aging	0.00724288730138447
+GO:0051893~regulation of focal adhesion assembly	0.00740854454385001
+GO:0090109~regulation of cell-substrate junction assembly	0.00740854454385001
+GO:0006911~phagocytosis, engulfment	0.00740854454385001
+GO:0032233~positive regulation of actin filament bundle assembly	0.00740854454385001
+GO:0031348~negative regulation of defense response	0.0078753541901431
+GO:0060284~regulation of cell development	0.0080491361283407
+GO:0033002~muscle cell proliferation	0.00808695913022461
+GO:0010952~positive regulation of peptidase activity	0.00808695913022461
+GO:1903391~regulation of adherens junction organization	0.00825768497367204
+GO:0010812~negative regulation of cell-substrate adhesion	0.00825768497367204
+GO:0007162~negative regulation of cell adhesion	0.00828514240251553
+GO:0002688~regulation of leukocyte chemotaxis	0.00842639813808675
+GO:0002698~negative regulation of immune effector process	0.00842639813808675
+GO:0010565~regulation of cellular ketone metabolic process	0.00874544222560844
+GO:0051701~interaction with host	0.00874544222560844
+GO:0072593~reactive oxygen species metabolic process	0.00882708392695157
+GO:0043691~reverse cholesterol transport	0.00889453146156242
+GO:0044255~cellular lipid metabolic process	0.00894718954057883
+GO:0097529~myeloid leukocyte migration	0.00897294290674686
+GO:0006631~fatty acid metabolic process	0.0091318538209637
+GO:0050994~regulation of lipid catabolic process	0.00916179975584994
+GO:0016310~phosphorylation	0.00922873597954856
+GO:0006629~lipid metabolic process	0.00931271409150961
+GO:0032956~regulation of actin cytoskeleton organization	0.00933870232782695
+GO:0034114~regulation of heterotypic cell-cell adhesion	0.00988936131840695
+GO:0090208~positive regulation of triglyceride metabolic process	0.00988936131840695
+GO:0034377~plasma lipoprotein particle assembly	0.00988936131840695
+GO:0009607~response to biotic stimulus	0.0099452366674938
+GO:0097006~regulation of plasma lipoprotein particle levels	0.0101216000064567
+GO:0007229~integrin-mediated signaling pathway	0.0102932169534892
+GO:0010243~response to organonitrogen compound	0.0104314033718849
+GO:0043900~regulation of multi-organism process	0.0107911274899809
+GO:0010324~membrane invagination	0.011137719877421
+GO:0002687~positive regulation of leukocyte migration	0.0113193829655708
+GO:0008610~lipid biosynthetic process	0.0113714597891108
+GO:0090287~regulation of cellular response to growth factor stimulus	0.0114719311589147
+GO:0009617~response to bacterium	0.011894290735415
+GO:0097066~response to thyroid hormone	0.0120192318932702
+GO:0065005~protein-lipid complex assembly	0.0120192318932702
+GO:0030260~entry into host cell	0.0120388183083261
+GO:0044409~entry into host	0.0120388183083261
+GO:0046718~viral entry into host cell	0.0120388183083261
+GO:0051828~entry into other organism involved in symbiotic interaction	0.0120388183083261
+GO:0051806~entry into cell of other organism involved in symbiotic interaction	0.0120388183083261
+GO:1901698~response to nitrogen compound	0.0121781775907381
+GO:0048468~cell development	0.0122960100151136
+GO:0022407~regulation of cell-cell adhesion	0.0123072947737734
+GO:0042063~gliogenesis	0.0126243441045187
+GO:0006869~lipid transport	0.0126480049722095
+GO:0046889~positive regulation of lipid biosynthetic process	0.0127687044775372
+GO:0010467~gene expression	0.0128841688628032
+GO:1904705~regulation of vascular smooth muscle cell proliferation	0.0131526783387183
+GO:1990874~vascular smooth muscle cell proliferation	0.0131526783387183
+GO:0015914~phospholipid transport	0.0133410872966687
+GO:0050708~regulation of protein secretion	0.0134017949667544
+GO:0014070~response to organic cyclic compound	0.0134327581020007
+GO:0002237~response to molecule of bacterial origin	0.0134854272271792
+GO:0010594~regulation of endothelial cell migration	0.0135642437795845
+GO:0060193~positive regulation of lipase activity	0.0139279182496446
+GO:0044699~single-organism process	0.0142570873778085
+GO:0050729~positive regulation of inflammatory response	0.014370980201041
+GO:0050680~negative regulation of epithelial cell proliferation	0.0147855098669532
+GO:0070372~regulation of ERK1 and ERK2 cascade	0.0148999383670096
+GO:0001868~regulation of complement activation, lectin pathway	0.0158967721577005
+GO:0002542~Factor XII activation	0.0158967721577005
+GO:0001869~negative regulation of complement activation, lectin pathway	0.0158967721577005
+GO:0050794~regulation of cellular process	0.0159796753540762
+GO:0050764~regulation of phagocytosis	0.0164205882799874
+GO:0040007~growth	0.0167983464144606
+GO:0010595~positive regulation of endothelial cell migration	0.0170802739840126
+GO:0055092~sterol homeostasis	0.0170802739840126
+GO:0042632~cholesterol homeostasis	0.0170802739840126
+GO:0051495~positive regulation of cytoskeleton organization	0.0171110590399653
+GO:0055088~lipid homeostasis	0.0174315461693393
+GO:0032989~cellular component morphogenesis	0.0176481118611797
+GO:0043534~blood vessel endothelial cell migration	0.0177546262240451
+GO:0001938~positive regulation of endothelial cell proliferation	0.0177546262240451
+GO:0008154~actin polymerization or depolymerization	0.0178324780231308
+GO:0007015~actin filament organization	0.0180141047484676
+GO:0032970~regulation of actin filament-based process	0.0180141047484676
+GO:0035025~positive regulation of Rho protein signal transduction	0.0181250495181533
+GO:0050974~detection of mechanical stimulus involved in sensory perception	0.0181250495181533
+GO:0097190~apoptotic signaling pathway	0.0184459282095183
+GO:0030029~actin filament-based process	0.0187654549570635
+GO:0090288~negative regulation of cellular response to growth factor stimulus	0.0188584098993692
+GO:0006720~isoprenoid metabolic process	0.0193496527375641
+GO:0002675~positive regulation of acute inflammatory response	0.0194739915590724
+GO:0000902~cell morphogenesis	0.0198582163861807
+GO:1901888~regulation of cell junction assembly	0.0198658956868246
+GO:0043408~regulation of MAPK cascade	0.0198955683623801
+GO:0051493~regulation of cytoskeleton organization	0.019968847689672
+GO:0033993~response to lipid	0.0199961143711494
+GO:0015850~organic hydroxy compound transport	0.0201168075434441
+GO:0001889~liver development	0.020324507823602
+GO:0042592~homeostatic process	0.020605981456558
+GO:0010922~positive regulation of phosphatase activity	0.0208637865309906
+GO:2000352~negative regulation of endothelial cell apoptotic process	0.0208637865309906
+GO:0061008~hepaticobiliary system development	0.0219439086001553
+GO:0031331~positive regulation of cellular catabolic process	0.0219805145194574
+GO:0010638~positive regulation of organelle organization	0.0220140637190614
+GO:0043281~regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0221608844287151
+GO:0002831~regulation of response to biotic stimulus	0.0235654719886919
+GO:0010903~negative regulation of very-low-density lipoprotein particle remodeling	0.0237508419929088
+GO:0002353~plasma kallikrein-kinin cascade	0.0237508419929088
+GO:2000097~regulation of smooth muscle cell-matrix adhesion	0.0237508419929088
+GO:0002254~kinin cascade	0.0237508419929088
+GO:0043549~regulation of kinase activity	0.0237816672513382
+GO:0022414~reproductive process	0.0249629222304077
+GO:1903053~regulation of extracellular matrix organization	0.0252710570642542
+GO:0001953~negative regulation of cell-matrix adhesion	0.0252710570642542
+GO:0043171~peptide catabolic process	0.0252710570642542
+GO:0000003~reproduction	0.0252845748009955
+GO:1901575~organic substance catabolic process	0.0255896347637175
+GO:0032231~regulation of actin filament bundle assembly	0.0261446356567576
+GO:0090092~regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	0.0276048430979469
+GO:0051384~response to glucocorticoid	0.0276748011606035
+GO:0002690~positive regulation of leukocyte chemotaxis	0.0278617023119124
+GO:0019433~triglyceride catabolic process	0.0284003968683652
+GO:0045833~negative regulation of lipid metabolic process	0.0287422785883593
+GO:0015748~organophosphate ester transport	0.0287422785883593
+GO:1903530~regulation of secretion by cell	0.0295011138092548
+GO:1902042~negative regulation of extrinsic apoptotic signaling pathway via death domain receptors	0.0300203362821219
+GO:0090218~positive regulation of lipid kinase activity	0.0300203362821219
+GO:0043255~regulation of carbohydrate biosynthetic process	0.03054741269341
+GO:0006518~peptide metabolic process	0.0305602911556168
+GO:0046425~regulation of JAK-STAT cascade	0.0315238992565749
+GO:1904892~regulation of STAT cascade	0.0315238992565749
+GO:2001027~negative regulation of endothelial cell chemotaxis	0.0315426930357171
+GO:0044248~cellular catabolic process	0.0316850833140539
+GO:0045596~negative regulation of cell differentiation	0.0323582985073489
+GO:0032147~activation of protein kinase activity	0.0323895607381046
+GO:0048013~ephrin receptor signaling pathway	0.0324110189173461
+GO:2000379~positive regulation of reactive oxygen species metabolic process	0.0324110189173461
+GO:0030036~actin cytoskeleton organization	0.0331959372313553
+GO:0001818~negative regulation of cytokine production	0.0332847322244284
+GO:0010470~regulation of gastrulation	0.0333673748076423
+GO:2000116~regulation of cysteine-type endopeptidase activity	0.0338345612157724
+GO:0032496~response to lipopolysaccharide	0.0342332408807459
+GO:0001523~retinoid metabolic process	0.0343328577996422
+GO:1901699~cellular response to nitrogen compound	0.034855182571961
+GO:2000146~negative regulation of cell motility	0.0355179248253197
+GO:0008285~negative regulation of cell proliferation	0.0357214565794724
+GO:0002683~negative regulation of immune system process	0.0361014330493099
+GO:0044703~multi-organism reproductive process	0.0363665465099491
+GO:0030855~epithelial cell differentiation	0.0365710470665404
+GO:0000165~MAPK cascade	0.0366348250388423
+GO:0042180~cellular ketone metabolic process	0.0366685149299882
+GO:0043901~negative regulation of multi-organism process	0.0371180777789442
+GO:0071417~cellular response to organonitrogen compound	0.0374710008928027
+GO:0031960~response to corticosteroid	0.0378550293533503
+GO:0044711~single-organism biosynthetic process	0.0380228655248272
+GO:0000904~cell morphogenesis involved in differentiation	0.0386057056936312
+GO:0046461~neutral lipid catabolic process	0.0386459416649863
+GO:0046464~acylglycerol catabolic process	0.0386459416649863
+GO:0006979~response to oxidative stress	0.038708353819774
+GO:0051005~negative regulation of lipoprotein lipase activity	0.0392728145002078
+GO:0010815~bradykinin catabolic process	0.0392728145002078
+GO:0033591~response to L-ascorbic acid	0.0392728145002078
+GO:0032489~regulation of Cdc42 protein signal transduction	0.0392728145002078
+GO:0043652~engulfment of apoptotic cell	0.0392728145002078
+GO:0010756~positive regulation of plasminogen activation	0.0392728145002078
+GO:0010720~positive regulation of cell development	0.0398580846540256
+GO:0048878~chemical homeostasis	0.0404527024105796
+GO:0016101~diterpenoid metabolic process	0.0415135253552964
+GO:0006796~phosphate-containing compound metabolic process	0.0420518400184332
+GO:0010770~positive regulation of cell morphogenesis involved in differentiation	0.0424530748964195
+GO:1901617~organic hydroxy compound biosynthetic process	0.0424530748964195
+GO:0001501~skeletal system development	0.0427695575419245
+GO:0006793~phosphorus metabolic process	0.0430630492039408
+GO:0050867~positive regulation of cell activation	0.0433660193249206
+GO:0032880~regulation of protein localization	0.0437234818365827
+GO:0043434~response to peptide hormone	0.0438035060138806
+GO:1903727~positive regulation of phospholipid metabolic process	0.0442187308300792
+GO:0051496~positive regulation of stress fiber assembly	0.0442187308300792
+GO:0098542~defense response to other organism	0.0444952176930445
+GO:0031099~regeneration	0.0456864311654989
+GO:0014065~phosphatidylinositol 3-kinase signaling	0.0459296279381288
+GO:0050982~detection of mechanical stimulus	0.0461388006580488
+GO:2000378~negative regulation of reactive oxygen species metabolic process	0.0461388006580488
+GO:1901615~organic hydroxy compound metabolic process	0.0462566922935907
+GO:0051046~regulation of secretion	0.046880688870803
+GO:1905049~negative regulation of metallopeptidase activity	0.0469416917773307
+GO:0036072~direct ossification	0.0469416917773307
+GO:0051045~negative regulation of membrane protein ectodomain proteolysis	0.0469416917773307
+GO:0001957~intramembranous ossification	0.0469416917773307
+GO:0051258~protein polymerization	0.0473753866874825
+GO:0023014~signal transduction by protein phosphorylation	0.047799949062052
+GO:0007584~response to nutrient	0.0481995462956561
+GO:0022409~positive regulation of cell-cell adhesion	0.0487450117993126
+GO:0046165~alcohol biosynthetic process	0.0493883815402297
+GO:0033674~positive regulation of kinase activity	0.0494765727414101
+GO:0006109~regulation of carbohydrate metabolic process	0.0499168302025266

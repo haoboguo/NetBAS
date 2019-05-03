@@ -1,0 +1,60 @@
+---
+title: "Hallmark Gene Sets Summary"
+author: "HBG"
+date: "1/25/2019"
+output: pdf_document
+---
+
+#This script summarize the sub-network and enrichment results of 50 hallmark sets from MSigDB
+
+```{r}
+rm(list=ls())
+library(igraph)
+library(gplots)
+library(pracma)
+'%ni%' <- Negate('%in%')
+
+#list of 50 hallmark sets
+list.file <- read.csv("list", header=F, stringsAsFactors=F)
+hmk.set.list <- list.file$V1
+
+#human PIN
+human.pin <- read.csv("../human.pin.csv", header=T, stringsAsFactors = F)
+geneA <- human.pin$geneA
+geneB <- human.pin$geneB
+
+#All genes appear in PIN
+all.list <- unique(c(geneA, geneB))
+
+hmk.summary <- c("Set", "J.BP", "J.CC", "J.MF")
+
+for (i in 1:length(hmk.set.list)) {
+  ##the gene list and sub-network
+  bp.name <- paste(hmk.set.list[i], "/", "david.bp.id.txt", sep="")
+  cc.name <- paste(hmk.set.list[i], "/", "david.cc.id.txt", sep="")
+  mf.name <- paste(hmk.set.list[i], "/", "david.mf.id.txt", sep="")
+  bp.name.net  <- paste(hmk.set.list[i], "/", "HMK.bp.new.txt", sep="")
+  cc.name.net  <- paste(hmk.set.list[i], "/", "HMK.cc.new.txt", sep="")
+  mf.name.net  <- paste(hmk.set.list[i], "/", "HMK.mf.new.txt", sep="")
+  
+  david.bp <- read.csv(bp.name, header=F)
+  david.bp.id <- david.bp$V1
+  net.bp <- read.csv(bp.name.net, sep="\t", header=T)
+  net.bp.id <- net.bp$GO.ID[which(net.bp$zscore > 3.0)]
+  david.cc <- read.csv(cc.name, header=F)
+  david.cc.id <- david.cc$V1
+  net.cc <- read.csv(cc.name.net, sep="\t", header=T)
+  net.cc.id <- net.cc$GO.ID[which(net.cc$zscore > 3.0)]
+  david.mf <- read.csv(mf.name, header=F)
+  david.mf.id <- david.mf$V1
+  net.mf <- read.csv(mf.name.net, sep="\t", header=T)
+  net.mf.id <- net.mf$GO.ID[which(net.mf$zscore > 3.0)]
+  
+  bpj <- round(length(which(net.bp.id %in% david.bp.id))/length(unique(sort(c(net.bp.id, david.bp.id)))),2)
+  ccj <- round(length(which(net.cc.id %in% david.cc.id))/length(unique(sort(c(net.cc.id, david.cc.id)))),2)
+  mfj <- round(length(which(net.mf.id %in% david.mf.id))/length(unique(sort(c(net.mf.id, david.mf.id)))),2)
+
+  hmk.summary <- rbind(hmk.summary, c(hmk.set.list[i], bpj, ccj, mfj)) 
+}
+write.table(hmk.summary, file="Jaccard.index.all3.0.csv", row.names = F, col.names = F, sep=",", quote = T)
+```

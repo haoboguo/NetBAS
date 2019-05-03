@@ -1,0 +1,99 @@
+GO:0003723~RNA binding	3.97813023927413e-66
+GO:0044822~poly(A) RNA binding	2.40713064691683e-58
+GO:0003676~nucleic acid binding	1.01567756521467e-40
+GO:1901363~heterocyclic compound binding	6.25843072821536e-36
+GO:0097159~organic cyclic compound binding	3.67168987367353e-35
+GO:0005515~protein binding	4.18818580341462e-24
+GO:1901265~nucleoside phosphate binding	3.82607730306398e-18
+GO:0000166~nucleotide binding	1.4999868059171e-17
+GO:0036094~small molecule binding	1.18786562355259e-15
+GO:0003729~mRNA binding	1.02584672375588e-14
+GO:0005488~binding	2.91856710059028e-11
+GO:0043021~ribonucleoprotein complex binding	2.96591027347629e-11
+GO:0070990~snRNP binding	1.53441781359768e-10
+GO:0051082~unfolded protein binding	3.14959850896245e-10
+GO:0008135~translation factor activity, RNA binding	4.94976911412046e-10
+GO:0003743~translation initiation factor activity	1.4108255082711e-09
+GO:0017069~snRNA binding	4.03241321943511e-09
+GO:0003697~single-stranded DNA binding	2.0092990104739e-08
+GO:0004386~helicase activity	2.96182918855933e-08
+GO:0005524~ATP binding	6.37238816641343e-08
+GO:0004298~threonine-type endopeptidase activity	8.85729342362828e-08
+GO:0070003~threonine-type peptidase activity	8.85729342362828e-08
+GO:0032559~adenyl ribonucleotide binding	1.22236666348927e-07
+GO:0044877~macromolecular complex binding	1.43476946900076e-07
+GO:0030554~adenyl nucleotide binding	1.48440203659946e-07
+GO:0003678~DNA helicase activity	1.98904133573829e-07
+GO:0003735~structural constituent of ribosome	2.2397317537425e-07
+GO:0035639~purine ribonucleoside triphosphate binding	3.58266695341868e-07
+GO:1990446~U1 snRNP binding	5.30041910001767e-07
+GO:0032550~purine ribonucleoside binding	1.06356119724281e-06
+GO:0032549~ribonucleoside binding	1.11139733522239e-06
+GO:0001883~purine nucleoside binding	1.11139733522239e-06
+GO:0001882~nucleoside binding	1.23096499593473e-06
+GO:0032555~purine ribonucleotide binding	1.73870570350876e-06
+GO:0017076~purine nucleotide binding	2.0897084685817e-06
+GO:0032553~ribonucleotide binding	2.17961132572634e-06
+GO:0097367~carbohydrate derivative binding	2.54987438449778e-06
+GO:0019899~enzyme binding	2.79401457697272e-06
+GO:0070035~purine NTP-dependent helicase activity	2.8438331732146e-06
+GO:0008026~ATP-dependent helicase activity	2.8438331732146e-06
+GO:0003688~DNA replication origin binding	4.82385676182279e-06
+GO:0000339~RNA cap binding	1.4249724980394e-05
+GO:0003727~single-stranded RNA binding	2.13116691528333e-05
+GO:0003730~mRNA 3'-UTR binding	2.48709689470562e-05
+GO:0098641~cadherin binding involved in cell-cell adhesion	2.55836046007771e-05
+GO:0098632~protein binding involved in cell-cell adhesion	3.77247650602235e-05
+GO:0098631~protein binding involved in cell adhesion	4.45865396129957e-05
+GO:0045296~cadherin binding	4.61451845190423e-05
+GO:0004003~ATP-dependent DNA helicase activity	6.36185813129675e-05
+GO:0003725~double-stranded RNA binding	8.93997203764987e-05
+GO:0016462~pyrophosphatase activity	0.000152234037145628
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.000157562950123242
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.000163056714687285
+GO:0017111~nucleoside-triphosphatase activity	0.000190091310963009
+GO:0008094~DNA-dependent ATPase activity	0.000302741525730389
+GO:0042623~ATPase activity, coupled	0.000332183747724865
+GO:0042162~telomeric DNA binding	0.00033886043710657
+GO:0043024~ribosomal small subunit binding	0.000369374703415614
+GO:0016887~ATPase activity	0.000460377761891199
+GO:0070034~telomerase RNA binding	0.000705471601164443
+GO:0070717~poly-purine tract binding	0.00138934573828428
+GO:0008134~transcription factor binding	0.00200885599334622
+GO:0050839~cell adhesion molecule binding	0.00221357463760992
+GO:0003677~DNA binding	0.00400453684571585
+GO:0036002~pre-mRNA binding	0.0041344591543566
+GO:0051059~NF-kappaB binding	0.00455619234532663
+GO:0008536~Ran GTPase binding	0.00455619234532663
+GO:0035326~enhancer binding	0.00458437345070931
+GO:0003682~chromatin binding	0.00471533471427799
+GO:0035613~RNA stem-loop binding	0.00534372242259626
+GO:0016787~hydrolase activity	0.00534579250262114
+GO:0003684~damaged DNA binding	0.00552189315340818
+GO:0043566~structure-specific DNA binding	0.00562321513437992
+GO:0042826~histone deacetylase binding	0.00591961682872815
+GO:0031490~chromatin DNA binding	0.00616612828519863
+GO:0000980~RNA polymerase II distal enhancer sequence-specific DNA binding	0.00616831921841579
+GO:0004004~ATP-dependent RNA helicase activity	0.00650960343843312
+GO:0008186~RNA-dependent ATPase activity	0.00686318438662347
+GO:0003724~RNA helicase activity	0.00722924470849341
+GO:0098847~sequence-specific single stranded DNA binding	0.00772237978055812
+GO:0019104~DNA N-glycosylase activity	0.0120166205305668
+GO:0001158~enhancer sequence-specific DNA binding	0.0143307399117627
+GO:0031492~nucleosomal DNA binding	0.0149428156186028
+GO:0000049~tRNA binding	0.0196818483828996
+GO:0003690~double-stranded DNA binding	0.0197699438157911
+GO:0035614~snRNA stem-loop binding	0.0223844932371193
+GO:0016597~amino acid binding	0.0251562455116721
+GO:0008565~protein transporter activity	0.0264296194129929
+GO:0016799~hydrolase activity, hydrolyzing N-glycosyl compounds	0.0273027350293751
+GO:0005198~structural molecule activity	0.0310999603676026
+GO:0042802~identical protein binding	0.03185267931267
+GO:0019843~rRNA binding	0.0326955730244577
+GO:0031491~nucleosome binding	0.0354418854459318
+GO:0043565~sequence-specific DNA binding	0.035512002776931
+GO:0019900~kinase binding	0.037073882196022
+GO:0019901~protein kinase binding	0.0381777130553394
+GO:0030515~snoRNA binding	0.041937904534626
+GO:0031625~ubiquitin protein ligase binding	0.0438520050702762
+GO:0044389~ubiquitin-like protein ligase binding	0.0471562612740437

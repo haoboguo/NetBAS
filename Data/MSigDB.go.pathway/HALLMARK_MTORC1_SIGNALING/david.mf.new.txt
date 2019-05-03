@@ -1,0 +1,102 @@
+GO:0048037~cofactor binding	4.62464386464122e-15
+GO:0003824~catalytic activity	2.56924017487102e-13
+GO:0036094~small molecule binding	3.24955529528992e-13
+GO:0050662~coenzyme binding	2.59815681148515e-12
+GO:0050661~NADP binding	3.84633412173317e-12
+GO:0000166~nucleotide binding	1.03961146059314e-09
+GO:1901265~nucleoside phosphate binding	1.0567087265907e-09
+GO:0016491~oxidoreductase activity	1.32093762231464e-09
+GO:0097367~carbohydrate derivative binding	1.83900713327268e-06
+GO:0032559~adenyl ribonucleotide binding	5.05140815047024e-06
+GO:0001882~nucleoside binding	5.63464761817964e-06
+GO:0030554~adenyl nucleotide binding	5.952552019982e-06
+GO:0097159~organic cyclic compound binding	6.5405568096286e-06
+GO:1901363~heterocyclic compound binding	6.72069444843789e-06
+GO:0005524~ATP binding	7.54685258144299e-06
+GO:0032550~purine ribonucleoside binding	1.1811036578863e-05
+GO:0032549~ribonucleoside binding	1.2280299603709e-05
+GO:0001883~purine nucleoside binding	1.2280299603709e-05
+GO:0048029~monosaccharide binding	1.46540441630998e-05
+GO:0042802~identical protein binding	1.61228417864737e-05
+GO:0032555~purine ribonucleotide binding	1.82470466158127e-05
+GO:0070402~NADPH binding	1.847549756448e-05
+GO:0017076~purine nucleotide binding	2.14676561343e-05
+GO:0032553~ribonucleotide binding	2.22817238076238e-05
+GO:0035639~purine ribonucleoside triphosphate binding	2.45879790199519e-05
+GO:0051287~NAD binding	2.61788713746257e-05
+GO:0051082~unfolded protein binding	3.17121055693926e-05
+GO:0005515~protein binding	6.92486072869449e-05
+GO:0043168~anion binding	8.08201458952307e-05
+GO:0031625~ubiquitin protein ligase binding	9.22404096469952e-05
+GO:0044389~ubiquitin-like protein ligase binding	0.000108914180481271
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	0.000149924714461026
+GO:0051087~chaperone binding	0.000286035272341882
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00033604051870091
+GO:0016879~ligase activity, forming carbon-nitrogen bonds	0.000461409493385473
+GO:0030246~carbohydrate binding	0.000769782556777996
+GO:0044822~poly(A) RNA binding	0.000789379487188133
+GO:0001948~glycoprotein binding	0.00103019666576071
+GO:0016646~oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor	0.00115499377953934
+GO:0019899~enzyme binding	0.00129947942080486
+GO:0036402~proteasome-activating ATPase activity	0.00179691686532803
+GO:0000287~magnesium ion binding	0.0020683238505271
+GO:0009055~electron carrier activity	0.0021604789321294
+GO:0016769~transferase activity, transferring nitrogenous groups	0.00231583876181593
+GO:0016853~isomerase activity	0.00252227777699152
+GO:0016628~oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	0.00261023568372794
+GO:0003723~RNA binding	0.00274808008979878
+GO:0005488~binding	0.00330005001149019
+GO:0016645~oxidoreductase activity, acting on the CH-NH group of donors	0.00362801819422135
+GO:0016462~pyrophosphatase activity	0.00494304406444742
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.00506667989856252
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.00519285137606603
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.00530303050322312
+GO:0015175~neutral amino acid transmembrane transporter activity	0.00531698796897884
+GO:0050839~cell adhesion molecule binding	0.00561022545923702
+GO:0005536~glucose binding	0.00635145664429482
+GO:0098632~protein binding involved in cell-cell adhesion	0.00670978119510656
+GO:0098631~protein binding involved in cell adhesion	0.00747917455488218
+GO:0051787~misfolded protein binding	0.0075662024963922
+GO:0045296~cadherin binding	0.00758749078924376
+GO:0042803~protein homodimerization activity	0.00767375869428364
+GO:0070628~proteasome binding	0.00887676819568666
+GO:0031406~carboxylic acid binding	0.010194692956203
+GO:0016887~ATPase activity	0.0103012749723731
+GO:0016705~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	0.0107794242708087
+GO:0015171~amino acid transmembrane transporter activity	0.0117028945497166
+GO:0017111~nucleoside-triphosphatase activity	0.0136652584379337
+GO:0019900~kinase binding	0.0159937979344939
+GO:0016829~lyase activity	0.0193100692010476
+GO:0016667~oxidoreductase activity, acting on a sulfur group of donors	0.0201529209737335
+GO:0016740~transferase activity	0.0202714279175539
+GO:0015145~monosaccharide transmembrane transporter activity	0.0205484256919604
+GO:0015149~hexose transmembrane transporter activity	0.0205484256919604
+GO:0016830~carbon-carbon lyase activity	0.0211910686144781
+GO:0016860~intramolecular oxidoreductase activity	0.0222580673995366
+GO:0022804~active transmembrane transporter activity	0.0222777388015845
+GO:0031418~L-ascorbic acid binding	0.0225472549722666
+GO:0017025~TBP-class protein binding	0.0225472549722666
+GO:0004298~threonine-type endopeptidase activity	0.0225472549722666
+GO:0070003~threonine-type peptidase activity	0.0225472549722666
+GO:0008483~transaminase activity	0.0246228720180623
+GO:0030170~pyridoxal phosphate binding	0.0256321629918986
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	0.0292654012362543
+GO:0008144~drug binding	0.0298589363088338
+GO:0042623~ATPase activity, coupled	0.030012847096618
+GO:0016215~acyl-CoA desaturase activity	0.0330415761104906
+GO:0004487~methylenetetrahydrofolate dehydrogenase (NAD+) activity	0.0330415761104906
+GO:0004768~stearoyl-CoA 9-desaturase activity	0.0330415761104906
+GO:0046983~protein dimerization activity	0.0341808145793869
+GO:0005200~structural constituent of cytoskeleton	0.0345719883799317
+GO:1901682~sulfur compound transmembrane transporter activity	0.0360860645227143
+GO:0008135~translation factor activity, RNA binding	0.0386363764760876
+GO:0005506~iron ion binding	0.0408344120895628
+GO:0046943~carboxylic acid transmembrane transporter activity	0.0418567799698166
+GO:0004329~formate-tetrahydrofolate ligase activity	0.0438122944230997
+GO:0004488~methylenetetrahydrofolate dehydrogenase (NADP+) activity	0.0438122944230997
+GO:0004477~methenyltetrahydrofolate cyclohydrolase activity	0.0438122944230997
+GO:0033300~dehydroascorbic acid transporter activity	0.0438122944230997
+GO:0005342~organic acid transmembrane transporter activity	0.0452247979247626
+GO:0016787~hydrolase activity	0.0455733783748731
+GO:0015036~disulfide oxidoreductase activity	0.0464496999941068
+GO:0051119~sugar transmembrane transporter activity	0.0491918807963963

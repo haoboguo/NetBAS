@@ -1,0 +1,155 @@
+GO:0006695~cholesterol biosynthetic process	2.41572218349357e-25
+GO:1902653~secondary alcohol biosynthetic process	3.47046199031833e-25
+GO:0016126~sterol biosynthetic process	1.8762661620108e-24
+GO:0006629~lipid metabolic process	2.04134211811474e-23
+GO:0044283~small molecule biosynthetic process	7.78216795073896e-23
+GO:0008610~lipid biosynthetic process	2.1882656049322e-21
+GO:0008203~cholesterol metabolic process	8.52947231565192e-21
+GO:1902652~secondary alcohol metabolic process	1.99913130788209e-20
+GO:0016125~sterol metabolic process	5.80769081863755e-20
+GO:0046165~alcohol biosynthetic process	7.57588310764998e-20
+GO:0006694~steroid biosynthetic process	4.487942395919e-19
+GO:0044711~single-organism biosynthetic process	6.50476847793279e-19
+GO:0006066~alcohol metabolic process	1.58986223559865e-18
+GO:0044281~small molecule metabolic process	9.65616385656129e-18
+GO:0008202~steroid metabolic process	2.572939137779e-17
+GO:1901615~organic hydroxy compound metabolic process	9.4903983528106e-17
+GO:1901617~organic hydroxy compound biosynthetic process	1.0082840110231e-16
+GO:0044710~single-organism metabolic process	8.34554214064943e-16
+GO:0044255~cellular lipid metabolic process	1.09503666458021e-14
+GO:0008299~isoprenoid biosynthetic process	1.08278507989627e-11
+GO:0055114~oxidation-reduction process	1.03277750659569e-09
+GO:0006720~isoprenoid metabolic process	2.20621559778331e-09
+GO:0032787~monocarboxylic acid metabolic process	4.11103418543618e-08
+GO:0006631~fatty acid metabolic process	2.28947969595261e-07
+GO:0009058~biosynthetic process	4.86604749105199e-07
+GO:0009240~isopentenyl diphosphate biosynthetic process	6.31498573251072e-07
+GO:0046490~isopentenyl diphosphate metabolic process	6.31498573251072e-07
+GO:0019752~carboxylic acid metabolic process	8.11120219356805e-07
+GO:0043436~oxoacid metabolic process	8.75118584277176e-07
+GO:1901576~organic substance biosynthetic process	1.03374647685607e-06
+GO:0006790~sulfur compound metabolic process	2.33882513780799e-06
+GO:0006637~acyl-CoA metabolic process	2.45235411492047e-06
+GO:0035383~thioester metabolic process	2.45235411492047e-06
+GO:0006082~organic acid metabolic process	2.60180385617678e-06
+GO:0008654~phospholipid biosynthetic process	2.87566246689179e-06
+GO:0006644~phospholipid metabolic process	3.81395837085166e-06
+GO:0006084~acetyl-CoA metabolic process	5.41173367702404e-06
+GO:0010033~response to organic substance	5.89552040452144e-06
+GO:0072330~monocarboxylic acid biosynthetic process	1.00167478392958e-05
+GO:0046394~carboxylic acid biosynthetic process	1.03901504264878e-05
+GO:0016053~organic acid biosynthetic process	1.5963120750367e-05
+GO:0051186~cofactor metabolic process	2.37984171437144e-05
+GO:0006633~fatty acid biosynthetic process	2.63332060341867e-05
+GO:0010878~cholesterol storage	2.79104582458127e-05
+GO:0006732~coenzyme metabolic process	3.90108845001063e-05
+GO:0042221~response to chemical	4.33241708771104e-05
+GO:0019287~isopentenyl diphosphate biosynthetic process, mevalonate pathway	4.83488750501437e-05
+GO:0055094~response to lipoprotein particle	4.96208657963976e-05
+GO:0044272~sulfur compound biosynthetic process	0.000174728473613106
+GO:1901700~response to oxygen-containing compound	0.000195212838882075
+GO:0071704~organic substance metabolic process	0.000225140494456401
+GO:0008152~metabolic process	0.000283673600236518
+GO:0042180~cellular ketone metabolic process	0.000325730049805817
+GO:0044238~primary metabolic process	0.000353202208736539
+GO:1901701~cellular response to oxygen-containing compound	0.0010186495130253
+GO:0010885~regulation of cholesterol storage	0.00122456399692748
+GO:0055098~response to low-density lipoprotein particle	0.00122456399692748
+GO:0019637~organophosphate metabolic process	0.00149837088198276
+GO:0006950~response to stress	0.00162242248999799
+GO:0019915~lipid storage	0.00184287236981988
+GO:0044249~cellular biosynthetic process	0.00184521251773795
+GO:0090407~organophosphate biosynthetic process	0.0021140458266938
+GO:0071616~acyl-CoA biosynthetic process	0.00231867525645107
+GO:0035384~thioester biosynthetic process	0.00231867525645107
+GO:0030301~cholesterol transport	0.00322639361200099
+GO:0015918~sterol transport	0.00348273862700104
+GO:0010565~regulation of cellular ketone metabolic process	0.0038513322016196
+GO:0010243~response to organonitrogen compound	0.00437760658530848
+GO:0097305~response to alcohol	0.00458938561036906
+GO:0019217~regulation of fatty acid metabolic process	0.00494994515562767
+GO:0071310~cellular response to organic substance	0.005365368806584
+GO:0019216~regulation of lipid metabolic process	0.00610729404007674
+GO:0031668~cellular response to extracellular stimulus	0.00709698553348643
+GO:0033993~response to lipid	0.00760329750276388
+GO:0009628~response to abiotic stimulus	0.00813317773354711
+GO:0009991~response to extracellular stimulus	0.00825891468618904
+GO:1901360~organic cyclic compound metabolic process	0.00858259200777142
+GO:1901652~response to peptide	0.009085339841752
+GO:0006721~terpenoid metabolic process	0.00910350866405766
+GO:0045017~glycerolipid biosynthetic process	0.00924492677345726
+GO:1901698~response to nitrogen compound	0.00974991010087791
+GO:0032374~regulation of cholesterol transport	0.0103404655241009
+GO:0032371~regulation of sterol transport	0.0103404655241009
+GO:0014070~response to organic cyclic compound	0.0105117586691549
+GO:0033559~unsaturated fatty acid metabolic process	0.0113549395599007
+GO:0097306~cellular response to alcohol	0.0114136392798108
+GO:0045338~farnesyl diphosphate metabolic process	0.0121002298170782
+GO:0044282~small molecule catabolic process	0.0123121242377939
+GO:0010876~lipid localization	0.0124564073221436
+GO:0010883~regulation of lipid storage	0.0125336857354214
+GO:0055088~lipid homeostasis	0.0139005073290679
+GO:0034308~primary alcohol metabolic process	0.0142998840824776
+GO:0046890~regulation of lipid biosynthetic process	0.0151277343127967
+GO:1901362~organic cyclic compound biosynthetic process	0.0153107791463524
+GO:0009611~response to wounding	0.0157345403530725
+GO:0033489~cholesterol biosynthetic process via desmosterol	0.0161014916182497
+GO:0033490~cholesterol biosynthetic process via lathosterol	0.0161014916182497
+GO:0070887~cellular response to chemical stimulus	0.0161198827916429
+GO:0071396~cellular response to lipid	0.0169007754459382
+GO:0046486~glycerolipid metabolic process	0.0186349198154565
+GO:2001233~regulation of apoptotic signaling pathway	0.0188255226782632
+GO:0044712~single-organism catabolic process	0.0193943582258735
+GO:0010648~negative regulation of cell communication	0.0200285236800261
+GO:0009108~coenzyme biosynthetic process	0.020262106295829
+GO:0071496~cellular response to external stimulus	0.0203337075920365
+GO:0023057~negative regulation of signaling	0.0204552693910911
+GO:0009719~response to endogenous stimulus	0.0205776798737927
+GO:0042127~regulation of cell proliferation	0.0209559483830893
+GO:0009725~response to hormone	0.0215942528726133
+GO:0044699~single-organism process	0.0219060298257002
+GO:0043112~receptor metabolic process	0.0229477907658197
+GO:0006636~unsaturated fatty acid biosynthetic process	0.0230869045038732
+GO:0033554~cellular response to stress	0.0241976703580082
+GO:0042493~response to drug	0.0253885692028789
+GO:0070813~hydrogen sulfide metabolic process	0.0280097149929886
+GO:0010886~positive regulation of cholesterol storage	0.0280097149929886
+GO:0043065~positive regulation of apoptotic process	0.0280568605822492
+GO:0009056~catabolic process	0.0289608173477228
+GO:0043068~positive regulation of programmed cell death	0.0291108216171344
+GO:0051235~maintenance of location	0.0299618457582113
+GO:0097190~apoptotic signaling pathway	0.030409902760932
+GO:0042632~cholesterol homeostasis	0.0310063949158437
+GO:0055092~sterol homeostasis	0.0310063949158437
+GO:1901654~response to ketone	0.0316388875894314
+GO:0032966~negative regulation of collagen biosynthetic process	0.0319474772445116
+GO:0008544~epidermis development	0.033332251105304
+GO:0046474~glycerophospholipid biosynthetic process	0.0335571905626547
+GO:0044237~cellular metabolic process	0.0348171809607463
+GO:2001235~positive regulation of apoptotic signaling pathway	0.0350350090908819
+GO:0051051~negative regulation of transport	0.0355331515969531
+GO:0009414~response to water deprivation	0.0358695203550948
+GO:0010713~negative regulation of collagen metabolic process	0.0358695203550948
+GO:0009071~serine family amino acid catabolic process	0.0358695203550948
+GO:0010942~positive regulation of cell death	0.0359878005740076
+GO:1901655~cellular response to ketone	0.0370974553084991
+GO:0044242~cellular lipid catabolic process	0.0375721406366261
+GO:0006869~lipid transport	0.0376596246831484
+GO:0048709~oligodendrocyte differentiation	0.0380023743129161
+GO:1901575~organic substance catabolic process	0.038066672631322
+GO:0051188~cofactor biosynthetic process	0.0380906372896281
+GO:0032870~cellular response to hormone stimulus	0.0382399031214067
+GO:0044252~negative regulation of multicellular organismal metabolic process	0.0397759061377455
+GO:0032869~cellular response to insulin stimulus	0.0407381711155362
+GO:0006006~glucose metabolic process	0.0423705173764435
+GO:0071417~cellular response to organonitrogen compound	0.0438489662110804
+GO:0046395~carboxylic acid catabolic process	0.0440355233958436
+GO:0015850~organic hydroxy compound transport	0.0445977516710802
+GO:0098869~cellular oxidant detoxification	0.0465170552515997
+GO:0010889~regulation of sequestering of triglyceride	0.0475419517982796
+GO:0006069~ethanol oxidation	0.0475419517982796
+GO:1990748~cellular detoxification	0.0484962791243085
+GO:1901184~regulation of ERBB signaling pathway	0.0484962791243085
+GO:0009636~response to toxic substance	0.0486337814457124
+GO:0048145~regulation of fibroblast proliferation	0.0494973006171197
+GO:0007596~blood coagulation	0.0498368381570906

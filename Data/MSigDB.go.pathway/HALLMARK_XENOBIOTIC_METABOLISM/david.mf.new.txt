@@ -1,0 +1,109 @@
+GO:0016491~oxidoreductase activity	4.47959955886322e-25
+GO:0003824~catalytic activity	1.57234152043331e-23
+GO:0048037~cofactor binding	5.87378137551754e-15
+GO:0043168~anion binding	1.31786018208375e-14
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	2.35394199109736e-13
+GO:0031406~carboxylic acid binding	4.59270503627226e-12
+GO:0004497~monooxygenase activity	9.27734628194895e-12
+GO:0020037~heme binding	3.95663207031185e-11
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	5.4052900201172e-11
+GO:0046906~tetrapyrrole binding	9.89857286715741e-11
+GO:0016705~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	6.12522276340795e-10
+GO:0050662~coenzyme binding	2.77765487452198e-09
+GO:0005506~iron ion binding	6.11925069411375e-08
+GO:0009055~electron carrier activity	1.00736915920877e-07
+GO:0030170~pyridoxal phosphate binding	2.29167599548365e-07
+GO:0042802~identical protein binding	3.7909706383475e-07
+GO:0016709~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen	4.68650028859499e-07
+GO:0016903~oxidoreductase activity, acting on the aldehyde or oxo group of donors	7.56567073497593e-07
+GO:0008395~steroid hydroxylase activity	1.61574701921016e-06
+GO:0050660~flavin adenine dinucleotide binding	2.92986834540481e-06
+GO:0016597~amino acid binding	2.98132389098314e-06
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	4.77993578761258e-06
+GO:0033293~monocarboxylic acid binding	6.65563237054869e-06
+GO:0043167~ion binding	7.72294197069608e-06
+GO:0016712~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	1.63391961046947e-05
+GO:0019825~oxygen binding	1.97783281708315e-05
+GO:0016830~carbon-carbon lyase activity	2.77857225635186e-05
+GO:0016829~lyase activity	5.68519382333107e-05
+GO:0016725~oxidoreductase activity, acting on CH or CH2 groups	0.000158894571556044
+GO:0042803~protein homodimerization activity	0.000220241299515409
+GO:0070330~aromatase activity	0.000222799568694409
+GO:0046983~protein dimerization activity	0.000253625528839133
+GO:0016645~oxidoreductase activity, acting on the CH-NH group of donors	0.000257658475674513
+GO:0016810~hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	0.000261432734906957
+GO:0046914~transition metal ion binding	0.000274764571536357
+GO:0005504~fatty acid binding	0.000296269560404899
+GO:1901681~sulfur compound binding	0.000315475195961382
+GO:0005496~steroid binding	0.000503325594115797
+GO:0008391~arachidonic acid monooxygenase activity	0.000577968543331897
+GO:0008392~arachidonic acid epoxygenase activity	0.000577968543331897
+GO:0016620~oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor	0.000691013605251126
+GO:0018636~phenanthrene 9,10-monooxygenase activity	0.000744946788277881
+GO:0008289~lipid binding	0.00121688591815971
+GO:0004029~aldehyde dehydrogenase (NAD) activity	0.00160755346978354
+GO:0003997~acyl-CoA oxidase activity	0.00183487324119706
+GO:0005102~receptor binding	0.00191520342725756
+GO:0050661~NADP binding	0.00205524986893557
+GO:0016209~antioxidant activity	0.0021992768227555
+GO:0019842~vitamin binding	0.0021992768227555
+GO:0016628~oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	0.00268964034715892
+GO:0033764~steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00336457506752469
+GO:0004033~aldo-keto reductase (NADP) activity	0.00336457506752469
+GO:0004022~alcohol dehydrogenase (NAD) activity	0.0033746231725646
+GO:0061134~peptidase regulator activity	0.00349568740918965
+GO:0004866~endopeptidase inhibitor activity	0.00358693955792112
+GO:0016879~ligase activity, forming carbon-nitrogen bonds	0.0041075858002304
+GO:0016634~oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor	0.00430675685226383
+GO:0061135~endopeptidase regulator activity	0.00432380412974919
+GO:0004857~enzyme inhibitor activity	0.00468461211699738
+GO:0030414~peptidase inhibitor activity	0.00472905465072285
+GO:0004867~serine-type endopeptidase inhibitor activity	0.00479032810457425
+GO:0016229~steroid dehydrogenase activity	0.00500303495900892
+GO:0016655~oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	0.00521636897501308
+GO:0016765~transferase activity, transferring alkyl or aryl (other than methyl) groups	0.00616831921841579
+GO:0016813~hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines	0.00648306716311152
+GO:0043295~glutathione binding	0.00648306716311152
+GO:0051536~iron-sulfur cluster binding	0.00686318438662347
+GO:0051540~metal cluster binding	0.00686318438662347
+GO:0004364~glutathione transferase activity	0.00704927722123489
+GO:0036094~small molecule binding	0.00722254258386077
+GO:0016651~oxidoreductase activity, acting on NAD(P)H	0.00722453997333536
+GO:1900750~oligopeptide binding	0.00772237978055812
+GO:0046872~metal ion binding	0.0079382812920293
+GO:0016831~carboxy-lyase activity	0.00823253233467398
+GO:0005501~retinoid binding	0.00823253233467398
+GO:0005319~lipid transporter activity	0.00871810075537685
+GO:0019840~isoprenoid binding	0.00952569331976516
+GO:0043169~cation binding	0.0101845081780844
+GO:0046943~carboxylic acid transmembrane transporter activity	0.0104128076279497
+GO:0005342~organic acid transmembrane transporter activity	0.0115311676908004
+GO:0052890~oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor	0.0136324989486919
+GO:0016787~hydrolase activity	0.0144696224795925
+GO:0008106~alcohol dehydrogenase (NADP+) activity	0.0153368889880908
+GO:0003995~acyl-CoA dehydrogenase activity	0.0153368889880908
+GO:0004745~retinol dehydrogenase activity	0.0171276153170206
+GO:0016646~oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor	0.019002539908236
+GO:0051287~NAD binding	0.0217831904811394
+GO:0016726~oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor	0.0223844932371193
+GO:0052872~tocotrienol omega-hydroxylase activity	0.0223844932371193
+GO:0004053~arginase activity	0.0223844932371193
+GO:0004031~aldehyde oxidase activity	0.0223844932371193
+GO:0004854~xanthine dehydrogenase activity	0.0223844932371193
+GO:0016860~intramolecular oxidoreductase activity	0.0228780715532242
+GO:0022804~active transmembrane transporter activity	0.0236751079951267
+GO:0071814~protein-lipid complex binding	0.029567847613367
+GO:0071813~lipoprotein particle binding	0.029567847613367
+GO:0005326~neurotransmitter transporter activity	0.0319050830260834
+GO:0016822~hydrolase activity, acting on acid carbon-carbon bonds	0.0333891111816357
+GO:0016623~oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor	0.0333891111816357
+GO:0016402~pristanoyl-CoA oxidase activity	0.0333891111816357
+GO:0016823~hydrolase activity, acting on acid carbon-carbon bonds, in ketonic substances	0.0333891111816357
+GO:0050220~prostaglandin-E synthase activity	0.0333891111816357
+GO:0047086~ketosteroid monooxygenase activity	0.0333891111816357
+GO:0016853~isomerase activity	0.0389744675389821
+GO:0047115~trans-1,2-dihydrobenzene-1,2-diol dehydrogenase activity	0.044270499314366
+GO:0008401~retinoic acid 4-hydroxylase activity	0.044270499314366
+GO:0047023~androsterone dehydrogenase activity	0.044270499314366
+GO:0072341~modified amino acid binding	0.0443687150960716
+GO:0000062~fatty-acyl-CoA binding	0.0446080268358275

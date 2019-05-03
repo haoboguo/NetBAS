@@ -1,0 +1,811 @@
+GO:0003012~muscle system process	2.7746017717803e-75
+GO:0006936~muscle contraction	2.20204095832188e-71
+GO:0061061~muscle structure development	7.27433870420949e-52
+GO:0007517~muscle organ development	4.40237420303785e-44
+GO:0033275~actin-myosin filament sliding	8.7605461789888e-43
+GO:0030049~muscle filament sliding	8.7605461789888e-43
+GO:0003008~system process	8.28890277690782e-36
+GO:0006941~striated muscle contraction	2.17671905071637e-35
+GO:0070252~actin-mediated cell contraction	2.05905401157505e-33
+GO:0030048~actin filament-based movement	5.1814190559635e-31
+GO:0030029~actin filament-based process	2.07990713101368e-29
+GO:0060537~muscle tissue development	2.76311204979003e-29
+GO:0014706~striated muscle tissue development	5.92815091060856e-29
+GO:0042692~muscle cell differentiation	2.21694936828531e-28
+GO:0003009~skeletal muscle contraction	1.4015497847838e-26
+GO:0051146~striated muscle cell differentiation	5.82752238609276e-26
+GO:0032501~multicellular organismal process	1.46595854660735e-25
+GO:0050879~multicellular organismal movement	2.89950335935859e-24
+GO:0050881~musculoskeletal movement	2.89950335935859e-24
+GO:0090257~regulation of muscle system process	5.88481632060243e-23
+GO:0044057~regulation of system process	6.4829174711812e-23
+GO:0060047~heart contraction	1.11571822563308e-22
+GO:0003015~heart process	1.59840780363714e-22
+GO:0055001~muscle cell development	4.20125765653292e-21
+GO:0008015~blood circulation	6.15890260879672e-21
+GO:0003013~circulatory system process	8.0955436693638e-21
+GO:0006937~regulation of muscle contraction	9.20386276869471e-20
+GO:0055002~striated muscle cell development	2.50534275319385e-18
+GO:0060048~cardiac muscle contraction	4.05319647182013e-18
+GO:0048738~cardiac muscle tissue development	1.10765247583213e-17
+GO:0008016~regulation of heart contraction	1.23146439535241e-17
+GO:0044707~single-multicellular organism process	5.05777253246024e-17
+GO:0006942~regulation of striated muscle contraction	8.60968499364732e-17
+GO:0009888~tissue development	1.6902111991514e-16
+GO:0048513~animal organ development	2.90422815054623e-16
+GO:0030239~myofibril assembly	5.13160939487713e-16
+GO:1903522~regulation of blood circulation	6.16671488161977e-16
+GO:0072358~cardiovascular system development	1.90455273333145e-15
+GO:0072359~circulatory system development	1.90455273333145e-15
+GO:0006928~movement of cell or subcellular component	2.58336368859546e-15
+GO:0031032~actomyosin structure organization	3.95000260035438e-15
+GO:0048856~anatomical structure development	1.13817146325484e-14
+GO:0044767~single-organism developmental process	1.17169768308027e-14
+GO:0030036~actin cytoskeleton organization	2.02419766056992e-14
+GO:0048646~anatomical structure formation involved in morphogenesis	2.05923432584804e-14
+GO:0048731~system development	2.32711276679045e-14
+GO:0032502~developmental process	3.42193840266584e-14
+GO:0007519~skeletal muscle tissue development	5.98331500903207e-14
+GO:0014902~myotube differentiation	6.19948469772043e-14
+GO:0007507~heart development	9.98797007441418e-14
+GO:0060538~skeletal muscle organ development	1.39173453435767e-13
+GO:0051239~regulation of multicellular organismal process	2.74730029142453e-13
+GO:0007275~multicellular organism development	5.11804936892547e-13
+GO:0043500~muscle adaptation	5.14272498549213e-13
+GO:0009653~anatomical structure morphogenesis	5.32754838989648e-13
+GO:0060415~muscle tissue morphogenesis	2.94097764354656e-11
+GO:0048644~muscle organ morphogenesis	8.99937904729639e-11
+GO:0048468~cell development	2.33921024487918e-10
+GO:0014888~striated muscle adaptation	2.94652925545649e-10
+GO:0014819~regulation of skeletal muscle contraction	3.79883709512105e-10
+GO:0045445~myoblast differentiation	5.31970260640964e-10
+GO:0051147~regulation of muscle cell differentiation	6.09192695909538e-10
+GO:0032879~regulation of localization	7.75042884445051e-10
+GO:0030154~cell differentiation	1.02592380276122e-09
+GO:0007010~cytoskeleton organization	1.27762043173264e-09
+GO:0055008~cardiac muscle tissue morphogenesis	1.66409603229768e-09
+GO:0043502~regulation of muscle adaptation	1.66409603229768e-09
+GO:0044763~single-organism cellular process	1.81273479982327e-09
+GO:0016310~phosphorylation	2.66737113307481e-09
+GO:0044699~single-organism process	3.51138644941703e-09
+GO:0048747~muscle fiber development	1.15038165367114e-08
+GO:0055007~cardiac muscle cell differentiation	1.17651142154536e-08
+GO:0048869~cellular developmental process	1.18246066719704e-08
+GO:0006812~cation transport	1.20126541278318e-08
+GO:0035051~cardiocyte differentiation	1.28588695474858e-08
+GO:0065009~regulation of molecular function	1.35710253626338e-08
+GO:0043269~regulation of ion transport	1.590741940215e-08
+GO:0006796~phosphate-containing compound metabolic process	1.62808263563842e-08
+GO:0006793~phosphorus metabolic process	1.7629271914534e-08
+GO:0043462~regulation of ATPase activity	1.85345320116276e-08
+GO:0051049~regulation of transport	2.23769717374734e-08
+GO:0055006~cardiac cell development	2.50890989434493e-08
+GO:0010959~regulation of metal ion transport	2.53278588595807e-08
+GO:0070296~sarcoplasmic reticulum calcium ion transport	2.59177737970878e-08
+GO:0055010~ventricular cardiac muscle tissue morphogenesis	4.7976452780912e-08
+GO:0003007~heart morphogenesis	5.23236744080083e-08
+GO:0045214~sarcomere organization	5.43201069152892e-08
+GO:0051149~positive regulation of muscle cell differentiation	7.50294441460705e-08
+GO:1903779~regulation of cardiac conduction	7.58845722165666e-08
+GO:0043501~skeletal muscle adaptation	8.85424537896874e-08
+GO:0003206~cardiac chamber morphogenesis	9.22138776600714e-08
+GO:0051153~regulation of striated muscle cell differentiation	9.25059539259827e-08
+GO:0098655~cation transmembrane transport	9.27472174369011e-08
+GO:0034765~regulation of ion transmembrane transport	9.8355814176456e-08
+GO:0019722~calcium-mediated signaling	1.03660504243838e-07
+GO:0003229~ventricular cardiac muscle tissue development	1.09431110868988e-07
+GO:0003208~cardiac ventricle morphogenesis	1.10708588436612e-07
+GO:0030001~metal ion transport	1.27846697389543e-07
+GO:0007520~myoblast fusion	1.58441398621357e-07
+GO:0034762~regulation of transmembrane transport	1.69710177934801e-07
+GO:0014733~regulation of skeletal muscle adaptation	2.04934072127164e-07
+GO:0050848~regulation of calcium-mediated signaling	2.23838282027132e-07
+GO:0010927~cellular component assembly involved in morphogenesis	2.25759958172636e-07
+GO:0014721~twitch skeletal muscle contraction	2.29150555202489e-07
+GO:0003010~voluntary skeletal muscle contraction	2.29150555202489e-07
+GO:0030198~extracellular matrix organization	2.41863432855192e-07
+GO:0043062~extracellular structure organization	2.52061708190329e-07
+GO:0055013~cardiac muscle cell development	2.63132508893047e-07
+GO:0006811~ion transport	2.72779030493229e-07
+GO:0050790~regulation of catalytic activity	3.41809863707371e-07
+GO:0019932~second-messenger-mediated signaling	4.03080382754487e-07
+GO:0006468~protein phosphorylation	4.19474211089556e-07
+GO:0014883~transition between fast and slow fiber	5.29973975390731e-07
+GO:0016043~cellular component organization	5.46588685821971e-07
+GO:0002026~regulation of the force of heart contraction	5.75726645038073e-07
+GO:0060341~regulation of cellular localization	7.23678247017245e-07
+GO:0048636~positive regulation of muscle organ development	7.30208612350354e-07
+GO:0045844~positive regulation of striated muscle tissue development	7.30208612350354e-07
+GO:0016202~regulation of striated muscle tissue development	7.46984482929116e-07
+GO:1901863~positive regulation of muscle tissue development	8.21305199495766e-07
+GO:0010243~response to organonitrogen compound	8.5339111197302e-07
+GO:0048634~regulation of muscle organ development	8.75265081619339e-07
+GO:0003231~cardiac ventricle development	8.75265081619339e-07
+GO:0000768~syncytium formation by plasma membrane fusion	8.80162295482368e-07
+GO:1904062~regulation of cation transmembrane transport	8.88436918530687e-07
+GO:1901861~regulation of muscle tissue development	9.46333424119371e-07
+GO:0043271~negative regulation of ion transport	9.46333424119371e-07
+GO:0006816~calcium ion transport	9.70324940881548e-07
+GO:0045661~regulation of myoblast differentiation	1.020698544111e-06
+GO:0034220~ion transmembrane transport	1.17306072393548e-06
+GO:0009719~response to endogenous stimulus	1.24127848052486e-06
+GO:0003205~cardiac chamber development	1.44657658388503e-06
+GO:0010035~response to inorganic substance	1.50517370799239e-06
+GO:0051926~negative regulation of calcium ion transport	1.55990508761277e-06
+GO:0006949~syncytium formation	1.55990508761277e-06
+GO:0040007~growth	1.92281938648996e-06
+GO:0071840~cellular component organization or biogenesis	2.0963348129943e-06
+GO:0070509~calcium ion import	2.10066103057836e-06
+GO:0006874~cellular calcium ion homeostasis	2.2851262275108e-06
+GO:1901698~response to nitrogen compound	2.77504067124204e-06
+GO:0045597~positive regulation of cell differentiation	2.77917495542474e-06
+GO:0098662~inorganic cation transmembrane transport	2.87356284515716e-06
+GO:1902589~single-organism organelle organization	3.34731609125179e-06
+GO:0010830~regulation of myotube differentiation	3.36514277473816e-06
+GO:0055074~calcium ion homeostasis	3.43534175039792e-06
+GO:0051924~regulation of calcium ion transport	3.46162808356542e-06
+GO:0051270~regulation of cellular component movement	3.8107295082914e-06
+GO:0014904~myotube cell development	3.84219751328481e-06
+GO:0050801~ion homeostasis	3.97821834118144e-06
+GO:0009611~response to wounding	4.08204847886659e-06
+GO:0072503~cellular divalent inorganic cation homeostasis	4.45292928257461e-06
+GO:0070838~divalent metal ion transport	5.22686313093753e-06
+GO:0072511~divalent inorganic cation transport	5.72650624701288e-06
+GO:0050896~response to stimulus	5.80862127014991e-06
+GO:0035556~intracellular signal transduction	6.043005835669e-06
+GO:0007015~actin filament organization	6.11163150256471e-06
+GO:0035914~skeletal muscle cell differentiation	6.65276708308739e-06
+GO:0051128~regulation of cellular component organization	6.95934886954434e-06
+GO:1903514~calcium ion transport from endoplasmic reticulum to cytosol	7.58044055851405e-06
+GO:0014808~release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	7.58044055851405e-06
+GO:0072507~divalent inorganic cation homeostasis	8.31785146871398e-06
+GO:0007167~enzyme linked receptor protein signaling pathway	8.99023683944971e-06
+GO:0070588~calcium ion transmembrane transport	9.3924088024582e-06
+GO:0031589~cell-substrate adhesion	9.86772029858909e-06
+GO:0042221~response to chemical	1.09031522217457e-05
+GO:0006875~cellular metal ion homeostasis	1.1389687696103e-05
+GO:0032989~cellular component morphogenesis	1.14085693839215e-05
+GO:0042060~wound healing	1.209573024983e-05
+GO:0009628~response to abiotic stimulus	1.24843767986284e-05
+GO:0051094~positive regulation of developmental process	1.28818126265572e-05
+GO:0051051~negative regulation of transport	1.3713209729762e-05
+GO:0001503~ossification	1.39938603861393e-05
+GO:1901700~response to oxygen-containing compound	1.57104981400718e-05
+GO:2000021~regulation of ion homeostasis	1.59666224348968e-05
+GO:0034766~negative regulation of ion transmembrane transport	1.6266024142771e-05
+GO:0010033~response to organic substance	1.67620642780405e-05
+GO:0098771~inorganic ion homeostasis	1.70437716192551e-05
+GO:0055065~metal ion homeostasis	1.81388534419547e-05
+GO:0051283~negative regulation of sequestering of calcium ion	1.83759158364873e-05
+GO:0051209~release of sequestered calcium ion into cytosol	1.83759158364873e-05
+GO:0022607~cellular component assembly	1.85350768385613e-05
+GO:0090279~regulation of calcium ion import	1.97500694661378e-05
+GO:0046034~ATP metabolic process	2.04828865972033e-05
+GO:0031099~regeneration	2.06811335539771e-05
+GO:0098660~inorganic ion transmembrane transport	2.30536849842243e-05
+GO:0097553~calcium ion transmembrane import into cytosol	2.44009157970106e-05
+GO:1902656~calcium ion import into cytosol	2.44009157970106e-05
+GO:0048729~tissue morphogenesis	2.46230485018729e-05
+GO:0055003~cardiac myofibril assembly	2.54522361397813e-05
+GO:0044710~single-organism metabolic process	2.64070529787212e-05
+GO:0032970~regulation of actin filament-based process	2.71035475030984e-05
+GO:0034763~negative regulation of transmembrane transport	2.7561719647702e-05
+GO:0007155~cell adhesion	2.76288587878227e-05
+GO:0001568~blood vessel development	2.80675208136343e-05
+GO:1902578~single-organism localization	2.8677014007284e-05
+GO:0023052~signaling	2.8758856745079e-05
+GO:0071417~cellular response to organonitrogen compound	2.88384801822266e-05
+GO:0022610~biological adhesion	2.98678136802986e-05
+GO:0014070~response to organic cyclic compound	3.04483324630818e-05
+GO:0042246~tissue regeneration	3.09597076563756e-05
+GO:0065008~regulation of biological quality	3.12296792636306e-05
+GO:0005977~glycogen metabolic process	3.2520193626812e-05
+GO:0048518~positive regulation of biological process	3.38720286239692e-05
+GO:0051282~regulation of sequestering of calcium ion	3.41825010957699e-05
+GO:0006073~cellular glucan metabolic process	3.52614139771779e-05
+GO:0044042~glucan metabolic process	3.52614139771779e-05
+GO:0044765~single-organism transport	3.651046273503e-05
+GO:0051336~regulation of hydrolase activity	3.68459299726864e-05
+GO:0006873~cellular ion homeostasis	3.71479661487802e-05
+GO:0051208~sequestering of calcium ion	3.89202961572671e-05
+GO:0055080~cation homeostasis	3.93358279120847e-05
+GO:0048514~blood vessel morphogenesis	4.14509698505255e-05
+GO:0051155~positive regulation of striated muscle cell differentiation	4.23006396782221e-05
+GO:1901652~response to peptide	4.37479186144674e-05
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	4.38321046198698e-05
+GO:0045595~regulation of cell differentiation	4.64473921267016e-05
+GO:0032412~regulation of ion transmembrane transporter activity	4.71683982812562e-05
+GO:0019220~regulation of phosphate metabolic process	4.72182965540135e-05
+GO:0014866~skeletal myofibril assembly	4.75134167540883e-05
+GO:0010038~response to metal ion	4.76582895714941e-05
+GO:0040008~regulation of growth	4.77540759863767e-05
+GO:0051174~regulation of phosphorus metabolic process	4.78345910308144e-05
+GO:0048878~chemical homeostasis	4.786279726123e-05
+GO:0009887~organ morphogenesis	4.96511873962655e-05
+GO:0005976~polysaccharide metabolic process	5.00519427303119e-05
+GO:0023014~signal transduction by protein phosphorylation	5.07287008670857e-05
+GO:0009205~purine ribonucleoside triphosphate metabolic process	5.1285881254763e-05
+GO:0046716~muscle cell cellular homeostasis	5.27898585983404e-05
+GO:1903169~regulation of calcium ion transmembrane transport	5.32149149213677e-05
+GO:0048519~negative regulation of biological process	5.52530623169882e-05
+GO:0003300~cardiac muscle hypertrophy	5.67508111215632e-05
+GO:0051148~negative regulation of muscle cell differentiation	5.67508111215632e-05
+GO:0070482~response to oxygen levels	5.80746198448194e-05
+GO:0042391~regulation of membrane potential	5.9119819040094e-05
+GO:0022898~regulation of transmembrane transporter activity	5.95668622451959e-05
+GO:0071495~cellular response to endogenous stimulus	6.05732908792505e-05
+GO:0001944~vasculature development	6.08112092212415e-05
+GO:1901699~cellular response to nitrogen compound	6.13404288847957e-05
+GO:1904063~negative regulation of cation transmembrane transport	6.23585771741404e-05
+GO:0009199~ribonucleoside triphosphate metabolic process	6.34994134732376e-05
+GO:0019725~cellular homeostasis	6.43424774893532e-05
+GO:0007160~cell-matrix adhesion	6.48124862992059e-05
+GO:0009144~purine nucleoside triphosphate metabolic process	6.57754362771763e-05
+GO:0044700~single organism signaling	6.64809640408854e-05
+GO:0014897~striated muscle hypertrophy	6.84002236333321e-05
+GO:0055024~regulation of cardiac muscle tissue development	6.84002236333321e-05
+GO:0001525~angiogenesis	6.97443069387657e-05
+GO:0001649~osteoblast differentiation	7.38672969403179e-05
+GO:0051238~sequestering of metal ion	7.58937082389966e-05
+GO:0090130~tissue migration	7.9192157755028e-05
+GO:0002027~regulation of heart rate	8.00681108650251e-05
+GO:0045663~positive regulation of myoblast differentiation	8.00900835519976e-05
+GO:0010469~regulation of receptor activity	8.03572950108683e-05
+GO:0042325~regulation of phosphorylation	8.08154964455068e-05
+GO:0055025~positive regulation of cardiac muscle tissue development	8.1877738663801e-05
+GO:0050793~regulation of developmental process	8.41169875369166e-05
+GO:0044085~cellular component biogenesis	8.48710239353946e-05
+GO:0030003~cellular cation homeostasis	8.5979840531941e-05
+GO:0006112~energy reserve metabolic process	9.18019986873683e-05
+GO:0009725~response to hormone	9.35816201081715e-05
+GO:0009167~purine ribonucleoside monophosphate metabolic process	9.5674482771869e-05
+GO:0014896~muscle hypertrophy	9.74017453366461e-05
+GO:0009126~purine nucleoside monophosphate metabolic process	9.93754195129682e-05
+GO:0007154~cell communication	0.000106631870872501
+GO:0032409~regulation of transporter activity	0.000107113967285955
+GO:0070887~cellular response to chemical stimulus	0.000107408196794868
+GO:0051235~maintenance of location	0.000112752395636977
+GO:0060402~calcium ion transport into cytosol	0.000118108098302919
+GO:0044264~cellular polysaccharide metabolic process	0.000119479506426168
+GO:0051480~regulation of cytosolic calcium ion concentration	0.000119969957482374
+GO:0001932~regulation of protein phosphorylation	0.000128484749999235
+GO:0060401~cytosolic calcium ion transport	0.000131247822832064
+GO:0051240~positive regulation of multicellular organismal process	0.000133500297107258
+GO:0090281~negative regulation of calcium ion import	0.000138489190478443
+GO:0009141~nucleoside triphosphate metabolic process	0.000141634671299986
+GO:0009161~ribonucleoside monophosphate metabolic process	0.000141634671299986
+GO:0007271~synaptic transmission, cholinergic	0.000145264516168172
+GO:0051130~positive regulation of cellular component organization	0.00014528794284401
+GO:0044724~single-organism carbohydrate catabolic process	0.000145571584142539
+GO:0070925~organelle assembly	0.000148267115740585
+GO:0044093~positive regulation of molecular function	0.000152171582592168
+GO:0006979~response to oxidative stress	0.000153192481311659
+GO:0051014~actin filament severing	0.000158886350354558
+GO:0055082~cellular chemical homeostasis	0.000161085555436452
+GO:1901019~regulation of calcium ion transmembrane transporter activity	0.000170993461989313
+GO:0051279~regulation of release of sequestered calcium ion into cytosol	0.000170993461989313
+GO:0023051~regulation of signaling	0.000177697351650786
+GO:0055117~regulation of cardiac muscle contraction	0.000184360683732507
+GO:0046031~ADP metabolic process	0.000184360683732507
+GO:0010880~regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	0.000191446778783905
+GO:0007165~signal transduction	0.000194780108303988
+GO:0043266~regulation of potassium ion transport	0.000198539620300923
+GO:0000165~MAPK cascade	0.00020261979644138
+GO:0043434~response to peptide hormone	0.000204269741446745
+GO:0065007~biological regulation	0.000208327039495434
+GO:0010001~glial cell differentiation	0.000212479847206402
+GO:0006600~creatine metabolic process	0.000216660010737382
+GO:0009123~nucleoside monophosphate metabolic process	0.000216923890609194
+GO:0043267~negative regulation of potassium ion transport	0.000222774948008551
+GO:0060314~regulation of ryanodine-sensitive calcium-release channel activity	0.000222774948008551
+GO:0007204~positive regulation of cytosolic calcium ion concentration	0.000239227237239672
+GO:2000145~regulation of cell motility	0.000244618257147362
+GO:0048522~positive regulation of cellular process	0.000248369862837329
+GO:0044262~cellular carbohydrate metabolic process	0.000256577689288997
+GO:0051716~cellular response to stimulus	0.00026308098314976
+GO:0030334~regulation of cell migration	0.000272178394825596
+GO:0043085~positive regulation of catalytic activity	0.000286748817232242
+GO:0032386~regulation of intracellular transport	0.000300029209843254
+GO:0006006~glucose metabolic process	0.000317992020551673
+GO:0048523~negative regulation of cellular process	0.00032050150491517
+GO:0048589~developmental growth	0.000325877030341801
+GO:0016052~carbohydrate catabolic process	0.000340652189999278
+GO:0042326~negative regulation of phosphorylation	0.000355560485920933
+GO:0043542~endothelial cell migration	0.000355914747936756
+GO:0006091~generation of precursor metabolites and energy	0.000367887135412491
+GO:0051179~localization	0.000368652164104512
+GO:0006165~nucleoside diphosphate phosphorylation	0.000368678841502088
+GO:0033002~muscle cell proliferation	0.000371466347983666
+GO:0014724~regulation of twitch skeletal muscle contraction	0.000375253912925442
+GO:0010720~positive regulation of cell development	0.000382586077125917
+GO:0043403~skeletal muscle tissue regeneration	0.000385619973934896
+GO:0045778~positive regulation of ossification	0.000393019335911975
+GO:0055085~transmembrane transport	0.000394098817125154
+GO:0040012~regulation of locomotion	0.000423161247644749
+GO:0006810~transport	0.000434050863785374
+GO:0010522~regulation of calcium ion transport into cytosol	0.000473643311759222
+GO:0007166~cell surface receptor signaling pathway	0.000489596117723248
+GO:0044712~single-organism catabolic process	0.00049431623293445
+GO:0009135~purine nucleoside diphosphate metabolic process	0.000503199394520954
+GO:0009179~purine ribonucleoside diphosphate metabolic process	0.000503199394520954
+GO:0036293~response to decreased oxygen levels	0.00052654595756572
+GO:0046939~nucleotide phosphorylation	0.000534171673045748
+GO:0030335~positive regulation of cell migration	0.00054919560444802
+GO:0048741~skeletal muscle fiber development	0.000553599704763767
+GO:0009185~ribonucleoside diphosphate metabolic process	0.000566606532021421
+GO:1901379~regulation of potassium ion transmembrane transport	0.000566691797927828
+GO:0060284~regulation of cell development	0.000612943387640156
+GO:0000302~response to reactive oxygen species	0.000634332509544762
+GO:0046128~purine ribonucleoside metabolic process	0.000726186725805695
+GO:0035995~detection of muscle stretch	0.000744940227016759
+GO:0032971~regulation of muscle filament sliding	0.000744940227016759
+GO:2000147~positive regulation of cell motility	0.000755511180456547
+GO:0048583~regulation of response to stimulus	0.000769057438016047
+GO:0048565~digestive tract development	0.00077279313849775
+GO:0042278~purine nucleoside metabolic process	0.000785101314405524
+GO:0042493~response to drug	0.000791932754841949
+GO:0061337~cardiac conduction	0.000794616525889625
+GO:0006090~pyruvate metabolic process	0.000794616525889625
+GO:0006096~glycolytic process	0.000819111863749001
+GO:0042693~muscle cell fate commitment	0.000849533263951552
+GO:0070884~regulation of calcineurin-NFAT signaling cascade	0.000849533263951552
+GO:0032845~negative regulation of homeostatic process	0.000859712383707769
+GO:0006757~ATP generation from ADP	0.000878268430840193
+GO:0031399~regulation of protein modification process	0.000905354760767915
+GO:1901653~cellular response to peptide	0.00090756979036579
+GO:1903115~regulation of actin filament-based movement	0.000939770271618391
+GO:0032781~positive regulation of ATPase activity	0.000939770271618391
+GO:0072593~reactive oxygen species metabolic process	0.000940751789272304
+GO:0060348~bone development	0.000959275323672259
+GO:0051272~positive regulation of cellular component movement	0.000965590021062101
+GO:0051234~establishment of localization	0.00100259805224617
+GO:0010523~negative regulation of calcium ion transport into cytosol	0.0010110308819705
+GO:0040017~positive regulation of locomotion	0.00101243710270028
+GO:0006950~response to stress	0.00102950464213564
+GO:0043534~blood vessel endothelial cell migration	0.00107488914922399
+GO:0010631~epithelial cell migration	0.00113410959230677
+GO:0050849~negative regulation of calcium-mediated signaling	0.00119070107385823
+GO:0010881~regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion	0.00119070107385823
+GO:0035994~response to muscle stretch	0.00119070107385823
+GO:1901380~negative regulation of potassium ion transmembrane transport	0.00119070107385823
+GO:0030240~skeletal muscle thin filament assembly	0.00123236477631833
+GO:0014722~regulation of skeletal muscle contraction by calcium ion signaling	0.00123236477631833
+GO:0015672~monovalent inorganic cation transport	0.00123486985738915
+GO:0090132~epithelium migration	0.00124872959815068
+GO:0019318~hexose metabolic process	0.00124872959815068
+GO:0055123~digestive system development	0.0012812690423764
+GO:0010563~negative regulation of phosphorus metabolic process	0.00128576989499737
+GO:0045936~negative regulation of phosphate metabolic process	0.00128576989499737
+GO:0002576~platelet degranulation	0.0013249841949548
+GO:0009991~response to extracellular stimulus	0.00132576489788787
+GO:0010646~regulation of cell communication	0.00134490679906045
+GO:0009119~ribonucleoside metabolic process	0.00141812739892697
+GO:0035637~multicellular organismal signaling	0.00143432817170947
+GO:0021700~developmental maturation	0.00144156376779888
+GO:0030030~cell projection organization	0.00145395228420548
+GO:1901701~cellular response to oxygen-containing compound	0.00146521881990225
+GO:0051726~regulation of cell cycle	0.00148010899546192
+GO:0032963~collagen metabolic process	0.00152741968073543
+GO:0001666~response to hypoxia	0.00153269000873438
+GO:0051345~positive regulation of hydrolase activity	0.0015667166889872
+GO:0033173~calcineurin-NFAT signaling cascade	0.00160748080051697
+GO:0042063~gliogenesis	0.00161914167228635
+GO:0045787~positive regulation of cell cycle	0.00164394299401375
+GO:0032870~cellular response to hormone stimulus	0.00165080441115633
+GO:0000271~polysaccharide biosynthetic process	0.00165872379676524
+GO:0009132~nucleoside diphosphate metabolic process	0.00167491102165435
+GO:0001933~negative regulation of protein phosphorylation	0.00168175097807307
+GO:0016051~carbohydrate biosynthetic process	0.00172123399911709
+GO:0044275~cellular carbohydrate catabolic process	0.00175382613728667
+GO:0005978~glycogen biosynthetic process	0.00175382613728667
+GO:0055021~regulation of cardiac muscle tissue growth	0.00175382613728667
+GO:1903827~regulation of cellular protein localization	0.00176828421542912
+GO:0005996~monosaccharide metabolic process	0.00176973298646196
+GO:0050789~regulation of biological process	0.00177322922450224
+GO:0032844~regulation of homeostatic process	0.00182604068704459
+GO:1990000~amyloid fibril formation	0.00183485833658589
+GO:0040011~locomotion	0.00189467549768411
+GO:0071375~cellular response to peptide hormone stimulus	0.00191373212295435
+GO:0044259~multicellular organismal macromolecule metabolic process	0.00191613438868569
+GO:0051641~cellular localization	0.00194271989875999
+GO:0001558~regulation of cell growth	0.00208561351315651
+GO:0010882~regulation of cardiac muscle contraction by calcium ion signaling	0.00210540488815553
+GO:0005980~glycogen catabolic process	0.00210540488815553
+GO:0034330~cell junction organization	0.00210757300940926
+GO:0031667~response to nutrient levels	0.00212556800084994
+GO:0071310~cellular response to organic substance	0.0021775649958618
+GO:0090068~positive regulation of cell cycle process	0.00219226085710311
+GO:0021782~glial cell development	0.00219894630265977
+GO:0009150~purine ribonucleotide metabolic process	0.00231294388718196
+GO:0045662~negative regulation of myoblast differentiation	0.00238639284502879
+GO:0009251~glucan catabolic process	0.00238639284502879
+GO:0044247~cellular polysaccharide catabolic process	0.00238639284502879
+GO:0002028~regulation of sodium ion transport	0.00244734068590994
+GO:0009116~nucleoside metabolic process	0.00254185123064391
+GO:0014877~response to muscle inactivity involved in regulation of muscle adaptation	0.00254979630464329
+GO:0014894~response to denervation involved in regulation of muscle adaptation	0.00254979630464329
+GO:0044539~long-chain fatty acid import	0.00254979630464329
+GO:0048641~regulation of skeletal muscle tissue development	0.00257117708912268
+GO:0006939~smooth muscle contraction	0.00257890156211876
+GO:0043537~negative regulation of blood vessel endothelial cell migration	0.00268952493425634
+GO:0009250~glucan biosynthetic process	0.00276127795295131
+GO:0060420~regulation of heart growth	0.00276127795295131
+GO:0012501~programmed cell death	0.00276222976315924
+GO:0006813~potassium ion transport	0.00280094067128788
+GO:0033273~response to vitamin	0.0028573044708704
+GO:0008285~negative regulation of cell proliferation	0.00286807517325795
+GO:0042592~homeostatic process	0.0029236786704783
+GO:0009259~ribonucleotide metabolic process	0.00299058121241388
+GO:0048643~positive regulation of skeletal muscle tissue development	0.00301536121540147
+GO:2000725~regulation of cardiac muscle cell differentiation	0.00301536121540147
+GO:2000026~regulation of multicellular organismal development	0.00306511906980435
+GO:0007584~response to nutrient	0.00324180362623251
+GO:0042306~regulation of protein import into nucleus	0.00334555415560366
+GO:0000272~polysaccharide catabolic process	0.00336443449874379
+GO:0048743~positive regulation of skeletal muscle fiber development	0.00337459803990685
+GO:0014870~response to muscle inactivity	0.00337459803990685
+GO:0006109~regulation of carbohydrate metabolic process	0.00345410738320818
+GO:0045937~positive regulation of phosphate metabolic process	0.00359077852574803
+GO:0010562~positive regulation of phosphorus metabolic process	0.00359077852574803
+GO:0032413~negative regulation of ion transmembrane transporter activity	0.00361800284780418
+GO:0051785~positive regulation of nuclear division	0.00361800284780418
+GO:0006163~purine nucleotide metabolic process	0.0036434286718327
+GO:0015980~energy derivation by oxidation of organic compounds	0.00364862298589047
+GO:0022603~regulation of anatomical structure morphogenesis	0.00367312347463559
+GO:0072524~pyridine-containing compound metabolic process	0.0036732583083783
+GO:1904589~regulation of protein import	0.00368043803921447
+GO:0010604~positive regulation of macromolecule metabolic process	0.00370822680472927
+GO:0051154~negative regulation of striated muscle cell differentiation	0.00373725101199881
+GO:0019693~ribose phosphate metabolic process	0.00376278826291152
+GO:0001508~action potential	0.00381298358038092
+GO:0071363~cellular response to growth factor stimulus	0.003840322044854
+GO:1901657~glycosyl compound metabolic process	0.00386802050734871
+GO:0016049~cell growth	0.00393784644777994
+GO:0044236~multicellular organism metabolic process	0.00395661462489225
+GO:2001257~regulation of cation channel activity	0.00400380850067865
+GO:0043279~response to alkaloid	0.00410421682975602
+GO:1903170~negative regulation of calcium ion transmembrane transport	0.00413429105265498
+GO:0007274~neuromuscular synaptic transmission	0.00413429105265498
+GO:0055023~positive regulation of cardiac muscle tissue growth	0.00413429105265498
+GO:0014891~striated muscle atrophy	0.00430672621613348
+GO:0010675~regulation of cellular carbohydrate metabolic process	0.00441159676866801
+GO:0007568~aging	0.00452164052563187
+GO:0030278~regulation of ossification	0.00455075450622414
+GO:0060306~regulation of membrane repolarization	0.00455600963024211
+GO:0010831~positive regulation of myotube differentiation	0.00455600963024211
+GO:0043067~regulation of programmed cell death	0.00459794568764284
+GO:0045669~positive regulation of osteoblast differentiation	0.00463932859789863
+GO:0050808~synapse organization	0.00473202271458669
+GO:1903828~negative regulation of cellular protein localization	0.00490409009427349
+GO:0009893~positive regulation of metabolic process	0.00490621717644683
+GO:0006007~glucose catabolic process	0.00500283709372362
+GO:0009605~response to external stimulus	0.00513433524746101
+GO:0007050~cell cycle arrest	0.00520545361932146
+GO:0051241~negative regulation of multicellular organismal process	0.00527511752444317
+GO:0048598~embryonic morphogenesis	0.00529934103760454
+GO:0071404~cellular response to low-density lipoprotein particle stimulus	0.0053436861826717
+GO:1901077~regulation of relaxation of muscle	0.0053436861826717
+GO:0032869~cellular response to insulin stimulus	0.00542581036298863
+GO:0070848~response to growth factor	0.0054569328130759
+GO:0048016~inositol phosphate-mediated signaling	0.00547517974703395
+GO:0014037~Schwann cell differentiation	0.00547517974703395
+GO:0002042~cell migration involved in sprouting angiogenesis	0.00547517974703395
+GO:0031325~positive regulation of cellular metabolic process	0.00555536343393073
+GO:0043623~cellular protein complex assembly	0.00562671572059239
+GO:0072521~purine-containing compound metabolic process	0.00562671572059239
+GO:0043068~positive regulation of programmed cell death	0.00579641398867416
+GO:0032410~negative regulation of transporter activity	0.005838673256997
+GO:0045926~negative regulation of growth	0.00590185572523503
+GO:0060421~positive regulation of heart growth	0.00597342045616475
+GO:0032880~regulation of protein localization	0.00599079410683766
+GO:0035295~tube development	0.00605867091943145
+GO:0030574~collagen catabolic process	0.00616782482396007
+GO:0022008~neurogenesis	0.00629126641029251
+GO:0045165~cell fate commitment	0.00637379470319662
+GO:0014854~response to inactivity	0.00648302533152361
+GO:0060576~intestinal epithelial cell development	0.00648302533152361
+GO:0032868~response to insulin	0.0065194442066861
+GO:0008219~cell death	0.00659379584669622
+GO:0045944~positive regulation of transcription from RNA polymerase II promoter	0.00683370393248951
+GO:0055017~cardiac muscle tissue growth	0.00686264447766073
+GO:0033692~cellular polysaccharide biosynthetic process	0.00686264447766073
+GO:0007229~integrin-mediated signaling pathway	0.00694799555197611
+GO:0043112~receptor metabolic process	0.00701676876041675
+GO:1903533~regulation of protein targeting	0.00702016418975999
+GO:0032885~regulation of polysaccharide biosynthetic process	0.0070490138462353
+GO:0003179~heart valve morphogenesis	0.0070490138462353
+GO:0010907~positive regulation of glucose metabolic process	0.0070490138462353
+GO:0006915~apoptotic process	0.00705012261476358
+GO:0016477~cell migration	0.00731117942024809
+GO:0032268~regulation of cellular protein metabolic process	0.00734744456130113
+GO:0009966~regulation of signal transduction	0.00736805774419365
+GO:0044723~single-organism carbohydrate metabolic process	0.00738711628182438
+GO:0071156~regulation of cell cycle arrest	0.00750681781180951
+GO:0048638~regulation of developmental growth	0.00750717779804913
+GO:0010718~positive regulation of epithelial to mesenchymal transition	0.00762702033468832
+GO:1905207~regulation of cardiocyte differentiation	0.00762702033468832
+GO:0071402~cellular response to lipoprotein particle stimulus	0.00772233247832696
+GO:0014889~muscle atrophy	0.00772233247832696
+GO:0048742~regulation of skeletal muscle fiber development	0.00772233247832696
+GO:0042981~regulation of apoptotic process	0.00777263151336635
+GO:0009612~response to mechanical stimulus	0.00778750712712234
+GO:0048659~smooth muscle cell proliferation	0.00779765074198357
+GO:0032387~negative regulation of intracellular transport	0.00779765074198357
+GO:0051674~localization of cell	0.00780343712579688
+GO:0048870~cell motility	0.00780343712579688
+GO:0002040~sprouting angiogenesis	0.00799890476735636
+GO:0045667~regulation of osteoblast differentiation	0.00809623317342724
+GO:0010628~positive regulation of gene expression	0.00812707899223486
+GO:0006734~NADH metabolic process	0.008232233621901
+GO:0007422~peripheral nervous system development	0.00840343888767384
+GO:0042127~regulation of cell proliferation	0.00843160612203061
+GO:0045859~regulation of protein kinase activity	0.00845227330557306
+GO:0098916~anterograde trans-synaptic signaling	0.00851786331859496
+GO:0007268~chemical synaptic transmission	0.00851786331859496
+GO:0099536~synaptic signaling	0.00851786331859496
+GO:0099537~trans-synaptic signaling	0.00851786331859496
+GO:0044243~multicellular organism catabolic process	0.00882114690490353
+GO:0060419~heart growth	0.00882114690490353
+GO:0010942~positive regulation of cell death	0.00887413116048187
+GO:0042327~positive regulation of phosphorylation	0.00895661482667403
+GO:0048660~regulation of smooth muscle cell proliferation	0.00903947465526504
+GO:0007512~adult heart development	0.00905923724495353
+GO:0055098~response to low-density lipoprotein particle	0.00905923724495353
+GO:0033197~response to vitamin E	0.00905923724495353
+GO:0003170~heart valve development	0.00952535784856648
+GO:1901016~regulation of potassium ion transmembrane transporter activity	0.00952535784856648
+GO:0010596~negative regulation of endothelial cell migration	0.00952535784856648
+GO:0042551~neuron maturation	0.00952535784856648
+GO:0016525~negative regulation of angiogenesis	0.0101549416655765
+GO:0032881~regulation of polysaccharide metabolic process	0.0102137578097595
+GO:0001667~ameboidal-type cell migration	0.0103846423683699
+GO:0014874~response to stimulus involved in regulation of muscle adaptation	0.0104914094570211
+GO:0051280~negative regulation of release of sequestered calcium ion into cytosol	0.0104914094570211
+GO:0048667~cell morphogenesis involved in neuron differentiation	0.0105599029167663
+GO:0046822~regulation of nucleocytoplasmic transport	0.0107030103254166
+GO:0010941~regulation of cell death	0.0107184349343129
+GO:0051592~response to calcium ion	0.0107757010654127
+GO:0032787~monocarboxylic acid metabolic process	0.0107946738223068
+GO:0007492~endoderm development	0.0111129250799501
+GO:2000181~negative regulation of blood vessel morphogenesis	0.0111129250799501
+GO:0000904~cell morphogenesis involved in differentiation	0.0111497197567256
+GO:0009790~embryo development	0.0112943360442106
+GO:0001934~positive regulation of protein phosphorylation	0.0117131995483879
+GO:1900180~regulation of protein localization to nucleus	0.0118422572842871
+GO:0045216~cell-cell junction organization	0.0118422572842871
+GO:1901017~negative regulation of potassium ion transmembrane transporter activity	0.0120165585459643
+GO:0045725~positive regulation of glycogen biosynthetic process	0.0120165585459643
+GO:0051284~positive regulation of sequestering of calcium ion	0.0120165585459643
+GO:0007162~negative regulation of cell adhesion	0.0120827109569248
+GO:0044092~negative regulation of molecular function	0.0123176040632497
+GO:0043470~regulation of carbohydrate catabolic process	0.0124488438983962
+GO:1902580~single-organism cellular localization	0.0125521019724995
+GO:0048666~neuron development	0.0126340098130905
+GO:0046496~nicotinamide nucleotide metabolic process	0.0127272903029341
+GO:0019362~pyridine nucleotide metabolic process	0.0127272903029341
+GO:0030308~negative regulation of cell growth	0.0128703132568482
+GO:0043065~positive regulation of apoptotic process	0.0128763131800776
+GO:0045765~regulation of angiogenesis	0.0129818657147434
+GO:0045931~positive regulation of mitotic cell cycle	0.0131444420145469
+GO:0031623~receptor internalization	0.0131992559355548
+GO:0034637~cellular carbohydrate biosynthetic process	0.0131992559355548
+GO:0046622~positive regulation of organ growth	0.0132510992143267
+GO:0019637~organophosphate metabolic process	0.0132771531712731
+GO:2000679~positive regulation of transcription regulatory region DNA binding	0.013632432960223
+GO:0031400~negative regulation of protein modification process	0.0139359993752169
+GO:0045840~positive regulation of mitotic nuclear division	0.0140822232033297
+GO:0043388~positive regulation of DNA binding	0.0140822232033297
+GO:0006606~protein import into nucleus	0.0141360202603573
+GO:0044744~protein targeting to nucleus	0.0141360202603573
+GO:0046620~regulation of organ growth	0.0143297767990765
+GO:1901343~negative regulation of vasculature development	0.0143297767990765
+GO:1902593~single-organism nuclear import	0.0144576877754407
+GO:0005975~carbohydrate metabolic process	0.014811740345882
+GO:0060349~bone morphogenesis	0.0149173205607753
+GO:0055114~oxidation-reduction process	0.0150964528689249
+GO:0070875~positive regulation of glycogen metabolic process	0.0153368195866169
+GO:0010647~positive regulation of cell communication	0.0154378219317948
+GO:0051145~smooth muscle cell differentiation	0.015831573329545
+GO:0086010~membrane depolarization during action potential	0.015831573329545
+GO:0051050~positive regulation of transport	0.0159523921969828
+GO:0060322~head development	0.0162425648155185
+GO:0043549~regulation of kinase activity	0.0165155715339456
+GO:0009408~response to heat	0.016770490350562
+GO:0007044~cell-substrate junction assembly	0.016770490350562
+GO:0032270~positive regulation of cellular protein metabolic process	0.0167826884894094
+GO:1902531~regulation of intracellular signal transduction	0.0168243005319321
+GO:0060485~mesenchyme development	0.0168872969576036
+GO:1903508~positive regulation of nucleic acid-templated transcription	0.0169624572122557
+GO:0045893~positive regulation of transcription, DNA-templated	0.0169624572122557
+GO:0055094~response to lipoprotein particle	0.0171275431741031
+GO:0043931~ossification involved in bone maturation	0.0171275431741031
+GO:0014898~cardiac muscle hypertrophy in response to stress	0.0171275431741031
+GO:0060575~intestinal epithelial cell differentiation	0.0171275431741031
+GO:0003299~muscle hypertrophy in response to stress	0.0171275431741031
+GO:0010832~negative regulation of myotube differentiation	0.0171275431741031
+GO:0010564~regulation of cell cycle process	0.0173050229084337
+GO:0071248~cellular response to metal ion	0.0173202294707912
+GO:0043467~regulation of generation of precursor metabolites and energy	0.0174187602901268
+GO:0021762~substantia nigra development	0.017697727959652
+GO:0048015~phosphatidylinositol-mediated signaling	0.0178377775143295
+GO:0050803~regulation of synapse structure or activity	0.017902202832044
+GO:0048699~generation of neurons	0.0180913312109458
+GO:0006897~endocytosis	0.0183821320151734
+GO:0032956~regulation of actin cytoskeleton organization	0.0184519676885269
+GO:0009117~nucleotide metabolic process	0.0188114556932633
+GO:1902307~positive regulation of sodium ion transmembrane transport	0.0190024657745024
+GO:2000727~positive regulation of cardiac muscle cell differentiation	0.0190024657745024
+GO:0014887~cardiac muscle adaptation	0.0190024657745024
+GO:0048017~inositol lipid-mediated signaling	0.0191444080786942
+GO:1902680~positive regulation of RNA biosynthetic process	0.0198955075473741
+GO:0072080~nephron tubule development	0.0201672727141591
+GO:0044087~regulation of cellular component biogenesis	0.0201681153739467
+GO:0051170~nuclear import	0.0201809510998199
+GO:0006461~protein complex assembly	0.0203750825628191
+GO:0051098~regulation of binding	0.0205072503037216
+GO:0070271~protein complex biogenesis	0.020530493691891
+GO:0006733~oxidoreduction coenzyme metabolic process	0.0205440542233648
+GO:0006753~nucleoside phosphate metabolic process	0.0206055266031864
+GO:0014855~striated muscle cell proliferation	0.0207171951830843
+GO:0043535~regulation of blood vessel endothelial cell migration	0.0207171951830843
+GO:0097435~fibril organization	0.0209594861800674
+GO:0070977~bone maturation	0.0209594861800674
+GO:0060307~regulation of ventricular cardiac muscle cell membrane repolarization	0.0209594861800674
+GO:0051099~positive regulation of binding	0.0211169118988761
+GO:1901342~regulation of vasculature development	0.0211621072987949
+GO:0051246~regulation of protein metabolic process	0.0211719323339701
+GO:0045927~positive regulation of growth	0.0215431188900722
+GO:0034329~cell junction assembly	0.0216589335651286
+GO:0051196~regulation of coenzyme metabolic process	0.0217825796061065
+GO:1902305~regulation of sodium ion transmembrane transport	0.0217825796061065
+GO:0051193~regulation of cofactor metabolic process	0.0217825796061065
+GO:0034504~protein localization to nucleus	0.0219074213581539
+GO:0000122~negative regulation of transcription from RNA polymerase II promoter	0.0220535090194747
+GO:0031175~neuron projection development	0.0223239344531269
+GO:1903919~negative regulation of actin filament severing	0.0223846990459763
+GO:0055096~low-density lipoprotein particle mediated signaling	0.0223846990459763
+GO:0014728~regulation of the force of skeletal muscle contraction	0.0223846990459763
+GO:1903921~regulation of protein processing in phagocytic vesicle	0.0223846990459763
+GO:0014862~regulation of skeletal muscle contraction by chemo-mechanical energy conversion	0.0223846990459763
+GO:0031444~slow-twitch skeletal muscle fiber contraction	0.0223846990459763
+GO:1903923~positive regulation of protein processing in phagocytic vesicle	0.0223846990459763
+GO:0031448~positive regulation of fast-twitch skeletal muscle fiber contraction	0.0223846990459763
+GO:1900756~protein processing in phagocytic vesicle	0.0223846990459763
+GO:0002086~diaphragm contraction	0.0223846990459763
+GO:0032972~regulation of muscle filament sliding speed	0.0223846990459763
+GO:0031446~regulation of fast-twitch skeletal muscle fiber contraction	0.0223846990459763
+GO:1903918~regulation of actin filament severing	0.0223846990459763
+GO:0055095~lipoprotein particle mediated signaling	0.0223846990459763
+GO:0061326~renal tubule development	0.0223943908497951
+GO:0006935~chemotaxis	0.0225491107445883
+GO:0061024~membrane organization	0.0227180314618258
+GO:0042330~taxis	0.0228290755115879
+GO:0010633~negative regulation of epithelial cell migration	0.0228774412503507
+GO:0010676~positive regulation of cellular carbohydrate metabolic process	0.0228774412503507
+GO:0043491~protein kinase B signaling	0.0228977280316976
+GO:0001501~skeletal system development	0.0231025693286995
+GO:0019320~hexose catabolic process	0.024001778428501
+GO:0048146~positive regulation of fibroblast proliferation	0.024001778428501
+GO:0043087~regulation of GTPase activity	0.0245787925000023
+GO:0051647~nucleus localization	0.0251115960075246
+GO:0060045~positive regulation of cardiac muscle cell proliferation	0.0251115960075246
+GO:1903036~positive regulation of response to wounding	0.0251555770474835
+GO:0010389~regulation of G2/M transition of mitotic cell cycle	0.0251555770474835
+GO:1903034~regulation of response to wounding	0.0252365791587315
+GO:0033157~regulation of intracellular protein transport	0.0254942080852684
+GO:0006629~lipid metabolic process	0.0258461253278458
+GO:0007045~cell-substrate adherens junction assembly	0.0263388109697359
+GO:0048041~focal adhesion assembly	0.0263388109697359
+GO:0006801~superoxide metabolic process	0.0263388109697359
+GO:0006996~organelle organization	0.0263730328254351
+GO:1904064~positive regulation of cation transmembrane transport	0.0264281444387642
+GO:0030100~regulation of endocytosis	0.0269673052691799
+GO:0002065~columnar/cuboidal epithelial cell differentiation	0.0272837632733328
+GO:0086005~ventricular cardiac muscle cell action potential	0.0273026618293513
+GO:0022011~myelination in peripheral nervous system	0.0273026618293513
+GO:0032292~peripheral nervous system axon ensheathment	0.0273026618293513
+GO:0008283~cell proliferation	0.0274021258195227
+GO:0043086~negative regulation of catalytic activity	0.027680200917809
+GO:0007399~nervous system development	0.0277728933789014
+GO:0023056~positive regulation of signaling	0.0280516841383869
+GO:0051254~positive regulation of RNA metabolic process	0.0281588799926597
+GO:0042308~negative regulation of protein import into nucleus	0.0287934221911894
+GO:1904590~negative regulation of protein import	0.0287934221911894
+GO:0019674~NAD metabolic process	0.0287934221911894
+GO:0010906~regulation of glucose metabolic process	0.0290443044817859
+GO:0045596~negative regulation of cell differentiation	0.0292037183865438
+GO:0048469~cell maturation	0.0293029717736496
+GO:2000377~regulation of reactive oxygen species metabolic process	0.0293029717736496
+GO:0061564~axon development	0.0294137580494162
+GO:1903580~positive regulation of ATP metabolic process	0.0295677771908321
+GO:0099623~regulation of cardiac muscle cell membrane repolarization	0.0295677771908321
+GO:0048799~organ maturation	0.0295677771908321
+GO:0045979~positive regulation of nucleoside metabolic process	0.0295677771908321
+GO:0044281~small molecule metabolic process	0.0298514869072798
+GO:0030155~regulation of cell adhesion	0.0301683657729925
+GO:0048584~positive regulation of response to stimulus	0.0302522738656767
+GO:0071241~cellular response to inorganic substance	0.0307150587620033
+GO:0009967~positive regulation of signal transduction	0.0309170830519942
+GO:0060627~regulation of vesicle-mediated transport	0.031000198566039
+GO:0031328~positive regulation of cellular biosynthetic process	0.0311250314146625
+GO:0046365~monosaccharide catabolic process	0.0313651759276621
+GO:1905209~positive regulation of cardiocyte differentiation	0.031905016518069
+GO:0090075~relaxation of muscle	0.031905016518069
+GO:0051247~positive regulation of protein metabolic process	0.0321360927504369
+GO:0017038~protein import	0.0324595916391274
+GO:0014823~response to activity	0.0326947981360961
+GO:0031401~positive regulation of protein modification process	0.0329465955256961
+GO:0031960~response to corticosteroid	0.033017931153464
+GO:0071688~striated muscle myosin thick filament assembly	0.0333894216117696
+GO:0003011~involuntary skeletal muscle contraction	0.0333894216117696
+GO:0031443~fast-twitch skeletal muscle fiber contraction	0.0333894216117696
+GO:0051124~synaptic growth at neuromuscular junction	0.0333894216117696
+GO:0030241~skeletal muscle myosin thick filament assembly	0.0333894216117696
+GO:0033993~response to lipid	0.0336407568002129
+GO:0043270~positive regulation of ion transport	0.0336570816911909
+GO:0071560~cellular response to transforming growth factor beta stimulus	0.0336570816911909
+GO:0007267~cell-cell signaling	0.0341710884378017
+GO:0014044~Schwann cell development	0.0343124877924082
+GO:0006735~NADH regeneration	0.0343124877924082
+GO:0001958~endochondral ossification	0.0343124877924082
+GO:0036075~replacement ossification	0.0343124877924082
+GO:0061621~canonical glycolysis	0.0343124877924082
+GO:0061718~glucose catabolic process to pyruvate	0.0343124877924082
+GO:0071559~response to transforming growth factor beta	0.0350775637989451
+GO:0010557~positive regulation of macromolecule biosynthetic process	0.0352791976248651
+GO:0048639~positive regulation of developmental growth	0.0353037746843915
+GO:1902749~regulation of cell cycle G2/M phase transition	0.0354410786814443
+GO:0055086~nucleobase-containing small molecule metabolic process	0.0359267740481261
+GO:0007219~Notch signaling pathway	0.0361401737678657
+GO:0072009~nephron epithelium development	0.0367496389046982
+GO:0010644~cell communication by electrical coupling	0.0367883320560588
+GO:0061620~glycolytic process through glucose-6-phosphate	0.0367883320560588
+GO:1901020~negative regulation of calcium ion transmembrane transporter activity	0.0367883320560588
+GO:0061615~glycolytic process through fructose-6-phosphate	0.0367883320560588
+GO:0086001~cardiac muscle cell action potential	0.0368575264493164
+GO:0010770~positive regulation of cell morphogenesis involved in differentiation	0.0377348236706653
+GO:0009891~positive regulation of biosynthetic process	0.0378639153152533
+GO:0008286~insulin receptor signaling pathway	0.0388428705402967
+GO:0010638~positive regulation of organelle organization	0.0390994055983861
+GO:0010962~regulation of glucan biosynthetic process	0.0393307229056866
+GO:0005979~regulation of glycogen biosynthetic process	0.0393307229056866
+GO:0043276~anoikis	0.0393307229056866
+GO:0034333~adherens junction assembly	0.0397764424002327
+GO:0045860~positive regulation of protein kinase activity	0.0403308638077977
+GO:0034767~positive regulation of ion transmembrane transport	0.0410031049602913
+GO:0010594~regulation of endothelial cell migration	0.0410031049602913
+GO:0050807~regulation of synapse organization	0.0410031049602913
+GO:0031334~positive regulation of protein complex assembly	0.0410908646742988
+GO:0046823~negative regulation of nucleocytoplasmic transport	0.0412786467553389
+GO:0010632~regulation of epithelial cell migration	0.0420850506707102
+GO:0050673~epithelial cell proliferation	0.0432563355730647
+GO:0071900~regulation of protein serine/threonine kinase activity	0.0433179684444949
+GO:0048812~neuron projection morphogenesis	0.0436432703314495
+GO:0019216~regulation of lipid metabolic process	0.043850391031398
+GO:0070201~regulation of establishment of protein localization	0.0441207760647833
+GO:0018108~peptidyl-tyrosine phosphorylation	0.0442137994403967
+GO:0010648~negative regulation of cell communication	0.0442501724851438
+GO:0070885~negative regulation of calcineurin-NFAT signaling cascade	0.0442709154059117
+GO:0014809~regulation of skeletal muscle contraction by regulation of release of sequestered calcium ion	0.0442709154059117
+GO:0045213~neurotransmitter receptor metabolic process	0.0442709154059117
+GO:0031033~myosin filament organization	0.0442709154059117
+GO:0031034~myosin filament assembly	0.0442709154059117
+GO:0048857~neural nucleus development	0.0443678271564066
+GO:0010717~regulation of epithelial to mesenchymal transition	0.0443678271564066
+GO:0051668~localization within membrane	0.0443678271564066
+GO:1900181~negative regulation of protein localization to nucleus	0.0443678271564066
+GO:0001704~formation of primary germ layer	0.0443691278067849
+GO:0060325~face morphogenesis	0.0446079986041141
+GO:0045055~regulated exocytosis	0.0446297801649104
+GO:0007369~gastrulation	0.0448008751142179
+GO:0018212~peptidyl-tyrosine modification	0.0453873511228844
+GO:0034332~adherens junction organization	0.0455246305436752
+GO:0023057~negative regulation of signaling	0.0455522397738929
+GO:0030038~contractile actin filament bundle assembly	0.0459544913433144
+GO:0043149~stress fiber assembly	0.0459544913433144
+GO:1901879~regulation of protein depolymerization	0.0459544913433144
+GO:0044711~single-organism biosynthetic process	0.0472173054861401
+GO:1903670~regulation of sprouting angiogenesis	0.0473393890536616
+GO:0032355~response to estradiol	0.0478858139315297
+GO:0034764~positive regulation of transmembrane transport	0.0478858139315297
+GO:0043410~positive regulation of MAPK cascade	0.0480768142423266

@@ -1,0 +1,125 @@
+GO:0005694~chromosome	1.94029848400491e-74
+GO:0044427~chromosomal part	1.60303833959404e-71
+GO:0044428~nuclear part	3.8581959215103e-59
+GO:0031981~nuclear lumen	1.46148178654845e-58
+GO:0005654~nucleoplasm	9.95245597264989e-58
+GO:0005634~nucleus	2.52631706675822e-55
+GO:0031974~membrane-enclosed lumen	1.62486958664145e-49
+GO:0070013~intracellular organelle lumen	3.49616932609757e-49
+GO:0043233~organelle lumen	2.84840448256751e-48
+GO:0000228~nuclear chromosome	3.46876678370343e-47
+GO:0098687~chromosomal region	1.28382067393937e-44
+GO:0043232~intracellular non-membrane-bounded organelle	6.95095605970219e-41
+GO:0043228~non-membrane-bounded organelle	6.95095605970219e-41
+GO:0044454~nuclear chromosome part	2.51458410337525e-40
+GO:0032991~macromolecular complex	7.74848171931012e-36
+GO:0000793~condensed chromosome	4.97931970862228e-31
+GO:0005657~replication fork	5.14928208783043e-30
+GO:0044446~intracellular organelle part	2.05101796994238e-29
+GO:0044422~organelle part	4.02234150749014e-28
+GO:0043234~protein complex	5.36076993095963e-28
+GO:0043231~intracellular membrane-bounded organelle	1.12074285325452e-27
+GO:0000775~chromosome, centromeric region	1.55106155089091e-24
+GO:0044424~intracellular part	3.29243967934716e-23
+GO:0043229~intracellular organelle	3.54917205364762e-23
+GO:0043227~membrane-bounded organelle	1.58242094735074e-21
+GO:0005622~intracellular	4.00038453740177e-21
+GO:0000781~chromosome, telomeric region	8.16827820554533e-20
+GO:0000785~chromatin	2.3448803435138e-19
+GO:0043226~organelle	3.38325926597448e-18
+GO:0043596~nuclear replication fork	5.61195152219108e-18
+GO:0000794~condensed nuclear chromosome	2.54233899256323e-17
+GO:0000784~nuclear chromosome, telomeric region	1.01852588494314e-16
+GO:0030894~replisome	4.86726989703766e-15
+GO:0000779~condensed chromosome, centromeric region	3.46699393138559e-14
+GO:0015630~microtubule cytoskeleton	9.24808638251738e-14
+GO:0043601~nuclear replisome	1.81374387543811e-13
+GO:0000776~kinetochore	4.79612023224133e-13
+GO:0005819~spindle	6.27006441167228e-12
+GO:0000777~condensed chromosome kinetochore	4.70303088818622e-11
+GO:0032993~protein-DNA complex	5.3196489444538e-11
+GO:0005813~centrosome	5.80174829080673e-11
+GO:0005829~cytosol	6.93657687514098e-11
+GO:0005815~microtubule organizing center	1.28826100622386e-10
+GO:0042555~MCM complex	4.9251665913857e-10
+GO:0005730~nucleolus	1.96702333777133e-09
+GO:0044464~cell part	3.86969387078308e-09
+GO:0005623~cell	5.39907373009691e-09
+GO:0005876~spindle microtubule	8.80077048484703e-09
+GO:0044430~cytoskeletal part	1.44599667176088e-08
+GO:0000922~spindle pole	1.32895251605081e-07
+GO:0051233~spindle midzone	2.75060505058311e-07
+GO:0061695~transferase complex, transferring phosphorus-containing groups	3.88597853993449e-07
+GO:1990391~DNA repair complex	4.2358635909758e-07
+GO:0035861~site of double-strand break	6.61107023068282e-07
+GO:1990234~transferase complex	6.64831937906435e-07
+GO:0005856~cytoskeleton	6.67104603002826e-07
+GO:0000790~nuclear chromatin	1.03960986819279e-06
+GO:0030496~midbody	1.21001822877022e-06
+GO:0072686~mitotic spindle	2.41128215399366e-06
+GO:0044451~nucleoplasm part	2.49100698635234e-06
+GO:0016604~nuclear body	4.98947911146718e-06
+GO:0034399~nuclear periphery	5.23109262132456e-06
+GO:0000792~heterochromatin	9.30080300229663e-06
+GO:0042575~DNA polymerase complex	1.01275433209451e-05
+GO:0032133~chromosome passenger complex	1.0641794228893e-05
+GO:0005635~nuclear envelope	1.30219184169742e-05
+GO:0005663~DNA replication factor C complex	2.11216691160429e-05
+GO:1902494~catalytic complex	5.44960162770371e-05
+GO:0016605~PML body	6.97298336670465e-05
+GO:0005874~microtubule	8.03869048534028e-05
+GO:0005875~microtubule associated complex	0.000159450540283541
+GO:0005643~nuclear pore	0.000217401189869933
+GO:0044450~microtubule organizing center part	0.000228230854474425
+GO:0030529~intracellular ribonucleoprotein complex	0.000509910248033543
+GO:1990904~ribonucleoprotein complex	0.000517849363251718
+GO:0005681~spliceosomal complex	0.000550214681880274
+GO:0000307~cyclin-dependent protein kinase holoenzyme complex	0.000555133063585143
+GO:0005737~cytoplasm	0.000598864827910911
+GO:0000795~synaptonemal complex	0.000615480630228154
+GO:0043625~delta DNA polymerase complex	0.000626554183049239
+GO:0000780~condensed nuclear chromosome, centromeric region	0.000926935699576799
+GO:0043073~germ cell nucleus	0.000926935699576799
+GO:0000152~nuclear ubiquitin ligase complex	0.000988553138849985
+GO:0099512~supramolecular fiber	0.00102100801671346
+GO:0099513~polymeric cytoskeletal fiber	0.00102100801671346
+GO:0005814~centriole	0.00112826682107072
+GO:0071204~histone pre-mRNA 3'end processing complex	0.0015451828289492
+GO:0005658~alpha DNA polymerase:primase complex	0.0015451828289492
+GO:0030870~Mre11 complex	0.0015451828289492
+GO:0044444~cytoplasmic part	0.00255709134648232
+GO:0031390~Ctf18 RFC-like complex	0.00284536266848916
+GO:0000803~sex chromosome	0.0029273747731285
+GO:0005871~kinesin complex	0.00301441135046292
+GO:0031965~nuclear membrane	0.00337668891759511
+GO:0005664~nuclear origin of replication recognition complex	0.00363355097667938
+GO:0000808~origin recognition complex	0.00363355097667938
+GO:0031616~spindle pole centrosome	0.00451120828589795
+GO:0000940~condensed chromosome outer kinetochore	0.0065273196920251
+GO:0000800~lateral element	0.00887876926020027
+GO:0000109~nucleotide-excision repair complex	0.00887876926020027
+GO:0005662~DNA replication factor A complex	0.0101757069924997
+GO:1902554~serine/threonine protein kinase complex	0.0102700330685724
+GO:0001673~male germ cell nucleus	0.0115510889907369
+GO:0032300~mismatch repair complex	0.0130031765348023
+GO:0035371~microtubule plus-end	0.0145302580955774
+GO:0071013~catalytic step 2 spliceosome	0.0151609833064218
+GO:1902911~protein kinase complex	0.0162878054620241
+GO:0016363~nuclear matrix	0.0180743133678467
+GO:0016607~nuclear speck	0.0181289660780806
+GO:0005881~cytoplasmic microtubule	0.0200781794992917
+GO:0070557~PCNA-p21 complex	0.0205262724799165
+GO:0031436~BRCA1-BARD1 complex	0.0205262724799165
+GO:0008280~cohesin core heterodimer	0.0205262724799165
+GO:0005637~nuclear inner membrane	0.0210364672907056
+GO:0005680~anaphase-promoting complex	0.0232325297182205
+GO:1990752~microtubule end	0.0251751098541169
+GO:0000811~GINS complex	0.0306316978325637
+GO:0031461~cullin-RING ubiquitin ligase complex	0.0309358395009325
+GO:0000151~ubiquitin ligase complex	0.0331638781246631
+GO:0048471~perinuclear region of cytoplasm	0.0335182640068783
+GO:0019013~viral nucleocapsid	0.0335679214985701
+GO:0016234~inclusion body	0.0397170391401374
+GO:0031262~Ndc80 complex	0.0406334123815463
+GO:0035985~senescence-associated heterochromatin focus	0.0406334123815463
+GO:0035061~interchromatin granule	0.0406334123815463

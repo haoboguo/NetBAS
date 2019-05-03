@@ -1,0 +1,102 @@
+GO:0008092~cytoskeletal protein binding	1.58250033577246e-70
+GO:0015631~tubulin binding	1.35863407394663e-45
+GO:0008017~microtubule binding	4.55715362411476e-45
+GO:0005515~protein binding	9.41684459532076e-30
+GO:0003779~actin binding	4.51011842615926e-24
+GO:0019899~enzyme binding	4.0895774280903e-23
+GO:0030695~GTPase regulator activity	2.06861502192751e-22
+GO:0005089~Rho guanyl-nucleotide exchange factor activity	8.77566917569957e-22
+GO:0005096~GTPase activator activity	1.20572371393541e-21
+GO:0098772~molecular function regulator	3.62309760155297e-21
+GO:0060589~nucleoside-triphosphatase regulator activity	5.00095945281616e-21
+GO:0005085~guanyl-nucleotide exchange factor activity	2.50516910222659e-19
+GO:0008047~enzyme activator activity	7.06631669567488e-19
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	2.06999208019667e-16
+GO:0051020~GTPase binding	5.93490814338792e-16
+GO:0017048~Rho GTPase binding	8.60240541090849e-16
+GO:0003774~motor activity	2.33736556234006e-15
+GO:0045296~cadherin binding	2.382641972934e-15
+GO:0098641~cadherin binding involved in cell-cell adhesion	5.80455908129448e-15
+GO:0031267~small GTPase binding	6.22921677442886e-15
+GO:0098632~protein binding involved in cell-cell adhesion	1.3649977078646e-14
+GO:0098631~protein binding involved in cell adhesion	1.98537585959243e-14
+GO:0030234~enzyme regulator activity	4.86760641670967e-14
+GO:0017016~Ras GTPase binding	8.9758068889628e-14
+GO:0050839~cell adhesion molecule binding	1.22500904742279e-13
+GO:0003777~microtubule motor activity	4.1931116601751e-13
+GO:0019901~protein kinase binding	7.20456799324704e-13
+GO:0019900~kinase binding	2.38612133218505e-12
+GO:0017111~nucleoside-triphosphatase activity	5.34024892725044e-12
+GO:0051010~microtubule plus-end binding	8.40462436046671e-12
+GO:0005488~binding	1.00641866710104e-11
+GO:0016462~pyrophosphatase activity	2.56563207996565e-11
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	2.74373227241595e-11
+GO:0016817~hydrolase activity, acting on acid anhydrides	2.93355477005182e-11
+GO:0051015~actin filament binding	3.868376783368e-11
+GO:0032403~protein complex binding	7.14197989901483e-11
+GO:0001882~nucleoside binding	1.2719802853926e-10
+GO:0035639~purine ribonucleoside triphosphate binding	2.7324192196445e-10
+GO:0032550~purine ribonucleoside binding	3.26522949521877e-10
+GO:0001883~purine nucleoside binding	3.46396496740643e-10
+GO:0032549~ribonucleoside binding	3.46396496740643e-10
+GO:0032555~purine ribonucleotide binding	6.32419224888876e-10
+GO:0097367~carbohydrate derivative binding	6.39939867511388e-10
+GO:0017076~purine nucleotide binding	8.10311133914077e-10
+GO:0032553~ribonucleotide binding	8.57688136621655e-10
+GO:0016887~ATPase activity	1.85220980638793e-09
+GO:0005200~structural constituent of cytoskeleton	5.90809449747681e-09
+GO:0043015~gamma-tubulin binding	7.75125145129491e-09
+GO:0048365~Rac GTPase binding	1.66643205085476e-08
+GO:0005524~ATP binding	6.34164630623302e-08
+GO:0032559~adenyl ribonucleotide binding	1.22942422642944e-07
+GO:0030554~adenyl nucleotide binding	1.49762922186374e-07
+GO:0044877~macromolecular complex binding	3.7100540492625e-07
+GO:0019904~protein domain specific binding	8.39417139782495e-07
+GO:0000166~nucleotide binding	1.79317841538068e-06
+GO:1901265~nucleoside phosphate binding	1.81627577796123e-06
+GO:0036094~small molecule binding	3.307192688576e-06
+GO:0048487~beta-tubulin binding	3.40587300756356e-06
+GO:0030676~Rac guanyl-nucleotide exchange factor activity	1.64323947749884e-05
+GO:0004674~protein serine/threonine kinase activity	2.39347704617364e-05
+GO:0017049~GTP-Rho binding	2.93348493411113e-05
+GO:0045502~dynein binding	3.74337961420055e-05
+GO:0008574~ATP-dependent microtubule motor activity, plus-end-directed	3.80114423725671e-05
+GO:1990939~ATP-dependent microtubule motor activity	4.84267276871497e-05
+GO:0051011~microtubule minus-end binding	8.39550879327402e-05
+GO:0004672~protein kinase activity	0.00023320609805593
+GO:0042802~identical protein binding	0.000233674289834941
+GO:0008022~protein C-terminus binding	0.000291253249443621
+GO:0005516~calmodulin binding	0.000384371424802515
+GO:0017124~SH3 domain binding	0.00049325270520855
+GO:0005198~structural molecule activity	0.000842904783216873
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00210599696692813
+GO:0046983~protein dimerization activity	0.00218526968072923
+GO:0042803~protein homodimerization activity	0.00228555671714659
+GO:0000146~microfilament motor activity	0.00233368687603942
+GO:0030742~GTP-dependent protein binding	0.00264432903238405
+GO:0008013~beta-catenin binding	0.00271422593770968
+GO:0005086~ARF guanyl-nucleotide exchange factor activity	0.00297931133267881
+GO:0042805~actinin binding	0.00457414589489966
+GO:0005525~GTP binding	0.00555144615376034
+GO:0016301~kinase activity	0.00577981629048622
+GO:0003924~GTPase activity	0.00628589701320424
+GO:0032561~guanyl ribonucleotide binding	0.00812814457476839
+GO:0019001~guanyl nucleotide binding	0.00828435215151545
+GO:0030898~actin-dependent ATPase activity	0.00971142032770813
+GO:0016787~hydrolase activity	0.010272836258785
+GO:0042623~ATPase activity, coupled	0.0145482755350398
+GO:0031434~mitogen-activated protein kinase kinase binding	0.0146019006472807
+GO:0008093~cytoskeletal adaptor activity	0.0146019006472807
+GO:0005080~protein kinase C binding	0.01644746399765
+GO:0015459~potassium channel regulator activity	0.0174210652796119
+GO:0005543~phospholipid binding	0.0236289242268666
+GO:0051393~alpha-actinin binding	0.0245986561645102
+GO:0051219~phosphoprotein binding	0.0263489671939167
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0268070347653004
+GO:0001948~glycoprotein binding	0.0325530738795511
+GO:0030674~protein binding, bridging	0.0415155844106043
+GO:0043014~alpha-tubulin binding	0.0419922220593305
+GO:0044325~ion channel binding	0.0434022512829456
+GO:0032947~protein complex scaffold	0.0435132541103248
+GO:0043515~kinetochore binding	0.0458729196879098
+GO:0036033~mediator complex binding	0.0458729196879098

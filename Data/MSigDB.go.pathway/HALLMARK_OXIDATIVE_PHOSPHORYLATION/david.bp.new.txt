@@ -1,0 +1,343 @@
+GO:0045333~cellular respiration	1.9321266241108e-111
+GO:0015980~energy derivation by oxidation of organic compounds	2.18960627280097e-96
+GO:0006091~generation of precursor metabolites and energy	3.1175319346548e-96
+GO:0046034~ATP metabolic process	3.85394392644458e-88
+GO:0055114~oxidation-reduction process	3.44042251594181e-86
+GO:0009205~purine ribonucleoside triphosphate metabolic process	1.19877433392154e-84
+GO:0009199~ribonucleoside triphosphate metabolic process	7.8122617327568e-84
+GO:0022904~respiratory electron transport chain	8.7795704042369e-84
+GO:0009144~purine nucleoside triphosphate metabolic process	1.06256974764103e-83
+GO:0022900~electron transport chain	3.68476097116269e-83
+GO:0009141~nucleoside triphosphate metabolic process	1.91224260887144e-82
+GO:0009167~purine ribonucleoside monophosphate metabolic process	2.87252027793535e-82
+GO:0009126~purine nucleoside monophosphate metabolic process	3.84725594445851e-82
+GO:0006119~oxidative phosphorylation	5.59115120851419e-82
+GO:0009161~ribonucleoside monophosphate metabolic process	8.85088665058141e-81
+GO:0009123~nucleoside monophosphate metabolic process	3.94614301661192e-79
+GO:0042775~mitochondrial ATP synthesis coupled electron transport	4.54745842283447e-79
+GO:0042773~ATP synthesis coupled electron transport	1.03708518301872e-78
+GO:0046128~purine ribonucleoside metabolic process	6.26411545439831e-76
+GO:0042278~purine nucleoside metabolic process	1.24097598261588e-75
+GO:0044281~small molecule metabolic process	3.54901545305229e-74
+GO:0009119~ribonucleoside metabolic process	3.56656081655797e-73
+GO:0009116~nucleoside metabolic process	9.86609424555314e-71
+GO:1901657~glycosyl compound metabolic process	6.06731465318588e-69
+GO:0006753~nucleoside phosphate metabolic process	4.19126121890914e-67
+GO:1902600~hydrogen ion transmembrane transport	2.05288822077483e-66
+GO:0009117~nucleotide metabolic process	3.20902391643068e-66
+GO:0055086~nucleobase-containing small molecule metabolic process	1.39278114119696e-65
+GO:0009150~purine ribonucleotide metabolic process	6.84502358846231e-63
+GO:0009259~ribonucleotide metabolic process	6.11020279228487e-62
+GO:0006163~purine nucleotide metabolic process	3.35023956762144e-61
+GO:0019693~ribose phosphate metabolic process	4.43054170491406e-61
+GO:0015992~proton transport	2.91804757728947e-60
+GO:0006818~hydrogen transport	6.26938261615511e-60
+GO:0072521~purine-containing compound metabolic process	1.51440457869556e-59
+GO:1901564~organonitrogen compound metabolic process	2.91850083251631e-56
+GO:0007005~mitochondrion organization	2.23058475432038e-55
+GO:0019637~organophosphate metabolic process	2.08513151876218e-52
+GO:0009060~aerobic respiration	1.42906376842843e-50
+GO:0044710~single-organism metabolic process	7.43177374811707e-47
+GO:0006120~mitochondrial electron transport, NADH to ubiquinone	4.53994055086264e-41
+GO:0033108~mitochondrial respiratory chain complex assembly	7.9816563685928e-40
+GO:0032981~mitochondrial respiratory chain complex I assembly	2.86248013751943e-38
+GO:0097031~mitochondrial respiratory chain complex I biogenesis	2.86248013751943e-38
+GO:0010257~NADH dehydrogenase complex assembly	2.86248013751943e-38
+GO:0006099~tricarboxylic acid cycle	9.07622681100291e-38
+GO:1901135~carbohydrate derivative metabolic process	3.13695300517191e-36
+GO:0015672~monovalent inorganic cation transport	6.92402923300084e-36
+GO:1990542~mitochondrial transmembrane transport	7.323627580175e-33
+GO:0006839~mitochondrial transport	2.24954460113726e-31
+GO:0098662~inorganic cation transmembrane transport	4.0892254218512e-30
+GO:0055085~transmembrane transport	4.30602739283019e-30
+GO:0034220~ion transmembrane transport	1.8520654305794e-28
+GO:0098660~inorganic ion transmembrane transport	2.69707353024254e-28
+GO:0098655~cation transmembrane transport	5.52337605563179e-28
+GO:0042776~mitochondrial ATP synthesis coupled proton transport	9.5132613554592e-28
+GO:0006082~organic acid metabolic process	3.85949465026724e-27
+GO:0015985~energy coupled proton transport, down electrochemical gradient	2.37823297927966e-26
+GO:0015986~ATP synthesis coupled proton transport	2.37823297927966e-26
+GO:0006812~cation transport	1.0677244202744e-24
+GO:0019752~carboxylic acid metabolic process	1.09465308630875e-24
+GO:0043436~oxoacid metabolic process	1.44770490676485e-24
+GO:0006796~phosphate-containing compound metabolic process	4.65473641967345e-24
+GO:0006793~phosphorus metabolic process	5.40488574421485e-24
+GO:0006754~ATP biosynthetic process	4.55381557522617e-23
+GO:0006811~ion transport	8.27823253974644e-23
+GO:0009206~purine ribonucleoside triphosphate biosynthetic process	6.35691635011809e-21
+GO:0009145~purine nucleoside triphosphate biosynthetic process	8.80658997256452e-21
+GO:0009142~nucleoside triphosphate biosynthetic process	3.48923603206743e-20
+GO:0009201~ribonucleoside triphosphate biosynthetic process	4.11081422074039e-20
+GO:0043623~cellular protein complex assembly	1.39940858423725e-19
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	3.71743712797132e-19
+GO:0009127~purine nucleoside monophosphate biosynthetic process	3.71743712797132e-19
+GO:0006123~mitochondrial electron transport, cytochrome c to oxygen	4.34699323408112e-19
+GO:0016054~organic acid catabolic process	4.95651319730325e-19
+GO:0090662~ATP hydrolysis coupled transmembrane transport	1.30562025020202e-18
+GO:0046129~purine ribonucleoside biosynthetic process	3.23100363665056e-18
+GO:0042451~purine nucleoside biosynthetic process	3.23100363665056e-18
+GO:0046395~carboxylic acid catabolic process	3.37696124720531e-18
+GO:0044763~single-organism cellular process	5.00895944932752e-18
+GO:0009156~ribonucleoside monophosphate biosynthetic process	6.32445026545363e-18
+GO:0015991~ATP hydrolysis coupled proton transport	1.14880562951185e-17
+GO:0015988~energy coupled proton transmembrane transport, against electrochemical gradient	1.14880562951185e-17
+GO:0009124~nucleoside monophosphate biosynthetic process	3.99442401836822e-17
+GO:0006635~fatty acid beta-oxidation	5.37105278083727e-17
+GO:0042455~ribonucleoside biosynthetic process	9.82293357994795e-17
+GO:0009062~fatty acid catabolic process	1.22785314457574e-16
+GO:0032787~monocarboxylic acid metabolic process	1.53926906826096e-16
+GO:0009163~nucleoside biosynthetic process	4.6375731967697e-16
+GO:0019395~fatty acid oxidation	5.84807155318129e-16
+GO:1901659~glycosyl compound biosynthetic process	6.22080225261356e-16
+GO:0034440~lipid oxidation	8.4359511793314e-16
+GO:0044699~single-organism process	1.46079563820066e-15
+GO:0044282~small molecule catabolic process	2.36541098769852e-15
+GO:0072329~monocarboxylic acid catabolic process	2.95856368948384e-15
+GO:0044237~cellular metabolic process	8.76189705155706e-15
+GO:0006122~mitochondrial electron transport, ubiquinol to cytochrome c	1.37090086316023e-14
+GO:0006631~fatty acid metabolic process	1.3762330018661e-14
+GO:0051186~cofactor metabolic process	4.72064102335998e-14
+GO:0016310~phosphorylation	7.03404184509096e-14
+GO:0071822~protein complex subunit organization	7.9021625781698e-14
+GO:0044711~single-organism biosynthetic process	1.6951932516602e-13
+GO:0044765~single-organism transport	1.98746154815018e-13
+GO:0046487~glyoxylate metabolic process	3.49119659189543e-13
+GO:1901566~organonitrogen compound biosynthetic process	4.46017788108195e-13
+GO:0034622~cellular macromolecular complex assembly	7.56645218996286e-13
+GO:0043648~dicarboxylic acid metabolic process	9.61307003689281e-13
+GO:1902578~single-organism localization	1.68686313169872e-12
+GO:0033572~transferrin transport	4.55451787413924e-12
+GO:0006996~organelle organization	4.95346131716833e-12
+GO:0090383~phagosome acidification	1.13814001246252e-11
+GO:0006807~nitrogen compound metabolic process	1.42865354990535e-11
+GO:0015682~ferric iron transport	1.51569312639521e-11
+GO:0072512~trivalent inorganic cation transport	1.51569312639521e-11
+GO:1902582~single-organism intracellular transport	1.71857720900041e-11
+GO:0044238~primary metabolic process	2.80052917107624e-11
+GO:0044242~cellular lipid catabolic process	3.45604585950052e-11
+GO:0009152~purine ribonucleotide biosynthetic process	6.0009250349955e-11
+GO:0006164~purine nucleotide biosynthetic process	9.74962523399328e-11
+GO:0071704~organic substance metabolic process	1.26973391858875e-10
+GO:0006461~protein complex assembly	1.31822169508457e-10
+GO:0070271~protein complex biogenesis	1.34890644339012e-10
+GO:0009260~ribonucleotide biosynthetic process	1.46019611178208e-10
+GO:0007006~mitochondrial membrane organization	1.7648214452963e-10
+GO:0045851~pH reduction	1.77362333256001e-10
+GO:0046390~ribose phosphate biosynthetic process	1.7843788614174e-10
+GO:0008152~metabolic process	1.8895681327661e-10
+GO:0072522~purine-containing compound biosynthetic process	2.02786599705393e-10
+GO:0034641~cellular nitrogen compound metabolic process	2.11034111491541e-10
+GO:0090382~phagosome maturation	3.54988994715849e-10
+GO:0051188~cofactor biosynthetic process	3.58446912218278e-10
+GO:0006732~coenzyme metabolic process	6.47871400440768e-10
+GO:1901293~nucleoside phosphate biosynthetic process	6.896903394003e-10
+GO:0006885~regulation of pH	1.14635898676764e-09
+GO:0006826~iron ion transport	1.72724764495275e-09
+GO:0010510~regulation of acetyl-CoA biosynthetic process from pyruvate	1.86088060916767e-09
+GO:0065003~macromolecular complex assembly	3.25669595038936e-09
+GO:0051452~intracellular pH reduction	3.30798445565525e-09
+GO:0050812~regulation of acyl-CoA biosynthetic process	3.42295094915562e-09
+GO:0009165~nucleotide biosynthetic process	3.74575002122249e-09
+GO:0072350~tricarboxylic acid metabolic process	5.93302556198036e-09
+GO:0006733~oxidoreduction coenzyme metabolic process	7.48490386153126e-09
+GO:0016042~lipid catabolic process	8.62137987011419e-09
+GO:0030258~lipid modification	9.62965646276396e-09
+GO:0006626~protein targeting to mitochondrion	1.05735597958719e-08
+GO:0055067~monovalent inorganic cation homeostasis	1.05735597958719e-08
+GO:0035383~thioester metabolic process	1.30983234362387e-08
+GO:0006637~acyl-CoA metabolic process	1.30983234362387e-08
+GO:0006810~transport	1.56234203776657e-08
+GO:0046496~nicotinamide nucleotide metabolic process	1.78357330182425e-08
+GO:0019362~pyridine nucleotide metabolic process	1.78357330182425e-08
+GO:0051234~establishment of localization	2.73519513643283e-08
+GO:0072524~pyridine-containing compound metabolic process	3.63171137280029e-08
+GO:0072655~establishment of protein localization to mitochondrion	3.68069401426439e-08
+GO:0070585~protein localization to mitochondrion	4.49516841007977e-08
+GO:0030004~cellular monovalent inorganic cation homeostasis	5.50713973829356e-08
+GO:0051453~regulation of intracellular pH	6.61022721555821e-08
+GO:0042762~regulation of sulfur metabolic process	7.23007834277958e-08
+GO:0000041~transition metal ion transport	7.28842226418563e-08
+GO:0008286~insulin receptor signaling pathway	7.28842226418563e-08
+GO:0043933~macromolecular complex subunit organization	7.95105027515637e-08
+GO:0030641~regulation of cellular pH	8.21299978777261e-08
+GO:0006102~isocitrate metabolic process	8.38362478809838e-08
+GO:0017004~cytochrome complex assembly	9.83081650114968e-08
+GO:0044712~single-organism catabolic process	1.01087367756869e-07
+GO:1902580~single-organism cellular localization	1.14359244784259e-07
+GO:1901360~organic cyclic compound metabolic process	1.49298919076838e-07
+GO:0009987~cellular process	3.66434607114425e-07
+GO:0006629~lipid metabolic process	3.88056494167105e-07
+GO:0006085~acetyl-CoA biosynthetic process	5.20868698594082e-07
+GO:0070126~mitochondrial translational termination	6.22970185843184e-07
+GO:0044743~intracellular protein transmembrane import	6.35475070430505e-07
+GO:0006084~acetyl-CoA metabolic process	8.12965921629744e-07
+GO:0044255~cellular lipid metabolic process	1.00486310128319e-06
+GO:0032543~mitochondrial translation	1.14532281972521e-06
+GO:0006103~2-oxoglutarate metabolic process	1.44499327502843e-06
+GO:0006415~translational termination	1.59131768384641e-06
+GO:0009083~branched-chain amino acid catabolic process	1.94281319208866e-06
+GO:0033539~fatty acid beta-oxidation using acyl-CoA dehydrogenase	1.94281319208866e-06
+GO:0006006~glucose metabolic process	2.18249783146084e-06
+GO:0065002~intracellular protein transmembrane transport	2.34248787125151e-06
+GO:0006725~cellular aromatic compound metabolic process	2.34401395141351e-06
+GO:0007007~inner mitochondrial membrane organization	3.33696130295123e-06
+GO:0006086~acetyl-CoA biosynthetic process from pyruvate	3.36554073955123e-06
+GO:0009081~branched-chain amino acid metabolic process	4.27826183116951e-06
+GO:0046907~intracellular transport	4.3480376103324e-06
+GO:0015853~adenine transport	5.92953065917759e-06
+GO:0070125~mitochondrial translational elongation	5.95098730573801e-06
+GO:0019217~regulation of fatty acid metabolic process	5.95098730573801e-06
+GO:0071806~protein transmembrane transport	6.13539397949433e-06
+GO:0046483~heterocycle metabolic process	6.2431254509075e-06
+GO:0006790~sulfur compound metabolic process	6.45060741340969e-06
+GO:0022607~cellular component assembly	7.60945608014699e-06
+GO:0071616~acyl-CoA biosynthetic process	9.41874611119164e-06
+GO:0035384~thioester biosynthetic process	9.41874611119164e-06
+GO:0008637~apoptotic mitochondrial changes	9.46223078255682e-06
+GO:0090407~organophosphate biosynthetic process	1.00228872655189e-05
+GO:0032869~cellular response to insulin stimulus	1.14958132626189e-05
+GO:0016043~cellular component organization	1.47776233863876e-05
+GO:0019318~hexose metabolic process	1.52127268370972e-05
+GO:0006090~pyruvate metabolic process	1.58919826404562e-05
+GO:0006139~nucleobase-containing compound metabolic process	1.62705816436599e-05
+GO:0021762~substantia nigra development	1.97729497832781e-05
+GO:0005996~monosaccharide metabolic process	2.51112464906247e-05
+GO:0032868~response to insulin	2.62185366498434e-05
+GO:0061732~mitochondrial acetyl-CoA biosynthetic process from pyruvate	2.91469002586428e-05
+GO:0051193~regulation of cofactor metabolic process	3.12478445274848e-05
+GO:0051196~regulation of coenzyme metabolic process	3.12478445274848e-05
+GO:0044248~cellular catabolic process	3.49398690599922e-05
+GO:0071840~cellular component organization or biogenesis	4.76878639599692e-05
+GO:0006863~purine nucleobase transport	5.0574823756924e-05
+GO:0055080~cation homeostasis	5.30229038782846e-05
+GO:0019674~NAD metabolic process	5.79240630801895e-05
+GO:0006778~porphyrin-containing compound metabolic process	7.02443132839362e-05
+GO:0042180~cellular ketone metabolic process	7.04156631496017e-05
+GO:0007035~vacuolar acidification	7.09538344904074e-05
+GO:0098771~inorganic ion homeostasis	7.28457104265427e-05
+GO:0019725~cellular homeostasis	8.8992597088837e-05
+GO:0072321~chaperone-mediated protein transport	0.000119332683996589
+GO:0015851~nucleobase transport	0.000119332683996589
+GO:0030901~midbrain development	0.000127577238557069
+GO:0008535~respiratory chain complex IV assembly	0.000150116381477727
+GO:0048857~neural nucleus development	0.000151824446822233
+GO:0044085~cellular component biogenesis	0.00015431936713357
+GO:0050801~ion homeostasis	0.000164538420350779
+GO:0051179~localization	0.000174280589894549
+GO:0006414~translational elongation	0.000176878947660076
+GO:0006779~porphyrin-containing compound biosynthetic process	0.000207441536075224
+GO:0090151~establishment of protein localization to mitochondrial membrane	0.000230454782905667
+GO:1901606~alpha-amino acid catabolic process	0.00023913565234956
+GO:0009108~coenzyme biosynthetic process	0.000249459720576896
+GO:0043043~peptide biosynthetic process	0.000254861505463801
+GO:0006105~succinate metabolic process	0.000304676006627714
+GO:0033014~tetrapyrrole biosynthetic process	0.000320804961568665
+GO:0051649~establishment of localization in cell	0.000321639935232513
+GO:0030003~cellular cation homeostasis	0.000341305549481596
+GO:0042168~heme metabolic process	0.000417442728651465
+GO:0048878~chemical homeostasis	0.000423365435233682
+GO:0043624~cellular protein complex disassembly	0.000432891288066948
+GO:0006412~translation	0.000440618198143143
+GO:0006873~cellular ion homeostasis	0.000458440248495714
+GO:0010565~regulation of cellular ketone metabolic process	0.000490305973654746
+GO:0044283~small molecule biosynthetic process	0.000531426361029656
+GO:0016241~regulation of macroautophagy	0.000576506728927692
+GO:0033013~tetrapyrrole metabolic process	0.000576527071480422
+GO:0034643~establishment of mitochondrion localization, microtubule-mediated	0.000614299626257735
+GO:0047497~mitochondrion transport along microtubule	0.000614299626257735
+GO:0071375~cellular response to peptide hormone stimulus	0.000627470552335056
+GO:0005975~carbohydrate metabolic process	0.000651757783313631
+GO:0006121~mitochondrial electron transport, succinate to ubiquinone	0.000776643021072267
+GO:0006734~NADH metabolic process	0.000830371491763452
+GO:0051646~mitochondrion localization	0.000830371491763452
+GO:0043434~response to peptide hormone	0.000840725726495913
+GO:0043604~amide biosynthetic process	0.000848027753707151
+GO:0030150~protein import into mitochondrial matrix	0.000902658036115951
+GO:1901653~cellular response to peptide	0.00106532760254004
+GO:0051654~establishment of mitochondrion localization	0.00107406420943223
+GO:0042592~homeostatic process	0.00107699085162105
+GO:1901137~carbohydrate derivative biosynthetic process	0.00116189368537976
+GO:0006518~peptide metabolic process	0.00120332097007922
+GO:0045039~protein import into mitochondrial inner membrane	0.00128460632022416
+GO:0006104~succinyl-CoA metabolic process	0.00128460632022416
+GO:0009056~catabolic process	0.00133209350334127
+GO:0006094~gluconeogenesis	0.00151978653296568
+GO:1901575~organic substance catabolic process	0.00155597925475007
+GO:0009068~aspartate family amino acid catabolic process	0.00170679370522074
+GO:0019319~hexose biosynthetic process	0.00181831544622716
+GO:0010243~response to organonitrogen compound	0.00189683776877062
+GO:1901652~response to peptide	0.00190580890513828
+GO:0006783~heme biosynthetic process	0.00195967439491561
+GO:0009725~response to hormone	0.00200343858603383
+GO:0046364~monosaccharide biosynthetic process	0.00228044165250074
+GO:0043603~cellular amide metabolic process	0.0024264833990389
+GO:0044272~sulfur compound biosynthetic process	0.00250147631582337
+GO:0008053~mitochondrial fusion	0.00253248802500755
+GO:0009063~cellular amino acid catabolic process	0.00254107690235517
+GO:0043241~protein complex disassembly	0.00259589093166818
+GO:1901565~organonitrogen compound catabolic process	0.00318916518118106
+GO:0006914~autophagy	0.00332688178642394
+GO:0032984~macromolecular complex disassembly	0.00336588545873986
+GO:0097345~mitochondrial outer membrane permeabilization	0.00341681202240557
+GO:0006108~malate metabolic process	0.00351597590436409
+GO:0055082~cellular chemical homeostasis	0.00361647263105151
+GO:1902110~positive regulation of mitochondrial membrane permeability involved in apoptotic process	0.00365219095259452
+GO:1902686~mitochondrial outer membrane permeabilization involved in programmed cell death	0.00365219095259452
+GO:0044723~single-organism carbohydrate metabolic process	0.00379927715182945
+GO:0010506~regulation of autophagy	0.00394853536427112
+GO:0035794~positive regulation of mitochondrial membrane permeability	0.00415548103829448
+GO:0051604~protein maturation	0.00419128836334187
+GO:0072593~reactive oxygen species metabolic process	0.00420658823080341
+GO:0008635~activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c	0.00448644539592184
+GO:1902108~regulation of mitochondrial membrane permeability involved in apoptotic process	0.00499511385363542
+GO:0051641~cellular localization	0.00510550705360702
+GO:0006979~response to oxidative stress	0.00595537001846293
+GO:0019216~regulation of lipid metabolic process	0.00604902658402902
+GO:1901698~response to nitrogen compound	0.00737295395819594
+GO:0006554~lysine catabolic process	0.0080407813566916
+GO:0006107~oxaloacetate metabolic process	0.0080407813566916
+GO:0046902~regulation of mitochondrial membrane permeability	0.00859656360897693
+GO:0042440~pigment metabolic process	0.00859656360897693
+GO:0006553~lysine metabolic process	0.00943133560602645
+GO:0072594~establishment of protein localization to organelle	0.0101166648612581
+GO:0090559~regulation of membrane permeability	0.0104136680787395
+GO:2001234~negative regulation of apoptotic signaling pathway	0.0108817425754832
+GO:0010823~negative regulation of mitochondrion organization	0.0131673542445212
+GO:0022411~cellular component disassembly	0.0134404670087332
+GO:0016226~iron-sulfur cluster assembly	0.0159567866108694
+GO:0031163~metallo-sulfur cluster assembly	0.0159567866108694
+GO:0010821~regulation of mitochondrion organization	0.0168100909278369
+GO:0016485~protein processing	0.0195451992777356
+GO:0070584~mitochondrion morphogenesis	0.0197644698504871
+GO:0015031~protein transport	0.0216171268891849
+GO:0071417~cellular response to organonitrogen compound	0.0222564466127027
+GO:0046160~heme a metabolic process	0.0228557112592515
+GO:0006784~heme a biosynthetic process	0.0228557112592515
+GO:0006097~glyoxylate cycle	0.0228557112592515
+GO:0045184~establishment of protein localization	0.0233903396670524
+GO:0046148~pigment biosynthetic process	0.0241524569292739
+GO:1901605~alpha-amino acid metabolic process	0.025429332611028
+GO:0030001~metal ion transport	0.025741907109834
+GO:0016051~carbohydrate biosynthetic process	0.0259053179486611
+GO:0032870~cellular response to hormone stimulus	0.0259071274036085
+GO:1901699~cellular response to nitrogen compound	0.0279628391551286
+GO:0043281~regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0282777632371578
+GO:0001836~release of cytochrome c from mitochondria	0.0290672914034707
+GO:0009636~response to toxic substance	0.0294663324578504
+GO:0009066~aspartate family amino acid metabolic process	0.0317081377187043
+GO:0006605~protein targeting	0.0318933017747108
+GO:0006740~NADPH regeneration	0.0340879237512533
+GO:0097428~protein maturation by iron-sulfur cluster transfer	0.0340879237512533
+GO:0006106~fumarate metabolic process	0.0340879237512533
+GO:0072384~organelle transport along microtubule	0.0344704411601856
+GO:0009065~glutamine family amino acid catabolic process	0.0356499931798749
+GO:0017038~protein import	0.0365850142854586
+GO:0097190~apoptotic signaling pathway	0.0372373912465992
+GO:1903959~regulation of anion transmembrane transport	0.0408513761330491
+GO:0046320~regulation of fatty acid oxidation	0.0408513761330491
+GO:2000116~regulation of cysteine-type endopeptidase activity	0.0447097580435702
+GO:0000957~mitochondrial RNA catabolic process	0.045191683992381
+GO:0000960~regulation of mitochondrial RNA catabolic process	0.045191683992381
+GO:0006536~glutamate metabolic process	0.0463186151829693
+GO:0043280~positive regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0485008919573413
+GO:1901700~response to oxygen-containing compound	0.0493014007328782

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>WebGestalt (WEB-based GEne SeT AnaLysis Toolkit)</title>
+<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/webgestalt/favicon.png">
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-42098540-1', 'auto');
+ga('send', 'pageview');
+</script>
+		
+	<script>window.cytoscape = null;</script>
+	<link rel="stylesheet" href="http://www.webgestalt.org//assets/0.3/build/wg.css">
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+</head>
+<body>
+<header>
+	<div id="header-img"><a href="http://www.webgestalt.org/"><img border="0" src="http://www.webgestalt.org//images/gsa.png"></a></div>
+	<div id="header-title">
+		<p id="header-title-text">WEB-based GEne SeT AnaLysis Toolkit</p>
+		<p id="header-subtitle-text">Translating gene lists into biological insights...</p>
+	</div>
+</header>
+<hr><main>
+<div id="app">
+<div class="loading-preinit" v-cloak><div class="loading-icon"></div></div>
+<div class="wrapper" v-cloak>
+<div class="level">
+	<div class="level-left">
+		<div class="level-item">
+			<h4 class="title is-4 has-text-primary">Summary</h4>
+		</div>
+	</div>
+	<div class="level-right">
+		<div class="level-item">
+			<a class="button is-text" href="Project_1549753713.zip" target="_blank">Result Download</a>
+		</div>
+	</div>
+</div>
+
+<section id="summary" class="summary">
+<div class="card" v-bind:class="{active: summaryShown}" >
+	<div class="card-header" v-on:click="summaryShown=!summaryShown">
+		<p class="card-header-title">Job summary</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="summaryShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div class="card-content content" v-show="summaryShown">
+		<ul id="summary-list"> 
+		<li><b>Enrich method:</b> ORA</li>
+		<li><b>Organism: </b>hsapiens</li>
+		<li>
+			
+			<b>Enrichment Categories: </b>pathway_KEGG
+			<a class="has-text-info" href="http://www.webgestalt.org//api/geneset?organism=hsapiens&database=pathway_KEGG&fileType=gmt">
+				<b-icon icon="download" size="is-small"></b-icon>
+			</a>
+		
+		</li>
+
+			<li><b>Interesting list: </b>HALLMARK_REACTIVE_OXIGEN_SPECIES_PATHWAY.geneset.txt. <b>ID type: </b>ensembl_gene_id</li>
+						<li>The interesting list contains <b>53</b> user IDs in which <b>53</b> user IDs are unambiguously mapped to <b>46</b> unique entrezgene IDs and <b>0</b> user IDs can not be mapped to any entrezgene ID.</li>
+			<li>The GO Slim summary are based upon the <b>46</b> unique entrezgene IDs.</li>
+		
+
+		<li>Among <b>46</b> unique entrezgene IDs, <b>29</b> IDs are annotated to the selected functional categories and also in the reference list, which are used for the enrichment analysis.</li>
+	<li><b>Reference list: </b>/Library/Frameworks/R.framework/Versions/3.5/Resources/library/WebGestaltR/extdata/referenceGenes.txt <b>ID type: </b>genesymbol</li>
+		
+	<li>The reference list can be mapped to <b>10754</b> entrezgene IDs and <b> 5535</b> IDs are annotated to the selected functional categories that are used as the reference for the enrichment analysis.</li>
+</ul> 
+
+<p><b>Parameters for the enrichment analysis:</b></p>
+<ul><li><b>Minimum number of IDs in the category: </b>10</li>
+<li><b>Maximum number of IDs in the category: </b>500</li>
+<li><b>FDR Method: </b>BH</li>
+<li><b>Significance Level:</b> FDR < 0.05</li>
+</ul>
+	
+	<p>Based on the above parameters, <b>5</b> categories are identified as enriched categories and all are shown in this report.</p>
+	
+
+	</div>
+</div>
+</section>
+<section id="go-summary" class="summary">
+<div class="card" v-bind:class="{active: goShown}" >
+	<div class="card-header" v-on:click="goShown=!goShown">
+		<p class="card-header-title">GO Slim summary for the user uploaded IDs</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="goShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div v-show="goShown">
+		<div class="card-content">
+			<p>Each Biological Process, Cellular Component and Molecular Function category is represented by a red, blue and green bar, repectively.</p>
+			<p>The height of the bar represents the number of IDs in the user list and also in the category.</p>
+		</div>
+		<div class="card-image">
+			<img src="goslim_summary_1549753713.png" width="100%" height="100%" alt="Bar charts of enriched GO Slim terms"/>
+		</div>
+	</div>
+</div>
+</section> <h4 class="title is-4 has-text-primary">Enrichment Results</h4>
+<section id="enrich-result">
+	<p class="select-redundancy">
+		<b-tooltip label="Enriched gene sets are post-processed by two methods to reduce redundancy." type="is-dark" animated multilined dashed>
+			Redundancy reduction:
+		</b-tooltip>
+		<b-radio v-model="redundancy" native-value="all">All</b-radio>
+		<b-radio v-model="redundancy" native-value="ap">
+			<b-tooltip label="R package apcluster is used to cluster gene sets." type="is-dark" animated multilined dashed>
+				Affinity propagation
+			</b-tooltip>
+		</b-radio>
+		
+		<b-radio v-model="redundancy" native-value="wsc">
+			<b-tooltip label="Find top gene sets while maximizing gene coverage." type="is-dark" animated multilined dashed>
+				Weighted set cover
+			</b-tooltip>
+		</b-radio>
+	</p>
+	<b-tabs v-model="activeTab" type="is-toggle">
+		<b-tab-item label="Table">
+			<wg-result-table
+				:data="enrichmentData"
+				:method="enrichMethod"
+			></wg-resutl-table>
+		</b-tab-item>
+		<b-tab-item label="Bar chart">
+		<div class="vertical-center-container">
+			<wg-bar-plot
+				:dimensions="bar.dimensions"
+				:data="enrichmentData"
+				:value-key="bar.valueKey"
+				name-key="description"
+								:x-label="bar.xLabel">
+			</wg-bar-plot>
+		</div>
+		</b-tab-item>
+		<b-tab-item label="Volcano plot">
+		<div class="vertical-center-container">
+			<wg-volcano-plot
+				:data="volcanoData"
+				:x="volcano.x"
+				:y="volcano.y"
+				:x-label="volcano.xLabel"
+				:label-types="volcano.labelTypes"
+				:x-transform="volcano.xTransform"
+				:radius="volcano.radius"
+				:color="volcano.color"
+				:tooltip-content="volcano.tooltipContent"
+				:show-all-labels="false"
+				:auto-place-labels="true"
+			></wg-volcano-plot>
+		</div>
+		</b-tab-item>
+	</b-tabs>
+	<wg-gene-table
+		:data="geneTables"
+		:info="enrichment"
+		:standard-id="standardId"
+		:method="enrichMethod"
+		:mapped-input-size="mappedInputSize"
+		:enrich-database="enrichDatabase"
+		:organism="organism"
+		:host-name="hostName"
+	></wg-gene-table>
+</section> 
+
+</div>
+</div>
+</main>
+	<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/wg.min.js"></script>
+<script type="text/javascript">
+var enrichment = [{"geneSet":"hsa04216","description":"Ferroptosis","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa04216+2512+2730+2879+5621","C":31,"O":4,"E":0.156820234869015,"R":25.5069124423963,"pValue":1.50136245534727e-05,"FDR":0.00326291951563218,"overlapId":"2512;2730;2879;5621"},{"geneSet":"hsa00480","description":"Glutathione metabolism","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa00480+2539+2730+2879+2936","C":34,"O":4,"E":0.171996386630533,"R":23.2563025210084,"pValue":2.1898788695518e-05,"FDR":0.00326291951563218,"overlapId":"2539;2730;2879;2936"},{"geneSet":"hsa04146","description":"Peroxisome","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa04146+5052+6647+6648+847","C":61,"O":4,"E":0.308581752484192,"R":12.9625292740047,"pValue":0.000224335658152386,"FDR":0.0222840087098037,"overlapId":"5052;6647;6648;847"},{"geneSet":"hsa04978","description":"Mineral absorption","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa04978+2512+3163+475","C":31,"O":3,"E":0.156820234869015,"R":19.1301843317972,"pValue":0.000474099113446425,"FDR":0.0353203839517586,"overlapId":"2512;3163;475"},{"geneSet":"hsa05016","description":"Huntington disease","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa05016+4700+4710+4720+6647+6648","C":147,"O":5,"E":0.743631436314363,"R":6.72376093294461,"pValue":0.000740490063301902,"FDR":0.0441332077727934,"overlapId":"4700;4710;4720;6647;6648"}];
+var background = [{"geneSet":"hsa04213","R":9.56509216589862,"FDR":0.17839869590311,"O":3},{"geneSet":"hsa00030","R":17.1894409937888,"FDR":0.248921593073147,"O":2},{"geneSet":"hsa00190","R":7.05994897959184,"FDR":0.312983738503143,"O":3},{"geneSet":"hsa01200","R":6.44604037267081,"FDR":0.356918051580721,"O":3},{"geneSet":"hsa05020","R":11.2959183673469,"FDR":0.394747606992576,"O":2},{"geneSet":"hsa05012","R":5.59467654986523,"FDR":0.427979441141942,"O":3},{"geneSet":"hsa04068","R":4.74428571428571,"FDR":0.515831448753664,"O":3},{"geneSet":"hsa04723","R":4.74428571428571,"FDR":0.515831448753664,"O":3},{"geneSet":"hsa05014","R":8.06851311953353,"FDR":0.515831448753664,"O":2},{"geneSet":"hsa04932","R":4.63309151785714,"FDR":0.515831448753664,"O":3},{"geneSet":"hsa05010","R":4.36055672268908,"FDR":0.565497671658161,"O":3},{"geneSet":"hsa05225","R":4.06188845401174,"FDR":0.622278508120876,"O":3},{"geneSet":"hsa05230","R":6.48126463700234,"FDR":0.622278508120876,"O":2},{"geneSet":"hsa04714","R":3.63825591586328,"FDR":0.75187503612972,"O":3},{"geneSet":"hsa04211","R":4.70663265306122,"FDR":0.993947931103296,"O":2},{"geneSet":"hsa00860","R":13.1785714285714,"FDR":1,"O":1},{"geneSet":"hsa00630","R":9.88392857142857,"FDR":1,"O":1},{"geneSet":"hsa04950","R":9.41326530612245,"FDR":1,"O":1},{"geneSet":"hsa00051","R":8.98538961038961,"FDR":1,"O":1},{"geneSet":"hsa00052","R":8.59472049689441,"FDR":1,"O":1},{"geneSet":"hsa00380","R":7.90714285714286,"FDR":1,"O":1},{"geneSet":"hsa05418","R":3.24063231850117,"FDR":1,"O":2},{"geneSet":"hsa00270","R":5.8140756302521,"FDR":1,"O":1},{"geneSet":"hsa00983","R":5.06868131868132,"FDR":1,"O":1},{"geneSet":"hsa03022","R":4.59717607973422,"FDR":1,"O":1},{"geneSet":"hsa03420","R":4.49269480519481,"FDR":1,"O":1},{"geneSet":"hsa00010","R":4.39285714285714,"FDR":1,"O":1},{"geneSet":"hsa05202","R":2.27216748768473,"FDR":1,"O":2},{"geneSet":"hsa05200","R":1.62364329715459,"FDR":1,"O":4},{"geneSet":"hsa01230","R":3.35048426150121,"FDR":1,"O":1},{"geneSet":"hsa03018","R":3.18836405529954,"FDR":1,"O":1},{"geneSet":"hsa04918","R":3.18836405529954,"FDR":1,"O":1},{"geneSet":"hsa05211","R":3.04120879120879,"FDR":1,"O":1},{"geneSet":"hsa05221","R":2.99512987012987,"FDR":1,"O":1},{"geneSet":"hsa04066","R":2.08082706766917,"FDR":1,"O":1},{"geneSet":"hsa04625","R":2.08082706766917,"FDR":1,"O":1},{"geneSet":"hsa04152","R":1.83035714285714,"FDR":1,"O":1},{"geneSet":"hsa04668","R":1.83035714285714,"FDR":1,"O":1},{"geneSet":"hsa04919","R":1.79707792207792,"FDR":1,"O":1},{"geneSet":"hsa04110","R":1.71894409937888,"FDR":1,"O":1},{"geneSet":"hsa04380","R":1.67524213075061,"FDR":1,"O":1},{"geneSet":"hsa04145","R":1.50899672846238,"FDR":1,"O":1},{"geneSet":"hsa04217","R":1.44290928050052,"FDR":1,"O":1},{"geneSet":"hsa04621","R":1.39210261569417,"FDR":1,"O":1},{"geneSet":"hsa05152","R":1.25113019891501,"FDR":1,"O":1},{"geneSet":"hsa04360","R":1.19805194805195,"FDR":1,"O":1}];
+var geneTables = {"hsa04216":[{"userId":"ENSG00000087086","geneSymbol":"FTL","geneName":"ferritin light chain","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2512","entrezgene":"2512"},{"userId":"ENSG00000023909","geneSymbol":"GCLM","geneName":"glutamate-cysteine ligase modifier subunit","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2730","entrezgene":"2730"},{"userId":"ENSG00000167468","geneSymbol":"GPX4","geneName":"glutathione peroxidase 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2879","entrezgene":"2879"},{"userId":"ENSG00000171867","geneSymbol":"PRNP","geneName":"prion protein","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5621","entrezgene":"5621"}],"hsa00480":[{"userId":"ENSG00000160211","geneSymbol":"G6PD","geneName":"glucose-6-phosphate dehydrogenase","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2539","entrezgene":"2539"},{"userId":"ENSG00000023909","geneSymbol":"GCLM","geneName":"glutamate-cysteine ligase modifier subunit","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2730","entrezgene":"2730"},{"userId":"ENSG00000167468","geneSymbol":"GPX4","geneName":"glutathione peroxidase 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2879","entrezgene":"2879"},{"userId":"ENSG00000104687","geneSymbol":"GSR","geneName":"glutathione-disulfide reductase","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2936","entrezgene":"2936"}],"hsa04146":[{"userId":"ENSG00000121691","geneSymbol":"CAT","geneName":"catalase","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=847","entrezgene":"847"},{"userId":"ENSG00000117450","geneSymbol":"PRDX1","geneName":"peroxiredoxin 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5052","entrezgene":"5052"},{"userId":"ENSG00000142168","geneSymbol":"SOD1","geneName":"superoxide dismutase 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=6647","entrezgene":"6647"},{"userId":"ENSG00000112096","geneSymbol":"SOD2","geneName":"superoxide dismutase 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=6648","entrezgene":"6648"}],"hsa04978":[{"userId":"ENSG00000177556","geneSymbol":"ATOX1","geneName":"antioxidant 1 copper chaperone","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=475","entrezgene":"475"},{"userId":"ENSG00000087086","geneSymbol":"FTL","geneName":"ferritin light chain","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2512","entrezgene":"2512"},{"userId":"ENSG00000103415","geneSymbol":"HMOX2","geneName":"heme oxygenase 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=3163","entrezgene":"3163"},{"userId":"ENSG00000277424","geneSymbol":"HMOX2","geneName":"heme oxygenase 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=3163","entrezgene":"3163"}],"hsa05016":[{"userId":"ENSG00000184983","geneSymbol":"NDUFA6","geneName":"NADH:ubiquinone oxidoreductase subunit A6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4700","entrezgene":"4700"},{"userId":"ENSG00000272765","geneSymbol":"NDUFA6","geneName":"NADH:ubiquinone oxidoreductase subunit A6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4700","entrezgene":"4700"},{"userId":"ENSG00000273397","geneSymbol":"NDUFA6","geneName":"NADH:ubiquinone oxidoreductase subunit A6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4700","entrezgene":"4700"},{"userId":"ENSG00000277365","geneSymbol":"NDUFA6","geneName":"NADH:ubiquinone oxidoreductase subunit A6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4700","entrezgene":"4700"},{"userId":"ENSG00000281013","geneSymbol":"NDUFA6","geneName":"NADH:ubiquinone oxidoreductase subunit A6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4700","entrezgene":"4700"},{"userId":"ENSG00000065518","geneSymbol":"NDUFB4","geneName":"NADH:ubiquinone oxidoreductase subunit B4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4710","entrezgene":"4710"},{"userId":"ENSG00000158864","geneSymbol":"NDUFS2","geneName":"NADH:ubiquinone oxidoreductase core subunit S2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4720","entrezgene":"4720"},{"userId":"ENSG00000142168","geneSymbol":"SOD1","geneName":"superoxide dismutase 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=6647","entrezgene":"6647"},{"userId":"ENSG00000112096","geneSymbol":"SOD2","geneName":"superoxide dismutase 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=6648","entrezgene":"6648"}]};
+var clusters = {"ap":{"clusters":[["hsa04216","hsa00480","hsa04978"],["hsa04146","hsa05016"]],"representatives":["hsa04216","hsa04146"]},"wsc":{"representatives":["hsa04216","hsa05016","hsa00480","hsa04146","hsa04978"],"coverage":1}};
+
+wgLib({
+	enrichDatabase: "pathway_KEGG",
+	organism: "hsapiens",
+	hostName: "http://www.webgestalt.org/",
+	enrichment: enrichment,
+	background: background,
+	geneTables: geneTables,
+	clusters: clusters,
+	
+	enrichMethod: "ora",
+	mappedInputSize: 29,
+	standardId: "entrezgene",
+	volcano: {
+		labelTypes: ["geneSet", "description"],
+				autoPlaceLabels: true,
+		y: "FDR",
+
+
+		x: "R",
+		xLabel: "log2 of enrichment ratio",
+		radius: "O",
+		color: "O",
+			tooltipContent: ["geneSet", "description", "R", "FDR", "pValue", "O"]
+					
+	},
+	bar: {
+		dimensions: { width: 960, height: 300 },
+		tooltipContent: ["geneSet", "description", "R", "FDR", "pValue", "O"],
+		
+		valueKey: "R",
+		xLabel: "Enrichment ratio"
+	}
+})
+
+
+</script>
+<footer class="footer has-text-centered">
+<p>WebGestalt is currently developed and maintained by Yuxing Liao, Suhas Vasaikar, Zhiao Shi and Bing Zhang at the <a target="_new" href=http://www.zhang-lab.org> Zhang Lab</a>. Other people who have made significant contribution to the project include Jing Wang, Dexter Duncan, Stefan Kirov and Jay Snoddy.</p>
+<p><b>Funding credits:</b> NIH/NCI (U24 CA210954); Leidos (15X038); CPRIT (RR160027); NIH/NIAAA (U01 AA016662, U01 AA013512); NIH/NIDA (P01 DA015027); NIH/NIMH (P50 MH078028, P50 MH096972); NIH/NCI (U24 CA159988); NIH/NIGMS (R01 GM088822).
+</p>
+</footer></body>
+</html>

@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:1902287"	"semaphorin-plexin signaling pathway involved in axon guidance"	"40.528"	NA
+"GO:0021637"	"trigeminal nerve structural organization"	"36.703"	NA
+"GO:0060666"	"dichotomous subdivision of terminal units involved in salivary gland branching"	"35.085"	NA
+"GO:0021612"	"facial nerve structural organization"	"33.43"	"0.006414803729842905"
+"GO:0036486"	"ventral trunk neural crest cell migration"	"32.778"	"0.0028556962005395494"
+"GO:0097490"	"sympathetic neuron projection extension"	"32.778"	"0.0028556962005395494"
+"GO:0097491"	"sympathetic neuron projection guidance"	"32.778"	"0.0028556962005395494"
+"GO:1902285"	"semaphorin-plexin signaling pathway involved in neuron projection guidance"	"32.778"	"0.00925370126686077"
+"GO:1901492"	"positive regulation of lymphangiogenesis"	"31.591"	NA
+"GO:0048846"	"axon extension involved in axon guidance"	"30.389"	"3.5969639072687176E-4"

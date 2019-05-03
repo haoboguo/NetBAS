@@ -1,0 +1,29 @@
+GO:0022857~transmembrane transporter activity	0.00094046565707834
+GO:0022892~substrate-specific transporter activity	0.000962600978051624
+GO:0022891~substrate-specific transmembrane transporter activity	0.00119373346272756
+GO:0004871~signal transducer activity	0.00406355707381885
+GO:0005215~transporter activity	0.00488403212841225
+GO:0015075~ion transmembrane transporter activity	0.00643790054428489
+GO:0008324~cation transmembrane transporter activity	0.00650551088660235
+GO:0038023~signaling receptor activity	0.00924171799555612
+GO:0015293~symporter activity	0.0135215660402735
+GO:0008013~beta-catenin binding	0.0160372658189983
+GO:0005509~calcium ion binding	0.0175316615686755
+GO:0046873~metal ion transmembrane transporter activity	0.019581128362041
+GO:0008083~growth factor activity	0.0208952684678509
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0238206277984381
+GO:0022804~active transmembrane transporter activity	0.0317227504063866
+GO:0000976~transcription regulatory region sequence-specific DNA binding	0.0350131877043558
+GO:0003690~double-stranded DNA binding	0.0352341139254578
+GO:0046943~carboxylic acid transmembrane transporter activity	0.0401146336238595
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	0.0407689610873585
+GO:0004872~receptor activity	0.0410698904674142
+GO:0060089~molecular transducer activity	0.0410698904674142
+GO:0001012~RNA polymerase II regulatory region DNA binding	0.0417780049493958
+GO:0004888~transmembrane signaling receptor activity	0.0421086113549166
+GO:0005342~organic acid transmembrane transporter activity	0.0427195313618613
+GO:1990837~sequence-specific double-stranded DNA binding	0.0448819810627035
+GO:0043565~sequence-specific DNA binding	0.0457821316212889
+GO:0005102~receptor binding	0.0487244369658355
+GO:0044212~transcription regulatory region DNA binding	0.0489410453097151
+GO:0000975~regulatory region DNA binding	0.0499025364705987

@@ -1,0 +1,98 @@
+GO:0042254~ribosome biogenesis	2.96076050530435e-22
+GO:0022613~ribonucleoprotein complex biogenesis	5.12597027916558e-19
+GO:0006364~rRNA processing	3.89859328494399e-15
+GO:0016072~rRNA metabolic process	5.75536408107175e-15
+GO:0034660~ncRNA metabolic process	8.53870742010463e-14
+GO:0034470~ncRNA processing	1.11926190186328e-13
+GO:0044085~cellular component biogenesis	1.40408301109855e-09
+GO:0042273~ribosomal large subunit biogenesis	1.78185517770941e-09
+GO:0006396~RNA processing	1.82640909173749e-09
+GO:0071840~cellular component organization or biogenesis	4.16481985478118e-08
+GO:0034641~cellular nitrogen compound metabolic process	6.01482160719544e-07
+GO:0046483~heterocycle metabolic process	6.44006349407652e-07
+GO:0006725~cellular aromatic compound metabolic process	8.01535202223038e-07
+GO:0006139~nucleobase-containing compound metabolic process	1.41122765123858e-06
+GO:1901360~organic cyclic compound metabolic process	1.87680417106655e-06
+GO:0090304~nucleic acid metabolic process	3.72929804763661e-06
+GO:0006807~nitrogen compound metabolic process	4.22824023102628e-06
+GO:0030490~maturation of SSU-rRNA	1.67321758644416e-05
+GO:0016070~RNA metabolic process	4.77135295394089e-05
+GO:0042274~ribosomal small subunit biogenesis	6.67761426823467e-05
+GO:0000460~maturation of 5.8S rRNA	0.000160193929895837
+GO:0010467~gene expression	0.000225136254425721
+GO:0000462~maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.000226070400951847
+GO:0006996~organelle organization	0.000251219472113253
+GO:0044237~cellular metabolic process	0.00029549236073416
+GO:0044260~cellular macromolecule metabolic process	0.000715811011825951
+GO:0000478~endonucleolytic cleavage involved in rRNA processing	0.000901100580195355
+GO:0007050~cell cycle arrest	0.000930840769221504
+GO:0042255~ribosome assembly	0.000944994831326443
+GO:0007005~mitochondrion organization	0.00107206442696425
+GO:0006259~DNA metabolic process	0.00112399354732686
+GO:0051276~chromosome organization	0.00117348647411897
+GO:0071704~organic substance metabolic process	0.00134203306234675
+GO:0008283~cell proliferation	0.00180036813548693
+GO:0000466~maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.00204968961385457
+GO:0044238~primary metabolic process	0.00278986284799353
+GO:0000470~maturation of LSU-rRNA	0.00290412593922079
+GO:0000469~cleavage involved in rRNA processing	0.00290412593922079
+GO:0022402~cell cycle process	0.0034615448351528
+GO:0008152~metabolic process	0.00367487252521667
+GO:0045786~negative regulation of cell cycle	0.00385937729786315
+GO:0000959~mitochondrial RNA metabolic process	0.00533120784291114
+GO:0043170~macromolecule metabolic process	0.0054641610369905
+GO:0031023~microtubule organizing center organization	0.00724844832340452
+GO:0010941~regulation of cell death	0.00768523966441252
+GO:0090501~RNA phosphodiester bond hydrolysis	0.00953840854200502
+GO:0006325~chromatin organization	0.0111074952862914
+GO:0051726~regulation of cell cycle	0.0121996192012628
+GO:0042981~regulation of apoptotic process	0.0127510454278022
+GO:0010942~positive regulation of cell death	0.0129090407199106
+GO:0071103~DNA conformation change	0.0130633881024271
+GO:0012501~programmed cell death	0.0131079294198533
+GO:0043067~regulation of programmed cell death	0.0135467058355892
+GO:0016043~cellular component organization	0.0142555750465937
+GO:0007049~cell cycle	0.015930947394849
+GO:0007000~nucleolus organization	0.0159778934237608
+GO:1902749~regulation of cell cycle G2/M phase transition	0.01801762089648
+GO:0000480~endonucleolytic cleavage in 5'-ETS of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.0191432710224729
+GO:0008219~cell death	0.0197089183326886
+GO:0043933~macromolecular complex subunit organization	0.021108503791329
+GO:0006915~apoptotic process	0.0214671560017971
+GO:0090502~RNA phosphodiester bond hydrolysis, endonucleolytic	0.021894724668631
+GO:1903047~mitotic cell cycle process	0.0231844469186082
+GO:0045787~positive regulation of cell cycle	0.023397959587367
+GO:0044772~mitotic cell cycle phase transition	0.0243505489755404
+GO:0032508~DNA duplex unwinding	0.0248564927020869
+GO:0000447~endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.0254440741588693
+GO:0044839~cell cycle G2/M phase transition	0.02546546078346
+GO:0051054~positive regulation of DNA metabolic process	0.0271601018389465
+GO:0045862~positive regulation of proteolysis	0.0278653631025688
+GO:0032392~DNA geometric change	0.0279722213313208
+GO:0045936~negative regulation of phosphate metabolic process	0.0301278448879647
+GO:0010563~negative regulation of phosphorus metabolic process	0.0301278448879647
+GO:0022618~ribonucleoprotein complex assembly	0.0307269683702296
+GO:0044770~cell cycle phase transition	0.030749492667538
+GO:0051085~chaperone mediated protein folding requiring cofactor	0.0317051471611825
+GO:0034655~nucleobase-containing compound catabolic process	0.0336379504483498
+GO:0000278~mitotic cell cycle	0.0345345631605561
+GO:0071826~ribonucleoprotein complex subunit organization	0.0349227006945845
+GO:0000082~G1/S transition of mitotic cell cycle	0.03531819332679
+GO:0032270~positive regulation of cellular protein metabolic process	0.0359536709332427
+GO:0001933~negative regulation of protein phosphorylation	0.0373557723675867
+GO:0031400~negative regulation of protein modification process	0.0376526098022466
+GO:0000479~endonucleolytic cleavage of tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.0410227999900909
+GO:0046700~heterocycle catabolic process	0.0428827087858373
+GO:0042493~response to drug	0.0428827087858373
+GO:0044843~cell cycle G1/S phase transition	0.0437148955641683
+GO:0044270~cellular nitrogen compound catabolic process	0.0451512961318361
+GO:0043066~negative regulation of apoptotic process	0.0465815993492378
+GO:0019439~aromatic compound catabolic process	0.046812604962395
+GO:0090068~positive regulation of cell cycle process	0.0468702451506139
+GO:0046599~regulation of centriole replication	0.0471856198727986
+GO:0071025~RNA surveillance	0.0471856198727986
+GO:0000963~mitochondrial RNA processing	0.0471856198727986
+GO:0071156~regulation of cell cycle arrest	0.0472299271707045
+GO:0042326~negative regulation of phosphorylation	0.0485079682478131
+GO:0043069~negative regulation of programmed cell death	0.0491530102061239
+GO:0051247~positive regulation of protein metabolic process	0.0497348754806196

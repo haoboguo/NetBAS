@@ -1,0 +1,65 @@
+GO:0005515~protein binding	5.80129734504629e-07
+GO:0003824~catalytic activity	5.14073024027449e-05
+GO:0036094~small molecule binding	0.000128976685642335
+GO:0005488~binding	0.000174537498298449
+GO:0046983~protein dimerization activity	0.000283753520395561
+GO:0000166~nucleotide binding	0.000542026571128375
+GO:1901265~nucleoside phosphate binding	0.000546418614017189
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00066401091843031
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	0.00075042410340032
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.00110374025572359
+GO:0031625~ubiquitin protein ligase binding	0.00118092882692764
+GO:0031072~heat shock protein binding	0.00119083223336284
+GO:0044389~ubiquitin-like protein ligase binding	0.0013312138202486
+GO:0017076~purine nucleotide binding	0.00147065948262534
+GO:0032553~ribonucleotide binding	0.00150760546801823
+GO:0016301~kinase activity	0.00166063378547996
+GO:0035639~purine ribonucleoside triphosphate binding	0.00189567855192326
+GO:0032550~purine ribonucleoside binding	0.00204019449802358
+GO:0001883~purine nucleoside binding	0.00209044086611568
+GO:0032549~ribonucleoside binding	0.00209044086611568
+GO:0001882~nucleoside binding	0.00221186578455221
+GO:0042803~protein homodimerization activity	0.00246381348053594
+GO:0032555~purine ribonucleotide binding	0.00267562301316186
+GO:0005102~receptor binding	0.00287915729285102
+GO:0050839~cell adhesion molecule binding	0.00307171315497453
+GO:0019899~enzyme binding	0.0049853467712919
+GO:0097367~carbohydrate derivative binding	0.00505421506731901
+GO:0042802~identical protein binding	0.00507844649390972
+GO:0001077~transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.00557501667396727
+GO:0019838~growth factor binding	0.00604113929289295
+GO:0051087~chaperone binding	0.00614659693262993
+GO:0008134~transcription factor binding	0.00668481038973064
+GO:0097159~organic cyclic compound binding	0.00938074221329951
+GO:1901363~heterocyclic compound binding	0.0104121165092268
+GO:0030554~adenyl nucleotide binding	0.0109744013358311
+GO:0005524~ATP binding	0.0148108805363143
+GO:0004672~protein kinase activity	0.0149270835262927
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.0161163640566106
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.0166298350744536
+GO:0016740~transferase activity	0.0181545285052634
+GO:0019900~kinase binding	0.0188637451819541
+GO:0032559~adenyl ribonucleotide binding	0.0189879723130668
+GO:0098632~protein binding involved in cell-cell adhesion	0.0193457331821922
+GO:0019887~protein kinase regulator activity	0.0196638098737719
+GO:0042277~peptide binding	0.0208503123875674
+GO:0098631~protein binding involved in cell adhesion	0.0209540552193778
+GO:0045296~cadherin binding	0.0212865744082733
+GO:0004713~protein tyrosine kinase activity	0.0235206848103031
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.0244000785012449
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0248759206652206
+GO:0046982~protein heterodimerization activity	0.0250087858051515
+GO:0001618~virus receptor activity	0.025260839636578
+GO:0015399~primary active transmembrane transporter activity	0.0258134223100914
+GO:0015405~P-P-bond-hydrolysis-driven transmembrane transporter activity	0.0258134223100914
+GO:0046979~TAP2 binding	0.026771692233264
+GO:0019207~kinase regulator activity	0.0294255783664642
+GO:0033218~amide binding	0.0304172497312475
+GO:0030234~enzyme regulator activity	0.0350119950114198
+GO:0030544~Hsp70 protein binding	0.0354437131756179
+GO:0046978~TAP1 binding	0.0355363979322662
+GO:0005126~cytokine receptor binding	0.0372383323103488
+GO:0048037~cofactor binding	0.0372383323103488
+GO:0098772~molecular function regulator	0.0460352832165591
+GO:0000989~transcription factor activity, transcription factor binding	0.0475272330564369
+GO:0017111~nucleoside-triphosphatase activity	0.0489612408818017

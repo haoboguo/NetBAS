@@ -1,0 +1,61 @@
+GO:0005515~protein binding	9.6886282951127e-12
+GO:0019900~kinase binding	2.24813895148921e-09
+GO:0019899~enzyme binding	3.93142080573245e-09
+GO:0042802~identical protein binding	2.5001805960619e-07
+GO:0019901~protein kinase binding	4.6469296433168e-07
+GO:0002039~p53 binding	7.28581980630532e-07
+GO:0019207~kinase regulator activity	1.47974833212215e-06
+GO:0019887~protein kinase regulator activity	3.43128623934455e-06
+GO:0046983~protein dimerization activity	1.14971072159245e-05
+GO:0030234~enzyme regulator activity	1.45528515052984e-05
+GO:0005488~binding	3.67044978627272e-05
+GO:0042803~protein homodimerization activity	6.11736603205255e-05
+GO:0005102~receptor binding	6.28956485505496e-05
+GO:0008083~growth factor activity	8.15911560530951e-05
+GO:0098772~molecular function regulator	0.000147863690535575
+GO:0004861~cyclin-dependent protein serine/threonine kinase inhibitor activity	0.000206737493779937
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.00020963578232583
+GO:0030291~protein serine/threonine kinase inhibitor activity	0.000278843551798343
+GO:0004860~protein kinase inhibitor activity	0.000361154153134721
+GO:0000989~transcription factor activity, transcription factor binding	0.00042220681465114
+GO:0019210~kinase inhibitor activity	0.000435434266706391
+GO:0000988~transcription factor activity, protein binding	0.000472181121078528
+GO:0003684~damaged DNA binding	0.000660644873743441
+GO:0046982~protein heterodimerization activity	0.000693203427297641
+GO:0008134~transcription factor binding	0.00173109168869278
+GO:0001047~core promoter binding	0.00213182304916706
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.00288768355453379
+GO:0016301~kinase activity	0.00321674559849895
+GO:0031625~ubiquitin protein ligase binding	0.00476603114156353
+GO:0043566~structure-specific DNA binding	0.00521022450685913
+GO:0044389~ubiquitin-like protein ligase binding	0.0053203863827612
+GO:0001085~RNA polymerase II transcription factor binding	0.00600962789915075
+GO:0046332~SMAD binding	0.00795593494529693
+GO:0003690~double-stranded DNA binding	0.00820048365787052
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00830212355428184
+GO:0016504~peptidase activator activity	0.00848884331355447
+GO:0003712~transcription cofactor activity	0.00863310650468516
+GO:0055106~ubiquitin-protein transferase regulator activity	0.00878614397234889
+GO:0008047~enzyme activator activity	0.00910441469846729
+GO:0055103~ligase regulator activity	0.0101763296669143
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	0.0106302304414377
+GO:0004857~enzyme inhibitor activity	0.0116493197304778
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0137826493653903
+GO:0044212~transcription regulatory region DNA binding	0.0139708210537066
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.014403815035481
+GO:0000975~regulatory region DNA binding	0.0144168845665416
+GO:0001067~regulatory region nucleic acid binding	0.0145680332226759
+GO:0008656~cysteine-type endopeptidase activator activity involved in apoptotic process	0.0148814074488432
+GO:0030332~cyclin binding	0.0203441630534788
+GO:0016505~peptidase activator activity involved in apoptotic process	0.0203441630534788
+GO:0030971~receptor tyrosine kinase binding	0.0208983993333824
+GO:0000217~DNA secondary structure binding	0.0243799806624815
+GO:0042826~histone deacetylase binding	0.0267669709714158
+GO:1990782~protein tyrosine kinase binding	0.0276455181269595
+GO:0071889~14-3-3 protein binding	0.028712907452104
+GO:0030295~protein kinase activator activity	0.032712205074965
+GO:0070644~vitamin D response element binding	0.0328677773394964
+GO:0035035~histone acetyltransferase binding	0.0382109775406822
+GO:0019904~protein domain specific binding	0.0408966907106403
+GO:0019209~kinase activator activity	0.0426573318085404
+GO:0003824~catalytic activity	0.0492117682405879

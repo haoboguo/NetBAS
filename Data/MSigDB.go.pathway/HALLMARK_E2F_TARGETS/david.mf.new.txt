@@ -1,0 +1,117 @@
+GO:1901363~heterocyclic compound binding	4.99896712383041e-22
+GO:0005515~protein binding	1.5559988988514e-21
+GO:0097159~organic cyclic compound binding	1.93287571510685e-21
+GO:0003676~nucleic acid binding	7.4677657664757e-19
+GO:0003677~DNA binding	4.7983920622909e-17
+GO:0003684~damaged DNA binding	5.57295027938197e-15
+GO:0005524~ATP binding	2.86985337591464e-14
+GO:0032559~adenyl ribonucleotide binding	7.44190556079372e-14
+GO:0030554~adenyl nucleotide binding	9.89936916819167e-14
+GO:0003697~single-stranded DNA binding	3.66533054886429e-13
+GO:0035639~purine ribonucleoside triphosphate binding	6.06290058362149e-13
+GO:0000166~nucleotide binding	6.92047906900674e-13
+GO:1901265~nucleoside phosphate binding	7.05627300458402e-13
+GO:0032550~purine ribonucleoside binding	7.41479580159507e-13
+GO:0001883~purine nucleoside binding	7.92656688523527e-13
+GO:0032549~ribonucleoside binding	7.92656688523527e-13
+GO:0001882~nucleoside binding	9.25632230642086e-13
+GO:0032555~purine ribonucleotide binding	1.56549377752292e-12
+GO:0017076~purine nucleotide binding	2.07267849583765e-12
+GO:0032553~ribonucleotide binding	2.21051726695715e-12
+GO:0005488~binding	3.18785203390483e-12
+GO:0016462~pyrophosphatase activity	4.6828381927575e-12
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	5.01445612441064e-12
+GO:0016817~hydrolase activity, acting on acid anhydrides	5.36852499767311e-12
+GO:0003682~chromatin binding	9.81752733334447e-12
+GO:0036094~small molecule binding	1.94887177740801e-11
+GO:0003678~DNA helicase activity	2.08931035161804e-11
+GO:0017111~nucleoside-triphosphatase activity	2.25697368260987e-11
+GO:0097367~carbohydrate derivative binding	5.04981787012154e-11
+GO:0008094~DNA-dependent ATPase activity	8.17739627304841e-11
+GO:0044877~macromolecular complex binding	6.81477610723451e-10
+GO:0003723~RNA binding	8.05425363445061e-10
+GO:0044822~poly(A) RNA binding	2.36807282849842e-09
+GO:0019899~enzyme binding	3.25126255359111e-09
+GO:0016887~ATPase activity	3.28131759374686e-09
+GO:0003824~catalytic activity	1.17497820923169e-08
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	1.29787603347033e-08
+GO:0003690~double-stranded DNA binding	1.68846398946607e-08
+GO:0016787~hydrolase activity	1.73820932150148e-08
+GO:0004386~helicase activity	2.31350684575983e-08
+GO:0016772~transferase activity, transferring phosphorus-containing groups	7.63672744580946e-08
+GO:0004518~nuclease activity	2.3897086045213e-07
+GO:0003887~DNA-directed DNA polymerase activity	6.35055215237633e-07
+GO:0004536~deoxyribonuclease activity	1.85878276666953e-06
+GO:0004003~ATP-dependent DNA helicase activity	3.39904467562954e-06
+GO:0042393~histone binding	6.61415940233383e-06
+GO:0034061~DNA polymerase activity	7.17089187398606e-06
+GO:0016301~kinase activity	1.01378527350034e-05
+GO:0019901~protein kinase binding	2.43067152687818e-05
+GO:0019900~kinase binding	3.25398634149044e-05
+GO:0004527~exonuclease activity	3.90075608353206e-05
+GO:0042623~ATPase activity, coupled	6.84350103322866e-05
+GO:0032404~mismatch repair complex binding	7.07718676167423e-05
+GO:0003689~DNA clamp loader activity	7.07718676167423e-05
+GO:0033170~protein-DNA loading ATPase activity	7.07718676167423e-05
+GO:0008026~ATP-dependent helicase activity	0.000161456769220874
+GO:0070035~purine NTP-dependent helicase activity	0.000161456769220874
+GO:0043566~structure-specific DNA binding	0.000187228343008391
+GO:0004861~cyclin-dependent protein serine/threonine kinase inhibitor activity	0.00020349349998295
+GO:0003688~DNA replication origin binding	0.00020349349998295
+GO:0008408~3'-5' exonuclease activity	0.000239717396146356
+GO:0008536~Ran GTPase binding	0.000312536168469117
+GO:0005487~nucleocytoplasmic transporter activity	0.000312536168469117
+GO:0030983~mismatched DNA binding	0.000438104989370108
+GO:0000400~four-way junction DNA binding	0.000438104989370108
+GO:0016740~transferase activity	0.000598156809486742
+GO:0016788~hydrolase activity, acting on ester bonds	0.000998190916841528
+GO:0004519~endonuclease activity	0.00104512936255598
+GO:1990837~sequence-specific double-stranded DNA binding	0.00111197310963749
+GO:0035173~histone kinase activity	0.00111992092838241
+GO:0004529~exodeoxyribonuclease activity	0.00130692686383142
+GO:0016895~exodeoxyribonuclease activity, producing 5'-phosphomonoesters	0.00130692686383142
+GO:0031625~ubiquitin protein ligase binding	0.00133213001359083
+GO:0044389~ubiquitin-like protein ligase binding	0.00151766573461121
+GO:0015631~tubulin binding	0.00159348837469517
+GO:0000217~DNA secondary structure binding	0.00173715424986404
+GO:0003777~microtubule motor activity	0.00189753462254861
+GO:0016796~exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters	0.00205341691762678
+GO:0019205~nucleobase-containing compound kinase activity	0.00238094510155296
+GO:0019237~centromeric DNA binding	0.00244524555814544
+GO:0032135~DNA insertion or deletion binding	0.00244524555814544
+GO:0019887~protein kinase regulator activity	0.0030082310016815
+GO:0016779~nucleotidyltransferase activity	0.00370029697060714
+GO:0030291~protein serine/threonine kinase inhibitor activity	0.0038953274749533
+GO:0043565~sequence-specific DNA binding	0.00392520811380276
+GO:0008565~protein transporter activity	0.0049833350603913
+GO:0019207~kinase regulator activity	0.00531262810097409
+GO:0042826~histone deacetylase binding	0.00541720181384296
+GO:0043142~single-stranded DNA-dependent ATPase activity	0.00741149696887058
+GO:0000287~magnesium ion binding	0.0075330284917243
+GO:0046983~protein dimerization activity	0.0088959101251877
+GO:0032403~protein complex binding	0.0107269691711534
+GO:0008017~microtubule binding	0.0109028493078818
+GO:0004674~protein serine/threonine kinase activity	0.0118795965013605
+GO:0004672~protein kinase activity	0.0133158620938144
+GO:0003729~mRNA binding	0.0137932976211942
+GO:0046982~protein heterodimerization activity	0.0141979989804603
+GO:0042802~identical protein binding	0.0143811153142714
+GO:0008022~protein C-terminus binding	0.0156718262570076
+GO:0008301~DNA binding, bending	0.0182573887690133
+GO:0003774~motor activity	0.0184104193276847
+GO:0030332~cyclin binding	0.02014077342567
+GO:0061575~cyclin-dependent protein serine/threonine kinase activator activity	0.0219158517213402
+GO:0017056~structural constituent of nuclear pore	0.0221016489386449
+GO:0004520~endodeoxyribonuclease activity	0.0227151685238438
+GO:0030234~enzyme regulator activity	0.0267112149976802
+GO:0017091~AU-rich element binding	0.0284302133165434
+GO:0043015~gamma-tubulin binding	0.0284302133165434
+GO:0032139~dinucleotide insertion or deletion binding	0.0326939577478295
+GO:0004540~ribonuclease activity	0.033436365889539
+GO:0036002~pre-mRNA binding	0.0403549887633475
+GO:0042162~telomeric DNA binding	0.0429308154340801
+GO:0071208~histone pre-mRNA DCP binding	0.0433539247959912
+GO:0032137~guanine/thymine mispair binding	0.0433539247959912
+GO:0097100~supercoiled DNA binding	0.0433539247959912
+GO:0036033~mediator complex binding	0.0433539247959912
+GO:0019136~deoxynucleoside kinase activity	0.0433539247959912

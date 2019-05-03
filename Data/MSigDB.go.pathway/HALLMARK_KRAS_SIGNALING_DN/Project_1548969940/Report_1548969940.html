@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/webgestalt/favicon.png">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-73666770-1', 'auto');
+ga('send', 'pageview');
+</script>
+<title>WebGestalt (WEB-based GEne SeT AnaLysis Toolkit)</title>
+
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="http://www.webgestalt.org//assets/0.3/build/nta.css">
+</head>
+<body>
+<header>
+	<div id="header-img"><a href="http://www.webgestalt.org/"><img border="0" src="http://www.webgestalt.org//images/gsa.png"></a></div>
+	<div id="header-title">
+		<p id="header-title-text">WEB-based GEne SeT AnaLysis Toolkit</p>
+		<p id="header-subtitle-text">Translating gene lists into biological insights...</p>
+	</div>
+</header>
+<hr><main>
+<div id="app" class="wrapper">
+<div class="loading-preinit" v-cloak><div class="loading-icon"></div></div>
+
+<div id=network_PPI_BIOGRID v-cloak>
+<section>
+<div class="level">
+	<div class="level-left">
+		<div class="level-item">
+			<h4 class="title is-4 has-text-primary">Summary of the analysis results</h4>
+		</div>
+	</div>
+	<div class="level-right">
+		<div class="level-item">
+			<a class="button is-text" href="1548969940.zip" target="_blank">Result Download</a>
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="summary" class="summary">
+<div class="card" v-bind:class="{active: summaryShown}" >
+	<div class="card-header" v-on:click="summaryShown=!summaryShown">
+		<p class="card-header-title">Job Summary</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="summaryShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div class="card-content content" v-show="summaryShown">
+		<ul>
+		<li>Total number of genes in the selected network: 22194 (used for the enrichment analysis)</li>
+		<li>Total number of seeds: 209</li>
+		<li>Total number of seeds in the selected network: 172</li>
+		<li>Total number of genes in the expanded sub-network: 86 (used for the enrichment analysis)</li>
+		<li>Total number of seeds in the expanded sub-network: 76</li>
+		<li>We select top 10 neighbors based on the probability of random walk method. All seeds and top ranking neighbors in the expanded sub-network can enrich to 7 GO BP categories.</li>
+		</ul>
+	</div>
+</div>
+</section>
+
+<section>
+<div class="columns is-multiline">
+<div class="column is-5-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Sub-network graph </h4>
+	<nta-gene-network
+		container-id="network_PPI_BIOGRID_net"
+		:data="geneNetwork"
+		:method="method"
+		highlight-type="Neighbors"
+		:enrichment="enrichment"
+	>
+	</nta-gene-network>
+</div> <!-- column -->
+
+<div class="column is-5-widescreen is-offset-2-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Enriched GO terms graph</h4>
+	<nta-dag
+		container-id="network_PPI_BIOGRID_dag"
+		:data="dag"
+	>
+	</nta-dag>
+</div> <!-- column -->
+</div> <!-- columns -->
+</section>
+
+<section>
+<h4 class="title is-4 has-text-primary">Detailed Information</h4>
+<div class="columns is-multiline">
+<div class="column is-6-widescreen is-12-desktop is-12-tablet is-12-mobile" id="col-go">
+<nta-enrichment-table
+	:data="enrichment"
+	:method="method"
+	:sig-method="sigMethod"
+	:threshold="threshold"
+	highlight-type="Neighbors"
+>
+</nta-enrichment-table>
+</div> <!-- column -->
+
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-seed">
+<nta-seed-table :data="seeds"> </nta-seed-table>
+</div> <!-- column -->
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-rank">
+<nta-candidate-table :data="candidates" :method="method"> </nta-candidate-table>
+</div> <!-- column -->
+
+</div> <!-- columns -->
+</section>
+</div>
+</div>
+</main>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/cytoscape.min.js"></script>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/nta.min.js"></script>
+<script type="text/javascript">
+var geneNetwork = [{"data":{"source":"APP","target":"HNRNPL"}},{"data":{"source":"APP","target":"BMPR1B"}},{"data":{"source":"APP","target":"DLK2"}},{"data":{"source":"APP","target":"PCBP1"}},{"data":{"source":"APP","target":"MX1"}},{"data":{"source":"APP","target":"TGFB2"}},{"data":{"source":"APP","target":"KLK7"}},{"data":{"source":"APP","target":"SERPINB2"}},{"data":{"source":"APP","target":"PPP1CC"}},{"data":{"source":"APP","target":"CCDC106"}},{"data":{"source":"APP","target":"TRIM25"}},{"data":{"source":"APP","target":"SNCB"}},{"data":{"source":"APP","target":"MYOT"}},{"data":{"source":"APP","target":"CAMK1D"}},{"data":{"source":"APP","target":"FGF16"}},{"data":{"source":"APP","target":"CLDN16"}},{"data":{"source":"APP","target":"LFNG"}},{"data":{"source":"APP","target":"P2RX6"}},{"data":{"source":"BARD1","target":"HNRNPL"}},{"data":{"source":"BARD1","target":"DCC"}},{"data":{"source":"ZBTB16","target":"HNRNPL"}},{"data":{"source":"ZBTB16","target":"MX1"}},{"data":{"source":"ZBTB16","target":"THNSL2"}},{"data":{"source":"HSPA5","target":"HNRNPL"}},{"data":{"source":"HSPA5","target":"PPP1CC"}},{"data":{"source":"HSPA5","target":"TG"}},{"data":{"source":"HSPA5","target":"TRIM25"}},{"data":{"source":"HSPA5","target":"UPK3B"}},{"data":{"source":"HSPA5","target":"TSHB"}},{"data":{"source":"HSPA5","target":"CPA2"}},{"data":{"source":"ZDHHC17","target":"SHOX2"}},{"data":{"source":"ZDHHC17","target":"KLK8"}},{"data":{"source":"ZDHHC17","target":"ABCG4"}},{"data":{"source":"LMNA","target":"HNRNPL"}},{"data":{"source":"LMNA","target":"CREB3"}},{"data":{"source":"LMNA","target":"PCBP1"}},{"data":{"source":"LMNA","target":"EGF"}},{"data":{"source":"LMNA","target":"SLC30A3"}},{"data":{"source":"LMNA","target":"PPP1CC"}},{"data":{"source":"LMNA","target":"C5"}},{"data":{"source":"LMNA","target":"TRIM25"}},{"data":{"source":"LMNA","target":"MAST3"}},{"data":{"source":"LMNA","target":"CDKAL1"}},{"data":{"source":"LMNA","target":"CACNG1"}},{"data":{"source":"HNRNPL","target":"THRB"}},{"data":{"source":"HNRNPL","target":"DTNB"}},{"data":{"source":"HNRNPL","target":"BMPR1B"}},{"data":{"source":"HNRNPL","target":"FGFR3"}},{"data":{"source":"HNRNPL","target":"PCBP1"}},{"data":{"source":"HNRNPL","target":"BTG2"}},{"data":{"source":"HNRNPL","target":"EFHD1"}},{"data":{"source":"HNRNPL","target":"MSH5"}},{"data":{"source":"HNRNPL","target":"PTPRJ"}},{"data":{"source":"HNRNPL","target":"TRIM25"}},{"data":{"source":"HNRNPL","target":"NTF3"}},{"data":{"source":"HNRNPL","target":"SYNPO"}},{"data":{"source":"HNRNPL","target":"HSD11B2"}},{"data":{"source":"HNRNPL","target":"H2AFY2"}},{"data":{"source":"HNRNPL","target":"FGGY"}},{"data":{"source":"SPTBN2","target":"TRIM25"}},{"data":{"source":"SPTBN2","target":"SYNPO"}},{"data":{"source":"KRT15","target":"RIBC2"}},{"data":{"source":"KRT15","target":"KRT1"}},{"data":{"source":"KRT15","target":"KRT5"}},{"data":{"source":"KRT15","target":"KRT4"}},{"data":{"source":"CREB3","target":"CD207"}},{"data":{"source":"CREB3","target":"SLC29A3"}},{"data":{"source":"PCBP1","target":"PPP1CC"}},{"data":{"source":"PCBP1","target":"TRIM25"}},{"data":{"source":"PCBP1","target":"MAST3"}},{"data":{"source":"PCBP1","target":"NUDT11"}},{"data":{"source":"SGK1","target":"TRIM25"}},{"data":{"source":"CALML5","target":"TRIM25"}},{"data":{"source":"HTR1B","target":"HTR1D"}},{"data":{"source":"KRT1","target":"KRT5"}},{"data":{"source":"PAX3","target":"SOX10"}},{"data":{"source":"KLK7","target":"PTPRJ"}},{"data":{"source":"RYR1","target":"RYR2"}},{"data":{"source":"PDCD1","target":"SLC25A23"}},{"data":{"source":"KCNQ2","target":"TRIM25"}},{"data":{"source":"RYR2","target":"PPP1CC"}},{"data":{"source":"RYR2","target":"TRIM25"}},{"data":{"source":"GTF3C5","target":"TRIM25"}},{"data":{"source":"PPP1CC","target":"TLX1"}},{"data":{"source":"PPP1CC","target":"TRIM25"}},{"data":{"source":"PPP1CC","target":"SYNPO"}},{"data":{"source":"PPP1CC","target":"PDE6B"}},{"data":{"source":"PTPRJ","target":"TRIM25"}},{"data":{"source":"PTPRJ","target":"LYPD3"}},{"data":{"source":"TRIM25","target":"ADRA2C"}},{"data":{"source":"TRIM25","target":"SYNPO"}},{"data":{"source":"TRIM25","target":"MAST3"}},{"data":{"source":"TRIM25","target":"TGM1"}},{"data":{"source":"TRIM25","target":"SNN"}},{"data":{"source":"NTF3","target":"ITIH3"}},{"data":{"source":"KCNE2","target":"ATP4A"}},{"data":{"source":"GLP1R","target":"GP2"}},{"data":{"source":"GLP1R","target":"CLPS"}},{"data":{"source":"KRT4","target":"KRT13"}},{"data":{"source":"ATP4A","target":"KLK8"}},{"data":{"id":"APP","highlight":true}},{"data":{"id":"BARD1","highlight":false}},{"data":{"id":"ZBTB16","highlight":false}},{"data":{"id":"HSPA5","highlight":true}},{"data":{"id":"ZDHHC17","highlight":true}},{"data":{"id":"LMNA","highlight":true}},{"data":{"id":"HNRNPL","highlight":true}},{"data":{"id":"SPTBN2","highlight":false}},{"data":{"id":"KRT15","highlight":false}},{"data":{"id":"CREB3","highlight":true}},{"data":{"id":"PCBP1","highlight":true}},{"data":{"id":"SGK1","highlight":false}},{"data":{"id":"CALML5","highlight":false}},{"data":{"id":"HTR1B","highlight":false}},{"data":{"id":"KRT1","highlight":false}},{"data":{"id":"PAX3","highlight":false}},{"data":{"id":"KLK7","highlight":false}},{"data":{"id":"RYR1","highlight":false}},{"data":{"id":"PDCD1","highlight":false}},{"data":{"id":"KCNQ2","highlight":false}},{"data":{"id":"RYR2","highlight":false}},{"data":{"id":"GTF3C5","highlight":false}},{"data":{"id":"PPP1CC","highlight":true}},{"data":{"id":"PTPRJ","highlight":false}},{"data":{"id":"TRIM25","highlight":true}},{"data":{"id":"NTF3","highlight":false}},{"data":{"id":"KCNE2","highlight":false}},{"data":{"id":"GLP1R","highlight":true}},{"data":{"id":"KRT4","highlight":false}},{"data":{"id":"ATP4A","highlight":false}},{"data":{"id":"BMPR1B","highlight":false}},{"data":{"id":"DLK2","highlight":false}},{"data":{"id":"MX1","highlight":false}},{"data":{"id":"TGFB2","highlight":false}},{"data":{"id":"SERPINB2","highlight":false}},{"data":{"id":"CCDC106","highlight":false}},{"data":{"id":"SNCB","highlight":false}},{"data":{"id":"MYOT","highlight":false}},{"data":{"id":"CAMK1D","highlight":false}},{"data":{"id":"FGF16","highlight":false}},{"data":{"id":"CLDN16","highlight":false}},{"data":{"id":"LFNG","highlight":false}},{"data":{"id":"P2RX6","highlight":false}},{"data":{"id":"DCC","highlight":false}},{"data":{"id":"THNSL2","highlight":false}},{"data":{"id":"TG","highlight":false}},{"data":{"id":"UPK3B","highlight":false}},{"data":{"id":"TSHB","highlight":false}},{"data":{"id":"CPA2","highlight":false}},{"data":{"id":"SHOX2","highlight":false}},{"data":{"id":"KLK8","highlight":false}},{"data":{"id":"ABCG4","highlight":false}},{"data":{"id":"EGF","highlight":false}},{"data":{"id":"SLC30A3","highlight":false}},{"data":{"id":"C5","highlight":false}},{"data":{"id":"MAST3","highlight":false}},{"data":{"id":"CDKAL1","highlight":false}},{"data":{"id":"CACNG1","highlight":false}},{"data":{"id":"THRB","highlight":false}},{"data":{"id":"DTNB","highlight":false}},{"data":{"id":"FGFR3","highlight":false}},{"data":{"id":"BTG2","highlight":false}},{"data":{"id":"EFHD1","highlight":false}},{"data":{"id":"MSH5","highlight":false}},{"data":{"id":"SYNPO","highlight":false}},{"data":{"id":"HSD11B2","highlight":false}},{"data":{"id":"H2AFY2","highlight":false}},{"data":{"id":"FGGY","highlight":false}},{"data":{"id":"RIBC2","highlight":false}},{"data":{"id":"KRT5","highlight":false}},{"data":{"id":"CD207","highlight":false}},{"data":{"id":"SLC29A3","highlight":false}},{"data":{"id":"NUDT11","highlight":false}},{"data":{"id":"HTR1D","highlight":false}},{"data":{"id":"SOX10","highlight":false}},{"data":{"id":"SLC25A23","highlight":false}},{"data":{"id":"TLX1","highlight":false}},{"data":{"id":"PDE6B","highlight":false}},{"data":{"id":"LYPD3","highlight":false}},{"data":{"id":"ADRA2C","highlight":false}},{"data":{"id":"TGM1","highlight":false}},{"data":{"id":"SNN","highlight":false}},{"data":{"id":"ITIH3","highlight":false}},{"data":{"id":"GP2","highlight":false}},{"data":{"id":"CLPS","highlight":false}},{"data":{"id":"KRT13","highlight":false}}];
+var dag = [{"data":{"id":"GO:0009605","name":"response to external stimulus","datasets":true}},{"data":{"id":"GO:0003008","name":"system process","datasets":true}},{"data":{"id":"GO:0008219","name":"cell death","datasets":true}},{"data":{"id":"GO:0012501","name":"programmed cell death","datasets":true}},{"data":{"id":"GO:0008015","name":"blood circulation","datasets":true}},{"data":{"id":"GO:0003013","name":"circulatory system process","datasets":true}},{"data":{"id":"GO:0044057","name":"regulation of system process","datasets":true}},{"data":{"id":"GO:0050896","name":"response to stimulus","datasets":false}},{"data":{"id":"GO:0032501","name":"multicellular organismal process","datasets":false}},{"data":{"id":"GO:0009987","name":"cellular process","datasets":false}},{"data":{"id":"GO:0051239","name":"regulation of multicellular organismal process","datasets":false}},{"data":{"id":"GO:0008150","name":"biological_process","datasets":false}},{"data":{"id":"GO:0050789","name":"regulation of biological process","datasets":false}},{"data":{"id":"GO:0065007","name":"biological regulation","datasets":false}},{"data":{"source":"GO:0050896","target":"GO:0009605"}},{"data":{"source":"GO:0032501","target":"GO:0003008"}},{"data":{"source":"GO:0009987","target":"GO:0008219"}},{"data":{"source":"GO:0008219","target":"GO:0012501"}},{"data":{"source":"GO:0003013","target":"GO:0008015"}},{"data":{"source":"GO:0003008","target":"GO:0003013"}},{"data":{"source":"GO:0003008","target":"GO:0044057"}},{"data":{"source":"GO:0051239","target":"GO:0044057"}},{"data":{"source":"GO:0008150","target":"GO:0050896"}},{"data":{"source":"GO:0008150","target":"GO:0032501"}},{"data":{"source":"GO:0008150","target":"GO:0009987"}},{"data":{"source":"GO:0032501","target":"GO:0051239"}},{"data":{"source":"GO:0050789","target":"GO:0051239"}},{"data":{"source":"GO:0008150","target":"GO:0050789"}},{"data":{"source":"GO:0065007","target":"GO:0050789"}},{"data":{"source":"GO:0008150","target":"GO:0065007"}}];
+var enrichment = [{"goId":"GO:0009605","goName":"response to external stimulus","c":2057,"o":29,"geneInfo":[{"geneName":"APP","highlight":true},{"geneName":"BMPR1B","highlight":false},{"geneName":"C5","highlight":false},{"geneName":"CLPS","highlight":false},{"geneName":"DCC","highlight":false},{"geneName":"HNRNPL","highlight":true},{"geneName":"HSD11B2","highlight":false},{"geneName":"HSPA5","highlight":true},{"geneName":"KRT1","highlight":false},{"geneName":"MX1","highlight":false},{"geneName":"NTF3","highlight":false},{"geneName":"SERPINB2","highlight":false},{"geneName":"PDE6B","highlight":false},{"geneName":"PPP1CC","highlight":true},{"geneName":"KLK7","highlight":false},{"geneName":"PTPRJ","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SPTBN2","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"TSHB","highlight":false},{"geneName":"TRIM25","highlight":true},{"geneName":"BTG2","highlight":false},{"geneName":"FGF16","highlight":false},{"geneName":"P2RX6","highlight":false},{"geneName":"MYOT","highlight":false},{"geneName":"CREB3","highlight":true},{"geneName":"KLK8","highlight":false},{"geneName":"CD207","highlight":false},{"geneName":"CAMK1D","highlight":false}],"expect":11.7030975626888,"ratio":2.47797643697822,"rawP":1.35311310112129e-06,"adjP":0.0127580246409332},{"goId":"GO:0003008","goName":"system process","c":1507,"o":24,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"APP","highlight":true},{"geneName":"GLP1R","highlight":true},{"geneName":"HSD11B2","highlight":false},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"LMNA","highlight":true},{"geneName":"NTF3","highlight":false},{"geneName":"PAX3","highlight":false},{"geneName":"PDE6B","highlight":false},{"geneName":"PTPRJ","highlight":false},{"geneName":"RYR1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"SOX10","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"BTG2","highlight":false},{"geneName":"P2RX6","highlight":false},{"geneName":"MYOT","highlight":false},{"geneName":"KCNE2","highlight":false},{"geneName":"CLDN16","highlight":false},{"geneName":"KLK8","highlight":false},{"geneName":"SYNPO","highlight":false}],"expect":8.57392709138161,"ratio":2.79918405465851,"rawP":1.91480855482595e-06,"adjP":0.0127580246409332},{"goId":"GO:0008219","goName":"cell death","c":2018,"o":28,"geneInfo":[{"geneName":"APP","highlight":true},{"geneName":"BARD1","highlight":false},{"geneName":"BMPR1B","highlight":false},{"geneName":"DCC","highlight":false},{"geneName":"FGFR3","highlight":false},{"geneName":"HSPA5","highlight":true},{"geneName":"KRT1","highlight":false},{"geneName":"KRT5","highlight":false},{"geneName":"KRT13","highlight":false},{"geneName":"KRT15","highlight":false},{"geneName":"LMNA","highlight":true},{"geneName":"MX1","highlight":false},{"geneName":"NTF3","highlight":false},{"geneName":"SERPINB2","highlight":false},{"geneName":"PAX3","highlight":false},{"geneName":"PDCD1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"SNCB","highlight":false},{"geneName":"SOX10","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"TGM1","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"ZBTB16","highlight":false},{"geneName":"BTG2","highlight":false},{"geneName":"CREB3","highlight":true},{"geneName":"KLK8","highlight":false},{"geneName":"CAMK1D","highlight":false}],"expect":11.4812109292688,"ratio":2.43876714507702,"rawP":3.0948086714444e-06,"adjP":0.0127580246409332},{"goId":"GO:0012501","goName":"programmed cell death","c":1901,"o":27,"geneInfo":[{"geneName":"APP","highlight":true},{"geneName":"BARD1","highlight":false},{"geneName":"BMPR1B","highlight":false},{"geneName":"DCC","highlight":false},{"geneName":"FGFR3","highlight":false},{"geneName":"HSPA5","highlight":true},{"geneName":"KRT1","highlight":false},{"geneName":"KRT5","highlight":false},{"geneName":"KRT13","highlight":false},{"geneName":"KRT15","highlight":false},{"geneName":"LMNA","highlight":true},{"geneName":"MX1","highlight":false},{"geneName":"NTF3","highlight":false},{"geneName":"SERPINB2","highlight":false},{"geneName":"PAX3","highlight":false},{"geneName":"PDCD1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"SNCB","highlight":false},{"geneName":"SOX10","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"TGM1","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"ZBTB16","highlight":false},{"geneName":"BTG2","highlight":false},{"geneName":"CREB3","highlight":true},{"geneName":"CAMK1D","highlight":false}],"expect":10.8155510290089,"ratio":2.49640540066632,"rawP":3.21826944338355e-06,"adjP":0.0127580246409332},{"goId":"GO:0008015","goName":"blood circulation","c":438,"o":12,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"GLP1R","highlight":true},{"geneName":"HSD11B2","highlight":false},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"PTPRJ","highlight":false},{"geneName":"RYR1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"KCNE2","highlight":false}],"expect":2.49195757533188,"ratio":4.81549129037713,"rawP":6.39216695796918e-06,"adjP":0.0202721182905035},{"goId":"GO:0003013","goName":"circulatory system process","c":447,"o":12,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"GLP1R","highlight":true},{"geneName":"HSD11B2","highlight":false},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"PTPRJ","highlight":false},{"geneName":"RYR1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"KCNE2","highlight":false}],"expect":2.54316218304418,"ratio":4.71853508989974,"rawP":7.85580088846771e-06,"adjP":0.0207615724480721},{"goId":"GO:0044057","goName":"regulation of system process","c":493,"o":12,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"APP","highlight":true},{"geneName":"GLP1R","highlight":true},{"geneName":"LMNA","highlight":true},{"geneName":"RYR1","highlight":false},{"geneName":"RYR2","highlight":false},{"geneName":"SGK1","highlight":false},{"geneName":"SOX10","highlight":false},{"geneName":"TGFB2","highlight":false},{"geneName":"THRB","highlight":false},{"geneName":"KCNE2","highlight":false},{"geneName":"KLK8","highlight":false}],"expect":2.8048746224626,"ratio":4.27826609571031,"rawP":2.09266555338816e-05,"adjP":0.0474048538286801}];
+var candidates = [{"candidate":"APP","score":"4.29E-03"},{"candidate":"GLP1R","score":"2.16E-03"},{"candidate":"PPP1CC","score":"2.03E-03"},{"candidate":"HNRNPL","score":"2.01E-03"},{"candidate":"ZDHHC17","score":"1.98E-03"},{"candidate":"HSPA5","score":"1.93E-03"},{"candidate":"TRIM25","score":"1.90E-03"},{"candidate":"LMNA","score":"1.84E-03"},{"candidate":"CREB3","score":"1.80E-03"},{"candidate":"PCBP1","score":"1.59E-03"}];
+var seeds = ["BARD1","ZBTB16","SPTBN2","KRT15","SGK1","CALML5","HTR1B","KRT1","PAX3","KLK7","RYR1","PDCD1","KCNQ2","RYR2","GTF3C5","PTPRJ","NTF3","KCNE2","KRT4","ATP4A","BMPR1B","DLK2","MX1","TGFB2","SERPINB2","CCDC106","SNCB","MYOT","CAMK1D","FGF16","CLDN16","LFNG","P2RX6","DCC","THNSL2","TG","UPK3B","TSHB","CPA2","SHOX2","KLK8","ABCG4","EGF","SLC30A3","C5","MAST3","CDKAL1","CACNG1","THRB","DTNB","FGFR3","BTG2","EFHD1","MSH5","SYNPO","HSD11B2","H2AFY2","FGGY","RIBC2","KRT5","CD207","SLC29A3","NUDT11","HTR1D","SOX10","SLC25A23","TLX1","PDE6B","LYPD3","ADRA2C","TGM1","SNN","ITIH3","GP2","CLPS","KRT13"];
+ntaLib({
+	geneNetwork: geneNetwork,
+	dag: dag,
+	enrichment: enrichment,
+	seeds: seeds,
+	candidates: candidates,
+	method: "Network_Expansion",
+	sigMethod: "fdr",
+	threshold: 0.05
+
+})
+</script>
+
+<footer class="footer has-text-centered">
+<p>WebGestalt is currently developed and maintained by Yuxing Liao, Suhas Vasaikar, Zhiao Shi and Bing Zhang at the <a target="_new" href=http://www.zhang-lab.org> Zhang Lab</a>. Other people who have made significant contribution to the project include Jing Wang, Dexter Duncan, Stefan Kirov and Jay Snoddy.</p>
+<p><b>Funding credits:</b> NIH/NCI (U24 CA210954); Leidos (15X038); CPRIT (RR160027); NIH/NIAAA (U01 AA016662, U01 AA013512); NIH/NIDA (P01 DA015027); NIH/NIMH (P50 MH078028, P50 MH096972); NIH/NCI (U24 CA159988); NIH/NIGMS (R01 GM088822).
+</p>
+</footer></body>
+</html>

@@ -1,0 +1,303 @@
+GO:0055114~oxidation-reduction process	2.30882212727663e-76
+GO:0006082~organic acid metabolic process	2.64905591114522e-75
+GO:0019752~carboxylic acid metabolic process	9.43832329696082e-72
+GO:0043436~oxoacid metabolic process	1.59755155406992e-71
+GO:0044281~small molecule metabolic process	7.6227449413612e-67
+GO:0044710~single-organism metabolic process	2.83118599583316e-64
+GO:0032787~monocarboxylic acid metabolic process	7.72941146799819e-54
+GO:0044282~small molecule catabolic process	3.40548923102438e-48
+GO:0006631~fatty acid metabolic process	1.42487387997435e-46
+GO:0016054~organic acid catabolic process	6.8221416622901e-44
+GO:0019395~fatty acid oxidation	1.69781520385791e-40
+GO:0046395~carboxylic acid catabolic process	3.03668997069321e-40
+GO:0034440~lipid oxidation	3.63122930916146e-40
+GO:0006629~lipid metabolic process	1.32617825380377e-39
+GO:0044712~single-organism catabolic process	2.67137548579708e-39
+GO:0051186~cofactor metabolic process	1.12651760426229e-38
+GO:0009062~fatty acid catabolic process	3.27293777106362e-38
+GO:0006635~fatty acid beta-oxidation	5.79102010208316e-36
+GO:0072329~monocarboxylic acid catabolic process	1.3334995879445e-35
+GO:0044255~cellular lipid metabolic process	7.92537972584208e-35
+GO:0006732~coenzyme metabolic process	3.09017089416354e-33
+GO:0044242~cellular lipid catabolic process	8.39397150065535e-31
+GO:0016042~lipid catabolic process	1.79184394729408e-30
+GO:0030258~lipid modification	4.76802068045576e-27
+GO:0009056~catabolic process	3.9960035776368e-26
+GO:0006099~tricarboxylic acid cycle	6.861387683146e-26
+GO:0035383~thioester metabolic process	4.64135259697875e-25
+GO:0006637~acyl-CoA metabolic process	4.64135259697875e-25
+GO:0044248~cellular catabolic process	3.10563277621212e-24
+GO:1901575~organic substance catabolic process	9.86899718501523e-24
+GO:0009060~aerobic respiration	4.73321811941485e-21
+GO:0006091~generation of precursor metabolites and energy	7.18650009358998e-20
+GO:0044283~small molecule biosynthetic process	1.0323149911056e-19
+GO:0044711~single-organism biosynthetic process	2.11180106957498e-19
+GO:0008152~metabolic process	3.68735925927292e-18
+GO:0044237~cellular metabolic process	2.08208159436108e-17
+GO:0043648~dicarboxylic acid metabolic process	6.09635957402378e-17
+GO:0045333~cellular respiration	1.21950284059374e-16
+GO:0051188~cofactor biosynthetic process	3.29413780003493e-16
+GO:1901564~organonitrogen compound metabolic process	9.37107480371118e-16
+GO:0015980~energy derivation by oxidation of organic compounds	5.90467806062631e-15
+GO:0006790~sulfur compound metabolic process	5.21534571934091e-14
+GO:0001676~long-chain fatty acid metabolic process	8.11820428993719e-14
+GO:0071704~organic substance metabolic process	2.05667910082621e-13
+GO:0046496~nicotinamide nucleotide metabolic process	4.10008031442687e-13
+GO:0019362~pyridine nucleotide metabolic process	4.10008031442687e-13
+GO:0071616~acyl-CoA biosynthetic process	6.08608812205695e-13
+GO:0035384~thioester biosynthetic process	6.08608812205695e-13
+GO:0072524~pyridine-containing compound metabolic process	1.04856235582475e-12
+GO:0006733~oxidoreduction coenzyme metabolic process	2.51718220627776e-12
+GO:0009108~coenzyme biosynthetic process	3.81942883226878e-12
+GO:0008610~lipid biosynthetic process	1.58274604186261e-11
+GO:0044699~single-organism process	5.76520910283088e-11
+GO:0006084~acetyl-CoA metabolic process	1.51952180575227e-10
+GO:1901565~organonitrogen compound catabolic process	9.09496762534633e-10
+GO:0042180~cellular ketone metabolic process	3.04916992815815e-09
+GO:0016053~organic acid biosynthetic process	5.71451366292519e-09
+GO:0033539~fatty acid beta-oxidation using acyl-CoA dehydrogenase	1.32667284360963e-08
+GO:0035337~fatty-acyl-CoA metabolic process	1.36729023773554e-08
+GO:0046394~carboxylic acid biosynthetic process	1.88353975173034e-08
+GO:0006090~pyruvate metabolic process	1.99338450049463e-08
+GO:0008202~steroid metabolic process	3.76342849980486e-08
+GO:0006734~NADH metabolic process	3.88976194264785e-08
+GO:1901615~organic hydroxy compound metabolic process	4.13889475921048e-08
+GO:0044272~sulfur compound biosynthetic process	4.98878763802886e-08
+GO:0006066~alcohol metabolic process	4.99912384497939e-08
+GO:0009063~cellular amino acid catabolic process	6.0112255901904e-08
+GO:0019674~NAD metabolic process	6.22192421017615e-08
+GO:0009437~carnitine metabolic process	7.3734347073281e-08
+GO:0036109~alpha-linolenic acid metabolic process	7.3734347073281e-08
+GO:0006520~cellular amino acid metabolic process	7.55881426468225e-08
+GO:0046949~fatty-acyl-CoA biosynthetic process	1.16267996933146e-07
+GO:0072330~monocarboxylic acid biosynthetic process	1.45710853092336e-07
+GO:0046487~glyoxylate metabolic process	1.72078927069594e-07
+GO:0006006~glucose metabolic process	1.94287195222704e-07
+GO:0019318~hexose metabolic process	2.12797816506688e-07
+GO:0006753~nucleoside phosphate metabolic process	2.3276296147353e-07
+GO:0044763~single-organism cellular process	2.98611599086923e-07
+GO:0006094~gluconeogenesis	3.38430811321377e-07
+GO:0005996~monosaccharide metabolic process	3.8061318931249e-07
+GO:0019319~hexose biosynthetic process	4.63839875959752e-07
+GO:0006577~amino-acid betaine metabolic process	4.73016211473369e-07
+GO:0046364~monosaccharide biosynthetic process	6.91343826493927e-07
+GO:0009117~nucleotide metabolic process	7.89408026292649e-07
+GO:0055086~nucleobase-containing small molecule metabolic process	8.34733756386748e-07
+GO:0006633~fatty acid biosynthetic process	8.95486790354193e-07
+GO:0019217~regulation of fatty acid metabolic process	1.10421905928655e-06
+GO:0033559~unsaturated fatty acid metabolic process	1.1156564343613e-06
+GO:0006778~porphyrin-containing compound metabolic process	1.16910340996392e-06
+GO:0010565~regulation of cellular ketone metabolic process	1.9658319557758e-06
+GO:0009308~amine metabolic process	2.0989497892995e-06
+GO:0035338~long-chain fatty-acyl-CoA biosynthetic process	2.15535175694097e-06
+GO:0019637~organophosphate metabolic process	2.75018577393815e-06
+GO:0006105~succinate metabolic process	3.18039923670803e-06
+GO:0034308~primary alcohol metabolic process	3.27159146455871e-06
+GO:0035336~long-chain fatty-acyl-CoA metabolic process	3.73402087841268e-06
+GO:0033540~fatty acid beta-oxidation using acyl-CoA oxidase	4.56113918773583e-06
+GO:0006695~cholesterol biosynthetic process	4.81862936812761e-06
+GO:0046320~regulation of fatty acid oxidation	5.03863387429279e-06
+GO:0051262~protein tetramerization	5.07869949348376e-06
+GO:0044238~primary metabolic process	5.42762402740069e-06
+GO:1902653~secondary alcohol biosynthetic process	5.44969437826728e-06
+GO:1901606~alpha-amino acid catabolic process	6.12561472075917e-06
+GO:0006102~isocitrate metabolic process	7.46359980099084e-06
+GO:0006694~steroid biosynthetic process	8.04406919563349e-06
+GO:0006085~acetyl-CoA biosynthetic process	8.58388735196826e-06
+GO:0051193~regulation of cofactor metabolic process	8.68077642289081e-06
+GO:0051196~regulation of coenzyme metabolic process	8.68077642289081e-06
+GO:0005975~carbohydrate metabolic process	8.81707926709743e-06
+GO:0016126~sterol biosynthetic process	9.69246079457079e-06
+GO:0000038~very long-chain fatty acid metabolic process	1.00233096875316e-05
+GO:0015908~fatty acid transport	1.19377324110267e-05
+GO:0009167~purine ribonucleoside monophosphate metabolic process	1.27485539251419e-05
+GO:0009126~purine nucleoside monophosphate metabolic process	1.3202937648646e-05
+GO:0046034~ATP metabolic process	1.5150393299654e-05
+GO:0033013~tetrapyrrole metabolic process	1.62833926265005e-05
+GO:0006103~2-oxoglutarate metabolic process	1.88345348528962e-05
+GO:0009161~ribonucleoside monophosphate metabolic process	1.92179180073543e-05
+GO:0009141~nucleoside triphosphate metabolic process	1.92179180073543e-05
+GO:0006720~isoprenoid metabolic process	2.35346818821084e-05
+GO:0009083~branched-chain amino acid catabolic process	2.3687154158945e-05
+GO:0006096~glycolytic process	2.85305596064308e-05
+GO:0007584~response to nutrient	2.85489777649855e-05
+GO:0009123~nucleoside monophosphate metabolic process	3.02370024368715e-05
+GO:0006757~ATP generation from ADP	3.11480407279259e-05
+GO:0006805~xenobiotic metabolic process	3.27626383697566e-05
+GO:0044724~single-organism carbohydrate catabolic process	3.45444081077529e-05
+GO:0009205~purine ribonucleoside triphosphate metabolic process	3.613385172181e-05
+GO:0006690~icosanoid metabolic process	3.73344647183266e-05
+GO:0006108~malate metabolic process	4.09570615028408e-05
+GO:0009081~branched-chain amino acid metabolic process	4.37557599245014e-05
+GO:0009199~ribonucleoside triphosphate metabolic process	4.42299819220836e-05
+GO:0006641~triglyceride metabolic process	4.51646036304333e-05
+GO:0071466~cellular response to xenobiotic stimulus	4.51646036304333e-05
+GO:0009144~purine nucleoside triphosphate metabolic process	4.57209166226273e-05
+GO:0046031~ADP metabolic process	5.97944281463144e-05
+GO:0006782~protoporphyrinogen IX biosynthetic process	6.10220220653406e-05
+GO:0009410~response to xenobiotic stimulus	7.28344844667492e-05
+GO:0006576~cellular biogenic amine metabolic process	7.57350892858503e-05
+GO:0016051~carbohydrate biosynthetic process	8.22631033324337e-05
+GO:0016052~carbohydrate catabolic process	8.38318525281568e-05
+GO:0006779~porphyrin-containing compound biosynthetic process	8.69085504227304e-05
+GO:0031667~response to nutrient levels	9.09329422778356e-05
+GO:0008203~cholesterol metabolic process	9.11346867306444e-05
+GO:0009636~response to toxic substance	0.000104041431532987
+GO:0006639~acylglycerol metabolic process	0.000107184820819016
+GO:0042493~response to drug	0.00010797045358289
+GO:0046128~purine ribonucleoside metabolic process	0.000110551899465555
+GO:0006638~neutral lipid metabolic process	0.000113019003649882
+GO:0051259~protein oligomerization	0.000117846318052738
+GO:0046501~protoporphyrinogen IX metabolic process	0.000118257301768302
+GO:0042278~purine nucleoside metabolic process	0.000119613226577005
+GO:0006165~nucleoside diphosphate phosphorylation	0.000121695562242551
+GO:1902652~secondary alcohol metabolic process	0.00012546258482658
+GO:0033014~tetrapyrrole biosynthetic process	0.00013514877402379
+GO:0006554~lysine catabolic process	0.000156616269283759
+GO:0006069~ethanol oxidation	0.000156616269283759
+GO:0009179~purine ribonucleoside diphosphate metabolic process	0.00016756081028907
+GO:0009135~purine nucleoside diphosphate metabolic process	0.00016756081028907
+GO:0042168~heme metabolic process	0.000176509462777529
+GO:0046939~nucleotide phosphorylation	0.000178185945167123
+GO:0016125~sterol metabolic process	0.000186860731981914
+GO:0009991~response to extracellular stimulus	0.000189045017810806
+GO:0009185~ribonucleoside diphosphate metabolic process	0.000189336398060037
+GO:0006553~lysine metabolic process	0.000202232808317108
+GO:0009119~ribonucleoside metabolic process	0.000228682296476723
+GO:0015711~organic anion transport	0.000242585294217239
+GO:0019254~carnitine metabolic process, CoA-linked	0.000249186989538192
+GO:0046321~positive regulation of fatty acid oxidation	0.000255658104777994
+GO:0006067~ethanol metabolic process	0.000255658104777994
+GO:0072350~tricarboxylic acid metabolic process	0.000255658104777994
+GO:0015718~monocarboxylic acid transport	0.000270185310605072
+GO:0019216~regulation of lipid metabolic process	0.000320946382964612
+GO:0044723~single-organism carbohydrate metabolic process	0.000350843478518979
+GO:0046165~alcohol biosynthetic process	0.000371169348723314
+GO:0009116~nucleoside metabolic process	0.000431566428325942
+GO:1901605~alpha-amino acid metabolic process	0.000440672397846813
+GO:0034754~cellular hormone metabolic process	0.000455281379790861
+GO:0006121~mitochondrial electron transport, succinate to ubiquinone	0.00049536827241148
+GO:0022904~respiratory electron transport chain	0.000502556035350739
+GO:0022900~electron transport chain	0.000553568104625226
+GO:0009132~nucleoside diphosphate metabolic process	0.000580538012553144
+GO:0044106~cellular amine metabolic process	0.00066760997089551
+GO:1901657~glycosyl compound metabolic process	0.000682857117788277
+GO:0006104~succinyl-CoA metabolic process	0.000820638054174223
+GO:0009068~aspartate family amino acid catabolic process	0.000891153006984789
+GO:0055088~lipid homeostasis	0.000990530824215189
+GO:0006783~heme biosynthetic process	0.00102495257232205
+GO:0061732~mitochondrial acetyl-CoA biosynthetic process from pyruvate	0.00122354378618138
+GO:0010876~lipid localization	0.00124021219883374
+GO:0009072~aromatic amino acid family metabolic process	0.00132911358173169
+GO:0042445~hormone metabolic process	0.00141419768499709
+GO:0050994~regulation of lipid catabolic process	0.001506707413828
+GO:0019320~hexose catabolic process	0.00161341912031542
+GO:0014070~response to organic cyclic compound	0.00164251513319453
+GO:0061718~glucose catabolic process to pyruvate	0.00168460637795513
+GO:0006735~NADH regeneration	0.00168460637795513
+GO:0061621~canonical glycolysis	0.00168460637795513
+GO:1901616~organic hydroxy compound catabolic process	0.00172527572680574
+GO:0008299~isoprenoid biosynthetic process	0.00188251993367972
+GO:0061615~glycolytic process through fructose-6-phosphate	0.00188251993367972
+GO:0061620~glycolytic process through glucose-6-phosphate	0.00188251993367972
+GO:0046685~response to arsenic-containing substance	0.00188251993367972
+GO:0016101~diterpenoid metabolic process	0.0019009572901443
+GO:0009066~aspartate family amino acid metabolic process	0.00222668876389646
+GO:0006081~cellular aldehyde metabolic process	0.00222668876389646
+GO:0046365~monosaccharide catabolic process	0.00236616756255083
+GO:0006869~lipid transport	0.00237101162297348
+GO:0051289~protein homotetramerization	0.00251154561939404
+GO:0045923~positive regulation of fatty acid metabolic process	0.00256102081660168
+GO:0042572~retinol metabolic process	0.00256102081660168
+GO:0006007~glucose catabolic process	0.0028165041760684
+GO:0032000~positive regulation of fatty acid beta-oxidation	0.00288384515798629
+GO:0006721~terpenoid metabolic process	0.00292994332571114
+GO:0009150~purine ribonucleotide metabolic process	0.00306894858278388
+GO:0006692~prostanoid metabolic process	0.00308714669083802
+GO:0006693~prostaglandin metabolic process	0.00308714669083802
+GO:0051260~protein homooligomerization	0.00326417088729471
+GO:0006979~response to oxidative stress	0.00347449791917731
+GO:1901568~fatty acid derivative metabolic process	0.00358315951733836
+GO:0042178~xenobiotic catabolic process	0.00358315951733836
+GO:0006086~acetyl-CoA biosynthetic process from pyruvate	0.00358315951733836
+GO:1901700~response to oxygen-containing compound	0.00378990924891952
+GO:0009259~ribonucleotide metabolic process	0.00385421742929866
+GO:0046942~carboxylic acid transport	0.00390113688678067
+GO:0042440~pigment metabolic process	0.00390152171342876
+GO:0006820~anion transport	0.00395703701215184
+GO:1901617~organic hydroxy compound biosynthetic process	0.00407245474883164
+GO:0006558~L-phenylalanine metabolic process	0.00435313778737349
+GO:0006559~L-phenylalanine catabolic process	0.00435313778737349
+GO:0006163~purine nucleotide metabolic process	0.00459291619741132
+GO:0019693~ribose phosphate metabolic process	0.00472639813973564
+GO:0009058~biosynthetic process	0.00513366855230729
+GO:0006568~tryptophan metabolic process	0.00519244209113722
+GO:0010510~regulation of acetyl-CoA biosynthetic process from pyruvate	0.00519244209113722
+GO:0042221~response to chemical	0.00600251908211957
+GO:0043649~dicarboxylic acid catabolic process	0.00609975286982467
+GO:0050812~regulation of acyl-CoA biosynthetic process	0.00609975286982467
+GO:0046677~response to antibiotic	0.00668399372979373
+GO:0072521~purine-containing compound metabolic process	0.00676206871052952
+GO:0046459~short-chain fatty acid metabolic process	0.00707376866403258
+GO:0070542~response to fatty acid	0.00809854556531516
+GO:0009074~aromatic amino acid family catabolic process	0.00811320589569373
+GO:0046486~glycerolipid metabolic process	0.00833273586581667
+GO:0001523~retinoid metabolic process	0.00909088751159526
+GO:0031998~regulation of fatty acid beta-oxidation	0.00921679865267189
+GO:0006586~indolalkylamine metabolic process	0.0103832984772566
+GO:0019369~arachidonic acid metabolic process	0.0108207499731398
+GO:0032303~regulation of icosanoid secretion	0.0116114741554247
+GO:0010817~regulation of hormone levels	0.0123010486886089
+GO:1901576~organic substance biosynthetic process	0.0131585846724462
+GO:0046148~pigment biosynthetic process	0.01333545273586
+GO:0015909~long-chain fatty acid transport	0.0140117239059482
+GO:0042762~regulation of sulfur metabolic process	0.0142480131863282
+GO:0006636~unsaturated fatty acid biosynthetic process	0.0161559092079873
+GO:0001666~response to hypoxia	0.0164794213192645
+GO:0008210~estrogen metabolic process	0.0171169030579502
+GO:0043335~protein unfolding	0.0182585009686092
+GO:0006780~uroporphyrinogen III biosynthetic process	0.0182585009686092
+GO:0046502~uroporphyrinogen III metabolic process	0.0182585009686092
+GO:0036293~response to decreased oxygen levels	0.019183088562259
+GO:1901135~carbohydrate derivative metabolic process	0.0198903028059445
+GO:1901361~organic cyclic compound catabolic process	0.0216519198679047
+GO:0042430~indole-containing compound metabolic process	0.021835731938386
+GO:2000191~regulation of fatty acid transport	0.021835731938386
+GO:0010033~response to organic substance	0.0218602462506159
+GO:0050996~positive regulation of lipid catabolic process	0.0235149924015116
+GO:2001233~regulation of apoptotic signaling pathway	0.0240626042039036
+GO:0070482~response to oxygen levels	0.0258847528126505
+GO:0033993~response to lipid	0.0267419810917367
+GO:0042592~homeostatic process	0.0267786068375138
+GO:0065008~regulation of biological quality	0.0268713894783837
+GO:0048871~multicellular organismal homeostasis	0.0270726821603135
+GO:0033512~L-lysine catabolic process to acetyl-CoA via saccharopine	0.0272631579577377
+GO:0042133~neurotransmitter metabolic process	0.0288565335231451
+GO:0010035~response to inorganic substance	0.0290626739681489
+GO:0006796~phosphate-containing compound metabolic process	0.0301221505106599
+GO:0006536~glutamate metabolic process	0.0307347844304405
+GO:0006793~phosphorus metabolic process	0.0309489246610609
+GO:0010039~response to iron ion	0.0326601830695452
+GO:0006766~vitamin metabolic process	0.0333517401293427
+GO:1990267~response to transition metal nanoparticle	0.0333517401293427
+GO:0019474~L-lysine catabolic process to acetyl-CoA	0.0361857545199613
+GO:0019477~L-lysine catabolic process	0.0361857545199613
+GO:0046440~L-lysine metabolic process	0.0361857545199613
+GO:0006110~regulation of glycolytic process	0.0366483954538185
+GO:0050892~intestinal absorption	0.0366483954538185
+GO:0019433~triglyceride catabolic process	0.0366483954538185
+GO:0006739~NADP metabolic process	0.0387092308792655
+GO:0017144~drug metabolic process	0.0408132570417169
+GO:0019439~aromatic compound catabolic process	0.0413662793461628
+GO:0006730~one-carbon metabolic process	0.0429595197180999
+GO:0001659~temperature homeostasis	0.0429595197180999
+GO:0098869~cellular oxidant detoxification	0.0433102683102628
+GO:0000302~response to reactive oxygen species	0.0443251766528524
+GO:0022600~digestive system process	0.0445838443082079
+GO:0006552~leucine catabolic process	0.0450270336359425
+GO:0045329~carnitine biosynthetic process	0.0450270336359425
+GO:0035634~response to stilbenoid	0.0450270336359425
+GO:1990748~cellular detoxification	0.0458759580293702
+GO:0044070~regulation of anion transport	0.0458759580293702
+GO:0046461~neutral lipid catabolic process	0.0496423886142056
+GO:0046464~acylglycerol catabolic process	0.0496423886142056

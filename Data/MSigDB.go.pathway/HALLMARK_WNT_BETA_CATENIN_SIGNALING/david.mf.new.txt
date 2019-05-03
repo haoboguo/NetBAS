@@ -1,0 +1,61 @@
+GO:0008134~transcription factor binding	4.2771305336618e-11
+GO:0005112~Notch binding	3.68784689535285e-10
+GO:0005102~receptor binding	3.26360653499809e-08
+GO:0005515~protein binding	4.2457176828705e-08
+GO:0005109~frizzled binding	1.22084369552785e-06
+GO:0070491~repressing transcription factor binding	9.7230930759206e-06
+GO:0003682~chromatin binding	1.32619584558362e-05
+GO:0044212~transcription regulatory region DNA binding	1.33609545387919e-05
+GO:0000975~regulatory region DNA binding	1.37762173292226e-05
+GO:0001067~regulatory region nucleic acid binding	1.39171006032947e-05
+GO:0019899~enzyme binding	1.76697621641176e-05
+GO:0044877~macromolecular complex binding	1.77918122676266e-05
+GO:0001047~core promoter binding	2.88604747078465e-05
+GO:0042826~histone deacetylase binding	7.91913079981932e-05
+GO:0001085~RNA polymerase II transcription factor binding	8.54111559928683e-05
+GO:0019901~protein kinase binding	0.000158374783201663
+GO:0001664~G-protein coupled receptor binding	0.000261850211129828
+GO:0070411~I-SMAD binding	0.000267928411578607
+GO:0019900~kinase binding	0.000317822274207567
+GO:0032041~NAD-dependent histone deacetylase activity (H3-K14 specific)	0.000321057488771735
+GO:0031078~histone deacetylase activity (H3-K14 specific)	0.000321057488771735
+GO:0000988~transcription factor activity, protein binding	0.000376882552790368
+GO:0070016~armadillo repeat domain binding	0.00037889279225114
+GO:0019904~protein domain specific binding	0.000384375623207282
+GO:0043565~sequence-specific DNA binding	0.000523005062297219
+GO:0017136~NAD-dependent histone deacetylase activity	0.000580433008602645
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.000603427597799547
+GO:0034979~NAD-dependent protein deacetylase activity	0.000737953131961046
+GO:0008013~beta-catenin binding	0.000824378760779636
+GO:0003700~transcription factor activity, sequence-specific DNA binding	0.00133685943618174
+GO:0001071~nucleic acid binding transcription factor activity	0.00134452303677599
+GO:0003690~double-stranded DNA binding	0.00188820947456047
+GO:0005488~binding	0.00224753095564792
+GO:0003677~DNA binding	0.00285549559403006
+GO:0046982~protein heterodimerization activity	0.00368106137114655
+GO:0046983~protein dimerization activity	0.00372020735536792
+GO:0004407~histone deacetylase activity	0.00420372738097457
+GO:0033558~protein deacetylase activity	0.00459571426800355
+GO:1990837~sequence-specific double-stranded DNA binding	0.00524210228383358
+GO:0035939~microsatellite binding	0.00673836242774975
+GO:0019213~deacetylase activity	0.00728423649216975
+GO:0001012~RNA polymerase II regulatory region DNA binding	0.0109077253173433
+GO:0000989~transcription factor activity, transcription factor binding	0.0110540858378506
+GO:0046332~SMAD binding	0.0111198426637902
+GO:0003696~satellite DNA binding	0.0156541102016292
+GO:0030165~PDZ domain binding	0.0160135157456789
+GO:0016811~hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	0.0163672675667728
+GO:0047485~protein N-terminus binding	0.0212647724623612
+GO:0005509~calcium ion binding	0.0214521833204284
+GO:0019903~protein phosphatase binding	0.0258249977405322
+GO:0031625~ubiquitin protein ligase binding	0.0264738157471917
+GO:0044389~ubiquitin-like protein ligase binding	0.0276745324584502
+GO:0003713~transcription coactivator activity	0.030417872708276
+GO:0003712~transcription cofactor activity	0.0347106969545923
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	0.0366039497217544
+GO:0004871~signal transducer activity	0.0395969054059432
+GO:0016810~hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	0.0431657740920087
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	0.0451686234807185
+GO:0000978~RNA polymerase II core promoter proximal region sequence-specific DNA binding	0.0455761849696906
+GO:0000983~transcription factor activity, RNA polymerase II core promoter sequence-specific	0.0462497707742409
+GO:0019902~phosphatase binding	0.0469294360385002

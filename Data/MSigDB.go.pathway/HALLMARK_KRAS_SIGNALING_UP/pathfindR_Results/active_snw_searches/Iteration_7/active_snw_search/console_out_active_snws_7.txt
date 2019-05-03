@@ -1,0 +1,163 @@
+-sif=/Library/Frameworks/R.framework/Versions/3.5/Resources/library/pathfindR/extdata/Biogrid.sif
+-sig=/Users/yhw543/Documents/GitHub/NetBAS/NetBAS/Data/MSigDB.go.pathway/HALLMARK_KRAS_SIGNALING_UP/pathfindR_Results/active_snw_searches/Iteration_7/active_snw_search/input_for_search.txt
+-method=GR
+-saTemp0=1
+-saTemp1=0.01
+-saIter=10000
+-geneInitProb=0.136666666666667
+-gaPop=400
+-gaIter=200
+-gaThread=5
+-gaMut=0
+-grMaxDepth=1
+-grSearchDepth=1
+-grOverlap=0.5
+-grSubNum=1000
+1% of seeds checked
+2% of seeds checked
+3% of seeds checked
+4% of seeds checked
+5% of seeds checked
+6% of seeds checked
+7% of seeds checked
+8% of seeds checked
+9% of seeds checked
+10% of seeds checked
+11% of seeds checked
+12% of seeds checked
+13% of seeds checked
+14% of seeds checked
+15% of seeds checked
+16% of seeds checked
+17% of seeds checked
+18% of seeds checked
+19% of seeds checked
+20% of seeds checked
+21% of seeds checked
+22% of seeds checked
+23% of seeds checked
+24% of seeds checked
+25% of seeds checked
+26% of seeds checked
+27% of seeds checked
+28% of seeds checked
+29% of seeds checked
+30% of seeds checked
+31% of seeds checked
+32% of seeds checked
+33% of seeds checked
+34% of seeds checked
+35% of seeds checked
+36% of seeds checked
+37% of seeds checked
+38% of seeds checked
+39% of seeds checked
+40% of seeds checked
+41% of seeds checked
+42% of seeds checked
+43% of seeds checked
+44% of seeds checked
+45% of seeds checked
+46% of seeds checked
+47% of seeds checked
+48% of seeds checked
+49% of seeds checked
+50% of seeds checked
+51% of seeds checked
+52% of seeds checked
+53% of seeds checked
+54% of seeds checked
+55% of seeds checked
+56% of seeds checked
+57% of seeds checked
+58% of seeds checked
+59% of seeds checked
+60% of seeds checked
+61% of seeds checked
+62% of seeds checked
+63% of seeds checked
+64% of seeds checked
+65% of seeds checked
+66% of seeds checked
+67% of seeds checked
+68% of seeds checked
+69% of seeds checked
+70% of seeds checked
+71% of seeds checked
+72% of seeds checked
+73% of seeds checked
+74% of seeds checked
+75% of seeds checked
+76% of seeds checked
+77% of seeds checked
+78% of seeds checked
+79% of seeds checked
+80% of seeds checked
+81% of seeds checked
+82% of seeds checked
+83% of seeds checked
+84% of seeds checked
+85% of seeds checked
+86% of seeds checked
+87% of seeds checked
+88% of seeds checked
+89% of seeds checked
+90% of seeds checked
+91% of seeds checked
+92% of seeds checked
+93% of seeds checked
+94% of seeds checked
+95% of seeds checked
+96% of seeds checked
+97% of seeds checked
+98% of seeds checked
+99% of seeds checked
+100%
+Filtering
+Subnetwork number20948
+Subnetwork number3607
+Subnetwork number3607
+1% of subnetworks checked, 3 filtered subnetworks in the list
+2% of subnetworks checked, 7 filtered subnetworks in the list
+3% of subnetworks checked, 15 filtered subnetworks in the list
+4% of subnetworks checked, 28 filtered subnetworks in the list
+5% of subnetworks checked, 43 filtered subnetworks in the list
+6% of subnetworks checked, 61 filtered subnetworks in the list
+7% of subnetworks checked, 80 filtered subnetworks in the list
+8% of subnetworks checked, 99 filtered subnetworks in the list
+9% of subnetworks checked, 117 filtered subnetworks in the list
+10% of subnetworks checked, 144 filtered subnetworks in the list
+11% of subnetworks checked, 178 filtered subnetworks in the list
+12% of subnetworks checked, 205 filtered subnetworks in the list
+13% of subnetworks checked, 230 filtered subnetworks in the list
+14% of subnetworks checked, 263 filtered subnetworks in the list
+15% of subnetworks checked, 294 filtered subnetworks in the list
+16% of subnetworks checked, 308 filtered subnetworks in the list
+17% of subnetworks checked, 327 filtered subnetworks in the list
+18% of subnetworks checked, 343 filtered subnetworks in the list
+19% of subnetworks checked, 357 filtered subnetworks in the list
+20% of subnetworks checked, 370 filtered subnetworks in the list
+21% of subnetworks checked, 386 filtered subnetworks in the list
+22% of subnetworks checked, 398 filtered subnetworks in the list
+23% of subnetworks checked, 410 filtered subnetworks in the list
+24% of subnetworks checked, 423 filtered subnetworks in the list
+25% of subnetworks checked, 439 filtered subnetworks in the list
+26% of subnetworks checked, 457 filtered subnetworks in the list
+27% of subnetworks checked, 474 filtered subnetworks in the list
+28% of subnetworks checked, 490 filtered subnetworks in the list
+29% of subnetworks checked, 507 filtered subnetworks in the list
+30% of subnetworks checked, 521 filtered subnetworks in the list
+31% of subnetworks checked, 537 filtered subnetworks in the list
+32% of subnetworks checked, 573 filtered subnetworks in the list
+33% of subnetworks checked, 609 filtered subnetworks in the list
+34% of subnetworks checked, 645 filtered subnetworks in the list
+35% of subnetworks checked, 681 filtered subnetworks in the list
+36% of subnetworks checked, 717 filtered subnetworks in the list
+37% of subnetworks checked, 753 filtered subnetworks in the list
+38% of subnetworks checked, 789 filtered subnetworks in the list
+39% of subnetworks checked, 825 filtered subnetworks in the list
+40% of subnetworks checked, 861 filtered subnetworks in the list
+41% of subnetworks checked, 897 filtered subnetworks in the list
+42% of subnetworks checked, 933 filtered subnetworks in the list
+43% of subnetworks checked, 970 filtered subnetworks in the list
+100%

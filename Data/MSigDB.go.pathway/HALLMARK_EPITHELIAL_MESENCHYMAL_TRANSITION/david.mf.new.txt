@@ -1,0 +1,86 @@
+GO:0005201~extracellular matrix structural constituent	1.41018869124582e-29
+GO:0005539~glycosaminoglycan binding	7.1447815711157e-25
+GO:0050840~extracellular matrix binding	2.85813991971842e-24
+GO:0005102~receptor binding	3.35712087195272e-24
+GO:0008201~heparin binding	9.78420136097346e-22
+GO:0005518~collagen binding	7.52911462940763e-21
+GO:1901681~sulfur compound binding	6.58083921295008e-20
+GO:0032403~protein complex binding	4.12848697417544e-18
+GO:0005178~integrin binding	6.26208912164291e-18
+GO:0005515~protein binding	2.26186689057478e-14
+GO:0001968~fibronectin binding	1.10844420351235e-13
+GO:0044877~macromolecular complex binding	1.59304326351031e-12
+GO:0005509~calcium ion binding	3.84200367227324e-12
+GO:0005198~structural molecule activity	8.33882011295568e-12
+GO:0050839~cell adhesion molecule binding	1.13653025307381e-11
+GO:0019838~growth factor binding	1.36366425010943e-11
+GO:0005125~cytokine activity	6.12219821888451e-11
+GO:0005520~insulin-like growth factor binding	1.91487437363224e-08
+GO:0043236~laminin binding	3.23065643980847e-08
+GO:0008083~growth factor activity	3.47658878605782e-08
+GO:0005126~cytokine receptor binding	7.63057749466026e-08
+GO:0002020~protease binding	8.01035246426176e-08
+GO:0001948~glycoprotein binding	2.33594473594851e-07
+GO:0048407~platelet-derived growth factor binding	4.72387964551412e-06
+GO:0005172~vascular endothelial growth factor receptor binding	4.72387964551412e-06
+GO:0031994~insulin-like growth factor I binding	7.02382150572336e-06
+GO:0061134~peptidase regulator activity	7.10598375129279e-06
+GO:0001618~virus receptor activity	1.3040870395025e-05
+GO:0042056~chemoattractant activity	1.33021739678469e-05
+GO:0070851~growth factor receptor binding	1.38538919833548e-05
+GO:0043394~proteoglycan binding	2.23794502975867e-05
+GO:0043184~vascular endothelial growth factor receptor 2 binding	2.69504559109143e-05
+GO:0005488~binding	2.94940995619144e-05
+GO:0017134~fibroblast growth factor binding	0.000114092501063994
+GO:0097367~carbohydrate derivative binding	0.000116421089584962
+GO:0046332~SMAD binding	0.000142438227800149
+GO:0030234~enzyme regulator activity	0.000322729531097958
+GO:0008475~procollagen-lysine 5-dioxygenase activity	0.000371322045762315
+GO:0098772~molecular function regulator	0.000405248087469144
+GO:0003779~actin binding	0.000546521886171686
+GO:0016641~oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor	0.000569146840205479
+GO:0005161~platelet-derived growth factor receptor binding	0.000569146840205479
+GO:0019955~cytokine binding	0.000692711616205842
+GO:0070815~peptidyl-lysine 5-dioxygenase activity	0.000737163852742674
+GO:0016504~peptidase activator activity	0.000834310957101555
+GO:0019960~C-X3-C chemokine binding	0.00121954814363032
+GO:0030023~extracellular matrix constituent conferring elasticity	0.00121954814363032
+GO:0016638~oxidoreductase activity, acting on the CH-NH2 group of donors	0.00158343577314945
+GO:0046872~metal ion binding	0.0016663941232171
+GO:0004222~metalloendopeptidase activity	0.0017067717424899
+GO:0043169~cation binding	0.00223680819835705
+GO:0097493~structural molecule activity conferring elasticity	0.00252347615074784
+GO:0031995~insulin-like growth factor II binding	0.00333989445612065
+GO:0004866~endopeptidase inhibitor activity	0.00351590080624736
+GO:0061135~endopeptidase regulator activity	0.00419856080398509
+GO:0048495~Roundabout binding	0.00426260315172758
+GO:0008022~protein C-terminus binding	0.00445892021561656
+GO:0004857~enzyme inhibitor activity	0.00450409182918815
+GO:0030414~peptidase inhibitor activity	0.00459166499266605
+GO:0004867~serine-type endopeptidase inhibitor activity	0.00468518283407954
+GO:0042802~identical protein binding	0.00493564719316727
+GO:0008237~metallopeptidase activity	0.00562688000291463
+GO:0043167~ion binding	0.00610409773482068
+GO:0015026~coreceptor activity	0.00873870243880384
+GO:0019904~protein domain specific binding	0.00933964738981103
+GO:0008307~structural constituent of muscle	0.0115110237236661
+GO:0008191~metalloendopeptidase inhibitor activity	0.0134964249771981
+GO:0050431~transforming growth factor beta binding	0.0134964249771981
+GO:0045236~CXCR chemokine receptor binding	0.0151843909321341
+GO:0048018~receptor agonist activity	0.0151843909321341
+GO:0030545~receptor regulator activity	0.0156120927830028
+GO:0005160~transforming growth factor beta receptor binding	0.0184182224655431
+GO:0031418~L-ascorbic acid binding	0.0227714669442248
+GO:0019956~chemokine binding	0.0227714669442248
+GO:0008047~enzyme activator activity	0.0235325295299216
+GO:0004252~serine-type endopeptidase activity	0.0249855183680413
+GO:0001664~G-protein coupled receptor binding	0.0258720160836435
+GO:0005507~copper ion binding	0.0259845223224256
+GO:0008092~cytoskeletal protein binding	0.0283596082113427
+GO:0004720~protein-lysine 6-oxidase activity	0.0332153540588514
+GO:0070051~fibrinogen binding	0.0332153540588514
+GO:0070052~collagen V binding	0.0332153540588514
+GO:0008236~serine-type peptidase activity	0.0397815823232062
+GO:0017171~serine hydrolase activity	0.0417059396952966
+GO:0017147~Wnt-protein binding	0.0468937595798808
+GO:0030546~receptor activator activity	0.0496602876730368

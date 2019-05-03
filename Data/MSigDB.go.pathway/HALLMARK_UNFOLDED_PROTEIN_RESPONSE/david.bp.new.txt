@@ -1,0 +1,397 @@
+GO:0030968~endoplasmic reticulum unfolded protein response	1.98022833206786e-53
+GO:0034620~cellular response to unfolded protein	5.16085218466885e-53
+GO:0035967~cellular response to topologically incorrect protein	3.30513667423838e-51
+GO:0006986~response to unfolded protein	1.70828917856127e-50
+GO:0035966~response to topologically incorrect protein	7.08155786762241e-49
+GO:0034976~response to endoplasmic reticulum stress	7.4500343885973e-46
+GO:0036498~IRE1-mediated unfolded protein response	4.98728038571346e-41
+GO:0000288~nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	4.39401638531943e-23
+GO:0033554~cellular response to stress	6.31618581310976e-23
+GO:0006401~RNA catabolic process	1.43303385397565e-18
+GO:0006402~mRNA catabolic process	2.54497905202707e-18
+GO:0010608~posttranscriptional regulation of gene expression	2.93488817070369e-18
+GO:0000956~nuclear-transcribed mRNA catabolic process	1.3524182606246e-17
+GO:0071310~cellular response to organic substance	2.52126965038176e-17
+GO:0006984~ER-nucleus signaling pathway	2.75175313532765e-17
+GO:0034655~nucleobase-containing compound catabolic process	5.8837542802974e-16
+GO:0046700~heterocycle catabolic process	3.20454425337976e-15
+GO:0044270~cellular nitrogen compound catabolic process	4.55463636829983e-15
+GO:0019439~aromatic compound catabolic process	5.833210227029e-15
+GO:0070887~cellular response to chemical stimulus	1.22628134796511e-14
+GO:1901361~organic cyclic compound catabolic process	1.66426242534806e-14
+GO:0043928~exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay	9.23030306894599e-14
+GO:0016071~mRNA metabolic process	1.34497655812438e-13
+GO:0010033~response to organic substance	1.52452675561725e-13
+GO:0000291~nuclear-transcribed mRNA catabolic process, exonucleolytic	1.79044411733104e-13
+GO:0006950~response to stress	1.98473675776378e-13
+GO:0036499~PERK-mediated unfolded protein response	2.46422085000054e-13
+GO:0044265~cellular macromolecule catabolic process	3.01761195116154e-13
+GO:0006417~regulation of translation	1.96945903401007e-12
+GO:0034248~regulation of cellular amide metabolic process	8.37818228575714e-12
+GO:0000289~nuclear-transcribed mRNA poly(A) tail shortening	3.40268221453506e-11
+GO:0009057~macromolecule catabolic process	4.97255225001073e-11
+GO:0022613~ribonucleoprotein complex biogenesis	6.09414736499276e-11
+GO:0006518~peptide metabolic process	6.73506137216262e-11
+GO:0042254~ribosome biogenesis	1.51958123606986e-10
+GO:0043043~peptide biosynthetic process	3.61439601275901e-10
+GO:0090501~RNA phosphodiester bond hydrolysis	5.58795963710562e-10
+GO:0043603~cellular amide metabolic process	6.40920908118253e-10
+GO:0006364~rRNA processing	7.73711123495712e-10
+GO:0016072~rRNA metabolic process	1.08082616951349e-09
+GO:0006412~translation	1.18533630496517e-09
+GO:0090503~RNA phosphodiester bond hydrolysis, exonucleolytic	1.66915330524816e-09
+GO:0043604~amide biosynthetic process	2.12689208859199e-09
+GO:1990440~positive regulation of transcription from RNA polymerase II promoter in response to endoplasmic reticulum stress	5.4564166474037e-09
+GO:0036003~positive regulation of transcription from RNA polymerase II promoter in response to stress	6.57824460888057e-09
+GO:0010467~gene expression	7.21789768683551e-09
+GO:0044248~cellular catabolic process	1.14991191627191e-08
+GO:0090305~nucleic acid phosphodiester bond hydrolysis	1.18108536679235e-08
+GO:0006807~nitrogen compound metabolic process	1.19661110761217e-08
+GO:0042221~response to chemical	1.47172410264471e-08
+GO:0034641~cellular nitrogen compound metabolic process	1.70299756193854e-08
+GO:0070059~intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	5.3968754326814e-08
+GO:1901566~organonitrogen compound biosynthetic process	1.00785069320875e-07
+GO:1901575~organic substance catabolic process	1.06479513506886e-07
+GO:0046907~intracellular transport	1.33477425997583e-07
+GO:0034470~ncRNA processing	1.64342370660476e-07
+GO:0006413~translational initiation	2.0352481328399e-07
+GO:0043488~regulation of mRNA stability	2.21292810451981e-07
+GO:0036500~ATF6-mediated unfolded protein response	2.51813553082549e-07
+GO:0034660~ncRNA metabolic process	2.78521961256577e-07
+GO:0043487~regulation of RNA stability	3.30654418606643e-07
+GO:0016070~RNA metabolic process	3.36957879908912e-07
+GO:0009056~catabolic process	4.39082295419422e-07
+GO:0090304~nucleic acid metabolic process	5.77304414548527e-07
+GO:0006446~regulation of translational initiation	6.59257521719633e-07
+GO:0051641~cellular localization	8.85435169337097e-07
+GO:1901564~organonitrogen compound metabolic process	1.20266575000341e-06
+GO:0051246~regulation of protein metabolic process	2.05350877756099e-06
+GO:0043618~regulation of transcription from RNA polymerase II promoter in response to stress	2.52673336840067e-06
+GO:0017148~negative regulation of translation	2.89736203207169e-06
+GO:0043620~regulation of DNA-templated transcription in response to stress	3.9148551986349e-06
+GO:0046483~heterocycle metabolic process	4.2105907851254e-06
+GO:0034249~negative regulation of cellular amide metabolic process	4.29943169373001e-06
+GO:0006725~cellular aromatic compound metabolic process	5.5482374951437e-06
+GO:0006396~RNA processing	7.22551794613079e-06
+GO:0070727~cellular macromolecule localization	7.27421515270293e-06
+GO:0080135~regulation of cellular response to stress	9.67503722843518e-06
+GO:0033036~macromolecule localization	9.75986474139221e-06
+GO:0044260~cellular macromolecule metabolic process	1.00868448974529e-05
+GO:0032268~regulation of cellular protein metabolic process	1.15648034889653e-05
+GO:0051173~positive regulation of nitrogen compound metabolic process	1.1574805365305e-05
+GO:0006139~nucleobase-containing compound metabolic process	1.24536747586838e-05
+GO:0051649~establishment of localization in cell	1.27826479919097e-05
+GO:0010468~regulation of gene expression	1.462419910453e-05
+GO:1901360~organic cyclic compound metabolic process	1.60537162236405e-05
+GO:0071287~cellular response to manganese ion	1.72814617774118e-05
+GO:0010557~positive regulation of macromolecule biosynthetic process	1.94787067166931e-05
+GO:0042149~cellular response to glucose starvation	2.60852699347179e-05
+GO:0015031~protein transport	2.85655409728902e-05
+GO:0045727~positive regulation of translation	3.0780003186711e-05
+GO:0009891~positive regulation of biosynthetic process	3.25601844228641e-05
+GO:0042594~response to starvation	3.81862781283218e-05
+GO:1902235~regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	3.89511138674197e-05
+GO:0000460~maturation of 5.8S rRNA	4.411964577946e-05
+GO:0097193~intrinsic apoptotic signaling pathway	4.66357745329728e-05
+GO:0044085~cellular component biogenesis	5.33363763326765e-05
+GO:0071027~nuclear RNA surveillance	5.78175291710477e-05
+GO:0071028~nuclear mRNA surveillance	5.78175291710477e-05
+GO:0043558~regulation of translational initiation in response to stress	5.78175291710477e-05
+GO:0034613~cellular protein localization	6.07451210682036e-05
+GO:0009267~cellular response to starvation	6.75701955906948e-05
+GO:0043170~macromolecule metabolic process	7.04620192371317e-05
+GO:0031328~positive regulation of cellular biosynthetic process	7.0612304235822e-05
+GO:0006457~protein folding	7.19846004790187e-05
+GO:0008104~protein localization	7.20819305891821e-05
+GO:0034250~positive regulation of cellular amide metabolic process	7.79921341060456e-05
+GO:0032269~negative regulation of cellular protein metabolic process	8.21565936342496e-05
+GO:0010042~response to manganese ion	9.11809036202592e-05
+GO:0071025~RNA surveillance	9.11809036202592e-05
+GO:1903573~negative regulation of response to endoplasmic reticulum stress	9.54062786076153e-05
+GO:0000184~nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	9.8177680954125e-05
+GO:0030433~ER-associated ubiquitin-dependent protein catabolic process	9.98950321371326e-05
+GO:1990737~response to manganese-induced endoplasmic reticulum stress	0.000107041726185779
+GO:0006886~intracellular protein transport	0.000115348345521534
+GO:0045184~establishment of protein localization	0.000116646392583271
+GO:0048193~Golgi vesicle transport	0.000129935711255864
+GO:0010628~positive regulation of gene expression	0.000142251877505156
+GO:0031667~response to nutrient levels	0.000159158981732977
+GO:0016075~rRNA catabolic process	0.000161393012513181
+GO:0051248~negative regulation of protein metabolic process	0.000161671766192425
+GO:0097190~apoptotic signaling pathway	0.000195339399668651
+GO:0045787~positive regulation of cell cycle	0.000204857610597267
+GO:0043555~regulation of translation in response to stress	0.000223513209084763
+GO:1902236~negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	0.000223513209084763
+GO:0036503~ERAD pathway	0.000231566848624537
+GO:0009991~response to extracellular stimulus	0.000288234396874176
+GO:0045947~negative regulation of translational initiation	0.00029931243182963
+GO:0071702~organic substance transport	0.000319413681281824
+GO:0044237~cellular metabolic process	0.000327633838798382
+GO:0048522~positive regulation of cellular process	0.000331759408196445
+GO:0071241~cellular response to inorganic substance	0.000345734798893595
+GO:0060255~regulation of macromolecule metabolic process	0.00035545086427921
+GO:0031669~cellular response to nutrient levels	0.000396136982943699
+GO:0000469~cleavage involved in rRNA processing	0.000441208649760289
+GO:0034661~ncRNA catabolic process	0.000441208649760289
+GO:0034198~cellular response to amino acid starvation	0.000441208649760289
+GO:1900101~regulation of endoplasmic reticulum unfolded protein response	0.000496586083222076
+GO:0071029~nuclear ncRNA surveillance	0.000528927459650921
+GO:0071035~nuclear polyadenylation-dependent rRNA catabolic process	0.000528927459650921
+GO:0071046~nuclear polyadenylation-dependent ncRNA catabolic process	0.000528927459650921
+GO:0043634~polyadenylation-dependent ncRNA catabolic process	0.000528927459650921
+GO:1901522~positive regulation of transcription from RNA polymerase II promoter involved in cellular response to chemical stimulus	0.000556227638535456
+GO:0010941~regulation of cell death	0.000583541180272556
+GO:0042981~regulation of apoptotic process	0.000613712425046936
+GO:0043067~regulation of programmed cell death	0.000686983238105817
+GO:0071549~cellular response to dexamethasone stimulus	0.000688823075360191
+GO:0006888~ER to Golgi vesicle-mediated transport	0.000698092546099323
+GO:0043633~polyadenylation-dependent RNA catabolic process	0.000737592842987823
+GO:0032057~negative regulation of translational initiation in response to stress	0.000737592842987823
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	0.000754863012627926
+GO:1901214~regulation of neuron death	0.000918154030065035
+GO:0071496~cellular response to external stimulus	0.000918154030065035
+GO:0060548~negative regulation of cell death	0.00093599822957873
+GO:0006810~transport	0.000951657202574801
+GO:0031668~cellular response to extracellular stimulus	0.000955507698825219
+GO:0034475~U4 snRNA 3'-end processing	0.000979599933661257
+GO:0044700~single organism signaling	0.00102677191184585
+GO:0010556~regulation of macromolecule biosynthetic process	0.00108736867004393
+GO:0010604~positive regulation of macromolecule metabolic process	0.00109538512262393
+GO:0065008~regulation of biological quality	0.00113834160856258
+GO:0007165~signal transduction	0.00120290033015674
+GO:0043066~negative regulation of apoptotic process	0.00122364188254954
+GO:0071704~organic substance metabolic process	0.00123333651590858
+GO:0071248~cellular response to metal ion	0.00124671692790184
+GO:0023052~signaling	0.00128456677658407
+GO:0012501~programmed cell death	0.00129779377552327
+GO:0071548~response to dexamethasone	0.00130555829341982
+GO:0007154~cell communication	0.00136744814583217
+GO:0050789~regulation of biological process	0.00137149079350464
+GO:0043069~negative regulation of programmed cell death	0.00138006248237934
+GO:0070997~neuron death	0.00141609084245352
+GO:0006915~apoptotic process	0.001472025357476
+GO:0051247~positive regulation of protein metabolic process	0.00149234664614931
+GO:0007568~aging	0.00150613083765889
+GO:0034427~nuclear-transcribed mRNA catabolic process, exonucleolytic, 3'-5'	0.00156204011504072
+GO:0032055~negative regulation of translation in response to stress	0.00156204011504072
+GO:0000290~deadenylation-dependent decapping of nuclear-transcribed mRNA	0.00156204011504072
+GO:0009889~regulation of biosynthetic process	0.0016470059803512
+GO:0051234~establishment of localization	0.00170572665594162
+GO:0019222~regulation of metabolic process	0.00170726608112187
+GO:0044238~primary metabolic process	0.00176333933000357
+GO:0034472~snRNA 3'-end processing	0.00190168244416897
+GO:0006983~ER overload response	0.00190168244416897
+GO:0048518~positive regulation of biological process	0.00204978239540927
+GO:0010035~response to inorganic substance	0.00206389318268714
+GO:0031325~positive regulation of cellular metabolic process	0.00211991577905042
+GO:0051169~nuclear transport	0.00218579842630636
+GO:0071826~ribonucleoprotein complex subunit organization	0.00227849852287045
+GO:0000082~G1/S transition of mitotic cell cycle	0.00233000730857888
+GO:2000112~regulation of cellular macromolecule biosynthetic process	0.00247716149542313
+GO:0031326~regulation of cellular biosynthetic process	0.00249877539950682
+GO:0010038~response to metal ion	0.00257954399908919
+GO:0008219~cell death	0.00264225648554435
+GO:0031125~rRNA 3'-end processing	0.00267586078973107
+GO:0051716~cellular response to stimulus	0.00270874687105092
+GO:0044267~cellular protein metabolic process	0.00274792445744093
+GO:1904294~positive regulation of ERAD pathway	0.00310962682253904
+GO:0071044~histone mRNA catabolic process	0.00310962682253904
+GO:0009893~positive regulation of metabolic process	0.00316311462278689
+GO:0051179~localization	0.00338581151874786
+GO:0044843~cell cycle G1/S phase transition	0.00355635440919697
+GO:0045927~positive regulation of growth	0.00370116368147457
+GO:0032870~cellular response to hormone stimulus	0.00393693869337791
+GO:0009987~cellular process	0.00397047947956192
+GO:0006520~cellular amino acid metabolic process	0.00400389099387811
+GO:0071216~cellular response to biotic stimulus	0.00410997758855352
+GO:0080134~regulation of response to stress	0.00411375677367349
+GO:0051171~regulation of nitrogen compound metabolic process	0.00420542754983307
+GO:0071385~cellular response to glucocorticoid stimulus	0.00441734023008588
+GO:0051254~positive regulation of RNA metabolic process	0.0044333665414006
+GO:0032270~positive regulation of cellular protein metabolic process	0.00459342420464737
+GO:0008152~metabolic process	0.00493699711067735
+GO:0071384~cellular response to corticosteroid stimulus	0.00512838219367532
+GO:0051168~nuclear export	0.005193875931545
+GO:2000113~negative regulation of cellular macromolecule biosynthetic process	0.00548261020759613
+GO:0032869~cellular response to insulin stimulus	0.00555512086956797
+GO:0033962~cytoplasmic mRNA processing body assembly	0.00573013063923577
+GO:0044271~cellular nitrogen compound biosynthetic process	0.0061124434177375
+GO:0006977~DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	0.00617803924542398
+GO:0043523~regulation of neuron apoptotic process	0.00619614327576376
+GO:1903829~positive regulation of cellular protein localization	0.00630687891801749
+GO:0072413~signal transduction involved in mitotic cell cycle checkpoint	0.00645897086797659
+GO:1902400~intracellular signal transduction involved in G1 DNA damage checkpoint	0.00645897086797659
+GO:0072431~signal transduction involved in mitotic G1 DNA damage checkpoint	0.00645897086797659
+GO:1902402~signal transduction involved in mitotic DNA damage checkpoint	0.00645897086797659
+GO:1902403~signal transduction involved in mitotic DNA integrity checkpoint	0.00645897086797659
+GO:0045893~positive regulation of transcription, DNA-templated	0.00654178532303707
+GO:1903508~positive regulation of nucleic acid-templated transcription	0.00654178532303707
+GO:0044419~interspecies interaction between organisms	0.00675524927652532
+GO:0044403~symbiosis, encompassing mutualism through parasitism	0.00675524927652532
+GO:0006913~nucleocytoplasmic transport	0.00696742645426943
+GO:0000466~maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.00698222421891829
+GO:0048199~vesicle targeting, to, from or within Golgi	0.00704341676842498
+GO:0072422~signal transduction involved in DNA damage checkpoint	0.00704341676842498
+GO:0072401~signal transduction involved in DNA integrity checkpoint	0.00704341676842498
+GO:0010629~negative regulation of gene expression	0.00714639314305834
+GO:0072395~signal transduction involved in cell cycle checkpoint	0.0073470275026256
+GO:0019538~protein metabolic process	0.00737610100404268
+GO:0070972~protein localization to endoplasmic reticulum	0.00744516094178656
+GO:1902680~positive regulation of RNA biosynthetic process	0.00750424607618894
+GO:0016180~snRNA processing	0.00765051539750405
+GO:0033365~protein localization to organelle	0.00785530804961945
+GO:0009059~macromolecule biosynthetic process	0.00811485495483164
+GO:0014070~response to organic cyclic compound	0.0081234955021647
+GO:0051172~negative regulation of nitrogen compound metabolic process	0.00818365247455377
+GO:1990267~response to transition metal nanoparticle	0.00828077167607244
+GO:0043628~ncRNA 3'-end processing	0.00834649691028096
+GO:0009628~response to abiotic stimulus	0.00863878130938787
+GO:0006403~RNA localization	0.00893529362063199
+GO:0022618~ribonucleoprotein complex assembly	0.00910844277014938
+GO:0044819~mitotic G1/S transition checkpoint	0.00933089694781325
+GO:0031571~mitotic G1 DNA damage checkpoint	0.00933089694781325
+GO:0007346~regulation of mitotic cell cycle	0.00951522563303725
+GO:0044783~G1 DNA damage checkpoint	0.00968894959260024
+GO:0032069~regulation of nuclease activity	0.00982013215668847
+GO:0006465~signal peptide processing	0.00982013215668847
+GO:0010605~negative regulation of macromolecule metabolic process	0.0100665006132999
+GO:0010558~negative regulation of macromolecule biosynthetic process	0.0103527100071042
+GO:2000045~regulation of G1/S transition of mitotic cell cycle	0.0103802508317675
+GO:1901655~cellular response to ketone	0.010428872282538
+GO:0006448~regulation of translational elongation	0.0105970943294819
+GO:0006903~vesicle targeting	0.0112007645802582
+GO:0050896~response to stimulus	0.0112160920281699
+GO:0071495~cellular response to endogenous stimulus	0.0113040311824313
+GO:0009266~response to temperature stimulus	0.0116829123799024
+GO:0061394~regulation of transcription from RNA polymerase II promoter in response to arsenic-containing substance	0.011993716489088
+GO:1903891~regulation of ATF6-mediated unfolded protein response	0.011993716489088
+GO:1904292~regulation of ERAD pathway	0.0122296021012363
+GO:0008334~histone mRNA metabolic process	0.0122296021012363
+GO:0000077~DNA damage checkpoint	0.0122320749731994
+GO:0044772~mitotic cell cycle phase transition	0.0123005202126358
+GO:0065007~biological regulation	0.0130687260832061
+GO:0016032~viral process	0.013080284179827
+GO:0071407~cellular response to organic cyclic compound	0.0131169894790006
+GO:2001242~regulation of intrinsic apoptotic signaling pathway	0.013379492238408
+GO:0051656~establishment of organelle localization	0.0134000420378225
+GO:0034645~cellular macromolecule biosynthetic process	0.0135444936674424
+GO:0009725~response to hormone	0.0135532047359732
+GO:1902806~regulation of cell cycle G1/S phase transition	0.0136766911740722
+GO:0071840~cellular component organization or biogenesis	0.0136815014612148
+GO:0007050~cell cycle arrest	0.0137566625626976
+GO:0044764~multi-organism cellular process	0.0137841857661235
+GO:0030307~positive regulation of cell growth	0.0139780668634997
+GO:0051726~regulation of cell cycle	0.0140946299314769
+GO:0016073~snRNA metabolic process	0.0141573420758869
+GO:0044249~cellular biosynthetic process	0.0142129463893769
+GO:0071158~positive regulation of cell cycle arrest	0.014612398789883
+GO:0031327~negative regulation of cellular biosynthetic process	0.0151298444932492
+GO:0071383~cellular response to steroid hormone stimulus	0.0151909594830807
+GO:0031570~DNA integrity checkpoint	0.0152257105926858
+GO:0051650~establishment of vesicle localization	0.0154393803568004
+GO:0010574~regulation of vascular endothelial growth factor production	0.0157995916841266
+GO:0032868~response to insulin	0.015944363814929
+GO:0048523~negative regulation of cellular process	0.0159552916376747
+GO:0009058~biosynthetic process	0.016302793497063
+GO:0048585~negative regulation of response to stimulus	0.0166471407502911
+GO:0040008~regulation of growth	0.0166473386382612
+GO:0002931~response to ischemia	0.0167537104286348
+GO:0048519~negative regulation of biological process	0.0171753935411036
+GO:0044770~cell cycle phase transition	0.0172914001890844
+GO:0009890~negative regulation of biosynthetic process	0.0173872690821626
+GO:0072331~signal transduction by p53 class mediator	0.0179269302055527
+GO:0042592~homeostatic process	0.0185088338667567
+GO:1901698~response to nitrogen compound	0.0185911721121814
+GO:0051648~vesicle localization	0.0186351373986663
+GO:2001243~negative regulation of intrinsic apoptotic signaling pathway	0.0190800695478669
+GO:1901699~cellular response to nitrogen compound	0.0192412050944246
+GO:1901654~response to ketone	0.0193825847131025
+GO:1901576~organic substance biosynthetic process	0.020028032380612
+GO:2000134~negative regulation of G1/S transition of mitotic cell cycle	0.0201643636425976
+GO:0030218~erythrocyte differentiation	0.0201643636425976
+GO:0043200~response to amino acid	0.0201643636425976
+GO:0031324~negative regulation of cellular metabolic process	0.0209970683875802
+GO:0009605~response to external stimulus	0.0212460151937639
+GO:1901215~negative regulation of neuron death	0.0216999844994717
+GO:0044773~mitotic DNA damage checkpoint	0.0224331619955684
+GO:1902807~negative regulation of cell cycle G1/S phase transition	0.0224331619955684
+GO:0010506~regulation of autophagy	0.0232079231722155
+GO:0045786~negative regulation of cell cycle	0.0232753928772574
+GO:0036491~regulation of translation initiation in response to endoplasmic reticulum stress	0.0238449910648662
+GO:0071034~CUT catabolic process	0.0238449910648662
+GO:0071043~CUT metabolic process	0.0238449910648662
+GO:0006990~positive regulation of transcription from RNA polymerase II promoter involved in unfolded protein response	0.0238449910648662
+GO:0051604~protein maturation	0.0238678184006015
+GO:0035924~cellular response to vascular endothelial growth factor stimulus	0.0240870838360624
+GO:0009892~negative regulation of metabolic process	0.0246807946800017
+GO:0032527~protein exit from endoplasmic reticulum	0.0252245102174597
+GO:0034101~erythrocyte homeostasis	0.0254571834406301
+GO:0006399~tRNA metabolic process	0.0254827018112373
+GO:0030330~DNA damage response, signal transduction by p53 class mediator	0.0260870431269878
+GO:0043632~modification-dependent macromolecule catabolic process	0.0264925649512311
+GO:0044774~mitotic DNA integrity checkpoint	0.0267252450756066
+GO:2001233~regulation of apoptotic signaling pathway	0.0271601644614661
+GO:0071156~regulation of cell cycle arrest	0.0273717833471039
+GO:0055082~cellular chemical homeostasis	0.0277593551783194
+GO:0051640~organelle localization	0.0280889349249016
+GO:0019725~cellular homeostasis	0.0281605790304311
+GO:0010501~RNA secondary structure unwinding	0.0287648846185945
+GO:1901700~response to oxygen-containing compound	0.0288158768431465
+GO:0001666~response to hypoxia	0.0292054491990012
+GO:0071033~nuclear retention of pre-mRNA at the site of transcription	0.0297177368299021
+GO:0071051~polyadenylation-dependent snoRNA 3'-end processing	0.0297177368299021
+GO:0071038~nuclear polyadenylation-dependent tRNA catabolic process	0.0297177368299021
+GO:1990416~cellular response to brain-derived neurotrophic factor stimulus	0.0297177368299021
+GO:0071363~cellular response to growth factor stimulus	0.0306284976616049
+GO:0008286~insulin receptor signaling pathway	0.0307292495668865
+GO:0000278~mitotic cell cycle	0.030856150927078
+GO:0001935~endothelial cell proliferation	0.0314256317210934
+GO:0008284~positive regulation of cell proliferation	0.0315196096373577
+GO:0031123~RNA 3'-end processing	0.0321302842555087
+GO:0036293~response to decreased oxygen levels	0.0327441332489527
+GO:0071375~cellular response to peptide hormone stimulus	0.0327441332489527
+GO:0006275~regulation of DNA replication	0.0335643487505513
+GO:0051054~positive regulation of DNA metabolic process	0.0336544331508166
+GO:0008380~RNA splicing	0.033684660635698
+GO:0071396~cellular response to lipid	0.0338468446436255
+GO:0071426~ribonucleoprotein complex export from nucleus	0.0342937329004993
+GO:0051402~neuron apoptotic process	0.0347053267558089
+GO:0051098~regulation of binding	0.0348212339557597
+GO:0042770~signal transduction in response to DNA damage	0.0350313318341775
+GO:0043434~response to peptide hormone	0.0354619918034372
+GO:0010606~positive regulation of cytoplasmic mRNA processing body assembly	0.0355554987032056
+GO:0016078~tRNA catabolic process	0.0355554987032056
+GO:0000375~RNA splicing, via transesterification reactions	0.0361059913304849
+GO:0009607~response to biotic stimulus	0.0370784360609838
+GO:0070848~response to growth factor	0.0371980001740415
+GO:0045931~positive regulation of mitotic cell cycle	0.0388419698444471
+GO:0002262~myeloid cell homeostasis	0.0388419698444471
+GO:0071166~ribonucleoprotein complex localization	0.0396285004352014
+GO:0050794~regulation of cellular process	0.0396604519239792
+GO:0006914~autophagy	0.0403638171528042
+GO:0070482~response to oxygen levels	0.0410661132942635
+GO:0007049~cell cycle	0.0412759418261038
+GO:0070417~cellular response to cold	0.0413584830131026
+GO:0036490~regulation of translation in response to endoplasmic reticulum stress	0.0413584830131026
+GO:1903047~mitotic cell cycle process	0.0414093069204837
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	0.041441436181157
+GO:1901653~cellular response to peptide	0.0415365871534434
+GO:0009719~response to endogenous stimulus	0.0434923750554601
+GO:0001889~liver development	0.0436820683622777
+GO:0061024~membrane organization	0.0443700746675351
+GO:0045740~positive regulation of DNA replication	0.0447110753767716
+GO:0071456~cellular response to hypoxia	0.0453595098842727
+GO:0006082~organic acid metabolic process	0.0460784719864071
+GO:0061008~hepaticobiliary system development	0.0462101397616175
+GO:1903071~positive regulation of ER-associated ubiquitin-dependent protein catabolic process	0.0471268948828756
+GO:0000459~exonucleolytic trimming involved in rRNA processing	0.0471268948828756
+GO:0031126~snoRNA 3'-end processing	0.0471268948828756
+GO:0006987~activation of signaling protein activity involved in unfolded protein response	0.0471268948828756
+GO:0000467~exonucleolytic trimming to generate mature 3'-end of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.0471268948828756
+GO:1901701~cellular response to oxygen-containing compound	0.0475175532554472
+GO:0001932~regulation of protein phosphorylation	0.0477146017004612
+GO:0016049~cell growth	0.04783342132669
+GO:0010243~response to organonitrogen compound	0.0479175497275195
+GO:0006414~translational elongation	0.048809364567376
+GO:0065003~macromolecular complex assembly	0.0490033507287835
+GO:0000075~cell cycle checkpoint	0.0494475958587793

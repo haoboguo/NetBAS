@@ -1,0 +1,160 @@
+GO:0098588~bounding membrane of organelle	5.87447358562072e-53
+GO:0005794~Golgi apparatus	1.41561065546036e-47
+GO:0012505~endomembrane system	4.66721795048928e-47
+GO:0016023~cytoplasmic, membrane-bounded vesicle	1.73165184107529e-46
+GO:0044431~Golgi apparatus part	9.39870634389487e-46
+GO:0031090~organelle membrane	1.11658610357086e-45
+GO:0031410~cytoplasmic vesicle	1.98737501666816e-44
+GO:0097708~intracellular vesicle	2.17416437091577e-44
+GO:0000139~Golgi membrane	4.58996737434935e-40
+GO:0098805~whole membrane	5.09969085769581e-39
+GO:0031988~membrane-bounded vesicle	3.57857671382232e-37
+GO:0030133~transport vesicle	2.65369415234899e-36
+GO:0031982~vesicle	5.91430337824619e-36
+GO:0030659~cytoplasmic vesicle membrane	3.86093746491994e-35
+GO:0012506~vesicle membrane	1.30189619625489e-34
+GO:0005773~vacuole	9.830563357395e-32
+GO:0044433~cytoplasmic vesicle part	1.83379452271852e-31
+GO:0030135~coated vesicle	1.33351090111471e-30
+GO:0044444~cytoplasmic part	3.64443540150002e-30
+GO:0098791~Golgi subcompartment	3.59895226426464e-29
+GO:0031984~organelle subcompartment	2.1317835711439e-28
+GO:0044437~vacuolar part	1.56771131542655e-26
+GO:0005802~trans-Golgi network	1.6628516766159e-26
+GO:0044446~intracellular organelle part	1.8811954942822e-26
+GO:0044422~organelle part	1.26396461807343e-25
+GO:0030662~coated vesicle membrane	2.4196191768948e-25
+GO:0005774~vacuolar membrane	3.02897919907306e-25
+GO:0098796~membrane protein complex	9.5435289910565e-24
+GO:0005768~endosome	1.39721481508351e-23
+GO:0005737~cytoplasm	1.95408872419401e-20
+GO:0043231~intracellular membrane-bounded organelle	1.74832035005812e-19
+GO:0016020~membrane	7.58062953929311e-19
+GO:0048475~coated membrane	8.36995924882609e-19
+GO:0030117~membrane coat	8.36995924882609e-19
+GO:0000323~lytic vacuole	1.88304085708617e-18
+GO:0005764~lysosome	1.88304085708617e-18
+GO:0010008~endosome membrane	6.19788038530226e-18
+GO:0044440~endosomal part	3.59937472866115e-17
+GO:0043227~membrane-bounded organelle	3.94349854891976e-17
+GO:0031201~SNARE complex	6.1805115788011e-17
+GO:0043229~intracellular organelle	8.05041736885421e-16
+GO:0030120~vesicle coat	9.19333661438052e-16
+GO:0030139~endocytic vesicle	1.11744700902581e-15
+GO:0030136~clathrin-coated vesicle	2.55928967259435e-15
+GO:0005798~Golgi-associated vesicle	1.42923890057298e-14
+GO:0043226~organelle	4.47316624026045e-14
+GO:0030658~transport vesicle membrane	7.25442721454123e-14
+GO:0005765~lysosomal membrane	1.17949175774139e-13
+GO:0098852~lytic vacuole membrane	1.17949175774139e-13
+GO:0005829~cytosol	2.6738570013908e-13
+GO:0005793~endoplasmic reticulum-Golgi intermediate compartment	4.46503182897456e-13
+GO:0005770~late endosome	4.46670464027276e-13
+GO:0032588~trans-Golgi network membrane	4.48185888977008e-13
+GO:0005783~endoplasmic reticulum	5.87163834103994e-13
+GO:0070062~extracellular exosome	2.99236729056867e-12
+GO:1903561~extracellular vesicle	3.54808902298057e-12
+GO:0043230~extracellular organelle	3.5913900365002e-12
+GO:0044425~membrane part	8.34079940089768e-12
+GO:0048471~perinuclear region of cytoplasm	8.64655577312373e-12
+GO:0030666~endocytic vesicle membrane	2.44367749583326e-11
+GO:0033116~endoplasmic reticulum-Golgi intermediate compartment membrane	3.81121489730252e-11
+GO:0030118~clathrin coat	1.17838116479064e-10
+GO:0044424~intracellular part	1.90904564610608e-10
+GO:0099503~secretory vesicle	2.27537393987756e-10
+GO:0030134~ER to Golgi transport vesicle	2.3792033229949e-10
+GO:0030665~clathrin-coated vesicle membrane	3.36092609040164e-10
+GO:0098589~membrane region	3.64700456264537e-10
+GO:0044432~endoplasmic reticulum part	7.64250441363227e-10
+GO:0045335~phagocytic vesicle	7.91732718164421e-10
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	1.39142866070847e-09
+GO:0043234~protein complex	1.46981443648793e-09
+GO:0005622~intracellular	1.87584334391608e-09
+GO:0032991~macromolecular complex	4.0149552878838e-09
+GO:0030141~secretory granule	4.16617179318724e-09
+GO:0005789~endoplasmic reticulum membrane	5.186294736215e-09
+GO:0044421~extracellular region part	8.7466416151463e-09
+GO:0097458~neuron part	9.66951672533044e-09
+GO:0030667~secretory granule membrane	1.17016954173792e-08
+GO:0012507~ER to Golgi transport vesicle membrane	1.46153983014191e-08
+GO:0005795~Golgi stack	1.52521456788574e-08
+GO:0030132~clathrin coat of coated pit	3.60094895172288e-08
+GO:0005905~clathrin-coated pit	7.12494920084536e-08
+GO:0030119~AP-type membrane coat adaptor complex	9.65815023356986e-08
+GO:0030137~COPI-coated vesicle	1.02519308761559e-07
+GO:0030125~clathrin vesicle coat	1.60559079815383e-07
+GO:0030669~clathrin-coated endocytic vesicle membrane	2.12078748109855e-07
+GO:0030660~Golgi-associated vesicle membrane	2.6946546749044e-07
+GO:0045202~synapse	2.76028761287072e-07
+GO:0030140~trans-Golgi network transport vesicle	2.93395523448322e-07
+GO:0036020~endolysosome membrane	3.18318851814553e-07
+GO:0030131~clathrin adaptor complex	3.53078757822245e-07
+GO:0005769~early endosome	6.06460838842558e-07
+GO:0045334~clathrin-coated endocytic vesicle	1.03599284901122e-06
+GO:0042470~melanosome	1.24605693746595e-06
+GO:0048770~pigment granule	1.24605693746595e-06
+GO:0036019~endolysosome	1.50053621593559e-06
+GO:0030663~COPI-coated vesicle membrane	1.50053621593559e-06
+GO:0043005~neuron projection	1.83864179385331e-06
+GO:0005576~extracellular region	2.00647665201501e-06
+GO:0031901~early endosome membrane	2.5638954696409e-06
+GO:0030054~cell junction	5.53659188768634e-06
+GO:0044456~synapse part	1.38446597582353e-05
+GO:0030670~phagocytic vesicle membrane	1.43142769120246e-05
+GO:0031902~late endosome membrane	2.59851646247248e-05
+GO:0030122~AP-2 adaptor complex	3.66119169924545e-05
+GO:0030126~COPI vesicle coat	4.64228109428887e-05
+GO:0030128~clathrin coat of endocytic vesicle	4.64228109428887e-05
+GO:0042995~cell projection	4.75745757968649e-05
+GO:0005912~adherens junction	5.56768198684646e-05
+GO:0044464~cell part	6.38739209263051e-05
+GO:0070161~anchoring junction	7.11875506218895e-05
+GO:0005623~cell	7.5411444064677e-05
+GO:0098857~membrane microdomain	9.49885620672516e-05
+GO:0098793~presynapse	0.000104870131715407
+GO:0032838~cell projection cytoplasm	0.000185098122122632
+GO:0030424~axon	0.000306821782625388
+GO:0005775~vacuolar lumen	0.000334996634245119
+GO:0008021~synaptic vesicle	0.000507903863351844
+GO:0045121~membrane raft	0.000576538283584479
+GO:0055037~recycling endosome	0.000765261487775539
+GO:1904115~axon cytoplasm	0.000771729747778448
+GO:0070382~exocytic vesicle	0.00081616604082952
+GO:0033267~axon part	0.000928226636892657
+GO:0005925~focal adhesion	0.000933175755500469
+GO:0005924~cell-substrate adherens junction	0.000980183722079077
+GO:0030055~cell-substrate junction	0.0010627413423588
+GO:0042589~zymogen granule membrane	0.00140459713818872
+GO:0005801~cis-Golgi network	0.00141242594025
+GO:0044459~plasma membrane part	0.00147820665895507
+GO:0071944~cell periphery	0.00155963002905681
+GO:0098797~plasma membrane protein complex	0.0015898935249367
+GO:0005886~plasma membrane	0.0019658257866589
+GO:0042588~zymogen granule	0.00264572651774341
+GO:0005766~primary lysosome	0.00381661134299649
+GO:0042582~azurophil granule	0.00381661134299649
+GO:0009986~cell surface	0.00603042732996664
+GO:0036477~somatodendritic compartment	0.0071260077364375
+GO:0031252~cell leading edge	0.0101557234247565
+GO:0030425~dendrite	0.0103710068932641
+GO:0043202~lysosomal lumen	0.0106317413117376
+GO:0031224~intrinsic component of membrane	0.0106870885491066
+GO:0043209~myelin sheath	0.0125833205707884
+GO:0031985~Golgi cisterna	0.0127031368312753
+GO:0016021~integral component of membrane	0.0132981242079177
+GO:0097487~multivesicular body, internal vesicle	0.0153952618399249
+GO:0005771~multivesicular body	0.0164038299681582
+GO:0099568~cytoplasmic region	0.0193076766258092
+GO:0016323~basolateral plasma membrane	0.0212844343706741
+GO:0043025~neuronal cell body	0.0213124390254091
+GO:0031088~platelet dense granule membrane	0.0255282553664704
+GO:0016469~proton-transporting two-sector ATPase complex	0.0284954761456737
+GO:0005913~cell-cell adherens junction	0.0286877959836267
+GO:0044297~cell body	0.0378279137173195
+GO:0045177~apical part of cell	0.038980608497067
+GO:0071439~clathrin complex	0.0405345991741671
+GO:0030672~synaptic vesicle membrane	0.0407559244306009
+GO:0099501~exocytic vesicle membrane	0.0407559244306009
+GO:0043195~terminal bouton	0.0419538354576603
+GO:0033180~proton-transporting V-type ATPase, V1 domain	0.0454857271760357
+GO:0005911~cell-cell junction	0.0487337707015295

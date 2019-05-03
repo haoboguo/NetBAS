@@ -1,0 +1,30 @@
+GO:0016491~oxidoreductase activity	3.77589486976467e-08
+GO:0003824~catalytic activity	8.02691519295999e-05
+GO:0048037~cofactor binding	0.000111891727731819
+GO:0016853~isomerase activity	0.000532583449064076
+GO:0050662~coenzyme binding	0.00089302823034676
+GO:0050661~NADP binding	0.000949752783141952
+GO:0016863~intramolecular oxidoreductase activity, transposing C=C bonds	0.00121186950738327
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00126827553925255
+GO:0005102~receptor binding	0.0017999143717106
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	0.00226228624420914
+GO:0072341~modified amino acid binding	0.00282204406650993
+GO:0016628~oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	0.004517969337848
+GO:0046983~protein dimerization activity	0.00632611417073808
+GO:0016829~lyase activity	0.0070982336463736
+GO:0000247~C-8 sterol isomerase activity	0.00804040606550498
+GO:0008144~drug binding	0.00874510440088224
+GO:0042803~protein homodimerization activity	0.00881469176786214
+GO:0036094~small molecule binding	0.0114646197927784
+GO:0016215~acyl-CoA desaturase activity	0.0120366885701042
+GO:0004768~stearoyl-CoA 9-desaturase activity	0.0120366885701042
+GO:0042802~identical protein binding	0.0191611349752502
+GO:0016717~oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water	0.019981723912165
+GO:0016860~intramolecular oxidoreductase activity	0.0199957052774733
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	0.0243543147383362
+GO:0000166~nucleotide binding	0.0257232717845372
+GO:1901265~nucleoside phosphate binding	0.0258141293688302
+GO:0016765~transferase activity, transferring alkyl or aryl (other than methyl) groups	0.0282550774192224
+GO:0016705~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	0.029383356234405
+GO:0016209~antioxidant activity	0.0422486242994787
+GO:0008289~lipid binding	0.0483095663519392

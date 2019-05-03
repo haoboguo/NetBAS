@@ -1,0 +1,661 @@
+GO:0022402~cell cycle process	3.87614595996805e-73
+GO:0000278~mitotic cell cycle	8.48614086551127e-68
+GO:1903047~mitotic cell cycle process	2.37332129150845e-67
+GO:0007049~cell cycle	7.25645245308331e-67
+GO:0006259~DNA metabolic process	3.58868446997969e-64
+GO:0051276~chromosome organization	1.77894086473163e-58
+GO:0006260~DNA replication	5.71633341273736e-53
+GO:0044770~cell cycle phase transition	1.32359674184033e-44
+GO:0044772~mitotic cell cycle phase transition	8.78083392529653e-44
+GO:0006261~DNA-dependent DNA replication	4.22876188392158e-42
+GO:0000280~nuclear division	3.42559118284816e-37
+GO:0006974~cellular response to DNA damage stimulus	1.04892273786657e-35
+GO:0048285~organelle fission	1.12121609968729e-35
+GO:0006996~organelle organization	2.14575546927928e-34
+GO:0006281~DNA repair	9.2571418471795e-34
+GO:0006310~DNA recombination	1.05690453577296e-31
+GO:0090304~nucleic acid metabolic process	2.18823287895975e-31
+GO:0007067~mitotic nuclear division	3.22280891524816e-31
+GO:0051301~cell division	5.69726113836636e-31
+GO:0006139~nucleobase-containing compound metabolic process	1.97199460204855e-29
+GO:0046483~heterocycle metabolic process	4.15350316047541e-29
+GO:0006725~cellular aromatic compound metabolic process	1.02289060024808e-28
+GO:0051726~regulation of cell cycle	3.21191975069927e-28
+GO:1901360~organic cyclic compound metabolic process	6.34592340768788e-28
+GO:0000819~sister chromatid segregation	8.80605646994374e-28
+GO:0098813~nuclear chromosome segregation	9.34748004503703e-28
+GO:0007059~chromosome segregation	1.05682162875594e-27
+GO:0034641~cellular nitrogen compound metabolic process	8.23363614575873e-26
+GO:0006312~mitotic recombination	8.63142604090423e-26
+GO:0000722~telomere maintenance via recombination	2.67747378084766e-25
+GO:0000082~G1/S transition of mitotic cell cycle	2.83262930437165e-25
+GO:0010564~regulation of cell cycle process	2.80745535139521e-24
+GO:0033554~cellular response to stress	3.10823553107678e-24
+GO:0044843~cell cycle G1/S phase transition	4.00803118257767e-24
+GO:0006807~nitrogen compound metabolic process	6.68638828817223e-24
+GO:0022616~DNA strand elongation	1.35983213839818e-23
+GO:0071840~cellular component organization or biogenesis	1.66219823545039e-23
+GO:0016043~cellular component organization	2.37683717893502e-23
+GO:0007062~sister chromatid cohesion	5.5001285159312e-23
+GO:0044260~cellular macromolecule metabolic process	2.14546553433498e-22
+GO:0051052~regulation of DNA metabolic process	9.00009506747981e-22
+GO:0071897~DNA biosynthetic process	9.50590606343827e-22
+GO:0007346~regulation of mitotic cell cycle	1.19110495645499e-21
+GO:0000723~telomere maintenance	3.80368994431247e-21
+GO:0071103~DNA conformation change	5.20606396567227e-21
+GO:0006302~double-strand break repair	2.83734060473633e-20
+GO:0032200~telomere organization	3.39548749566267e-20
+GO:0043170~macromolecule metabolic process	8.45500901262924e-20
+GO:0000731~DNA synthesis involved in DNA repair	1.12323318932889e-19
+GO:0045786~negative regulation of cell cycle	1.98754221450345e-19
+GO:0009059~macromolecule biosynthetic process	3.70674119072474e-19
+GO:0000075~cell cycle checkpoint	4.22601747951334e-19
+GO:0051321~meiotic cell cycle	4.71860083975373e-19
+GO:0034645~cellular macromolecule biosynthetic process	1.28435576245753e-18
+GO:0010948~negative regulation of cell cycle process	1.37973606470686e-18
+GO:0000070~mitotic sister chromatid segregation	5.26377451654653e-18
+GO:0006271~DNA strand elongation involved in DNA replication	1.98940598579872e-17
+GO:0044839~cell cycle G2/M phase transition	2.8173517862231e-17
+GO:0000086~G2/M transition of mitotic cell cycle	7.64232712446659e-17
+GO:1903046~meiotic cell cycle process	1.52923015251115e-16
+GO:0044249~cellular biosynthetic process	4.52959151137336e-16
+GO:0006297~nucleotide-excision repair, DNA gap filling	4.97843697127944e-16
+GO:0044238~primary metabolic process	5.47382770345562e-16
+GO:1901576~organic substance biosynthetic process	6.93512066796185e-16
+GO:0007093~mitotic cell cycle checkpoint	9.62944670268735e-16
+GO:0044237~cellular metabolic process	1.4910533361685e-15
+GO:0006270~DNA replication initiation	1.56482104369531e-15
+GO:0071704~organic substance metabolic process	1.77789659482609e-15
+GO:0009058~biosynthetic process	2.47745943866704e-15
+GO:0032392~DNA geometric change	1.1250729077127e-14
+GO:0031570~DNA integrity checkpoint	1.14508100667133e-14
+GO:1901796~regulation of signal transduction by p53 class mediator	2.04589318908997e-14
+GO:0045930~negative regulation of mitotic cell cycle	4.21708506314054e-14
+GO:1902589~single-organism organelle organization	4.58412370391917e-14
+GO:0000077~DNA damage checkpoint	4.84547828447964e-14
+GO:1901990~regulation of mitotic cell cycle phase transition	7.91618418006344e-14
+GO:0018130~heterocycle biosynthetic process	1.24000731450712e-13
+GO:0007126~meiotic nuclear division	1.28144100233747e-13
+GO:0060249~anatomical structure homeostasis	1.42678093551416e-13
+GO:0019438~aromatic compound biosynthetic process	1.50315871757486e-13
+GO:0008152~metabolic process	1.52434275464575e-13
+GO:0034654~nucleobase-containing compound biosynthetic process	1.70278378103042e-13
+GO:0006298~mismatch repair	2.12196856010878e-13
+GO:1901362~organic cyclic compound biosynthetic process	2.51202685397126e-13
+GO:0000724~double-strand break repair via homologous recombination	3.47110833234852e-13
+GO:1901987~regulation of cell cycle phase transition	4.00658778116494e-13
+GO:0000725~recombinational repair	4.12582838019278e-13
+GO:0051983~regulation of chromosome segregation	4.12582838019278e-13
+GO:0045787~positive regulation of cell cycle	4.85827607710619e-13
+GO:0000226~microtubule cytoskeleton organization	1.64556696601788e-12
+GO:0032508~DNA duplex unwinding	2.05903953370595e-12
+GO:0044271~cellular nitrogen compound biosynthetic process	3.01591995128247e-12
+GO:0042769~DNA damage response, detection of DNA damage	4.31897636277593e-12
+GO:0090305~nucleic acid phosphodiester bond hydrolysis	4.46585504679658e-12
+GO:0090068~positive regulation of cell cycle process	5.61207360894874e-12
+GO:0033044~regulation of chromosome organization	8.78441738672096e-12
+GO:0051172~negative regulation of nitrogen compound metabolic process	1.0816357421798e-11
+GO:0044774~mitotic DNA integrity checkpoint	1.26706711226948e-11
+GO:0006323~DNA packaging	1.34734974702624e-11
+GO:1901991~negative regulation of mitotic cell cycle phase transition	1.51225202191711e-11
+GO:0006301~postreplication repair	1.79251152604704e-11
+GO:0016925~protein sumoylation	2.04071857826188e-11
+GO:0010605~negative regulation of macromolecule metabolic process	2.98519529966123e-11
+GO:0044786~cell cycle DNA replication	3.37809092712843e-11
+GO:0006289~nucleotide-excision repair	4.35109737932777e-11
+GO:0007017~microtubule-based process	4.38135820711775e-11
+GO:1901988~negative regulation of cell cycle phase transition	4.75267519788279e-11
+GO:0090329~regulation of DNA-dependent DNA replication	4.97313649513018e-11
+GO:0044773~mitotic DNA damage checkpoint	7.60960744524e-11
+GO:0045934~negative regulation of nucleobase-containing compound metabolic process	7.94916968336047e-11
+GO:0006950~response to stress	7.99072796687097e-11
+GO:0051054~positive regulation of DNA metabolic process	1.00147131243207e-10
+GO:0018205~peptidyl-lysine modification	1.4865117085032e-10
+GO:0006296~nucleotide-excision repair, DNA incision, 5'-to lesion	1.96873659754681e-10
+GO:0007127~meiosis I	2.0405399061179e-10
+GO:0009314~response to radiation	2.51624299328189e-10
+GO:0051783~regulation of nuclear division	4.11798466662149e-10
+GO:0008283~cell proliferation	5.014642874296e-10
+GO:0019985~translesion synthesis	5.33707405191015e-10
+GO:0033683~nucleotide-excision repair, DNA incision	5.33707405191015e-10
+GO:0006275~regulation of DNA replication	5.62499452930549e-10
+GO:0009892~negative regulation of metabolic process	8.3534449748383e-10
+GO:0007050~cell cycle arrest	1.05461096036189e-09
+GO:0071478~cellular response to radiation	1.12956258788042e-09
+GO:2000113~negative regulation of cellular macromolecule biosynthetic process	1.19607238321488e-09
+GO:0019219~regulation of nucleobase-containing compound metabolic process	1.21754351057158e-09
+GO:0006325~chromatin organization	1.60938011288189e-09
+GO:0009411~response to UV	1.73055410567102e-09
+GO:0044702~single organism reproductive process	1.75137246885979e-09
+GO:0010558~negative regulation of macromolecule biosynthetic process	2.71666588756681e-09
+GO:0051171~regulation of nitrogen compound metabolic process	2.90248985688689e-09
+GO:0031324~negative regulation of cellular metabolic process	3.22029588325557e-09
+GO:0031497~chromatin assembly	5.02834447643049e-09
+GO:0071824~protein-DNA complex subunit organization	5.50353336466316e-09
+GO:0010212~response to ionizing radiation	7.37316478232265e-09
+GO:0051304~chromosome separation	7.40975829741691e-09
+GO:0042770~signal transduction in response to DNA damage	8.08414385526845e-09
+GO:0006283~transcription-coupled nucleotide-excision repair	8.4860027590632e-09
+GO:0031327~negative regulation of cellular biosynthetic process	9.57301302651863e-09
+GO:0000732~strand displacement	1.00601779546006e-08
+GO:0051169~nuclear transport	1.40015335946103e-08
+GO:0009890~negative regulation of biosynthetic process	1.52610776427203e-08
+GO:0006284~base-excision repair	1.66734296508096e-08
+GO:0060255~regulation of macromolecule metabolic process	2.64316814912144e-08
+GO:0006333~chromatin assembly or disassembly	2.80982431454648e-08
+GO:0000018~regulation of DNA recombination	2.92430599513002e-08
+GO:0010629~negative regulation of gene expression	3.25796751708497e-08
+GO:2001251~negative regulation of chromosome organization	3.42399686848033e-08
+GO:0022414~reproductive process	3.58201332906008e-08
+GO:0000003~reproduction	3.72502839947315e-08
+GO:0007051~spindle organization	3.76813559824519e-08
+GO:0006268~DNA unwinding involved in DNA replication	3.80698457086284e-08
+GO:0042276~error-prone translesion synthesis	4.10082246494367e-08
+GO:0070987~error-free translesion synthesis	4.10082246494367e-08
+GO:0043933~macromolecular complex subunit organization	4.97868907572202e-08
+GO:0007088~regulation of mitotic nuclear division	5.07461334585442e-08
+GO:0065004~protein-DNA complex assembly	5.61586751856847e-08
+GO:0007569~cell aging	6.45300045538905e-08
+GO:0051053~negative regulation of DNA metabolic process	6.55905593206091e-08
+GO:0006303~double-strand break repair via nonhomologous end joining	6.61380483320826e-08
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	8.38443729289671e-08
+GO:0000726~non-recombinational repair	1.38445859932342e-07
+GO:0031100~organ regeneration	1.55557185398236e-07
+GO:0051173~positive regulation of nitrogen compound metabolic process	1.82766188118421e-07
+GO:0006913~nucleocytoplasmic transport	2.35840712737707e-07
+GO:0007052~mitotic spindle organization	2.50141319319771e-07
+GO:0030330~DNA damage response, signal transduction by p53 class mediator	2.77130476273443e-07
+GO:0009628~response to abiotic stimulus	3.27823816799372e-07
+GO:0019222~regulation of metabolic process	3.422669508056e-07
+GO:0043412~macromolecule modification	3.44948534666222e-07
+GO:0033043~regulation of organelle organization	4.07227381082403e-07
+GO:1902749~regulation of cell cycle G2/M phase transition	5.07979799202236e-07
+GO:0002200~somatic diversification of immune receptors	5.73836221276923e-07
+GO:2000104~negative regulation of DNA-dependent DNA replication	6.25145966664695e-07
+GO:0051225~spindle assembly	6.75086025536291e-07
+GO:0033045~regulation of sister chromatid segregation	7.27668685413789e-07
+GO:0031323~regulation of cellular metabolic process	8.06516268515945e-07
+GO:0034644~cellular response to UV	8.16949723391617e-07
+GO:0051168~nuclear export	1.05431727526123e-06
+GO:0010965~regulation of mitotic sister chromatid separation	1.05961359725761e-06
+GO:0016070~RNA metabolic process	1.07293355718458e-06
+GO:0080090~regulation of primary metabolic process	1.12553291410606e-06
+GO:2000134~negative regulation of G1/S transition of mitotic cell cycle	1.17068013048881e-06
+GO:0045931~positive regulation of mitotic cell cycle	1.19551825166906e-06
+GO:0044784~metaphase/anaphase transition of cell cycle	1.22066120553044e-06
+GO:0031571~mitotic G1 DNA damage checkpoint	1.2738269638625e-06
+GO:0044819~mitotic G1/S transition checkpoint	1.2738269638625e-06
+GO:0010332~response to gamma radiation	1.40171318280763e-06
+GO:0051306~mitotic sister chromatid separation	1.40171318280763e-06
+GO:0040029~regulation of gene expression, epigenetic	1.41591598861327e-06
+GO:0044783~G1 DNA damage checkpoint	1.41718175959441e-06
+GO:2001020~regulation of response to DNA damage stimulus	1.50040197018284e-06
+GO:1902807~negative regulation of cell cycle G1/S phase transition	1.65356351006723e-06
+GO:0032446~protein modification by small protein conjugation	1.71333547674613e-06
+GO:0008156~negative regulation of DNA replication	1.77052761646855e-06
+GO:0071214~cellular response to abiotic stimulus	1.77065967611321e-06
+GO:0002562~somatic diversification of immune receptors via germline recombination within a single locus	2.08500047205161e-06
+GO:0016444~somatic cell DNA recombination	2.08500047205161e-06
+GO:0051253~negative regulation of RNA metabolic process	2.08774254809875e-06
+GO:0010639~negative regulation of organelle organization	2.19130157489838e-06
+GO:0007098~centrosome cycle	2.35817317974771e-06
+GO:0072331~signal transduction by p53 class mediator	2.43362040067702e-06
+GO:0010556~regulation of macromolecule biosynthetic process	2.46346505294079e-06
+GO:0044085~cellular component biogenesis	2.59149522215368e-06
+GO:0031145~anaphase-promoting complex-dependent catabolic process	2.59927386685396e-06
+GO:0033047~regulation of mitotic sister chromatid segregation	2.67988788048886e-06
+GO:0006464~cellular protein modification process	2.96112183896582e-06
+GO:0036211~protein modification process	2.96112183896582e-06
+GO:0010604~positive regulation of macromolecule metabolic process	3.02742351641153e-06
+GO:0071156~regulation of cell cycle arrest	3.15147127488154e-06
+GO:0071479~cellular response to ionizing radiation	3.41018681722114e-06
+GO:0048523~negative regulation of cellular process	3.48939802593555e-06
+GO:0006282~regulation of DNA repair	3.78446436249425e-06
+GO:0051297~centrosome organization	4.26218993463637e-06
+GO:0034502~protein localization to chromosome	4.2993511501595e-06
+GO:0033260~nuclear DNA replication	4.52182592213228e-06
+GO:0045132~meiotic chromosome segregation	4.53124169997387e-06
+GO:0071158~positive regulation of cell cycle arrest	4.53124169997387e-06
+GO:0034728~nucleosome organization	4.78825039396591e-06
+GO:0031860~telomeric 3' overhang formation	5.30600746355303e-06
+GO:1903507~negative regulation of nucleic acid-templated transcription	5.52621157622601e-06
+GO:0072413~signal transduction involved in mitotic cell cycle checkpoint	5.98928522667803e-06
+GO:1902402~signal transduction involved in mitotic DNA damage checkpoint	5.98928522667803e-06
+GO:0072431~signal transduction involved in mitotic G1 DNA damage checkpoint	5.98928522667803e-06
+GO:1902403~signal transduction involved in mitotic DNA integrity checkpoint	5.98928522667803e-06
+GO:1902400~intracellular signal transduction involved in G1 DNA damage checkpoint	5.98928522667803e-06
+GO:0007091~metaphase/anaphase transition of mitotic cell cycle	6.41637526480113e-06
+GO:0090399~replicative senescence	6.73091198191983e-06
+GO:0051338~regulation of transferase activity	6.77556130538144e-06
+GO:0045892~negative regulation of transcription, DNA-templated	6.8515608246496e-06
+GO:1902679~negative regulation of RNA biosynthetic process	7.37839627906452e-06
+GO:2000112~regulation of cellular macromolecule biosynthetic process	7.38377195912027e-06
+GO:0072422~signal transduction involved in DNA damage checkpoint	7.39725804054535e-06
+GO:0072401~signal transduction involved in DNA integrity checkpoint	7.39725804054535e-06
+GO:0048519~negative regulation of biological process	7.49382996758543e-06
+GO:0000079~regulation of cyclin-dependent protein serine/threonine kinase activity	7.56254245912724e-06
+GO:0072395~signal transduction involved in cell cycle checkpoint	8.19815326377173e-06
+GO:1904029~regulation of cyclin-dependent protein kinase activity	8.20518546808449e-06
+GO:0031023~microtubule organizing center organization	9.19675022986539e-06
+GO:1902850~microtubule cytoskeleton organization involved in mitosis	9.69190483952098e-06
+GO:0090398~cellular senescence	9.69190483952098e-06
+GO:0070647~protein modification by small protein conjugation or removal	9.69300747713958e-06
+GO:0009987~cellular process	1.00232376050617e-05
+GO:0051303~establishment of chromosome localization	1.10443174699883e-05
+GO:0071482~cellular response to light stimulus	1.12570960296561e-05
+GO:0022607~cellular component assembly	1.13995540890918e-05
+GO:0016569~covalent chromatin modification	1.180837456553e-05
+GO:0031325~positive regulation of cellular metabolic process	1.20350607632228e-05
+GO:0050000~chromosome localization	1.21577044366696e-05
+GO:0031326~regulation of cellular biosynthetic process	1.24565332096522e-05
+GO:0030071~regulation of mitotic metaphase/anaphase transition	1.25443425271121e-05
+GO:0032774~RNA biosynthetic process	1.38596085265996e-05
+GO:0007131~reciprocal meiotic recombination	1.42054259110515e-05
+GO:1902099~regulation of metaphase/anaphase transition of cell cycle	1.42054259110515e-05
+GO:0035825~reciprocal DNA recombination	1.42054259110515e-05
+GO:0007568~aging	1.49075573333176e-05
+GO:0007143~female meiotic division	1.5120910787368e-05
+GO:0018193~peptidyl-amino acid modification	1.72077549558683e-05
+GO:0009416~response to light stimulus	1.73215874043579e-05
+GO:0036297~interstrand cross-link repair	1.80605067713619e-05
+GO:0031573~intra-S DNA damage checkpoint	1.80836038528686e-05
+GO:0071459~protein localization to chromosome, centromeric region	1.80836038528686e-05
+GO:0009889~regulation of biosynthetic process	1.99926858922626e-05
+GO:0045814~negative regulation of gene expression, epigenetic	2.06799222229834e-05
+GO:0065003~macromolecular complex assembly	2.19346480700816e-05
+GO:0016445~somatic diversification of immunoglobulins	2.2717805485644e-05
+GO:0009893~positive regulation of metabolic process	2.35560738745374e-05
+GO:0045005~DNA-dependent DNA replication maintenance of fidelity	2.49596009414011e-05
+GO:2000045~regulation of G1/S transition of mitotic cell cycle	2.75649519243636e-05
+GO:0051347~positive regulation of transferase activity	2.92438217979871e-05
+GO:0006978~DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	3.09878299219608e-05
+GO:0051784~negative regulation of nuclear division	3.49265577409364e-05
+GO:0010389~regulation of G2/M transition of mitotic cell cycle	3.49265577409364e-05
+GO:0042772~DNA damage response, signal transduction resulting in transcription	3.94973916612367e-05
+GO:0031572~G2 DNA damage checkpoint	4.50795421584902e-05
+GO:0034622~cellular macromolecular complex assembly	4.60424986983881e-05
+GO:0006334~nucleosome assembly	4.73002170546478e-05
+GO:0001832~blastocyst growth	4.95980699784043e-05
+GO:0071426~ribonucleoprotein complex export from nucleus	5.05002374768355e-05
+GO:1902806~regulation of cell cycle G1/S phase transition	5.25984084564652e-05
+GO:0000910~cytokinesis	5.69278245940582e-05
+GO:0070192~chromosome organization involved in meiotic cell cycle	5.70549427223345e-05
+GO:0006351~transcription, DNA-templated	5.86172066664654e-05
+GO:0007010~cytoskeleton organization	6.17269519558973e-05
+GO:0006977~DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	6.25922225698534e-05
+GO:0097659~nucleic acid-templated transcription	6.44692622287429e-05
+GO:0031577~spindle checkpoint	6.70206966626814e-05
+GO:0006405~RNA export from nucleus	6.78363605212762e-05
+GO:0042023~DNA endoreduplication	7.18876211843684e-05
+GO:0032875~regulation of DNA endoreduplication	7.18876211843684e-05
+GO:0085020~protein K6-linked ubiquitination	7.18876211843684e-05
+GO:0048522~positive regulation of cellular process	7.45794667097556e-05
+GO:0000729~DNA double-strand break processing	7.52691337351901e-05
+GO:0071166~ribonucleoprotein complex localization	7.60323013948852e-05
+GO:0080135~regulation of cellular response to stress	8.33339989050831e-05
+GO:0032465~regulation of cytokinesis	8.91851232119744e-05
+GO:0016447~somatic recombination of immunoglobulin gene segments	9.63962569236354e-05
+GO:0006338~chromatin remodeling	9.83729584647415e-05
+GO:0031099~regeneration	0.000107888799012356
+GO:0051252~regulation of RNA metabolic process	0.000113897015901203
+GO:0051302~regulation of cell division	0.000117496914347163
+GO:0090307~mitotic spindle assembly	0.000120880938541084
+GO:0007077~mitotic nuclear envelope disassembly	0.000120880938541084
+GO:0016458~gene silencing	0.000121853991943888
+GO:0046605~regulation of centrosome cycle	0.000134779567756897
+GO:0010468~regulation of gene expression	0.000142617020441492
+GO:0010557~positive regulation of macromolecule biosynthetic process	0.000149331240261554
+GO:0051255~spindle midzone assembly	0.00015154349666709
+GO:0050658~RNA transport	0.000153590676670656
+GO:0050657~nucleic acid transport	0.000153590676670656
+GO:0008630~intrinsic apoptotic signaling pathway in response to DNA damage	0.000157073245509373
+GO:0051236~establishment of RNA localization	0.000174447484458809
+GO:0030397~membrane disassembly	0.000183893321099059
+GO:0051081~nuclear envelope disassembly	0.000183893321099059
+GO:0051310~metaphase plate congression	0.000183893321099059
+GO:0016233~telomere capping	0.000183893321099059
+GO:0006366~transcription from RNA polymerase II promoter	0.000185498255506722
+GO:0006997~nucleus organization	0.000203509901563904
+GO:0034504~protein localization to nucleus	0.000209586928188292
+GO:0006397~mRNA processing	0.000246726719408953
+GO:1903506~regulation of nucleic acid-templated transcription	0.000247098529073436
+GO:2001252~positive regulation of chromosome organization	0.000257031953398258
+GO:0034501~protein localization to kinetochore	0.000273322884229678
+GO:0001833~inner cell mass cell proliferation	0.000273322884229678
+GO:0097421~liver regeneration	0.000278722277657537
+GO:2001141~regulation of RNA biosynthetic process	0.000286428774064837
+GO:0006342~chromatin silencing	0.000360449405741723
+GO:0071822~protein complex subunit organization	0.000361184691791091
+GO:1904030~negative regulation of cyclin-dependent protein kinase activity	0.000362922917994012
+GO:0045736~negative regulation of cyclin-dependent protein serine/threonine kinase activity	0.000362922917994012
+GO:0070507~regulation of microtubule cytoskeleton organization	0.000379251627587012
+GO:0045143~homologous chromosome segregation	0.00038193719551776
+GO:0010467~gene expression	0.000383676957350133
+GO:0016570~histone modification	0.000401218193919233
+GO:1902275~regulation of chromatin organization	0.000415571856018214
+GO:0033365~protein localization to organelle	0.000424481167538756
+GO:0010165~response to X-ray	0.000463899874156572
+GO:0016071~mRNA metabolic process	0.000493113375675007
+GO:0051170~nuclear import	0.000516019854315411
+GO:0000398~mRNA splicing, via spliceosome	0.000516019854315411
+GO:0000377~RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	0.000516019854315411
+GO:0012501~programmed cell death	0.000543010312052652
+GO:0042592~homeostatic process	0.000556340329903033
+GO:0000375~RNA splicing, via transesterification reactions	0.000578038404997177
+GO:0015931~nucleobase-containing compound transport	0.000583444131824464
+GO:0006403~RNA localization	0.000583444131824464
+GO:2000278~regulation of DNA biosynthetic process	0.000584764858900144
+GO:0031328~positive regulation of cellular biosynthetic process	0.000647839780440357
+GO:0016446~somatic hypermutation of immunoglobulin genes	0.000673376314189675
+GO:0042493~response to drug	0.000682119033228078
+GO:0002377~immunoglobulin production	0.000692033165344912
+GO:0044267~cellular protein metabolic process	0.000702480145867809
+GO:0006369~termination of RNA polymerase II transcription	0.0007098808004847
+GO:0000019~regulation of mitotic recombination	0.000721590129301979
+GO:0033046~negative regulation of sister chromatid segregation	0.000723349030384638
+GO:0007080~mitotic metaphase plate congression	0.000723349030384638
+GO:0009124~nucleoside monophosphate biosynthetic process	0.000730978709231288
+GO:0006915~apoptotic process	0.000778137799163793
+GO:0051128~regulation of cellular component organization	0.00077990930887457
+GO:0051985~negative regulation of chromosome segregation	0.000801513125479209
+GO:0002204~somatic recombination of immunoglobulin genes involved in immune response	0.000801513125479209
+GO:0002208~somatic diversification of immunoglobulins involved in immune response	0.000801513125479209
+GO:0045190~isotype switching	0.000801513125479209
+GO:0002566~somatic diversification of immune receptors via somatic mutation	0.000811030989393873
+GO:0001824~blastocyst development	0.000817385687320956
+GO:0075733~intracellular transport of virus	0.000875476038906642
+GO:0009891~positive regulation of biosynthetic process	0.000886161993288165
+GO:0051254~positive regulation of RNA metabolic process	0.000899294331026184
+GO:0042752~regulation of circadian rhythm	0.000903987137944119
+GO:0010628~positive regulation of gene expression	0.000906693994989112
+GO:1902583~multi-organism intracellular transport	0.000936586090848009
+GO:1902581~multi-organism cellular localization	0.000936586090848009
+GO:0016032~viral process	0.00105216267110355
+GO:0071427~mRNA-containing ribonucleoprotein complex export from nucleus	0.00105322072191107
+GO:0006406~mRNA export from nucleus	0.00105322072191107
+GO:0046794~transport of virus	0.00106825400089827
+GO:0097193~intrinsic apoptotic signaling pathway	0.00112149088571299
+GO:0032886~regulation of microtubule-based process	0.00112199560523849
+GO:0006266~DNA ligation	0.00113703889126647
+GO:0035690~cellular response to drug	0.00113900831252315
+GO:0044744~protein targeting to nucleus	0.00115336050278668
+GO:0006606~protein import into nucleus	0.00115336050278668
+GO:0044764~multi-organism cellular process	0.00115472590476732
+GO:0006396~RNA processing	0.00116469450894223
+GO:2000779~regulation of double-strand break repair	0.00117424230901837
+GO:0001701~in utero embryonic development	0.00118373772553118
+GO:1902593~single-organism nuclear import	0.00118754659596537
+GO:0032876~negative regulation of DNA endoreduplication	0.00119387912777639
+GO:0006355~regulation of transcription, DNA-templated	0.00119540087649601
+GO:2001022~positive regulation of response to DNA damage stimulus	0.00121317514221015
+GO:0051028~mRNA transport	0.00121634171487055
+GO:0016310~phosphorylation	0.0012369190321818
+GO:0006461~protein complex assembly	0.00124557754068291
+GO:0070271~protein complex biogenesis	0.00125889085496312
+GO:0072528~pyrimidine-containing compound biosynthetic process	0.0012835894403144
+GO:0042771~intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	0.0012835894403144
+GO:0044766~multi-organism transport	0.00137214753721717
+GO:1902579~multi-organism localization	0.00137214753721717
+GO:0045839~negative regulation of mitotic nuclear division	0.0013998602905376
+GO:0008219~cell death	0.00148959468571871
+GO:0045840~positive regulation of mitotic nuclear division	0.00152328280004407
+GO:0071480~cellular response to gamma radiation	0.00153544272084418
+GO:1900034~regulation of cellular response to heat	0.00154598006626397
+GO:0044403~symbiosis, encompassing mutualism through parasitism	0.00159462301739333
+GO:0044419~interspecies interaction between organisms	0.00159462301739333
+GO:0042981~regulation of apoptotic process	0.00160203114728273
+GO:0048518~positive regulation of biological process	0.00160203717429282
+GO:0002381~immunoglobulin production involved in immunoglobulin mediated immune response	0.00165408408669631
+GO:1905268~negative regulation of chromatin organization	0.00165408408669631
+GO:0008380~RNA splicing	0.00172464565428115
+GO:0031123~RNA 3'-end processing	0.00176739486301352
+GO:0000212~meiotic spindle organization	0.00177776950732869
+GO:0010216~maintenance of DNA methylation	0.00177776950732869
+GO:0042127~regulation of cell proliferation	0.00183069296577846
+GO:0043067~regulation of programmed cell death	0.00183540800788783
+GO:0043066~negative regulation of apoptotic process	0.00186316751463559
+GO:0045893~positive regulation of transcription, DNA-templated	0.00193162821638812
+GO:1903508~positive regulation of nucleic acid-templated transcription	0.00193162821638812
+GO:0006220~pyrimidine nucleotide metabolic process	0.00193872636810991
+GO:0031935~regulation of chromatin silencing	0.00201158523399211
+GO:0044818~mitotic G2/M transition checkpoint	0.00201158523399211
+GO:0051438~regulation of ubiquitin-protein transferase activity	0.00210205743217807
+GO:0006468~protein phosphorylation	0.00210670816917726
+GO:0006890~retrograde vesicle-mediated transport, Golgi to ER	0.00216486004438877
+GO:0072527~pyrimidine-containing compound metabolic process	0.00216486004438877
+GO:1904668~positive regulation of ubiquitin protein ligase activity	0.00216486004438877
+GO:0043069~negative regulation of programmed cell death	0.00216572350573363
+GO:0007064~mitotic sister chromatid cohesion	0.00228035332993166
+GO:1902680~positive regulation of RNA biosynthetic process	0.00237878152097455
+GO:1900264~positive regulation of DNA-directed DNA polymerase activity	0.0024707575746665
+GO:0007144~female meiosis I	0.0024707575746665
+GO:1902969~mitotic DNA replication	0.0024707575746665
+GO:1900262~regulation of DNA-directed DNA polymerase activity	0.0024707575746665
+GO:0006998~nuclear envelope organization	0.00253423233910873
+GO:0006796~phosphate-containing compound metabolic process	0.00254089181645061
+GO:0001556~oocyte maturation	0.00257035499138602
+GO:0006793~phosphorus metabolic process	0.00264788252666478
+GO:1904666~regulation of ubiquitin protein ligase activity	0.00266693549001858
+GO:0031399~regulation of protein modification process	0.00270833636147178
+GO:0044265~cellular macromolecule catabolic process	0.00272202155719917
+GO:0031124~mRNA 3'-end processing	0.00280460406749598
+GO:0010638~positive regulation of organelle organization	0.00282985152727442
+GO:0007094~mitotic spindle assembly checkpoint	0.00288213379305739
+GO:0006336~DNA replication-independent nucleosome assembly	0.00299298857962292
+GO:0009163~nucleoside biosynthetic process	0.00314741386493508
+GO:0032268~regulation of cellular protein metabolic process	0.00318740775226592
+GO:0034724~DNA replication-independent nucleosome organization	0.00320020697001586
+GO:0010972~negative regulation of G2/M transition of mitotic cell cycle	0.00321620752507107
+GO:0071173~spindle assembly checkpoint	0.00321620752507107
+GO:0000083~regulation of transcription involved in G1/S transition of mitotic cell cycle	0.00321620752507107
+GO:0001889~liver development	0.00326999946868812
+GO:0075713~establishment of integrated proviral latency	0.00327038089248682
+GO:0051256~mitotic spindle midzone assembly	0.00327038089248682
+GO:0009157~deoxyribonucleoside monophosphate biosynthetic process	0.00327038089248682
+GO:0042787~protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.00336547589091066
+GO:1901659~glycosyl compound biosynthetic process	0.00339611122957441
+GO:0051785~positive regulation of nuclear division	0.00341699695262105
+GO:0006611~protein export from nucleus	0.00341699695262105
+GO:0050790~regulation of catalytic activity	0.0034645443586675
+GO:0034655~nucleobase-containing compound catabolic process	0.00348953717654779
+GO:0051246~regulation of protein metabolic process	0.00354338771616788
+GO:0009057~macromolecule catabolic process	0.00354968869289032
+GO:2000573~positive regulation of DNA biosynthetic process	0.00364356708149245
+GO:0061008~hepaticobiliary system development	0.00365916034696925
+GO:0017038~protein import	0.00372581004333731
+GO:1901992~positive regulation of mitotic cell cycle phase transition	0.00388012350534216
+GO:1902750~negative regulation of cell cycle G2/M phase transition	0.00395318571956593
+GO:0051129~negative regulation of cellular component organization	0.0040756196591235
+GO:0002312~B cell activation involved in immune response	0.00412686986985119
+GO:0031936~negative regulation of chromatin silencing	0.00417421768088142
+GO:0000022~mitotic spindle elongation	0.00417421768088142
+GO:0010941~regulation of cell death	0.00465750693643801
+GO:0060548~negative regulation of cell death	0.00510637414680946
+GO:0051231~spindle elongation	0.00517988622708464
+GO:0019043~establishment of viral latency	0.00517988622708464
+GO:0006409~tRNA export from nucleus	0.0052373948866471
+GO:0016572~histone phosphorylation	0.0052373948866471
+GO:0071431~tRNA-containing ribonucleoprotein complex export from nucleus	0.0052373948866471
+GO:2000058~regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.0053123811468382
+GO:0014070~response to organic cyclic compound	0.00567059486769046
+GO:0045841~negative regulation of mitotic metaphase/anaphase transition	0.00571474438793975
+GO:0046134~pyrimidine nucleoside biosynthetic process	0.00571474438793975
+GO:0071174~mitotic spindle checkpoint	0.00571474438793975
+GO:2000816~negative regulation of mitotic sister chromatid separation	0.00571474438793975
+GO:0006353~DNA-templated transcription, termination	0.00576856364830248
+GO:0051443~positive regulation of ubiquitin-protein transferase activity	0.00576856364830248
+GO:0044763~single-organism cellular process	0.00581459348646429
+GO:1901989~positive regulation of cell cycle phase transition	0.00583240330865972
+GO:0046700~heterocycle catabolic process	0.00619851168137063
+GO:0042113~B cell activation	0.00620241888136269
+GO:1902100~negative regulation of metaphase/anaphase transition of cell cycle	0.00621734192554311
+GO:0051031~tRNA transport	0.00621734192554311
+GO:0046825~regulation of protein export from nucleus	0.00621734192554311
+GO:0030261~chromosome condensation	0.00621734192554311
+GO:0031507~heterochromatin assembly	0.00628504430167006
+GO:0051292~nuclear pore complex assembly	0.00628504430167006
+GO:0009162~deoxyribonucleoside monophosphate metabolic process	0.00628504430167006
+GO:0019538~protein metabolic process	0.0064396199241067
+GO:1903322~positive regulation of protein modification by small protein conjugation or removal	0.0065965152438533
+GO:0043549~regulation of kinase activity	0.0066818725392314
+GO:0033048~negative regulation of mitotic sister chromatid segregation	0.0067455203366772
+GO:0032204~regulation of telomere maintenance	0.00683838589468241
+GO:0032269~negative regulation of cellular protein metabolic process	0.00698738021758268
+GO:0044270~cellular nitrogen compound catabolic process	0.00700388917117319
+GO:0043085~positive regulation of catalytic activity	0.00721469839354156
+GO:0051656~establishment of organelle localization	0.00724795307947294
+GO:0051649~establishment of localization in cell	0.00729294282434658
+GO:0051641~cellular localization	0.00741892835804395
+GO:0019042~viral latency	0.00748738858494709
+GO:0019439~aromatic compound catabolic process	0.00762629006499545
+GO:0048511~rhythmic process	0.00803862980613278
+GO:0042176~regulation of protein catabolic process	0.00833986625165669
+GO:0051439~regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0.00834944324748175
+GO:0051640~organelle localization	0.00842791818073698
+GO:1904031~positive regulation of cyclin-dependent protein kinase activity	0.00848656302575527
+GO:0007292~female gamete generation	0.00878070525350831
+GO:0044699~single-organism process	0.00948829112896726
+GO:0009790~embryo development	0.00961172785809334
+GO:0072332~intrinsic apoptotic signaling pathway by p53 class mediator	0.00961585240158483
+GO:0034605~cellular response to heat	0.00978036038655714
+GO:0051437~positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	0.0100641786420992
+GO:0070828~heterochromatin organization	0.0101746136517091
+GO:0022411~cellular component disassembly	0.0102435059235286
+GO:0007276~gamete generation	0.0104045535567169
+GO:0061640~cytoskeleton-dependent cytokinesis	0.0104678948674206
+GO:0007140~male meiosis	0.0104678948674206
+GO:0002440~production of molecular mediator of immune response	0.0108168135955017
+GO:1901361~organic cyclic compound catabolic process	0.010893137775972
+GO:0032355~response to estradiol	0.0111813590220906
+GO:0044093~positive regulation of molecular function	0.0114849495487704
+GO:0045815~positive regulation of gene expression, epigenetic	0.0114897813932555
+GO:0006999~nuclear pore organization	0.0116550772778532
+GO:0051782~negative regulation of cell division	0.0116550772778532
+GO:1901654~response to ketone	0.011736434825445
+GO:0045739~positive regulation of DNA repair	0.0119252313512516
+GO:0051444~negative regulation of ubiquitin-protein transferase activity	0.0119923221645851
+GO:0048477~oogenesis	0.0119923221645851
+GO:0043009~chordate embryonic development	0.0121630804161858
+GO:0031400~negative regulation of protein modification process	0.0123251592935199
+GO:0051248~negative regulation of protein metabolic process	0.0124544928586144
+GO:0065009~regulation of molecular function	0.0127419087621806
+GO:2000241~regulation of reproductive process	0.0131474614536959
+GO:0009792~embryo development ending in birth or egg hatching	0.0131608290458928
+GO:0007095~mitotic G2 DNA damage checkpoint	0.013223891700714
+GO:0048599~oocyte development	0.0134933874282359
+GO:0046777~protein autophosphorylation	0.0136952941891017
+GO:0070925~organelle assembly	0.0140534845879588
+GO:0046931~pore complex assembly	0.014878939795779
+GO:0033151~V(D)J recombination	0.014878939795779
+GO:0043632~modification-dependent macromolecule catabolic process	0.0149629756626948
+GO:0051298~centrosome duplication	0.0151734918167358
+GO:0051704~multi-organism process	0.0151868545932084
+GO:0048144~fibroblast proliferation	0.0159060667262719
+GO:0009408~response to heat	0.0159060667262719
+GO:0031398~positive regulation of protein ubiquitination	0.0159668994760101
+GO:0032206~positive regulation of telomere maintenance	0.0160558095135304
+GO:0009994~oocyte differentiation	0.0160558095135304
+GO:0048145~regulation of fibroblast proliferation	0.016523148773331
+GO:0006304~DNA modification	0.016523148773331
+GO:0007141~male meiosis I	0.016618140056275
+GO:0022613~ribonucleoprotein complex biogenesis	0.0181814500623531
+GO:0051348~negative regulation of transferase activity	0.0181974844781354
+GO:2000060~positive regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.0184636984351766
+GO:0006473~protein acetylation	0.0186316987974123
+GO:0051262~protein tetramerization	0.0187876356444396
+GO:0006305~DNA alkylation	0.0188728398984606
+GO:0006306~DNA methylation	0.0188728398984606
+GO:0006357~regulation of transcription from RNA polymerase II promoter	0.0189099542683548
+GO:0048732~gland development	0.0191027921104888
+GO:0019886~antigen processing and presentation of exogenous peptide antigen via MHC class II	0.0191406335117924
+GO:0006213~pyrimidine nucleoside metabolic process	0.0198687430993522
+GO:0042325~regulation of phosphorylation	0.020122973914046
+GO:0050794~regulation of cellular process	0.0201436055690431
+GO:0002520~immune system development	0.0203337818785082
+GO:0051307~meiotic chromosome separation	0.0203408460305158
+GO:0007004~telomere maintenance via telomerase	0.0208931598298552
+GO:0051130~positive regulation of cellular component organization	0.0217618873351579
+GO:0034508~centromere complex assembly	0.0219461110796977
+GO:2000242~negative regulation of reproductive process	0.0219461110796977
+GO:0002495~antigen processing and presentation of peptide antigen via MHC class II	0.0220011159870789
+GO:1904586~cellular response to putrescine	0.0220313654056476
+GO:1904585~response to putrescine	0.0220313654056476
+GO:0045004~DNA replication proofreading	0.0220313654056476
+GO:0060969~negative regulation of gene silencing	0.0223203621675169
+GO:0006293~nucleotide-excision repair, preincision complex stabilization	0.0223203621675169
+GO:0010569~regulation of double-strand break repair via homologous recombination	0.0223203621675169
+GO:0031396~regulation of protein ubiquitination	0.0225251291745934
+GO:0048146~positive regulation of fibroblast proliferation	0.0230276055470435
+GO:0009165~nucleotide biosynthetic process	0.0235553410149442
+GO:0043161~proteasome-mediated ubiquitin-dependent protein catabolic process	0.0241082799394377
+GO:0002504~antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	0.0243090051746277
+GO:1904353~regulation of telomere capping	0.024376050312348
+GO:0051984~positive regulation of chromosome segregation	0.024376050312348
+GO:0008608~attachment of spindle microtubules to kinetochore	0.024376050312348
+GO:0019953~sexual reproduction	0.0243792618075034
+GO:0016567~protein ubiquitination	0.0243792618075034
+GO:0045732~positive regulation of protein catabolic process	0.0246291102678979
+GO:0032270~positive regulation of cellular protein metabolic process	0.0246632330405461
+GO:1901293~nucleoside phosphate biosynthetic process	0.0248416266760848
+GO:0003006~developmental process involved in reproduction	0.0249434638273304
+GO:0006295~nucleotide-excision repair, DNA incision, 3'-to lesion	0.0265059993677587
+GO:0009894~regulation of catabolic process	0.0265725332504455
+GO:0051247~positive regulation of protein metabolic process	0.027083964711032
+GO:0043068~positive regulation of programmed cell death	0.0272671550904206
+GO:0006511~ubiquitin-dependent protein catabolic process	0.0272671550904206
+GO:0043486~histone exchange	0.0276387791076151
+GO:0048609~multicellular organismal reproductive process	0.0277480830536463
+GO:0031401~positive regulation of protein modification process	0.0284318364256393
+GO:0007099~centriole replication	0.0287083308253438
+GO:0031954~positive regulation of protein autophosphorylation	0.0287083308253438
+GO:0043414~macromolecule methylation	0.0289074464317524
+GO:0019941~modification-dependent protein catabolic process	0.0298771841162454
+GO:0010833~telomere maintenance via telomere lengthening	0.0301150065664968
+GO:0060968~regulation of gene silencing	0.0301150065664968
+GO:0032504~multicellular organism reproduction	0.0302757835329696
+GO:0001932~regulation of protein phosphorylation	0.0305697854781391
+GO:0065007~biological regulation	0.0307159568537291
+GO:0009896~positive regulation of catabolic process	0.0319273117179326
+GO:0046822~regulation of nucleocytoplasmic transport	0.0320937184739169
+GO:0045859~regulation of protein kinase activity	0.0326394765872748
+GO:0006272~leading strand elongation	0.032865324073257
+GO:0035986~senescence-associated heterochromatin focus assembly	0.032865324073257
+GO:0006278~RNA-dependent DNA biosynthetic process	0.0340412977186603
+GO:1903320~regulation of protein modification by small protein conjugation or removal	0.0343653570656316
+GO:0072594~establishment of protein localization to organelle	0.0343779341089211
+GO:0018394~peptidyl-lysine acetylation	0.0351977483110269
+GO:0098534~centriole assembly	0.0357313133557796
+GO:0015949~nucleobase-containing small molecule interconversion	0.0357313133557796
+GO:0010498~proteasomal protein catabolic process	0.0358901203899541
+GO:0030163~protein catabolic process	0.0361657109015354
+GO:0043543~protein acylation	0.0366498602070608
+GO:0010942~positive regulation of cell death	0.037982733207493
+GO:0031297~replication fork processing	0.0382050244753964
+GO:2000772~regulation of cellular senescence	0.0382050244753964
+GO:0006479~protein methylation	0.0384149312965176
+GO:0008213~protein alkylation	0.0384149312965176
+GO:0000122~negative regulation of transcription from RNA polymerase II promoter	0.0388132141643906
+GO:0051716~cellular response to stimulus	0.0395542721000547
+GO:0071900~regulation of protein serine/threonine kinase activity	0.0395573673308788
+GO:0044728~DNA methylation or demethylation	0.0396681706298827
+GO:0007018~microtubule-based movement	0.0402255305520065
+GO:0006376~mRNA splice site selection	0.0407421977149571
+GO:0006294~nucleotide-excision repair, preincision complex assembly	0.0407421977149571
+GO:0051567~histone H3-K9 methylation	0.0407421977149571
+GO:0030308~negative regulation of cell growth	0.0418378315231637
+GO:1903052~positive regulation of proteolysis involved in cellular protein catabolic process	0.0418378315231637
+GO:1903050~regulation of proteolysis involved in cellular protein catabolic process	0.0430826788492515
+GO:0007281~germ cell development	0.0430826788492515
+GO:0044257~cellular protein catabolic process	0.0431832857393177
+GO:0040020~regulation of meiotic nuclear division	0.0433411402407736
+GO:0006287~base-excision repair, gap-filling	0.0435799020547513
+GO:0016321~female meiosis chromosome segregation	0.0435799020547513
+GO:0007079~mitotic chromosome movement towards spindle pole	0.0435799020547513
+GO:0051436~negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0.0441781019990079
+GO:0032481~positive regulation of type I interferon production	0.0441781019990079
+GO:0045862~positive regulation of proteolysis	0.0462301487685911
+GO:1904667~negative regulation of ubiquitin protein ligase activity	0.0473206083285649
+GO:0046907~intracellular transport	0.047679913719712
+GO:0006335~DNA replication-dependent nucleosome assembly	0.0487177081524214
+GO:0034723~DNA replication-dependent nucleosome organization	0.0487177081524214
+GO:0051098~regulation of binding	0.0498985761214951

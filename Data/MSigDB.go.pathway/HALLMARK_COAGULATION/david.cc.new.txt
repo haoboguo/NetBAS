@@ -1,0 +1,97 @@
+GO:0005615~extracellular space	8.05629543327881e-54
+GO:0044421~extracellular region part	7.94369462218101e-45
+GO:0005576~extracellular region	7.59466767088033e-43
+GO:0031988~membrane-bounded vesicle	3.79043393911196e-34
+GO:0070062~extracellular exosome	4.82560497314956e-34
+GO:1903561~extracellular vesicle	6.96478949511852e-34
+GO:0043230~extracellular organelle	7.14916493857253e-34
+GO:0031982~vesicle	8.97451166769314e-33
+GO:0031091~platelet alpha granule	3.85848270315809e-28
+GO:0034774~secretory granule lumen	9.85175098382061e-27
+GO:0031093~platelet alpha granule lumen	1.18847435108959e-25
+GO:0060205~cytoplasmic membrane-bounded vesicle lumen	9.72763752039945e-25
+GO:0031983~vesicle lumen	1.20559505596184e-24
+GO:0072562~blood microparticle	4.5689516860379e-21
+GO:0030141~secretory granule	5.22010401825926e-20
+GO:0031012~extracellular matrix	1.14543742126992e-18
+GO:0099503~secretory vesicle	4.52669904228942e-17
+GO:0044433~cytoplasmic vesicle part	5.48631286027274e-15
+GO:0016023~cytoplasmic, membrane-bounded vesicle	9.4772104590029e-14
+GO:0031410~cytoplasmic vesicle	1.08126531372126e-12
+GO:0097708~intracellular vesicle	1.13196137268132e-12
+GO:0009986~cell surface	4.41557791008504e-11
+GO:0005578~proteinaceous extracellular matrix	1.4475289012822e-10
+GO:0043227~membrane-bounded organelle	6.83564276618719e-08
+GO:0009897~external side of plasma membrane	2.53836491193907e-07
+GO:0005796~Golgi lumen	5.03680862384421e-07
+GO:0071944~cell periphery	7.96636023180494e-07
+GO:0005925~focal adhesion	1.05070839801828e-06
+GO:0005924~cell-substrate adherens junction	1.15004013528534e-06
+GO:0030055~cell-substrate junction	1.33441081920108e-06
+GO:0005886~plasma membrane	1.97492880600621e-06
+GO:0012505~endomembrane system	2.11414758142159e-06
+GO:0098552~side of membrane	4.62170351813589e-06
+GO:0043226~organelle	8.93229739824372e-06
+GO:0005579~membrane attack complex	1.30193457936676e-05
+GO:0005788~endoplasmic reticulum lumen	1.75875288984952e-05
+GO:0005577~fibrinogen complex	3.09133997883862e-05
+GO:0005773~vacuole	6.39663983795122e-05
+GO:0044444~cytoplasmic part	8.94791957951735e-05
+GO:0031092~platelet alpha granule membrane	0.000103023228943188
+GO:0042627~chylomicron	0.000130421076387913
+GO:0044459~plasma membrane part	0.00023732007930834
+GO:0046930~pore complex	0.00023976821750761
+GO:0034385~triglyceride-rich lipoprotein particle	0.000395576620715063
+GO:0034361~very-low-density lipoprotein particle	0.000395576620715063
+GO:0005912~adherens junction	0.000553083667561795
+GO:0000323~lytic vacuole	0.000642341327837143
+GO:0005764~lysosome	0.000642341327837143
+GO:0005604~basement membrane	0.000657710498310097
+GO:0070161~anchoring junction	0.000700975249880421
+GO:0005768~endosome	0.000854835778461463
+GO:0034364~high-density lipoprotein particle	0.000873787118697381
+GO:0031233~intrinsic component of external side of plasma membrane	0.000977789208095485
+GO:0045177~apical part of cell	0.00134211787279328
+GO:0031232~extrinsic component of external side of plasma membrane	0.00143819858503542
+GO:0034366~spherical high-density lipoprotein particle	0.00143819858503542
+GO:0043233~organelle lumen	0.00239248596349353
+GO:0044420~extracellular matrix component	0.00248044486435757
+GO:0034358~plasma lipoprotein particle	0.00286630775704703
+GO:1990777~lipoprotein particle	0.00286630775704703
+GO:0031974~membrane-enclosed lumen	0.00313857673814496
+GO:0032994~protein-lipid complex	0.00330808222411535
+GO:0030667~secretory granule membrane	0.00333327954613477
+GO:0019897~extrinsic component of plasma membrane	0.00397398265861202
+GO:0098589~membrane region	0.00448619315526817
+GO:0005884~actin filament	0.00479682494561418
+GO:0016324~apical plasma membrane	0.00575508455602061
+GO:0005581~collagen trimer	0.00664024802843174
+GO:0036019~endolysosome	0.00669156586325527
+GO:0048770~pigment granule	0.00759156859428548
+GO:0042470~melanosome	0.00759156859428548
+GO:0030135~coated vesicle	0.00839361026250271
+GO:0098590~plasma membrane region	0.00846240726339859
+GO:0005938~cell cortex	0.00959076924068205
+GO:0005775~vacuolar lumen	0.0103511846115714
+GO:0030054~cell junction	0.0114345958890199
+GO:0030139~endocytic vesicle	0.0119192519212781
+GO:0030864~cortical actin cytoskeleton	0.0129604885366633
+GO:0031904~endosome lumen	0.0153213445379037
+GO:0044437~vacuolar part	0.0161103529009466
+GO:0098857~membrane microdomain	0.0163805865355882
+GO:0031256~leading edge membrane	0.0180373967424077
+GO:0032587~ruffle membrane	0.0221489768007054
+GO:0031226~intrinsic component of plasma membrane	0.0221885605742859
+GO:0099568~cytoplasmic region	0.0225267907512061
+GO:0005737~cytoplasm	0.0261048295127357
+GO:0043202~lysosomal lumen	0.0265991243881932
+GO:0030659~cytoplasmic vesicle membrane	0.0276551485496525
+GO:0034363~intermediate-density lipoprotein particle	0.0288766059615866
+GO:0036021~endolysosome lumen	0.0288766059615866
+GO:0001726~ruffle	0.0292347634081579
+GO:0030863~cortical cytoskeleton	0.029811934004785
+GO:0012506~vesicle membrane	0.0325548824812926
+GO:0044431~Golgi apparatus part	0.0342480943995149
+GO:0098805~whole membrane	0.0398774368002992
+GO:0019898~extrinsic component of membrane	0.0443891315067841
+GO:0031252~cell leading edge	0.0460062654197106

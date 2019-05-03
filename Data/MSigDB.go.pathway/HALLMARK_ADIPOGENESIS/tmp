@@ -1,0 +1,42 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # Venn diagram for Biogrid/CellMap (negative and positive interactions are treated separatedly
+> 
+> library(VennDiagram)
+> 
+> jaccard.index <- c("DAVID", "NetBAS", "Jaccard")
+> 
+> david.file <- read.csv("david.bp.id.txt", header=F)
+> david.id <- david.file$V1
+> net.file <- read.csv("HMK.bp.new.txt", sep="\t", header=T)
+> net.id <- net.file$GO.ID[which(net.file$zscore > 5.0)]
+> 
+> david.or.net <- length(unique(sort(c(david.id, net.id))))
+> david.and.net <- length(which(net.id %in% david.id))
+> 
+> j.ind <- david.and.net/david.or.net
+> 
+> jaccard.index <- rbind(jaccard.index, c(length(david.id), length(net.id), j.ind))
+> 
+> print(jaccard.index)
+              [,1]    [,2]     [,3]                
+jaccard.index "DAVID" "NetBAS" "Jaccard"           
+              "471"   "192"    "0.0684931506849315"
+> 

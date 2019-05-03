@@ -1,0 +1,91 @@
+GO:0008092~cytoskeletal protein binding	1.55565982867667e-28
+GO:0008307~structural constituent of muscle	1.08039422017205e-26
+GO:0003779~actin binding	6.4411583656136e-26
+GO:0005516~calmodulin binding	3.74361376868757e-12
+GO:0005515~protein binding	2.48096356635766e-11
+GO:0005198~structural molecule activity	2.81848302554955e-09
+GO:0051015~actin filament binding	2.79121842867083e-08
+GO:0000146~microfilament motor activity	1.51898617264169e-07
+GO:0042802~identical protein binding	2.87600295998308e-07
+GO:0017022~myosin binding	3.62569360541788e-07
+GO:0003774~motor activity	4.10873442009376e-07
+GO:0044325~ion channel binding	5.31591335971536e-07
+GO:0005509~calcium ion binding	5.07181852341871e-06
+GO:0046983~protein dimerization activity	1.27992405789864e-05
+GO:0016775~phosphotransferase activity, nitrogenous group as acceptor	1.36675229032695e-05
+GO:0044877~macromolecular complex binding	1.87855355654565e-05
+GO:0042803~protein homodimerization activity	2.1749381276239e-05
+GO:0032403~protein complex binding	4.49364149885559e-05
+GO:0005488~binding	9.78104875008825e-05
+GO:0097367~carbohydrate derivative binding	0.000210004285290941
+GO:0032036~myosin heavy chain binding	0.000358091150199613
+GO:0030554~adenyl nucleotide binding	0.00042096219453455
+GO:0017111~nucleoside-triphosphatase activity	0.00044264043379552
+GO:0031432~titin binding	0.000452024866718357
+GO:0005524~ATP binding	0.000531179554792886
+GO:0031014~troponin T binding	0.000729421168956308
+GO:0046982~protein heterodimerization activity	0.000730599740623639
+GO:0032559~adenyl ribonucleotide binding	0.000790341247390557
+GO:0016462~pyrophosphatase activity	0.000891157989294334
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.000917957080976553
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.000945448439750801
+GO:0051373~FATZ binding	0.00120678665440473
+GO:0045159~myosin II binding	0.00120678665440473
+GO:0019899~enzyme binding	0.00129947942080486
+GO:0031013~troponin I binding	0.00179691686532803
+GO:0004111~creatine kinase activity	0.00179691686532803
+GO:0017076~purine nucleotide binding	0.00182204184086553
+GO:0032553~ribonucleotide binding	0.00187160841285298
+GO:0043169~cation binding	0.00193037050234393
+GO:0043167~ion binding	0.00205976095445
+GO:0035639~purine ribonucleoside triphosphate binding	0.00210172744760664
+GO:0032550~purine ribonucleoside binding	0.00227741959152277
+GO:0001883~purine nucleoside binding	0.00233874964888486
+GO:0032549~ribonucleoside binding	0.00233874964888486
+GO:0001882~nucleoside binding	0.00248745104902463
+GO:0042166~acetylcholine binding	0.00292672027228146
+GO:0032555~purine ribonucleotide binding	0.00306116719994942
+GO:0016301~kinase activity	0.00342007650286783
+GO:0033613~activating transcription factor binding	0.00420736205251766
+GO:0042165~neurotransmitter binding	0.00485787344442686
+GO:0000166~nucleotide binding	0.00486022112693498
+GO:1901265~nucleoside phosphate binding	0.00489545445653935
+GO:0098772~molecular function regulator	0.00661487641793401
+GO:0005200~structural constituent of cytoskeleton	0.00775405352613654
+GO:0030898~actin-dependent ATPase activity	0.00887676819568666
+GO:0046872~metal ion binding	0.00958229988956307
+GO:0036094~small molecule binding	0.00994092076677196
+GO:0005523~tropomyosin binding	0.0102808920833807
+GO:0016887~ATPase activity	0.0103012749723731
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.0140734863407643
+GO:0019838~growth factor binding	0.0142991220104208
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0170895242504476
+GO:0015631~tubulin binding	0.0173598565312334
+GO:0008324~cation transmembrane transporter activity	0.0206378495192899
+GO:0003705~transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding	0.0209066676161775
+GO:0050840~extracellular matrix binding	0.0211910686144781
+GO:0070405~ammonium ion binding	0.0211910686144781
+GO:0005261~cation channel activity	0.0216643620485205
+GO:0070080~titin Z domain binding	0.0221501865157393
+GO:0032038~myosin II heavy chain binding	0.0221501865157393
+GO:0015276~ligand-gated ion channel activity	0.0231915824087509
+GO:0022834~ligand-gated channel activity	0.0231915824087509
+GO:0004889~acetylcholine-activated cation-selective channel activity	0.0267733378870932
+GO:0048306~calcium-dependent protein binding	0.0268144996746918
+GO:0042826~histone deacetylase binding	0.0272257209671671
+GO:0008134~transcription factor binding	0.0285522352437268
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.029235195972357
+GO:0004672~protein kinase activity	0.0308609096706045
+GO:0030172~troponin C binding	0.0330415761104906
+GO:0003785~actin monomer binding	0.0336549349566027
+GO:0022836~gated channel activity	0.0337751995751184
+GO:0008017~microtubule binding	0.0361406656071217
+GO:0005520~insulin-like growth factor binding	0.0385828373170324
+GO:0015267~channel activity	0.0417853358285975
+GO:0022803~passive transmembrane transporter activity	0.0422797320661701
+GO:0019904~protein domain specific binding	0.0423108075371773
+GO:0043236~laminin binding	0.0437663563466052
+GO:0005219~ryanodine-sensitive calcium-release channel activity	0.0438122944230997
+GO:0017018~myosin phosphatase activity	0.0438122944230997
+GO:0015464~acetylcholine receptor activity	0.0464496999941068
+GO:1901681~sulfur compound binding	0.046556882304589

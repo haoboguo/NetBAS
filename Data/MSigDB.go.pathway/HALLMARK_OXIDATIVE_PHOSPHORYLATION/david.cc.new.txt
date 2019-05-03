@@ -1,0 +1,116 @@
+GO:0044429~mitochondrial part	2.24286815782947e-182
+GO:0005739~mitochondrion	2.17833938499491e-160
+GO:0005743~mitochondrial inner membrane	4.85168482717687e-143
+GO:0031966~mitochondrial membrane	4.77920522521072e-140
+GO:0019866~organelle inner membrane	2.02344752996737e-138
+GO:0005740~mitochondrial envelope	2.67062817022396e-138
+GO:0031967~organelle envelope	5.95642986631441e-116
+GO:0031975~envelope	1.08640795698141e-115
+GO:0044455~mitochondrial membrane part	1.03054035396655e-111
+GO:0098798~mitochondrial protein complex	1.44853423754532e-111
+GO:0098800~inner mitochondrial membrane protein complex	5.30721019407307e-100
+GO:0070469~respiratory chain	2.31803560830912e-81
+GO:0031090~organelle membrane	5.17664748250386e-81
+GO:0005746~mitochondrial respiratory chain	9.02592072523946e-80
+GO:0098803~respiratory chain complex	1.12668222918428e-68
+GO:0005759~mitochondrial matrix	2.19336243058078e-66
+GO:1990204~oxidoreductase complex	2.1438738002013e-65
+GO:0044444~cytoplasmic part	7.15432838515737e-65
+GO:0044446~intracellular organelle part	5.79744090587059e-55
+GO:0098796~membrane protein complex	3.72871531577543e-54
+GO:0044422~organelle part	3.11538944755316e-53
+GO:0005737~cytoplasm	5.98653538389496e-43
+GO:0030964~NADH dehydrogenase complex	2.89131120217672e-41
+GO:0045271~respiratory chain complex I	2.89131120217672e-41
+GO:0005747~mitochondrial respiratory chain complex I	2.89131120217672e-41
+GO:0043231~intracellular membrane-bounded organelle	5.85513479796703e-41
+GO:0016469~proton-transporting two-sector ATPase complex	1.6367512880778e-36
+GO:0043227~membrane-bounded organelle	1.6053192082925e-34
+GO:0043229~intracellular organelle	2.74004236997923e-33
+GO:0043209~myelin sheath	4.1828802890459e-32
+GO:0043226~organelle	3.17906837900093e-28
+GO:0032991~macromolecular complex	1.21690385370876e-26
+GO:0043234~protein complex	1.26201788307809e-26
+GO:0070069~cytochrome complex	1.31450259514067e-23
+GO:0005753~mitochondrial proton-transporting ATP synthase complex	2.45958806208299e-22
+GO:0044424~intracellular part	5.07735055054395e-22
+GO:0045259~proton-transporting ATP synthase complex	5.53499456386497e-22
+GO:0005622~intracellular	1.13844114044451e-21
+GO:1902494~catalytic complex	4.62573779536114e-20
+GO:0033177~proton-transporting two-sector ATPase complex, proton-transporting domain	3.38020022717874e-18
+GO:0031974~membrane-enclosed lumen	2.47951526551527e-16
+GO:0016020~membrane	2.30595639470377e-15
+GO:0033178~proton-transporting two-sector ATPase complex, catalytic domain	3.1364967521355e-14
+GO:0000276~mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	6.53472825445096e-14
+GO:0031968~organelle outer membrane	1.09441317119269e-13
+GO:0019867~outer membrane	1.95173012190774e-13
+GO:0045263~proton-transporting ATP synthase complex, coupling factor F(o)	3.8911145509105e-13
+GO:0070062~extracellular exosome	8.19537790215418e-13
+GO:1903561~extracellular vesicle	1.04455106096542e-12
+GO:0043230~extracellular organelle	1.06262696991359e-12
+GO:0033176~proton-transporting V-type ATPase complex	1.58423360313776e-12
+GO:0005741~mitochondrial outer membrane	1.62165006939391e-12
+GO:0070013~intracellular organelle lumen	2.53700701278215e-12
+GO:0043233~organelle lumen	6.72481506113354e-12
+GO:0044425~membrane part	1.1527874929675e-11
+GO:0045275~respiratory chain complex III	2.17891542245979e-11
+GO:0005750~mitochondrial respiratory chain complex III	2.17891542245979e-11
+GO:0005758~mitochondrial intermembrane space	2.42399191644847e-11
+GO:0031970~organelle envelope lumen	8.20171604792829e-11
+GO:0042645~mitochondrial nucleoid	8.86524784954541e-10
+GO:0009295~nucleoid	1.33857185323162e-09
+GO:0031988~membrane-bounded vesicle	1.7787151921434e-09
+GO:0044464~cell part	2.30507699625444e-09
+GO:0005623~cell	3.24487322104916e-09
+GO:0098573~intrinsic component of mitochondrial membrane	9.46275321126383e-09
+GO:0031982~vesicle	1.03286726379559e-08
+GO:0045277~respiratory chain complex IV	1.46606373953516e-08
+GO:0016471~vacuolar proton-transporting V-type ATPase complex	1.46606373953516e-08
+GO:0032592~integral component of mitochondrial membrane	1.45073842323511e-07
+GO:0005751~mitochondrial respiratory chain complex IV	1.51957267153147e-07
+GO:0045261~proton-transporting ATP synthase complex, catalytic core F(1)	1.79915222505764e-07
+GO:0044421~extracellular region part	2.31290305477067e-07
+GO:0045254~pyruvate dehydrogenase complex	8.25737644118708e-07
+GO:0000313~organellar ribosome	2.27367326630874e-06
+GO:0005761~mitochondrial ribosome	2.27367326630874e-06
+GO:0005744~mitochondrial inner membrane presequence translocase complex	3.79679715853538e-06
+GO:0045257~succinate dehydrogenase complex (ubiquinone)	4.64175760406374e-06
+GO:0045273~respiratory chain complex II	4.64175760406374e-06
+GO:0045283~fumarate reductase complex	4.64175760406374e-06
+GO:0045281~succinate dehydrogenase complex	4.64175760406374e-06
+GO:0005749~mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	4.64175760406374e-06
+GO:0045239~tricarboxylic acid cycle enzyme complex	5.64803468791737e-06
+GO:0000275~mitochondrial proton-transporting ATP synthase complex, catalytic core F(1)	1.15136838617667e-05
+GO:0042719~mitochondrial intermembrane space protein transporter complex	1.15136838617667e-05
+GO:0098805~whole membrane	1.66832791167416e-05
+GO:0031306~intrinsic component of mitochondrial outer membrane	7.68166685714151e-05
+GO:0031300~intrinsic component of organelle membrane	8.08973415716811e-05
+GO:0033180~proton-transporting V-type ATPase, V1 domain	9.37297554734546e-05
+GO:0045240~dihydrolipoyl dehydrogenase complex	0.000132855511516593
+GO:0033179~proton-transporting V-type ATPase, V0 domain	0.000132855511516593
+GO:0005576~extracellular region	0.000153118343144263
+GO:1990351~transporter complex	0.00021505741577839
+GO:0031301~integral component of organelle membrane	0.000336873562319867
+GO:0046930~pore complex	0.000712779374548123
+GO:0031307~integral component of mitochondrial outer membrane	0.00135133311629157
+GO:0005840~ribosome	0.00153988019732233
+GO:0000220~vacuolar proton-transporting V-type ATPase, V0 domain	0.00162749547116339
+GO:0045252~oxoglutarate dehydrogenase complex	0.00162749547116339
+GO:0005763~mitochondrial small ribosomal subunit	0.0022653250331851
+GO:0000314~organellar small ribosomal subunit	0.0022653250331851
+GO:0098588~bounding membrane of organelle	0.0028082991531034
+GO:0031305~integral component of mitochondrial inner membrane	0.00348891756912341
+GO:0031304~intrinsic component of mitochondrial inner membrane	0.00348891756912341
+GO:0044391~ribosomal subunit	0.00406994158748151
+GO:0000315~organellar large ribosomal subunit	0.0142632602507965
+GO:0005762~mitochondrial large ribosomal subunit	0.0142632602507965
+GO:0042579~microbody	0.0145052656775316
+GO:0005777~peroxisome	0.0145052656775316
+GO:0045251~electron transfer flavoprotein complex	0.0210692781954238
+GO:0017133~mitochondrial electron transfer flavoprotein complex	0.0210692781954238
+GO:1902495~transmembrane transporter complex	0.0222926565690411
+GO:0030670~phagocytic vesicle membrane	0.025744700962759
+GO:0016021~integral component of membrane	0.0296402199236054
+GO:0000221~vacuolar proton-transporting V-type ATPase, V1 domain	0.0314377135644643
+GO:0015935~small ribosomal subunit	0.0409587013402814
+GO:0031224~intrinsic component of membrane	0.0441074326130023

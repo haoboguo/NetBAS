@@ -1,0 +1,58 @@
+GO:0008324~cation transmembrane transporter activity	9.64610711436747e-06
+GO:0046873~metal ion transmembrane transporter activity	1.2102887536422e-05
+GO:0022891~substrate-specific transmembrane transporter activity	2.84647712908993e-05
+GO:0022857~transmembrane transporter activity	3.7837180014854e-05
+GO:0022890~inorganic cation transmembrane transporter activity	4.07082543563753e-05
+GO:0015075~ion transmembrane transporter activity	6.01769105209051e-05
+GO:0005102~receptor binding	6.97311967467587e-05
+GO:0022892~substrate-specific transporter activity	7.28618331911896e-05
+GO:0004871~signal transducer activity	0.000211904044557775
+GO:0038023~signaling receptor activity	0.000218030087242495
+GO:0022836~gated channel activity	0.000252190079413517
+GO:0005179~hormone activity	0.00031702402477706
+GO:0008083~growth factor activity	0.000350001559368351
+GO:0005261~cation channel activity	0.000453506799253471
+GO:0004872~receptor activity	0.000844039409612555
+GO:0060089~molecular transducer activity	0.000844039409612555
+GO:0005215~transporter activity	0.00085737696983581
+GO:0099600~transmembrane receptor activity	0.00127509765335641
+GO:0015077~monovalent inorganic cation transmembrane transporter activity	0.00144686115714455
+GO:0004888~transmembrane signaling receptor activity	0.00151989197212215
+GO:0005216~ion channel activity	0.00222333202416317
+GO:0022838~substrate-specific channel activity	0.00299687100178399
+GO:0001206~transcriptional repressor activity, RNA polymerase II distal enhancer sequence-specific binding	0.00387492620823973
+GO:0005516~calmodulin binding	0.00419856080396708
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.00430991420201015
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.00510343718693375
+GO:0015267~channel activity	0.00528395005606236
+GO:0022803~passive transmembrane transporter activity	0.00537043847011885
+GO:0001664~G-protein coupled receptor binding	0.00639997787338871
+GO:0035004~phosphatidylinositol 3-kinase activity	0.00663359510632926
+GO:0005125~cytokine activity	0.00985074583027125
+GO:0008013~beta-catenin binding	0.0114709446929982
+GO:0001158~enhancer sequence-specific DNA binding	0.0119537931053403
+GO:0070851~growth factor receptor binding	0.0120349417102687
+GO:0022843~voltage-gated cation channel activity	0.0140171140378962
+GO:0015081~sodium ion transmembrane transporter activity	0.0157527756311624
+GO:0022832~voltage-gated channel activity	0.0159339183123382
+GO:0005244~voltage-gated ion channel activity	0.0159339183123382
+GO:0022804~active transmembrane transporter activity	0.0173219424356826
+GO:0015293~symporter activity	0.0181168722272158
+GO:0035326~enhancer binding	0.0194395923723631
+GO:0015276~ligand-gated ion channel activity	0.0196394980034755
+GO:0022834~ligand-gated channel activity	0.0196394980034755
+GO:0015079~potassium ion transmembrane transporter activity	0.0235206848109734
+GO:0005126~cytokine receptor binding	0.0273673406056986
+GO:0031708~endothelin B receptor binding	0.031650602802143
+GO:0000980~RNA polymerase II distal enhancer sequence-specific DNA binding	0.0321633559965074
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.0356510574977434
+GO:0072509~divalent inorganic cation transmembrane transporter activity	0.0380020374909778
+GO:0005267~potassium channel activity	0.0395947874031774
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0412218726721078
+GO:0098772~molecular function regulator	0.0418612757452506
+GO:0031705~bombesin receptor binding	0.0419778270887765
+GO:0048763~calcium-induced calcium release activity	0.0419778270887765
+GO:0005219~ryanodine-sensitive calcium-release channel activity	0.0419778270887765
+GO:0005509~calcium ion binding	0.0436027565599094
+GO:0004713~protein tyrosine kinase activity	0.0438190443688401
+GO:0042803~protein homodimerization activity	0.0490469514130715

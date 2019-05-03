@@ -1,0 +1,76 @@
+GO:0050839~cell adhesion molecule binding	5.88679497429637e-36
+GO:0005178~integrin binding	2.1017402499024e-31
+GO:0032403~protein complex binding	1.27374946327265e-24
+GO:0005102~receptor binding	6.92437352796246e-22
+GO:0003779~actin binding	3.57829054262865e-16
+GO:0044877~macromolecular complex binding	1.53421659076255e-15
+GO:0008092~cytoskeletal protein binding	2.0069967515846e-15
+GO:0005515~protein binding	2.71123054286523e-14
+GO:0098631~protein binding involved in cell adhesion	2.03815826508158e-11
+GO:0005488~binding	7.25172211098175e-11
+GO:0005198~structural molecule activity	8.60302487904085e-11
+GO:0098632~protein binding involved in cell-cell adhesion	5.3823699645641e-09
+GO:0098641~cadherin binding involved in cell-cell adhesion	1.96248555287212e-08
+GO:0051015~actin filament binding	2.19646665737393e-08
+GO:0045296~cadherin binding	4.52191214072135e-08
+GO:0050840~extracellular matrix binding	9.9743572764196e-08
+GO:0019904~protein domain specific binding	2.46317480866819e-07
+GO:0005518~collagen binding	4.49752876052538e-07
+GO:0005509~calcium ion binding	1.00423361243288e-06
+GO:0042802~identical protein binding	1.0138084747333e-05
+GO:0097367~carbohydrate derivative binding	1.23245843578924e-05
+GO:0043236~laminin binding	1.66432472907628e-05
+GO:0001948~glycoprotein binding	1.68332079195365e-05
+GO:0098634~protein binding involved in cell-matrix adhesion	2.48734888979895e-05
+GO:0005200~structural constituent of cytoskeleton	2.71884536274645e-05
+GO:0019901~protein kinase binding	7.29375426256768e-05
+GO:0019900~kinase binding	0.000283058768344587
+GO:0005057~receptor signaling protein activity	0.0011532344353173
+GO:0098639~collagen binding involved in cell-matrix adhesion	0.00115639692511466
+GO:0004222~metalloendopeptidase activity	0.00148945877603131
+GO:0044325~ion channel binding	0.00148945877603131
+GO:0035591~signaling adaptor activity	0.00161734021227984
+GO:0017124~SH3 domain binding	0.00193905719846032
+GO:0030674~protein binding, bridging	0.00201393212700188
+GO:0019899~enzyme binding	0.00335040763217327
+GO:0004702~receptor signaling protein serine/threonine kinase activity	0.00349353600064391
+GO:0060090~binding, bridging	0.00352135940017298
+GO:0016247~channel regulator activity	0.00364016079040776
+GO:0042169~SH2 domain binding	0.00377902618601167
+GO:0017022~myosin binding	0.00439477102861866
+GO:0017166~vinculin binding	0.00502020598301506
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00543516357357847
+GO:0016301~kinase activity	0.00587508604315963
+GO:0035004~phosphatidylinositol 3-kinase activity	0.00715969999432207
+GO:0001618~virus receptor activity	0.00715969999432207
+GO:0045295~gamma-catenin binding	0.00725826697396307
+GO:0046983~protein dimerization activity	0.00786837639374352
+GO:0005539~glycosaminoglycan binding	0.00788308136343854
+GO:0098772~molecular function regulator	0.00951057731031114
+GO:0004707~MAP kinase activity	0.00986555149995542
+GO:0032794~GTPase activating protein binding	0.00986555149995542
+GO:0001882~nucleoside binding	0.01065141682358
+GO:0008307~structural constituent of muscle	0.0107079908756748
+GO:0005159~insulin-like growth factor receptor binding	0.0113023537237282
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.012680785690418
+GO:0017076~purine nucleotide binding	0.0138650016566562
+GO:0042803~protein homodimerization activity	0.0139377352674366
+GO:1901681~sulfur compound binding	0.0140869229440682
+GO:0035639~purine ribonucleoside triphosphate binding	0.0160352364570954
+GO:0032550~purine ribonucleoside binding	0.0170574569475667
+GO:0001883~purine nucleoside binding	0.017409639149489
+GO:0032549~ribonucleoside binding	0.017409639149489
+GO:0008237~metallopeptidase activity	0.0179956956240223
+GO:0032555~purine ribonucleotide binding	0.0214024175591116
+GO:0032553~ribonucleotide binding	0.0237310484038045
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0260283635530469
+GO:0004672~protein kinase activity	0.0265187055508679
+GO:0004674~protein serine/threonine kinase activity	0.0270052825956092
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.0301383615494791
+GO:0008201~heparin binding	0.0309542499947589
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.034001060449693
+GO:0048408~epidermal growth factor binding	0.0428953903896046
+GO:0003924~GTPase activity	0.0435919116466863
+GO:0005158~insulin receptor binding	0.0446894645478786
+GO:0030554~adenyl nucleotide binding	0.0477930381971398
+GO:0008022~protein C-terminus binding	0.0492640383475851

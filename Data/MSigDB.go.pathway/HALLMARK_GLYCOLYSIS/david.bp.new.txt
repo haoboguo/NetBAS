@@ -1,0 +1,438 @@
+GO:0005975~carbohydrate metabolic process	4.3244988839804e-52
+GO:1901135~carbohydrate derivative metabolic process	5.08616667888127e-45
+GO:0044723~single-organism carbohydrate metabolic process	3.60294679627837e-42
+GO:0044710~single-organism metabolic process	2.28623219302091e-36
+GO:0005996~monosaccharide metabolic process	2.48424602423377e-32
+GO:0030203~glycosaminoglycan metabolic process	4.59686814615708e-32
+GO:1901564~organonitrogen compound metabolic process	1.64807744335101e-31
+GO:0006022~aminoglycan metabolic process	3.05793806586952e-31
+GO:0019318~hexose metabolic process	1.40101398675045e-30
+GO:0006024~glycosaminoglycan biosynthetic process	5.46480871513856e-30
+GO:0006023~aminoglycan biosynthetic process	7.19311517870221e-30
+GO:1901137~carbohydrate derivative biosynthetic process	2.62577755688602e-29
+GO:0016051~carbohydrate biosynthetic process	3.39162256680272e-29
+GO:0044281~small molecule metabolic process	7.13542290527478e-28
+GO:0044262~cellular carbohydrate metabolic process	1.12581093559275e-25
+GO:0044724~single-organism carbohydrate catabolic process	2.33962293236788e-23
+GO:0016052~carbohydrate catabolic process	3.00603951528042e-23
+GO:0006790~sulfur compound metabolic process	3.1648469168591e-23
+GO:0006006~glucose metabolic process	3.85083366681666e-23
+GO:0046496~nicotinamide nucleotide metabolic process	4.95504838623729e-23
+GO:0019362~pyridine nucleotide metabolic process	4.95504838623729e-23
+GO:0072524~pyridine-containing compound metabolic process	2.423733397065e-22
+GO:0055114~oxidation-reduction process	4.74171627141473e-22
+GO:0006733~oxidoreduction coenzyme metabolic process	1.0631826618289e-21
+GO:0046364~monosaccharide biosynthetic process	1.11961881750648e-21
+GO:0046365~monosaccharide catabolic process	4.55904590480041e-21
+GO:0006091~generation of precursor metabolites and energy	6.68423107285934e-21
+GO:0019320~hexose catabolic process	2.37652254706225e-20
+GO:1903510~mucopolysaccharide metabolic process	1.00251632647646e-19
+GO:0006094~gluconeogenesis	1.68398448722106e-19
+GO:0019319~hexose biosynthetic process	3.71743712797132e-19
+GO:0044272~sulfur compound biosynthetic process	8.14147466053408e-19
+GO:0006090~pyruvate metabolic process	1.75925734238256e-18
+GO:0044711~single-organism biosynthetic process	3.63163396580656e-18
+GO:0055086~nucleobase-containing small molecule metabolic process	1.14105560004579e-17
+GO:0006753~nucleoside phosphate metabolic process	3.40873646402033e-17
+GO:0061620~glycolytic process through glucose-6-phosphate	5.56001654462363e-17
+GO:0061615~glycolytic process through fructose-6-phosphate	5.56001654462363e-17
+GO:0006734~NADH metabolic process	1.11622148656431e-16
+GO:0009117~nucleotide metabolic process	1.4570334218992e-16
+GO:0006082~organic acid metabolic process	1.53348822131514e-16
+GO:0046031~ADP metabolic process	1.79038706745965e-16
+GO:0044282~small molecule catabolic process	2.44997520512107e-16
+GO:0006732~coenzyme metabolic process	2.99584499302956e-16
+GO:0006007~glucose catabolic process	4.32176631625127e-16
+GO:0019637~organophosphate metabolic process	5.21259944150313e-16
+GO:0051186~cofactor metabolic process	7.8264483373919e-16
+GO:0006735~NADH regeneration	2.27641605344263e-15
+GO:0061718~glucose catabolic process to pyruvate	2.27641605344263e-15
+GO:0061621~canonical glycolysis	2.27641605344263e-15
+GO:0009167~purine ribonucleoside monophosphate metabolic process	2.60521079261995e-15
+GO:0006029~proteoglycan metabolic process	2.85645190886075e-15
+GO:0009126~purine nucleoside monophosphate metabolic process	2.9179277986418e-15
+GO:0019674~NAD metabolic process	3.68299112815678e-15
+GO:0009135~purine nucleoside diphosphate metabolic process	4.22679086956244e-15
+GO:0009179~purine ribonucleoside diphosphate metabolic process	4.22679086956244e-15
+GO:0019693~ribose phosphate metabolic process	4.69328661383803e-15
+GO:1901575~organic substance catabolic process	5.1605713627872e-15
+GO:0019752~carboxylic acid metabolic process	6.03166704697346e-15
+GO:0009185~ribonucleoside diphosphate metabolic process	6.11818434751223e-15
+GO:1901566~organonitrogen compound biosynthetic process	6.27122456482446e-15
+GO:0009161~ribonucleoside monophosphate metabolic process	6.96005680050462e-15
+GO:0043436~oxoacid metabolic process	7.33803647210932e-15
+GO:0044712~single-organism catabolic process	9.38769187833235e-15
+GO:0006096~glycolytic process	1.59137159658208e-14
+GO:0009123~nucleoside monophosphate metabolic process	1.99991877075291e-14
+GO:0006757~ATP generation from ADP	2.00621632084804e-14
+GO:0009056~catabolic process	2.58180099710323e-14
+GO:0006165~nucleoside diphosphate phosphorylation	3.44702350518965e-14
+GO:0044283~small molecule biosynthetic process	5.30586244982403e-14
+GO:0071704~organic substance metabolic process	6.41322705075301e-14
+GO:0046939~nucleotide phosphorylation	1.00548963424213e-13
+GO:0009100~glycoprotein metabolic process	1.1123144077941e-13
+GO:0030166~proteoglycan biosynthetic process	1.64835060467068e-13
+GO:0009132~nucleoside diphosphate metabolic process	1.79847651339169e-13
+GO:0008152~metabolic process	3.14218096429117e-13
+GO:0009101~glycoprotein biosynthetic process	3.79631570670637e-13
+GO:0009058~biosynthetic process	4.2086015952986e-13
+GO:0046128~purine ribonucleoside metabolic process	4.29838072270532e-13
+GO:0009205~purine ribonucleoside triphosphate metabolic process	4.94657101501838e-13
+GO:0042278~purine nucleoside metabolic process	5.19790538541303e-13
+GO:0046034~ATP metabolic process	6.84553575494027e-13
+GO:0009199~ribonucleoside triphosphate metabolic process	7.75508758030359e-13
+GO:0009144~purine nucleoside triphosphate metabolic process	8.34901928182033e-13
+GO:1901576~organic substance biosynthetic process	1.06658009358569e-12
+GO:0009119~ribonucleoside metabolic process	2.44667579297104e-12
+GO:0006027~glycosaminoglycan catabolic process	4.01564859893961e-12
+GO:0009141~nucleoside triphosphate metabolic process	4.20663373873895e-12
+GO:0005976~polysaccharide metabolic process	4.65662818143437e-12
+GO:1901657~glycosyl compound metabolic process	5.624023845721e-12
+GO:0044264~cellular polysaccharide metabolic process	6.12863788869881e-12
+GO:0034637~cellular carbohydrate biosynthetic process	7.71416568524097e-12
+GO:0009116~nucleoside metabolic process	1.1386235914977e-11
+GO:0006026~aminoglycan catabolic process	1.56507296848014e-11
+GO:0044237~cellular metabolic process	1.79489221538265e-11
+GO:0006163~purine nucleotide metabolic process	3.19904082022683e-11
+GO:0006807~nitrogen compound metabolic process	3.84346745121079e-11
+GO:0006796~phosphate-containing compound metabolic process	4.70655263679673e-11
+GO:0006793~phosphorus metabolic process	5.17332804691741e-11
+GO:0009150~purine ribonucleotide metabolic process	5.40754815811941e-11
+GO:0030201~heparan sulfate proteoglycan metabolic process	8.82507485669138e-11
+GO:0072521~purine-containing compound metabolic process	1.01930198770153e-10
+GO:0009259~ribonucleotide metabolic process	1.02590242857564e-10
+GO:0006739~NADP metabolic process	1.18838184828067e-10
+GO:0009225~nucleotide-sugar metabolic process	2.09115869282343e-10
+GO:0015012~heparan sulfate proteoglycan biosynthetic process	3.44635301122778e-10
+GO:0032787~monocarboxylic acid metabolic process	1.34460664167128e-09
+GO:0006081~cellular aldehyde metabolic process	1.45852767551124e-09
+GO:0044238~primary metabolic process	2.08119034868707e-09
+GO:1901136~carbohydrate derivative catabolic process	2.95652281646812e-09
+GO:0033692~cellular polysaccharide biosynthetic process	4.47492078235874e-09
+GO:0000271~polysaccharide biosynthetic process	1.57495959001492e-08
+GO:0015980~energy derivation by oxidation of organic compounds	1.58946634436377e-08
+GO:0030204~chondroitin sulfate metabolic process	1.81886976433927e-08
+GO:0050654~chondroitin sulfate proteoglycan metabolic process	2.70670871098252e-08
+GO:0019682~glyceraldehyde-3-phosphate metabolic process	3.52978930571875e-08
+GO:0050650~chondroitin sulfate proteoglycan biosynthetic process	3.86772288207203e-08
+GO:0044275~cellular carbohydrate catabolic process	4.72914838557611e-08
+GO:0009226~nucleotide-sugar biosynthetic process	1.00256609211821e-07
+GO:0006040~amino sugar metabolic process	1.21697117802416e-07
+GO:0006112~energy reserve metabolic process	1.24746298475139e-07
+GO:0051156~glucose 6-phosphate metabolic process	1.36539507306981e-07
+GO:0006486~protein glycosylation	1.47588405466862e-07
+GO:0043413~macromolecule glycosylation	1.47588405466862e-07
+GO:0051193~regulation of cofactor metabolic process	1.49970505890933e-07
+GO:0051196~regulation of coenzyme metabolic process	1.49970505890933e-07
+GO:1901565~organonitrogen compound catabolic process	2.04451856893163e-07
+GO:0001666~response to hypoxia	2.07715099727157e-07
+GO:0006098~pentose-phosphate shunt	2.27447108793713e-07
+GO:0006012~galactose metabolic process	2.27447108793713e-07
+GO:0070085~glycosylation	2.38228749214214e-07
+GO:0036293~response to decreased oxygen levels	3.14283067797831e-07
+GO:0005977~glycogen metabolic process	3.33337387980735e-07
+GO:0044042~glucan metabolic process	3.71318236421084e-07
+GO:0006073~cellular glucan metabolic process	3.71318236421084e-07
+GO:0044699~single-organism process	3.87990018889234e-07
+GO:0018146~keratan sulfate biosynthetic process	6.50961011902601e-07
+GO:0070482~response to oxygen levels	7.23529380915591e-07
+GO:0006044~N-acetylglucosamine metabolic process	7.50572163167408e-07
+GO:0044763~single-organism cellular process	1.66597038182488e-06
+GO:0042339~keratan sulfate metabolic process	1.82442612094009e-06
+GO:0006002~fructose 6-phosphate metabolic process	2.03764601164446e-06
+GO:0016310~phosphorylation	4.09469799376523e-06
+GO:0043648~dicarboxylic acid metabolic process	6.49745060010976e-06
+GO:1901071~glucosamine-containing compound metabolic process	6.77747597134658e-06
+GO:0044249~cellular biosynthetic process	8.29217668615197e-06
+GO:0030206~chondroitin sulfate biosynthetic process	8.39311606795877e-06
+GO:0006928~movement of cell or subcellular component	1.26336846719504e-05
+GO:0040011~locomotion	2.55733939937157e-05
+GO:0048608~reproductive structure development	2.73404701739211e-05
+GO:0061458~reproductive system development	3.15525100838542e-05
+GO:0006109~regulation of carbohydrate metabolic process	3.21280344896664e-05
+GO:1902031~regulation of NADP metabolic process	5.0574823756924e-05
+GO:0006108~malate metabolic process	8.02343380002538e-05
+GO:0019673~GDP-mannose metabolic process	8.02343380002538e-05
+GO:0010035~response to inorganic substance	0.000106882388961528
+GO:0009057~macromolecule catabolic process	0.000112371481050594
+GO:0006720~isoprenoid metabolic process	0.000116166850925354
+GO:0030202~heparin metabolic process	0.000119332683996589
+GO:0016101~diterpenoid metabolic process	0.000119517477821233
+GO:0005980~glycogen catabolic process	0.000126226563895784
+GO:0003006~developmental process involved in reproduction	0.000139055192816363
+GO:0044247~cellular polysaccharide catabolic process	0.000150116381477727
+GO:0009251~glucan catabolic process	0.000150116381477727
+GO:0046835~carbohydrate phosphorylation	0.000150116381477727
+GO:0010675~regulation of cellular carbohydrate metabolic process	0.000176878947660076
+GO:0005978~glycogen biosynthetic process	0.000178079193438578
+GO:0016477~cell migration	0.000211265453803611
+GO:0006721~terpenoid metabolic process	0.000221917845757326
+GO:0009127~purine nucleoside monophosphate biosynthetic process	0.00023913565234956
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	0.00023913565234956
+GO:0010038~response to metal ion	0.000240292469390523
+GO:0000272~polysaccharide catabolic process	0.000241341398310477
+GO:0048870~cell motility	0.000278457317288524
+GO:0051674~localization of cell	0.000278457317288524
+GO:0007548~sex differentiation	0.000286014591688511
+GO:0006107~oxaloacetate metabolic process	0.000304676006627714
+GO:0009250~glucan biosynthetic process	0.000319349889909247
+GO:0006099~tricarboxylic acid cycle	0.000320804961568665
+GO:0044248~cellular catabolic process	0.000382784084721506
+GO:0046349~amino sugar biosynthetic process	0.000392732986485844
+GO:1901605~alpha-amino acid metabolic process	0.000432891288066948
+GO:0009156~ribonucleoside monophosphate biosynthetic process	0.000529082036111642
+GO:0001523~retinoid metabolic process	0.000561985482499746
+GO:0046033~AMP metabolic process	0.000614299626257735
+GO:0006000~fructose metabolic process	0.000614299626257735
+GO:0009066~aspartate family amino acid metabolic process	0.000623143103925472
+GO:0006979~response to oxidative stress	0.000649853325889426
+GO:0050655~dermatan sulfate proteoglycan metabolic process	0.000749684660567693
+GO:0006047~UDP-N-acetylglucosamine metabolic process	0.000749684660567693
+GO:0009628~response to abiotic stimulus	0.000752490859200754
+GO:0009298~GDP-mannose biosynthetic process	0.000776643021072267
+GO:0015014~heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process	0.000776643021072267
+GO:0006140~regulation of nucleotide metabolic process	0.000787520377670833
+GO:0008406~gonad development	0.000814509150178935
+GO:0030879~mammary gland development	0.000835857339997762
+GO:0009124~nucleoside monophosphate biosynthetic process	0.000886035440973252
+GO:0045137~development of primary sexual characteristics	0.000959568406640056
+GO:0046129~purine ribonucleoside biosynthetic process	0.00103898134205518
+GO:0042451~purine nucleoside biosynthetic process	0.00103898134205518
+GO:0006103~2-oxoglutarate metabolic process	0.00107406420943223
+GO:0048732~gland development	0.0011890869647787
+GO:0006629~lipid metabolic process	0.00131624029076588
+GO:0043069~negative regulation of programmed cell death	0.00141185166337777
+GO:0001890~placenta development	0.0014453494531554
+GO:0043470~regulation of carbohydrate catabolic process	0.00147060747134508
+GO:0060548~negative regulation of cell death	0.00155449400702666
+GO:0044273~sulfur compound catabolic process	0.00160329490863491
+GO:0006066~alcohol metabolic process	0.0016035759215026
+GO:1901360~organic cyclic compound metabolic process	0.00164465323346936
+GO:0006464~cellular protein modification process	0.00164886406353123
+GO:0036211~protein modification process	0.00164886406353123
+GO:0009068~aspartate family amino acid catabolic process	0.00170679370522074
+GO:0044702~single organism reproductive process	0.00189052520715413
+GO:0010941~regulation of cell death	0.00213294911346318
+GO:0042455~ribonucleoside biosynthetic process	0.00252863615829439
+GO:0090407~organophosphate biosynthetic process	0.00256703382555056
+GO:0006575~cellular modified amino acid metabolic process	0.00265036668009374
+GO:0048513~animal organ development	0.00277202992640783
+GO:0006950~response to stress	0.00299640017587977
+GO:0018209~peptidyl-serine modification	0.00311278409481283
+GO:0009888~tissue development	0.00312248624973743
+GO:0043067~regulation of programmed cell death	0.00316900249788931
+GO:0042542~response to hydrogen peroxide	0.00323055746934875
+GO:0046390~ribose phosphate biosynthetic process	0.00329772278181401
+GO:0019388~galactose catabolic process	0.00351597590436409
+GO:0030210~heparin biosynthetic process	0.00351597590436409
+GO:0030388~fructose 1,6-bisphosphate metabolic process	0.00351597590436409
+GO:0009067~aspartate family amino acid biosynthetic process	0.00356852366640299
+GO:0009163~nucleoside biosynthetic process	0.00377316440681495
+GO:1901659~glycosyl compound biosynthetic process	0.00406852275713279
+GO:1990267~response to transition metal nanoparticle	0.00422245920553468
+GO:0071456~cellular response to hypoxia	0.00422245920553468
+GO:0010033~response to organic substance	0.00449800689560022
+GO:0009991~response to extracellular stimulus	0.00453817547466375
+GO:0008219~cell death	0.00519266396411146
+GO:1901700~response to oxygen-containing compound	0.00526703665301228
+GO:0018208~peptidyl-proline modification	0.00529845323545263
+GO:0030198~extracellular matrix organization	0.00537359559295644
+GO:0042981~regulation of apoptotic process	0.00540914962459218
+GO:0036294~cellular response to decreased oxygen levels	0.0054233421652477
+GO:0043062~extracellular structure organization	0.00548294667408797
+GO:0005984~disaccharide metabolic process	0.00556579852289486
+GO:0009060~aerobic respiration	0.00561387870325782
+GO:0033674~positive regulation of kinase activity	0.00569843882662938
+GO:1900407~regulation of cellular response to oxidative stress	0.00594159818096735
+GO:0009894~regulation of catabolic process	0.00607594971271049
+GO:0051384~response to glucocorticoid	0.00621262268614927
+GO:0006110~regulation of glycolytic process	0.0063291319940333
+GO:0043066~negative regulation of apoptotic process	0.00634017136138967
+GO:0033554~cellular response to stress	0.00660426716543628
+GO:0010906~regulation of glucose metabolic process	0.00672375501038691
+GO:0006054~N-acetylneuraminate metabolic process	0.00675143046479675
+GO:0019852~L-ascorbic acid metabolic process	0.00675143046479675
+GO:0012501~programmed cell death	0.00701072633666799
+GO:0031667~response to nutrient levels	0.00716524741762137
+GO:0043412~macromolecule modification	0.00745313804658389
+GO:0071453~cellular response to oxygen levels	0.00758956032735368
+GO:0018105~peptidyl-serine phosphorylation	0.00768867753368255
+GO:1901615~organic hydroxy compound metabolic process	0.00795531289850008
+GO:0022414~reproductive process	0.00796560416393991
+GO:0019471~4-hydroxyproline metabolic process	0.0080407813566916
+GO:0000003~reproduction	0.00811083361843019
+GO:1902882~regulation of response to oxidative stress	0.00817727339816931
+GO:0046660~female sex differentiation	0.00817901588095554
+GO:0006725~cellular aromatic compound metabolic process	0.00858222632167947
+GO:0044255~cellular lipid metabolic process	0.00879728342290448
+GO:0030205~dermatan sulfate metabolic process	0.00943133560602645
+GO:0019321~pentose metabolic process	0.00943133560602645
+GO:0006915~apoptotic process	0.00950848353982841
+GO:0042221~response to chemical	0.00989025129052976
+GO:0031960~response to corticosteroid	0.00998183525891802
+GO:0046661~male sex differentiation	0.00998183525891802
+GO:0051220~cytoplasmic sequestering of protein	0.010082083501835
+GO:0009987~cellular process	0.0101302139255087
+GO:0046483~heterocycle metabolic process	0.0102490720112778
+GO:0008203~cholesterol metabolic process	0.0105643215010566
+GO:0048731~system development	0.010653473765819
+GO:0030207~chondroitin sulfate catabolic process	0.0109206212232656
+GO:1901293~nucleoside phosphate biosynthetic process	0.0110989084875598
+GO:0072522~purine-containing compound biosynthetic process	0.0112394542746911
+GO:0031100~organ regeneration	0.0114085137244454
+GO:0045454~cell redox homeostasis	0.0119280625679165
+GO:0008637~apoptotic mitochondrial changes	0.0121216371168582
+GO:0006139~nucleobase-containing compound metabolic process	0.0124373519370333
+GO:0006089~lactate metabolic process	0.0125062091614562
+GO:0050651~dermatan sulfate proteoglycan biosynthetic process	0.0125062091614562
+GO:0009312~oligosaccharide biosynthetic process	0.0125062091614562
+GO:0030214~hyaluronan catabolic process	0.0125062091614562
+GO:0033135~regulation of peptidyl-serine phosphorylation	0.0125340211604067
+GO:0072359~circulatory system development	0.0126767227310084
+GO:0072358~cardiovascular system development	0.0126767227310084
+GO:0048729~tissue morphogenesis	0.0128502012711906
+GO:0043406~positive regulation of MAP kinase activity	0.0128663591966329
+GO:1902652~secondary alcohol metabolic process	0.0129558147882828
+GO:0042592~homeostatic process	0.0131566570792387
+GO:0046686~response to cadmium ion	0.0131673542445212
+GO:0044267~cellular protein metabolic process	0.0131911119102396
+GO:0016054~organic acid catabolic process	0.0144220642203938
+GO:0034641~cellular nitrogen compound metabolic process	0.0148888198661877
+GO:0009059~macromolecule biosynthetic process	0.0151492179931727
+GO:0045333~cellular respiration	0.01548787512867
+GO:0010463~mesenchymal cell proliferation	0.0157966361558588
+GO:0048569~post-embryonic organ development	0.0159567866108694
+GO:0019511~peptidyl-proline hydroxylation	0.0159567866108694
+GO:0051347~positive regulation of transferase activity	0.0160951400740937
+GO:0016125~sterol metabolic process	0.0166796032326348
+GO:0043170~macromolecule metabolic process	0.01669247021304
+GO:2000243~positive regulation of reproductive process	0.016733840286907
+GO:0080135~regulation of cellular response to stress	0.0169684692080511
+GO:0001889~liver development	0.017190036119218
+GO:0007275~multicellular organism development	0.0174065418653045
+GO:0019220~regulation of phosphate metabolic process	0.017440933403073
+GO:0051174~regulation of phosphorus metabolic process	0.0175715325086124
+GO:0018193~peptidyl-amino acid modification	0.0176656973230399
+GO:0018126~protein hydroxylation	0.0178171269112339
+GO:0032502~developmental process	0.0184430673951254
+GO:0043467~regulation of generation of precursor metabolites and energy	0.0186593873907448
+GO:0006767~water-soluble vitamin metabolic process	0.0186593873907448
+GO:0007566~embryo implantation	0.0186999592980814
+GO:0048609~multicellular organismal reproductive process	0.0187154723301924
+GO:0061061~muscle structure development	0.0187660702609282
+GO:0061008~hepaticobiliary system development	0.0187832148407773
+GO:0003012~muscle system process	0.0189237383571797
+GO:0048856~anatomical structure development	0.0190222926955768
+GO:0051050~positive regulation of transport	0.0193455631856312
+GO:0006487~protein N-linked glycosylation	0.0193669045419009
+GO:0007155~cell adhesion	0.0196403839962461
+GO:0008585~female gonad development	0.0200908174591896
+GO:0032507~maintenance of protein location in cell	0.0200908174591896
+GO:0033138~positive regulation of peptidyl-serine phosphorylation	0.0200908174591896
+GO:0045860~positive regulation of protein kinase activity	0.0202191487633209
+GO:0046546~development of primary male sexual characteristics	0.0204707879671729
+GO:0008584~male gonad development	0.0204707879671729
+GO:0022610~biological adhesion	0.0204956892485498
+GO:0032504~multicellular organism reproduction	0.0205816477336955
+GO:0009118~regulation of nucleoside metabolic process	0.0207887516582753
+GO:1903578~regulation of ATP metabolic process	0.0207887516582753
+GO:0046697~decidualization	0.0217965914856078
+GO:0032147~activation of protein kinase activity	0.0218164878947209
+GO:0044703~multi-organism reproductive process	0.0225523270024104
+GO:0019551~glutamate catabolic process to 2-oxoglutarate	0.0228557112592515
+GO:0006045~N-acetylglucosamine biosynthetic process	0.0228557112592515
+GO:0019550~glutamate catabolic process to aspartate	0.0228557112592515
+GO:1901073~glucosamine-containing compound biosynthetic process	0.0228557112592515
+GO:1903201~regulation of oxidative stress-induced cell death	0.0230004766567847
+GO:0046545~development of primary female sexual characteristics	0.0231522119639548
+GO:0009152~purine ribonucleotide biosynthetic process	0.0233923005247409
+GO:0019400~alditol metabolic process	0.0239113070412225
+GO:0014066~regulation of phosphatidylinositol 3-kinase signaling	0.0241366655303153
+GO:0046395~carboxylic acid catabolic process	0.0247372514525583
+GO:0050918~positive chemotaxis	0.0253351645812211
+GO:0001657~ureteric bud development	0.0256245188253274
+GO:0006520~cellular amino acid metabolic process	0.0257337067670277
+GO:0060537~muscle tissue development	0.0263472730367189
+GO:0045185~maintenance of protein location	0.0264825689209373
+GO:0072163~mesonephric epithelium development	0.0264825689209373
+GO:0072164~mesonephric tubule development	0.0264825689209373
+GO:0006164~purine nucleotide biosynthetic process	0.0267017370549199
+GO:0090257~regulation of muscle system process	0.0271034996335339
+GO:0009743~response to carbohydrate	0.0271034996335339
+GO:0046688~response to copper ion	0.0283799730422156
+GO:0009165~nucleotide biosynthetic process	0.0285317242962992
+GO:0035967~cellular response to topologically incorrect protein	0.0290999896722623
+GO:0009260~ribonucleotide biosynthetic process	0.0298238726772561
+GO:0060135~maternal process involved in female pregnancy	0.0303724865238779
+GO:0019725~cellular homeostasis	0.0309354940703468
+GO:0001823~mesonephros development	0.0310299774851866
+GO:1900542~regulation of purine nucleotide metabolic process	0.0312938145571402
+GO:0009719~response to endogenous stimulus	0.0318041465008592
+GO:0046394~carboxylic acid biosynthetic process	0.0320784877687029
+GO:0048469~cell maturation	0.0321698452003878
+GO:0014070~response to organic cyclic compound	0.0321904225597346
+GO:0042698~ovulation cycle	0.0329697959498626
+GO:0048878~chemical homeostasis	0.0331489060605708
+GO:0030330~DNA damage response, signal transduction by p53 class mediator	0.0339657482686089
+GO:0006740~NADPH regeneration	0.0340879237512533
+GO:0006106~fumarate metabolic process	0.0340879237512533
+GO:0035795~negative regulation of mitochondrial membrane permeability	0.0340879237512533
+GO:0046368~GDP-L-fucose metabolic process	0.0340879237512533
+GO:0000302~response to reactive oxygen species	0.0345806208550745
+GO:1902533~positive regulation of intracellular signal transduction	0.0348703115139795
+GO:0002064~epithelial cell development	0.0351942511156712
+GO:0034976~response to endoplasmic reticulum stress	0.0356170088455694
+GO:0046324~regulation of glucose import	0.0358968833104892
+GO:0051651~maintenance of location in cell	0.0360098717612818
+GO:0060429~epithelium development	0.0362713773487726
+GO:0008643~carbohydrate transport	0.0369839674493262
+GO:0009887~organ morphogenesis	0.0370510068854491
+GO:0060675~ureteric bud morphogenesis	0.037353362029247
+GO:0006936~muscle contraction	0.0377737446616954
+GO:0015949~nucleobase-containing small molecule interconversion	0.0382165107396242
+GO:0044706~multi-multicellular organism process	0.0382601590091318
+GO:0044767~single-organism developmental process	0.0383160057608669
+GO:0043549~regulation of kinase activity	0.0385275705003791
+GO:0043618~regulation of transcription from RNA polymerase II promoter in response to stress	0.0388397473102799
+GO:0072171~mesonephric tubule morphogenesis	0.0388397473102799
+GO:0006941~striated muscle contraction	0.0390408129252033
+GO:0050679~positive regulation of epithelial cell proliferation	0.0390408129252033
+GO:0070887~cellular response to chemical stimulus	0.0393694132372905
+GO:0006749~glutathione metabolic process	0.0403558997612751
+GO:0001824~blastocyst development	0.0403558997612751
+GO:0042327~positive regulation of phosphorylation	0.0403762734443732
+GO:0008202~steroid metabolic process	0.0405554716632469
+GO:0002053~positive regulation of mesenchymal cell proliferation	0.0408513761330491
+GO:0009749~response to glucose	0.0413529998631747
+GO:0016053~organic acid biosynthetic process	0.0419098083586274
+GO:0072331~signal transduction by p53 class mediator	0.0431885579894291
+GO:0022612~gland morphogenesis	0.0437141837883766
+GO:0097485~neuron projection guidance	0.0447097580435702
+GO:0048872~homeostasis of number of cells	0.0447097580435702
+GO:0036473~cell death in response to oxidative stress	0.0450814323063979
+GO:0009311~oligosaccharide metabolic process	0.0450814323063979
+GO:0006533~aspartate catabolic process	0.045191683992381
+GO:0032431~activation of phospholipase A2 activity	0.045191683992381
+GO:0006015~5-phosphoribose 1-diphosphate biosynthetic process	0.045191683992381
+GO:0046391~5-phosphoribose 1-diphosphate metabolic process	0.045191683992381
+GO:0019322~pentose biosynthetic process	0.045191683992381
+GO:0009746~response to hexose	0.046039404610703
+GO:0015758~glucose transport	0.0460726534211018
+GO:0044707~single-multicellular organism process	0.0461827825658779
+GO:0001893~maternal placenta development	0.0463186151829693
+GO:0006536~glutamate metabolic process	0.0463186151829693
+GO:0098609~cell-cell adhesion	0.0465397689887729
+GO:0043620~regulation of DNA-templated transcription in response to stress	0.0467150831433982
+GO:0009064~glutamine family amino acid metabolic process	0.0467150831433982
+GO:0008652~cellular amino acid biosynthetic process	0.0467150831433982
+GO:0007584~response to nutrient	0.0480163740332207
+GO:0007422~peripheral nervous system development	0.0483776745993343
+GO:1901607~alpha-amino acid biosynthetic process	0.0483776745993343
+GO:0042770~signal transduction in response to DNA damage	0.0485008919573413
+GO:0015749~monosaccharide transport	0.0485008919573413
+GO:0008645~hexose transport	0.0485008919573413
+GO:0042306~regulation of protein import into nucleus	0.048978824084675
+GO:0072595~maintenance of protein localization in organelle	0.0491473058835077
+GO:0019538~protein metabolic process	0.0492156603133575
+GO:0001944~vasculature development	0.0495052967225221
+GO:0014706~striated muscle tissue development	0.049613820921812

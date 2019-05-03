@@ -1,0 +1,60 @@
+GO:0042579~microbody	5.08533197519914e-57
+GO:0005777~peroxisome	5.08533197519914e-57
+GO:0044438~microbody part	1.71945575558616e-51
+GO:0044439~peroxisomal part	1.71945575558616e-51
+GO:0005778~peroxisomal membrane	4.77990328366983e-29
+GO:0031903~microbody membrane	4.77990328366983e-29
+GO:0031907~microbody lumen	5.53640154780706e-27
+GO:0005782~peroxisomal matrix	5.53640154780706e-27
+GO:0005779~integral component of peroxisomal membrane	7.23474715831514e-15
+GO:0031231~intrinsic component of peroxisomal membrane	7.23474715831514e-15
+GO:0044444~cytoplasmic part	1.29516032182856e-12
+GO:0098805~whole membrane	8.46156258524903e-10
+GO:0005737~cytoplasm	9.08557127834554e-10
+GO:0031090~organelle membrane	1.53088525756011e-09
+GO:0044422~organelle part	3.23066077533389e-09
+GO:0044446~intracellular organelle part	1.03459674263162e-08
+GO:0098588~bounding membrane of organelle	5.40460371001489e-08
+GO:0043227~membrane-bounded organelle	1.14591484251217e-07
+GO:0005789~endoplasmic reticulum membrane	1.46605512841241e-06
+GO:0044424~intracellular part	1.48551380084814e-06
+GO:0043226~organelle	1.81462182344307e-06
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	2.04792371304934e-06
+GO:0005622~intracellular	2.55318567639871e-06
+GO:0044432~endoplasmic reticulum part	4.76459001359129e-06
+GO:0031301~integral component of organelle membrane	5.4347570319922e-06
+GO:0031300~intrinsic component of organelle membrane	7.42212949445732e-06
+GO:0005783~endoplasmic reticulum	1.02362898531272e-05
+GO:0005739~mitochondrion	1.54275456817568e-05
+GO:0043231~intracellular membrane-bounded organelle	1.76124306709384e-05
+GO:0043229~intracellular organelle	6.25791956359749e-05
+GO:0044464~cell part	0.000192075118074504
+GO:0005623~cell	0.000228593633673295
+GO:0005829~cytosol	0.000916278588391144
+GO:0044429~mitochondrial part	0.00211746041762605
+GO:0005740~mitochondrial envelope	0.00409007974999467
+GO:0031974~membrane-enclosed lumen	0.00442156445747505
+GO:0070013~intracellular organelle lumen	0.00479355180277833
+GO:0043233~organelle lumen	0.00639895133751903
+GO:0031967~organelle envelope	0.00788130448853147
+GO:0031975~envelope	0.00817415532104471
+GO:0005743~mitochondrial inner membrane	0.00966571727485414
+GO:0016020~membrane	0.0132579577979444
+GO:0005759~mitochondrial matrix	0.0132823195412734
+GO:0009925~basal plasma membrane	0.013585332765132
+GO:0019866~organelle inner membrane	0.0177253820862731
+GO:0031966~mitochondrial membrane	0.0215602708730251
+GO:0070062~extracellular exosome	0.0221119097443429
+GO:0098590~plasma membrane region	0.0228743676277462
+GO:1903561~extracellular vesicle	0.02337939725662
+GO:0043230~extracellular organelle	0.0234720834117319
+GO:0016021~integral component of membrane	0.0242223443113069
+GO:0012505~endomembrane system	0.0254442540905912
+GO:0031988~membrane-bounded vesicle	0.0284225821252046
+GO:0044425~membrane part	0.0285675704951898
+GO:0016324~apical plasma membrane	0.0303264507385295
+GO:0045178~basal part of cell	0.0304058349691309
+GO:0031224~intrinsic component of membrane	0.0330774785764286
+GO:0016323~basolateral plasma membrane	0.0332031696409867
+GO:0031982~vesicle	0.0453144289936621
+GO:0043190~ATP-binding cassette (ABC) transporter complex	0.0464469422086212

@@ -1,0 +1,73 @@
+GO:0044444~cytoplasmic part	2.48354291101863e-33
+GO:0005829~cytosol	3.93779581528801e-27
+GO:0005737~cytoplasm	2.26967648844529e-24
+GO:0070062~extracellular exosome	2.95822043913155e-19
+GO:1903561~extracellular vesicle	4.02125230920985e-19
+GO:0043230~extracellular organelle	4.1100706488088e-19
+GO:0043227~membrane-bounded organelle	1.4922640825791e-18
+GO:0031988~membrane-bounded vesicle	4.9811076081973e-17
+GO:0031982~vesicle	2.850135172907e-16
+GO:0044424~intracellular part	5.30737907844811e-14
+GO:0005622~intracellular	5.7350341019405e-14
+GO:0043226~organelle	1.35449391705818e-13
+GO:0044421~extracellular region part	2.10074090651135e-13
+GO:0043231~intracellular membrane-bounded organelle	5.35378654006472e-12
+GO:0043229~intracellular organelle	1.67344100318922e-10
+GO:0044446~intracellular organelle part	2.06991950077029e-10
+GO:0044422~organelle part	4.70335823526886e-10
+GO:0005576~extracellular region	1.41560540573688e-09
+GO:0000502~proteasome complex	1.68507353135369e-09
+GO:0044432~endoplasmic reticulum part	2.09962856317442e-08
+GO:0044464~cell part	5.61513986606019e-08
+GO:0005789~endoplasmic reticulum membrane	5.90884250929247e-08
+GO:0005783~endoplasmic reticulum	6.58422630728671e-08
+GO:0005623~cell	7.75416269748245e-08
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	9.62646758214682e-08
+GO:0022624~proteasome accessory complex	1.89594127018428e-07
+GO:0043233~organelle lumen	6.36667798496776e-07
+GO:0070013~intracellular organelle lumen	6.92586507302995e-07
+GO:0031974~membrane-enclosed lumen	1.0891177548395e-06
+GO:0048770~pigment granule	1.806051913181e-06
+GO:0042470~melanosome	1.806051913181e-06
+GO:0043234~protein complex	1.9959912067192e-06
+GO:0005838~proteasome regulatory particle	2.80495811711535e-06
+GO:0030176~integral component of endoplasmic reticulum membrane	3.63007053046572e-06
+GO:0031227~intrinsic component of endoplasmic reticulum membrane	4.89795423906492e-06
+GO:0031597~cytosolic proteasome complex	5.53293183633413e-06
+GO:0012505~endomembrane system	8.67868893882598e-06
+GO:0031595~nuclear proteasome complex	6.20117449172268e-05
+GO:0032991~macromolecular complex	6.50900247170714e-05
+GO:0005739~mitochondrion	8.74762038527205e-05
+GO:0043209~myelin sheath	9.74006927432362e-05
+GO:0044428~nuclear part	0.000275824322015774
+GO:0005654~nucleoplasm	0.000834270177914896
+GO:0005791~rough endoplasmic reticulum	0.000913694457540413
+GO:0044445~cytosolic part	0.00100029076252072
+GO:0031981~nuclear lumen	0.00177321726890931
+GO:0005634~nucleus	0.00227661283345135
+GO:0005912~adherens junction	0.00282886330489068
+GO:0008541~proteasome regulatory particle, lid subcomplex	0.0029654488058376
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.00331168784774012
+GO:0070161~anchoring junction	0.00358076825969154
+GO:0031410~cytoplasmic vesicle	0.00443700861157743
+GO:0097708~intracellular vesicle	0.00452334549104085
+GO:0005788~endoplasmic reticulum lumen	0.00570140158688961
+GO:0005885~Arp2/3 protein complex	0.00679884270548845
+GO:0008540~proteasome regulatory particle, base subcomplex	0.00679884270548845
+GO:0005913~cell-cell adherens junction	0.00878108381711427
+GO:0030054~cell junction	0.0104108678821562
+GO:0000794~condensed nuclear chromosome	0.0140113575912279
+GO:0000780~condensed nuclear chromosome, centromeric region	0.0167847171810952
+GO:0044429~mitochondrial part	0.0171257755068137
+GO:0031090~organelle membrane	0.0173528423149918
+GO:0031967~organelle envelope	0.0187921902727008
+GO:0005911~cell-cell junction	0.0191183871606395
+GO:0031975~envelope	0.0195917095522453
+GO:0005839~proteasome core complex	0.0203314445676756
+GO:0005773~vacuole	0.0309286532267978
+GO:0005759~mitochondrial matrix	0.0362206908191751
+GO:0000942~condensed nuclear chromosome outer kinetochore	0.0414842682047699
+GO:0097452~GAIT complex	0.0414842682047699
+GO:0005790~smooth endoplasmic reticulum	0.0470965733676035
+GO:0031968~organelle outer membrane	0.04731644799785
+GO:0005768~endosome	0.0482078806234848

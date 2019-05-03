@@ -1,0 +1,41 @@
+GO:0005886~plasma membrane	1.1758069865619e-17
+GO:0071944~cell periphery	3.81307490037777e-17
+GO:0009986~cell surface	5.18888501034523e-15
+GO:0044459~plasma membrane part	1.22374609026678e-13
+GO:0031226~intrinsic component of plasma membrane	2.45843568783657e-13
+GO:0005887~integral component of plasma membrane	5.20339213168461e-13
+GO:0005615~extracellular space	8.00291422650185e-13
+GO:0043235~receptor complex	2.15716541044991e-12
+GO:0098802~plasma membrane receptor complex	5.38465690408084e-10
+GO:0005576~extracellular region	1.0090380065607e-09
+GO:0009897~external side of plasma membrane	1.54134626549598e-09
+GO:0098552~side of membrane	1.66151618831931e-08
+GO:0044421~extracellular region part	1.04394820918461e-07
+GO:0098797~plasma membrane protein complex	1.39088030761852e-07
+GO:0044425~membrane part	3.52172852096518e-07
+GO:0016021~integral component of membrane	1.1615891107291e-06
+GO:0031224~intrinsic component of membrane	2.11415629198808e-06
+GO:0016020~membrane	2.68490562434427e-06
+GO:0098796~membrane protein complex	7.79589189629369e-06
+GO:0031091~platelet alpha granule	2.6176210605966e-05
+GO:0045121~membrane raft	0.000312117831105185
+GO:0098857~membrane microdomain	0.000318986246909861
+GO:0098589~membrane region	0.00132579056137464
+GO:0030141~secretory granule	0.00141400475764172
+GO:0031092~platelet alpha granule membrane	0.00162190445302967
+GO:0099503~secretory vesicle	0.00614366206141373
+GO:0031410~cytoplasmic vesicle	0.00633116968526304
+GO:0097708~intracellular vesicle	0.00641241363579136
+GO:0044433~cytoplasmic vesicle part	0.007916534220925
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.00859280560293127
+GO:0005900~oncostatin-M receptor complex	0.00930685839881909
+GO:0043234~protein complex	0.0100186046819423
+GO:0098805~whole membrane	0.0102348624572449
+GO:0031982~vesicle	0.0102463693306001
+GO:0005896~interleukin-6 receptor complex	0.0139281358122383
+GO:0070110~ciliary neurotrophic factor receptor complex	0.0139281358122383
+GO:0032991~macromolecular complex	0.0176437586285555
+GO:0031988~membrane-bounded vesicle	0.0219479630221304
+GO:0031093~platelet alpha granule lumen	0.0272136846108082
+GO:0012506~vesicle membrane	0.0311094709265065
+GO:0012505~endomembrane system	0.048076562462337

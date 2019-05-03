@@ -1,0 +1,88 @@
+GO:0046332~SMAD binding	6.70014185629627e-29
+GO:0005160~transforming growth factor beta receptor binding	1.90341353391581e-12
+GO:0070411~I-SMAD binding	9.37687674654353e-11
+GO:0005057~receptor signaling protein activity	5.01448242493068e-10
+GO:0070412~R-SMAD binding	4.03724256702571e-09
+GO:0005072~transforming growth factor beta receptor, cytoplasmic mediator activity	1.53090166961163e-08
+GO:0070410~co-SMAD binding	3.59249755001559e-08
+GO:0004675~transmembrane receptor protein serine/threonine kinase activity	1.70815464138501e-07
+GO:0003714~transcription corepressor activity	3.53750640866953e-07
+GO:0005515~protein binding	5.28294864116081e-07
+GO:0005126~cytokine receptor binding	1.47242961586697e-06
+GO:0034713~type I transforming growth factor beta receptor binding	2.15444608579567e-06
+GO:0019838~growth factor binding	2.30065859174e-06
+GO:0048185~activin binding	5.60659166445642e-06
+GO:0044212~transcription regulatory region DNA binding	6.56570032345567e-06
+GO:0000975~regulatory region DNA binding	6.80481278554174e-06
+GO:0001067~regulatory region nucleic acid binding	6.88620661762026e-06
+GO:0019955~cytokine binding	9.71629760732345e-06
+GO:0000988~transcription factor activity, protein binding	1.21555920809462e-05
+GO:0050431~transforming growth factor beta binding	1.41500743672067e-05
+GO:0008134~transcription factor binding	1.9799786324206e-05
+GO:0044877~macromolecular complex binding	2.17990521123468e-05
+GO:0003712~transcription cofactor activity	3.57579922627637e-05
+GO:0003700~transcription factor activity, sequence-specific DNA binding	5.39293691422273e-05
+GO:0001071~nucleic acid binding transcription factor activity	5.43843776792506e-05
+GO:0000989~transcription factor activity, transcription factor binding	7.36672282232091e-05
+GO:0032403~protein complex binding	8.21741455578156e-05
+GO:0000978~RNA polymerase II core promoter proximal region sequence-specific DNA binding	9.11339771426438e-05
+GO:0019199~transmembrane receptor protein kinase activity	0.000108623080586529
+GO:0000987~core promoter proximal region sequence-specific DNA binding	0.000128024717036351
+GO:0001159~core promoter proximal region DNA binding	0.000132299471457051
+GO:0046983~protein dimerization activity	0.000135479446413069
+GO:0004702~receptor signaling protein serine/threonine kinase activity	0.000176948481990577
+GO:0019899~enzyme binding	0.000177383577656002
+GO:0005114~type II transforming growth factor beta receptor binding	0.000186116087444569
+GO:0005102~receptor binding	0.000305355984097807
+GO:0005024~transforming growth factor beta-activated receptor activity	0.000396511848626132
+GO:0001012~RNA polymerase II regulatory region DNA binding	0.000419490784597469
+GO:0042802~identical protein binding	0.000580505974624525
+GO:0003690~double-stranded DNA binding	0.000611024138438419
+GO:0033613~activating transcription factor binding	0.000749602721577798
+GO:0070491~repressing transcription factor binding	0.00078738169574767
+GO:0000976~transcription regulatory region sequence-specific DNA binding	0.00102346290219466
+GO:1990837~sequence-specific double-stranded DNA binding	0.00137970808565974
+GO:0042803~protein homodimerization activity	0.00144141404054315
+GO:0004871~signal transducer activity	0.00179070337563919
+GO:0008013~beta-catenin binding	0.00194481162314499
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	0.00207908272175464
+GO:0004674~protein serine/threonine kinase activity	0.00234129236313785
+GO:0098772~molecular function regulator	0.00259631134872363
+GO:0047485~protein N-terminus binding	0.00341824743187852
+GO:0001948~glycoprotein binding	0.00371489289169542
+GO:0001085~RNA polymerase II transcription factor binding	0.00381715876400765
+GO:0003682~chromatin binding	0.00396562336501099
+GO:0019901~protein kinase binding	0.00510716055206911
+GO:0001102~RNA polymerase II activating transcription factor binding	0.00586871663153136
+GO:0030617~transforming growth factor beta receptor, inhibitory cytoplasmic mediator activity	0.0060333471746388
+GO:0019900~kinase binding	0.00876214503526093
+GO:0030234~enzyme regulator activity	0.00947906185550144
+GO:0019902~phosphatase binding	0.0112602876830501
+GO:0005025~transforming growth factor beta receptor activity, type I	0.0120310025975124
+GO:0050839~cell adhesion molecule binding	0.012445950219389
+GO:0004672~protein kinase activity	0.0133511530618941
+GO:0005488~binding	0.013538304343883
+GO:0045296~cadherin binding	0.0137118365374601
+GO:0097367~carbohydrate derivative binding	0.0138113751906331
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.0143033414920033
+GO:0043565~sequence-specific DNA binding	0.0149600536567251
+GO:0030618~transforming growth factor beta receptor, pathway-specific cytoplasmic mediator activity	0.0150165106184787
+GO:0098821~BMP receptor activity	0.0150165106184787
+GO:0005518~collagen binding	0.0160109766109126
+GO:0003677~DNA binding	0.0171341127564267
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0197858048918437
+GO:0016301~kinase activity	0.0203503788319725
+GO:0017002~activin-activated receptor activity	0.020961016069113
+GO:0016740~transferase activity	0.0275731449493717
+GO:0004857~enzyme inhibitor activity	0.0296635761625369
+GO:0036122~BMP binding	0.0298118819365956
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0300032933269498
+GO:0019211~phosphatase activator activity	0.0327447012126584
+GO:0045295~gamma-catenin binding	0.0356688280782532
+GO:0004842~ubiquitin-protein transferase activity	0.0374429194484719
+GO:0070696~transmembrane receptor protein serine/threonine kinase binding	0.0385842877844792
+GO:0033612~receptor serine/threonine kinase binding	0.0414911055052155
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0420145893254195
+GO:0019787~ubiquitin-like protein transferase activity	0.0432277401519357
+GO:0001078~transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0443360693593956
+GO:0019903~protein phosphatase binding	0.0443360693593956

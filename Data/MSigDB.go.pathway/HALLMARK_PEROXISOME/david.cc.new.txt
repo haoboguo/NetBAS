@@ -1,0 +1,59 @@
+GO:0042579~microbody	2.14162794338048e-57
+GO:0005777~peroxisome	2.14162794338048e-57
+GO:0044438~microbody part	4.94658389334782e-47
+GO:0044439~peroxisomal part	4.94658389334782e-47
+GO:0005778~peroxisomal membrane	4.71455520510718e-28
+GO:0031903~microbody membrane	4.71455520510718e-28
+GO:0031907~microbody lumen	6.3853616702335e-28
+GO:0005782~peroxisomal matrix	6.3853616702335e-28
+GO:0044444~cytoplasmic part	3.44659900629282e-15
+GO:0005739~mitochondrion	6.98226256848399e-14
+GO:0031231~intrinsic component of peroxisomal membrane	5.60219855790905e-13
+GO:0005779~integral component of peroxisomal membrane	5.60219855790905e-13
+GO:0043227~membrane-bounded organelle	3.62822475562135e-11
+GO:0005737~cytoplasm	2.08757502078693e-10
+GO:0098805~whole membrane	1.04702405573883e-09
+GO:0044446~intracellular organelle part	2.5145106153269e-09
+GO:0043231~intracellular membrane-bounded organelle	5.20649869430854e-09
+GO:0044422~organelle part	7.97204970885522e-09
+GO:0043226~organelle	1.44395220355823e-08
+GO:0031090~organelle membrane	2.18381350334137e-08
+GO:0098588~bounding membrane of organelle	4.74133738866467e-08
+GO:0005783~endoplasmic reticulum	1.03914579267218e-06
+GO:0043229~intracellular organelle	1.92538131519245e-06
+GO:0044424~intracellular part	4.1841877869914e-06
+GO:0070062~extracellular exosome	9.93151406555479e-06
+GO:1903561~extracellular vesicle	1.10266353359864e-05
+GO:0043230~extracellular organelle	1.11089733693745e-05
+GO:0031301~integral component of organelle membrane	2.36540463473415e-05
+GO:0005622~intracellular	2.54872053520661e-05
+GO:0005740~mitochondrial envelope	2.84102855602254e-05
+GO:0031300~intrinsic component of organelle membrane	3.10405330909679e-05
+GO:0043233~organelle lumen	4.65988101199943e-05
+GO:0044429~mitochondrial part	5.59607076917837e-05
+GO:0031974~membrane-enclosed lumen	6.3770586678583e-05
+GO:0070013~intracellular organelle lumen	7.53229113039797e-05
+GO:0031967~organelle envelope	9.51289545728912e-05
+GO:0031975~envelope	0.000100303490071373
+GO:0005789~endoplasmic reticulum membrane	0.000220215856234271
+GO:0031988~membrane-bounded vesicle	0.000252975177163201
+GO:0031966~mitochondrial membrane	0.000271796363599195
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	0.000278366305907791
+GO:0031982~vesicle	0.000536108795084873
+GO:0044432~endoplasmic reticulum part	0.00121524886012246
+GO:0005829~cytosol	0.00202119126040383
+GO:0044421~extracellular region part	0.00204842672071731
+GO:0031968~organelle outer membrane	0.00303218762898293
+GO:0044464~cell part	0.00338398522395663
+GO:0019867~outer membrane	0.00347327424432255
+GO:0005623~cell	0.00387931952745181
+GO:0012505~endomembrane system	0.00408664191015989
+GO:0016020~membrane	0.00448706699986249
+GO:0005743~mitochondrial inner membrane	0.00482726811421658
+GO:0019866~organelle inner membrane	0.00914073899503084
+GO:0005576~extracellular region	0.0103279049302427
+GO:0005741~mitochondrial outer membrane	0.0108405543849784
+GO:0016591~DNA-directed RNA polymerase II, holoenzyme	0.0175879503486185
+GO:0000428~DNA-directed RNA polymerase complex	0.0313546504185307
+GO:0055029~nuclear DNA-directed RNA polymerase complex	0.0313546504185307
+GO:0030880~RNA polymerase complex	0.032592217155599

@@ -1,0 +1,3 @@
+GO:0051378~serotonin binding	0.0047302205050333
+GO:0030594~neurotransmitter receptor activity	0.0122578556889585
+GO:0004993~G-protein coupled serotonin receptor activity	0.0131952981323654

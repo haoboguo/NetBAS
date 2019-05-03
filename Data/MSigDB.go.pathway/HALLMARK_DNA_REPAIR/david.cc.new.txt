@@ -1,0 +1,85 @@
+GO:0000428~DNA-directed RNA polymerase complex	2.55276739292644e-45
+GO:0055029~nuclear DNA-directed RNA polymerase complex	2.55276739292644e-45
+GO:0030880~RNA polymerase complex	4.68604569691427e-45
+GO:0061695~transferase complex, transferring phosphorus-containing groups	7.87786031328973e-42
+GO:0005654~nucleoplasm	1.50446736405813e-35
+GO:0016591~DNA-directed RNA polymerase II, holoenzyme	1.84296232902089e-34
+GO:0031981~nuclear lumen	6.20652186966294e-33
+GO:0031974~membrane-enclosed lumen	2.56423540008906e-31
+GO:0043233~organelle lumen	6.45313371428268e-31
+GO:0070013~intracellular organelle lumen	1.18962385775631e-30
+GO:0044428~nuclear part	3.48199601683355e-30
+GO:1990234~transferase complex	1.16258846874906e-28
+GO:0044451~nucleoplasm part	1.9397697711034e-25
+GO:1902494~catalytic complex	1.97260555448709e-25
+GO:0044446~intracellular organelle part	3.51393904082951e-24
+GO:0043234~protein complex	3.63658031878613e-24
+GO:0044422~organelle part	4.63082957477707e-24
+GO:0005669~transcription factor TFIID complex	3.81330406450546e-23
+GO:0032991~macromolecular complex	8.6058557864511e-22
+GO:0044798~nuclear transcription factor complex	1.18956692241549e-20
+GO:0005634~nucleus	1.282138854112e-19
+GO:0005657~replication fork	9.01927482361723e-19
+GO:0090575~RNA polymerase II transcription factor complex	4.60231749696316e-18
+GO:0043231~intracellular membrane-bounded organelle	1.27740939938802e-15
+GO:0005667~transcription factor complex	2.35151177906202e-15
+GO:0005665~DNA-directed RNA polymerase II, core complex	3.06313616365727e-15
+GO:0043227~membrane-bounded organelle	6.17403052521343e-15
+GO:0030894~replisome	1.26099099236753e-14
+GO:0043601~nuclear replisome	5.91669897453193e-13
+GO:0043226~organelle	5.99106031865563e-13
+GO:0043229~intracellular organelle	6.70522255609611e-13
+GO:0043596~nuclear replication fork	7.43003855803441e-13
+GO:0044424~intracellular part	4.2300263399659e-12
+GO:0005622~intracellular	9.54541262917476e-12
+GO:0005666~DNA-directed RNA polymerase III complex	6.02042810305874e-11
+GO:0043232~intracellular non-membrane-bounded organelle	9.5827722497393e-11
+GO:0043228~non-membrane-bounded organelle	9.5827722497393e-11
+GO:0005730~nucleolus	1.03384214957245e-10
+GO:0005736~DNA-directed RNA polymerase I complex	2.90085652610559e-10
+GO:0000109~nucleotide-excision repair complex	5.04475036623593e-10
+GO:0044427~chromosomal part	1.55280878485977e-08
+GO:0005694~chromosome	3.89936977166101e-08
+GO:0005663~DNA replication factor C complex	4.80451316607711e-08
+GO:0044454~nuclear chromosome part	8.67966905421275e-08
+GO:0000228~nuclear chromosome	2.34906551120306e-07
+GO:0000439~core TFIIH complex	3.96449176722379e-07
+GO:0044452~nucleolar part	5.57793478891511e-07
+GO:0005675~holo TFIIH complex	1.02606007545236e-06
+GO:0032993~protein-DNA complex	1.16054530749102e-06
+GO:1990391~DNA repair complex	1.28770239258619e-06
+GO:0042575~DNA polymerase complex	3.05745252780813e-06
+GO:0044464~cell part	9.92323917844374e-06
+GO:0005623~cell	1.2474020677616e-05
+GO:0032806~carboxy-terminal domain protein kinase complex	1.75373667910721e-05
+GO:0031390~Ctf18 RFC-like complex	2.36461836492973e-05
+GO:0000813~ESCRT I complex	5.01057144093471e-05
+GO:0000784~nuclear chromosome, telomeric region	6.88262622565907e-05
+GO:0033276~transcription factor TFTC complex	0.000148622030643552
+GO:0000781~chromosome, telomeric region	0.000255473874603631
+GO:0043625~delta DNA polymerase complex	0.00034309809378715
+GO:0031465~Cul4B-RING E3 ubiquitin ligase complex	0.000568967373420323
+GO:0005829~cytosol	0.000642358919227939
+GO:0000125~PCAF complex	0.000849180908435361
+GO:0005658~alpha DNA polymerase:primase complex	0.000849180908435361
+GO:0080008~Cul4-RING E3 ubiquitin ligase complex	0.00099280044599531
+GO:0036452~ESCRT complex	0.00123707303081763
+GO:0070461~SAGA-type complex	0.00218550491037792
+GO:0031464~Cul4A-RING E3 ubiquitin ligase complex	0.00249701307952214
+GO:1902554~serine/threonine protein kinase complex	0.00357918829458699
+GO:0005739~mitochondrion	0.00478784106788083
+GO:0000123~histone acetyltransferase complex	0.00479628919563931
+GO:0030914~STAGA complex	0.00494959682052432
+GO:0098687~chromosomal region	0.00510255295291112
+GO:0005759~mitochondrial matrix	0.00535190978690952
+GO:0005662~DNA replication factor A complex	0.00568265150200937
+GO:1902911~protein kinase complex	0.00581824623615432
+GO:1902493~acetyltransferase complex	0.00722453467127766
+GO:0031248~protein acetyltransferase complex	0.00722453467127766
+GO:0008023~transcription elongation factor complex	0.00810962153353964
+GO:0032044~DSIF complex	0.0151968488912029
+GO:0070522~ERCC4-ERCC1 complex	0.0227090669788039
+GO:0071942~XPC complex	0.0227090669788039
+GO:0000110~nucleotide-excision repair factor 1 complex	0.0227090669788039
+GO:0071256~translocon complex	0.0301643899398056
+GO:0005784~Sec61 translocon complex	0.0301643899398056

@@ -1,0 +1,155 @@
+GO:0032991~macromolecular complex	1.91095255427893e-46
+GO:0070013~intracellular organelle lumen	2.14956144838659e-46
+GO:0031981~nuclear lumen	7.30394913210952e-46
+GO:0043233~organelle lumen	1.67740004331548e-45
+GO:0031974~membrane-enclosed lumen	8.29320590081516e-45
+GO:0044428~nuclear part	1.92848037328719e-43
+GO:0030529~intracellular ribonucleoprotein complex	1.0979347985952e-40
+GO:1990904~ribonucleoprotein complex	1.18806326575043e-40
+GO:0005654~nucleoplasm	4.33784438501494e-39
+GO:0005634~nucleus	1.48810080838969e-36
+GO:0005829~cytosol	3.93779581528801e-27
+GO:0044446~intracellular organelle part	4.41551862620129e-25
+GO:0044422~organelle part	7.11843737314232e-24
+GO:0043234~protein complex	2.69997823852914e-22
+GO:0044424~intracellular part	6.66328246399344e-22
+GO:0043227~membrane-bounded organelle	3.47301800325867e-21
+GO:0043231~intracellular membrane-bounded organelle	2.34449327169637e-20
+GO:0005622~intracellular	8.03172164857688e-20
+GO:0070062~extracellular exosome	1.19873732211246e-18
+GO:1903561~extracellular vesicle	1.6197076924291e-18
+GO:0043230~extracellular organelle	1.65477143715577e-18
+GO:0043229~intracellular organelle	1.47287842591216e-17
+GO:0005681~spliceosomal complex	1.76140607414727e-17
+GO:0044445~cytosolic part	6.27860101747773e-17
+GO:0071013~catalytic step 2 spliceosome	8.04335135013127e-17
+GO:0043228~non-membrane-bounded organelle	6.40694925774323e-16
+GO:0043232~intracellular non-membrane-bounded organelle	6.40694925774323e-16
+GO:0043226~organelle	6.51866031925348e-16
+GO:0005737~cytoplasm	1.74967262905519e-15
+GO:0000502~proteasome complex	6.18149249885569e-15
+GO:0044444~cytoplasmic part	8.67788444449969e-15
+GO:0031988~membrane-bounded vesicle	1.00934163160877e-13
+GO:0031982~vesicle	9.17757933796108e-13
+GO:0030532~small nuclear ribonucleoprotein complex	2.20998334775625e-12
+GO:0044421~extracellular region part	5.58507644151917e-12
+GO:0005730~nucleolus	9.79788589006848e-12
+GO:0097525~spliceosomal snRNP complex	1.31193737556424e-11
+GO:0005840~ribosome	2.01507943454579e-10
+GO:0019013~viral nucleocapsid	3.40373856204595e-10
+GO:0044391~ribosomal subunit	1.54449886994849e-09
+GO:0044427~chromosomal part	2.98149042076978e-09
+GO:0005694~chromosome	3.59746643407671e-09
+GO:0022626~cytosolic ribosome	8.26775699899988e-09
+GO:0097526~spliceosomal tri-snRNP complex	1.26793686741929e-08
+GO:0019028~viral capsid	1.3874100633396e-08
+GO:0002199~zona pellucida receptor complex	1.50030686431501e-08
+GO:0005832~chaperonin-containing T-complex	1.50030686431501e-08
+GO:0000781~chromosome, telomeric region	1.860929050132e-08
+GO:0005576~extracellular region	2.01764909101261e-08
+GO:0044454~nuclear chromosome part	3.12404351755665e-08
+GO:0005686~U2 snRNP	4.33544931314313e-08
+GO:0036464~cytoplasmic ribonucleoprotein granule	5.14331130711512e-08
+GO:0044464~cell part	5.61513986606019e-08
+GO:0005839~proteasome core complex	6.01661555055404e-08
+GO:0005623~cell	7.75416269748245e-08
+GO:0005838~proteasome regulatory particle	8.20059967694368e-08
+GO:0034709~methylosome	9.19081579238274e-08
+GO:0000228~nuclear chromosome	1.0133752467701e-07
+GO:0035770~ribonucleoprotein granule	1.14248529432777e-07
+GO:0044423~virion part	1.20912708525107e-07
+GO:0019012~virion	1.20912708525107e-07
+GO:0000784~nuclear chromosome, telomeric region	1.52265789762616e-07
+GO:0022624~proteasome accessory complex	1.89594127018428e-07
+GO:0005689~U12-type spliceosomal complex	2.44321146682135e-07
+GO:0019773~proteasome core complex, alpha-subunit complex	8.08766986991684e-07
+GO:0098687~chromosomal region	8.40981600850245e-07
+GO:0005684~U2-type spliceosomal complex	1.10543880136874e-06
+GO:0005912~adherens junction	1.18882556242875e-06
+GO:0070161~anchoring junction	1.79174067628368e-06
+GO:0043209~myelin sheath	2.41190112988571e-06
+GO:0005687~U4 snRNP	3.71925727709159e-06
+GO:0042555~MCM complex	3.71925727709159e-06
+GO:0015934~large ribosomal subunit	4.41194131580349e-06
+GO:0071011~precatalytic spliceosome	5.51567449925905e-06
+GO:0034708~methyltransferase complex	5.73501069269176e-06
+GO:0005844~polysome	6.39898643758934e-06
+GO:0022625~cytosolic large ribosomal subunit	7.2748610342646e-06
+GO:0034715~pICln-Sm protein complex	2.24951073629857e-05
+GO:0015030~Cajal body	2.38713959390596e-05
+GO:0005682~U5 snRNP	2.552600910433e-05
+GO:0005852~eukaryotic translation initiation factor 3 complex	2.552600910433e-05
+GO:0005685~U1 snRNP	4.08902609969979e-05
+GO:0005913~cell-cell adherens junction	5.29263540409621e-05
+GO:0005732~small nucleolar ribonucleoprotein complex	6.21061941515497e-05
+GO:0005697~telomerase holoenzyme complex	6.21061941515497e-05
+GO:0071010~prespliceosome	7.52842466063696e-05
+GO:0005739~mitochondrion	8.74762038527205e-05
+GO:0016281~eukaryotic translation initiation factor 4F complex	9.2295728313961e-05
+GO:0016604~nuclear body	0.000116321645664597
+GO:0005759~mitochondrial matrix	0.000170768497075075
+GO:0031967~organelle envelope	0.000187188722755972
+GO:0031975~envelope	0.000200421847430205
+GO:0031597~cytosolic proteasome complex	0.0002361478895775
+GO:0033290~eukaryotic 48S preinitiation complex	0.000477141051284648
+GO:0070993~translation preinitiation complex	0.000582708579803097
+GO:0034719~SMN-Sm protein complex	0.000702104844938365
+GO:0019866~organelle inner membrane	0.000848452380223829
+GO:0005925~focal adhesion	0.000924301576311573
+GO:0015935~small ribosomal subunit	0.000973601819610353
+GO:0005924~cell-substrate adherens junction	0.000993829672067059
+GO:0030055~cell-substrate junction	0.00110760912970542
+GO:0000785~chromatin	0.00154806499803218
+GO:0022627~cytosolic small ribosomal subunit	0.00161765975378371
+GO:0046540~U4/U6 x U5 tri-snRNP complex	0.00174552052992672
+GO:0044429~mitochondrial part	0.0017972752093091
+GO:0034399~nuclear periphery	0.00193930124267154
+GO:0044451~nucleoplasm part	0.00221089442218909
+GO:0005813~centrosome	0.00236781710206894
+GO:0005743~mitochondrial inner membrane	0.00249432066918142
+GO:0030054~cell junction	0.00272728722724575
+GO:0005719~nuclear euchromatin	0.00279517102639352
+GO:0015630~microtubule cytoskeleton	0.00289669376579022
+GO:0008541~proteasome regulatory particle, lid subcomplex	0.0029654488058376
+GO:0016363~nuclear matrix	0.00363134995060825
+GO:0005657~replication fork	0.00463631793120687
+GO:0042470~melanosome	0.00529425105134297
+GO:0048770~pigment granule	0.00529425105134297
+GO:0005720~nuclear heterochromatin	0.00541811596024866
+GO:0016607~nuclear speck	0.00551016405352554
+GO:0000791~euchromatin	0.0058806689337312
+GO:0010494~cytoplasmic stress granule	0.00636615778792168
+GO:0031966~mitochondrial membrane	0.00655995182502915
+GO:0008540~proteasome regulatory particle, base subcomplex	0.00679884270548845
+GO:0000307~cyclin-dependent protein kinase holoenzyme complex	0.00687486310739726
+GO:0000792~heterochromatin	0.00703500471792804
+GO:0005845~mRNA cap binding complex	0.00797961148918398
+GO:0005911~cell-cell junction	0.00842269946921556
+GO:0000932~cytoplasmic mRNA processing body	0.00929150435039766
+GO:0043596~nuclear replication fork	0.0104282938956607
+GO:0016282~eukaryotic 43S preinitiation complex	0.0105943996134259
+GO:0034518~RNA cap binding complex	0.0105943996134259
+GO:0005740~mitochondrial envelope	0.0108075922967574
+GO:1902554~serine/threonine protein kinase complex	0.011030629970637
+GO:0005643~nuclear pore	0.0114959314658525
+GO:0071004~U2-type prespliceosome	0.0135343127016823
+GO:1902911~protein kinase complex	0.0174592081152207
+GO:0061695~transferase complex, transferring phosphorus-containing groups	0.017952972508825
+GO:0005635~nuclear envelope	0.0179819824845326
+GO:0000790~nuclear chromatin	0.019071844894833
+GO:0005815~microtubule organizing center	0.0197773013587971
+GO:0097124~cyclin A2-CDK2 complex	0.0209606890952944
+GO:1990234~transferase complex	0.0248632013013197
+GO:0044297~cell body	0.0310781744417312
+GO:0005850~eukaryotic translation initiation factor 2 complex	0.0312765461759836
+GO:0005846~nuclear cap binding complex	0.0312765461759836
+GO:0000803~sex chromosome	0.0348844380279541
+GO:0048471~perinuclear region of cytoplasm	0.0384327631920147
+GO:1902494~catalytic complex	0.0387679712735693
+GO:0030894~replisome	0.0396011166145686
+GO:0032993~protein-DNA complex	0.0412158745200176
+GO:0017101~aminoacyl-tRNA synthetase multienzyme complex	0.0414842682047699
+GO:0035061~interchromatin granule	0.0414842682047699
+GO:0097452~GAIT complex	0.0414842682047699
+GO:1990726~Lsm1-7-Pat1 complex	0.0414842682047699
+GO:0030684~preribosome	0.0477617124984189

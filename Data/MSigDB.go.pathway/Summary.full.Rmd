@@ -1,7 +1,7 @@
 ---
 title: "Hallmark Gene Sets Summary"
 author: "HBG"
-date: "12/21/2018"
+date: "1/25/2019"
 output: pdf_document
 ---
 
@@ -12,6 +12,7 @@ rm(list=ls())
 library(igraph)
 library(gplots)
 library(pracma)
+'%ni%' <- Negate('%in%')
 
 #list of 50 hallmark sets
 list.file <- read.csv("list", header=F, stringsAsFactors=F)
@@ -25,33 +26,35 @@ geneB <- human.pin$geneB
 #All genes appear in PIN
 all.list <- unique(c(geneA, geneB))
 
-hmk.summary <- c("HMK.set.name", "List.num", "Gene.num", "Vertice.num", "Edge.num",
-                 "MaxD", "MaxD.gene", "MaxB", "MaxB.gene", "MaxC", "MaxC.gene",
-                 "PCC.DB", "PCC.DC", "PCC.BC", "Clust.Coeff.Global", "Clust.Coeff.Average",
+hmk.summary <- c("HMK.set.name", "Vertex.number", "Edge.number", "Isolated.number", 
+                 "Max.Degree", "Max.Betweenness", "Degree.Centralization", "Btw.Centralization",
+                 "Clust.Coeff.Global", "Clust.Coeff.Average",
                  "Diameter", "Mean.Distance", "Eigen.value",
-                 "Max.Cliq.num", "Max.Cliq.D",
-                 "KEGG.z.max", "KEGG.z.2", "KEGG.z.4", "KEGG.z.8", "KEGG.z.16",
-                 "KEGG.z.32", "KEGG.z.64", "KEGG.z.128", "KEGG.z.256",
-                 "KEGG.z.mean", "KEGG.z.sd",
-                 "BP.z.max", "BP.z.2", "BP.z.4", "BP.z.8", "BP.z.16", "BP.z.32",
-                 "BP.z.64", "BP.z.128", "BP.z.256", "BP.z.512", "BP.z.1024",
-                 "BP.z.2048", "BP.z.4096",
-                 "BP.z.mean", "BP.z.sd",
-                 "CC.z.max", "CC.z.mean", "CC.z.sd",
-                 "MF.z.max", "MF.z.mean", "MF.z.sd")
+                 "Max.Cliq.D", "Max.Cluster",
+                 "KEGG.z.max", #"KEGG.z.2", "KEGG.z.4", "KEGG.z.8", "KEGG.z.16",
+                 #"KEGG.z.32", "KEGG.z.64", "KEGG.z.128", "KEGG.z.256",
+                 #"KEGG.z.mean", "KEGG.z.sd",
+                 "BP.z.max", #"BP.z.2", "BP.z.4", "BP.z.8", "BP.z.16", "BP.z.32",
+                 #"BP.z.64", "BP.z.128", "BP.z.256", "BP.z.512", "BP.z.1024",
+                 #"BP.z.2048", "BP.z.4096",
+                 #"BP.z.mean", "BP.z.sd",
+                 "CC.z.max", #"CC.z.mean", "CC.z.sd",
+                 "MF.z.max") #, "MF.z.mean", "MF.z.sd")
 
 for (i in 1:length(hmk.set.list)) {
   ##the gene list and sub-network
   file.name <- paste(hmk.set.list[i], "/", hmk.set.list[i], ".csv", sep="")
   geneset <- read.csv(file.name, header=T, stringsAsFactors=F)
   gene.list <- geneset$gene
-  gene.number <- length(gene.list)   # this is the original number of genes the set
+  gene.number <- length(gene.list)   # this is the original number of genes the set, or Vertex number
   #Constructing the sub network fromn the gene set
   subA <- geneA[which((geneA %in% gene.list) & (geneB %in% gene.list))]
   subB <- geneB[which((geneA %in% gene.list) & (geneB %in% gene.list))]
   genes.pin <- unique(c(subA, subB))
-  gene.number.set <- length(which(gene.list %in% all.list)) # number of genes shown in the network
+  #gene.number.set <- length(which(gene.list %in% all.list)) # number of genes shown in the network
   gene.number.pin <- length(genes.pin) # this is the number of vertices constituting the sub-network
+  isolated.num <- gene.number - gene.number.pin # isolated gene numbers
+  isolated.gene <- gene.list[which(gene.list %ni% genes.pin)]
   ## gorder(sub.graph) gives the same result
   sub.web <- data.frame(cbind(subA, subB))
   sub.edge.number <- length(sub.web[,1])  #this is the total edges of the sub-network
@@ -60,35 +63,38 @@ for (i in 1:length(hmk.set.list)) {
   sub.graph <- graph.data.frame(sub.web, directed = F)
   
   #normalized values for betweenness, degree of vertices
-  sub.betweenness <- betweenness(sub.graph, v=V(sub.graph), directed=F, weights=NULL, normalized=F)
-  sub.degree <- degree(sub.graph, v=V(sub.graph), normalized = F)
-  sub.closeness <- closeness(sub.graph, v=V(sub.graph), weights=NULL, normalized=F)
-  max.degree <- max(sub.degree)
-  max.degree.gene <- genes.pin[which(sub.degree == max.degree)]
-  mdg <- c()
-  for (j in 1:length(max.degree.gene)) {
-    mdg <- paste(mdg, max.degree.gene[j], sep="|")
-  }
-  mdg <- as.character(mdg)
-  max.betweenness <- max(sub.betweenness)
-  max.betweenness.gene <- genes.pin[which(sub.betweenness == max.betweenness)]
-  mbg <- c()
-  for (k in 1:length(max.betweenness.gene)) {
-    mbg <- paste(mbg, max.betweenness.gene[k], sep="|")
-  }
-  max.closeness <- max(sub.closeness)
-  max.closeness.gene <- genes.pin[which(sub.closeness == max.closeness)]
-  mcg <- c()
-  for (l in 1:length(max.closeness.gene)) {
-    mcg <- paste(mcg, max.closeness.gene[l], sep="|")
-  }
-  #number.of.clique <- clique.number(sub.graph) #total number of cliques
+  #sub.betweenness <- betweenness(sub.graph, v=V(sub.graph), directed=F, weights=NULL, normalized=F)
+  #sub.degree <- length(sub.web[,1])
+  #sub.closeness <- closeness(sub.graph, v=V(sub.graph), weights=NULL, normalized=F)
+  max.degree <- max(centr_degree(sub.graph)$res)
+  #max.degree.gene <- genes.pin[which(sub.degree == max.degree)]
+  #mdg <- c()
+  #for (j in 1:length(max.degree.gene)) {
+  #  mdg <- paste(mdg, max.degree.gene[j], sep="|")
+  #}
+  #mdg <- as.character(mdg)
+  max.betweenness <- max(centr_betw(sub.graph)$res)
+  
+  degree.central <- centr_degree(sub.graph)$centralization
+  btw.central <- centr_betw(sub.graph)$centralization
+  
+  #max.betweenness.gene <- genes.pin[which(sub.betweenness == max.betweenness)]
+  #mbg <- c()
+  #for (k in 1:length(max.betweenness.gene)) {
+  #  mbg <- paste(mbg, max.betweenness.gene[k], sep="|")
+  #}
+  #max.closeness <- max(sub.closeness)
+  #max.closeness.gene <- genes.pin[which(sub.closeness == max.closeness)]
+  #mcg <- c()
+  #for (l in 1:length(max.closeness.gene)) {
+  #  mcg <- paste(mcg, max.closeness.gene[l], sep="|")
+  #}
   sub.largest.clique <- largest_cliques(sub.graph)
   number.of.largest.clique <- length(sub.largest.clique)
   degree.of.largest.clique <- length(sub.largest.clique[[1]])
-  cor.deg.bet <- cor(sub.degree, sub.betweenness) #correlation of degree/betweenness
-  cor.deg.clo <- cor(sub.degree, sub.closeness) #correlation of degree/closeness
-  cor.bet.clo <- cor(sub.betweenness, sub.closeness) #correlation of betweenness/closeness
+  #cor.deg.bet <- cor(sub.degree, sub.betweenness) #correlation of degree/betweenness
+  #cor.deg.clo <- cor(sub.degree, sub.closeness) #correlation of degree/closeness
+  #cor.bet.clo <- cor(sub.betweenness, sub.closeness) #correlation of betweenness/closeness
   
   #clustering coefficient of the sub-graph
   clust.coeff.global <- transitivity(sub.graph, type = "global", vids = NULL, weights=NULL, isolates=c("NaN", "zero"))
@@ -104,11 +110,15 @@ for (i in 1:length(hmk.set.list)) {
   eigen.cent <- eigen_centrality(sub.graph, directed=F, weights=NULL)
   eigen.value <- eigen.cent$value
   
+  #Max cluster size
+  comp <- components(sub.graph)
+  max.cluster <- max(comp$csize)
+  
   ##the enrichments result from NetBAS and DAVID (top 10 from NetBAS)
-  kegg.file <- paste(hmk.set.list[i], "/", "HMK.kegg.full.csv", sep="")
-  bp.file <- paste(hmk.set.list[i], "/", "HMK.bp.full.csv", sep="")
-  cc.file <- paste(hmk.set.list[i], "/", "HMK.cc.full.csv", sep="")
-  mf.file <- paste(hmk.set.list[i], "/", "HMK.mf.full.csv", sep="")
+  kegg.file <- paste(hmk.set.list[i], "/", "HMK.kegg.new.txt", sep="")
+  bp.file <- paste(hmk.set.list[i], "/", "HMK.bp.new.txt", sep="")
+  cc.file <- paste(hmk.set.list[i], "/", "HMK.cc.new.txt", sep="")
+  mf.file <- paste(hmk.set.list[i], "/", "HMK.mf.new.txt", sep="")
   kegg.data <- read.csv(kegg.file, header=T, sep="\t", stringsAsFactors=F)
   bp.data <- read.csv(bp.file, header=T, sep="\t", stringsAsFactors=F)
   cc.data <- read.csv(cc.file, header=T, sep="\t", stringsAsFactors=F)
@@ -120,16 +130,16 @@ for (i in 1:length(hmk.set.list)) {
   #kegg.david <- kegg.data$DAVID
   #kegg.match <- length(which(!is.na(kegg.david))) #number of matched pathways in DAVID
   kegg.z.max <- kegg.netbas[1]
-  kegg.z.2 <- mean(kegg.netbas[1:2])
-  kegg.z.4 <- mean(kegg.netbas[1:4])
-  kegg.z.8 <- mean(kegg.netbas[1:8])
-  kegg.z.16 <- mean(kegg.netbas[1:16])
-  kegg.z.32 <- mean(kegg.netbas[1:32])
-  kegg.z.64 <- mean(kegg.netbas[1:64])
-  kegg.z.128 <- mean(kegg.netbas[1:128])
-  kegg.z.256 <- mean(kegg.netbas[1:256])
-  kegg.z.mean <- mean(kegg.netbas)
-  kegg.z.sd <- sd(kegg.netbas)
+#  kegg.z.2 <- mean(kegg.netbas[1:2])
+#  kegg.z.4 <- mean(kegg.netbas[1:4])
+#  kegg.z.8 <- mean(kegg.netbas[1:8])
+#  kegg.z.16 <- mean(kegg.netbas[1:16])
+#  kegg.z.32 <- mean(kegg.netbas[1:32])
+#  kegg.z.64 <- mean(kegg.netbas[1:64])
+#  kegg.z.128 <- mean(kegg.netbas[1:128])
+#  kegg.z.256 <- mean(kegg.netbas[1:256])
+#  kegg.z.mean <- mean(kegg.netbas)
+#  kegg.z.sd <- sd(kegg.netbas)
   
   #bp
   bp.netbas <- bp.data$zscore
@@ -137,20 +147,20 @@ for (i in 1:length(hmk.set.list)) {
   #bp.david <- bp.data$DAVID
   #bp.match <- length(which(!is.na(bp.david)))
   bp.z.max <- bp.netbas[1]
-  bp.z.2 <- mean(bp.netbas[1:2])
-  bp.z.4 <- mean(bp.netbas[1:4])
-  bp.z.8 <- mean(bp.netbas[1:8])
-  bp.z.16 <- mean(bp.netbas[1:16])
-  bp.z.32 <- mean(bp.netbas[1:32])
-  bp.z.64 <- mean(bp.netbas[1:64])
-  bp.z.128 <- mean(bp.netbas[1:128])
-  bp.z.256 <- mean(bp.netbas[1:256])
-  bp.z.512 <- mean(bp.netbas[1:512])
-  bp.z.1024 <- mean(bp.netbas[1:1024])
-  bp.z.2048 <- mean(bp.netbas[1:2048])
-  bp.z.4096 <- mean(bp.netbas[1:4096])
-  bp.z.mean <- mean(bp.netbas)
-  bp.z.sd <- sd(bp.netbas)
+ # bp.z.2 <- mean(bp.netbas[1:2])
+#  bp.z.4 <- mean(bp.netbas[1:4])
+#  bp.z.8 <- mean(bp.netbas[1:8])
+#  bp.z.16 <- mean(bp.netbas[1:16])
+#  bp.z.32 <- mean(bp.netbas[1:32])
+#  bp.z.64 <- mean(bp.netbas[1:64])
+#  bp.z.128 <- mean(bp.netbas[1:128])
+#  bp.z.256 <- mean(bp.netbas[1:256])
+#  bp.z.512 <- mean(bp.netbas[1:512])
+#  bp.z.1024 <- mean(bp.netbas[1:1024])
+#  bp.z.2048 <- mean(bp.netbas[1:2048])
+#  bp.z.4096 <- mean(bp.netbas[1:4096])
+#  bp.z.mean <- mean(bp.netbas)
+#  bp.z.sd <- sd(bp.netbas)
   
   #cc
   cc.netbas <- cc.data$zscore
@@ -158,8 +168,8 @@ for (i in 1:length(hmk.set.list)) {
   #cc.david <- cc.data$DAVID
   #cc.match <- length(which(!is.na(cc.david)))
   cc.z.max <- cc.netbas[1]
-  cc.z.mean <- mean(cc.netbas)
-  cc.z.sd <- sd(cc.netbas[1:10])
+ # cc.z.mean <- mean(cc.netbas)
+#  cc.z.sd <- sd(cc.netbas[1:10])
   
   #mf
   mf.netbas <- mf.data$zscore
@@ -167,25 +177,23 @@ for (i in 1:length(hmk.set.list)) {
   #mf.david <- mf.data$DAVID
   #mf.match <- length(which(!is.na(mf.david)))
   mf.z.max <- mf.netbas[1]
-  mf.z.mean <- mean(mf.netbas)
-  mf.z.sd <- sd(mf.netbas)
+#  mf.z.mean <- mean(mf.netbas)
+#  mf.z.sd <- sd(mf.netbas)
   
-  hmk.summary <- rbind(hmk.summary, c(hmk.set.list[i], gene.number, gene.number.set, 
-                       gene.number.pin, sub.edge.number,
-                       max.degree, mdg,
-                       max.betweenness, mbg,
-                       max.closeness, mcg,
-                       cor.deg.bet, cor.deg.clo, cor.bet.clo, 
+  hmk.summary <- rbind(hmk.summary, c(hmk.set.list[i], gene.number, 
+                       sub.edge.number, isolated.num,
+                       max.degree, 
+                       max.betweenness, degree.central, btw.central,
                        clust.coeff.global, clust.coeff.average, diam, mean.dist, eigen.value,
-                       number.of.largest.clique,degree.of.largest.clique,
-                       kegg.z.max, kegg.z.2, kegg.z.4, kegg.z.8, kegg.z.16,kegg.z.32,
-                       kegg.z.64, kegg.z.128, kegg.z.256,
-                       kegg.z.mean, kegg.z.sd,
-                       bp.z.max, bp.z.2, bp.z.4, bp.z.8, bp.z.16, bp.z.32, bp.z.64,
-                       bp.z.128, bp.z.256, bp.z.512, bp.z.1024, bp.z.2048, bp.z.4096,
-                       bp.z.mean, bp.z.sd,
-                       cc.z.max, cc.z.mean, cc.z.sd,
-                       mf.z.max, mf.z.mean, mf.z.sd))
+                       degree.of.largest.clique, max.cluster,
+                       kegg.z.max, #kegg.z.2, kegg.z.4, kegg.z.8, kegg.z.16,kegg.z.32,
+                       #kegg.z.64, kegg.z.128, kegg.z.256,
+                       #kegg.z.mean, kegg.z.sd,
+                       bp.z.max, #bp.z.2, bp.z.4, bp.z.8, bp.z.16, bp.z.32, bp.z.64,
+                       #bp.z.128, bp.z.256, bp.z.512, bp.z.1024, bp.z.2048, bp.z.4096,
+                       #bp.z.mean, bp.z.sd,
+                       cc.z.max, #cc.z.mean, cc.z.sd,
+                       mf.z.max) #, mf.z.mean, mf.z.sd))
 }
-write.table(hmk.summary, file="Summary.Hallmark.Sets.eigen.csv", row.names = F, col.names = F, sep=",", quote = T)
+write.table(hmk.summary, file="Summary.Hallmark.Sets.021319.csv", row.names = F, col.names = F, sep=",", quote = T)
 ```

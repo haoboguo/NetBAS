@@ -1,0 +1,83 @@
+GO:0044429~mitochondrial part	4.772101264126e-35
+GO:0005739~mitochondrion	6.54574631135866e-32
+GO:0005743~mitochondrial inner membrane	2.05588224960519e-26
+GO:0005740~mitochondrial envelope	2.28977858897023e-26
+GO:0044444~cytoplasmic part	2.92687421606379e-25
+GO:0019866~organelle inner membrane	1.55228134876052e-24
+GO:0031966~mitochondrial membrane	1.11751247169916e-23
+GO:0031967~organelle envelope	1.32879743021155e-22
+GO:0031975~envelope	1.63146530947483e-22
+GO:0005737~cytoplasm	4.64730630052109e-19
+GO:0098798~mitochondrial protein complex	7.50271733229157e-16
+GO:0005759~mitochondrial matrix	4.45518427570113e-14
+GO:0070062~extracellular exosome	8.31681816675505e-13
+GO:1903561~extracellular vesicle	1.05740867017248e-12
+GO:0043230~extracellular organelle	1.07568313012039e-12
+GO:1990204~oxidoreductase complex	6.11907394435396e-12
+GO:0031090~organelle membrane	1.65110655162431e-11
+GO:0070469~respiratory chain	2.019159216634e-11
+GO:0044455~mitochondrial membrane part	3.70760814846656e-11
+GO:0098803~respiratory chain complex	4.79649598103858e-11
+GO:0098800~inner mitochondrial membrane protein complex	1.0696196663361e-10
+GO:0005746~mitochondrial respiratory chain	1.12643907147285e-10
+GO:0031982~vesicle	1.94828682732871e-10
+GO:0044421~extracellular region part	3.59490043279703e-10
+GO:0031988~membrane-bounded vesicle	5.9145880998699e-10
+GO:0043227~membrane-bounded organelle	3.20176730682954e-09
+GO:0044422~organelle part	9.22246352812365e-09
+GO:0044446~intracellular organelle part	1.04712242369266e-08
+GO:0044424~intracellular part	8.52278448728111e-08
+GO:0043226~organelle	1.55061926831193e-07
+GO:0042579~microbody	1.63375685931159e-07
+GO:0005777~peroxisome	1.63375685931159e-07
+GO:0005622~intracellular	1.78007360453745e-07
+GO:0005576~extracellular region	2.38972813442609e-07
+GO:0043231~intracellular membrane-bounded organelle	7.51826107568474e-07
+GO:0070069~cytochrome complex	1.00835038146288e-06
+GO:0043209~myelin sheath	2.06386794320469e-06
+GO:0043229~intracellular organelle	1.3262288598306e-05
+GO:0031907~microbody lumen	0.00011046955329688
+GO:0005782~peroxisomal matrix	0.00011046955329688
+GO:0031974~membrane-enclosed lumen	0.000248718501147887
+GO:0016020~membrane	0.000283897397873763
+GO:0005750~mitochondrial respiratory chain complex III	0.00029084492388474
+GO:0045275~respiratory chain complex III	0.00029084492388474
+GO:0044439~peroxisomal part	0.000414803210931096
+GO:0044438~microbody part	0.000414803210931096
+GO:0005783~endoplasmic reticulum	0.000443805136813661
+GO:1902494~catalytic complex	0.000916216858845505
+GO:0005758~mitochondrial intermembrane space	0.00115885705995085
+GO:0044464~cell part	0.0014464632745954
+GO:0043233~organelle lumen	0.00156873828660734
+GO:0098796~membrane protein complex	0.00177062530518475
+GO:0005623~cell	0.00179365612436361
+GO:0031970~organelle envelope lumen	0.00181183469383365
+GO:0045121~membrane raft	0.00247845961953694
+GO:0098857~membrane microdomain	0.00252445462356283
+GO:0098589~membrane region	0.00398344084565197
+GO:0045240~dihydrolipoyl dehydrogenase complex	0.00455812101397731
+GO:0044432~endoplasmic reticulum part	0.00532739363347814
+GO:0045239~tricarboxylic acid cycle enzyme complex	0.00659471941586197
+GO:0005901~caveola	0.00699082542122605
+GO:0070013~intracellular organelle lumen	0.00724454151943828
+GO:0031091~platelet alpha granule	0.00768313705041068
+GO:0005789~endoplasmic reticulum membrane	0.00792735056985265
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	0.00986767667717491
+GO:0044853~plasma membrane raft	0.0104568840075355
+GO:0045277~respiratory chain complex IV	0.0131350747062296
+GO:0098805~whole membrane	0.01420293404445
+GO:0005747~mitochondrial respiratory chain complex I	0.0142603787787172
+GO:0045271~respiratory chain complex I	0.0142603787787172
+GO:0030964~NADH dehydrogenase complex	0.0142603787787172
+GO:0044425~membrane part	0.0235909181909351
+GO:0005615~extracellular space	0.026007069227586
+GO:0005640~nuclear outer membrane	0.0274493172062951
+GO:0005811~lipid particle	0.0311903429237532
+GO:0045281~succinate dehydrogenase complex	0.0408461794206233
+GO:0045273~respiratory chain complex II	0.0408461794206233
+GO:0045283~fumarate reductase complex	0.0408461794206233
+GO:0005749~mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	0.0408461794206233
+GO:0045257~succinate dehydrogenase complex (ubiquinone)	0.0408461794206233
+GO:0005829~cytosol	0.044324078264106
+GO:0031968~organelle outer membrane	0.0445728550703287
+GO:0019867~outer membrane	0.0499804011332714

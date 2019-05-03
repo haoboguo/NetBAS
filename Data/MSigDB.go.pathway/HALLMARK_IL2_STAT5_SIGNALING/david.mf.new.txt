@@ -1,0 +1,58 @@
+GO:0005515~protein binding	1.85701160988125e-09
+GO:0004896~cytokine receptor activity	5.24847127570792e-08
+GO:0019838~growth factor binding	1.62654745213022e-07
+GO:0019955~cytokine binding	9.80577731499061e-07
+GO:0005126~cytokine receptor binding	1.94275883269337e-06
+GO:0005102~receptor binding	3.11085755236524e-06
+GO:0002020~protease binding	5.60635809027923e-06
+GO:0004871~signal transducer activity	1.43778245933834e-05
+GO:0038023~signaling receptor activity	2.71439406896592e-05
+GO:0060089~molecular transducer activity	2.7626951686561e-05
+GO:0004872~receptor activity	2.7626951686561e-05
+GO:0005125~cytokine activity	3.45115388605758e-05
+GO:0005031~tumor necrosis factor-activated receptor activity	0.000124975537313261
+GO:0005035~death receptor activity	0.000124975537313261
+GO:0004888~transmembrane signaling receptor activity	0.000211780474848519
+GO:0099600~transmembrane receptor activity	0.000414898244818748
+GO:0004857~enzyme inhibitor activity	0.00124154961890855
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.00146489007910417
+GO:0008134~transcription factor binding	0.00156427866664282
+GO:0019899~enzyme binding	0.00191874128141488
+GO:0008201~heparin binding	0.00193830097703267
+GO:0005539~glycosaminoglycan binding	0.00211435643538599
+GO:0004908~interleukin-1 receptor activity	0.00241943210406734
+GO:0019210~kinase inhibitor activity	0.00281556399713162
+GO:0005520~insulin-like growth factor binding	0.00346767213265089
+GO:0005164~tumor necrosis factor receptor binding	0.00383690610632051
+GO:0005488~binding	0.00422330369260385
+GO:1901681~sulfur compound binding	0.00423588881684679
+GO:0019207~kinase regulator activity	0.00515407495680263
+GO:0098772~molecular function regulator	0.0053589025342752
+GO:0000975~regulatory region DNA binding	0.00615780958095179
+GO:0001067~regulatory region nucleic acid binding	0.00623027702810342
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.00631061439821448
+GO:0031994~insulin-like growth factor I binding	0.00733469729368001
+GO:0044548~S100 protein binding	0.00860617169077216
+GO:0019887~protein kinase regulator activity	0.0117857810650984
+GO:0030234~enzyme regulator activity	0.0132101558834115
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0135063605673001
+GO:0004860~protein kinase inhibitor activity	0.0142027563577178
+GO:0042803~protein homodimerization activity	0.0145846456184846
+GO:0048029~monosaccharide binding	0.0156086990506554
+GO:0046983~protein dimerization activity	0.0160882084101938
+GO:0050840~extracellular matrix binding	0.0203198411702272
+GO:0042802~identical protein binding	0.0242610576358798
+GO:0044212~transcription regulatory region DNA binding	0.0254655101472741
+GO:0001085~RNA polymerase II transcription factor binding	0.027523128496278
+GO:0017016~Ras GTPase binding	0.0289994532883751
+GO:0004911~interleukin-2 receptor activity	0.0325201173257823
+GO:0019976~interleukin-2 binding	0.0325201173257823
+GO:0005010~insulin-like growth factor-activated receptor activity	0.0325201173257823
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	0.0332432609812908
+GO:0001078~transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.033824259983113
+GO:0001012~RNA polymerase II regulatory region DNA binding	0.0343368925508768
+GO:0031267~small GTPase binding	0.0415258950342513
+GO:0001618~virus receptor activity	0.041535405329267
+GO:0051434~BH3 domain binding	0.043124678192854
+GO:0016301~kinase activity	0.0473206901648756
+GO:0003700~transcription factor activity, sequence-specific DNA binding	0.0497134081978052

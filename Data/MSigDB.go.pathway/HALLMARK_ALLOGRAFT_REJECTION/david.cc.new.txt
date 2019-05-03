@@ -1,0 +1,119 @@
+GO:0098552~side of membrane	5.45777058413434e-32
+GO:0044459~plasma membrane part	1.99099293572654e-27
+GO:0009897~external side of plasma membrane	3.4013548447158e-24
+GO:0009986~cell surface	1.23320842143171e-23
+GO:0098797~plasma membrane protein complex	7.53039187049722e-20
+GO:0098802~plasma membrane receptor complex	1.37270157144897e-18
+GO:0005615~extracellular space	2.08148578560956e-18
+GO:0071944~cell periphery	4.76191473254106e-18
+GO:0005886~plasma membrane	9.30900272645914e-18
+GO:0043235~receptor complex	2.28696728000945e-17
+GO:0044421~extracellular region part	6.26998419483025e-16
+GO:0005887~integral component of plasma membrane	7.80607621130235e-16
+GO:0042101~T cell receptor complex	1.53452002334915e-15
+GO:0031226~intrinsic component of plasma membrane	4.14973547660225e-15
+GO:0005576~extracellular region	7.06578373312161e-15
+GO:0042611~MHC protein complex	4.53766478365938e-13
+GO:0045121~membrane raft	3.0844555677806e-12
+GO:0098857~membrane microdomain	3.30132884154893e-12
+GO:0098796~membrane protein complex	5.13767722517387e-12
+GO:0098589~membrane region	4.61545912971689e-11
+GO:0098805~whole membrane	1.84980849869289e-09
+GO:0042613~MHC class II protein complex	2.38734641238676e-09
+GO:0016020~membrane	3.60029346445676e-09
+GO:0032991~macromolecular complex	4.09149146197187e-09
+GO:0043234~protein complex	5.45370054947805e-09
+GO:0042105~alpha-beta T cell receptor complex	6.70262707359422e-08
+GO:0001772~immunological synapse	6.74369971566401e-08
+GO:0005768~endosome	2.20412143916413e-07
+GO:0044440~endosomal part	3.63009817765249e-07
+GO:0071556~integral component of lumenal side of endoplasmic reticulum membrane	5.88152461907344e-07
+GO:0098553~lumenal side of endoplasmic reticulum membrane	5.88152461907344e-07
+GO:0044444~cytoplasmic part	7.22176930266528e-07
+GO:0031982~vesicle	9.63437622264143e-07
+GO:0030666~endocytic vesicle membrane	1.04676820805882e-06
+GO:0044425~membrane part	1.0565977161037e-06
+GO:0005773~vacuole	2.58963728860871e-06
+GO:0030139~endocytic vesicle	5.34982159647084e-06
+GO:0031988~membrane-bounded vesicle	9.9332130763546e-06
+GO:0010008~endosome membrane	1.00689187467221e-05
+GO:0005829~cytosol	1.16241420605338e-05
+GO:0005737~cytoplasm	2.2203873882271e-05
+GO:0012507~ER to Golgi transport vesicle membrane	3.15068353850967e-05
+GO:0044437~vacuolar part	3.76046512126302e-05
+GO:0030670~phagocytic vesicle membrane	4.68626912643036e-05
+GO:0045335~phagocytic vesicle	5.21801829917772e-05
+GO:0016021~integral component of membrane	6.35809260161364e-05
+GO:0009898~cytoplasmic side of plasma membrane	6.79339790932225e-05
+GO:0030054~cell junction	8.61588770694647e-05
+GO:0031224~intrinsic component of membrane	0.000133158054207234
+GO:0044433~cytoplasmic vesicle part	0.000136838232418592
+GO:0098562~cytoplasmic side of membrane	0.000140544886785186
+GO:0042612~MHC class I protein complex	0.000195461629533748
+GO:0030134~ER to Golgi transport vesicle	0.000204517955406174
+GO:0030176~integral component of endoplasmic reticulum membrane	0.000207679507493151
+GO:0005912~adherens junction	0.000209850478753481
+GO:0048471~perinuclear region of cytoplasm	0.000219081742738674
+GO:0005911~cell-cell junction	0.000240842824777683
+GO:0031227~intrinsic component of endoplasmic reticulum membrane	0.000260832030362078
+GO:0070161~anchoring junction	0.000284484074729472
+GO:0000323~lytic vacuole	0.000307092903060247
+GO:0005764~lysosome	0.000307092903060247
+GO:0005623~cell	0.000313511586031114
+GO:0042825~TAP complex	0.000349835294236985
+GO:0005774~vacuolar membrane	0.000371631550585826
+GO:0098636~protein complex involved in cell adhesion	0.000432183236290695
+GO:0012506~vesicle membrane	0.000445198743232188
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.000478112513151391
+GO:0042824~MHC class I peptide loading complex	0.000694657701076354
+GO:0070062~extracellular exosome	0.000755194370633549
+GO:0005852~eukaryotic translation initiation factor 3 complex	0.000767711284564811
+GO:0031234~extrinsic component of cytoplasmic side of plasma membrane	0.000821280336495479
+GO:1903561~extracellular vesicle	0.000843116414578111
+GO:0043230~extracellular organelle	0.000849733272372086
+GO:0030662~coated vesicle membrane	0.000854905450167967
+GO:0012505~endomembrane system	0.00102736951083186
+GO:0031983~vesicle lumen	0.00105719769139629
+GO:0031410~cytoplasmic vesicle	0.00157532237813545
+GO:0097708~intracellular vesicle	0.00161011794686721
+GO:0005775~vacuolar lumen	0.00168193561123271
+GO:0031904~endosome lumen	0.00273181116475507
+GO:0031093~platelet alpha granule lumen	0.00299145637828203
+GO:0005925~focal adhesion	0.00374381165650236
+GO:0005924~cell-substrate adherens junction	0.00397338066150141
+GO:0030055~cell-substrate junction	0.00436387277603598
+GO:0044445~cytosolic part	0.0046628741409262
+GO:0019897~extrinsic component of plasma membrane	0.00476178517256972
+GO:0044464~cell part	0.00534653008257668
+GO:0060205~cytoplasmic membrane-bounded vesicle lumen	0.00578444204034303
+GO:0035631~CD40 receptor complex	0.00605618349883325
+GO:0030659~cytoplasmic vesicle membrane	0.00758370403114603
+GO:0030658~transport vesicle membrane	0.00769427181360394
+GO:0031091~platelet alpha granule	0.00901578468359287
+GO:0031901~early endosome membrane	0.00936709098889468
+GO:0000139~Golgi membrane	0.00951373368065396
+GO:0005794~Golgi apparatus	0.0103035714512667
+GO:0044431~Golgi apparatus part	0.0104468472486456
+GO:0016282~eukaryotic 43S preinitiation complex	0.0112366855135413
+GO:0033290~eukaryotic 48S preinitiation complex	0.0112366855135413
+GO:0022626~cytosolic ribosome	0.0118209392029749
+GO:0070993~translation preinitiation complex	0.0127508813283078
+GO:0098588~bounding membrane of organelle	0.0134720774239958
+GO:0098852~lytic vacuole membrane	0.0140212041174241
+GO:0005765~lysosomal membrane	0.0140212041174241
+GO:0034774~secretory granule lumen	0.0143722860093564
+GO:0030135~coated vesicle	0.0163042538551313
+GO:0030669~clathrin-coated endocytic vesicle membrane	0.0170307066014705
+GO:0044391~ribosomal subunit	0.0174719710217821
+GO:0005840~ribosome	0.0208762425678408
+GO:0005769~early endosome	0.0209891768113323
+GO:0035354~Toll-like receptor 1-Toll-like receptor 2 protein complex	0.0216121333510962
+GO:0034687~integrin alphaL-beta2 complex	0.0216121333510962
+GO:0043514~interleukin-12 complex	0.0216121333510962
+GO:0005783~endoplasmic reticulum	0.0222196404014583
+GO:0005913~cell-cell adherens junction	0.02900713976817
+GO:0044432~endoplasmic reticulum part	0.0314714935469755
+GO:0045334~clathrin-coated endocytic vesicle	0.0337484381312123
+GO:0005770~late endosome	0.0339211348051413
+GO:0008305~integrin complex	0.0418678505241117
+GO:0005789~endoplasmic reticulum membrane	0.0449346301335688

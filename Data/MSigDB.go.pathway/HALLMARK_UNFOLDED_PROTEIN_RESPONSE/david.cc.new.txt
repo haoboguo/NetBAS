@@ -1,0 +1,78 @@
+GO:0044444~cytoplasmic part	1.5454168691964e-13
+GO:0043231~intracellular membrane-bounded organelle	4.57973459185371e-12
+GO:0005829~cytosol	8.5595893792335e-12
+GO:0043229~intracellular organelle	2.3764048362625e-11
+GO:0044424~intracellular part	2.9782132587109e-11
+GO:0043227~membrane-bounded organelle	5.07144257471128e-11
+GO:0005737~cytoplasm	1.41331020834745e-10
+GO:0044422~organelle part	1.6580255307917e-10
+GO:0044446~intracellular organelle part	1.82162547455754e-10
+GO:0032991~macromolecular complex	2.56668145362253e-10
+GO:0030529~intracellular ribonucleoprotein complex	2.56913343727898e-10
+GO:1990904~ribonucleoprotein complex	2.6316700194051e-10
+GO:0005622~intracellular	3.49828552804981e-10
+GO:0043233~organelle lumen	7.36102953296805e-10
+GO:0031974~membrane-enclosed lumen	1.20644568978825e-09
+GO:0070013~intracellular organelle lumen	1.38266203347621e-09
+GO:0043226~organelle	3.6064503724544e-09
+GO:0005789~endoplasmic reticulum membrane	4.11945273474373e-09
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	6.21917125568792e-09
+GO:0005730~nucleolus	1.23557620287404e-08
+GO:0044432~endoplasmic reticulum part	1.87962453795294e-08
+GO:0044428~nuclear part	3.05510823038647e-08
+GO:0031981~nuclear lumen	3.88419438125272e-08
+GO:0043228~non-membrane-bounded organelle	4.40756761969769e-08
+GO:0043232~intracellular non-membrane-bounded organelle	4.40756761969769e-08
+GO:0005654~nucleoplasm	7.28930791892307e-08
+GO:0030176~integral component of endoplasmic reticulum membrane	1.25647936873861e-07
+GO:0000178~exosome (RNase complex)	1.4708493509435e-07
+GO:0031227~intrinsic component of endoplasmic reticulum membrane	1.67353254854571e-07
+GO:0005783~endoplasmic reticulum	8.09958317045771e-07
+GO:0000176~nuclear exosome (RNase complex)	1.15746291021658e-06
+GO:0043234~protein complex	2.20794611524564e-06
+GO:0000932~cytoplasmic mRNA processing body	4.64050331134868e-06
+GO:0036464~cytoplasmic ribonucleoprotein granule	1.75843703590599e-05
+GO:0035770~ribonucleoprotein granule	2.80170870571727e-05
+GO:0005634~nucleus	4.43384081445986e-05
+GO:0005844~polysome	0.000101752291399717
+GO:0044464~cell part	0.000371508811625226
+GO:0005623~cell	0.000436730493287486
+GO:0005790~smooth endoplasmic reticulum	0.000798885229124501
+GO:0005788~endoplasmic reticulum lumen	0.000911116663021277
+GO:0016281~eukaryotic translation initiation factor 4F complex	0.00106743869101759
+GO:0031988~membrane-bounded vesicle	0.00154431165390637
+GO:0034663~endoplasmic reticulum chaperone complex	0.00161905354646733
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.00214919759810472
+GO:0012505~endomembrane system	0.00262337364153888
+GO:0031982~vesicle	0.0029893477034713
+GO:0000177~cytoplasmic exosome (RNase complex)	0.00304657508368738
+GO:0030014~CCR4-NOT complex	0.00346925719813569
+GO:0031410~cytoplasmic vesicle	0.00465794336182697
+GO:0097708~intracellular vesicle	0.00472508271026072
+GO:0005912~adherens junction	0.0051206861512376
+GO:0044452~nucleolar part	0.00538921176938554
+GO:0005732~small nucleolar ribonucleoprotein complex	0.00596276646192119
+GO:0070161~anchoring junction	0.00604676941312695
+GO:0035327~transcriptionally active chromatin	0.00713219112532819
+GO:0005840~ribosome	0.0133502204137913
+GO:0032040~small-subunit processome	0.0160664221439102
+GO:1990037~Lewy body core	0.0165353532311775
+GO:0005787~signal peptidase complex	0.0165353532311775
+GO:0070062~extracellular exosome	0.018170322112833
+GO:1903561~extracellular vesicle	0.0192121638366356
+GO:0043230~extracellular organelle	0.0192883687708857
+GO:0042470~melanosome	0.0211276282189572
+GO:0048770~pigment granule	0.0211276282189572
+GO:0005925~focal adhesion	0.0216385762787244
+GO:0090575~RNA polymerase II transcription factor complex	0.0216515771103251
+GO:0016602~CCAAT-binding factor complex	0.0219867515799183
+GO:0005924~cell-substrate adherens junction	0.0223659873199621
+GO:0030055~cell-substrate junction	0.0236148427610099
+GO:0005793~endoplasmic reticulum-Golgi intermediate compartment	0.0238182962868162
+GO:0034399~nuclear periphery	0.0309981978628105
+GO:0098796~membrane protein complex	0.0354405263148368
+GO:0044798~nuclear transcription factor complex	0.0370472898350462
+GO:0005913~cell-cell adherens junction	0.0374191343690804
+GO:0097413~Lewy body	0.0381620769217451
+GO:0043005~neuron projection	0.0414729301423429
+GO:0044421~extracellular region part	0.047329614169171

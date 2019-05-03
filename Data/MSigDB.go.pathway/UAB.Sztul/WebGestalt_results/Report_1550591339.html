@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/webgestalt/favicon.png">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-73666770-1', 'auto');
+ga('send', 'pageview');
+</script>
+<title>WebGestalt (WEB-based GEne SeT AnaLysis Toolkit)</title>
+
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="http://www.webgestalt.org//assets/0.3/build/nta.css">
+</head>
+<body>
+<header>
+	<div id="header-img"><a href="http://www.webgestalt.org/"><img border="0" src="http://www.webgestalt.org//images/gsa.png"></a></div>
+	<div id="header-title">
+		<p id="header-title-text">WEB-based GEne SeT AnaLysis Toolkit</p>
+		<p id="header-subtitle-text">Translating gene lists into biological insights...</p>
+	</div>
+</header>
+<hr><main>
+<div id="app" class="wrapper">
+<div class="loading-preinit" v-cloak><div class="loading-icon"></div></div>
+
+<div id=network_PPI_BIOGRID v-cloak>
+<section>
+<div class="level">
+	<div class="level-left">
+		<div class="level-item">
+			<h4 class="title is-4 has-text-primary">Summary of the analysis results</h4>
+		</div>
+	</div>
+	<div class="level-right">
+		<div class="level-item">
+			<a class="button is-text" href="1550591339.zip" target="_blank">Result Download</a>
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="summary" class="summary">
+<div class="card" v-bind:class="{active: summaryShown}" >
+	<div class="card-header" v-on:click="summaryShown=!summaryShown">
+		<p class="card-header-title">Job Summary</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="summaryShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div class="card-content content" v-show="summaryShown">
+		<ul>
+		<li>Total number of genes in the selected network: 22194 (used for the enrichment analysis)</li>
+		<li>Total number of seeds: 5</li>
+		<li>Total number of seeds in the selected network: 5</li>
+		<li>Total number of genes in the expanded sub-network: 15 (used for the enrichment analysis)</li>
+		<li>Total number of seeds in the expanded sub-network: 5</li>
+		<li>We select top 10 neighbors based on the probability of random walk method. All seeds and top ranking neighbors in the expanded sub-network can enrich to 2 GO BP categories.</li>
+		</ul>
+	</div>
+</div>
+</section>
+
+<section>
+<div class="columns is-multiline">
+<div class="column is-5-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Sub-network graph </h4>
+	<nta-gene-network
+		container-id="network_PPI_BIOGRID_net"
+		:data="geneNetwork"
+		:method="method"
+		highlight-type="Neighbors"
+		:enrichment="enrichment"
+	>
+	</nta-gene-network>
+</div> <!-- column -->
+
+<div class="column is-5-widescreen is-offset-2-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Enriched GO terms graph</h4>
+	<nta-dag
+		container-id="network_PPI_BIOGRID_dag"
+		:data="dag"
+	>
+	</nta-dag>
+</div> <!-- column -->
+</div> <!-- columns -->
+</section>
+
+<section>
+<h4 class="title is-4 has-text-primary">Detailed Information</h4>
+<div class="columns is-multiline">
+<div class="column is-6-widescreen is-12-desktop is-12-tablet is-12-mobile" id="col-go">
+<nta-enrichment-table
+	:data="enrichment"
+	:method="method"
+	:sig-method="sigMethod"
+	:threshold="threshold"
+	highlight-type="Neighbors"
+>
+</nta-enrichment-table>
+</div> <!-- column -->
+
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-seed">
+<nta-seed-table :data="seeds"> </nta-seed-table>
+</div> <!-- column -->
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-rank">
+<nta-candidate-table :data="candidates" :method="method"> </nta-candidate-table>
+</div> <!-- column -->
+
+</div> <!-- columns -->
+</section>
+</div>
+</div>
+</main>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/cytoscape.min.js"></script>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/nta.min.js"></script>
+<script type="text/javascript">
+var geneNetwork = [{"data":{"source":"APP","target":"RAB1B"}},{"data":{"source":"APP","target":"TMEM216"}},{"data":{"source":"APP","target":"ARFGAP1"}},{"data":{"source":"APP","target":"JAGN1"}},{"data":{"source":"LMNA","target":"RNF4"}},{"data":{"source":"LMNA","target":"CCDC155"}},{"data":{"source":"LMNA","target":"JAGN1"}},{"data":{"source":"RNF4","target":"USO1"}},{"data":{"source":"RNF4","target":"GBF1"}},{"data":{"source":"RNF4","target":"TECR"}},{"data":{"source":"RNF4","target":"JAGN1"}},{"data":{"source":"CCDC155","target":"JAGN1"}},{"data":{"source":"RAB1B","target":"TECR"}},{"data":{"source":"GBF1","target":"RIPK4"}},{"data":{"source":"TMEM216","target":"JAGN1"}},{"data":{"source":"RIPK4","target":"TECR"}},{"data":{"source":"RIPK4","target":"JAGN1"}},{"data":{"source":"TCTN2","target":"TECR"}},{"data":{"source":"TCTN2","target":"TCTN3"}},{"data":{"source":"TCTN2","target":"JAGN1"}},{"data":{"source":"TECR","target":"JAGN1"}},{"data":{"source":"TCTN3","target":"JAGN1"}},{"data":{"source":"JAGN1","target":"CREB3L1"}},{"data":{"id":"APP","highlight":true}},{"data":{"id":"LMNA","highlight":true}},{"data":{"id":"RNF4","highlight":true}},{"data":{"id":"CCDC155","highlight":true}},{"data":{"id":"RAB1B","highlight":false}},{"data":{"id":"GBF1","highlight":false}},{"data":{"id":"TMEM216","highlight":true}},{"data":{"id":"RIPK4","highlight":true}},{"data":{"id":"TCTN2","highlight":true}},{"data":{"id":"TECR","highlight":true}},{"data":{"id":"TCTN3","highlight":true}},{"data":{"id":"JAGN1","highlight":false}},{"data":{"id":"ARFGAP1","highlight":false}},{"data":{"id":"USO1","highlight":false}},{"data":{"id":"CREB3L1","highlight":true}}];
+var dag = [{"data":{"id":"GO:0051640","name":"organelle localization","datasets":true}},{"data":{"id":"GO:0051641","name":"cellular localization","datasets":true}},{"data":{"id":"GO:0051179","name":"localization","datasets":false}},{"data":{"id":"GO:0008150","name":"biological_process","datasets":false}},{"data":{"source":"GO:0051641","target":"GO:0051640"}},{"data":{"source":"GO:0051179","target":"GO:0051641"}},{"data":{"source":"GO:0008150","target":"GO:0051179"}}];
+var enrichment = [{"goId":"GO:0051640","goName":"organelle localization","c":662,"o":7,"geneInfo":[{"geneName":"USO1","highlight":false},{"geneName":"GBF1","highlight":false},{"geneName":"TCTN3","highlight":true},{"geneName":"TMEM216","highlight":true},{"geneName":"TCTN2","highlight":true},{"geneName":"RAB1B","highlight":false},{"geneName":"CCDC155","highlight":true}],"expect":0.650979841258692,"ratio":10.7530211480363,"rawP":1.17409136257685e-06,"adjP":0.0152647256808694},{"goId":"GO:0051641","goName":"cellular localization","c":2653,"o":11,"geneInfo":[{"geneName":"APP","highlight":true},{"geneName":"LMNA","highlight":true},{"geneName":"USO1","highlight":false},{"geneName":"GBF1","highlight":false},{"geneName":"TCTN3","highlight":true},{"geneName":"TMEM216","highlight":true},{"geneName":"ARFGAP1","highlight":false},{"geneName":"TCTN2","highlight":true},{"geneName":"RAB1B","highlight":false},{"geneName":"JAGN1","highlight":false},{"geneName":"CCDC155","highlight":true}],"expect":2.60883613120742,"ratio":4.21643961014485,"rawP":1.92529806153363e-06,"adjP":0.0152647256808694}];
+var candidates = [{"candidate":"RNF4","score":"5.38E-03"},{"candidate":"APP","score":"5.08E-03"},{"candidate":"RIPK4","score":"4.15E-03"},{"candidate":"TECR","score":"3.65E-03"},{"candidate":"CREB3L1","score":"3.36E-03"},{"candidate":"LMNA","score":"3.34E-03"},{"candidate":"TCTN3","score":"3.32E-03"},{"candidate":"CCDC155","score":"3.29E-03"},{"candidate":"TCTN2","score":"3.25E-03"},{"candidate":"TMEM216","score":"3.21E-03"}];
+var seeds = ["RAB1B","GBF1","JAGN1","ARFGAP1","USO1"];
+ntaLib({
+	geneNetwork: geneNetwork,
+	dag: dag,
+	enrichment: enrichment,
+	seeds: seeds,
+	candidates: candidates,
+	method: "Network_Expansion",
+	sigMethod: "fdr",
+	threshold: 0.05
+
+})
+</script>
+
+<footer class="footer has-text-centered">
+<p>WebGestalt is currently developed and maintained by Yuxing Liao, Suhas Vasaikar, Zhiao Shi and Bing Zhang at the <a target="_new" href=http://www.zhang-lab.org> Zhang Lab</a>. Other people who have made significant contribution to the project include Jing Wang, Dexter Duncan, Stefan Kirov and Jay Snoddy.</p>
+<p><b>Funding credits:</b> NIH/NCI (U24 CA210954); Leidos (15X038); CPRIT (RR160027); NIH/NIAAA (U01 AA016662, U01 AA013512); NIH/NIDA (P01 DA015027); NIH/NIMH (P50 MH078028, P50 MH096972); NIH/NCI (U24 CA159988); NIH/NIGMS (R01 GM088822).
+</p>
+</footer></body>
+</html>

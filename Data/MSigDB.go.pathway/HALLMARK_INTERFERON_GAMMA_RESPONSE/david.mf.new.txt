@@ -1,0 +1,74 @@
+GO:0005102~receptor binding	4.84395617142618e-09
+GO:0005126~cytokine receptor binding	8.69296265378253e-09
+GO:0005515~protein binding	1.04285456296581e-07
+GO:0042379~chemokine receptor binding	4.13949115859199e-07
+GO:0004298~threonine-type endopeptidase activity	2.64276490956711e-06
+GO:0070003~threonine-type peptidase activity	2.64276490956711e-06
+GO:0005125~cytokine activity	6.28700347582785e-06
+GO:0003725~double-stranded RNA binding	6.90065250986475e-06
+GO:0042605~peptide antigen binding	1.19935455083557e-05
+GO:0008009~chemokine activity	1.51021261632207e-05
+GO:0097153~cysteine-type endopeptidase activity involved in apoptotic process	1.73423103862646e-05
+GO:0042802~identical protein binding	2.91549406984254e-05
+GO:0003823~antigen binding	4.13302350309243e-05
+GO:0046977~TAP binding	4.38829139597856e-05
+GO:0004896~cytokine receptor activity	5.88337773351582e-05
+GO:0048020~CCR chemokine receptor binding	7.21885204214454e-05
+GO:0004175~endopeptidase activity	0.000114125286698729
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.000128230222469483
+GO:0008233~peptidase activity	0.000162183733866271
+GO:0016787~hydrolase activity	0.00027610203860982
+GO:0070011~peptidase activity, acting on L-amino acid peptides	0.000293079294638868
+GO:0042287~MHC protein binding	0.000348562759305518
+GO:0003824~catalytic activity	0.000536609078118296
+GO:0001664~G-protein coupled receptor binding	0.000552383676458383
+GO:0001730~2'-5'-oligoadenylate synthetase activity	0.000706434726928565
+GO:0005488~binding	0.00087638869014081
+GO:0005123~death receptor binding	0.000936053223839223
+GO:0097367~carbohydrate derivative binding	0.00111243712277833
+GO:0048248~CXCR3 chemokine receptor binding	0.00116889587511777
+GO:0004197~cysteine-type endopeptidase activity	0.002678955793716
+GO:0031730~CCR5 chemokine receptor binding	0.00320269415461685
+GO:0016763~transferase activity, transferring pentosyl groups	0.00397371923181203
+GO:0004871~signal transducer activity	0.00543915510655343
+GO:0016814~hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines	0.00655046818739107
+GO:0008234~cysteine-type peptidase activity	0.00658817216581553
+GO:0005539~glycosaminoglycan binding	0.00811118731555962
+GO:0016504~peptidase activator activity	0.0082432715696726
+GO:0003727~single-stranded RNA binding	0.00927229495189035
+GO:0032395~MHC class II receptor activity	0.0114200327038269
+GO:0023026~MHC class II protein complex binding	0.0129582037818006
+GO:0043621~protein self-association	0.0139182901717836
+GO:0031625~ubiquitin protein ligase binding	0.0139246611798002
+GO:0045236~CXCR chemokine receptor binding	0.0145811163967062
+GO:0008656~cysteine-type endopeptidase activator activity involved in apoptotic process	0.0145811163967062
+GO:0042803~protein homodimerization activity	0.0145846456184846
+GO:0044389~ubiquitin-like protein ligase binding	0.0153854066047477
+GO:0042277~peptide binding	0.016084888476283
+GO:0023023~MHC protein complex binding	0.0180731149211017
+GO:0042288~MHC class I protein binding	0.0180731149211017
+GO:0016505~peptidase activator activity involved in apoptotic process	0.0199382589465398
+GO:0019955~cytokine binding	0.0205394623527427
+GO:0032403~protein complex binding	0.0215135145284462
+GO:0033218~amide binding	0.0248108182139687
+GO:0051427~hormone receptor binding	0.024814685191158
+GO:0017076~purine nucleotide binding	0.02489829186415
+GO:0016740~transferase activity	0.0253188366028448
+GO:0070566~adenylyltransferase activity	0.0281486680322484
+GO:0008201~heparin binding	0.0316453418555548
+GO:0001882~nucleoside binding	0.032179763218555
+GO:0031727~CCR2 chemokine receptor binding	0.0325201173257823
+GO:0003726~double-stranded RNA adenosine deaminase activity	0.0325201173257823
+GO:0046979~TAP2 binding	0.0325201173257823
+GO:0097200~cysteine-type endopeptidase activity involved in execution phase of apoptosis	0.0325201173257823
+GO:0015433~peptide antigen-transporting ATPase activity	0.0325201173257823
+GO:0032555~purine ribonucleotide binding	0.0371860785757496
+GO:0005164~tumor necrosis factor receptor binding	0.0399629493957185
+GO:0032553~ribonucleotide binding	0.0408397915839368
+GO:0001618~virus receptor activity	0.041535405329267
+GO:0015440~peptide-transporting ATPase activity	0.043124678192854
+GO:0046978~TAP1 binding	0.043124678192854
+GO:0035639~purine ribonucleoside triphosphate binding	0.0458773785133883
+GO:0032550~purine ribonucleoside binding	0.0482935087695551
+GO:0032549~ribonucleoside binding	0.0491194912943576
+GO:0001883~purine nucleoside binding	0.0491194912943576

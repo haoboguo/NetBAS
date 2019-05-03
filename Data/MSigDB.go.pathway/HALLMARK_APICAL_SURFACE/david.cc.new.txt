@@ -1,0 +1,59 @@
+GO:0044459~plasma membrane part	9.56342123075505e-17
+GO:0005886~plasma membrane	6.89968720039591e-16
+GO:0071944~cell periphery	1.61201434408241e-15
+GO:0046658~anchored component of plasma membrane	1.3828842895509e-13
+GO:0009986~cell surface	4.77164896771196e-12
+GO:0031226~intrinsic component of plasma membrane	1.63587073776552e-11
+GO:0031225~anchored component of membrane	7.25797517060961e-11
+GO:0045177~apical part of cell	3.91290836679119e-10
+GO:0016324~apical plasma membrane	9.25002484427109e-10
+GO:0009897~external side of plasma membrane	3.88856973058866e-09
+GO:0098552~side of membrane	4.87748365604678e-08
+GO:0044421~extracellular region part	8.00784501089898e-08
+GO:0016020~membrane	9.92469186810087e-08
+GO:0098590~plasma membrane region	1.01233398586394e-07
+GO:0044425~membrane part	1.59082797646594e-07
+GO:0005576~extracellular region	2.79435963924132e-06
+GO:0045121~membrane raft	2.97391196246449e-06
+GO:0098857~membrane microdomain	3.04557166357325e-06
+GO:0031526~brush border membrane	5.62893004164101e-06
+GO:0031224~intrinsic component of membrane	7.21949314847947e-06
+GO:0098589~membrane region	1.47787122601245e-05
+GO:0044463~cell projection part	4.6030289537296e-05
+GO:0070062~extracellular exosome	7.94168045574295e-05
+GO:0031982~vesicle	8.088297499887e-05
+GO:1903561~extracellular vesicle	8.46505814155927e-05
+GO:0043230~extracellular organelle	8.5035941537308e-05
+GO:0005903~brush border	8.79196836601562e-05
+GO:0031988~membrane-bounded vesicle	0.000165411457160371
+GO:0070161~anchoring junction	0.000187734078492057
+GO:0005887~integral component of plasma membrane	0.00022539289187383
+GO:0016021~integral component of membrane	0.000242974173653612
+GO:0098862~cluster of actin-based cell projections	0.00032274427471073
+GO:0031253~cell projection membrane	0.000551052728382287
+GO:0042995~cell projection	0.000688615272110851
+GO:0005912~adherens junction	0.000950568519613516
+GO:0031362~anchored component of external side of plasma membrane	0.00116326393843541
+GO:0031233~intrinsic component of external side of plasma membrane	0.00175470163610964
+GO:0019898~extrinsic component of membrane	0.00312696308789713
+GO:0048471~perinuclear region of cytoplasm	0.0032488113627294
+GO:0030054~cell junction	0.00360889206282616
+GO:0005783~endoplasmic reticulum	0.00373917364263835
+GO:0005615~extracellular space	0.00489713112183406
+GO:0012505~endomembrane system	0.00954327556156982
+GO:0098805~whole membrane	0.0115050932694799
+GO:0005925~focal adhesion	0.0122869006704389
+GO:0005924~cell-substrate adherens junction	0.0126073042054875
+GO:0030055~cell-substrate junction	0.013153192384492
+GO:0044464~cell part	0.0134463888385038
+GO:0005623~cell	0.014480236442355
+GO:0005794~Golgi apparatus	0.0183619761697642
+GO:0005773~vacuole	0.0196975934491921
+GO:0035253~ciliary rootlet	0.0228145566503526
+GO:0031410~cytoplasmic vesicle	0.0261075110663619
+GO:0097708~intracellular vesicle	0.0263039939508843
+GO:0044444~cytoplasmic part	0.0347233900823767
+GO:0005768~endosome	0.0376417933444581
+GO:0019897~extrinsic component of plasma membrane	0.0429142685455411
+GO:0044441~ciliary part	0.0464925026834175
+GO:0030141~secretory granule	0.0491444020026083

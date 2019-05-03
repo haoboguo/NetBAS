@@ -1,0 +1,53 @@
+GO:0005215~transporter activity	8.38181480113817e-05
+GO:0022892~substrate-specific transporter activity	0.000220321060501449
+GO:0005344~oxygen transporter activity	0.000411102095439292
+GO:0005506~iron ion binding	0.000499276708461601
+GO:0016874~ligase activity	0.000505785443111161
+GO:0072349~modified amino acid transmembrane transporter activity	0.000622499927310928
+GO:0046983~protein dimerization activity	0.00070442353403705
+GO:0020037~heme binding	0.000715014845422093
+GO:0022857~transmembrane transporter activity	0.000743864962455945
+GO:0046915~transition metal ion transmembrane transporter activity	0.000969468522549308
+GO:0046906~tetrapyrrole binding	0.00103705924109008
+GO:0004601~peroxidase activity	0.00126733254148567
+GO:0022891~substrate-specific transmembrane transporter activity	0.00148583514953342
+GO:0016684~oxidoreductase activity, acting on peroxide as acceptor	0.00162391374139684
+GO:0008198~ferrous iron binding	0.00163238587018263
+GO:0030507~spectrin binding	0.00267020477034831
+GO:0046914~transition metal ion binding	0.00277574210295918
+GO:0048037~cofactor binding	0.00288741162669257
+GO:0016491~oxidoreductase activity	0.00343672959220258
+GO:0016879~ligase activity, forming carbon-nitrogen bonds	0.00352408631512431
+GO:0016829~lyase activity	0.00445892021563484
+GO:0046982~protein heterodimerization activity	0.00464864110185481
+GO:0005381~iron ion transmembrane transporter activity	0.00491447687596158
+GO:0022804~active transmembrane transporter activity	0.00663944439845429
+GO:0042802~identical protein binding	0.0111896871534874
+GO:0016209~antioxidant activity	0.0114201604020153
+GO:0008519~ammonium transmembrane transporter activity	0.0125609477666526
+GO:0042803~protein homodimerization activity	0.0127108524968614
+GO:0015291~secondary active transmembrane transporter activity	0.0136161923562833
+GO:0005515~protein binding	0.0137218570515746
+GO:0000989~transcription factor activity, transcription factor binding	0.014351062542031
+GO:0000988~transcription factor activity, protein binding	0.0154521365593007
+GO:0015075~ion transmembrane transporter activity	0.0155089093447483
+GO:0019825~oxygen binding	0.0166743185483566
+GO:0016836~hydro-lyase activity	0.0185104613365943
+GO:0051184~cofactor transporter activity	0.0212217770954879
+GO:0004074~biliverdin reductase activity	0.0214470979047349
+GO:0033570~transferrin transmembrane transporter activity	0.0214470979047349
+GO:0004357~glutamate-cysteine ligase activity	0.0214470979047349
+GO:0005385~zinc ion transmembrane transporter activity	0.0252110270127504
+GO:0003824~catalytic activity	0.0258433839993331
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	0.0269346989079965
+GO:0022884~macromolecule transmembrane transporter activity	0.0273109607894383
+GO:0051537~2 iron, 2 sulfur cluster binding	0.0294787979005604
+GO:0072510~trivalent inorganic cation transmembrane transporter activity	0.0319984711032398
+GO:0015091~ferric iron transmembrane transporter activity	0.0319984711032398
+GO:0008324~cation transmembrane transporter activity	0.0350510870561413
+GO:0016645~oxidoreductase activity, acting on the CH-NH group of donors	0.0363729597358107
+GO:0003712~transcription cofactor activity	0.0371363072310716
+GO:0046943~carboxylic acid transmembrane transporter activity	0.037882130728036
+GO:0005342~organic acid transmembrane transporter activity	0.0409623177055623
+GO:0005294~neutral L-amino acid secondary active transmembrane transporter activity	0.0424366911679682
+GO:0016835~carbon-oxygen lyase activity	0.0442784395889234

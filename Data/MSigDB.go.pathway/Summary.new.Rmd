@@ -1,0 +1,149 @@
+---
+title: "Hallmark Gene Sets Summary"
+author: "HBG"
+date: "1/25/2019"
+output: pdf_document
+---
+
+#This script summarize the sub-network and enrichment results of 50 hallmark sets from MSigDB
+
+```{r}
+rm(list=ls())
+library(igraph)
+library(gplots)
+library(pracma)
+'%ni%' <- Negate('%in%')
+
+#list of 50 hallmark sets
+list.file <- read.csv("list", header=F, stringsAsFactors=F)
+hmk.set.list <- list.file$V1
+
+#human PIN
+human.pin <- read.csv("../human.pin.csv", header=T, stringsAsFactors = F)
+geneA <- human.pin$geneA
+geneB <- human.pin$geneB
+
+#All genes appear in PIN
+all.list <- unique(c(geneA, geneB))
+
+hmk.summary <- c("Set", "V", "E", "Iso", 
+                 "MaxD",
+                 "ClustC", 
+                 "Diam", "Dist", 
+                 "MaxCliq", "Max.Clust",
+                 "BP1", "BPob1", "BP2", "BPob2", "BP3", "BPob3",
+                 "CC1", "CCob1", "CC2", "CCob2", "CC3", "CCob3",
+                 "MF1", "Mfob1", "MF2", "MFob2", "MF3", "MFob3",
+                 "KEGG1", "KEGGob1", "KEGG2", "KEGGob2", "KEGG3", "KEGGob3")
+
+for (i in 1:length(hmk.set.list)) {
+  ##the gene list and sub-network
+  file.name <- paste(hmk.set.list[i], "/", hmk.set.list[i], ".csv", sep="")
+  geneset <- read.csv(file.name, header=T, stringsAsFactors=F)
+  gene.list <- geneset$gene
+  gene.number <- length(gene.list)   # this is the original number of genes the set, or Vertex number
+  #Constructing the sub network fromn the gene set
+  subA <- geneA[which((geneA %in% gene.list) & (geneB %in% gene.list))]
+  subB <- geneB[which((geneA %in% gene.list) & (geneB %in% gene.list))]
+  genes.pin <- unique(c(subA, subB))
+  #gene.number.set <- length(which(gene.list %in% all.list)) # number of genes shown in the network
+  gene.number.pin <- length(genes.pin) # this is the number of vertices constituting the sub-network
+  isolated.num <- gene.number - gene.number.pin # isolated gene numbers
+  isolated.gene <- gene.list[which(gene.list %ni% genes.pin)]
+  ## gorder(sub.graph) gives the same result
+  sub.web <- data.frame(cbind(subA, subB))
+  sub.edge.number <- length(sub.web[,1])  #this is the total edges of the sub-network
+  
+  # using igraph to build a graph of the sub-network
+  sub.graph <- graph.data.frame(sub.web, directed = F)
+  
+
+  max.degree <- max(centr_degree(sub.graph)$res)
+
+  sub.largest.clique <- largest_cliques(sub.graph)
+  number.of.largest.clique <- length(sub.largest.clique)
+  degree.of.largest.clique <- length(sub.largest.clique[[1]])
+  
+  #clustering coefficient of the sub-graph
+  clust.coeff.global <- transitivity(sub.graph, type = "global", vids = NULL, weights=NULL, isolates=c("NaN", "zero"))
+
+  #diameter of the sub-graph
+  diam <- diameter(sub.graph, directed=F)
+  
+  #mean distance of the sub-graph
+  mean.dist <- mean_distance(sub.graph, directed=F)
+  
+  
+  #Max cluster size
+  comp <- components(sub.graph)
+  max.cluster <- max(comp$csize)
+  
+  ##the enrichments result from NetBAS and DAVID (top 10 from NetBAS)
+  kegg.file <- paste(hmk.set.list[i], "/", "HMK.kegg.new.txt", sep="")
+  bp.file <- paste(hmk.set.list[i], "/", "HMK.bp.new.txt", sep="")
+  cc.file <- paste(hmk.set.list[i], "/", "HMK.cc.new.txt", sep="")
+  mf.file <- paste(hmk.set.list[i], "/", "HMK.mf.new.txt", sep="")
+  kegg.data <- read.csv(kegg.file, header=T, sep="\t", stringsAsFactors=F)
+  bp.data <- read.csv(bp.file, header=T, sep="\t", stringsAsFactors=F)
+  cc.data <- read.csv(cc.file, header=T, sep="\t", stringsAsFactors=F)
+  mf.data <- read.csv(mf.file, header=T, sep="\t", stringsAsFactors=F)
+  
+  #kegg
+  #kegg.pathway <- kegg.data$Pathway
+  kegg.netbas <- kegg.data$zscore
+  #kegg.david <- kegg.data$DAVID
+  #kegg.match <- length(which(!is.na(kegg.david))) #number of matched pathways in DAVID
+  kegg.z.1 <- kegg.netbas[1]
+  kegg.z.2 <- kegg.netbas[2]
+  kegg.z.3 <- kegg.netbas[3]
+  kegg.ob1 <- kegg.data$obs[1]
+  kegg.ob2 <- kegg.data$obs[2]
+  kegg.ob3 <- kegg.data$obs[3]
+
+  
+  #bp
+  bp.netbas <- bp.data$zscore
+  bp.netbas <- bp.netbas[!is.infinite((bp.netbas))]
+  #bp.david <- bp.data$DAVID
+  #bp.match <- length(which(!is.na(bp.david)))
+  bp.z.1 <- bp.netbas[1]
+  bp.z.2 <- bp.netbas[2]
+  bp.z.3 <- bp.netbas[3]
+  bp.ob1 <- bp.data$obs[1]
+  bp.ob2 <- bp.data$obs[2]
+  bp.ob3 <- bp.data$obs[3]
+
+  
+  #cc
+  cc.netbas <- cc.data$zscore
+  cc.netbas <- cc.netbas[!is.infinite((cc.netbas))]
+  cc.z.1 <- cc.netbas[1]
+  cc.z.2 <- cc.netbas[2]
+  cc.z.3 <- cc.netbas[3]
+  cc.ob1 <- cc.data$obs[1]
+  cc.ob2 <- cc.data$obs[2]
+  cc.ob3 <- cc.data$obs[3]
+  
+  #mf
+  mf.netbas <- mf.data$zscore
+  mf.netbas <- mf.netbas[!is.infinite((mf.netbas))]
+
+  mf.z.1 <- mf.netbas[1]
+  mf.z.2 <- mf.netbas[2]
+  mf.z.3 <- mf.netbas[3]
+  mf.ob1 <- mf.data$obs[1]
+  mf.ob2 <- mf.data$obs[2]
+  mf.ob3 <- mf.data$obs[3]
+
+  hmk.summary <- rbind(hmk.summary, c(hmk.set.list[i], gene.number, 
+                       sub.edge.number, isolated.num,
+                       max.degree, 
+                       clust.coeff.global, diam, mean.dist, 
+                       degree.of.largest.clique, max.cluster,
+                       bp.z.1, bp.ob1, bp.z.2, bp.ob2, bp.z.3, bp.ob3,
+                       cc.z.1, cc.ob1, cc.z.2, cc.ob2, cc.z.3, cc.ob3,
+                       mf.z.1, mf.ob1, mf.z.2, mf.ob2, mf.z.3, mf.ob3,
+                       kegg.z.1,kegg.ob1, kegg.z.2, kegg.ob2, kegg.z.3, kegg.ob3)) 
+}
+write.table(hmk.summary, file="Summary.Hallmark.Sets.New.022119.csv", row.names = F, col.names = F, sep=",", quote = T)
+```

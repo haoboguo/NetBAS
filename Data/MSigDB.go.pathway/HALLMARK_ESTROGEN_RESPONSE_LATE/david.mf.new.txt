@@ -1,0 +1,35 @@
+GO:0005102~receptor binding	7.0070355329418e-05
+GO:0042802~identical protein binding	0.000512385125261423
+GO:0019899~enzyme binding	0.000650576888184054
+GO:0098772~molecular function regulator	0.000805410444014868
+GO:0042803~protein homodimerization activity	0.00135682946649209
+GO:0016853~isomerase activity	0.00252227777699152
+GO:0019901~protein kinase binding	0.00253997409989814
+GO:0019900~kinase binding	0.00275695780022949
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	0.00434390944116078
+GO:0050662~coenzyme binding	0.0047320057956443
+GO:0046983~protein dimerization activity	0.00506787535650781
+GO:0042826~histone deacetylase binding	0.00566447113869166
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00997802703788427
+GO:0016491~oxidoreductase activity	0.0106353601197051
+GO:0003714~transcription corepressor activity	0.0134678373618841
+GO:0097367~carbohydrate derivative binding	0.0143079837632394
+GO:1901681~sulfur compound binding	0.0157110050398976
+GO:0016247~channel regulator activity	0.0176194158228169
+GO:0003824~catalytic activity	0.0290701248739099
+GO:0030234~enzyme regulator activity	0.0293202147352914
+GO:0005515~protein binding	0.0302231952943147
+GO:0008289~lipid binding	0.0321905571780972
+GO:0033293~monocarboxylic acid binding	0.0331563942905829
+GO:0048037~cofactor binding	0.0334901224279183
+GO:0001047~core promoter binding	0.0339926193349552
+GO:0031406~carboxylic acid binding	0.036650356087593
+GO:0008236~serine-type peptidase activity	0.0388984589905313
+GO:0005215~transporter activity	0.0391591782043933
+GO:0017171~serine hydrolase activity	0.0407170507772766
+GO:0016782~transferase activity, transferring sulfur-containing groups	0.0417020894107749
+GO:0002020~protease binding	0.0418567799698166
+GO:0019904~protein domain specific binding	0.0423108075371773
+GO:0009055~electron carrier activity	0.0440857306812882
+GO:0015291~secondary active transmembrane transporter activity	0.0471726297142754
+GO:0051117~ATPase binding	0.0495852607960996

@@ -1,0 +1,66 @@
+GO:0000149~SNARE binding	5.8783756795558e-15
+GO:0005484~SNAP receptor activity	4.75726274785952e-13
+GO:0005515~protein binding	6.16731062543434e-12
+GO:0019905~syntaxin binding	5.60998057308326e-11
+GO:0008565~protein transporter activity	1.64881233542238e-05
+GO:0030276~clathrin binding	3.02330381498593e-05
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.000132395476964941
+GO:0005537~mannose binding	0.000161653180216035
+GO:0019003~GDP binding	0.000203372737038733
+GO:0017111~nucleoside-triphosphatase activity	0.000267397063677446
+GO:0005488~binding	0.000351321996490123
+GO:0019899~enzyme binding	0.000445439193972484
+GO:0016462~pyrophosphatase activity	0.000457880353067352
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.000468512700980381
+GO:0005215~transporter activity	0.000654817459947449
+GO:0042802~identical protein binding	0.000848860888151342
+GO:0098748~endocytic adaptor activity	0.00125750066111095
+GO:0035615~clathrin adaptor activity	0.00125750066111095
+GO:0003924~GTPase activity	0.00166292658804805
+GO:0042803~protein homodimerization activity	0.00186050676375452
+GO:0048029~monosaccharide binding	0.00219937344725052
+GO:0022892~substrate-specific transporter activity	0.00297589549069241
+GO:0050839~cell adhesion molecule binding	0.00341809534321081
+GO:0016820~hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances	0.00357351729913276
+GO:0051020~GTPase binding	0.00722937928003661
+GO:0030742~GTP-dependent protein binding	0.00734375933565728
+GO:0019901~protein kinase binding	0.00787510982844104
+GO:0005086~ARF guanyl-nucleotide exchange factor activity	0.00795453482755785
+GO:0032403~protein complex binding	0.00814065266067552
+GO:0019902~phosphatase binding	0.00963839188224778
+GO:0030674~protein binding, bridging	0.0114492724097552
+GO:0019900~kinase binding	0.0149125709943143
+GO:0060090~binding, bridging	0.0159910837369776
+GO:0005483~soluble NSF attachment protein activity	0.0160859540088614
+GO:0005525~GTP binding	0.017593642825952
+GO:0005178~integrin binding	0.0196189448722728
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.0202896336715517
+GO:0046983~protein dimerization activity	0.0216305410032028
+GO:0032561~guanyl ribonucleotide binding	0.0222039029120263
+GO:0019001~guanyl nucleotide binding	0.0224419720486109
+GO:0098632~protein binding involved in cell-cell adhesion	0.0233820133306711
+GO:0042626~ATPase activity, coupled to transmembrane movement of substances	0.0237175149524568
+GO:0098631~protein binding involved in cell adhesion	0.0248833468969786
+GO:0008289~lipid binding	0.0251156396303329
+GO:0045296~cadherin binding	0.0251909006940112
+GO:0015399~primary active transmembrane transporter activity	0.0294437565497453
+GO:0015405~P-P-bond-hydrolysis-driven transmembrane transporter activity	0.0294437565497453
+GO:0036094~small molecule binding	0.0308655288149004
+GO:0016887~ATPase activity	0.031294291960097
+GO:0043492~ATPase activity, coupled to movement of substances	0.0325570658364599
+GO:0016787~hydrolase activity	0.0347781112676535
+GO:0035639~purine ribonucleoside triphosphate binding	0.036335399910721
+GO:0098772~molecular function regulator	0.036401284368078
+GO:0032550~purine ribonucleoside binding	0.0377611861670344
+GO:0005507~copper ion binding	0.037874878336424
+GO:0032549~ribonucleoside binding	0.0382454972526128
+GO:0001883~purine nucleoside binding	0.0382454972526128
+GO:0001882~nucleoside binding	0.0393933330763861
+GO:0030234~enzyme regulator activity	0.0416509431735919
+GO:0017022~myosin binding	0.0428344531179483
+GO:0032555~purine ribonucleotide binding	0.0435210898785555
+GO:0017076~purine nucleotide binding	0.045884052992394
+GO:0032553~ribonucleotide binding	0.0464422789580583
+GO:0031748~D1 dopamine receptor binding	0.0474940111460466
+GO:0022804~active transmembrane transporter activity	0.0482870002063595
+GO:0019829~cation-transporting ATPase activity	0.0493530057288626

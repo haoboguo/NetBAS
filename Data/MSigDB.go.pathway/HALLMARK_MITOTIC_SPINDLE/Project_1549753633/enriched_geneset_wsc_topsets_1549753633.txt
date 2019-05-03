@@ -1,0 +1,11 @@
+# Coverage: 0.96875
+hsa04810
+hsa04114
+hsa04530
+hsa05132
+hsa04014
+hsa05100
+hsa05206
+hsa05130
+hsa04666
+hsa04110

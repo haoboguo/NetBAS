@@ -1,0 +1,301 @@
+GO:0016192~vesicle-mediated transport	3.24307543119823e-52
+GO:0015031~protein transport	4.13901913824301e-43
+GO:0045184~establishment of protein localization	4.66090876534482e-42
+GO:0008104~protein localization	1.21558396184709e-36
+GO:0046907~intracellular transport	7.29511829347058e-36
+GO:0006810~transport	7.82080829733721e-35
+GO:0048193~Golgi vesicle transport	7.87404341455731e-35
+GO:0051234~establishment of localization	6.60794160148271e-34
+GO:0071702~organic substance transport	3.2214882047146e-33
+GO:0033036~macromolecule localization	9.78226762251435e-33
+GO:0051649~establishment of localization in cell	1.22046616452854e-32
+GO:0051641~cellular localization	4.34361634447679e-31
+GO:0051179~localization	2.53811972842853e-29
+GO:0016050~vesicle organization	1.12505410772435e-25
+GO:0006888~ER to Golgi vesicle-mediated transport	6.69160212176823e-24
+GO:0010256~endomembrane system organization	8.96882553230349e-22
+GO:0007034~vacuolar transport	1.73584451385305e-20
+GO:0016197~endosomal transport	3.16740528302013e-19
+GO:0061024~membrane organization	3.99015214141093e-19
+GO:0051640~organelle localization	1.61236519181351e-16
+GO:0034613~cellular protein localization	1.90973824857006e-16
+GO:0046903~secretion	2.31103651889834e-16
+GO:0070727~cellular macromolecule localization	2.50724815083895e-16
+GO:0006903~vesicle targeting	3.00822919371236e-16
+GO:0032940~secretion by cell	4.05010772917685e-16
+GO:0051656~establishment of organelle localization	1.04021683748475e-15
+GO:0051650~establishment of vesicle localization	1.33908141217081e-15
+GO:0006886~intracellular protein transport	2.03080069137545e-15
+GO:0016482~cytosolic transport	2.2530783972329e-15
+GO:0051648~vesicle localization	3.08735208046788e-15
+GO:0006887~exocytosis	5.76927368357006e-15
+GO:0061025~membrane fusion	8.8222250497624e-15
+GO:0006900~membrane budding	2.34039224320048e-14
+GO:0006996~organelle organization	3.62597144533037e-14
+GO:0006901~vesicle coating	4.49385180069607e-14
+GO:0048199~vesicle targeting, to, from or within Golgi	6.46781693511751e-14
+GO:1902578~single-organism localization	1.68706356911012e-13
+GO:0048284~organelle fusion	3.34174450612875e-13
+GO:0006890~retrograde vesicle-mediated transport, Golgi to ER	9.36533995567622e-13
+GO:0006906~vesicle fusion	1.15105055694722e-12
+GO:0048207~vesicle targeting, rough ER to cis-Golgi	1.31876446577418e-12
+GO:0048208~COPII vesicle coating	1.31876446577418e-12
+GO:0044765~single-organism transport	1.69682332766172e-12
+GO:0090174~organelle membrane fusion	1.96243481924845e-12
+GO:0090114~COPII-coated vesicle budding	2.57063393818237e-12
+GO:0006892~post-Golgi vesicle-mediated transport	2.57063393818237e-12
+GO:0044801~single-organism membrane fusion	3.65047535506555e-12
+GO:0007030~Golgi organization	4.37249363433347e-12
+GO:0016043~cellular component organization	2.48018917306791e-11
+GO:0044802~single-organism membrane organization	4.26956259919094e-11
+GO:0006897~endocytosis	8.20370404393461e-11
+GO:0071840~cellular component organization or biogenesis	8.85765845400343e-11
+GO:0042147~retrograde transport, endosome to Golgi	6.84138757724611e-10
+GO:0007033~vacuole organization	2.57242506679685e-09
+GO:0042059~negative regulation of epidermal growth factor receptor signaling pathway	5.23905924556247e-09
+GO:1901185~negative regulation of ERBB signaling pathway	6.15139986009822e-09
+GO:0006891~intra-Golgi vesicle-mediated transport	9.73864489918022e-09
+GO:0022607~cellular component assembly	2.09018862237088e-08
+GO:0048278~vesicle docking	2.89043126102816e-08
+GO:0006898~receptor-mediated endocytosis	4.42939758494992e-08
+GO:0019886~antigen processing and presentation of exogenous peptide antigen via MHC class II	4.51169962702895e-08
+GO:0002495~antigen processing and presentation of peptide antigen via MHC class II	6.31103070281455e-08
+GO:0071822~protein complex subunit organization	6.97511980305619e-08
+GO:0002504~antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	8.03738730717959e-08
+GO:0022406~membrane docking	1.23546120061573e-07
+GO:0048280~vesicle fusion with Golgi apparatus	1.884555221875e-07
+GO:0006461~protein complex assembly	2.30116027343339e-07
+GO:0070271~protein complex biogenesis	2.33168093004048e-07
+GO:0044085~cellular component biogenesis	3.5608481362678e-07
+GO:0007009~plasma membrane organization	4.14883042199084e-07
+GO:0019884~antigen processing and presentation of exogenous antigen	4.37614961933227e-07
+GO:0042058~regulation of epidermal growth factor receptor signaling pathway	4.38059615114749e-07
+GO:1902589~single-organism organelle organization	4.84465712425088e-07
+GO:1901184~regulation of ERBB signaling pathway	5.57501511373272e-07
+GO:0006896~Golgi to vacuole transport	7.47653748480163e-07
+GO:0060627~regulation of vesicle-mediated transport	1.26263965896953e-06
+GO:0065003~macromolecular complex assembly	1.49759785763576e-06
+GO:0038127~ERBB signaling pathway	1.76817376583857e-06
+GO:1902580~single-organism cellular localization	2.36004370293255e-06
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	2.92882534745779e-06
+GO:0002478~antigen processing and presentation of exogenous peptide antigen	3.47668577617411e-06
+GO:0045921~positive regulation of exocytosis	4.17665838785004e-06
+GO:1990778~protein localization to cell periphery	4.87471912043135e-06
+GO:0007018~microtubule-based movement	4.87471912043135e-06
+GO:0007173~epidermal growth factor receptor signaling pathway	4.88660570155525e-06
+GO:0019882~antigen processing and presentation	5.05281532754408e-06
+GO:0017157~regulation of exocytosis	6.42067723843322e-06
+GO:0048002~antigen processing and presentation of peptide antigen	7.27036309486724e-06
+GO:0007017~microtubule-based process	8.31307165731911e-06
+GO:1903530~regulation of secretion by cell	1.03330311597832e-05
+GO:0051128~regulation of cellular component organization	1.62526485075443e-05
+GO:0050690~regulation of defense response to virus by virus	1.96460948063092e-05
+GO:0072659~protein localization to plasma membrane	2.0917458766846e-05
+GO:0051046~regulation of secretion	2.54405959697072e-05
+GO:0045055~regulated exocytosis	3.37014109043579e-05
+GO:0007032~endosome organization	3.62543833965398e-05
+GO:0043001~Golgi to plasma membrane protein transport	4.72856063776321e-05
+GO:0043933~macromolecular complex subunit organization	4.85476696536419e-05
+GO:0032879~regulation of localization	5.31428190224277e-05
+GO:0007041~lysosomal transport	7.55024643070957e-05
+GO:0044763~single-organism cellular process	8.43345887286473e-05
+GO:1903532~positive regulation of secretion by cell	8.97906100369169e-05
+GO:0072583~clathrin-mediated endocytosis	0.000105307176971972
+GO:0006914~autophagy	0.000115059199196339
+GO:0090002~establishment of protein localization to plasma membrane	0.000145410654835012
+GO:0051452~intracellular pH reduction	0.000148384447002077
+GO:0045851~pH reduction	0.000160885316777985
+GO:0051047~positive regulation of secretion	0.000166965512570053
+GO:0035964~COPI-coated vesicle budding	0.000184673672948757
+GO:0048200~Golgi transport vesicle coating	0.000184673672948757
+GO:0048205~COPI coating of Golgi vesicle	0.000184673672948757
+GO:0006895~Golgi to endosome transport	0.000210009319696153
+GO:0002252~immune effector process	0.000243616516992735
+GO:0007167~enzyme linked receptor protein signaling pathway	0.000254236819780676
+GO:0032880~regulation of protein localization	0.000278089725966954
+GO:0051049~regulation of transport	0.000303168399121005
+GO:0030004~cellular monovalent inorganic cation homeostasis	0.000380289407884004
+GO:0008089~anterograde axonal transport	0.000450762686035004
+GO:0050792~regulation of viral process	0.000670211251689073
+GO:0048489~synaptic vesicle transport	0.000733183298157443
+GO:0097480~establishment of synaptic vesicle localization	0.000733183298157443
+GO:0098930~axonal transport	0.000820628111644204
+GO:0097479~synaptic vesicle localization	0.000933745704599257
+GO:0035493~SNARE complex assembly	0.0010879842110082
+GO:0043903~regulation of symbiosis, encompassing mutualism through parasitism	0.00109604346881929
+GO:0065008~regulation of biological quality	0.00120905277175164
+GO:0055067~monovalent inorganic cation homeostasis	0.00124841831041684
+GO:0044403~symbiosis, encompassing mutualism through parasitism	0.00127250379509078
+GO:0044419~interspecies interaction between organisms	0.00127250379509078
+GO:0008088~axo-dendritic transport	0.00134163860190142
+GO:0048194~Golgi vesicle budding	0.00135502673085875
+GO:0043623~cellular protein complex assembly	0.00140165230678966
+GO:0050688~regulation of defense response to virus	0.00143755793686421
+GO:0051453~regulation of intracellular pH	0.00149962838547363
+GO:0030641~regulation of cellular pH	0.0016293314439474
+GO:0072657~protein localization to membrane	0.00166304995816671
+GO:0008333~endosome to lysosome transport	0.00190540897403817
+GO:0030705~cytoskeleton-dependent intracellular transport	0.0019873698832492
+GO:0043473~pigmentation	0.0019873698832492
+GO:0050878~regulation of body fluid levels	0.00201562329982526
+GO:0006885~regulation of pH	0.00214469447953117
+GO:0002697~regulation of immune effector process	0.00231666796967231
+GO:0023061~signal release	0.00234029946991345
+GO:0010970~establishment of localization by movement along microtubule	0.00239650268040421
+GO:0007029~endoplasmic reticulum organization	0.00244854448515624
+GO:0016032~viral process	0.00275896053950918
+GO:0044764~multi-organism cellular process	0.00293632364952058
+GO:1903543~positive regulation of exosomal secretion	0.00310463749457189
+GO:0080171~lytic vacuole organization	0.00325021112408684
+GO:0007040~lysosome organization	0.00325021112408684
+GO:0009611~response to wounding	0.00338296323591343
+GO:0032012~regulation of ARF protein signal transduction	0.00353526597201228
+GO:1902188~positive regulation of viral release from host cell	0.00353526597201228
+GO:0044700~single organism signaling	0.00356569879133218
+GO:0017156~calcium ion regulated exocytosis	0.00360766439596625
+GO:0002376~immune system process	0.00397217290493479
+GO:0044699~single-organism process	0.00406371695939353
+GO:0023052~signaling	0.00432228826023729
+GO:0051704~multi-organism process	0.00437082034320137
+GO:1903541~regulation of exosomal secretion	0.00447479121741068
+GO:0007154~cell communication	0.00456060093392055
+GO:0090150~establishment of protein localization to membrane	0.00459202145234206
+GO:1903305~regulation of regulated secretory pathway	0.00461280979605554
+GO:0033043~regulation of organelle organization	0.00473690733764752
+GO:0001775~cell activation	0.00474327141262998
+GO:1990182~exosomal secretion	0.00498308974926771
+GO:0043162~ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway	0.00498308974926771
+GO:0072384~organelle transport along microtubule	0.0050607370379434
+GO:0051050~positive regulation of transport	0.0051694353106108
+GO:0043900~regulation of multi-organism process	0.00523013777341896
+GO:0043087~regulation of GTPase activity	0.00524905778369437
+GO:1902582~single-organism intracellular transport	0.00546226762099185
+GO:0007035~vacuolar acidification	0.00551668417817486
+GO:0030100~regulation of endocytosis	0.00554228342102662
+GO:0043299~leukocyte degranulation	0.00602562667142152
+GO:1903076~regulation of protein localization to plasma membrane	0.00602562667142152
+GO:1904375~regulation of protein localization to cell periphery	0.00628281276791252
+GO:0002263~cell activation involved in immune response	0.00704002204547035
+GO:1901700~response to oxygen-containing compound	0.00709070686125026
+GO:0002831~regulation of response to biotic stimulus	0.00715585307396538
+GO:0030149~sphingolipid catabolic process	0.00726632523834524
+GO:0046688~response to copper ion	0.00726632523834524
+GO:0072593~reactive oxygen species metabolic process	0.00818329523362466
+GO:1903729~regulation of plasma membrane organization	0.00857649883219638
+GO:0023051~regulation of signaling	0.00871144659238
+GO:0046466~membrane lipid catabolic process	0.009233227014819
+GO:0051607~defense response to virus	0.00928453128102388
+GO:0007264~small GTPase mediated signal transduction	0.00938830746253263
+GO:0007267~cell-cell signaling	0.0097205566268001
+GO:0043112~receptor metabolic process	0.0100249215918531
+GO:0001701~in utero embryonic development	0.0107041183086869
+GO:0001909~leukocyte mediated cytotoxicity	0.010937526782746
+GO:0042060~wound healing	0.0109982772578385
+GO:1903409~reactive oxygen species biosynthetic process	0.0120531363794817
+GO:0007596~blood coagulation	0.0124249254854465
+GO:0048013~ephrin receptor signaling pathway	0.0128319188649078
+GO:1901701~cellular response to oxygen-containing compound	0.0128385027672218
+GO:0036258~multivesicular body assembly	0.0129736746036992
+GO:0010646~regulation of cell communication	0.0133452603160064
+GO:0015991~ATP hydrolysis coupled proton transport	0.0137886495525524
+GO:0036257~multivesicular body organization	0.0137886495525524
+GO:1902186~regulation of viral release from host cell	0.0137886495525524
+GO:0015988~energy coupled proton transmembrane transport, against electrochemical gradient	0.0137886495525524
+GO:0007599~hemostasis	0.0152637099581939
+GO:0050817~coagulation	0.0152637099581939
+GO:0019076~viral release from host cell	0.0154833514758335
+GO:0009306~protein secretion	0.0161544789025341
+GO:0006904~vesicle docking involved in exocytosis	0.0163625551333684
+GO:0033572~transferrin transport	0.0163625551333684
+GO:0047496~vesicle transport along microtubule	0.0172626487090339
+GO:0090662~ATP hydrolysis coupled transmembrane transport	0.0172626487090339
+GO:0051707~response to other organism	0.0174567922887803
+GO:0043207~response to external biotic stimulus	0.0174567922887803
+GO:0071417~cellular response to organonitrogen compound	0.0175604842875973
+GO:0060341~regulation of cellular localization	0.0181268389977557
+GO:0090066~regulation of anatomical structure size	0.0188601271487607
+GO:0090382~phagosome maturation	0.0191244830278704
+GO:0032101~regulation of response to external stimulus	0.0195246032107738
+GO:0099003~vesicle mediated transport in synapse	0.0195802156664434
+GO:0009605~response to external stimulus	0.0198841715445823
+GO:0072512~trivalent inorganic cation transport	0.0200857178608248
+GO:0015682~ferric iron transport	0.0200857178608248
+GO:0007166~cell surface receptor signaling pathway	0.02028327835627
+GO:0043303~mast cell degranulation	0.0210668307628607
+GO:0060071~Wnt signaling pathway, planar cell polarity pathway	0.0221893388546064
+GO:0050708~regulation of protein secretion	0.0227359419327816
+GO:0002448~mast cell mediated immunity	0.0230877023074357
+GO:0045104~intermediate filament cytoskeleton organization	0.0230877023074357
+GO:0043300~regulation of leukocyte degranulation	0.0230877023074357
+GO:0048285~organelle fission	0.0232276610485949
+GO:0048583~regulation of response to stimulus	0.0236012502218589
+GO:0090175~regulation of establishment of planar polarity	0.0238416061770108
+GO:0009607~response to biotic stimulus	0.024025917382601
+GO:0045103~intermediate filament-based process	0.0241269719434865
+GO:0099518~vesicle cytoskeletal trafficking	0.0241269719434865
+GO:0034622~cellular macromolecular complex assembly	0.0243908271133955
+GO:0006836~neurotransmitter transport	0.0247316803536944
+GO:0001906~cell killing	0.024979283311793
+GO:0071375~cellular response to peptide hormone stimulus	0.0250140062675248
+GO:0046879~hormone secretion	0.0250140062675248
+GO:1902600~hydrogen ion transmembrane transport	0.0255589657617265
+GO:0000041~transition metal ion transport	0.0255589657617265
+GO:0008286~insulin receptor signaling pathway	0.0255589657617265
+GO:0043547~positive regulation of GTPase activity	0.0256647694629292
+GO:0099504~synaptic vesicle cycle	0.0267400016631181
+GO:0016236~macroautophagy	0.0272207530552565
+GO:0055080~cation homeostasis	0.0276068636440141
+GO:0002279~mast cell activation involved in immune response	0.0284706675256684
+GO:0009914~hormone transport	0.0286865616325117
+GO:0010038~response to metal ion	0.0293891644920263
+GO:0070925~organelle assembly	0.029882718714271
+GO:0009615~response to virus	0.0304634154295264
+GO:0098771~inorganic ion homeostasis	0.0310681255452434
+GO:0007164~establishment of tissue polarity	0.0311006068138738
+GO:0001736~establishment of planar polarity	0.0311006068138738
+GO:0002366~leukocyte activation involved in immune response	0.0312269874560389
+GO:0033059~cellular pigmentation	0.0319177987984721
+GO:1901653~cellular response to peptide	0.0319339545948999
+GO:0016241~regulation of macroautophagy	0.032411102920648
+GO:0050896~response to stimulus	0.0329443918557668
+GO:1903593~regulation of histamine secretion by mast cell	0.0331257315238066
+GO:0007042~lysosomal lumen acidification	0.0331257315238066
+GO:1903551~regulation of extracellular exosome assembly	0.0331257315238066
+GO:0046477~glycosylceramide catabolic process	0.0331257315238066
+GO:0002553~histamine secretion by mast cell	0.0331257315238066
+GO:0002349~histamine production involved in inflammatory response	0.0331257315238066
+GO:0002441~histamine secretion involved in inflammatory response	0.0331257315238066
+GO:0060429~epithelium development	0.0344060895925628
+GO:0031347~regulation of defense response	0.0356042320640724
+GO:0010033~response to organic substance	0.0363963060505911
+GO:1901699~cellular response to nitrogen compound	0.0369516437359843
+GO:1990267~response to transition metal nanoparticle	0.0379379141235327
+GO:0045576~mast cell activation	0.0392722687281969
+GO:0032418~lysosome localization	0.0392722687281969
+GO:0070201~regulation of establishment of protein localization	0.0399527968962185
+GO:0001738~morphogenesis of a polarized epithelium	0.0401270220948564
+GO:0006928~movement of cell or subcellular component	0.0403663562719729
+GO:0009790~embryo development	0.0405419440412523
+GO:0006801~superoxide metabolic process	0.0405550853540679
+GO:0030003~cellular cation homeostasis	0.0416700268096535
+GO:0050801~ion homeostasis	0.0420314544490037
+GO:0043009~chordate embryonic development	0.0429918799576782
+GO:0002682~regulation of immune system process	0.0431112891557063
+GO:0007269~neurotransmitter secretion	0.0431436520443673
+GO:0099643~signal release from synapse	0.0431436520443673
+GO:0019725~cellular homeostasis	0.0434345157490133
+GO:0007088~regulation of mitotic nuclear division	0.0439151616420304
+GO:0043320~natural killer cell degranulation	0.0439245396344365
+GO:0009792~embryo development ending in birth or egg hatching	0.0450255155029138
+GO:0006950~response to stress	0.0453778199219475
+GO:0006826~iron ion transport	0.0458415323164295
+GO:0006873~cellular ion homeostasis	0.0467671465885891
+GO:0001890~placenta development	0.0478758798062059
+GO:0099531~presynaptic process involved in chemical synaptic transmission	0.0478758798062059
+GO:0032535~regulation of cellular component size	0.0486141687132582
+GO:0032930~positive regulation of superoxide anion generation	0.0492791090616655
+GO:0035459~cargo loading into vesicle	0.0492791090616655
+GO:0043653~mitochondrial fragmentation involved in apoptotic process	0.0492791090616655
+GO:0035751~regulation of lysosomal lumen pH	0.0492791090616655
+GO:0002274~myeloid leukocyte activation	0.0495079366990728
+GO:0002443~leukocyte mediated immunity	0.0495860126462439

@@ -1,0 +1,74 @@
+GO:0003723~RNA binding	6.11789963972522e-14
+GO:0004532~exoribonuclease activity	2.55128009336037e-11
+GO:0016896~exoribonuclease activity, producing 5'-phosphomonoesters	4.04243763969918e-10
+GO:0004540~ribonuclease activity	1.0667582912765e-09
+GO:0003676~nucleic acid binding	3.07966811474205e-09
+GO:0044822~poly(A) RNA binding	5.29116318275121e-09
+GO:0016796~exonuclease activity, active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters	1.55460087633091e-08
+GO:0000175~3'-5'-exoribonuclease activity	1.67743078722314e-08
+GO:1901363~heterocyclic compound binding	2.78373881749235e-08
+GO:0004527~exonuclease activity	3.71537486050597e-08
+GO:0097159~organic cyclic compound binding	4.96836433726072e-08
+GO:0004518~nuclease activity	1.17279169846449e-07
+GO:0005515~protein binding	1.54517125793769e-07
+GO:0008408~3'-5' exonuclease activity	5.7186961351882e-07
+GO:0019899~enzyme binding	1.31380643429795e-05
+GO:0051787~misfolded protein binding	4.39764526856066e-05
+GO:0043021~ribonucleoprotein complex binding	5.66246930255713e-05
+GO:0051087~chaperone binding	0.000124027067408283
+GO:0008134~transcription factor binding	0.000242964961020927
+GO:0005488~binding	0.00043259710523453
+GO:0003743~translation initiation factor activity	0.000484933368890792
+GO:0008135~translation factor activity, RNA binding	0.000608316269202244
+GO:0030515~snoRNA binding	0.000678391220770111
+GO:0003729~mRNA binding	0.000679244697501525
+GO:0016787~hydrolase activity	0.00108638187352807
+GO:0035258~steroid hormone receptor binding	0.00128610737955812
+GO:0044389~ubiquitin-like protein ligase binding	0.00185598189674226
+GO:0046982~protein heterodimerization activity	0.00187917985779315
+GO:0016788~hydrolase activity, acting on ester bonds	0.00235745607739529
+GO:0004535~poly(A)-specific ribonuclease activity	0.0026483223729653
+GO:0019900~kinase binding	0.00296576974531246
+GO:0000339~RNA cap binding	0.00307768773907047
+GO:0046983~protein dimerization activity	0.00368579766828989
+GO:0043022~ribosome binding	0.00392057125049398
+GO:0051082~unfolded protein binding	0.00429233558810274
+GO:0019901~protein kinase binding	0.00453535891150958
+GO:0004004~ATP-dependent RNA helicase activity	0.00724182975247987
+GO:0035257~nuclear hormone receptor binding	0.00751105202243108
+GO:0008186~RNA-dependent ATPase activity	0.00754880626381903
+GO:0031625~ubiquitin protein ligase binding	0.00755189682342742
+GO:0003724~RNA helicase activity	0.00786338394782669
+GO:0042803~protein homodimerization activity	0.0119790447183775
+GO:0097367~carbohydrate derivative binding	0.0121872958649342
+GO:0051427~hormone receptor binding	0.0125735878491325
+GO:0000166~nucleotide binding	0.0128736868368116
+GO:1901265~nucleoside phosphate binding	0.0129348737156022
+GO:0042802~identical protein binding	0.0149013344107736
+GO:0031369~translation initiation factor binding	0.0156430618896326
+GO:0017076~purine nucleotide binding	0.0165004775597776
+GO:0030554~adenyl nucleotide binding	0.0205557401086049
+GO:0030331~estrogen receptor binding	0.0206030061583067
+GO:0045182~translation regulator activity	0.0206030061583067
+GO:0035639~purine ribonucleoside triphosphate binding	0.0243866175338676
+GO:0070035~purine NTP-dependent helicase activity	0.0251143793921439
+GO:0008026~ATP-dependent helicase activity	0.0251143793921439
+GO:0032550~purine ribonucleoside binding	0.0254713105501356
+GO:0016462~pyrophosphatase activity	0.0255645673567148
+GO:0032549~ribonucleoside binding	0.0258409876329597
+GO:0001883~purine nucleoside binding	0.0258409876329597
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.0259404563699564
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.0263203293674645
+GO:0001882~nucleoside binding	0.0267195667047589
+GO:0036094~small molecule binding	0.0285615316082425
+GO:0032555~purine ribonucleotide binding	0.029906129709049
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.0301539550878067
+GO:0005524~ATP binding	0.0321796570832435
+GO:0032553~ribonucleotide binding	0.0321854351201527
+GO:0098632~protein binding involved in cell-cell adhesion	0.0345757501059545
+GO:0098631~protein binding involved in cell adhesion	0.0367122037657142
+GO:0045296~cadherin binding	0.0371490726734164
+GO:0032559~adenyl ribonucleotide binding	0.038532482234121
+GO:0017111~nucleoside-triphosphatase activity	0.0435978171758796
+GO:0044877~macromolecular complex binding	0.0475027516775631
+GO:0016887~ATPase activity	0.0481365776719929

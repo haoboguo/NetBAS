@@ -1,0 +1,109 @@
+GO:0016491~oxidoreductase activity	7.01678381440036e-75
+GO:0015078~hydrogen ion transmembrane transporter activity	1.1368339462268e-62
+GO:0009055~electron carrier activity	2.95778109385114e-45
+GO:0016651~oxidoreductase activity, acting on NAD(P)H	4.13413538979362e-42
+GO:0050136~NADH dehydrogenase (quinone) activity	1.02070660546584e-40
+GO:0003954~NADH dehydrogenase activity	1.02070660546584e-40
+GO:0008137~NADH dehydrogenase (ubiquinone) activity	1.02070660546584e-40
+GO:0016655~oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	1.38745429822547e-38
+GO:0015077~monovalent inorganic cation transmembrane transporter activity	4.28799115753449e-38
+GO:0003824~catalytic activity	1.50460249673336e-36
+GO:0044769~ATPase activity, coupled to transmembrane movement of ions, rotational mechanism	6.40112733455667e-31
+GO:0022857~transmembrane transporter activity	1.61736315919099e-30
+GO:0022890~inorganic cation transmembrane transporter activity	2.9569364599463e-30
+GO:0048037~cofactor binding	3.12281453010349e-29
+GO:0022891~substrate-specific transmembrane transporter activity	8.46245712438679e-29
+GO:0008324~cation transmembrane transporter activity	7.5953854177404e-28
+GO:0015075~ion transmembrane transporter activity	9.97596918333448e-28
+GO:0022892~substrate-specific transporter activity	2.9133539807881e-27
+GO:0019829~cation-transporting ATPase activity	6.46601284508746e-27
+GO:0005215~transporter activity	8.65568002170218e-27
+GO:0042625~ATPase coupled ion transmembrane transporter activity	4.4485259791362e-25
+GO:0015399~primary active transmembrane transporter activity	2.19474112565914e-24
+GO:0015405~P-P-bond-hydrolysis-driven transmembrane transporter activity	2.19474112565914e-24
+GO:0042626~ATPase activity, coupled to transmembrane movement of substances	6.32278897153093e-24
+GO:0016820~hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances	9.87269737908788e-24
+GO:0050662~coenzyme binding	1.35456526927145e-23
+GO:0046933~proton-transporting ATP synthase activity, rotational mechanism	8.64130589112667e-23
+GO:0043492~ATPase activity, coupled to movement of substances	1.45930310814247e-22
+GO:0004129~cytochrome-c oxidase activity	5.67780294565293e-22
+GO:0015002~heme-copper terminal oxidase activity	5.67780294565293e-22
+GO:0016676~oxidoreductase activity, acting on a heme group of donors, oxygen as acceptor	5.67780294565293e-22
+GO:0016675~oxidoreductase activity, acting on a heme group of donors	1.08845404717323e-21
+GO:0022853~active ion transmembrane transporter activity	1.7234607270193e-21
+GO:0036442~hydrogen-exporting ATPase activity	2.67269092836192e-20
+GO:0046961~proton-transporting ATPase activity, rotational mechanism	3.42852325039032e-19
+GO:0051287~NAD binding	1.79175908685364e-17
+GO:0022804~active transmembrane transporter activity	1.62911928909416e-15
+GO:0042623~ATPase activity, coupled	6.14812072155643e-15
+GO:0016887~ATPase activity	2.0404801076533e-14
+GO:0051536~iron-sulfur cluster binding	5.61573846850174e-13
+GO:0051540~metal cluster binding	5.61573846850174e-13
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	3.06563259088637e-12
+GO:0017111~nucleoside-triphosphatase activity	1.37528650192222e-11
+GO:0016462~pyrophosphatase activity	6.2851985495891e-11
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	6.70710952175131e-11
+GO:0016817~hydrolase activity, acting on acid anhydrides	7.15584957757522e-11
+GO:0051537~2 iron, 2 sulfur cluster binding	2.31177088571019e-10
+GO:0008121~ubiquinol-cytochrome-c reductase activity	4.17739746931324e-10
+GO:0016681~oxidoreductase activity, acting on diphenols and related substances as donors, cytochrome as acceptor	4.17739746931324e-10
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	8.3278207380505e-10
+GO:0016679~oxidoreductase activity, acting on diphenols and related substances as donors	9.1030328587464e-10
+GO:0003735~structural constituent of ribosome	5.58223967810079e-09
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	5.8921142250771e-09
+GO:0051539~4 iron, 4 sulfur cluster binding	2.13651202371754e-08
+GO:0003988~acetyl-CoA C-acyltransferase activity	2.44052376150422e-07
+GO:0050660~flavin adenine dinucleotide binding	2.85935765757509e-07
+GO:0004448~isocitrate dehydrogenase activity	5.64357171998022e-07
+GO:0016903~oxidoreductase activity, acting on the aldehyde or oxo group of donors	8.40601245308821e-07
+GO:0034604~pyruvate dehydrogenase (NAD+) activity	1.11861221875554e-06
+GO:0034603~pyruvate dehydrogenase [NAD(P)+] activity	1.11861221875554e-06
+GO:0004738~pyruvate dehydrogenase activity	1.11861221875554e-06
+GO:0016620~oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor	3.02506699008431e-06
+GO:0000104~succinate dehydrogenase activity	5.83649718693773e-06
+GO:0000062~fatty-acyl-CoA binding	2.09514076602265e-05
+GO:0048038~quinone binding	5.61179927925522e-05
+GO:0016624~oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	0.000117486800579937
+GO:0016408~C-acyltransferase activity	0.000173578755543751
+GO:0015207~adenine transmembrane transporter activity	0.000387186752586906
+GO:0004449~isocitrate dehydrogenase (NAD+) activity	0.000387186752586906
+GO:0008177~succinate dehydrogenase (ubiquinone) activity	0.000387186752586906
+GO:0036094~small molecule binding	0.000576496595555944
+GO:0052890~oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor	0.000738319261906661
+GO:0016635~oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor	0.00076853700798612
+GO:0000166~nucleotide binding	0.000776108190132206
+GO:1901265~nucleoside phosphate binding	0.000782942637708199
+GO:0003995~acyl-CoA dehydrogenase activity	0.000889013091983303
+GO:0016746~transferase activity, transferring acyl groups	0.000994907066709884
+GO:0005345~purine nucleobase transmembrane transporter activity	0.00189252831804887
+GO:0004300~enoyl-CoA hydratase activity	0.00189252831804887
+GO:0048039~ubiquinone binding	0.00189252831804887
+GO:0015288~porin activity	0.00189252831804887
+GO:0016836~hydro-lyase activity	0.00292173594402442
+GO:0015205~nucleobase transmembrane transporter activity	0.00347983600716204
+GO:0005198~structural molecule activity	0.00379690302114915
+GO:0003857~3-hydroxyacyl-CoA dehydrogenase activity	0.0044405072089453
+GO:0008553~hydrogen-exporting ATPase activity, phosphorylative mechanism	0.0044405072089453
+GO:0016747~transferase activity, transferring acyl groups other than amino-acyl groups	0.00478027791375984
+GO:0016829~lyase activity	0.0061126281668889
+GO:0015662~ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	0.00678468900312517
+GO:0016835~carbon-oxygen lyase activity	0.00976155216178104
+GO:0016787~hydrolase activity	0.0116771199155525
+GO:0051087~chaperone binding	0.0139107731088417
+GO:0008308~voltage-gated anion channel activity	0.0176409570326732
+GO:0004775~succinate-CoA ligase (ADP-forming) activity	0.0227359006776052
+GO:0051538~3 iron, 4 sulfur cluster binding	0.0227359006776052
+GO:0004450~isocitrate dehydrogenase (NADP+) activity	0.0227359006776052
+GO:0045155~electron transporter, transferring electrons from CoQH2-cytochrome c reductase complex and cytochrome c oxidase complex activity	0.0227359006776052
+GO:0008198~ferrous iron binding	0.0258523680952291
+GO:0008565~protein transporter activity	0.0277818638875011
+GO:0022829~wide pore channel activity	0.0304330004505554
+GO:0044822~poly(A) RNA binding	0.0328251231750172
+GO:0016509~long-chain-3-hydroxyacyl-CoA dehydrogenase activity	0.0339102576414922
+GO:0004774~succinate-CoA ligase activity	0.0339102576414922
+GO:0003985~acetyl-CoA C-acetyltransferase activity	0.0339102576414922
+GO:0030060~L-malate dehydrogenase activity	0.0339102576414922
+GO:0004739~pyruvate dehydrogenase (acetyl-transferring) activity	0.0339102576414922
+GO:0005506~iron ion binding	0.0448564234498196
+GO:0016453~C-acetyltransferase activity	0.044957497851242
+GO:0031625~ubiquitin protein ligase binding	0.0470023313857003

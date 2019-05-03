@@ -1,0 +1,90 @@
+GO:0005829~cytosol	1.44839120371321e-15
+GO:0098552~side of membrane	4.32049935898503e-11
+GO:0044444~cytoplasmic part	7.77871514214242e-10
+GO:0071556~integral component of lumenal side of endoplasmic reticulum membrane	1.54093060648965e-08
+GO:0098553~lumenal side of endoplasmic reticulum membrane	1.54093060648965e-08
+GO:0042611~MHC protein complex	1.99227943758635e-08
+GO:0009897~external side of plasma membrane	4.73939009455918e-08
+GO:0005737~cytoplasm	7.60104800339119e-08
+GO:0098797~plasma membrane protein complex	6.71194913247723e-07
+GO:0009986~cell surface	1.48371221570608e-06
+GO:0005839~proteasome core complex	2.07649066127179e-06
+GO:0044459~plasma membrane part	5.64854091736969e-06
+GO:0044421~extracellular region part	5.81229402951547e-06
+GO:0031982~vesicle	8.1098966975275e-06
+GO:0012507~ER to Golgi transport vesicle membrane	2.49861870741303e-05
+GO:0005615~extracellular space	3.76653935544961e-05
+GO:0031988~membrane-bounded vesicle	3.88850257453766e-05
+GO:0005768~endosome	3.99029115554238e-05
+GO:0005576~extracellular region	4.63150397366595e-05
+GO:0044440~endosomal part	6.23352724123225e-05
+GO:0000502~proteasome complex	6.4141743952371e-05
+GO:0042613~MHC class II protein complex	7.2286508262985e-05
+GO:0031264~death-inducing signaling complex	8.94710018615406e-05
+GO:0010008~endosome membrane	9.78656409710579e-05
+GO:0070062~extracellular exosome	0.000142513791333284
+GO:0030176~integral component of endoplasmic reticulum membrane	0.000156079641373988
+GO:1903561~extracellular vesicle	0.000161085704476328
+GO:0043230~extracellular organelle	0.000162493229539678
+GO:0030134~ER to Golgi transport vesicle	0.00016352199817112
+GO:0042612~MHC class I protein complex	0.000173059830778246
+GO:0098805~whole membrane	0.000184675006985113
+GO:0031227~intrinsic component of endoplasmic reticulum membrane	0.000195959042336695
+GO:0031901~early endosome membrane	0.00023849945860032
+GO:0043227~membrane-bounded organelle	0.000338648056004823
+GO:0098796~membrane protein complex	0.000345663964798994
+GO:0030662~coated vesicle membrane	0.000670718958208514
+GO:0044433~cytoplasmic vesicle part	0.000737245306739786
+GO:0005773~vacuole	0.000836070576163256
+GO:0005886~plasma membrane	0.000853597125206876
+GO:0043231~intracellular membrane-bounded organelle	0.000939591092953565
+GO:0071944~cell periphery	0.00100195536750145
+GO:1990111~spermatoproteasome complex	0.00105917300349762
+GO:0030666~endocytic vesicle membrane	0.00121850813111837
+GO:0044437~vacuolar part	0.00141778462500676
+GO:0030139~endocytic vesicle	0.00162307243302687
+GO:0005769~early endosome	0.0016560301962028
+GO:0031410~cytoplasmic vesicle	0.00186447982201474
+GO:0005774~vacuolar membrane	0.00187436186310746
+GO:0097708~intracellular vesicle	0.0019042025553224
+GO:0030659~cytoplasmic vesicle membrane	0.00197746900015102
+GO:0005770~late endosome	0.00226967268139959
+GO:0045121~membrane raft	0.00255750007713419
+GO:0012506~vesicle membrane	0.00261095749913643
+GO:0098857~membrane microdomain	0.00261702314015716
+GO:0005887~integral component of plasma membrane	0.00322620670220141
+GO:0005622~intracellular	0.00439066086257881
+GO:0031226~intrinsic component of plasma membrane	0.00562967791289311
+GO:0005634~nucleus	0.00578728162745796
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.00600861736133976
+GO:0030658~transport vesicle membrane	0.0063035738028951
+GO:0031902~late endosome membrane	0.00662232240070055
+GO:0044424~intracellular part	0.00666471114237473
+GO:0043235~receptor complex	0.00763194663428254
+GO:0044428~nuclear part	0.00819983348323078
+GO:0043226~organelle	0.00820884560560027
+GO:0005654~nucleoplasm	0.0100080568873547
+GO:0031974~membrane-enclosed lumen	0.0100522091543775
+GO:0098802~plasma membrane receptor complex	0.0102674929996202
+GO:0005623~cell	0.0103127295744694
+GO:0012505~endomembrane system	0.0117379041061733
+GO:0098589~membrane region	0.0122649282068778
+GO:0030135~coated vesicle	0.0131667933721555
+GO:0030669~clathrin-coated endocytic vesicle membrane	0.0152695753963037
+GO:0031981~nuclear lumen	0.0158178624789334
+GO:0005789~endoplasmic reticulum membrane	0.0168810067199546
+GO:0043233~organelle lumen	0.0175769254439943
+GO:0043229~intracellular organelle	0.0181330227417645
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	0.0205410248165814
+GO:0044432~endoplasmic reticulum part	0.0213637555236078
+GO:0072562~blood microparticle	0.0227641023350533
+GO:0005783~endoplasmic reticulum	0.0235352898027087
+GO:0030670~phagocytic vesicle membrane	0.0247262585986096
+GO:0070013~intracellular organelle lumen	0.027816279681728
+GO:0030133~transport vesicle	0.0288336237530398
+GO:0045334~clathrin-coated endocytic vesicle	0.0304005517862973
+GO:0042825~TAP complex	0.030954157762551
+GO:0005765~lysosomal membrane	0.0326278984821515
+GO:0098852~lytic vacuole membrane	0.0326278984821515
+GO:0044464~cell part	0.0356611698722613
+GO:0042824~MHC class I peptide loading complex	0.0410589110676202

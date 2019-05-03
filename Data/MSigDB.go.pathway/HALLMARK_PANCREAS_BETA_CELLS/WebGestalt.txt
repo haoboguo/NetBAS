@@ -1,0 +1,1 @@
+goId	name	refNum	interestNum	interestGene	expect	ratio	pValue	FDR

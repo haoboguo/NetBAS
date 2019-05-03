@@ -1,0 +1,217 @@
+GO:0003006~developmental process involved in reproduction	2.32889792121096e-06
+GO:0022414~reproductive process	5.15531611036524e-06
+GO:0000003~reproduction	5.27785208053184e-06
+GO:0044702~single organism reproductive process	1.24150146002139e-05
+GO:0048608~reproductive structure development	2.15416029994671e-05
+GO:0061458~reproductive system development	2.40342497399255e-05
+GO:0006970~response to osmotic stress	3.12817223085338e-05
+GO:0042127~regulation of cell proliferation	0.000108504985363455
+GO:0007548~sex differentiation	0.00013242519923092
+GO:0044711~single-organism biosynthetic process	0.000134543211865678
+GO:0044707~single-multicellular organism process	0.000136231060078569
+GO:0051704~multi-organism process	0.000141200824686669
+GO:0006695~cholesterol biosynthetic process	0.000148384447002077
+GO:1902653~secondary alcohol biosynthetic process	0.000160885316777985
+GO:0006066~alcohol metabolic process	0.000182967031683318
+GO:0008610~lipid biosynthetic process	0.00018406043428604
+GO:0016126~sterol biosynthetic process	0.00023506759796003
+GO:0048731~system development	0.000235676730563935
+GO:0048513~animal organ development	0.000270633240493417
+GO:0046165~alcohol biosynthetic process	0.000280493934524841
+GO:0048856~anatomical structure development	0.000336691328922162
+GO:0044767~single-organism developmental process	0.000339856372314565
+GO:0019953~sexual reproduction	0.000348200773547243
+GO:0009058~biosynthetic process	0.00035894464153604
+GO:0044283~small molecule biosynthetic process	0.000399003245015819
+GO:0044238~primary metabolic process	0.000442647707690372
+GO:0008299~isoprenoid biosynthetic process	0.000450762686035004
+GO:0008152~metabolic process	0.00045842332351693
+GO:1901576~organic substance biosynthetic process	0.000502640726018447
+GO:0071396~cellular response to lipid	0.000554469315280395
+GO:0009628~response to abiotic stimulus	0.000566233955040652
+GO:0044703~multi-organism reproductive process	0.000684596743821486
+GO:0032502~developmental process	0.000692264833130667
+GO:0007276~gamete generation	0.000767577712310521
+GO:0060249~anatomical structure homeostasis	0.000800210140517292
+GO:0044237~cellular metabolic process	0.000839998443878281
+GO:0001894~tissue homeostasis	0.000858033279366483
+GO:0007275~multicellular organism development	0.000891638169163303
+GO:0006950~response to stress	0.00108754236480516
+GO:0048519~negative regulation of biological process	0.00119010461444706
+GO:0008406~gonad development	0.00125059971476879
+GO:0071704~organic substance metabolic process	0.00125311204437642
+GO:0008283~cell proliferation	0.00125410201907153
+GO:0044249~cellular biosynthetic process	0.00131577337123385
+GO:0048609~multicellular organismal reproductive process	0.00138266070717133
+GO:0045137~development of primary sexual characteristics	0.00140806417015351
+GO:0032504~multicellular organism reproduction	0.00152321914658608
+GO:0042981~regulation of apoptotic process	0.00182112546302136
+GO:0044255~cellular lipid metabolic process	0.00192706801078011
+GO:0046661~male sex differentiation	0.00193831699113033
+GO:0043067~regulation of programmed cell death	0.00200985902388055
+GO:1901615~organic hydroxy compound metabolic process	0.00210735423275919
+GO:0042493~response to drug	0.00213946147617326
+GO:0044281~small molecule metabolic process	0.00226157762131839
+GO:1901617~organic hydroxy compound biosynthetic process	0.00228035372688375
+GO:0048523~negative regulation of cellular process	0.00230840165460808
+GO:0048468~cell development	0.00251454268443812
+GO:0006629~lipid metabolic process	0.00276426757088599
+GO:0033993~response to lipid	0.00301575480794631
+GO:0032501~multicellular organismal process	0.0030802170964858
+GO:0044710~single-organism metabolic process	0.00320248846245254
+GO:0060218~hematopoietic stem cell differentiation	0.00353526597201228
+GO:0030521~androgen receptor signaling pathway	0.00361075413020706
+GO:0048660~regulation of smooth muscle cell proliferation	0.00372426015869588
+GO:1901135~carbohydrate derivative metabolic process	0.00379127827726166
+GO:0007292~female gamete generation	0.00384338949561561
+GO:0008203~cholesterol metabolic process	0.00396507830834781
+GO:0010941~regulation of cell death	0.00398399933885079
+GO:0030154~cell differentiation	0.00402068095921881
+GO:0048869~cellular developmental process	0.00458974129186348
+GO:1902652~secondary alcohol metabolic process	0.00475039030968252
+GO:0001568~blood vessel development	0.00493878398338864
+GO:0045444~fat cell differentiation	0.00499062832335342
+GO:0008219~cell death	0.00532920780363476
+GO:0090114~COPII-coated vesicle budding	0.00577486981724182
+GO:0016125~sterol metabolic process	0.00595157664898382
+GO:0009987~cellular process	0.00637487739694877
+GO:0012501~programmed cell death	0.00637661981449999
+GO:0050896~response to stimulus	0.00682649468743842
+GO:0001944~vasculature development	0.00711394549850803
+GO:0008584~male gonad development	0.00715585307396538
+GO:0046546~development of primary male sexual characteristics	0.00715585307396538
+GO:0048522~positive regulation of cellular process	0.00724831780363706
+GO:0031667~response to nutrient levels	0.00754825035654548
+GO:0009725~response to hormone	0.00809446138539944
+GO:0071470~cellular response to osmotic stress	0.00855392530644683
+GO:0048518~positive regulation of biological process	0.00869170830268552
+GO:0048871~multicellular organismal homeostasis	0.00876845846085308
+GO:0033554~cellular response to stress	0.0088735754053648
+GO:0006694~steroid biosynthetic process	0.00914017148066476
+GO:0060706~cell differentiation involved in embryonic placenta development	0.009233227014819
+GO:0031324~negative regulation of cellular metabolic process	0.00924588233021277
+GO:0060840~artery development	0.0095472296314529
+GO:1901137~carbohydrate derivative biosynthetic process	0.00963835852167955
+GO:0008285~negative regulation of cell proliferation	0.0106423966665979
+GO:0009892~negative regulation of metabolic process	0.0107305674836224
+GO:0010033~response to organic substance	0.0109200376619134
+GO:1901362~organic cyclic compound biosynthetic process	0.0109689464124832
+GO:0009991~response to extracellular stimulus	0.0110650395342828
+GO:0071475~cellular hyperosmotic salinity response	0.0111648025224987
+GO:0002028~regulation of sodium ion transport	0.0113024160925085
+GO:0048646~anatomical structure formation involved in morphogenesis	0.0116553324744435
+GO:0043154~negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0120531363794817
+GO:0014070~response to organic cyclic compound	0.0122670012239296
+GO:0030168~platelet activation	0.012739297376091
+GO:0006487~protein N-linked glycosylation	0.0136389171301781
+GO:0045214~sarcomere organization	0.0137886495525524
+GO:0010165~response to X-ray	0.0146252960971293
+GO:0007584~response to nutrient	0.0155799117257852
+GO:0044763~single-organism cellular process	0.0159938875202399
+GO:0042692~muscle cell differentiation	0.0160385150662374
+GO:0006915~apoptotic process	0.0162969590041937
+GO:0022412~cellular process involved in reproduction in multicellular organism	0.0163445430698171
+GO:0072359~circulatory system development	0.0163543463885427
+GO:0072358~cardiovascular system development	0.0163543463885427
+GO:0010765~positive regulation of sodium ion transport	0.0163625551333684
+GO:0010605~negative regulation of macromolecule metabolic process	0.0166885905911692
+GO:0006796~phosphate-containing compound metabolic process	0.0171823444689011
+GO:0065008~regulation of biological quality	0.017227231723088
+GO:0045737~positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.0172626487090339
+GO:0009653~anatomical structure morphogenesis	0.0173325604552317
+GO:0006793~phosphorus metabolic process	0.0175901074095757
+GO:0043401~steroid hormone mediated signaling pathway	0.0184531319429423
+GO:2000117~negative regulation of cysteine-type endopeptidase activity	0.0185871398412877
+GO:1904031~positive regulation of cyclin-dependent protein kinase activity	0.0191244830278704
+GO:0060322~head development	0.0193685050640167
+GO:0008202~steroid metabolic process	0.0194148177230394
+GO:0042592~homeostatic process	0.0198313165647417
+GO:0048514~blood vessel morphogenesis	0.0202262311617885
+GO:0008284~positive regulation of cell proliferation	0.020251756384714
+GO:0072330~monocarboxylic acid biosynthetic process	0.0205401636932276
+GO:0055114~oxidation-reduction process	0.0212541420575443
+GO:0044267~cellular protein metabolic process	0.0215820110283168
+GO:0006900~membrane budding	0.0216530519310367
+GO:0050878~regulation of body fluid levels	0.0227272707805142
+GO:0046660~female sex differentiation	0.0227328601456766
+GO:0007160~cell-matrix adhesion	0.0227672610738271
+GO:0044057~regulation of system process	0.0229449577859138
+GO:0035338~long-chain fatty-acyl-CoA biosynthetic process	0.0230877023074357
+GO:0006366~transcription from RNA polymerase II promoter	0.0234232073651363
+GO:0046949~fatty-acyl-CoA biosynthetic process	0.0241269719434865
+GO:0045595~regulation of cell differentiation	0.024220241297612
+GO:0009719~response to endogenous stimulus	0.0247232966623202
+GO:0006508~proteolysis	0.0252369968834757
+GO:0006814~sodium ion transport	0.0255453280916759
+GO:0019538~protein metabolic process	0.0257754903256858
+GO:0043281~regulation of cysteine-type endopeptidase activity involved in apoptotic process	0.0259581574042755
+GO:0035336~long-chain fatty-acyl-CoA metabolic process	0.0273572256939466
+GO:0044272~sulfur compound biosynthetic process	0.0276496767275955
+GO:0061024~membrane organization	0.0282033933778806
+GO:0031589~cell-substrate adhesion	0.0286865616325117
+GO:0009611~response to wounding	0.0289572906864455
+GO:0060324~face development	0.0296020641784022
+GO:0007417~central nervous system development	0.0296281096390909
+GO:0009314~response to radiation	0.0298921905542692
+GO:0030098~lymphocyte differentiation	0.0301026116263378
+GO:0035337~fatty-acyl-CoA metabolic process	0.0307511843721274
+GO:0048732~gland development	0.0308032361443655
+GO:0001775~cell activation	0.0308120413570253
+GO:0043270~positive regulation of ion transport	0.03169247115039
+GO:0051179~localization	0.0321610719559784
+GO:0042060~wound healing	0.032325735011533
+GO:0070141~response to UV-A	0.0331257315238066
+GO:1901700~response to oxygen-containing compound	0.0331932583279439
+GO:0009888~tissue development	0.0339519281161425
+GO:0030518~intracellular steroid hormone receptor signaling pathway	0.0344304022274659
+GO:0009891~positive regulation of biosynthetic process	0.0345724483158925
+GO:0010959~regulation of metal ion transport	0.0346133530405618
+GO:0006720~isoprenoid metabolic process	0.0351177375766915
+GO:0040007~growth	0.0354421313922655
+GO:0030239~myofibril assembly	0.0355203437860792
+GO:0009755~hormone-mediated signaling pathway	0.0355637818342516
+GO:0051173~positive regulation of nitrogen compound metabolic process	0.0356785785705949
+GO:0035270~endocrine system development	0.0365136861662203
+GO:0007610~behavior	0.0366503333549043
+GO:2000116~regulation of cysteine-type endopeptidase activity	0.0370833146984788
+GO:0032787~monocarboxylic acid metabolic process	0.0372545969175289
+GO:0009605~response to external stimulus	0.0376423700584101
+GO:0007420~brain development	0.0377581681690959
+GO:0030802~regulation of cyclic nucleotide biosynthetic process	0.0379379141235327
+GO:0001701~in utero embryonic development	0.0382585704051664
+GO:0042538~hyperosmotic salinity response	0.0385401352663318
+GO:0008215~spermine metabolic process	0.0385401352663318
+GO:0071472~cellular response to salt stress	0.0385401352663318
+GO:0032287~peripheral nervous system myelin maintenance	0.0385401352663318
+GO:0019882~antigen processing and presentation	0.0386399275703325
+GO:0046777~protein autophosphorylation	0.0391670463045863
+GO:0044699~single-organism process	0.0392416979088992
+GO:0043066~negative regulation of apoptotic process	0.0394346939016442
+GO:0006457~protein folding	0.0396982910168145
+GO:0009890~negative regulation of biosynthetic process	0.0399364089852062
+GO:0055002~striated muscle cell development	0.0401270220948564
+GO:0007281~germ cell development	0.0402336626540609
+GO:0048844~artery morphogenesis	0.0405550853540679
+GO:0051051~negative regulation of transport	0.0405592482324792
+GO:0032844~regulation of homeostatic process	0.0409269549555664
+GO:0090407~organophosphate biosynthetic process	0.041343779291937
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	0.0418907796574781
+GO:0043069~negative regulation of programmed cell death	0.0423420357103121
+GO:0046903~secretion	0.0426906570101807
+GO:0006464~cellular protein modification process	0.0427041062265699
+GO:0036211~protein modification process	0.0427041062265699
+GO:0007050~cell cycle arrest	0.042972443746256
+GO:0007596~blood coagulation	0.0430234857510122
+GO:1900371~regulation of purine nucleotide biosynthetic process	0.0439151616420304
+GO:0071474~cellular hyperosmotic response	0.0439245396344365
+GO:0075713~establishment of integrated proviral latency	0.0439245396344365
+GO:0030808~regulation of nucleotide biosynthetic process	0.044693575278113
+GO:0006810~transport	0.0463744968344484
+GO:0071383~cellular response to steroid hormone stimulus	0.0463951977546039
+GO:0061061~muscle structure development	0.0471206191985959
+GO:0006633~fatty acid biosynthetic process	0.0478758798062059
+GO:0010035~response to inorganic substance	0.0479107688937754
+GO:0035907~dorsal aorta development	0.0492791090616655
+GO:0031032~actomyosin structure organization	0.0495079366990728
+GO:0034654~nucleobase-containing compound biosynthetic process	0.049558598324786
+GO:0033077~T cell differentiation in thymus	0.0499634690940624

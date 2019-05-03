@@ -1,0 +1,104 @@
+GO:0019838~growth factor binding	3.24190991530461e-11
+GO:0016301~kinase activity	4.05181416912893e-11
+GO:0019199~transmembrane receptor protein kinase activity	5.30448760905424e-11
+GO:0016772~transferase activity, transferring phosphorus-containing groups	3.63393895140602e-10
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	6.45111933451258e-10
+GO:0004672~protein kinase activity	2.24156046763136e-09
+GO:0046332~SMAD binding	1.00166221140262e-07
+GO:0004871~signal transducer activity	3.20750568464489e-07
+GO:0030165~PDZ domain binding	4.51459528546965e-07
+GO:0019904~protein domain specific binding	4.87720144909642e-07
+GO:0005515~protein binding	7.08706889509385e-07
+GO:0019899~enzyme binding	1.35961423669654e-06
+GO:0005057~receptor signaling protein activity	2.94827391748646e-06
+GO:0004674~protein serine/threonine kinase activity	3.79489304961614e-06
+GO:0004675~transmembrane receptor protein serine/threonine kinase activity	8.84252708186407e-06
+GO:0042802~identical protein binding	9.49615826792048e-06
+GO:0004714~transmembrane receptor protein tyrosine kinase activity	1.36878847144905e-05
+GO:0004713~protein tyrosine kinase activity	1.52840190539055e-05
+GO:0035004~phosphatidylinositol 3-kinase activity	2.10239109623567e-05
+GO:0019902~phosphatase binding	3.50961206427682e-05
+GO:0098772~molecular function regulator	4.46546234628444e-05
+GO:0032559~adenyl ribonucleotide binding	7.84308461335457e-05
+GO:0030554~adenyl nucleotide binding	8.85360159761232e-05
+GO:0005488~binding	9.40224962686188e-05
+GO:0005102~receptor binding	9.51430607627437e-05
+GO:0008022~protein C-terminus binding	0.000113881369497365
+GO:0005524~ATP binding	0.000136821715313056
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.000141131179164513
+GO:0046872~metal ion binding	0.000151207828708555
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.000176701758013599
+GO:0016740~transferase activity	0.000188980655559439
+GO:0043169~cation binding	0.000204883578502485
+GO:0008134~transcription factor binding	0.000255147796141855
+GO:0044877~macromolecular complex binding	0.000295131998509549
+GO:0097367~carbohydrate derivative binding	0.000357359392734252
+GO:0004872~receptor activity	0.000360887814444585
+GO:0060089~molecular transducer activity	0.000360887814444585
+GO:0038023~signaling receptor activity	0.000380929080566488
+GO:0043167~ion binding	0.000587916597560576
+GO:0032555~purine ribonucleotide binding	0.00096035732590218
+GO:0019955~cytokine binding	0.00102239736858958
+GO:0017076~purine nucleotide binding	0.0010678114987528
+GO:0032553~ribonucleotide binding	0.00109405489251013
+GO:0000166~nucleotide binding	0.00111357167604131
+GO:1901265~nucleoside phosphate binding	0.00112162111071205
+GO:0043548~phosphatidylinositol 3-kinase binding	0.00129853673130698
+GO:0032403~protein complex binding	0.00130137076469011
+GO:0005520~insulin-like growth factor binding	0.00144583923449614
+GO:0035639~purine ribonucleoside triphosphate binding	0.00146451676739199
+GO:0032550~purine ribonucleoside binding	0.0015731771111901
+GO:0001883~purine nucleoside binding	0.00161092099614761
+GO:0032549~ribonucleoside binding	0.00161092099614761
+GO:0001882~nucleoside binding	0.00170206128571802
+GO:0036094~small molecule binding	0.00195419565943863
+GO:0019903~protein phosphatase binding	0.00204160070006086
+GO:0005388~calcium-transporting ATPase activity	0.00223512739916388
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.00250381471767213
+GO:0002020~protease binding	0.00256870381084594
+GO:0005024~transforming growth factor beta-activated receptor activity	0.00277918679737666
+GO:0005072~transforming growth factor beta receptor, cytoplasmic mediator activity	0.00277918679737666
+GO:0048407~platelet-derived growth factor binding	0.00337889584090519
+GO:0015026~coreceptor activity	0.00351109066913576
+GO:0005085~guanyl-nucleotide exchange factor activity	0.00351632357398771
+GO:0070851~growth factor receptor binding	0.0037814450811142
+GO:0000988~transcription factor activity, protein binding	0.00394082420757414
+GO:0031994~insulin-like growth factor I binding	0.00403333588893664
+GO:0048185~activin binding	0.00403333588893664
+GO:0005201~extracellular matrix structural constituent	0.00433920554427743
+GO:0043621~protein self-association	0.00602933520393339
+GO:0005161~platelet-derived growth factor receptor binding	0.0063160199648011
+GO:0099600~transmembrane receptor activity	0.00638617982246116
+GO:0004702~receptor signaling protein serine/threonine kinase activity	0.00676923072822909
+GO:0050431~transforming growth factor beta binding	0.0071804159049273
+GO:0005160~transforming growth factor beta receptor binding	0.0076054164675588
+GO:0008092~cytoskeletal protein binding	0.00832053377620405
+GO:0047485~protein N-terminus binding	0.00870854486584812
+GO:0004888~transmembrane signaling receptor activity	0.00876767066909431
+GO:0000989~transcription factor activity, transcription factor binding	0.00993012802372155
+GO:0003707~steroid hormone receptor activity	0.0119710861369572
+GO:0005509~calcium ion binding	0.0131247583422831
+GO:0030234~enzyme regulator activity	0.0143185750766796
+GO:0038049~transcription factor activity, ligand-activated RNA polymerase II transcription factor binding	0.0160483574601653
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.0181285422160306
+GO:0034593~phosphatidylinositol bisphosphate phosphatase activity	0.0198256739617801
+GO:0042805~actinin binding	0.0226940471492753
+GO:0016247~channel regulator activity	0.0237342688986485
+GO:0052866~phosphatidylinositol phosphate phosphatase activity	0.0241885557924522
+GO:0042625~ATPase coupled ion transmembrane transporter activity	0.0250981518676165
+GO:0016791~phosphatase activity	0.02594522702976
+GO:0019901~protein kinase binding	0.0280196594823086
+GO:0001076~transcription factor activity, RNA polymerase II transcription factor binding	0.0297073881065397
+GO:0015662~ATPase activity, coupled to transmembrane movement of ions, phosphorylative mechanism	0.0305518469941663
+GO:0042578~phosphoric ester hydrolase activity	0.0326717315131194
+GO:0003712~transcription cofactor activity	0.0346472906084987
+GO:0003714~transcription corepressor activity	0.0361947495730262
+GO:0003700~transcription factor activity, sequence-specific DNA binding	0.0390485741956425
+GO:0001071~nucleic acid binding transcription factor activity	0.0392932235087399
+GO:0008289~lipid binding	0.0394601114210622
+GO:0098821~BMP receptor activity	0.0396427481950096
+GO:0038085~vascular endothelial growth factor binding	0.0396427481950096
+GO:0030674~protein binding, bridging	0.0421043054516192
+GO:0008047~enzyme activator activity	0.0466270351089412
+GO:0016303~1-phosphatidylinositol-3-kinase activity	0.0469349349832423
+GO:0070087~chromo shadow domain binding	0.0473820576440873

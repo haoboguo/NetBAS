@@ -1,0 +1,27 @@
+GO:0003725~double-stranded RNA binding	1.76737077725506e-05
+GO:0005515~protein binding	0.000213422952146068
+GO:0005126~cytokine receptor binding	0.00239898265887199
+GO:0003723~RNA binding	0.00291571085886936
+GO:0004298~threonine-type endopeptidase activity	0.00483198640924849
+GO:0070003~threonine-type peptidase activity	0.00483198640924849
+GO:0003727~single-stranded RNA binding	0.00620247865089345
+GO:0003950~NAD+ ADP-ribosyltransferase activity	0.00850385174086589
+GO:0005488~binding	0.0102187278813347
+GO:0097367~carbohydrate derivative binding	0.0128151657866682
+GO:0001730~2'-5'-oligoadenylate synthetase activity	0.0197577049687544
+GO:0048248~CXCR3 chemokine receptor binding	0.0246365550477077
+GO:0005125~cytokine activity	0.0248122167080293
+GO:0005102~receptor binding	0.0281080335937561
+GO:0046977~TAP binding	0.0343223859285872
+GO:0016763~transferase activity, transferring pentosyl groups	0.0348627233416693
+GO:0042802~identical protein binding	0.0359989352525859
+GO:0035639~purine ribonucleoside triphosphate binding	0.0370208802915322
+GO:0032550~purine ribonucleoside binding	0.038414190885368
+GO:0001883~purine nucleoside binding	0.038887062144765
+GO:0032549~ribonucleoside binding	0.038887062144765
+GO:0042379~chemokine receptor binding	0.0392917021415083
+GO:0001882~nucleoside binding	0.0400069863455621
+GO:0032555~purine ribonucleotide binding	0.0440256500615995
+GO:0004386~helicase activity	0.0449233264773863
+GO:0017076~purine nucleotide binding	0.0463204964580305
+GO:0032553~ribonucleotide binding	0.0468620702585251

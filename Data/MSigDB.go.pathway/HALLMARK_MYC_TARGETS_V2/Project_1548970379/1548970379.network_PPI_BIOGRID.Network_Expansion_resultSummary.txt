@@ -1,0 +1,6 @@
+Total number of genes in the selected network: 22194 (used for the enrichment analysis)
+Total number of seeds: 58
+Total number of seeds in the selected network: 58
+Total number of genes in the expanded sub-network: 63 (used for the enrichment analysis)
+Total number of seeds in the expanded sub-network: 53
+We select top 10 neighbors based on the probability of random walk method. All seeds and top ranking neighbors in the expanded sub-network can enrich to 32 GO BP categories.

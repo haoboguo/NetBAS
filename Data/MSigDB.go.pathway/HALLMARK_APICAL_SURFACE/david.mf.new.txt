@@ -1,0 +1,24 @@
+GO:0005515~protein binding	2.43934291091413e-05
+GO:0005102~receptor binding	2.55984765920579e-05
+GO:0030296~protein tyrosine kinase activator activity	0.000764856973461491
+GO:0019887~protein kinase regulator activity	0.000785427044716306
+GO:0019207~kinase regulator activity	0.00115941303567374
+GO:0098772~molecular function regulator	0.00151491691638003
+GO:0005178~integrin binding	0.00215690385984648
+GO:0019899~enzyme binding	0.00286713886036647
+GO:0019904~protein domain specific binding	0.00343424251962884
+GO:0008047~enzyme activator activity	0.00661260260497972
+GO:0004911~interleukin-2 receptor activity	0.00726904539420185
+GO:0019976~interleukin-2 binding	0.00726904539420185
+GO:0030234~enzyme regulator activity	0.00941204940566618
+GO:0030295~protein kinase activator activity	0.0102357758788727
+GO:0005488~binding	0.0113075801920299
+GO:0019209~kinase activator activity	0.0125226049213325
+GO:0017124~SH3 domain binding	0.0337935050352633
+GO:0044877~macromolecular complex binding	0.0361142620451868
+GO:0022857~transmembrane transporter activity	0.0370338039184959
+GO:0070851~growth factor receptor binding	0.038592688425624
+GO:0005215~transporter activity	0.0388939107859581
+GO:0051861~glycolipid binding	0.0451751576737904
+GO:0060089~molecular transducer activity	0.0463309910869136
+GO:0004872~receptor activity	0.0463309910869136

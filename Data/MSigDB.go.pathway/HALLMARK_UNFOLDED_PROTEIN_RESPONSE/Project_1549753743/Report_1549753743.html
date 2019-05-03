@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>WebGestalt (WEB-based GEne SeT AnaLysis Toolkit)</title>
+<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/webgestalt/favicon.png">
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-42098540-1', 'auto');
+ga('send', 'pageview');
+</script>
+		
+	<script>window.cytoscape = null;</script>
+	<link rel="stylesheet" href="http://www.webgestalt.org//assets/0.3/build/wg.css">
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+</head>
+<body>
+<header>
+	<div id="header-img"><a href="http://www.webgestalt.org/"><img border="0" src="http://www.webgestalt.org//images/gsa.png"></a></div>
+	<div id="header-title">
+		<p id="header-title-text">WEB-based GEne SeT AnaLysis Toolkit</p>
+		<p id="header-subtitle-text">Translating gene lists into biological insights...</p>
+	</div>
+</header>
+<hr><main>
+<div id="app">
+<div class="loading-preinit" v-cloak><div class="loading-icon"></div></div>
+<div class="wrapper" v-cloak>
+<div class="level">
+	<div class="level-left">
+		<div class="level-item">
+			<h4 class="title is-4 has-text-primary">Summary</h4>
+		</div>
+	</div>
+	<div class="level-right">
+		<div class="level-item">
+			<a class="button is-text" href="Project_1549753743.zip" target="_blank">Result Download</a>
+		</div>
+	</div>
+</div>
+
+<section id="summary" class="summary">
+<div class="card" v-bind:class="{active: summaryShown}" >
+	<div class="card-header" v-on:click="summaryShown=!summaryShown">
+		<p class="card-header-title">Job summary</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="summaryShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div class="card-content content" v-show="summaryShown">
+		<ul id="summary-list"> 
+		<li><b>Enrich method:</b> ORA</li>
+		<li><b>Organism: </b>hsapiens</li>
+		<li>
+			
+			<b>Enrichment Categories: </b>pathway_KEGG
+			<a class="has-text-info" href="http://www.webgestalt.org//api/geneset?organism=hsapiens&database=pathway_KEGG&fileType=gmt">
+				<b-icon icon="download" size="is-small"></b-icon>
+			</a>
+		
+		</li>
+
+			<li><b>Interesting list: </b>HALLMARK_UNFOLDED_PROTEIN_RESPONSE.geneset.txt. <b>ID type: </b>ensembl_gene_id</li>
+						<li>The interesting list contains <b>112</b> user IDs in which <b>112</b> user IDs are unambiguously mapped to <b>110</b> unique entrezgene IDs and <b>0</b> user IDs can not be mapped to any entrezgene ID.</li>
+			<li>The GO Slim summary are based upon the <b>110</b> unique entrezgene IDs.</li>
+		
+
+		<li>Among <b>110</b> unique entrezgene IDs, <b>86</b> IDs are annotated to the selected functional categories and also in the reference list, which are used for the enrichment analysis.</li>
+	<li><b>Reference list: </b>/Library/Frameworks/R.framework/Versions/3.5/Resources/library/WebGestaltR/extdata/referenceGenes.txt <b>ID type: </b>genesymbol</li>
+		
+	<li>The reference list can be mapped to <b>10754</b> entrezgene IDs and <b> 5535</b> IDs are annotated to the selected functional categories that are used as the reference for the enrichment analysis.</li>
+</ul> 
+
+<p><b>Parameters for the enrichment analysis:</b></p>
+<ul><li><b>Minimum number of IDs in the category: </b>10</li>
+<li><b>Maximum number of IDs in the category: </b>500</li>
+<li><b>FDR Method: </b>BH</li>
+<li><b>Significance Level:</b> FDR < 0.05</li>
+</ul>
+	
+	<p>Based on the above parameters, <b>4</b> categories are identified as enriched categories and all are shown in this report.</p>
+	
+
+	</div>
+</div>
+</section>
+<section id="go-summary" class="summary">
+<div class="card" v-bind:class="{active: goShown}" >
+	<div class="card-header" v-on:click="goShown=!goShown">
+		<p class="card-header-title">GO Slim summary for the user uploaded IDs</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="goShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div v-show="goShown">
+		<div class="card-content">
+			<p>Each Biological Process, Cellular Component and Molecular Function category is represented by a red, blue and green bar, repectively.</p>
+			<p>The height of the bar represents the number of IDs in the user list and also in the category.</p>
+		</div>
+		<div class="card-image">
+			<img src="goslim_summary_1549753743.png" width="100%" height="100%" alt="Bar charts of enriched GO Slim terms"/>
+		</div>
+	</div>
+</div>
+</section> <h4 class="title is-4 has-text-primary">Enrichment Results</h4>
+<section id="enrich-result">
+	<p class="select-redundancy">
+		<b-tooltip label="Enriched gene sets are post-processed by two methods to reduce redundancy." type="is-dark" animated multilined dashed>
+			Redundancy reduction:
+		</b-tooltip>
+		<b-radio v-model="redundancy" native-value="all">All</b-radio>
+		<b-radio v-model="redundancy" native-value="ap">
+			<b-tooltip label="R package apcluster is used to cluster gene sets." type="is-dark" animated multilined dashed>
+				Affinity propagation
+			</b-tooltip>
+		</b-radio>
+		
+		<b-radio v-model="redundancy" native-value="wsc">
+			<b-tooltip label="Find top gene sets while maximizing gene coverage." type="is-dark" animated multilined dashed>
+				Weighted set cover
+			</b-tooltip>
+		</b-radio>
+	</p>
+	<b-tabs v-model="activeTab" type="is-toggle">
+		<b-tab-item label="Table">
+			<wg-result-table
+				:data="enrichmentData"
+				:method="enrichMethod"
+			></wg-resutl-table>
+		</b-tab-item>
+		<b-tab-item label="Bar chart">
+		<div class="vertical-center-container">
+			<wg-bar-plot
+				:dimensions="bar.dimensions"
+				:data="enrichmentData"
+				:value-key="bar.valueKey"
+				name-key="description"
+								:x-label="bar.xLabel">
+			</wg-bar-plot>
+		</div>
+		</b-tab-item>
+		<b-tab-item label="Volcano plot">
+		<div class="vertical-center-container">
+			<wg-volcano-plot
+				:data="volcanoData"
+				:x="volcano.x"
+				:y="volcano.y"
+				:x-label="volcano.xLabel"
+				:label-types="volcano.labelTypes"
+				:x-transform="volcano.xTransform"
+				:radius="volcano.radius"
+				:color="volcano.color"
+				:tooltip-content="volcano.tooltipContent"
+				:show-all-labels="false"
+				:auto-place-labels="true"
+			></wg-volcano-plot>
+		</div>
+		</b-tab-item>
+	</b-tabs>
+	<wg-gene-table
+		:data="geneTables"
+		:info="enrichment"
+		:standard-id="standardId"
+		:method="enrichMethod"
+		:mapped-input-size="mappedInputSize"
+		:enrich-database="enrichDatabase"
+		:organism="organism"
+		:host-name="hostName"
+	></wg-gene-table>
+</section> 
+
+</div>
+</div>
+</main>
+	<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/wg.min.js"></script>
+<script type="text/javascript">
+var enrichment = [{"geneSet":"hsa03018","description":"RNA degradation","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa03018+167227+23404+23644+25804+27257+3313+4848+4850+5073+51013+5393+5394+54512+55802+56915+57472+9652","C":62,"O":17,"E":0.963324299909666,"R":17.6472243060765,"pValue":0,"FDR":0,"overlapId":"167227;23404;23644;25804;27257;3313;4848;4850;5073;51013;5393;5394;54512;55802;56915;57472;9652"},{"geneSet":"hsa04141","description":"Protein processing in endoplasmic reticulum","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa04141+10113+10130+10525+1965+2081+22872+22926+3309+468+5611+6745+7184+7466+7494+811+9451+9695+9709","C":147,"O":18,"E":2.2840108401084,"R":7.88087327954438,"pValue":4.96702678987049e-12,"FDR":7.40086991690703e-10,"overlapId":"10113;10130;10525;1965;2081;22872;22926;3309;468;5611;6745;7184;7466;7494;811;9451;9695;9709"},{"geneSet":"hsa03013","description":"RNA transport","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa03013+10605+10775+11260+1965+1973+1974+1977+1978+1981+50628+9775","C":141,"O":11,"E":2.19078590785908,"R":5.02102919346858,"pValue":9.45974845512065e-06,"FDR":0.000774452305419948,"overlapId":"10605;10775;11260;1965;1973;1974;1977;1978;1981;50628;9775"},{"geneSet":"hsa03060","description":"Protein export","link":"http://www.kegg.jp/kegg-bin/show_pathway?hsa03060+23478+28972+3309+58477+60559","C":20,"O":5,"E":0.310749774164408,"R":16.0901162790698,"pValue":1.0395332958657e-05,"FDR":0.000774452305419948,"overlapId":"23478;28972;3309;58477;60559"}];
+var background = [{"geneSet":"hsa03008","R":5.54831595829992,"FDR":0.11521909688616,"O":5},{"geneSet":"hsa04612","R":3.67774086378738,"FDR":1,"O":4},{"geneSet":"hsa04140","R":2.92547568710359,"FDR":1,"O":5},{"geneSet":"hsa01521","R":3.3005366726297,"FDR":1,"O":4},{"geneSet":"hsa05152","R":2.4440682955549,"FDR":1,"O":6},{"geneSet":"hsa04932","R":2.51408066860465,"FDR":1,"O":5},{"geneSet":"hsa01230","R":3.27256602286165,"FDR":1,"O":3},{"geneSet":"hsa04918","R":3.1142160540135,"FDR":1,"O":3},{"geneSet":"hsa00970","R":4.152288072018,"FDR":1,"O":2},{"geneSet":"hsa05323","R":2.50755058894594,"FDR":1,"O":3},{"geneSet":"hsa04150","R":2.05953488372093,"FDR":1,"O":4},{"geneSet":"hsa04210","R":2.02710126350485,"FDR":1,"O":4},{"geneSet":"hsa04211","R":2.29858803986711,"FDR":1,"O":3},{"geneSet":"hsa04657","R":2.29858803986711,"FDR":1,"O":3},{"geneSet":"hsa04066","R":2.03243574051408,"FDR":1,"O":3},{"geneSet":"hsa00670","R":4.95080500894454,"FDR":1,"O":1},{"geneSet":"hsa05130","R":2.52393980848153,"FDR":1,"O":2},{"geneSet":"hsa05164","R":1.72779772124239,"FDR":1,"O":4},{"geneSet":"hsa05163","R":1.54712656529517,"FDR":1,"O":5},{"geneSet":"hsa04966","R":4.02252906976744,"FDR":1,"O":1},{"geneSet":"hsa05168","R":1.63975707302622,"FDR":1,"O":4},{"geneSet":"hsa05160","R":1.82152259763054,"FDR":1,"O":3},{"geneSet":"hsa04137","R":2.18171068190777,"FDR":1,"O":2},{"geneSet":"hsa04668","R":1.78779069767442,"FDR":1,"O":3},{"geneSet":"hsa04151","R":1.35292269013199,"FDR":1,"O":7},{"geneSet":"hsa05418","R":1.58263438810522,"FDR":1,"O":3},{"geneSet":"hsa04915","R":1.55710802700675,"FDR":1,"O":3},{"geneSet":"hsa04926","R":1.53239202657807,"FDR":1,"O":3},{"geneSet":"hsa04910","R":1.52032594762864,"FDR":1,"O":3},{"geneSet":"hsa05166","R":1.32976167595618,"FDR":1,"O":5},{"geneSet":"hsa00250","R":2.57441860465116,"FDR":1,"O":1},{"geneSet":"hsa04136","R":2.57441860465116,"FDR":1,"O":1},{"geneSet":"hsa04145","R":1.47390378128883,"FDR":1,"O":3},{"geneSet":"hsa00260","R":2.47540250447227,"FDR":1,"O":1},{"geneSet":"hsa05010","R":1.41971614227086,"FDR":1,"O":3},{"geneSet":"hsa04012","R":1.55085458111516,"FDR":1,"O":2},{"geneSet":"hsa04130","R":2.1453488372093,"FDR":1,"O":1},{"geneSet":"hsa05206","R":1.34084302325581,"FDR":1,"O":3},{"geneSet":"hsa00330","R":1.89295485636115,"FDR":1,"O":1},{"geneSet":"hsa00480","R":1.89295485636115,"FDR":1,"O":1},{"geneSet":"hsa05020","R":1.83887043189369,"FDR":1,"O":1},{"geneSet":"hsa05222","R":1.384096024006,"FDR":1,"O":2},{"geneSet":"hsa05215","R":1.3693715982187,"FDR":1,"O":2},{"geneSet":"hsa04933","R":1.32701989930472,"FDR":1,"O":2},{"geneSet":"hsa05219","R":1.6936964504284,"FDR":1,"O":1},{"geneSet":"hsa05110","R":1.65026833631485,"FDR":1,"O":1},{"geneSet":"hsa05034","R":1.19186046511628,"FDR":1,"O":3},{"geneSet":"hsa05142","R":1.2744646557679,"FDR":1,"O":2},{"geneSet":"hsa04962","R":1.53239202657807,"FDR":1,"O":1},{"geneSet":"hsa03040","R":1.21434839842036,"FDR":1,"O":2},{"geneSet":"hsa04152","R":1.19186046511628,"FDR":1,"O":2},{"geneSet":"hsa05144","R":1.43023255813953,"FDR":1,"O":1},{"geneSet":"hsa05202","R":1.10966319165998,"FDR":1,"O":3},{"geneSet":"hsa05030","R":1.39914054600607,"FDR":1,"O":1},{"geneSet":"hsa04721","R":1.3693715982187,"FDR":1,"O":1},{"geneSet":"hsa04110","R":1.11931243680485,"FDR":1,"O":2},{"geneSet":"hsa04722","R":1.10966319165998,"FDR":1,"O":2},{"geneSet":"hsa05162","R":1.10017889087657,"FDR":1,"O":2},{"geneSet":"hsa04370","R":1.21434839842036,"FDR":1,"O":1},{"geneSet":"hsa05203","R":1.01621787025704,"FDR":1,"O":3},{"geneSet":"hsa04728","R":1.0380720180045,"FDR":1,"O":2},{"geneSet":"hsa04927","R":1.14929401993355,"FDR":1,"O":1},{"geneSet":"hsa05416","R":1.12913096695226,"FDR":1,"O":1},{"geneSet":"hsa05120","R":1.10966319165998,"FDR":1,"O":1},{"geneSet":"hsa05161","R":0.975158562367865,"FDR":1,"O":2},{"geneSet":"hsa05230","R":1.05508959207015,"FDR":1,"O":1},{"geneSet":"hsa05031","R":1.0380720180045,"FDR":1,"O":1},{"geneSet":"hsa04014","R":0.928275939177102,"FDR":1,"O":3},{"geneSet":"hsa04720","R":1.00563226744186,"FDR":1,"O":1},{"geneSet":"hsa05211","R":0.990161001788909,"FDR":1,"O":1},{"geneSet":"hsa05221","R":0.975158562367865,"FDR":1,"O":1},{"geneSet":"hsa05214","R":0.932760364004044,"FDR":1,"O":1},{"geneSet":"hsa04917","R":0.919435215946844,"FDR":1,"O":1},{"geneSet":"hsa05100","R":0.906485424172945,"FDR":1,"O":1},{"geneSet":"hsa03015","R":0.858139534883721,"FDR":1,"O":1},{"geneSet":"hsa04911","R":0.858139534883721,"FDR":1,"O":1},{"geneSet":"hsa05212","R":0.858139534883721,"FDR":1,"O":1},{"geneSet":"hsa05220","R":0.846848225214198,"FDR":1,"O":1},{"geneSet":"hsa04540","R":0.794573643410853,"FDR":1,"O":1},{"geneSet":"hsa05231","R":0.775427290557579,"FDR":1,"O":1},{"geneSet":"hsa00190","R":0.766196013289037,"FDR":1,"O":1},{"geneSet":"hsa04925","R":0.75718194254446,"FDR":1,"O":1},{"geneSet":"hsa04912","R":0.748377501352082,"FDR":1,"O":1},{"geneSet":"hsa04922","R":0.748377501352082,"FDR":1,"O":1},{"geneSet":"hsa04142","R":0.731368921775899,"FDR":1,"O":1},{"geneSet":"hsa01200","R":0.699570273003033,"FDR":1,"O":1},{"geneSet":"hsa01522","R":0.699570273003033,"FDR":1,"O":1},{"geneSet":"hsa04062","R":0.703393061380099,"FDR":1,"O":2},{"geneSet":"hsa04928","R":0.650105708245243,"FDR":1,"O":1},{"geneSet":"hsa04114","R":0.637232327883951,"FDR":1,"O":1},{"geneSet":"hsa04510","R":0.677478580171359,"FDR":1,"O":2},{"geneSet":"hsa04725","R":0.590462982718157,"FDR":1,"O":1},{"geneSet":"hsa03010","R":0.56956163819716,"FDR":1,"O":1},{"geneSet":"hsa04650","R":0.554831595829992,"FDR":1,"O":1},{"geneSet":"hsa05322","R":0.550089445438283,"FDR":1,"O":1},{"geneSet":"hsa04144","R":0.598702001081666,"FDR":1,"O":2},{"geneSet":"hsa05165","R":0.639342368704759,"FDR":1,"O":3},{"geneSet":"hsa04072","R":0.495080500894454,"FDR":1,"O":1},{"geneSet":"hsa04261","R":0.495080500894454,"FDR":1,"O":1},{"geneSet":"hsa04921","R":0.487579281183932,"FDR":1,"O":1},{"geneSet":"hsa04934","R":0.480301978479695,"FDR":1,"O":1},{"geneSet":"hsa04390","R":0.473238714090287,"FDR":1,"O":1},{"geneSet":"hsa04217","R":0.469784416907147,"FDR":1,"O":1},{"geneSet":"hsa05224","R":0.469784416907147,"FDR":1,"O":1},{"geneSet":"hsa05226","R":0.466380182002022,"FDR":1,"O":1},{"geneSet":"hsa04621","R":0.453242712086472,"FDR":1,"O":1},{"geneSet":"hsa05225","R":0.440825103536158,"FDR":1,"O":1},{"geneSet":"hsa04022","R":0.437826293308021,"FDR":1,"O":1},{"geneSet":"hsa05016","R":0.437826293308021,"FDR":1,"O":1},{"geneSet":"hsa04218","R":0.423424112607099,"FDR":1,"O":1},{"geneSet":"hsa05167","R":0.37859097127223,"FDR":1,"O":1},{"geneSet":"hsa04010","R":0.464696499034506,"FDR":1,"O":2},{"geneSet":"hsa05205","R":0.35169653069005,"FDR":1,"O":1},{"geneSet":"hsa05169","R":0.349785136501517,"FDR":1,"O":1},{"geneSet":"hsa05170","R":0.344173610247482,"FDR":1,"O":1},{"geneSet":"hsa05200","R":0.528628050236378,"FDR":1,"O":4},{"geneSet":"hsa04015","R":0.328369719981016,"FDR":1,"O":1},{"geneSet":"hsa04060","R":0.259518004501125,"FDR":1,"O":1}];
+var geneTables = {"hsa03018":[{"userId":"ENSG00000111596","geneSymbol":"CNOT2","geneName":"CCR4-NOT transcription complex subunit 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4848","entrezgene":"4848"},{"userId":"ENSG00000080802","geneSymbol":"CNOT4","geneName":"CCR4-NOT transcription complex subunit 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=4850","entrezgene":"4850"},{"userId":"ENSG00000113300","geneSymbol":"CNOT6","geneName":"CCR4-NOT transcription complex subunit 6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=57472","entrezgene":"57472"},{"userId":"ENSG00000272886","geneSymbol":"DCP1A","geneName":"decapping mRNA 1A","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=55802","entrezgene":"55802"},{"userId":"ENSG00000172795","geneSymbol":"DCP2","geneName":"decapping mRNA 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=167227","entrezgene":"167227"},{"userId":"ENSG00000038358","geneSymbol":"EDC4","geneName":"enhancer of mRNA decapping 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=23644","entrezgene":"23644"},{"userId":"ENSG00000171311","geneSymbol":"EXOSC1","geneName":"exosome component 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=51013","entrezgene":"51013"},{"userId":"ENSG00000171824","geneSymbol":"EXOSC10","geneName":"exosome component 10","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5394","entrezgene":"5394"},{"userId":"ENSG00000130713","geneSymbol":"EXOSC2","geneName":"exosome component 2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=23404","entrezgene":"23404"},{"userId":"ENSG00000178896","geneSymbol":"EXOSC4","geneName":"exosome component 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=54512","entrezgene":"54512"},{"userId":"ENSG00000077348","geneSymbol":"EXOSC5","geneName":"exosome component 5","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=56915","entrezgene":"56915"},{"userId":"ENSG00000123737","geneSymbol":"EXOSC9","geneName":"exosome component 9","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5393","entrezgene":"5393"},{"userId":"ENSG00000113013","geneSymbol":"HSPA9","geneName":"heat shock protein family A (Hsp70) member 9","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=3313","entrezgene":"3313"},{"userId":"ENSG00000175324","geneSymbol":"LSM1","geneName":"LSM1 homolog, mRNA degradation associated","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=27257","entrezgene":"27257"},{"userId":"ENSG00000130520","geneSymbol":"LSM4","geneName":"LSM4 homolog, U6 small nuclear RNA and mRNA degradation associated","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=25804","entrezgene":"25804"},{"userId":"ENSG00000140694","geneSymbol":"PARN","geneName":"poly(A)-specific ribonuclease","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5073","entrezgene":"5073"},{"userId":"ENSG00000274829","geneSymbol":"PARN","geneName":"poly(A)-specific ribonuclease","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5073","entrezgene":"5073"},{"userId":"ENSG00000198677","geneSymbol":"TTC37","geneName":"tetratricopeptide repeat domain 37","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=9652","entrezgene":"9652"}],"hsa04141":[{"userId":"ENSG00000128272","geneSymbol":"ATF4","geneName":"activating transcription factor 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=468","entrezgene":"468"},{"userId":"ENSG00000118217","geneSymbol":"ATF6","geneName":"activating transcription factor 6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=22926","entrezgene":"22926"},{"userId":"ENSG00000179218","geneSymbol":"CALR","geneName":"calreticulin","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=811","entrezgene":"811"},{"userId":"ENSG00000102580","geneSymbol":"DNAJC3","geneName":"DnaJ heat shock protein family (Hsp40) member C3","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=5611","entrezgene":"5611"},{"userId":"ENSG00000134109","geneSymbol":"EDEM1","geneName":"ER degradation enhancing alpha-mannosidase like protein 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=9695","entrezgene":"9695"},{"userId":"ENSG00000172071","geneSymbol":"EIF2AK3","geneName":"eukaryotic translation initiation factor 2 alpha kinase 3","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=9451","entrezgene":"9451"},{"userId":"ENSG00000134001","geneSymbol":"EIF2S1","geneName":"eukaryotic translation initiation factor 2 subunit alpha","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1965","entrezgene":"1965"},{"userId":"ENSG00000178607","geneSymbol":"ERN1","geneName":"endoplasmic reticulum to nucleus signaling 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=2081","entrezgene":"2081"},{"userId":"ENSG00000051108","geneSymbol":"HERPUD1","geneName":"homocysteine inducible ER protein with ubiquitin like domain 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=9709","entrezgene":"9709"},{"userId":"ENSG00000166598","geneSymbol":"HSP90B1","geneName":"heat shock protein 90 beta family member 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=7184","entrezgene":"7184"},{"userId":"ENSG00000044574","geneSymbol":"HSPA5","geneName":"heat shock protein family A (Hsp70) member 5","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=3309","entrezgene":"3309"},{"userId":"ENSG00000149428","geneSymbol":"HYOU1","geneName":"hypoxia up-regulated 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10525","entrezgene":"10525"},{"userId":"ENSG00000280682","geneSymbol":"HYOU1","geneName":"hypoxia up-regulated 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10525","entrezgene":"10525"},{"userId":"ENSG00000143870","geneSymbol":"PDIA6","geneName":"protein disulfide isomerase family A member 6","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10130","entrezgene":"10130"},{"userId":"ENSG00000138073","geneSymbol":"PREB","geneName":"prolactin regulatory element binding","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10113","entrezgene":"10113"},{"userId":"ENSG00000138674","geneSymbol":"SEC31A","geneName":"SEC31 homolog A, COPII coat complex component","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=22872","entrezgene":"22872"},{"userId":"ENSG00000124783","geneSymbol":"SSR1","geneName":"signal sequence receptor subunit 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=6745","entrezgene":"6745"},{"userId":"ENSG00000109501","geneSymbol":"WFS1","geneName":"wolframin ER transmembrane glycoprotein","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=7466","entrezgene":"7466"},{"userId":"ENSG00000100219","geneSymbol":"XBP1","geneName":"X-box binding protein 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=7494","entrezgene":"7494"}],"hsa03013":[{"userId":"ENSG00000134001","geneSymbol":"EIF2S1","geneName":"eukaryotic translation initiation factor 2 subunit alpha","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1965","entrezgene":"1965"},{"userId":"ENSG00000161960","geneSymbol":"EIF4A1","geneName":"eukaryotic translation initiation factor 4A1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1973","entrezgene":"1973"},{"userId":"ENSG00000156976","geneSymbol":"EIF4A2","geneName":"eukaryotic translation initiation factor 4A2","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1974","entrezgene":"1974"},{"userId":"ENSG00000141543","geneSymbol":"EIF4A3","geneName":"eukaryotic translation initiation factor 4A3","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=9775","entrezgene":"9775"},{"userId":"ENSG00000151247","geneSymbol":"EIF4E","geneName":"eukaryotic translation initiation factor 4E","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1977","entrezgene":"1977"},{"userId":"ENSG00000187840","geneSymbol":"EIF4EBP1","geneName":"eukaryotic translation initiation factor 4E binding protein 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1978","entrezgene":"1978"},{"userId":"ENSG00000114867","geneSymbol":"EIF4G1","geneName":"eukaryotic translation initiation factor 4 gamma 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=1981","entrezgene":"1981"},{"userId":"ENSG00000179409","geneSymbol":"GEMIN4","geneName":"gem nuclear organelle associated protein 4","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=50628","entrezgene":"50628"},{"userId":"ENSG00000172239","geneSymbol":"PAIP1","geneName":"poly(A) binding protein interacting protein 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10605","entrezgene":"10605"},{"userId":"ENSG00000105171","geneSymbol":"POP4","geneName":"POP4 homolog, ribonuclease P/MRP subunit","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=10775","entrezgene":"10775"},{"userId":"ENSG00000184575","geneSymbol":"XPOT","geneName":"exportin for tRNA","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=11260","entrezgene":"11260"}],"hsa03060":[{"userId":"ENSG00000044574","geneSymbol":"HSPA5","geneName":"heat shock protein family A (Hsp70) member 5","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=3309","entrezgene":"3309"},{"userId":"ENSG00000140612","geneSymbol":"SEC11A","geneName":"SEC11 homolog A, signal peptidase complex subunit","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=23478","entrezgene":"23478"},{"userId":"ENSG00000114902","geneSymbol":"SPCS1","geneName":"signal peptidase complex subunit 1","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=28972","entrezgene":"28972"},{"userId":"ENSG00000129128","geneSymbol":"SPCS3","geneName":"signal peptidase complex subunit 3","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=60559","entrezgene":"60559"},{"userId":"ENSG00000144867","geneSymbol":"SRPRB","geneName":"SRP receptor subunit beta","gLink":"https://www.ncbi.nlm.nih.gov/gene/?term=58477","entrezgene":"58477"}]};
+var clusters = {"ap":{"clusters":["hsa03018",["hsa04141","hsa03013","hsa03060"]],"representatives":["hsa03018","hsa04141"]},"wsc":{"representatives":["hsa03018","hsa04141","hsa03013","hsa03060"],"coverage":1}};
+
+wgLib({
+	enrichDatabase: "pathway_KEGG",
+	organism: "hsapiens",
+	hostName: "http://www.webgestalt.org/",
+	enrichment: enrichment,
+	background: background,
+	geneTables: geneTables,
+	clusters: clusters,
+	
+	enrichMethod: "ora",
+	mappedInputSize: 86,
+	standardId: "entrezgene",
+	volcano: {
+		labelTypes: ["geneSet", "description"],
+				autoPlaceLabels: true,
+		y: "FDR",
+
+
+		x: "R",
+		xLabel: "log2 of enrichment ratio",
+		radius: "O",
+		color: "O",
+			tooltipContent: ["geneSet", "description", "R", "FDR", "pValue", "O"]
+					
+	},
+	bar: {
+		dimensions: { width: 960, height: 300 },
+		tooltipContent: ["geneSet", "description", "R", "FDR", "pValue", "O"],
+		
+		valueKey: "R",
+		xLabel: "Enrichment ratio"
+	}
+})
+
+
+</script>
+<footer class="footer has-text-centered">
+<p>WebGestalt is currently developed and maintained by Yuxing Liao, Suhas Vasaikar, Zhiao Shi and Bing Zhang at the <a target="_new" href=http://www.zhang-lab.org> Zhang Lab</a>. Other people who have made significant contribution to the project include Jing Wang, Dexter Duncan, Stefan Kirov and Jay Snoddy.</p>
+<p><b>Funding credits:</b> NIH/NCI (U24 CA210954); Leidos (15X038); CPRIT (RR160027); NIH/NIAAA (U01 AA016662, U01 AA013512); NIH/NIDA (P01 DA015027); NIH/NIMH (P50 MH078028, P50 MH096972); NIH/NCI (U24 CA159988); NIH/NIGMS (R01 GM088822).
+</p>
+</footer></body>
+</html>

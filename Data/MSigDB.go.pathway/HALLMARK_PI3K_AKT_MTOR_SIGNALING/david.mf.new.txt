@@ -1,0 +1,122 @@
+GO:0016301~kinase activity	8.36424876983404e-27
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	3.61303903207106e-26
+GO:0004672~protein kinase activity	2.01426791104932e-24
+GO:0016772~transferase activity, transferring phosphorus-containing groups	3.38129738741393e-24
+GO:0004674~protein serine/threonine kinase activity	4.69601303074951e-21
+GO:0019900~kinase binding	4.66708287801315e-20
+GO:0019899~enzyme binding	2.80537582406971e-19
+GO:0019901~protein kinase binding	3.21902635705257e-19
+GO:0005515~protein binding	6.96240311218095e-16
+GO:0017076~purine nucleotide binding	8.55775713227236e-16
+GO:0032555~purine ribonucleotide binding	4.09919884144154e-15
+GO:0032553~ribonucleotide binding	5.50376645803308e-15
+GO:0030554~adenyl nucleotide binding	6.23473125811511e-15
+GO:0035639~purine ribonucleoside triphosphate binding	1.06624163268522e-14
+GO:0032550~purine ribonucleoside binding	1.27127638081911e-14
+GO:0032549~ribonucleoside binding	1.341881167562e-14
+GO:0001883~purine nucleoside binding	1.341881167562e-14
+GO:0001882~nucleoside binding	1.52693270569644e-14
+GO:0032559~adenyl ribonucleotide binding	3.01543597638672e-14
+GO:0005524~ATP binding	8.63339736848468e-14
+GO:0097367~carbohydrate derivative binding	3.35186757215209e-13
+GO:0016740~transferase activity	3.42556033626049e-13
+GO:0000166~nucleotide binding	3.036955297267e-12
+GO:1901265~nucleoside phosphate binding	3.08070621483631e-12
+GO:0005057~receptor signaling protein activity	4.09514523314977e-12
+GO:0036094~small molecule binding	8.33231507593165e-12
+GO:0098772~molecular function regulator	6.5435087009501e-11
+GO:0030234~enzyme regulator activity	3.20241352030483e-09
+GO:0004702~receptor signaling protein serine/threonine kinase activity	4.34021953141132e-09
+GO:0019207~kinase regulator activity	1.91138570804866e-08
+GO:0019887~protein kinase regulator activity	8.01891174372479e-08
+GO:0003824~catalytic activity	1.1687892870619e-07
+GO:0031625~ubiquitin protein ligase binding	1.43743743876565e-07
+GO:0044389~ubiquitin-like protein ligase binding	1.73256338412963e-07
+GO:0035004~phosphatidylinositol 3-kinase activity	1.95821293886691e-07
+GO:0005102~receptor binding	3.03931708529725e-07
+GO:0019902~phosphatase binding	3.53622763164044e-07
+GO:0051219~phosphoprotein binding	9.02936297945471e-07
+GO:0005488~binding	1.65270557296062e-06
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	1.8511596205164e-06
+GO:0044877~macromolecular complex binding	2.0492176087097e-06
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	2.45154361429777e-06
+GO:0032403~protein complex binding	2.74186439170116e-06
+GO:0004712~protein serine/threonine/tyrosine kinase activity	3.86661960140712e-06
+GO:0016303~1-phosphatidylinositol-3-kinase activity	5.57665758131806e-06
+GO:0070851~growth factor receptor binding	1.16391172691989e-05
+GO:0052742~phosphatidylinositol kinase activity	1.31031227299144e-05
+GO:0009931~calcium-dependent protein serine/threonine kinase activity	3.3126314078763e-05
+GO:0005126~cytokine receptor binding	3.78177487087315e-05
+GO:0010857~calcium-dependent protein kinase activity	4.39764526856066e-05
+GO:0019903~protein phosphatase binding	5.38495633270966e-05
+GO:0004707~MAP kinase activity	7.21301758877053e-05
+GO:0016909~SAP kinase activity	0.000105918181587273
+GO:0004705~JUN kinase activity	0.000105918181587273
+GO:0042802~identical protein binding	0.00013618207725834
+GO:1901363~heterocyclic compound binding	0.000144205819919713
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.00014896899685041
+GO:0004860~protein kinase inhibitor activity	0.000155814688040555
+GO:0005123~death receptor binding	0.000158908674912007
+GO:0019210~kinase inhibitor activity	0.00018347929943812
+GO:0035173~histone kinase activity	0.000187885327395181
+GO:0097159~organic cyclic compound binding	0.000214410044061799
+GO:0030332~cyclin binding	0.000220082776054559
+GO:0004871~signal transducer activity	0.000241894755455759
+GO:0030971~receptor tyrosine kinase binding	0.000282245116416959
+GO:0019904~protein domain specific binding	0.000299100173747986
+GO:0045309~protein phosphorylated amino acid binding	0.000337472944712336
+GO:0005070~SH3/SH2 adaptor activity	0.000349194805684873
+GO:0030674~protein binding, bridging	0.00042559878115293
+GO:1990782~protein tyrosine kinase binding	0.00042680894033944
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.000438607866954961
+GO:0005085~guanyl-nucleotide exchange factor activity	0.00052145188722471
+GO:0030291~protein serine/threonine kinase inhibitor activity	0.000678391220770111
+GO:0060090~binding, bridging	0.000720387691155517
+GO:0004713~protein tyrosine kinase activity	0.000741669697505827
+GO:1901981~phosphatidylinositol phosphate binding	0.000767742315184101
+GO:0035591~signaling adaptor activity	0.00122656434713715
+GO:0035091~phosphatidylinositol binding	0.00160083699268377
+GO:0008289~lipid binding	0.00186819649961848
+GO:0043028~cysteine-type endopeptidase regulator activity involved in apoptotic process	0.00187889916787157
+GO:0004857~enzyme inhibitor activity	0.00231822755580735
+GO:0004708~MAP kinase kinase activity	0.0026483223729653
+GO:0005165~neurotrophin receptor binding	0.0026483223729653
+GO:0008134~transcription factor binding	0.00357657351145193
+GO:0031434~mitogen-activated protein kinase kinase binding	0.00402698998423446
+GO:0005516~calmodulin binding	0.0055565057147948
+GO:1902936~phosphatidylinositol bisphosphate binding	0.00581937049138808
+GO:0042578~phosphoric ester hydrolase activity	0.00738548515244971
+GO:0000287~magnesium ion binding	0.00762091453124795
+GO:0051015~actin filament binding	0.00813243706164724
+GO:0004709~MAP kinase kinase kinase activity	0.00826229442434157
+GO:0008047~enzyme activator activity	0.0095599078917447
+GO:0043325~phosphatidylinositol-3,4-bisphosphate binding	0.00972145972825461
+GO:0005104~fibroblast growth factor receptor binding	0.0104908287098761
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.0112862727042953
+GO:0004683~calmodulin-dependent protein kinase activity	0.0129540561520302
+GO:0003924~GTPase activity	0.0132485377538906
+GO:0008083~growth factor activity	0.0162566835248512
+GO:0097472~cyclin-dependent protein kinase activity	0.0175568702538916
+GO:0004693~cyclin-dependent protein serine/threonine kinase activity	0.0175568702538916
+GO:0016788~hydrolase activity, acting on ester bonds	0.018113021859897
+GO:0005543~phospholipid binding	0.0195636450517619
+GO:0050839~cell adhesion molecule binding	0.0206752753087334
+GO:0005547~phosphatidylinositol-3,4,5-trisphosphate binding	0.0216639330907085
+GO:0004721~phosphoprotein phosphatase activity	0.0229429226479863
+GO:0016791~phosphatase activity	0.0264609133217419
+GO:0043168~anion binding	0.0275365673886502
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.0301539550878067
+GO:0031267~small GTPase binding	0.0305402584703605
+GO:0005080~protein kinase C binding	0.0309282787250919
+GO:0003779~actin binding	0.0319374065417865
+GO:0098632~protein binding involved in cell-cell adhesion	0.0345757501059545
+GO:0005168~neurotrophin TRKA receptor binding	0.0353708172093615
+GO:0050815~phosphoserine binding	0.0353708172093615
+GO:0098631~protein binding involved in cell adhesion	0.0367122037657142
+GO:0045296~cadherin binding	0.0371490726734164
+GO:0004679~AMP-activated protein kinase activity	0.0411443015047337
+GO:0008603~cAMP-dependent protein kinase regulator activity	0.0411443015047337
+GO:0005167~neurotrophin TRK receptor binding	0.0411443015047337
+GO:0051020~GTPase binding	0.0412255406317607
+GO:0061134~peptidase regulator activity	0.043099990621762
+GO:0005546~phosphatidylinositol-4,5-bisphosphate binding	0.0471773974783974

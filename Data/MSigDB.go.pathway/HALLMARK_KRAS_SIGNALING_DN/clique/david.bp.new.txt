@@ -1,0 +1,68 @@
+GO:0007186~G-protein coupled receptor signaling pathway	9.9155353010125e-08
+GO:0007187~G-protein coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger	8.02343380012519e-05
+GO:0007204~positive regulation of cytosolic calcium ion concentration	0.000214505548299768
+GO:0051480~regulation of cytosolic calcium ion concentration	0.00027318849395543
+GO:0050795~regulation of behavior	0.00038229301177237
+GO:0042310~vasoconstriction	0.00040695867275068
+GO:0006874~cellular calcium ion homeostasis	0.000652734219091319
+GO:0055074~calcium ion homeostasis	0.00071259560832946
+GO:0072503~cellular divalent inorganic cation homeostasis	0.000754404624437243
+GO:0072507~divalent inorganic cation homeostasis	0.000865759239813378
+GO:0007200~phospholipase C-activating G-protein coupled receptor signaling pathway	0.00120261989458758
+GO:0006875~cellular metal ion homeostasis	0.00124687536155877
+GO:0050880~regulation of blood vessel size	0.00174037063445214
+GO:0035150~regulation of tube size	0.0017659246869258
+GO:0055065~metal ion homeostasis	0.0018038047671936
+GO:0030003~cellular cation homeostasis	0.0019468388518517
+GO:0006873~cellular ion homeostasis	0.00209687948605459
+GO:0003018~vascular process in circulatory system	0.00243292022200468
+GO:0007188~adenylate cyclase-modulating G-protein coupled receptor signaling pathway	0.00264672778808785
+GO:0055080~cation homeostasis	0.00270907674268441
+GO:0098771~inorganic ion homeostasis	0.00289351812177019
+GO:0007165~signal transduction	0.00317594548268588
+GO:0050801~ion homeostasis	0.00343740420843048
+GO:0055082~cellular chemical homeostasis	0.00363676110372016
+GO:0042221~response to chemical	0.00379147740082839
+GO:0044700~single organism signaling	0.00509419489878909
+GO:0023052~signaling	0.00538467589756387
+GO:0007154~cell communication	0.00546933735557382
+GO:0019725~cellular homeostasis	0.00564558076573958
+GO:0051716~cellular response to stimulus	0.0103775269235334
+GO:0048878~chemical homeostasis	0.0107354743540742
+GO:0007210~serotonin receptor signaling pathway	0.0132648416984744
+GO:0030815~negative regulation of cAMP metabolic process	0.017495715051808
+GO:0030800~negative regulation of cyclic nucleotide metabolic process	0.0184337505360349
+GO:0050433~regulation of catecholamine secretion	0.0193710022969647
+GO:0090066~regulation of anatomical structure size	0.0206882622429354
+GO:0043410~positive regulation of MAPK cascade	0.0207689454509106
+GO:0050432~catecholamine secretion	0.0207754116783105
+GO:0008015~blood circulation	0.0224947544997492
+GO:0003013~circulatory system process	0.0228302409753472
+GO:0070887~cellular response to chemical stimulus	0.0253435526342014
+GO:0051937~catecholamine transport	0.0263754658479374
+GO:1900543~negative regulation of purine nucleotide metabolic process	0.0273060785695829
+GO:0045980~negative regulation of nucleotide metabolic process	0.0277710929936993
+GO:0051952~regulation of amine transport	0.0282359128870738
+GO:0007267~cell-cell signaling	0.0291420962130164
+GO:0007268~chemical synaptic transmission	0.0313166484966687
+GO:0098916~anterograde trans-synaptic signaling	0.0313166484966687
+GO:0099536~synaptic signaling	0.0313166484966687
+GO:0099537~trans-synaptic signaling	0.0313166484966687
+GO:0015837~amine transport	0.0319474772444579
+GO:0050789~regulation of biological process	0.0320043214070546
+GO:0015844~monoamine transport	0.0324105494887071
+GO:0007193~adenylate cyclase-inhibiting G-protein coupled receptor signaling pathway	0.0333361125357851
+GO:0050896~response to stimulus	0.0334134847776763
+GO:1903530~regulation of secretion by cell	0.0338609490295281
+GO:0019220~regulation of phosphate metabolic process	0.0340883497578401
+GO:0051174~regulation of phosphorus metabolic process	0.0341439161088475
+GO:0042592~homeostatic process	0.0360633786526788
+GO:0043408~regulation of MAPK cascade	0.0387717338488844
+GO:0051046~regulation of secretion	0.0392988447322846
+GO:0006939~smooth muscle contraction	0.0393334118119891
+GO:0051209~release of sequestered calcium ion into cytosol	0.0471268948839301
+GO:0051283~negative regulation of sequestering of calcium ion	0.0471268948839301
+GO:0007631~feeding behavior	0.0480401279163407
+GO:1902656~calcium ion import into cytosol	0.0489525950153612
+GO:0097553~calcium ion transmembrane import into cytosol	0.0489525950153612
+GO:0065007~biological regulation	0.04999261201885

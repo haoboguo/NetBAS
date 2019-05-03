@@ -1,0 +1,374 @@
+GO:0034097~response to cytokine	8.01112631580451e-40
+GO:0006952~defense response	2.12192931280239e-39
+GO:0019221~cytokine-mediated signaling pathway	3.33028609635725e-38
+GO:0006955~immune response	2.64314189932381e-36
+GO:0045087~innate immune response	3.09350037319731e-36
+GO:0071345~cellular response to cytokine stimulus	2.76748664266554e-35
+GO:0060337~type I interferon signaling pathway	4.82277051681717e-34
+GO:0071357~cellular response to type I interferon	4.82277051681717e-34
+GO:0034340~response to type I interferon	1.84491817695264e-33
+GO:0002376~immune system process	1.68063264337662e-32
+GO:0051607~defense response to virus	1.82115996070801e-28
+GO:0009615~response to virus	2.19633028748919e-26
+GO:0009607~response to biotic stimulus	2.08249694878382e-25
+GO:0051707~response to other organism	5.10074047312401e-25
+GO:0043207~response to external biotic stimulus	5.10074047312401e-25
+GO:0016032~viral process	5.33397892127451e-25
+GO:0044764~multi-organism cellular process	6.91033453875315e-25
+GO:0006950~response to stress	1.09128570388436e-24
+GO:0044419~interspecies interaction between organisms	1.71358735860727e-24
+GO:0044403~symbiosis, encompassing mutualism through parasitism	1.71358735860727e-24
+GO:0098542~defense response to other organism	1.59476413730768e-23
+GO:0048525~negative regulation of viral process	3.24498641883591e-21
+GO:0050792~regulation of viral process	3.70840960692908e-21
+GO:0010033~response to organic substance	4.51301528438525e-21
+GO:1903901~negative regulation of viral life cycle	5.41712441533999e-21
+GO:0002252~immune effector process	7.82850997835841e-21
+GO:0043903~regulation of symbiosis, encompassing mutualism through parasitism	2.33133285144006e-20
+GO:0051704~multi-organism process	3.91474339254635e-20
+GO:0034341~response to interferon-gamma	1.19767322942629e-19
+GO:0002682~regulation of immune system process	1.40217474006953e-19
+GO:0071310~cellular response to organic substance	1.47889828249696e-19
+GO:0043900~regulation of multi-organism process	5.64233170011287e-19
+GO:0043901~negative regulation of multi-organism process	2.36171210655787e-18
+GO:0045071~negative regulation of viral genome replication	1.68560425499003e-17
+GO:1903900~regulation of viral life cycle	1.85534854619767e-17
+GO:0050776~regulation of immune response	3.00461507637807e-17
+GO:0007166~cell surface receptor signaling pathway	6.52284698033304e-17
+GO:0035455~response to interferon-alpha	1.24519973509862e-16
+GO:0060333~interferon-gamma-mediated signaling pathway	1.29304949356751e-16
+GO:0070887~cellular response to chemical stimulus	3.10077910847756e-16
+GO:0009605~response to external stimulus	5.33605233545914e-16
+GO:0050896~response to stimulus	7.31200803385688e-16
+GO:0045069~regulation of viral genome replication	6.69691685489119e-15
+GO:0045088~regulation of innate immune response	1.43727228569287e-14
+GO:0031347~regulation of defense response	1.93859786380567e-14
+GO:0042221~response to chemical	2.6724259009811e-14
+GO:0002684~positive regulation of immune system process	8.82435424043116e-14
+GO:0071346~cellular response to interferon-gamma	1.47074380763462e-13
+GO:0019079~viral genome replication	1.8967311108913e-13
+GO:0019058~viral life cycle	1.00726302890214e-11
+GO:0080134~regulation of response to stress	8.03434295613454e-11
+GO:0050778~positive regulation of immune response	1.39950680680724e-10
+GO:0007165~signal transduction	1.92089468669702e-10
+GO:0001817~regulation of cytokine production	4.85572820079154e-10
+GO:0044700~single organism signaling	1.18361550323724e-09
+GO:0031349~positive regulation of defense response	1.46498788086431e-09
+GO:0023052~signaling	1.72690361378304e-09
+GO:0035456~response to interferon-beta	1.75946645353738e-09
+GO:0007154~cell communication	1.92005804895798e-09
+GO:0045089~positive regulation of innate immune response	2.45709237190872e-09
+GO:0051716~cellular response to stimulus	2.95802698652148e-09
+GO:0002758~innate immune response-activating signal transduction	3.32621104509246e-09
+GO:0002218~activation of innate immune response	4.58190489403896e-09
+GO:0001816~cytokine production	1.41399509469953e-08
+GO:0048519~negative regulation of biological process	6.19617026044249e-08
+GO:0060759~regulation of response to cytokine stimulus	6.20605545566731e-08
+GO:0032479~regulation of type I interferon production	9.55786872285232e-08
+GO:0002253~activation of immune response	9.60687610387197e-08
+GO:0051701~interaction with host	1.02866500882938e-07
+GO:0048583~regulation of response to stimulus	1.70031309486628e-07
+GO:0002757~immune response-activating signal transduction	1.87289901877264e-07
+GO:0046596~regulation of viral entry into host cell	2.18203956634099e-07
+GO:0048584~positive regulation of response to stimulus	3.73340021956652e-07
+GO:0002764~immune response-regulating signaling pathway	4.07294017825614e-07
+GO:0002474~antigen processing and presentation of peptide antigen via MHC class I	4.10041972086791e-07
+GO:0001819~positive regulation of cytokine production	5.32701821195596e-07
+GO:0001959~regulation of cytokine-mediated signaling pathway	6.292311009103e-07
+GO:0048523~negative regulation of cellular process	6.65651664787799e-07
+GO:0042590~antigen processing and presentation of exogenous peptide antigen via MHC class I	1.002495388225e-06
+GO:0050789~regulation of biological process	1.03741940584096e-06
+GO:0032606~type I interferon production	1.22282995466991e-06
+GO:0002221~pattern recognition receptor signaling pathway	1.40526993309965e-06
+GO:0065007~biological regulation	1.60280137688461e-06
+GO:0002478~antigen processing and presentation of exogenous peptide antigen	1.61749039780807e-06
+GO:0046597~negative regulation of viral entry into host cell	1.7723938285338e-06
+GO:0019884~antigen processing and presentation of exogenous antigen	2.22126913551168e-06
+GO:0048002~antigen processing and presentation of peptide antigen	3.40979523601305e-06
+GO:0030097~hemopoiesis	3.97033416937672e-06
+GO:1903706~regulation of hemopoiesis	6.02980221022333e-06
+GO:0048534~hematopoietic or lymphoid organ development	7.39137081390253e-06
+GO:0002753~cytoplasmic pattern recognition receptor signaling pathway	7.67901702345024e-06
+GO:0051239~regulation of multicellular organismal process	8.68300751121015e-06
+GO:0039530~MDA-5 signaling pathway	1.02865064363709e-05
+GO:0002520~immune system development	1.40255319172735e-05
+GO:0002479~antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent	1.64686829743456e-05
+GO:1903708~positive regulation of hemopoiesis	1.86668011812749e-05
+GO:0019882~antigen processing and presentation	1.93952417822126e-05
+GO:0030260~entry into host cell	2.08388763064806e-05
+GO:0046718~viral entry into host cell	2.08388763064806e-05
+GO:0051806~entry into cell of other organism involved in symbiotic interaction	2.08388763064806e-05
+GO:0051828~entry into other organism involved in symbiotic interaction	2.08388763064806e-05
+GO:0044409~entry into host	2.08388763064806e-05
+GO:0009967~positive regulation of signal transduction	2.23010226732045e-05
+GO:0002521~leukocyte differentiation	2.61994058562936e-05
+GO:0048518~positive regulation of biological process	3.13170262671664e-05
+GO:1902105~regulation of leukocyte differentiation	3.25289915343075e-05
+GO:0098586~cellular response to virus	3.55508930075019e-05
+GO:0002697~regulation of immune effector process	3.86160393854676e-05
+GO:0000209~protein polyubiquitination	4.09057580867427e-05
+GO:0032480~negative regulation of type I interferon production	4.86284249300874e-05
+GO:1902107~positive regulation of leukocyte differentiation	5.30697720551347e-05
+GO:0032103~positive regulation of response to external stimulus	6.14946807311524e-05
+GO:0032101~regulation of response to external stimulus	6.433851551085e-05
+GO:0032608~interferon-beta production	6.49119445660923e-05
+GO:0002831~regulation of response to biotic stimulus	6.54029929173217e-05
+GO:0010647~positive regulation of cell communication	7.49459865851049e-05
+GO:0032648~regulation of interferon-beta production	7.77682128080978e-05
+GO:0030217~T cell differentiation	7.80479799531698e-05
+GO:0023056~positive regulation of signaling	8.05004329085798e-05
+GO:0019883~antigen processing and presentation of endogenous antigen	8.08669962368092e-05
+GO:0045321~leukocyte activation	9.20585691734031e-05
+GO:0032647~regulation of interferon-alpha production	0.00013409117563385
+GO:0002683~negative regulation of immune system process	0.000149708949069041
+GO:0032607~interferon-alpha production	0.000155868592566443
+GO:0039528~cytoplasmic pattern recognition receptor signaling pathway in response to virus	0.000155868592566443
+GO:0001775~cell activation	0.000177522215378358
+GO:0002699~positive regulation of immune effector process	0.00018320219997996
+GO:1902533~positive regulation of intracellular signal transduction	0.000187912823060474
+GO:0050852~T cell receptor signaling pathway	0.000202144788361723
+GO:0045580~regulation of T cell differentiation	0.000269841803911516
+GO:0009966~regulation of signal transduction	0.000291208824303319
+GO:0048522~positive regulation of cellular process	0.000392246218210141
+GO:0050777~negative regulation of immune response	0.000399303496611649
+GO:0070489~T cell aggregation	0.000418788259689037
+GO:0042110~T cell activation	0.000418788259689037
+GO:0071593~lymphocyte aggregation	0.00042564801900866
+GO:0032481~positive regulation of type I interferon production	0.000458920256000702
+GO:0070486~leukocyte aggregation	0.000476311351922136
+GO:0002819~regulation of adaptive immune response	0.000479371845280444
+GO:0016567~protein ubiquitination	0.000480645468042654
+GO:0032446~protein modification by small protein conjugation	0.000492721519236846
+GO:1903320~regulation of protein modification by small protein conjugation or removal	0.00049700922767817
+GO:0032728~positive regulation of interferon-beta production	0.000507891237209603
+GO:0052548~regulation of endopeptidase activity	0.000586287745430307
+GO:0070647~protein modification by small protein conjugation or removal	0.000635433815894074
+GO:0001961~positive regulation of cytokine-mediated signaling pathway	0.000668773674438166
+GO:0045619~regulation of lymphocyte differentiation	0.000720590589328365
+GO:1903321~negative regulation of protein modification by small protein conjugation or removal	0.000720590589328365
+GO:0051240~positive regulation of multicellular organismal process	0.000722482786074547
+GO:0060760~positive regulation of response to cytokine stimulus	0.000728808467998411
+GO:0045621~positive regulation of lymphocyte differentiation	0.00075625056961417
+GO:0007159~leukocyte cell-cell adhesion	0.00083367687226717
+GO:0032496~response to lipopolysaccharide	0.000845672268430425
+GO:0052547~regulation of peptidase activity	0.00088074849318872
+GO:0035457~cellular response to interferon-alpha	0.000890835370926577
+GO:0050794~regulation of cellular process	0.000900905236784754
+GO:0045824~negative regulation of innate immune response	0.000929160682243989
+GO:0030098~lymphocyte differentiation	0.000984942632848007
+GO:0050688~regulation of defense response to virus	0.000988786957790267
+GO:0060338~regulation of type I interferon-mediated signaling pathway	0.00100292953207882
+GO:0050851~antigen receptor-mediated signaling pathway	0.00105041303279103
+GO:0002237~response to molecule of bacterial origin	0.00110080099681212
+GO:0051091~positive regulation of sequence-specific DNA binding transcription factor activity	0.00117439740886327
+GO:0002250~adaptive immune response	0.00128408972022627
+GO:0044763~single-organism cellular process	0.00141400185207681
+GO:0010646~regulation of cell communication	0.00147283754305986
+GO:0046649~lymphocyte activation	0.00148852154186166
+GO:0009617~response to bacterium	0.00170074209899096
+GO:0051603~proteolysis involved in cellular protein catabolic process	0.00174592401898095
+GO:0031396~regulation of protein ubiquitination	0.00178604426832121
+GO:0023051~regulation of signaling	0.00188898507708809
+GO:0002700~regulation of production of molecular mediator of immune response	0.00212363903048544
+GO:0038061~NIK/NF-kappaB signaling	0.00212363903048544
+GO:0019885~antigen processing and presentation of endogenous peptide antigen via MHC class I	0.00221509376750129
+GO:0045862~positive regulation of proteolysis	0.00224257628272977
+GO:0031398~positive regulation of protein ubiquitination	0.00230641990065112
+GO:0043123~positive regulation of I-kappaB kinase/NF-kappaB signaling	0.00230641990065112
+GO:0032722~positive regulation of chemokine production	0.00231324441015682
+GO:0044257~cellular protein catabolic process	0.00247162585274831
+GO:0002830~positive regulation of type 2 immune response	0.00254749170948482
+GO:0002483~antigen processing and presentation of endogenous peptide antigen	0.00254749170948482
+GO:0032268~regulation of cellular protein metabolic process	0.0025764991618306
+GO:0006521~regulation of cellular amino acid metabolic process	0.00257748168829448
+GO:0046631~alpha-beta T cell activation	0.00267354072911555
+GO:0051246~regulation of protein metabolic process	0.00274212290473429
+GO:0030162~regulation of proteolysis	0.00300651974362226
+GO:0043632~modification-dependent macromolecule catabolic process	0.00304183459679781
+GO:0002224~toll-like receptor signaling pathway	0.00312141856429713
+GO:0065009~regulation of molecular function	0.00327307787894803
+GO:1902187~negative regulation of viral release from host cell	0.00327800423799913
+GO:0032727~positive regulation of interferon-alpha production	0.00327800423799913
+GO:0002460~adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	0.00328940612028136
+GO:1903322~positive regulation of protein modification by small protein conjugation or removal	0.0033158533254004
+GO:0002718~regulation of cytokine production involved in immune response	0.00331737758059491
+GO:0032944~regulation of mononuclear cell proliferation	0.00338800053116886
+GO:0060255~regulation of macromolecule metabolic process	0.00344775862547808
+GO:0044265~cellular macromolecule catabolic process	0.00361454752651531
+GO:0050863~regulation of T cell activation	0.00408718889541328
+GO:0070663~regulation of leukocyte proliferation	0.0040891342133095
+GO:0031397~negative regulation of protein ubiquitination	0.00416584597079715
+GO:0050870~positive regulation of T cell activation	0.00425804004752422
+GO:0051092~positive regulation of NF-kappaB transcription factor activity	0.00464254161560331
+GO:0032946~positive regulation of mononuclear cell proliferation	0.00464254161560331
+GO:0006954~inflammatory response	0.00486021716421101
+GO:1903039~positive regulation of leukocyte cell-cell adhesion	0.0049837809366071
+GO:1903037~regulation of leukocyte cell-cell adhesion	0.00509812366710204
+GO:0045582~positive regulation of T cell differentiation	0.00515623971080396
+GO:2000026~regulation of multicellular organismal development	0.00518580645341168
+GO:0070665~positive regulation of leukocyte proliferation	0.00542444410391813
+GO:0001818~negative regulation of cytokine production	0.00547967267428648
+GO:0032642~regulation of chemokine production	0.00558421219784835
+GO:0002702~positive regulation of production of molecular mediator of immune response	0.00558421219784835
+GO:0051436~negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0.00558421219784835
+GO:0035556~intracellular signal transduction	0.00559490859716346
+GO:0051439~regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0.00580595817353815
+GO:0002367~cytokine production involved in immune response	0.00603292116687334
+GO:1904667~negative regulation of ubiquitin protein ligase activity	0.00603292116687334
+GO:0019222~regulation of metabolic process	0.00617945561512422
+GO:1903050~regulation of proteolysis involved in cellular protein catabolic process	0.00623129257678334
+GO:0033238~regulation of cellular amine metabolic process	0.00626513296462385
+GO:0051248~negative regulation of protein metabolic process	0.00639309254274568
+GO:0010604~positive regulation of macromolecule metabolic process	0.0066468314070107
+GO:0032602~chemokine production	0.00674542575134577
+GO:0051437~positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	0.00674542575134577
+GO:0043122~regulation of I-kappaB kinase/NF-kappaB signaling	0.00717604820797014
+GO:0031145~anaphase-promoting complex-dependent catabolic process	0.00750597579840442
+GO:0046633~alpha-beta T cell proliferation	0.00760576027981829
+GO:0032897~negative regulation of viral transcription	0.00760576027981829
+GO:0009893~positive regulation of metabolic process	0.00764286819948974
+GO:0030163~protein catabolic process	0.00772952669018523
+GO:0031348~negative regulation of defense response	0.00775329727806324
+GO:0051444~negative regulation of ubiquitin-protein transferase activity	0.00777029958143005
+GO:0035567~non-canonical Wnt signaling pathway	0.00792853899124608
+GO:0002828~regulation of type 2 immune response	0.00818739241822389
+GO:0051247~positive regulation of protein metabolic process	0.00825013497412818
+GO:0002690~positive regulation of leukocyte chemotaxis	0.00831531419668382
+GO:1904668~positive regulation of ubiquitin protein ligase activity	0.00831531419668382
+GO:0022409~positive regulation of cell-cell adhesion	0.0084926212033916
+GO:0048585~negative regulation of response to stimulus	0.00851657486506088
+GO:0043902~positive regulation of multi-organism process	0.00865554557375493
+GO:1903362~regulation of cellular protein catabolic process	0.00891822279908371
+GO:0050793~regulation of developmental process	0.00909411897338359
+GO:0044092~negative regulation of molecular function	0.00919010225630459
+GO:0002443~leukocyte mediated immunity	0.00935557312372142
+GO:1904666~regulation of ubiquitin protein ligase activity	0.00947148524376684
+GO:0019941~modification-dependent protein catabolic process	0.00947919509860908
+GO:0002694~regulation of leukocyte activation	0.00952175655400824
+GO:0046632~alpha-beta T cell differentiation	0.00977443875386867
+GO:0007249~I-kappaB kinase/NF-kappaB signaling	0.00981335603723964
+GO:0010608~posttranscriptional regulation of gene expression	0.00994877528148148
+GO:0044093~positive regulation of molecular function	0.00997226789802889
+GO:0034124~regulation of MyD88-dependent toll-like receptor signaling pathway	0.0100985452719576
+GO:0006508~proteolysis	0.0101771443692819
+GO:0002440~production of molecular mediator of immune response	0.0102376468707499
+GO:0030522~intracellular receptor signaling pathway	0.0104434044456883
+GO:0042127~regulation of cell proliferation	0.0106187520365412
+GO:0045581~negative regulation of T cell differentiation	0.0107056671305024
+GO:0002429~immune response-activating cell surface receptor signaling pathway	0.010763257333936
+GO:0034612~response to tumor necrosis factor	0.0107686213238063
+GO:0016337~single organismal cell-cell adhesion	0.0109509268098926
+GO:2000060~positive regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.0110425077261459
+GO:0010468~regulation of gene expression	0.0110587851832853
+GO:1903052~positive regulation of proteolysis involved in cellular protein catabolic process	0.0110945682071082
+GO:0032943~mononuclear cell proliferation	0.0111007228340847
+GO:0032269~negative regulation of cellular protein metabolic process	0.0112240265360996
+GO:0080090~regulation of primary metabolic process	0.0112313504242292
+GO:1902186~regulation of viral release from host cell	0.0113821522497936
+GO:0042092~type 2 immune response	0.0113821522497936
+GO:0033993~response to lipid	0.0114065319608781
+GO:0032270~positive regulation of cellular protein metabolic process	0.0115486688002642
+GO:0051090~regulation of sequence-specific DNA binding transcription factor activity	0.0115916044888396
+GO:0071216~cellular response to biotic stimulus	0.0119965576527475
+GO:0050900~leukocyte migration	0.0120222952071716
+GO:0002720~positive regulation of cytokine production involved in immune response	0.0120770012661938
+GO:0031329~regulation of cellular catabolic process	0.0121683420998109
+GO:0031331~positive regulation of cellular catabolic process	0.0123182456069179
+GO:0031325~positive regulation of cellular metabolic process	0.0123674414416096
+GO:0019076~viral release from host cell	0.0127900154908034
+GO:0031323~regulation of cellular metabolic process	0.0129418808159932
+GO:0044699~single-organism process	0.0130896108734213
+GO:0051241~negative regulation of multicellular organismal process	0.0133373871518382
+GO:0045785~positive regulation of cell adhesion	0.0133821916527904
+GO:0050865~regulation of cell activation	0.0134756983373054
+GO:0022407~regulation of cell-cell adhesion	0.0135396870372504
+GO:0010467~gene expression	0.0135748825097945
+GO:0070661~leukocyte proliferation	0.0138175093037046
+GO:0002688~regulation of leukocyte chemotaxis	0.0142294302689004
+GO:0002698~negative regulation of immune effector process	0.0142294302689004
+GO:2000058~regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.0146123987900677
+GO:1903364~positive regulation of cellular protein catabolic process	0.0147159441086307
+GO:0002449~lymphocyte mediated immunity	0.0148146293361068
+GO:0051251~positive regulation of lymphocyte activation	0.015226680455094
+GO:0051443~positive regulation of ubiquitin-protein transferase activity	0.015395797736115
+GO:0002768~immune response-regulating cell surface receptor signaling pathway	0.015707177993529
+GO:0002223~stimulatory C-type lectin receptor signaling pathway	0.0162025433831967
+GO:0002833~positive regulation of response to biotic stimulus	0.0166207150562401
+GO:0098602~single organism cell adhesion	0.0168330463558267
+GO:0002220~innate immune response activating cell surface receptor signaling pathway	0.0170327041497151
+GO:0048524~positive regulation of viral process	0.0170327041497151
+GO:0060071~Wnt signaling pathway, planar cell polarity pathway	0.0170327041497151
+GO:0045620~negative regulation of lymphocyte differentiation	0.0174386313592353
+GO:0009057~macromolecule catabolic process	0.0174955926842657
+GO:0002687~positive regulation of leukocyte migration	0.0178863388584892
+GO:0051249~regulation of lymphocyte activation	0.0179124045034817
+GO:0050670~regulation of lymphocyte proliferation	0.0180962327698458
+GO:0090175~regulation of establishment of planar polarity	0.0183219747592783
+GO:0009612~response to mechanical stimulus	0.0190107312691191
+GO:0031399~regulation of protein modification process	0.0191269579405625
+GO:1900245~positive regulation of MDA-5 signaling pathway	0.0200962977164112
+GO:0044106~cellular amine metabolic process	0.0205885359399905
+GO:0002696~positive regulation of leukocyte activation	0.0207823753350589
+GO:0070206~protein trimerization	0.0208765923224675
+GO:0009409~response to cold	0.0208765923224675
+GO:0002822~regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	0.0215364710169017
+GO:0010605~negative regulation of macromolecule metabolic process	0.0219309601211308
+GO:0051438~regulation of ubiquitin-protein transferase activity	0.0225080384225973
+GO:0050867~positive regulation of cell activation	0.0231678250547896
+GO:0090263~positive regulation of canonical Wnt signaling pathway	0.0235032442611561
+GO:0050921~positive regulation of chemotaxis	0.0235032442611561
+GO:0031324~negative regulation of cellular metabolic process	0.0236866077663279
+GO:0051171~regulation of nitrogen compound metabolic process	0.0238707421914587
+GO:0007164~establishment of tissue polarity	0.0240097113021194
+GO:0001736~establishment of planar polarity	0.0240097113021194
+GO:0009308~amine metabolic process	0.0250403687540546
+GO:0043086~negative regulation of catalytic activity	0.0257968205335724
+GO:0065008~regulation of biological quality	0.0258246662883047
+GO:0042787~protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.0262149264578419
+GO:0009896~positive regulation of catabolic process	0.0269170594357522
+GO:0048872~homeostasis of number of cells	0.0269756663918144
+GO:2000116~regulation of cysteine-type endopeptidase activity	0.0269756663918144
+GO:0034121~regulation of toll-like receptor signaling pathway	0.0275051201761884
+GO:0006915~apoptotic process	0.028273754468669
+GO:0050671~positive regulation of lymphocyte proliferation	0.0293989424478189
+GO:0032020~ISG15-protein conjugation	0.0299942514805552
+GO:0039533~regulation of MDA-5 signaling pathway	0.0299942514805552
+GO:0030099~myeloid cell differentiation	0.0300513305456633
+GO:0001738~morphogenesis of a polarized epithelium	0.0311304421679866
+GO:0033209~tumor necrosis factor-mediated signaling pathway	0.0335210268089398
+GO:0010950~positive regulation of endopeptidase activity	0.0347512893409938
+GO:0002477~antigen processing and presentation of exogenous peptide antigen via MHC class Ib	0.0349061118784397
+GO:0002481~antigen processing and presentation of exogenous protein antigen via MHC class Ib, TAP-dependent	0.0349061118784397
+GO:0048513~animal organ development	0.0357306200730966
+GO:0043367~CD4-positive, alpha-beta T cell differentiation	0.0359676598194866
+GO:0043488~regulation of mRNA stability	0.0372813990193535
+GO:2000027~regulation of organ morphogenesis	0.0390230061391909
+GO:0042176~regulation of protein catabolic process	0.0396347495091453
+GO:0002428~antigen processing and presentation of peptide antigen via MHC class Ib	0.0397933910251236
+GO:1900246~positive regulation of RIG-I signaling pathway	0.0397933910251236
+GO:0071222~cellular response to lipopolysaccharide	0.0399037455303512
+GO:0071496~cellular response to external stimulus	0.0414513624007248
+GO:0045732~positive regulation of protein catabolic process	0.0414513624007248
+GO:0043487~regulation of RNA stability	0.041930600606661
+GO:0035710~CD4-positive, alpha-beta T cell activation	0.0428862443872317
+GO:0051347~positive regulation of transferase activity	0.0432919295093934
+GO:0030177~positive regulation of Wnt signaling pathway	0.0433102683102385
+GO:0010952~positive regulation of peptidase activity	0.0440085919160921
+GO:0071219~cellular response to molecule of bacterial origin	0.0440085919160921
+GO:0046782~regulation of viral transcription	0.044084171946133
+GO:0012501~programmed cell death	0.0441407905781167
+GO:0030155~regulation of cell adhesion	0.0442079213220258
+GO:0009894~regulation of catabolic process	0.0442235778622306
+GO:0046651~lymphocyte proliferation	0.0444767653525579
+GO:0002484~antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway	0.04465621048288
+GO:0002480~antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-independent	0.04465621048288
+GO:0002703~regulation of leukocyte mediated immunity	0.0447125570624185
+GO:0002685~regulation of leukocyte migration	0.0447125570624185
+GO:0009892~negative regulation of metabolic process	0.0457315088872263
+GO:0008283~cell proliferation	0.0457506777819818
+GO:0010565~regulation of cellular ketone metabolic process	0.0461373553135608
+GO:0050790~regulation of catalytic activity	0.0461714873770436
+GO:0045595~regulation of cell differentiation	0.0462625836331407
+GO:1902531~regulation of intracellular signal transduction	0.0484229237006747
+GO:0042981~regulation of apoptotic process	0.0489819469995175
+GO:0045625~regulation of T-helper 1 cell differentiation	0.0494946912147596

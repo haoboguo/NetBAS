@@ -1,0 +1,59 @@
+GO:0005515~protein binding	2.20050245022046e-07
+GO:0005102~receptor binding	2.64761135058314e-07
+GO:0098772~molecular function regulator	5.48125335086355e-06
+GO:0008083~growth factor activity	1.04031905211943e-05
+GO:0005125~cytokine activity	0.000150910564725463
+GO:0005126~cytokine receptor binding	0.000188679368992195
+GO:0004672~protein kinase activity	0.000247703034157288
+GO:0004896~cytokine receptor activity	0.000425491728380652
+GO:0030234~enzyme regulator activity	0.000456487009428035
+GO:0004713~protein tyrosine kinase activity	0.000754807917903566
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.000828139181628311
+GO:0008236~serine-type peptidase activity	0.00099264867484062
+GO:0016301~kinase activity	0.000999170044294491
+GO:0017171~serine hydrolase activity	0.00107555926564509
+GO:0005488~binding	0.00115415322582375
+GO:0019901~protein kinase binding	0.00188065493970602
+GO:0019900~kinase binding	0.00201455596267668
+GO:0070851~growth factor receptor binding	0.002649363324836
+GO:0019899~enzyme binding	0.00281383181102954
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00290867541741185
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.00335836216704146
+GO:0008237~metallopeptidase activity	0.00459059557995148
+GO:0008233~peptidase activity	0.00588249147916971
+GO:0019211~phosphatase activator activity	0.0059641718713703
+GO:0004175~endopeptidase activity	0.00752629377473722
+GO:0004222~metalloendopeptidase activity	0.00758459594148676
+GO:0004871~signal transducer activity	0.00780338984091092
+GO:0055106~ubiquitin-protein transferase regulator activity	0.00833941274833233
+GO:0055103~ligase regulator activity	0.00966079785685585
+GO:0004857~enzyme inhibitor activity	0.00970815526293311
+GO:0070011~peptidase activity, acting on L-amino acid peptides	0.00981210901653972
+GO:0031434~mitogen-activated protein kinase kinase binding	0.0125609477666526
+GO:0019838~growth factor binding	0.0125763314128615
+GO:0019207~kinase regulator activity	0.017556335132172
+GO:0038023~signaling receptor activity	0.0179883846419041
+GO:0005085~guanyl-nucleotide exchange factor activity	0.0187520935577159
+GO:0050840~extracellular matrix binding	0.0194689439278439
+GO:0019955~cytokine binding	0.0194729885011794
+GO:0004252~serine-type endopeptidase activity	0.0208360292832709
+GO:0004917~interleukin-7 receptor activity	0.0214470979047349
+GO:0004872~receptor activity	0.02280163867549
+GO:0060089~molecular transducer activity	0.02280163867549
+GO:0005539~glycosaminoglycan binding	0.0254291247523082
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.0293105807621645
+GO:0008201~heparin binding	0.0296157659329531
+GO:0005518~collagen binding	0.0317937897280374
+GO:0019903~protein phosphatase binding	0.0321359884090612
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0326941039886966
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.0330754729860782
+GO:0032403~protein complex binding	0.0378790674623496
+GO:0019887~protein kinase regulator activity	0.0385845191499933
+GO:0036002~pre-mRNA binding	0.0387957801413818
+GO:0035004~phosphatidylinositol 3-kinase activity	0.0398811502926987
+GO:0004866~endopeptidase inhibitor activity	0.0402276288517812
+GO:0008047~enzyme activator activity	0.0418506524186001
+GO:0001077~transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0429228900887765
+GO:0005154~epidermal growth factor receptor binding	0.0438190461252116
+GO:0061135~endopeptidase regulator activity	0.0453936511934333
+GO:0030414~peptidase inhibitor activity	0.0483523421731417

@@ -1,0 +1,115 @@
+GO:0003824~catalytic activity	2.65183223728655e-21
+GO:0016758~transferase activity, transferring hexosyl groups	2.35694068156322e-12
+GO:0016853~isomerase activity	6.05600465446885e-10
+GO:0016757~transferase activity, transferring glycosyl groups	7.68191583068091e-10
+GO:0008194~UDP-glycosyltransferase activity	9.51624377232773e-10
+GO:0016740~transferase activity	2.03924402512629e-09
+GO:0016491~oxidoreductase activity	8.00188992890471e-09
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	8.47047014772705e-09
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	5.04675470020901e-08
+GO:0048029~monosaccharide binding	5.94259489134253e-08
+GO:0048037~cofactor binding	8.8354002135306e-08
+GO:0008146~sulfotransferase activity	1.33000614623322e-07
+GO:0031406~carboxylic acid binding	3.64583256321925e-07
+GO:0016782~transferase activity, transferring sulfur-containing groups	1.07520722115336e-06
+GO:0001948~glycoprotein binding	2.52836933809648e-06
+GO:0031418~L-ascorbic acid binding	3.09062376007473e-06
+GO:0019200~carbohydrate kinase activity	3.09062376007473e-06
+GO:0043168~anion binding	4.29204113985167e-06
+GO:0005536~glucose binding	4.92539518779711e-06
+GO:0035250~UDP-galactosyltransferase activity	1.67584794976639e-05
+GO:0051287~NAD binding	2.86184087135037e-05
+GO:0019842~vitamin binding	3.64774085849392e-05
+GO:0008378~galactosyltransferase activity	3.75065113042885e-05
+GO:0015020~glucuronosyltransferase activity	4.33582867759314e-05
+GO:0016615~malate dehydrogenase activity	4.82655583074706e-05
+GO:0030246~carbohydrate binding	4.8437409404635e-05
+GO:0050662~coenzyme binding	4.95755024153078e-05
+GO:0001517~N-acetylglucosamine 6-O-sulfotransferase activity	7.65810829880133e-05
+GO:0003831~beta-N-acetylglucosaminylglycopeptide beta-1,4-galactosyltransferase activity	7.65810829880133e-05
+GO:0042802~identical protein binding	0.00013194501090386
+GO:0016857~racemase and epimerase activity, acting on carbohydrates and derivatives	0.000161379660699713
+GO:0016868~intramolecular transferase activity, phosphotransferases	0.000220050010261539
+GO:0097367~carbohydrate derivative binding	0.00030263810097706
+GO:0043394~proteoglycan binding	0.000393407162554785
+GO:0009055~electron carrier activity	0.000409810691076946
+GO:0036094~small molecule binding	0.000450543285708228
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.000493152995007214
+GO:0004470~malic enzyme activity	0.000752769965937763
+GO:0003945~N-acetyllactosamine synthase activity	0.000752769965937763
+GO:0016854~racemase and epimerase activity	0.000862593230448889
+GO:0043395~heparan sulfate proteoglycan binding	0.00102652767599844
+GO:0016829~lyase activity	0.00141798678638682
+GO:0016706~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors	0.00178796998818398
+GO:0098632~protein binding involved in cell-cell adhesion	0.0023052950377414
+GO:0098631~protein binding involved in cell adhesion	0.00260144143353272
+GO:0046983~protein dimerization activity	0.00301662299497536
+GO:0050840~extracellular matrix binding	0.003017436625812
+GO:0016830~carbon-carbon lyase activity	0.003017436625812
+GO:0016860~intramolecular oxidoreductase activity	0.00323043038539534
+GO:0031545~peptidyl-proline 4-dioxygenase activity	0.00340952308895656
+GO:0016866~intramolecular transferase activity	0.00341463769431057
+GO:0042803~protein homodimerization activity	0.00390753964273052
+GO:0030170~pyridoxal phosphate binding	0.00393043378219749
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.00586798492920334
+GO:0016620~oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor	0.00773776778917625
+GO:0016861~intramolecular oxidoreductase activity, interconverting aldoses and ketoses	0.00780101915305251
+GO:0045296~cadherin binding	0.00838237153908127
+GO:0000287~magnesium ion binding	0.00864634127264609
+GO:0016301~kinase activity	0.00867503939299443
+GO:0005539~glycosaminoglycan binding	0.00957944545996346
+GO:0031543~peptidyl-proline dioxygenase activity	0.0137691781499628
+GO:0034483~heparan sulfate sulfotransferase activity	0.0137691781499628
+GO:0016791~phosphatase activity	0.0145552764129238
+GO:0016903~oxidoreductase activity, acting on the aldehyde or oxo group of donors	0.0151527333682932
+GO:0050839~cell adhesion molecule binding	0.0160355229912127
+GO:1901681~sulfur compound binding	0.0169635242300147
+GO:0050661~NADP binding	0.0169843860968007
+GO:0043167~ion binding	0.0180259699203427
+GO:0008375~acetylglucosaminyltransferase activity	0.0189344853030268
+GO:0051213~dioxygenase activity	0.0197942552792487
+GO:0016667~oxidoreductase activity, acting on a sulfur group of donors	0.0210034813186622
+GO:0005515~protein binding	0.0211030708812344
+GO:0061547~glycogen synthase activity, transferring glucose-1-phosphate	0.0225016360691354
+GO:0004335~galactokinase activity	0.0225016360691354
+GO:0004373~glycogen (starch) synthase activity	0.0225016360691354
+GO:0046899~nucleoside triphosphate adenylate kinase activity	0.0225016360691354
+GO:0050509~N-acetylglucosaminyl-proteoglycan 4-beta-glucuronosyltransferase activity	0.0225016360691354
+GO:0042328~heparan sulfate N-acetylglucosaminyltransferase activity	0.0225016360691354
+GO:0032559~adenyl ribonucleotide binding	0.0237501771948331
+GO:0008483~transaminase activity	0.0253575728926363
+GO:0030554~adenyl nucleotide binding	0.0256954126102967
+GO:0005507~copper ion binding	0.0266970895503349
+GO:0004553~hydrolase activity, hydrolyzing O-glycosyl compounds	0.0268758519540829
+GO:0005540~hyaluronic acid binding	0.0275690369888848
+GO:0000166~nucleotide binding	0.027621769292044
+GO:1901265~nucleoside phosphate binding	0.0277793455989003
+GO:0016769~transferase activity, transferring nitrogenous groups	0.0298551018341497
+GO:0005524~ATP binding	0.0310829528911979
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0329962092138249
+GO:0004069~L-aspartate:2-oxoglutarate aminotransferase activity	0.033562847488932
+GO:0080130~L-phenylalanine:2-oxoglutarate aminotransferase activity	0.033562847488932
+GO:0004473~malate dehydrogenase (decarboxylating) (NADP+) activity	0.033562847488932
+GO:0008475~procollagen-lysine 5-dioxygenase activity	0.033562847488932
+GO:0004471~malate dehydrogenase (decarboxylating) (NAD+) activity	0.033562847488932
+GO:0004332~fructose-bisphosphate aldolase activity	0.033562847488932
+GO:0015018~galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity	0.033562847488932
+GO:0030060~L-malate dehydrogenase activity	0.033562847488932
+GO:0004461~lactose synthase activity	0.033562847488932
+GO:0050508~glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase activity	0.033562847488932
+GO:0008184~glycogen phosphorylase activity	0.033562847488932
+GO:0004033~aldo-keto reductase (NADP) activity	0.0371415485050392
+GO:0004714~transmembrane receptor protein tyrosine kinase activity	0.0373462636805313
+GO:0019903~protein phosphatase binding	0.0373539159914949
+GO:0016701~oxidoreductase activity, acting on single donors with incorporation of molecular oxygen	0.0397068330235133
+GO:0016705~oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	0.0405452496936184
+GO:0005506~iron ion binding	0.0437958113103485
+GO:0050510~N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase activity	0.0444995399958541
+GO:0004656~procollagen-proline 4-dioxygenase activity	0.0444995399958541
+GO:0016744~transferase activity, transferring aldehyde or ketonic groups	0.0444995399958541
+GO:0004619~phosphoglycerate mutase activity	0.0444995399958541
+GO:0046538~2,3-bisphosphoglycerate-dependent phosphoglycerate mutase activity	0.0444995399958541
+GO:0070546~L-phenylalanine aminotransferase activity	0.0444995399958541
+GO:0008948~oxaloacetate decarboxylase activity	0.0444995399958541
+GO:0070815~peptidyl-lysine 5-dioxygenase activity	0.0444995399958541
+GO:0004082~bisphosphoglycerate mutase activity	0.0444995399958541

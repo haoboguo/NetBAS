@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:1902287"	"semaphorin-plexin signaling pathway involved in axon guidance"	"32.11"	NA
+"GO:0021612"	"facial nerve structural organization"	"22.248"	0.01755274283880254
+"GO:0071526"	"semaphorin-plexin signaling pathway"	"21.948"	0.07027175976364869
+"GO:0021637"	"trigeminal nerve structural organization"	"20.485"	NA
+"GO:0048843"	"negative regulation of axon extension involved in axon guidance"	"18.779"	NA
+"GO:0007411"	"axon guidance"	"18.131"	2.6505508631059993E-13
+"GO:0060666"	"dichotomous subdivision of terminal units involved in salivary gland branching"	"17.623"	NA
+"GO:0048010"	"vascular endothelial growth factor receptor signaling pathway"	"16.278"	0.013466180982495371
+"GO:0061551"	"trigeminal ganglion development"	"15.602"	0.00978872390407781
+"GO:0048846"	"axon extension involved in axon guidance"	"15.571"	6.501595123117786E-5

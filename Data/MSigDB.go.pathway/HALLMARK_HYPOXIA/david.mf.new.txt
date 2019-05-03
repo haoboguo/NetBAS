@@ -1,0 +1,110 @@
+GO:0048029~monosaccharide binding	1.33777201689008e-13
+GO:0019200~carbohydrate kinase activity	2.00935347495804e-09
+GO:0030246~carbohydrate binding	7.26463218970262e-09
+GO:0016740~transferase activity	6.79929938175416e-08
+GO:0005536~glucose binding	7.2993318932846e-08
+GO:0003824~catalytic activity	8.09972913678075e-07
+GO:0019838~growth factor binding	1.76436570963191e-06
+GO:0019899~enzyme binding	2.42028507700152e-06
+GO:0046982~protein heterodimerization activity	5.04501417724219e-06
+GO:0042802~identical protein binding	6.9913388053119e-06
+GO:0070061~fructose binding	1.35874163285708e-05
+GO:0008146~sulfotransferase activity	2.69726597138734e-05
+GO:0016301~kinase activity	3.85891993974911e-05
+GO:0016772~transferase activity, transferring phosphorus-containing groups	6.85005573699468e-05
+GO:0005515~protein binding	0.00011003135177706
+GO:0005539~glycosaminoglycan binding	0.000120757844129342
+GO:0016782~transferase activity, transferring sulfur-containing groups	0.000121449049405211
+GO:0050839~cell adhesion molecule binding	0.000220577432354218
+GO:0046983~protein dimerization activity	0.000232453859379284
+GO:0005520~insulin-like growth factor binding	0.000252521373605539
+GO:0050840~extracellular matrix binding	0.000309715266058031
+GO:0004332~fructose-bisphosphate aldolase activity	0.000371322045762315
+GO:0097367~carbohydrate derivative binding	0.000471138560983818
+GO:0016758~transferase activity, transferring hexosyl groups	0.000551539513318985
+GO:0044877~macromolecular complex binding	0.000661594682125669
+GO:0001948~glycoprotein binding	0.00105879130255263
+GO:0019900~kinase binding	0.0010945309907804
+GO:0008194~UDP-glycosyltransferase activity	0.00119427941927939
+GO:0019158~mannokinase activity	0.00121954814363032
+GO:0008865~fructokinase activity	0.00121954814363032
+GO:0004396~hexokinase activity	0.00121954814363032
+GO:0004340~glucokinase activity	0.00121954814363032
+GO:1901681~sulfur compound binding	0.00127256444656168
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00130105513657202
+GO:0016829~lyase activity	0.00132239413436814
+GO:0042803~protein homodimerization activity	0.00144082883643042
+GO:0016757~transferase activity, transferring glycosyl groups	0.00158492700577384
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.00162376871546571
+GO:0004634~phosphopyruvate hydratase activity	0.00181584698757096
+GO:0098632~protein binding involved in cell-cell adhesion	0.00213486327770831
+GO:0036094~small molecule binding	0.0022064636928529
+GO:0008083~growth factor activity	0.00234220859297471
+GO:0098631~protein binding involved in cell adhesion	0.00240254989452681
+GO:0045296~cadherin binding	0.00246181158268183
+GO:0008443~phosphofructokinase activity	0.00252347615074784
+GO:0001968~fibronectin binding	0.0029708990989535
+GO:0016866~intramolecular transferase activity	0.00331496808599287
+GO:0005102~receptor binding	0.00351018082949448
+GO:0005507~copper ion binding	0.00378588451739946
+GO:0016832~aldehyde-lyase activity	0.00426260315172758
+GO:0043394~proteoglycan binding	0.00493012905890018
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.00538151706050156
+GO:0005488~binding	0.00614332999816044
+GO:0016868~intramolecular transferase activity, phosphotransferases	0.00641710509948307
+GO:0004861~cyclin-dependent protein serine/threonine kinase inhibitor activity	0.00641710509948307
+GO:0005178~integrin binding	0.00679923453649851
+GO:0000287~magnesium ion binding	0.0081829990438419
+GO:0019903~protein phosphatase binding	0.00822465088212075
+GO:0008201~heparin binding	0.00932129455218219
+GO:0004857~enzyme inhibitor activity	0.0124822163056073
+GO:0034483~heparan sulfate sulfotransferase activity	0.0134964249771981
+GO:0003714~transcription corepressor activity	0.0138408197280374
+GO:0004860~protein kinase inhibitor activity	0.015251321693654
+GO:0030234~enzyme regulator activity	0.0162696215061434
+GO:0043395~heparan sulfate proteoglycan binding	0.0169579675603514
+GO:0019210~kinase inhibitor activity	0.0171196059771092
+GO:0005355~glucose transmembrane transporter activity	0.0188150474498396
+GO:0016836~hydro-lyase activity	0.0204342665551163
+GO:0015149~hexose transmembrane transporter activity	0.0207535592131071
+GO:0015145~monosaccharide transmembrane transporter activity	0.0207535592131071
+GO:0016830~carbon-carbon lyase activity	0.0214859988295667
+GO:0051287~NAD binding	0.0214859988295667
+GO:0004365~glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	0.0222673433875322
+GO:0050119~N-acetylglucosamine deacetylase activity	0.0222673433875322
+GO:0043891~glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) activity	0.0222673433875322
+GO:0031418~L-ascorbic acid binding	0.0227714669442248
+GO:0046914~transition metal ion binding	0.0282647677497881
+GO:0071889~14-3-3 protein binding	0.0292817281302312
+GO:0008134~transcription factor binding	0.0295250989657157
+GO:0019902~phosphatase binding	0.0296642221756485
+GO:0043169~cation binding	0.0298414068606596
+GO:0043167~ion binding	0.0306878986254087
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	0.0307035882230755
+GO:0003872~6-phosphofructokinase activity	0.0332153540588514
+GO:0001047~core promoter binding	0.0349199400542253
+GO:0046872~metal ion binding	0.0349350857395813
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.0355342169646193
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.0364365575354469
+GO:0019901~protein kinase binding	0.0369659787436362
+GO:0016853~isomerase activity	0.0381982743168399
+GO:0042056~chemoattractant activity	0.0389561033696291
+GO:0098772~molecular function regulator	0.0397851282812274
+GO:0000989~transcription factor activity, transcription factor binding	0.0402818878073113
+GO:0030291~protein serine/threonine kinase inhibitor activity	0.0415399735319386
+GO:0031625~ubiquitin protein ligase binding	0.0425158954507801
+GO:0002020~protease binding	0.0425413844242937
+GO:0000988~transcription factor activity, protein binding	0.0428704866230895
+GO:0019904~protein domain specific binding	0.0437586406822954
+GO:0004656~procollagen-proline 4-dioxygenase activity	0.044041417458944
+GO:0004740~pyruvate dehydrogenase (acetyl-transferring) kinase activity	0.044041417458944
+GO:0033300~dehydroascorbic acid transporter activity	0.044041417458944
+GO:0015016~[heparan sulfate]-glucosamine N-sulfotransferase activity	0.044041417458944
+GO:0004614~phosphoglucomutase activity	0.044041417458944
+GO:0016491~oxidoreductase activity	0.0454929895691816
+GO:0044389~ubiquitin-like protein ligase binding	0.0464475762260712
+GO:0003712~transcription cofactor activity	0.0466260523379572
+GO:0005179~hormone activity	0.0471306761020311
+GO:0016835~carbon-oxygen lyase activity	0.048581117362884
+GO:0032403~protein complex binding	0.0493160693913241
+GO:0051119~sugar transmembrane transporter activity	0.0496602876730368

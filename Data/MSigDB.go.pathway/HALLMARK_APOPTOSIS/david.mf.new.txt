@@ -1,0 +1,91 @@
+GO:0005515~protein binding	8.27115841059244e-15
+GO:0097153~cysteine-type endopeptidase activity involved in apoptotic process	2.56682926002941e-13
+GO:0019899~enzyme binding	1.21012117556553e-11
+GO:0005102~receptor binding	1.27799822560941e-11
+GO:0042802~identical protein binding	1.28404677584285e-09
+GO:0019904~protein domain specific binding	1.92191942014649e-09
+GO:0046982~protein heterodimerization activity	9.96956535062826e-09
+GO:0005126~cytokine receptor binding	3.31788616027926e-08
+GO:0019901~protein kinase binding	8.93262027284302e-08
+GO:0019900~kinase binding	1.23771986097385e-07
+GO:0032813~tumor necrosis factor receptor superfamily binding	1.62661331517083e-07
+GO:0046983~protein dimerization activity	2.01942584139176e-07
+GO:0042803~protein homodimerization activity	2.25292784865713e-07
+GO:0030234~enzyme regulator activity	3.64066984510345e-07
+GO:0005123~death receptor binding	4.75967815939569e-07
+GO:0051400~BH domain binding	8.31244870751075e-07
+GO:0098772~molecular function regulator	1.10513604953355e-06
+GO:0004197~cysteine-type endopeptidase activity	1.33313358215962e-06
+GO:0004857~enzyme inhibitor activity	1.43696909834667e-05
+GO:0044877~macromolecular complex binding	2.00907938157395e-05
+GO:0043028~cysteine-type endopeptidase regulator activity involved in apoptotic process	3.51113679875982e-05
+GO:0061134~peptidase regulator activity	3.63457276343018e-05
+GO:0005488~binding	3.66915596297278e-05
+GO:0005125~cytokine activity	3.9382966916724e-05
+GO:0070513~death domain binding	6.12440444320199e-05
+GO:0019207~kinase regulator activity	6.84157652985471e-05
+GO:0008234~cysteine-type peptidase activity	9.734437328246e-05
+GO:0002020~protease binding	0.000102410294249532
+GO:0019887~protein kinase regulator activity	0.000189718116090994
+GO:0004175~endopeptidase activity	0.000191671051372372
+GO:0032403~protein complex binding	0.000237471690677633
+GO:0097200~cysteine-type endopeptidase activity involved in execution phase of apoptosis	0.000249787472138259
+GO:0031625~ubiquitin protein ligase binding	0.000324300482448358
+GO:0004672~protein kinase activity	0.00033298022298237
+GO:0044389~ubiquitin-like protein ligase binding	0.000371737561928788
+GO:0016504~peptidase activator activity	0.000395798897333208
+GO:0051434~BH3 domain binding	0.000496558167440938
+GO:0008047~enzyme activator activity	0.000643512948737612
+GO:0005080~protein kinase C binding	0.000826604261854187
+GO:0004860~protein kinase inhibitor activity	0.0011117003004951
+GO:0008233~peptidase activity	0.00116925413950381
+GO:0019210~kinase inhibitor activity	0.00129886752622282
+GO:0070011~peptidase activity, acting on L-amino acid peptides	0.00222566453340595
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00231994387489578
+GO:0005164~tumor necrosis factor receptor binding	0.00232843576900886
+GO:0004871~signal transducer activity	0.00273274453418696
+GO:0008134~transcription factor binding	0.00273583656137906
+GO:0005518~collagen binding	0.00283300097617635
+GO:0008083~growth factor activity	0.00384259406927545
+GO:0004190~aspartic-type endopeptidase activity	0.00400641508297672
+GO:0046332~SMAD binding	0.00412335938012081
+GO:0070001~aspartic-type peptidase activity	0.00434150895922077
+GO:0016301~kinase activity	0.00489923517508322
+GO:0004866~endopeptidase inhibitor activity	0.00543201569494642
+GO:0061135~endopeptidase regulator activity	0.0063855647214616
+GO:0004713~protein tyrosine kinase activity	0.0063855647214616
+GO:0019838~growth factor binding	0.00655172045297147
+GO:0070851~growth factor receptor binding	0.00655172045297147
+GO:0016209~antioxidant activity	0.00658024106318219
+GO:0051087~chaperone binding	0.00658024106318219
+GO:0019199~transmembrane receptor protein kinase activity	0.00686921180177508
+GO:0030414~peptidase inhibitor activity	0.0068997517773197
+GO:0003824~catalytic activity	0.00891135594903197
+GO:0008191~metalloendopeptidase inhibitor activity	0.00923809268190579
+GO:0008656~cysteine-type endopeptidase activator activity involved in apoptotic process	0.0104072090778333
+GO:0005160~transforming growth factor beta receptor binding	0.0108562580096342
+GO:0005057~receptor signaling protein activity	0.0115243021051379
+GO:0008301~DNA binding, bending	0.012929623388367
+GO:0016505~peptidase activator activity involved in apoptotic process	0.0142805016073406
+GO:0042826~histone deacetylase binding	0.0145064281540819
+GO:0004602~glutathione peroxidase activity	0.015689575382446
+GO:0033613~activating transcription factor binding	0.0169634812082309
+GO:0043027~cysteine-type endopeptidase inhibitor activity involved in apoptotic process	0.0186776531656933
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.0188308184544001
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.0193472454001151
+GO:0003684~damaged DNA binding	0.020180868565378
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0202807158613498
+GO:0004714~transmembrane receptor protein tyrosine kinase activity	0.0219067777899086
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.0219067777899086
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.0253018365930632
+GO:0044212~transcription regulatory region DNA binding	0.0254120535119092
+GO:0000975~regulatory region DNA binding	0.0260838336510806
+GO:0001067~regulatory region nucleic acid binding	0.0263106773043867
+GO:0035004~phosphatidylinositol 3-kinase activity	0.0265638670197442
+GO:0019209~kinase activator activity	0.0265638670197442
+GO:0042056~chemoattractant activity	0.0270864693551507
+GO:0030291~protein serine/threonine kinase inhibitor activity	0.0289203977689803
+GO:0030544~Hsp70 protein binding	0.036728425130952
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.0391702257223099
+GO:0001102~RNA polymerase II activating transcription factor binding	0.0474767299220262
+GO:0016787~hydrolase activity	0.0486901031833362

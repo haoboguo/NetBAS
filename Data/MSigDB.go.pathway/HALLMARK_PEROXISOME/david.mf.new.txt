@@ -1,0 +1,104 @@
+GO:0008022~protein C-terminus binding	1.91955123960852e-12
+GO:0016491~oxidoreductase activity	2.70726783593488e-11
+GO:0005102~receptor binding	2.44691927006934e-10
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	3.28646268450059e-10
+GO:0003824~catalytic activity	5.80772521095819e-10
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	2.11628521536325e-08
+GO:0042802~identical protein binding	9.85480518260783e-08
+GO:0042803~protein homodimerization activity	1.30595388355217e-07
+GO:0016887~ATPase activity	1.80241114314191e-07
+GO:0042623~ATPase activity, coupled	3.21683185139924e-07
+GO:0048037~cofactor binding	4.23120861444441e-07
+GO:0036094~small molecule binding	8.25889775102643e-07
+GO:0050662~coenzyme binding	1.07190122787284e-06
+GO:0046983~protein dimerization activity	1.72126198693167e-06
+GO:0042626~ATPase activity, coupled to transmembrane movement of substances	3.86437739211897e-06
+GO:0016820~hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances	4.33888417290801e-06
+GO:0015405~P-P-bond-hydrolysis-driven transmembrane transporter activity	6.75089935088529e-06
+GO:0015399~primary active transmembrane transporter activity	6.75089935088529e-06
+GO:0017111~nucleoside-triphosphatase activity	7.55932299587065e-06
+GO:0043492~ATPase activity, coupled to movement of substances	8.75943309588239e-06
+GO:0102391~decanoate--CoA ligase activity	9.77698872167736e-06
+GO:0000166~nucleotide binding	1.38660885421793e-05
+GO:1901265~nucleoside phosphate binding	1.39818449562994e-05
+GO:0016462~pyrophosphatase activity	1.52201595355495e-05
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	1.56825488061762e-05
+GO:0016817~hydrolase activity, acting on acid anhydrides	1.61574324313586e-05
+GO:0033293~monocarboxylic acid binding	2.89976397917032e-05
+GO:0005319~lipid transporter activity	4.25466291352788e-05
+GO:0015245~fatty acid transporter activity	4.89108521736118e-05
+GO:0004467~long-chain fatty acid-CoA ligase activity	4.89108521736118e-05
+GO:0016209~antioxidant activity	9.7515378198325e-05
+GO:0005215~transporter activity	0.000148068761823702
+GO:0005496~steroid binding	0.000152423671868922
+GO:0015645~fatty acid ligase activity	0.000220063491166814
+GO:0005324~long-chain fatty acid transporter activity	0.000316504621406891
+GO:0031406~carboxylic acid binding	0.000345785912186049
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	0.000375293397127231
+GO:0016878~acid-thiol ligase activity	0.000421423897090155
+GO:0033764~steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00047215310188979
+GO:0022892~substrate-specific transporter activity	0.000642712147469319
+GO:0000062~fatty-acyl-CoA binding	0.000647320064413793
+GO:0004448~isocitrate dehydrogenase activity	0.000659740765305627
+GO:0005524~ATP binding	0.000667508912065461
+GO:0016229~steroid dehydrogenase activity	0.000713732718821431
+GO:0032553~ribonucleotide binding	0.000833151108273414
+GO:0032559~adenyl ribonucleotide binding	0.000890710812937775
+GO:0030554~adenyl nucleotide binding	0.000970663465320614
+GO:0000287~magnesium ion binding	0.00108801992913934
+GO:0022804~active transmembrane transporter activity	0.00116182694102509
+GO:0035639~purine ribonucleoside triphosphate binding	0.00135684333676014
+GO:0032550~purine ribonucleoside binding	0.00144289159610105
+GO:0001883~purine nucleoside binding	0.00147260123825308
+GO:0032549~ribonucleoside binding	0.00147260123825308
+GO:0016877~ligase activity, forming carbon-sulfur bonds	0.00151181304706318
+GO:0001882~nucleoside binding	0.00154398201387648
+GO:0032555~purine ribonucleotide binding	0.00181180760779505
+GO:0017076~purine nucleotide binding	0.00197286627084839
+GO:0004601~peroxidase activity	0.00199357085752995
+GO:0005515~protein binding	0.00202293933655285
+GO:0016863~intramolecular oxidoreductase activity, transposing C=C bonds	0.00239655277809783
+GO:0016684~oxidoreductase activity, acting on peroxide as acceptor	0.00241094639877141
+GO:0016853~isomerase activity	0.00250920427139022
+GO:0047485~protein N-terminus binding	0.00253855768231511
+GO:0097367~carbohydrate derivative binding	0.00311999932183911
+GO:0051287~NAD binding	0.00339857435140665
+GO:0008106~alcohol dehydrogenase (NADP+) activity	0.00411721921605948
+GO:0047617~acyl-CoA hydrolase activity	0.00461478437737778
+GO:0016787~hydrolase activity	0.00484928252464789
+GO:0043168~anion binding	0.00554066724004122
+GO:0022857~transmembrane transporter activity	0.00554443006461873
+GO:0016289~CoA hydrolase activity	0.00568860086695596
+GO:0042562~hormone binding	0.00577877369896112
+GO:0001972~retinoic acid binding	0.00749144180151448
+GO:0005488~binding	0.00801621170457967
+GO:0043178~alcohol binding	0.00863194238309875
+GO:0097159~organic cyclic compound binding	0.00988324549706937
+GO:0004033~aldo-keto reductase (NADP) activity	0.0102412379738455
+GO:0004450~isocitrate dehydrogenase (NADP+) activity	0.0113417283124185
+GO:0008289~lipid binding	0.0122998738095114
+GO:0016790~thiolester hydrolase activity	0.0159527637535616
+GO:0016508~long-chain-enoyl-CoA hydratase activity	0.0169647625022996
+GO:0004165~dodecenoyl-CoA delta-isomerase activity	0.0169647625022996
+GO:0016401~palmitoyl-CoA oxidase activity	0.0169647625022996
+GO:0005501~retinoid binding	0.0187313781135408
+GO:0019840~isoprenoid binding	0.0206886518239499
+GO:0090554~phosphatidylcholine-translocating ATPase activity	0.0225561467184665
+GO:0005497~androgen binding	0.0225561467184665
+GO:0051990~(R)-2-hydroxyglutarate dehydrogenase activity	0.0225561467184665
+GO:0008379~thioredoxin peroxidase activity	0.0281160572434345
+GO:0008559~xenobiotic-transporting ATPase activity	0.0281160572434345
+GO:0043621~protein self-association	0.0281670480043795
+GO:0004879~RNA polymerase II transcription factor activity, ligand-activated sequence-specific DNA binding	0.0293117636312474
+GO:0098531~transcription factor activity, direct ligand regulated sequence-specific DNA binding	0.0293117636312474
+GO:0005548~phospholipid transporter activity	0.0316560162570974
+GO:0042910~xenobiotic transporter activity	0.0336446693849306
+GO:0003997~acyl-CoA oxidase activity	0.0336446693849306
+GO:0016860~intramolecular oxidoreductase activity	0.0378253354846068
+GO:0008525~phosphatidylcholine transporter activity	0.0391421574884998
+GO:0016747~transferase activity, transferring acyl groups other than amino-acyl groups	0.0411286540248979
+GO:1901681~sulfur compound binding	0.0439467577500983
+GO:0003707~steroid hormone receptor activity	0.0444125101056376
+GO:0051920~peroxiredoxin activity	0.0446086949338993
+GO:0015205~nucleobase transmembrane transporter activity	0.0446086949338993
+GO:0003684~damaged DNA binding	0.049964350863917

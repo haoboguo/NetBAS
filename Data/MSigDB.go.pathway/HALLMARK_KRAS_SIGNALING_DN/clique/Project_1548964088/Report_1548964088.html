@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="https://s3-us-west-2.amazonaws.com/webgestalt/favicon.png">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-73666770-1', 'auto');
+ga('send', 'pageview');
+</script>
+<title>WebGestalt (WEB-based GEne SeT AnaLysis Toolkit)</title>
+
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="http://www.webgestalt.org//assets/0.3/build/nta.css">
+</head>
+<body>
+<header>
+	<div id="header-img"><a href="http://www.webgestalt.org/"><img border="0" src="http://www.webgestalt.org//images/gsa.png"></a></div>
+	<div id="header-title">
+		<p id="header-title-text">WEB-based GEne SeT AnaLysis Toolkit</p>
+		<p id="header-subtitle-text">Translating gene lists into biological insights...</p>
+	</div>
+</header>
+<hr><main>
+<div id="app" class="wrapper">
+<div class="loading-preinit" v-cloak><div class="loading-icon"></div></div>
+
+<div id=network_PPI_BIOGRID v-cloak>
+<section>
+<div class="level">
+	<div class="level-left">
+		<div class="level-item">
+			<h4 class="title is-4 has-text-primary">Summary of the analysis results</h4>
+		</div>
+	</div>
+	<div class="level-right">
+		<div class="level-item">
+			<a class="button is-text" href="1548964088.zip" target="_blank">Result Download</a>
+		</div>
+	</div>
+</div>
+</section>
+
+<section id="summary" class="summary">
+<div class="card" v-bind:class="{active: summaryShown}" >
+	<div class="card-header" v-on:click="summaryShown=!summaryShown">
+		<p class="card-header-title">Job Summary</p>
+		<a href="#" class="card-header-icon">
+			<b-icon :icon="summaryShown ? 'chevron-up' : 'chevron-down'"></b-icon>
+		</a>
+	</div>
+	<div class="card-content content" v-show="summaryShown">
+		<ul>
+		<li>Total number of genes in the selected network: 22194 (used for the enrichment analysis)</li>
+		<li>Total number of seeds: 9</li>
+		<li>Total number of seeds in the selected network: 6</li>
+		<li>Total number of genes in the expanded sub-network: 14 (used for the enrichment analysis)</li>
+		<li>Total number of seeds in the expanded sub-network: 4</li>
+		<li>We select top 10 neighbors based on the probability of random walk method. All seeds and top ranking neighbors in the expanded sub-network can enrich to 23 GO BP categories.</li>
+		</ul>
+	</div>
+</div>
+</section>
+
+<section>
+<div class="columns is-multiline">
+<div class="column is-5-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Sub-network graph </h4>
+	<nta-gene-network
+		container-id="network_PPI_BIOGRID_net"
+		:data="geneNetwork"
+		:method="method"
+		highlight-type="Neighbors"
+		:enrichment="enrichment"
+	>
+	</nta-gene-network>
+</div> <!-- column -->
+
+<div class="column is-5-widescreen is-offset-2-widescreen is-6-desktop is-12-tablet is-12-mobile">
+<h4 class="title is-4 has-text-primary">Enriched GO terms graph</h4>
+	<nta-dag
+		container-id="network_PPI_BIOGRID_dag"
+		:data="dag"
+	>
+	</nta-dag>
+</div> <!-- column -->
+</div> <!-- columns -->
+</section>
+
+<section>
+<h4 class="title is-4 has-text-primary">Detailed Information</h4>
+<div class="columns is-multiline">
+<div class="column is-6-widescreen is-12-desktop is-12-tablet is-12-mobile" id="col-go">
+<nta-enrichment-table
+	:data="enrichment"
+	:method="method"
+	:sig-method="sigMethod"
+	:threshold="threshold"
+	highlight-type="Neighbors"
+>
+</nta-enrichment-table>
+</div> <!-- column -->
+
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-seed">
+<nta-seed-table :data="seeds"> </nta-seed-table>
+</div> <!-- column -->
+<div class="column is-3-widescreen is-6-desktop is-6-tablet is-12-mobile" id="col-rank">
+<nta-candidate-table :data="candidates" :method="method"> </nta-candidate-table>
+</div> <!-- column -->
+
+</div> <!-- columns -->
+</section>
+</div>
+</div>
+</main>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/cytoscape.min.js"></script>
+<script type="text/javascript" src="http://www.webgestalt.org//assets/0.3/build/nta.min.js"></script>
+<script type="text/javascript">
+var geneNetwork = [{"data":{"source":"PPP1R9B","target":"TRIM25"}},{"data":{"source":"PPP1R9B","target":"ADRA2C"}},{"data":{"source":"MDFI","target":"HTR1B"}},{"data":{"source":"EIF2B1","target":"ADRA2C"}},{"data":{"source":"HTR1B","target":"HTR1D"}},{"data":{"source":"HTR1B","target":"CD209"}},{"data":{"source":"UCHL1","target":"ADRA2C"}},{"data":{"source":"TRIM25","target":"ADRA2C"}},{"data":{"source":"HTR1A","target":"HTR1D"}},{"data":{"source":"HTR1A","target":"S1PR1"}},{"data":{"source":"HTR1D","target":"S1PR1"}},{"data":{"source":"PTPN18","target":"SSTR4"}},{"data":{"source":"CORT","target":"SSTR4"}},{"data":{"id":"PPP1R9B","highlight":true}},{"data":{"id":"MDFI","highlight":true}},{"data":{"id":"EIF2B1","highlight":true}},{"data":{"id":"HTR1B","highlight":false}},{"data":{"id":"UCHL1","highlight":true}},{"data":{"id":"TRIM25","highlight":true}},{"data":{"id":"HTR1A","highlight":true}},{"data":{"id":"HTR1D","highlight":false}},{"data":{"id":"PTPN18","highlight":true}},{"data":{"id":"CORT","highlight":true}},{"data":{"id":"ADRA2C","highlight":false}},{"data":{"id":"CD209","highlight":true}},{"data":{"id":"S1PR1","highlight":true}},{"data":{"id":"SSTR4","highlight":false}}];
+var dag = [{"data":{"id":"GO:0007188","name":"adenylate cyclase-modulating G protein-coupled receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0007187","name":"G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger","datasets":true}},{"data":{"id":"GO:0007193","name":"adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0007186","name":"G protein-coupled receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0007165","name":"signal transduction","datasets":true}},{"data":{"id":"GO:0042310","name":"vasoconstriction","datasets":true}},{"data":{"id":"GO:0098664","name":"G protein-coupled serotonin receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0097756","name":"negative regulation of blood vessel diameter","datasets":true}},{"data":{"id":"GO:0023052","name":"signaling","datasets":true}},{"data":{"id":"GO:0007198","name":"adenylate cyclase-inhibiting serotonin receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0007154","name":"cell communication","datasets":true}},{"data":{"id":"GO:0007210","name":"serotonin receptor signaling pathway","datasets":true}},{"data":{"id":"GO:0035296","name":"regulation of tube diameter","datasets":true}},{"data":{"id":"GO:0097746","name":"regulation of blood vessel diameter","datasets":true}},{"data":{"id":"GO:0048583","name":"regulation of response to stimulus","datasets":true}},{"data":{"id":"GO:0050880","name":"regulation of blood vessel size","datasets":true}},{"data":{"id":"GO:0035150","name":"regulation of tube size","datasets":true}},{"data":{"id":"GO:0051716","name":"cellular response to stimulus","datasets":true}},{"data":{"id":"GO:0003018","name":"vascular process in circulatory system","datasets":true}},{"data":{"id":"GO:0014062","name":"regulation of serotonin secretion","datasets":true}},{"data":{"id":"GO:0050795","name":"regulation of behavior","datasets":true}},{"data":{"id":"GO:0001820","name":"serotonin secretion","datasets":true}},{"data":{"id":"GO:0015844","name":"monoamine transport","datasets":true}},{"data":{"id":"GO:0009987","name":"cellular process","datasets":false}},{"data":{"id":"GO:0050794","name":"regulation of cellular process","datasets":false}},{"data":{"id":"GO:0008150","name":"biological_process","datasets":false}},{"data":{"id":"GO:0050789","name":"regulation of biological process","datasets":false}},{"data":{"id":"GO:0050896","name":"response to stimulus","datasets":false}},{"data":{"id":"GO:0008015","name":"blood circulation","datasets":false}},{"data":{"id":"GO:0090066","name":"regulation of anatomical structure size","datasets":false}},{"data":{"id":"GO:0003013","name":"circulatory system process","datasets":false}},{"data":{"id":"GO:0043269","name":"regulation of ion transport","datasets":false}},{"data":{"id":"GO:0051588","name":"regulation of neurotransmitter transport","datasets":false}},{"data":{"id":"GO:1903530","name":"regulation of secretion by cell","datasets":false}},{"data":{"id":"GO:0007610","name":"behavior","datasets":false}},{"data":{"id":"GO:0006837","name":"serotonin transport","datasets":false}},{"data":{"id":"GO:0032940","name":"secretion by cell","datasets":false}},{"data":{"id":"GO:0071702","name":"organic substance transport","datasets":false}},{"data":{"id":"GO:0071705","name":"nitrogen compound transport","datasets":false}},{"data":{"id":"GO:0065007","name":"biological regulation","datasets":false}},{"data":{"id":"GO:0065008","name":"regulation of biological quality","datasets":false}},{"data":{"id":"GO:0003008","name":"system process","datasets":false}},{"data":{"id":"GO:0006811","name":"ion transport","datasets":false}},{"data":{"id":"GO:0051049","name":"regulation of transport","datasets":false}},{"data":{"id":"GO:0006836","name":"neurotransmitter transport","datasets":false}},{"data":{"id":"GO:0051046","name":"regulation of secretion","datasets":false}},{"data":{"id":"GO:0015696","name":"ammonium transport","datasets":false}},{"data":{"id":"GO:0015850","name":"organic hydroxy compound transport","datasets":false}},{"data":{"id":"GO:0046903","name":"secretion","datasets":false}},{"data":{"id":"GO:0006810","name":"transport","datasets":false}},{"data":{"id":"GO:0032501","name":"multicellular organismal process","datasets":false}},{"data":{"id":"GO:0032879","name":"regulation of localization","datasets":false}},{"data":{"id":"GO:0006812","name":"cation transport","datasets":false}},{"data":{"id":"GO:0051234","name":"establishment of localization","datasets":false}},{"data":{"id":"GO:0051179","name":"localization","datasets":false}},{"data":{"source":"GO:0007187","target":"GO:0007188"}},{"data":{"source":"GO:0007186","target":"GO:0007187"}},{"data":{"source":"GO:0007188","target":"GO:0007193"}},{"data":{"source":"GO:0007165","target":"GO:0007186"}},{"data":{"source":"GO:0007154","target":"GO:0007165"}},{"data":{"source":"GO:0009987","target":"GO:0007165"}},{"data":{"source":"GO:0023052","target":"GO:0007165"}},{"data":{"source":"GO:0050794","target":"GO:0007165"}},{"data":{"source":"GO:0051716","target":"GO:0007165"}},{"data":{"source":"GO:0097756","target":"GO:0042310"}},{"data":{"source":"GO:0007186","target":"GO:0098664"}},{"data":{"source":"GO:0007210","target":"GO:0098664"}},{"data":{"source":"GO:0097746","target":"GO:0097756"}},{"data":{"source":"GO:0008150","target":"GO:0023052"}},{"data":{"source":"GO:0007193","target":"GO:0007198"}},{"data":{"source":"GO:0098664","target":"GO:0007198"}},{"data":{"source":"GO:0009987","target":"GO:0007154"}},{"data":{"source":"GO:0007165","target":"GO:0007210"}},{"data":{"source":"GO:0035150","target":"GO:0035296"}},{"data":{"source":"GO:0035296","target":"GO:0097746"}},{"data":{"source":"GO:0050880","target":"GO:0097746"}},{"data":{"source":"GO:0050789","target":"GO:0048583"}},{"data":{"source":"GO:0050896","target":"GO:0048583"}},{"data":{"source":"GO:0003018","target":"GO:0050880"}},{"data":{"source":"GO:0008015","target":"GO:0050880"}},{"data":{"source":"GO:0035150","target":"GO:0050880"}},{"data":{"source":"GO:0090066","target":"GO:0035150"}},{"data":{"source":"GO:0009987","target":"GO:0051716"}},{"data":{"source":"GO:0050896","target":"GO:0051716"}},{"data":{"source":"GO:0003013","target":"GO:0003018"}},{"data":{"source":"GO:0001820","target":"GO:0014062"}},{"data":{"source":"GO:0043269","target":"GO:0014062"}},{"data":{"source":"GO:0051588","target":"GO:0014062"}},{"data":{"source":"GO:1903530","target":"GO:0014062"}},{"data":{"source":"GO:0007610","target":"GO:0050795"}},{"data":{"source":"GO:0050789","target":"GO:0050795"}},{"data":{"source":"GO:0006837","target":"GO:0001820"}},{"data":{"source":"GO:0032940","target":"GO:0001820"}},{"data":{"source":"GO:0071702","target":"GO:0015844"}},{"data":{"source":"GO:0071705","target":"GO:0015844"}},{"data":{"source":"GO:0008150","target":"GO:0009987"}},{"data":{"source":"GO:0009987","target":"GO:0050794"}},{"data":{"source":"GO:0050789","target":"GO:0050794"}},{"data":{"source":"GO:0008150","target":"GO:0050789"}},{"data":{"source":"GO:0065007","target":"GO:0050789"}},{"data":{"source":"GO:0008150","target":"GO:0050896"}},{"data":{"source":"GO:0003013","target":"GO:0008015"}},{"data":{"source":"GO:0065008","target":"GO:0090066"}},{"data":{"source":"GO:0003008","target":"GO:0003013"}},{"data":{"source":"GO:0006811","target":"GO:0043269"}},{"data":{"source":"GO:0051049","target":"GO:0043269"}},{"data":{"source":"GO:0006836","target":"GO:0051588"}},{"data":{"source":"GO:0051049","target":"GO:0051588"}},{"data":{"source":"GO:0032940","target":"GO:1903530"}},{"data":{"source":"GO:0050794","target":"GO:1903530"}},{"data":{"source":"GO:0051046","target":"GO:1903530"}},{"data":{"source":"GO:0008150","target":"GO:0007610"}},{"data":{"source":"GO:0006836","target":"GO:0006837"}},{"data":{"source":"GO:0015696","target":"GO:0006837"}},{"data":{"source":"GO:0015844","target":"GO:0006837"}},{"data":{"source":"GO:0015850","target":"GO:0006837"}},{"data":{"source":"GO:0009987","target":"GO:0032940"}},{"data":{"source":"GO:0046903","target":"GO:0032940"}},{"data":{"source":"GO:0006810","target":"GO:0071702"}},{"data":{"source":"GO:0006810","target":"GO:0071705"}},{"data":{"source":"GO:0008150","target":"GO:0065007"}},{"data":{"source":"GO:0065007","target":"GO:0065008"}},{"data":{"source":"GO:0032501","target":"GO:0003008"}},{"data":{"source":"GO:0006810","target":"GO:0006811"}},{"data":{"source":"GO:0006810","target":"GO:0051049"}},{"data":{"source":"GO:0032879","target":"GO:0051049"}},{"data":{"source":"GO:0006810","target":"GO:0006836"}},{"data":{"source":"GO:0046903","target":"GO:0051046"}},{"data":{"source":"GO:0051049","target":"GO:0051046"}},{"data":{"source":"GO:0006812","target":"GO:0015696"}},{"data":{"source":"GO:0071705","target":"GO:0015696"}},{"data":{"source":"GO:0071702","target":"GO:0015850"}},{"data":{"source":"GO:0006810","target":"GO:0046903"}},{"data":{"source":"GO:0051234","target":"GO:0006810"}},{"data":{"source":"GO:0008150","target":"GO:0032501"}},{"data":{"source":"GO:0050789","target":"GO:0032879"}},{"data":{"source":"GO:0051179","target":"GO:0032879"}},{"data":{"source":"GO:0006811","target":"GO:0006812"}},{"data":{"source":"GO:0051179","target":"GO:0051234"}},{"data":{"source":"GO:0008150","target":"GO:0051179"}}];
+var enrichment = [{"goId":"GO:0007188","goName":"adenylate cyclase-modulating G protein-coupled receptor signaling pathway","c":176,"o":7,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"SSTR4","highlight":false}],"expect":0.173070169277235,"ratio":40.4460227272727,"rawP":1.24919852240168e-10,"adjP":1.98085409697235e-06},{"goId":"GO:0007187","goName":"G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger","c":197,"o":7,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"SSTR4","highlight":false}],"expect":0.19372058720236,"ratio":36.1345177664975,"rawP":2.76055400760811e-10,"adjP":2.18870524493209e-06},{"goId":"GO:0007193","goName":"adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway","c":72,"o":5,"geneInfo":[{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.0708014328861417,"ratio":70.6200396825397,"rawP":5.55089152420862e-09,"adjP":2.9340162299792e-05},{"goId":"GO:0007186","goName":"G protein-coupled receptor signaling pathway","c":751,"o":8,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"SSTR4","highlight":false},{"geneName":"PPP1R9B","highlight":true}],"expect":0.73849827913184,"ratio":10.8327943694122,"rawP":1.30696955924492e-07,"adjP":0.000518115407523667},{"goId":"GO:0007165","goName":"signal transduction","c":4848,"o":14,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"EIF2B1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"MDFI","highlight":true},{"geneName":"SSTR4","highlight":false},{"geneName":"UCHL1","highlight":true},{"geneName":"TRIM25","highlight":true},{"geneName":"PTPN18","highlight":true},{"geneName":"CD209","highlight":true},{"geneName":"PPP1R9B","highlight":true}],"expect":4.76729648100021,"ratio":2.93667491749175,"rawP":2.7837806271247e-07,"adjP":0.000882848188086327},{"goId":"GO:0042310","goName":"vasoconstriction","c":67,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.065884666713493,"ratio":60.7121535181237,"rawP":4.3276840600015e-07,"adjP":0.00114373476899073},{"goId":"GO:0098664","goName":"G protein-coupled serotonin receptor signaling pathway","c":18,"o":3,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.0177003582215354,"ratio":169.488095238095,"rawP":6.12352584972164e-07,"adjP":0.00121399767869218},{"goId":"GO:0097756","goName":"negative regulation of blood vessel diameter","c":73,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.0717847861206715,"ratio":55.7221135029354,"rawP":6.12472815131326e-07,"adjP":0.00121399767869218},{"goId":"GO:0023052","goName":"signaling","c":5257,"o":14,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"EIF2B1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"MDFI","highlight":true},{"geneName":"SSTR4","highlight":false},{"geneName":"UCHL1","highlight":true},{"geneName":"TRIM25","highlight":true},{"geneName":"PTPN18","highlight":true},{"geneName":"CD209","highlight":true},{"geneName":"PPP1R9B","highlight":true}],"expect":5.16948795392288,"ratio":2.70819859235305,"rawP":8.6641407026633e-07,"adjP":0.00141494026374147},{"goId":"GO:0007198","goName":"adenylate cyclase-inhibiting serotonin receptor signaling pathway","c":2,"o":2,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false}],"expect":0.00196670646905949,"ratio":1016.92857142857,"rawP":8.97976401237344e-07,"adjP":0.00141494026374147},{"goId":"GO:0007154","goName":"cell communication","c":5304,"o":14,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"EIF2B1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"MDFI","highlight":true},{"geneName":"SSTR4","highlight":false},{"geneName":"UCHL1","highlight":true},{"geneName":"TRIM25","highlight":true},{"geneName":"PTPN18","highlight":true},{"geneName":"CD209","highlight":true},{"geneName":"PPP1R9B","highlight":true}],"expect":5.21570555594578,"ratio":2.68420060331825,"rawP":9.81543980649313e-07,"adjP":0.00141494026374147},{"goId":"GO:0007210","goName":"serotonin receptor signaling pathway","c":22,"o":3,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.0216337711596544,"ratio":138.672077922078,"rawP":1.15298768954553e-06,"adjP":0.00152357714942695},{"goId":"GO:0035296","goName":"regulation of tube diameter","c":118,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.11603568167451,"ratio":34.4721549636804,"rawP":4.20994035266187e-06,"adjP":0.00471148567402773},{"goId":"GO:0097746","goName":"regulation of blood vessel diameter","c":118,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.11603568167451,"ratio":34.4721549636804,"rawP":4.20994035266187e-06,"adjP":0.00471148567402773},{"goId":"GO:0048583","goName":"regulation of response to stimulus","c":3667,"o":12,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"EIF2B1","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"MDFI","highlight":true},{"geneName":"SSTR4","highlight":false},{"geneName":"UCHL1","highlight":true},{"geneName":"TRIM25","highlight":true},{"geneName":"PTPN18","highlight":true},{"geneName":"CD209","highlight":true},{"geneName":"PPP1R9B","highlight":true}],"expect":3.60595631102058,"ratio":3.32782734037165,"rawP":4.45685092453907e-06,"adjP":0.00471148567402773},{"goId":"GO:0050880","goName":"regulation of blood vessel size","c":125,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.122919154316218,"ratio":32.5417142857143,"rawP":5.29581340558138e-06,"adjP":0.00509882712018092},{"goId":"GO:0035150","goName":"regulation of tube size","c":126,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.123902507550748,"ratio":32.2834467120181,"rawP":5.46635940235074e-06,"adjP":0.00509882712018092},{"goId":"GO:0051716","goName":"cellular response to stimulus","c":6085,"o":14,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"CORT","highlight":true},{"geneName":"S1PR1","highlight":true},{"geneName":"EIF2B1","highlight":true},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false},{"geneName":"MDFI","highlight":true},{"geneName":"SSTR4","highlight":false},{"geneName":"UCHL1","highlight":true},{"geneName":"TRIM25","highlight":true},{"geneName":"PTPN18","highlight":true},{"geneName":"CD209","highlight":true},{"geneName":"PPP1R9B","highlight":true}],"expect":5.98370443211351,"ratio":2.33968775677896,"rawP":6.7307981466147e-06,"adjP":0.00592945923393719},{"goId":"GO:0003018","goName":"vascular process in circulatory system","c":147,"o":4,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.144552925475873,"ratio":27.6715257531584,"rawP":1.00772077186173e-05,"adjP":0.00841022541021656},{"goId":"GO:0014062","goName":"regulation of serotonin secretion","c":7,"o":2,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false}],"expect":0.00688347264170823,"ratio":290.551020408163,"rawP":1.88045766937872e-05,"adjP":0.0149092086316692},{"goId":"GO:0050795","goName":"regulation of behavior","c":59,"o":3,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false},{"geneName":"HTR1D","highlight":false}],"expect":0.058017840837255,"ratio":51.7082324455206,"rawP":2.38223924391434e-05,"adjP":0.0179881750908332},{"goId":"GO:0001820","goName":"serotonin secretion","c":10,"o":2,"geneInfo":[{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false}],"expect":0.00983353234529746,"ratio":203.385714285714,"rawP":4.02276291973092e-05,"adjP":0.0289949780082605},{"goId":"GO:0015844","goName":"monoamine transport","c":75,"o":3,"geneInfo":[{"geneName":"ADRA2C","highlight":false},{"geneName":"HTR1A","highlight":true},{"geneName":"HTR1B","highlight":false}],"expect":0.073751492589731,"ratio":40.6771428571429,"rawP":4.9024516305618e-05,"adjP":0.0337992067416602}];
+var candidates = [{"candidate":"CORT","score":"2.23E-02"},{"candidate":"PTPN18","score":"2.14E-02"},{"candidate":"HTR1A","score":"1.76E-02"},{"candidate":"S1PR1","score":"1.74E-02"},{"candidate":"TRIM25","score":"1.15E-02"},{"candidate":"EIF2B1","score":"1.06E-02"},{"candidate":"PPP1R9B","score":"1.06E-02"},{"candidate":"UCHL1","score":"1.05E-02"},{"candidate":"MDFI","score":"1.02E-02"},{"candidate":"CD209","score":"1.01E-02"}];
+var seeds = ["HTR1B","HTR1D","ADRA2C","SSTR4"];
+ntaLib({
+	geneNetwork: geneNetwork,
+	dag: dag,
+	enrichment: enrichment,
+	seeds: seeds,
+	candidates: candidates,
+	method: "Network_Expansion",
+	sigMethod: "fdr",
+	threshold: 0.05
+
+})
+</script>
+
+<footer class="footer has-text-centered">
+<p>WebGestalt is currently developed and maintained by Yuxing Liao, Suhas Vasaikar, Zhiao Shi and Bing Zhang at the <a target="_new" href=http://www.zhang-lab.org> Zhang Lab</a>. Other people who have made significant contribution to the project include Jing Wang, Dexter Duncan, Stefan Kirov and Jay Snoddy.</p>
+<p><b>Funding credits:</b> NIH/NCI (U24 CA210954); Leidos (15X038); CPRIT (RR160027); NIH/NIAAA (U01 AA016662, U01 AA013512); NIH/NIDA (P01 DA015027); NIH/NIMH (P50 MH078028, P50 MH096972); NIH/NCI (U24 CA159988); NIH/NIGMS (R01 GM088822).
+</p>
+</footer></body>
+</html>

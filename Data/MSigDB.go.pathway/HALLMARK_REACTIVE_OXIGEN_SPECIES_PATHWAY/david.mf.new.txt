@@ -1,0 +1,45 @@
+GO:0016209~antioxidant activity	2.45133945806852e-27
+GO:0016491~oxidoreductase activity	1.60022509602263e-23
+GO:0004601~peroxidase activity	9.64160839873995e-16
+GO:0016684~oxidoreductase activity, acting on peroxide as acceptor	1.84235620415828e-15
+GO:0016667~oxidoreductase activity, acting on a sulfur group of donors	4.29620254726949e-11
+GO:0003824~catalytic activity	2.74983908983205e-10
+GO:0016651~oxidoreductase activity, acting on NAD(P)H	7.57626205187087e-09
+GO:0015037~peptide disulfide oxidoreductase activity	4.97772594187189e-07
+GO:0051920~peroxiredoxin activity	7.95056284606775e-07
+GO:0015036~disulfide oxidoreductase activity	9.9177636025387e-07
+GO:0016668~oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor	5.11438928284934e-06
+GO:0050662~coenzyme binding	6.03712684823599e-06
+GO:0004602~glutathione peroxidase activity	1.8461885333764e-05
+GO:0015035~protein disulfide oxidoreductase activity	2.79497541254421e-05
+GO:0048037~cofactor binding	5.44742145735706e-05
+GO:0008379~thioredoxin peroxidase activity	6.01454576670713e-05
+GO:0015038~glutathione disulfide oxidoreductase activity	6.01454576670713e-05
+GO:0009055~electron carrier activity	0.000213638136918698
+GO:0004791~thioredoxin-disulfide reductase activity	0.000268524937798823
+GO:0016655~oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	0.000489038112296096
+GO:0036094~small molecule binding	0.000871968203536247
+GO:0000166~nucleotide binding	0.00133409412453987
+GO:1901265~nucleoside phosphate binding	0.00133962414409036
+GO:0042802~identical protein binding	0.00148910120372719
+GO:0004357~glutamate-cysteine ligase activity	0.00496996539200958
+GO:0003954~NADH dehydrogenase activity	0.00634008168825679
+GO:0008137~NADH dehydrogenase (ubiquinone) activity	0.00634008168825679
+GO:0050661~NADP binding	0.00634008168825679
+GO:0050136~NADH dehydrogenase (quinone) activity	0.00634008168825679
+GO:0046983~protein dimerization activity	0.00704100822731755
+GO:0005507~copper ion binding	0.00884477495731848
+GO:0042803~protein homodimerization activity	0.00890218104523554
+GO:0051536~iron-sulfur cluster binding	0.0120625698683166
+GO:0051540~metal cluster binding	0.0120625698683166
+GO:0004784~superoxide dismutase activity	0.0123797329876948
+GO:0016721~oxidoreductase activity, acting on superoxide radicals as acceptor	0.0123797329876948
+GO:0050660~flavin adenine dinucleotide binding	0.0164965807681671
+GO:0016671~oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor	0.0318767629211993
+GO:0098641~cadherin binding involved in cell-cell adhesion	0.0352074867307993
+GO:1901363~heterocyclic compound binding	0.0361362442437378
+GO:0098632~protein binding involved in cell-cell adhesion	0.0386553345583839
+GO:0098631~protein binding involved in cell adhesion	0.0402780045487832
+GO:0045296~cadherin binding	0.040606677941325
+GO:0097159~organic cyclic compound binding	0.0417604722746039
+GO:0020037~heme binding	0.0455797841193098

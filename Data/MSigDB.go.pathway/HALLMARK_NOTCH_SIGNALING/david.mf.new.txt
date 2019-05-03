@@ -1,0 +1,30 @@
+GO:0005112~Notch binding	4.49102403727947e-06
+GO:0000989~transcription factor activity, transcription factor binding	9.99425587223081e-06
+GO:0000988~transcription factor activity, protein binding	1.07386265248792e-05
+GO:0008134~transcription factor binding	3.16455840428301e-05
+GO:0005109~frizzled binding	3.8426353671867e-05
+GO:0019899~enzyme binding	0.000207644778723997
+GO:0003712~transcription cofactor activity	0.000436095562986166
+GO:0042813~Wnt-activated receptor activity	0.000736850063906678
+GO:0005102~receptor binding	0.000931486710774319
+GO:0001664~G-protein coupled receptor binding	0.00119489060097871
+GO:0017147~Wnt-protein binding	0.00146808516844633
+GO:0031625~ubiquitin protein ligase binding	0.00179283006569843
+GO:0044389~ubiquitin-like protein ligase binding	0.00190952204985729
+GO:0005515~protein binding	0.00402701730894842
+GO:0019904~protein domain specific binding	0.00485648937689693
+GO:0061630~ubiquitin protein ligase activity	0.00560989391877661
+GO:0061659~ubiquitin-like protein ligase activity	0.00601074335731273
+GO:0004842~ubiquitin-protein transferase activity	0.00692699572339832
+GO:0019787~ubiquitin-like protein transferase activity	0.00814239135598716
+GO:0016740~transferase activity	0.00988693648934803
+GO:0042826~histone deacetylase binding	0.0149995974695063
+GO:0003713~transcription coactivator activity	0.0177573913301607
+GO:0044212~transcription regulatory region DNA binding	0.018538707660993
+GO:0000975~regulatory region DNA binding	0.0187947771940081
+GO:0001067~regulatory region nucleic acid binding	0.0188806580710912
+GO:0097602~cullin family protein binding	0.0254144110877739
+GO:0001076~transcription factor activity, RNA polymerase II transcription factor binding	0.0289568847262347
+GO:0048018~receptor agonist activity	0.0307784553589498
+GO:0016874~ligase activity	0.0384494193913251
+GO:0005509~calcium ion binding	0.0408960103452048

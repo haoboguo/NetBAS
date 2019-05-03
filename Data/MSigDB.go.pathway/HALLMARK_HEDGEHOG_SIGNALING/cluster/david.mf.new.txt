@@ -1,0 +1,16 @@
+GO:0005021~vascular endothelial growth factor-activated receptor activity	0.00455324170486267
+GO:0008201~heparin binding	0.00464209280586075
+GO:0005515~protein binding	0.00738140138811375
+GO:0004672~protein kinase activity	0.00750144180981302
+GO:0005539~glycosaminoglycan binding	0.00772360304382617
+GO:0017154~semaphorin receptor activity	0.00779400917179997
+GO:0097367~carbohydrate derivative binding	0.00946732011083021
+GO:1901681~sulfur compound binding	0.00961104931321584
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0124444565665777
+GO:0008092~cytoskeletal protein binding	0.0152937204670225
+GO:0016301~kinase activity	0.019376147982301
+GO:0097472~cyclin-dependent protein kinase activity	0.0219397494616615
+GO:0004693~cyclin-dependent protein serine/threonine kinase activity	0.0219397494616615
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0290371862396501
+GO:0008047~enzyme activator activity	0.0394661433940431
+GO:0004714~transmembrane receptor protein tyrosine kinase activity	0.0415612915500128

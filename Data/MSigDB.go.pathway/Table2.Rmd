@@ -1,0 +1,40 @@
+---
+title: "Clusters of Protein Sets"
+author: "HBG"
+date: "3/7/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+table1 <- read.csv("table1b.csv", header=T, stringsAsFactors = F)
+cluster1 <- c(4,9,14,33,41,42,43,45,46,47,6,8,15,16,18,23,25,28,29,35,37,38,40,44,49,5)
+cluster2 <- c(1,24,26,32,11,20,48,50,10,21,22,27)
+cluster3 <- c(36,39,7,30,31,34,2,3,12,13,17,19)
+cluster3star <- c(36,39,7,30,31,34,2,12,13,17,19)
+col.all <- c("BPmax", "R", "B", "Y", "Cliq", "Clust", "CCmax", "MFmax", "JBP", "JCC", "JMF")
+c1 <- c(mean(table1$BPmax[cluster1]), mean(table1$R[cluster1]), mean(table1$B[cluster1]),
+        mean(table1$Y[cluster1]), mean(table1$Cliq[cluster1]), mean(table1$Clust[cluster1]),
+        mean(table1$CCmax[cluster1]), mean(table1$MFmax[cluster1]),
+        mean(table1$JBP[cluster1]), mean(table1$JCC[cluster1]), mean(table1$JMF[cluster1]))
+c2 <- c(mean(table1$BPmax[cluster2]), mean(table1$R[cluster2]), mean(table1$B[cluster2]),
+        mean(table1$Y[cluster2]), mean(table1$Cliq[cluster2]), mean(table1$Clust[cluster2]),
+        mean(table1$CCmax[cluster2]), mean(table1$MFmax[cluster2]),
+        mean(table1$JBP[cluster2]), mean(table1$JCC[cluster2]), mean(table1$JMF[cluster2]))
+c3 <- c(mean(table1$BPmax[cluster3]), mean(table1$R[cluster3]), mean(table1$B[cluster3]),
+        mean(table1$Y[cluster3]), mean(table1$Cliq[cluster3]), mean(table1$Clust[cluster3]),
+        mean(table1$CCmax[cluster3]), mean(table1$MFmax[cluster3]),
+        mean(table1$JBP[cluster3]), mean(table1$JCC[cluster3]), mean(table1$JMF[cluster3]))
+c3s<- c(mean(table1$BPmax[cluster3star]), mean(table1$R[cluster3star]), mean(table1$B[cluster3star]),
+        mean(table1$Y[cluster3star]), mean(table1$Cliq[cluster3star]), mean(table1$Clust[cluster3star]),
+        mean(table1$CCmax[cluster3star]), mean(table1$MFmax[cluster3star]),
+        mean(table1$JBP[cluster3star]), mean(table1$JCC[cluster3star]), mean(table1$JMF[cluster3star]))
+table2 <- rbind(c1,c2,c3,c3s)
+colnames(table2) <- col.all
+rownames(table2) <- c("Cluster1", "Cluster2", "Cluster3", "Cluster3s")
+round(table2,2)
+
+write.csv(round(table2,2), file="table2b.csv")
+```

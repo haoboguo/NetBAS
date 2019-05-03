@@ -1,0 +1,84 @@
+GO:0016779~nucleotidyltransferase activity	1.8855912556401e-27
+GO:0003899~DNA-directed RNA polymerase activity	4.32142295139543e-23
+GO:0034062~RNA polymerase activity	1.01359612827959e-22
+GO:0003684~damaged DNA binding	1.52560726743427e-18
+GO:1901363~heterocyclic compound binding	1.97455620623909e-18
+GO:0097159~organic cyclic compound binding	5.62905245584976e-18
+GO:0003677~DNA binding	2.09320838275482e-17
+GO:0016772~transferase activity, transferring phosphorus-containing groups	7.80295702709401e-17
+GO:0003676~nucleic acid binding	5.60774716556414e-16
+GO:0016740~transferase activity	5.01257778560276e-13
+GO:0003887~DNA-directed DNA polymerase activity	9.55771611686862e-13
+GO:0003824~catalytic activity	4.83815442846844e-11
+GO:0034061~DNA polymerase activity	4.89365028125032e-11
+GO:0001055~RNA polymerase II activity	5.00475763463789e-11
+GO:0001056~RNA polymerase III activity	5.57276540598438e-11
+GO:0001054~RNA polymerase I activity	2.17311942469224e-10
+GO:0019205~nucleobase-containing compound kinase activity	2.50043040736733e-10
+GO:0047485~protein N-terminus binding	7.71747050196022e-09
+GO:0003697~single-stranded DNA binding	9.3681317748335e-09
+GO:0008094~DNA-dependent ATPase activity	1.74899287872665e-08
+GO:0016776~phosphotransferase activity, phosphate group as acceptor	1.16805218984395e-06
+GO:0043142~single-stranded DNA-dependent ATPase activity	1.89760106929289e-06
+GO:0004536~deoxyribonuclease activity	2.59613640934101e-06
+GO:0004550~nucleoside diphosphate kinase activity	1.76660804366115e-05
+GO:0005488~binding	2.32886422784083e-05
+GO:0033170~protein-DNA loading ATPase activity	2.78090144642125e-05
+GO:0003689~DNA clamp loader activity	2.78090144642125e-05
+GO:0046983~protein dimerization activity	5.06267261152849e-05
+GO:0004520~endodeoxyribonuclease activity	7.93698172754308e-05
+GO:0004518~nuclease activity	9.68231733293548e-05
+GO:0036094~small molecule binding	0.000100655523986682
+GO:0005515~protein binding	0.000148821238632381
+GO:0000166~nucleotide binding	0.000247333369323725
+GO:1901265~nucleoside phosphate binding	0.000249354774531375
+GO:0008353~RNA polymerase II carboxy-terminal domain kinase activity	0.000265248382830868
+GO:0008022~protein C-terminus binding	0.000684604754930963
+GO:0019201~nucleotide kinase activity	0.00103315035109735
+GO:0016763~transferase activity, transferring pentosyl groups	0.00130164162201566
+GO:0042623~ATPase activity, coupled	0.00131054730288541
+GO:0046982~protein heterodimerization activity	0.00136336725956776
+GO:0001085~RNA polymerase II transcription factor binding	0.00153192968359627
+GO:0003723~RNA binding	0.00324740730921348
+GO:0016787~hydrolase activity	0.00455636997268829
+GO:0051539~4 iron, 4 sulfur cluster binding	0.0046675154195228
+GO:0004519~endonuclease activity	0.00603022495130859
+GO:0043566~structure-specific DNA binding	0.00603022495130859
+GO:0019104~DNA N-glycosylase activity	0.0063160199648011
+GO:0016462~pyrophosphatase activity	0.00666635376020876
+GO:0016818~hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	0.00680482819814905
+GO:0016817~hydrolase activity, acting on acid anhydrides	0.00694560240251441
+GO:0001882~nucleoside binding	0.00700613975179892
+GO:0019899~enzyme binding	0.00845709838363099
+GO:0016887~ATPase activity	0.00920202138693337
+GO:0032559~adenyl ribonucleotide binding	0.0108976124886759
+GO:0097367~carbohydrate derivative binding	0.0112844300779494
+GO:0030554~adenyl nucleotide binding	0.011756658106768
+GO:0017025~TBP-class protein binding	0.0122399705811602
+GO:0000217~DNA secondary structure binding	0.0133935592511908
+GO:0003729~mRNA binding	0.0143274878318296
+GO:0016799~hydrolase activity, hydrolyzing N-glycosyl compounds	0.0145924750517802
+GO:0051536~iron-sulfur cluster binding	0.0168409790572897
+GO:0051540~metal cluster binding	0.0168409790572897
+GO:0016301~kinase activity	0.0169582308873434
+GO:0016829~lyase activity	0.0185077709913276
+GO:0008134~transcription factor binding	0.0228449107009616
+GO:0016788~hydrolase activity, acting on ester bonds	0.0235065517590261
+GO:0043262~adenosine-diphosphatase activity	0.0239763996073241
+GO:0002060~purine nucleobase binding	0.0239763996073241
+GO:0032555~purine ribonucleotide binding	0.0275780106784191
+GO:0031625~ubiquitin protein ligase binding	0.0288070626068236
+GO:0017076~purine nucleotide binding	0.0295703289223272
+GO:0032553~ribonucleotide binding	0.0300454370606281
+GO:0004527~exonuclease activity	0.0303679507406436
+GO:0044389~ubiquitin-like protein ligase binding	0.0309741915936417
+GO:0005524~ATP binding	0.0310692852663491
+GO:0044822~poly(A) RNA binding	0.0311690788574801
+GO:0002054~nucleobase binding	0.0318410286898813
+GO:0019136~deoxynucleoside kinase activity	0.0318410286898813
+GO:0003713~transcription coactivator activity	0.0361112320375297
+GO:0001094~TFIID-class transcription factor binding	0.0396427481950096
+GO:0003896~DNA primase activity	0.0396427481950096
+GO:0001883~purine nucleoside binding	0.0404983865231644
+GO:0001047~core promoter binding	0.0413131620967843
+GO:0001091~RNA polymerase II basal transcription factor binding	0.0473820576440873

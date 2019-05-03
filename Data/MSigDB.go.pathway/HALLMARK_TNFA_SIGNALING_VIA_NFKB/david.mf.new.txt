@@ -1,0 +1,98 @@
+GO:0005125~cytokine activity	1.3760921017818e-20
+GO:0005126~cytokine receptor binding	2.62750331869679e-19
+GO:0005515~protein binding	1.32894159346387e-17
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	9.58652659287061e-15
+GO:0005102~receptor binding	1.48283118987949e-14
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	5.57462214827142e-14
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	1.26426024463791e-11
+GO:0044212~transcription regulatory region DNA binding	1.45020643187361e-11
+GO:0000975~regulatory region DNA binding	1.5992835925474e-11
+GO:0001067~regulatory region nucleic acid binding	1.65214464716801e-11
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	1.17414548602831e-10
+GO:0001012~RNA polymerase II regulatory region DNA binding	1.31655644755246e-10
+GO:0003700~transcription factor activity, sequence-specific DNA binding	1.35908935811985e-10
+GO:0000976~transcription regulatory region sequence-specific DNA binding	1.36181237099067e-10
+GO:0001071~nucleic acid binding transcription factor activity	1.39320598057943e-10
+GO:1990837~sequence-specific double-stranded DNA binding	4.16788502243759e-10
+GO:0001077~transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	1.13084762246956e-09
+GO:0003690~double-stranded DNA binding	1.17859186145656e-09
+GO:0042379~chemokine receptor binding	1.68032015588105e-09
+GO:0008009~chemokine activity	2.90484605171568e-09
+GO:0046983~protein dimerization activity	4.21809719946742e-09
+GO:0000987~core promoter proximal region sequence-specific DNA binding	7.19610490623392e-09
+GO:0001159~core promoter proximal region DNA binding	7.86447774629741e-09
+GO:0043565~sequence-specific DNA binding	8.00644043966803e-09
+GO:0000978~RNA polymerase II core promoter proximal region sequence-specific DNA binding	1.6581588084223e-08
+GO:0042802~identical protein binding	2.69707960294622e-08
+GO:0042803~protein homodimerization activity	1.41129140083481e-07
+GO:0005488~binding	1.59080033824093e-07
+GO:0008083~growth factor activity	2.53585354831889e-07
+GO:0045236~CXCR chemokine receptor binding	8.78249986442685e-07
+GO:0046982~protein heterodimerization activity	1.04388804878031e-06
+GO:0019899~enzyme binding	1.80796342406342e-06
+GO:0019900~kinase binding	2.86428252482317e-06
+GO:0008134~transcription factor binding	4.28275554570313e-06
+GO:0001227~transcriptional repressor activity, RNA polymerase II transcription regulatory region sequence-specific binding	4.31317144752449e-06
+GO:0003677~DNA binding	1.36538322764879e-05
+GO:0019901~protein kinase binding	2.61271503250309e-05
+GO:0001078~transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding	3.25892411196373e-05
+GO:0004896~cytokine receptor activity	6.29686112484103e-05
+GO:0003705~transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding	8.31205659668028e-05
+GO:0070851~growth factor receptor binding	8.99539077314603e-05
+GO:0035326~enhancer binding	9.5008792710712e-05
+GO:0001664~G-protein coupled receptor binding	0.000141346206107198
+GO:0035259~glucocorticoid receptor binding	0.000206737493779937
+GO:0017017~MAP kinase tyrosine/serine/threonine phosphatase activity	0.00035253408126601
+GO:0008330~protein tyrosine/threonine phosphatase activity	0.000363513205422432
+GO:0001047~core promoter binding	0.000433639750638395
+GO:0033549~MAP kinase phosphatase activity	0.000445029802732755
+GO:0033613~activating transcription factor binding	0.000487636054413479
+GO:0005539~glycosaminoglycan binding	0.000527883169312807
+GO:0000980~RNA polymerase II distal enhancer sequence-specific DNA binding	0.000762640838556763
+GO:0001102~RNA polymerase II activating transcription factor binding	0.000801850461337094
+GO:0048020~CCR chemokine receptor binding	0.000975811832569961
+GO:0046332~SMAD binding	0.00113962640135654
+GO:0070412~R-SMAD binding	0.00153588790519359
+GO:0005080~protein kinase C binding	0.00165475970575609
+GO:0001158~enhancer sequence-specific DNA binding	0.00228449055374734
+GO:0044877~macromolecular complex binding	0.00253940810285835
+GO:0001205~transcriptional activator activity, RNA polymerase II distal enhancer sequence-specific binding	0.00257108715690826
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00278113003106762
+GO:0098772~molecular function regulator	0.00316312277878624
+GO:0016301~kinase activity	0.00321674559849895
+GO:0000988~transcription factor activity, protein binding	0.00341195445112295
+GO:0004871~signal transducer activity	0.0034581975530277
+GO:0030234~enzyme regulator activity	0.00345942008759567
+GO:0003714~transcription corepressor activity	0.0037530983999871
+GO:0003682~chromatin binding	0.00412530370409879
+GO:0044389~ubiquitin-like protein ligase binding	0.0053203863827612
+GO:0019207~kinase regulator activity	0.00546883153756135
+GO:0001085~RNA polymerase II transcription factor binding	0.00600962789915075
+GO:0001046~core promoter sequence-specific DNA binding	0.0065067637762465
+GO:0000989~transcription factor activity, transcription factor binding	0.00766212803557884
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00830212355428184
+GO:0019904~protein domain specific binding	0.00854560583152222
+GO:0008201~heparin binding	0.00887976603949363
+GO:0002020~protease binding	0.00976539484356211
+GO:0019887~protein kinase regulator activity	0.0122955010377424
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.0134968988938536
+GO:0004672~protein kinase activity	0.0139020006336044
+GO:0008138~protein tyrosine/serine/threonine phosphatase activity	0.014323094651618
+GO:0031625~ubiquitin protein ligase binding	0.0147652630547827
+GO:0003712~transcription cofactor activity	0.0202042923600278
+GO:0045519~interleukin-23 receptor binding	0.0220330226284148
+GO:0000979~RNA polymerase II core promoter sequence-specific DNA binding	0.0252824207875481
+GO:0043027~cysteine-type endopeptidase inhibitor activity involved in apoptotic process	0.0265102489788262
+GO:0001221~transcription cofactor binding	0.0265102489788262
+GO:0042826~histone deacetylase binding	0.0267669709714158
+GO:0004725~protein tyrosine phosphatase activity	0.0284795039474434
+GO:0071889~14-3-3 protein binding	0.028712907452104
+GO:0016538~cyclin-dependent protein serine/threonine kinase regulator activity	0.0357369129389511
+GO:0061134~peptidase regulator activity	0.0357710134901011
+GO:0043130~ubiquitin binding	0.0380053335945319
+GO:0035035~histone acetyltransferase binding	0.0382109775406822
+GO:0005164~tumor necrosis factor receptor binding	0.0407485098110069
+GO:0042805~actinin binding	0.0407485098110069
+GO:0038023~signaling receptor activity	0.041093203085642
+GO:0004866~endopeptidase inhibitor activity	0.0445425486507043
+GO:1901681~sulfur compound binding	0.0454827149942372

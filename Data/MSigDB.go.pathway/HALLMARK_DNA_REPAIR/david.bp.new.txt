@@ -1,0 +1,490 @@
+GO:0006289~nucleotide-excision repair	1.20549140266089e-49
+GO:0006283~transcription-coupled nucleotide-excision repair	3.95596001163384e-46
+GO:0006354~DNA-templated transcription, elongation	4.95008825620469e-42
+GO:0006368~transcription elongation from RNA polymerase II promoter	5.15139968329234e-38
+GO:0006281~DNA repair	7.57036199065467e-36
+GO:0006296~nucleotide-excision repair, DNA incision, 5'-to lesion	7.73722076416073e-33
+GO:0006139~nucleobase-containing compound metabolic process	8.74586272567799e-33
+GO:0046483~heterocycle metabolic process	8.19426142444624e-32
+GO:0033683~nucleotide-excision repair, DNA incision	1.27238473260946e-31
+GO:0006259~DNA metabolic process	1.3262071420508e-31
+GO:0006725~cellular aromatic compound metabolic process	1.8405442774578e-31
+GO:1901360~organic cyclic compound metabolic process	4.35296454958977e-30
+GO:0006370~7-methylguanosine mRNA capping	9.89875233759729e-30
+GO:0034641~cellular nitrogen compound metabolic process	2.05201607619924e-29
+GO:0034654~nucleobase-containing compound biosynthetic process	4.09018951003415e-29
+GO:0006974~cellular response to DNA damage stimulus	1.13394787400998e-28
+GO:0018130~heterocycle biosynthetic process	1.17932008807092e-28
+GO:0019438~aromatic compound biosynthetic process	1.5181185488319e-28
+GO:0036260~RNA capping	5.69837248569588e-28
+GO:0009452~7-methylguanosine RNA capping	5.69837248569588e-28
+GO:1901362~organic cyclic compound biosynthetic process	1.26395120350669e-27
+GO:0006807~nitrogen compound metabolic process	2.07171073683592e-26
+GO:0006352~DNA-templated transcription, initiation	3.05454577120498e-26
+GO:0044271~cellular nitrogen compound biosynthetic process	5.01569157182667e-26
+GO:0042795~snRNA transcription from RNA polymerase II promoter	3.37646097626537e-24
+GO:0009301~snRNA transcription	3.37646097626537e-24
+GO:0000722~telomere maintenance via recombination	2.44973371623054e-23
+GO:0098781~ncRNA transcription	1.07673187874474e-22
+GO:0006312~mitotic recombination	1.58610600311232e-22
+GO:0016073~snRNA metabolic process	1.58836035903696e-22
+GO:0006353~DNA-templated transcription, termination	1.02982454286297e-20
+GO:0006293~nucleotide-excision repair, preincision complex stabilization	1.75005468015494e-20
+GO:0044249~cellular biosynthetic process	2.03091550974041e-20
+GO:0090305~nucleic acid phosphodiester bond hydrolysis	2.88408161705728e-20
+GO:0006367~transcription initiation from RNA polymerase II promoter	4.10274283341567e-20
+GO:0006295~nucleotide-excision repair, DNA incision, 3'-to lesion	7.92878695835896e-20
+GO:1901576~organic substance biosynthetic process	9.03170223836191e-20
+GO:0090304~nucleic acid metabolic process	2.24942122114849e-19
+GO:0033554~cellular response to stress	2.32659219500525e-19
+GO:0009058~biosynthetic process	3.13536927268799e-19
+GO:1903902~positive regulation of viral life cycle	1.44713352436328e-18
+GO:0006294~nucleotide-excision repair, preincision complex assembly	2.90753864535026e-18
+GO:0006363~termination of RNA polymerase I transcription	7.78711294715446e-18
+GO:0006362~transcription elongation from RNA polymerase I promoter	7.78711294715446e-18
+GO:0050434~positive regulation of viral transcription	9.89389179647556e-18
+GO:0071897~DNA biosynthetic process	1.6765827605832e-17
+GO:0048524~positive regulation of viral process	1.7572116363109e-17
+GO:0006297~nucleotide-excision repair, DNA gap filling	1.88861068349069e-17
+GO:0006361~transcription initiation from RNA polymerase I promoter	1.92834371188775e-17
+GO:0044237~cellular metabolic process	3.33845618268921e-17
+GO:0046782~regulation of viral transcription	1.90022391911292e-16
+GO:0000723~telomere maintenance	8.76343420715224e-16
+GO:0070911~global genome nucleotide-excision repair	9.18154562823762e-16
+GO:0006260~DNA replication	2.64105124568067e-15
+GO:0044238~primary metabolic process	2.71768922690504e-15
+GO:0042769~DNA damage response, detection of DNA damage	4.25729711080635e-15
+GO:0032200~telomere organization	4.45952808434337e-15
+GO:0006271~DNA strand elongation involved in DNA replication	5.21565537860679e-15
+GO:0071704~organic substance metabolic process	8.21294456667323e-15
+GO:0043902~positive regulation of multi-organism process	1.68778785813225e-14
+GO:0019985~translesion synthesis	2.1427872280282e-14
+GO:0006360~transcription from RNA polymerase I promoter	2.61390453193228e-14
+GO:0000731~DNA synthesis involved in DNA repair	3.29697221820697e-14
+GO:0008152~metabolic process	5.21730635015018e-14
+GO:0022616~DNA strand elongation	6.00771190740339e-14
+GO:0006261~DNA-dependent DNA replication	6.30443169732975e-14
+GO:0000717~nucleotide-excision repair, DNA duplex unwinding	6.37768653485128e-14
+GO:1903900~regulation of viral life cycle	1.01173098036273e-13
+GO:0009059~macromolecule biosynthetic process	1.29060041087461e-13
+GO:0009163~nucleoside biosynthetic process	1.82469176457893e-13
+GO:1901659~glycosyl compound biosynthetic process	2.29774762937469e-13
+GO:0006383~transcription from RNA polymerase III promoter	3.00609925980866e-13
+GO:0006310~DNA recombination	5.42217091083476e-13
+GO:0006301~postreplication repair	7.34389188174761e-13
+GO:0034645~cellular macromolecule biosynthetic process	8.15869377949834e-13
+GO:0006397~mRNA processing	8.44970086632679e-13
+GO:0051276~chromosome organization	9.13989797094326e-13
+GO:0009165~nucleotide biosynthetic process	1.34027197844851e-12
+GO:1901293~nucleoside phosphate biosynthetic process	1.59858035365252e-12
+GO:0019083~viral transcription	2.03350792547206e-12
+GO:0031047~gene silencing by RNA	4.01890826148378e-12
+GO:0019080~viral gene expression	5.03995284952313e-12
+GO:0016032~viral process	9.91255995926195e-12
+GO:0065004~protein-DNA complex assembly	1.02309236839462e-11
+GO:0044764~multi-organism cellular process	1.19769174046446e-11
+GO:0044403~symbiosis, encompassing mutualism through parasitism	2.32127566935201e-11
+GO:0044419~interspecies interaction between organisms	2.32127566935201e-11
+GO:0019058~viral life cycle	2.33513564566684e-11
+GO:0044033~multi-organism metabolic process	2.62489434384372e-11
+GO:0009117~nucleotide metabolic process	3.60354870977853e-11
+GO:0009411~response to UV	4.56476159346325e-11
+GO:0006753~nucleoside phosphate metabolic process	4.68386598935788e-11
+GO:0044260~cellular macromolecule metabolic process	4.69784669945165e-11
+GO:0071824~protein-DNA complex subunit organization	5.73529590087929e-11
+GO:0050792~regulation of viral process	5.73529590087929e-11
+GO:0009200~deoxyribonucleoside triphosphate metabolic process	6.74601837746555e-11
+GO:0006366~transcription from RNA polymerase II promoter	9.0072948117658e-11
+GO:0070987~error-free translesion synthesis	1.0607748892797e-10
+GO:0042276~error-prone translesion synthesis	1.0607748892797e-10
+GO:0009116~nucleoside metabolic process	2.00949737160371e-10
+GO:0043903~regulation of symbiosis, encompassing mutualism through parasitism	2.13465777050129e-10
+GO:0055086~nucleobase-containing small molecule metabolic process	2.42648497057872e-10
+GO:0034660~ncRNA metabolic process	2.87961659555037e-10
+GO:0043900~regulation of multi-organism process	3.03775765575945e-10
+GO:0006213~pyrimidine nucleoside metabolic process	3.82334182128582e-10
+GO:0000377~RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	4.47895641082714e-10
+GO:0000398~mRNA splicing, via spliceosome	4.47895641082714e-10
+GO:0009124~nucleoside monophosphate biosynthetic process	4.54665101162574e-10
+GO:1901657~glycosyl compound metabolic process	4.99433477504076e-10
+GO:0000375~RNA splicing, via transesterification reactions	5.494318437617e-10
+GO:0032508~DNA duplex unwinding	6.53421045799737e-10
+GO:0008543~fibroblast growth factor receptor signaling pathway	7.06394354441123e-10
+GO:0006298~mismatch repair	7.13840931032991e-10
+GO:1901796~regulation of signal transduction by p53 class mediator	9.50357764060074e-10
+GO:0032392~DNA geometric change	1.24156794819773e-09
+GO:0016071~mRNA metabolic process	1.31345910396081e-09
+GO:0072527~pyrimidine-containing compound metabolic process	1.40413145485939e-09
+GO:0006284~base-excision repair	1.67561424608458e-09
+GO:0006950~response to stress	1.84654999430051e-09
+GO:0072528~pyrimidine-containing compound biosynthetic process	2.0443468323436e-09
+GO:0016458~gene silencing	2.86302426244127e-09
+GO:0042455~ribonucleoside biosynthetic process	4.12957356958885e-09
+GO:1901068~guanosine-containing compound metabolic process	4.31166160570198e-09
+GO:0072522~purine-containing compound biosynthetic process	4.85387457222565e-09
+GO:0006220~pyrimidine nucleotide metabolic process	5.13814801887242e-09
+GO:0060249~anatomical structure homeostasis	5.32783191212419e-09
+GO:0035019~somatic stem cell population maintenance	6.77703881675453e-09
+GO:0046134~pyrimidine nucleoside biosynthetic process	8.16572755582371e-09
+GO:0043170~macromolecule metabolic process	8.35925671572134e-09
+GO:0042451~purine nucleoside biosynthetic process	1.00151267975702e-08
+GO:0046129~purine ribonucleoside biosynthetic process	1.00151267975702e-08
+GO:0009262~deoxyribonucleotide metabolic process	1.02121194030223e-08
+GO:0044344~cellular response to fibroblast growth factor stimulus	1.05376083980484e-08
+GO:0071774~response to fibroblast growth factor	1.69786616373775e-08
+GO:0043094~cellular metabolic compound salvage	2.33054779184876e-08
+GO:0009650~UV protection	2.73323816086976e-08
+GO:0008380~RNA splicing	3.51368103892435e-08
+GO:0071478~cellular response to radiation	4.37711005300297e-08
+GO:0031334~positive regulation of protein complex assembly	4.42565679810725e-08
+GO:0009147~pyrimidine nucleoside triphosphate metabolic process	4.49158496094255e-08
+GO:0034622~cellular macromolecular complex assembly	4.64987970342973e-08
+GO:0090407~organophosphate biosynthetic process	5.15493981047621e-08
+GO:0009314~response to radiation	6.64853254377151e-08
+GO:0034644~cellular response to UV	8.75921088907359e-08
+GO:0071482~cellular response to light stimulus	9.90789640155447e-08
+GO:0009416~response to light stimulus	1.00722022119329e-07
+GO:0006396~RNA processing	1.05983270910649e-07
+GO:0009119~ribonucleoside metabolic process	1.2410169517708e-07
+GO:0006163~purine nucleotide metabolic process	1.27356836318124e-07
+GO:0044089~positive regulation of cellular component biogenesis	1.43221995668337e-07
+GO:0009394~2'-deoxyribonucleotide metabolic process	1.45557383607553e-07
+GO:0043101~purine-containing compound salvage	1.46775865345729e-07
+GO:0032774~RNA biosynthetic process	1.50353779219826e-07
+GO:0009141~nucleoside triphosphate metabolic process	1.74553287696047e-07
+GO:1901070~guanosine-containing compound biosynthetic process	2.06551472999723e-07
+GO:0019692~deoxyribose phosphate metabolic process	2.19142718260356e-07
+GO:0051173~positive regulation of nitrogen compound metabolic process	2.22089116019429e-07
+GO:1901137~carbohydrate derivative biosynthetic process	2.58557604007192e-07
+GO:0006221~pyrimidine nucleotide biosynthetic process	2.66026494015353e-07
+GO:0072521~purine-containing compound metabolic process	2.74883487188016e-07
+GO:1901135~carbohydrate derivative metabolic process	3.05687840121734e-07
+GO:0009123~nucleoside monophosphate metabolic process	3.05832886581647e-07
+GO:0065003~macromolecular complex assembly	3.08576240541908e-07
+GO:0019637~organophosphate metabolic process	3.3976488682847e-07
+GO:0051704~multi-organism process	5.3224895536599e-07
+GO:0009112~nucleobase metabolic process	8.79111940283083e-07
+GO:0006351~transcription, DNA-templated	9.25938764968214e-07
+GO:0048518~positive regulation of biological process	1.11363529097076e-06
+GO:0006164~purine nucleotide biosynthetic process	1.24127330082091e-06
+GO:0009166~nucleotide catabolic process	1.31524755895977e-06
+GO:0045935~positive regulation of nucleobase-containing compound metabolic process	1.38414680052936e-06
+GO:0009162~deoxyribonucleoside monophosphate metabolic process	1.41842193097738e-06
+GO:0006996~organelle organization	1.44415821373438e-06
+GO:0046128~purine ribonucleoside metabolic process	1.53614502845342e-06
+GO:0009260~ribonucleotide biosynthetic process	1.58826336981317e-06
+GO:0042278~purine nucleoside metabolic process	1.69533477618066e-06
+GO:0046390~ribose phosphate biosynthetic process	1.79199551498477e-06
+GO:0032481~positive regulation of type I interferon production	1.95672872017175e-06
+GO:0051171~regulation of nitrogen compound metabolic process	2.04437386145337e-06
+GO:0060255~regulation of macromolecule metabolic process	2.16522875465512e-06
+GO:0019219~regulation of nucleobase-containing compound metabolic process	2.19840094150045e-06
+GO:1901566~organonitrogen compound biosynthetic process	2.25228544195634e-06
+GO:0019827~stem cell population maintenance	2.46155900546481e-06
+GO:0015949~nucleobase-containing small molecule interconversion	2.52113318150404e-06
+GO:1901292~nucleoside phosphate catabolic process	2.84113563706737e-06
+GO:0098727~maintenance of cell number	2.93371836846749e-06
+GO:0006195~purine nucleotide catabolic process	3.01288234352509e-06
+GO:0009263~deoxyribonucleotide biosynthetic process	3.03389859089243e-06
+GO:0043254~regulation of protein complex assembly	3.39064881640969e-06
+GO:0097659~nucleic acid-templated transcription	4.01208189132608e-06
+GO:0022607~cellular component assembly	4.03391989148421e-06
+GO:0045815~positive regulation of gene expression, epigenetic	4.03680059974208e-06
+GO:0009132~nucleoside diphosphate metabolic process	4.15173961440262e-06
+GO:0009142~nucleoside triphosphate biosynthetic process	4.39358734207042e-06
+GO:0019222~regulation of metabolic process	5.45170161870424e-06
+GO:0016070~RNA metabolic process	6.11796217485358e-06
+GO:0009152~purine ribonucleotide biosynthetic process	6.16187345684309e-06
+GO:0010604~positive regulation of macromolecule metabolic process	6.68369579757113e-06
+GO:0072523~purine-containing compound catabolic process	7.40545507171815e-06
+GO:0031124~mRNA 3'-end processing	7.70216610703737e-06
+GO:0046131~pyrimidine ribonucleoside metabolic process	8.29447127150182e-06
+GO:0009156~ribonucleoside monophosphate biosynthetic process	8.31049798226141e-06
+GO:0009259~ribonucleotide metabolic process	9.17031119496279e-06
+GO:0019693~ribose phosphate metabolic process	1.26396347005376e-05
+GO:0007049~cell cycle	1.33029004360458e-05
+GO:0071214~cellular response to abiotic stimulus	1.43520656431036e-05
+GO:0010557~positive regulation of macromolecule biosynthetic process	1.47305154706034e-05
+GO:0034655~nucleobase-containing compound catabolic process	1.65182787572716e-05
+GO:0009893~positive regulation of metabolic process	1.65955714745283e-05
+GO:0010628~positive regulation of gene expression	1.68424508182687e-05
+GO:1900262~regulation of DNA-directed DNA polymerase activity	1.89614830498624e-05
+GO:1900264~positive regulation of DNA-directed DNA polymerase activity	1.89614830498624e-05
+GO:0075733~intracellular transport of virus	1.90309830222301e-05
+GO:1902583~multi-organism intracellular transport	2.07317756318981e-05
+GO:1902581~multi-organism cellular localization	2.07317756318981e-05
+GO:0009164~nucleoside catabolic process	2.13236359024417e-05
+GO:0009148~pyrimidine nucleoside triphosphate biosynthetic process	2.41211784249875e-05
+GO:0046794~transport of virus	2.45007932324681e-05
+GO:0071103~DNA conformation change	2.45674880216222e-05
+GO:0031328~positive regulation of cellular biosynthetic process	2.57511770257955e-05
+GO:0009150~purine ribonucleotide metabolic process	2.70405078336108e-05
+GO:0009157~deoxyribonucleoside monophosphate biosynthetic process	3.01543210240267e-05
+GO:0006290~pyrimidine dimer repair	3.01543210240267e-05
+GO:0043933~macromolecular complex subunit organization	3.12905374771544e-05
+GO:0032606~type I interferon production	3.18189186522464e-05
+GO:1902579~multi-organism localization	3.36916568359108e-05
+GO:0044766~multi-organism transport	3.36916568359108e-05
+GO:0000715~nucleotide-excision repair, DNA damage recognition	3.52321490790929e-05
+GO:0009891~positive regulation of biosynthetic process	3.63331908956992e-05
+GO:0046700~heterocycle catabolic process	3.74077849073948e-05
+GO:0009127~purine nucleoside monophosphate biosynthetic process	3.92257153817158e-05
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	3.92257153817158e-05
+GO:0032479~regulation of type I interferon production	4.02226982209247e-05
+GO:1901658~glycosyl compound catabolic process	4.19433941948719e-05
+GO:0044270~cellular nitrogen compound catabolic process	4.44989854838382e-05
+GO:0009133~nucleoside diphosphate biosynthetic process	4.49571782356759e-05
+GO:0031123~RNA 3'-end processing	4.76546759372888e-05
+GO:0019439~aromatic compound catabolic process	5.02570818924899e-05
+GO:0006302~double-strand break repair	5.47273280371413e-05
+GO:0048522~positive regulation of cellular process	5.57681906543734e-05
+GO:0046039~GTP metabolic process	5.83473158073448e-05
+GO:0009218~pyrimidine ribonucleotide metabolic process	5.83473158073448e-05
+GO:0051052~regulation of DNA metabolic process	5.92643816267019e-05
+GO:0044085~cellular component biogenesis	5.99220910374164e-05
+GO:0009265~2'-deoxyribonucleotide biosynthetic process	6.3835196604331e-05
+GO:0046385~deoxyribose phosphate biosynthetic process	6.3835196604331e-05
+GO:0010468~regulation of gene expression	6.67456218668305e-05
+GO:0046434~organophosphate catabolic process	6.94427284591604e-05
+GO:0016043~cellular component organization	7.02471254426081e-05
+GO:0051716~cellular response to stimulus	7.3014060882867e-05
+GO:1901361~organic cyclic compound catabolic process	8.4009978643583e-05
+GO:0070914~UV-damage excision repair	8.72414871051364e-05
+GO:0009144~purine nucleoside triphosphate metabolic process	9.52955412553642e-05
+GO:0042454~ribonucleoside catabolic process	0.00010424551100263
+GO:0050896~response to stimulus	0.000109123122205671
+GO:0009628~response to abiotic stimulus	0.0001107009913628
+GO:0022402~cell cycle process	0.000118593995793563
+GO:0016925~protein sumoylation	0.000120175584431321
+GO:0044087~regulation of cellular component biogenesis	0.000120419740017602
+GO:1901136~carbohydrate derivative catabolic process	0.000137401031822555
+GO:0046051~UTP metabolic process	0.000149392355835411
+GO:0006183~GTP biosynthetic process	0.000149392355835411
+GO:0071840~cellular component organization or biogenesis	0.000175665779429515
+GO:0009161~ribonucleoside monophosphate metabolic process	0.000184086843563055
+GO:0006369~termination of RNA polymerase II transcription	0.000186276339434301
+GO:0006796~phosphate-containing compound metabolic process	0.000223739613955627
+GO:0006406~mRNA export from nucleus	0.000225321962131345
+GO:0071427~mRNA-containing ribonucleoprotein complex export from nucleus	0.000225321962131345
+GO:0006793~phosphorus metabolic process	0.000233823428567473
+GO:0010467~gene expression	0.000243106279168231
+GO:0051130~positive regulation of cellular component organization	0.000281846212659567
+GO:0009987~cellular process	0.000285877794396289
+GO:0080090~regulation of primary metabolic process	0.000313472770422384
+GO:0031325~positive regulation of cellular metabolic process	0.000329123928117532
+GO:0040029~regulation of gene expression, epigenetic	0.000344971310883619
+GO:0043174~nucleoside salvage	0.000346680468300719
+GO:0042592~homeostatic process	0.000403978028163895
+GO:0031323~regulation of cellular metabolic process	0.00040441019572259
+GO:0009208~pyrimidine ribonucleoside triphosphate metabolic process	0.000413501977217885
+GO:0046112~nucleobase biosynthetic process	0.000413501977217885
+GO:0071426~ribonucleoprotein complex export from nucleus	0.000445239244305971
+GO:0009219~pyrimidine deoxyribonucleotide metabolic process	0.000488066678474201
+GO:0046130~purine ribonucleoside catabolic process	0.000488066678474201
+GO:0006152~purine nucleoside catabolic process	0.000488066678474201
+GO:1901564~organonitrogen compound metabolic process	0.000508345773577697
+GO:0006405~RNA export from nucleus	0.000555167517503787
+GO:0051254~positive regulation of RNA metabolic process	0.000559732302510578
+GO:0046037~GMP metabolic process	0.000570727978534278
+GO:0018205~peptidyl-lysine modification	0.000577014304569901
+GO:0071166~ribonucleoprotein complex localization	0.000604616568925339
+GO:0009167~purine ribonucleoside monophosphate metabolic process	0.0006168316446178
+GO:0006282~regulation of DNA repair	0.000625680198433796
+GO:0000724~double-strand break repair via homologous recombination	0.000625680198433796
+GO:0009126~purine nucleoside monophosphate metabolic process	0.000632471094839117
+GO:0000725~recombinational repair	0.000660907380999068
+GO:0006461~protein complex assembly	0.000753846261358254
+GO:0070271~protein complex biogenesis	0.000761222743501811
+GO:0006144~purine nucleobase metabolic process	0.000761703313315373
+GO:0039702~viral budding via host ESCRT complex	0.000761703313315373
+GO:0036297~interstrand cross-link repair	0.000770758905579451
+GO:0010556~regulation of macromolecule biosynthetic process	0.000835944805744557
+GO:1902680~positive regulation of RNA biosynthetic process	0.000842672167864369
+GO:0009719~response to endogenous stimulus	0.000866132918242903
+GO:0032786~positive regulation of DNA-templated transcription, elongation	0.000870673987962117
+GO:0046132~pyrimidine ribonucleoside biosynthetic process	0.000870673987962117
+GO:0051168~nuclear export	0.000884187872147685
+GO:0046939~nucleotide phosphorylation	0.00090438501438306
+GO:0007169~transmembrane receptor protein tyrosine kinase signaling pathway	0.000971767040290997
+GO:0009220~pyrimidine ribonucleotide biosynthetic process	0.000989054878778402
+GO:0009180~purine ribonucleoside diphosphate biosynthetic process	0.000998480697712477
+GO:0009136~purine nucleoside diphosphate biosynthetic process	0.000998480697712477
+GO:0043096~purine nucleobase salvage	0.000998480697712477
+GO:0009188~ribonucleoside diphosphate biosynthetic process	0.000998480697712477
+GO:0000278~mitotic cell cycle	0.001058928298927
+GO:1902590~multi-organism organelle organization	0.00111715023200086
+GO:1902592~multi-organism membrane budding	0.00111715023200086
+GO:0046755~viral budding	0.00111715023200086
+GO:0065007~biological regulation	0.00120364214691657
+GO:0031326~regulation of cellular biosynthetic process	0.00124961475142519
+GO:0051028~mRNA transport	0.00135759953842827
+GO:0009221~pyrimidine deoxyribonucleotide biosynthetic process	0.00139028838364327
+GO:0009204~deoxyribonucleoside triphosphate catabolic process	0.00139028838364327
+GO:0009211~pyrimidine deoxyribonucleoside triphosphate metabolic process	0.00139028838364327
+GO:0009120~deoxyribonucleoside metabolic process	0.00139028838364327
+GO:0006359~regulation of transcription from RNA polymerase III promoter	0.00140365480308059
+GO:0051054~positive regulation of DNA metabolic process	0.00147150473598393
+GO:0006979~response to oxidative stress	0.00164168177615855
+GO:0071363~cellular response to growth factor stimulus	0.00166867324398826
+GO:0009889~regulation of biosynthetic process	0.00169039851405181
+GO:0009205~purine ribonucleoside triphosphate metabolic process	0.00172566096406238
+GO:0009206~purine ribonucleoside triphosphate biosynthetic process	0.00172944006080448
+GO:0009145~purine nucleoside triphosphate biosynthetic process	0.00183497067942851
+GO:0009186~deoxyribonucleoside diphosphate metabolic process	0.00184366640452953
+GO:0032261~purine nucleotide salvage	0.00184366640452953
+GO:0044770~cell cycle phase transition	0.00197930473872227
+GO:0009199~ribonucleoside triphosphate metabolic process	0.00198284434089722
+GO:2001020~regulation of response to DNA damage stimulus	0.0020272445601425
+GO:0036258~multivesicular body assembly	0.0021056078876068
+GO:0042493~response to drug	0.00223601370478268
+GO:0010033~response to organic substance	0.00227537352336611
+GO:0036257~multivesicular body organization	0.00230945933143759
+GO:0070848~response to growth factor	0.0023399229874943
+GO:0009215~purine deoxyribonucleoside triphosphate metabolic process	0.00235758332631968
+GO:0051252~regulation of RNA metabolic process	0.00240085053371811
+GO:0009201~ribonucleoside triphosphate biosynthetic process	0.00243020333772533
+GO:0010629~negative regulation of gene expression	0.00245878475302124
+GO:0010165~response to X-ray	0.00252513642934885
+GO:0071822~protein complex subunit organization	0.00257174357227913
+GO:0000082~G1/S transition of mitotic cell cycle	0.00264003825082235
+GO:0044803~multi-organism membrane organization	0.00275286503209635
+GO:0042221~response to chemical	0.00289675928412623
+GO:0009154~purine ribonucleotide catabolic process	0.00299286302614612
+GO:0080135~regulation of cellular response to stress	0.00323961792232805
+GO:0009261~ribonucleotide catabolic process	0.00324534047664843
+GO:0044711~single-organism biosynthetic process	0.00334929632211386
+GO:0044248~cellular catabolic process	0.00339532258168148
+GO:0050658~RNA transport	0.00346725692482267
+GO:0050657~nucleic acid transport	0.00346725692482267
+GO:0006273~lagging strand elongation	0.00356297121908337
+GO:0009151~purine deoxyribonucleotide metabolic process	0.00356297121908337
+GO:1900034~regulation of cellular response to heat	0.00363885503231973
+GO:0051236~establishment of RNA localization	0.00376661271920124
+GO:2001141~regulation of RNA biosynthetic process	0.00399194405216679
+GO:0019068~virion assembly	0.00407963581390064
+GO:0006378~mRNA polyadenylation	0.00407963581390064
+GO:0044843~cell cycle G1/S phase transition	0.00422742331033308
+GO:0009143~nucleoside triphosphate catabolic process	0.00425244199743495
+GO:0009113~purine nucleobase biosynthetic process	0.00425244199743495
+GO:0006228~UTP biosynthetic process	0.00425244199743495
+GO:0043631~RNA polyadenylation	0.00438398015897526
+GO:0044281~small molecule metabolic process	0.0049303552309461
+GO:0006165~nucleoside diphosphate phosphorylation	0.00520200434725211
+GO:0007167~enzyme linked receptor protein signaling pathway	0.00555312651232789
+GO:0009130~pyrimidine nucleoside monophosphate biosynthetic process	0.00580002873297117
+GO:0043173~nucleotide salvage	0.00580002873297117
+GO:0032784~regulation of DNA-templated transcription, elongation	0.00611017870423438
+GO:0090329~regulation of DNA-dependent DNA replication	0.00611017870423438
+GO:0009129~pyrimidine nucleoside monophosphate metabolic process	0.00665621753943634
+GO:0046033~AMP metabolic process	0.00665621753943634
+GO:0051726~regulation of cell cycle	0.00686922477684544
+GO:1903047~mitotic cell cycle process	0.00690450610920021
+GO:0010212~response to ionizing radiation	0.00694708436387377
+GO:2000278~regulation of DNA biosynthetic process	0.00743619586788698
+GO:1902188~positive regulation of viral release from host cell	0.00756607170236898
+GO:0006241~CTP biosynthetic process	0.00756607170236898
+GO:0046036~CTP metabolic process	0.00756607170236898
+GO:0015931~nucleobase-containing compound transport	0.00826920446394322
+GO:0006403~RNA localization	0.00826920446394322
+GO:0009209~pyrimidine ribonucleoside triphosphate biosynthetic process	0.00852865720012585
+GO:0010332~response to gamma radiation	0.00865052100123061
+GO:0009264~deoxyribonucleotide catabolic process	0.00954305160279874
+GO:0006513~protein monoubiquitination	0.00961521308390243
+GO:1901565~organonitrogen compound catabolic process	0.0105750376964809
+GO:0006266~DNA ligation	0.0106083439471604
+GO:0046386~deoxyribose phosphate catabolic process	0.0106083439471604
+GO:0006206~pyrimidine nucleobase metabolic process	0.0106083439471604
+GO:0051606~detection of stimulus	0.0114966337637078
+GO:0006900~membrane budding	0.0116563512752909
+GO:2000573~positive regulation of DNA biosynthetic process	0.0117261279371484
+GO:0043966~histone H3 acetylation	0.0122921380273625
+GO:2000112~regulation of cellular macromolecule biosynthetic process	0.0127944588550558
+GO:0009892~negative regulation of metabolic process	0.0139317597958934
+GO:0050789~regulation of biological process	0.01393255236026
+GO:0010605~negative regulation of macromolecule metabolic process	0.0146198002857222
+GO:0001819~positive regulation of cytokine production	0.0150815547253129
+GO:0044265~cellular macromolecule catabolic process	0.015204966219535
+GO:0006913~nucleocytoplasmic transport	0.0153374080579096
+GO:0006275~regulation of DNA replication	0.0162337881635522
+GO:2000395~regulation of ubiquitin-dependent endocytosis	0.016487470360056
+GO:2000397~positive regulation of ubiquitin-dependent endocytosis	0.016487470360056
+GO:0046041~ITP metabolic process	0.016487470360056
+GO:0046122~purine deoxyribonucleoside metabolic process	0.016487470360056
+GO:0002200~somatic diversification of immune receptors	0.0166898472784504
+GO:0051169~nuclear transport	0.0169501694435448
+GO:0010256~endomembrane system organization	0.0178898159079636
+GO:0034243~regulation of transcription elongation from RNA polymerase II promoter	0.0180193544488315
+GO:0007032~endosome organization	0.018087706700182
+GO:0071495~cellular response to endogenous stimulus	0.0185327467559162
+GO:0006379~mRNA cleavage	0.0194163627396963
+GO:0051123~RNA polymerase II transcriptional preinitiation complex assembly	0.0194163627396963
+GO:0000083~regulation of transcription involved in G1/S transition of mitotic cell cycle	0.0208573793747608
+GO:0007346~regulation of mitotic cell cycle	0.0210293793190815
+GO:0035690~cellular response to drug	0.0210734448921933
+GO:1901575~organic substance catabolic process	0.0215038580501839
+GO:0006511~ubiquitin-dependent protein catabolic process	0.0217490794668433
+GO:0019941~modification-dependent protein catabolic process	0.0236467206751416
+GO:0070647~protein modification by small protein conjugation or removal	0.0238332750275401
+GO:0070897~DNA-templated transcriptional preinitiation complex assembly	0.0238681950801523
+GO:0030423~targeting of mRNA for destruction involved in RNA interference	0.024629712267455
+GO:0006272~leading strand elongation	0.024629712267455
+GO:0006168~adenine salvage	0.024629712267455
+GO:1903774~positive regulation of viral budding via host ESCRT complex	0.024629712267455
+GO:0043632~modification-dependent macromolecule catabolic process	0.0256619025630915
+GO:0070887~cellular response to chemical stimulus	0.0262275587573299
+GO:0048519~negative regulation of biological process	0.0275941845698974
+GO:0051262~protein tetramerization	0.027906934895457
+GO:0006409~tRNA export from nucleus	0.028694482413304
+GO:0071431~tRNA-containing ribonucleoprotein complex export from nucleus	0.028694482413304
+GO:1902186~regulation of viral release from host cell	0.028694482413304
+GO:0045005~DNA-dependent DNA replication maintenance of fidelity	0.028694482413304
+GO:0050794~regulation of cellular process	0.0287368047580323
+GO:0006446~regulation of translational initiation	0.031553404915273
+GO:0022618~ribonucleoprotein complex assembly	0.0316349485726472
+GO:0019076~viral release from host cell	0.0321096999592413
+GO:0072529~pyrimidine-containing compound catabolic process	0.0321096999592413
+GO:0051031~tRNA transport	0.0321096999592413
+GO:0032446~protein modification by small protein conjugation	0.0324632574520163
+GO:0006287~base-excision repair, gap-filling	0.032705027652251
+GO:0046083~adenine metabolic process	0.032705027652251
+GO:0046102~inosine metabolic process	0.032705027652251
+GO:0070086~ubiquitin-dependent endocytosis	0.032705027652251
+GO:0009212~pyrimidine deoxyribonucleoside triphosphate biosynthetic process	0.032705027652251
+GO:0009189~deoxyribonucleoside diphosphate biosynthetic process	0.032705027652251
+GO:0046075~dTTP metabolic process	0.032705027652251
+GO:0009177~pyrimidine deoxyribonucleoside monophosphate biosynthetic process	0.032705027652251
+GO:0006235~dTTP biosynthetic process	0.032705027652251
+GO:0043103~hypoxanthine salvage	0.032705027652251
+GO:0046078~dUMP metabolic process	0.032705027652251
+GO:0035087~siRNA loading onto RISC involved in RNA interference	0.032705027652251
+GO:0046084~adenine biosynthetic process	0.032705027652251
+GO:0006270~DNA replication initiation	0.0338743567420057
+GO:0016050~vesicle organization	0.0361766184781893
+GO:2001242~regulation of intrinsic apoptotic signaling pathway	0.0376173474122409
+GO:0009135~purine nucleoside diphosphate metabolic process	0.0376434643182957
+GO:0009179~purine ribonucleoside diphosphate metabolic process	0.0376434643182957
+GO:0071826~ribonucleoprotein complex subunit organization	0.0380488113511285
+GO:0048872~homeostasis of number of cells	0.038668579085493
+GO:0046907~intracellular transport	0.0392478991442025
+GO:0009185~ribonucleoside diphosphate metabolic process	0.039797564114444
+GO:0009176~pyrimidine deoxyribonucleoside monophosphate metabolic process	0.0407139626729216
+GO:0033567~DNA replication, Okazaki fragment processing	0.0407139626729216
+GO:0046060~dATP metabolic process	0.0407139626729216
+GO:0006172~ADP biosynthetic process	0.0407139626729216
+GO:0046101~hypoxanthine biosynthetic process	0.0407139626729216
+GO:1903772~regulation of viral budding via host ESCRT complex	0.0407139626729216
+GO:0006166~purine ribonucleoside salvage	0.0407139626729216
+GO:0006177~GMP biosynthetic process	0.0407139626729216
+GO:0009056~catabolic process	0.0413037394812175
+GO:0045786~negative regulation of cell cycle	0.0417943983973924
+GO:0007093~mitotic cell cycle checkpoint	0.0431997663465427
+GO:1902531~regulation of intracellular signal transduction	0.0434484415303035
+GO:1901990~regulation of mitotic cell cycle phase transition	0.0454185649170438
+GO:0051603~proteolysis involved in cellular protein catabolic process	0.0464219940554194
+GO:0070482~response to oxygen levels	0.0465943026713099
+GO:0009202~deoxyribonucleoside triphosphate biosynthetic process	0.0486570590679131
+GO:0009146~purine nucleoside triphosphate catabolic process	0.0486570590679131
+GO:0006269~DNA replication, synthesis of RNA primer	0.0486570590679131
+GO:0042796~snRNA transcription from RNA polymerase III promoter	0.0486570590679131
+GO:0046100~hypoxanthine metabolic process	0.0486570590679131
+GO:1903551~regulation of extracellular exosome assembly	0.0486570590679131

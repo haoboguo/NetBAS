@@ -1,0 +1,299 @@
+GO:0006629~lipid metabolic process	7.64977456959035e-42
+GO:0008202~steroid metabolic process	5.83547793284887e-41
+GO:0032787~monocarboxylic acid metabolic process	5.11795194863228e-33
+GO:0044281~small molecule metabolic process	5.42439299325369e-33
+GO:0019752~carboxylic acid metabolic process	7.15510635971117e-31
+GO:0043436~oxoacid metabolic process	9.2759619033865e-31
+GO:0055114~oxidation-reduction process	7.36448583279014e-30
+GO:0044710~single-organism metabolic process	2.8998703692076e-29
+GO:0006082~organic acid metabolic process	3.92438413083741e-29
+GO:0006694~steroid biosynthetic process	5.0273497836413e-26
+GO:0008206~bile acid metabolic process	5.23453794201091e-25
+GO:0006699~bile acid biosynthetic process	1.40361533844607e-24
+GO:1901615~organic hydroxy compound metabolic process	8.01596385228542e-24
+GO:0008610~lipid biosynthetic process	6.74641654583007e-23
+GO:0072330~monocarboxylic acid biosynthetic process	4.42564495233119e-22
+GO:0006869~lipid transport	4.48384822423628e-22
+GO:0010876~lipid localization	4.63381129322305e-21
+GO:0016125~sterol metabolic process	5.08704845516094e-21
+GO:0016053~organic acid biosynthetic process	1.70314839928115e-19
+GO:0006066~alcohol metabolic process	2.34972977818461e-19
+GO:0008203~cholesterol metabolic process	6.37666410715528e-19
+GO:0046394~carboxylic acid biosynthetic process	8.26338945772543e-19
+GO:0007031~peroxisome organization	1.14771515977628e-18
+GO:1902652~secondary alcohol metabolic process	1.5635185864204e-18
+GO:0044283~small molecule biosynthetic process	2.66906256695129e-18
+GO:0072329~monocarboxylic acid catabolic process	3.75508353655105e-18
+GO:0044255~cellular lipid metabolic process	9.52165394874683e-18
+GO:0006631~fatty acid metabolic process	7.63262633889403e-17
+GO:0044711~single-organism biosynthetic process	8.8529709723021e-17
+GO:0016042~lipid catabolic process	2.28614579034013e-15
+GO:0044282~small molecule catabolic process	3.1582970952696e-15
+GO:0046395~carboxylic acid catabolic process	5.41333275484574e-15
+GO:0009062~fatty acid catabolic process	9.39102129682085e-15
+GO:0019395~fatty acid oxidation	3.05264558952578e-14
+GO:0042445~hormone metabolic process	3.1395280181121e-14
+GO:0034440~lipid oxidation	4.03268937157532e-14
+GO:0016054~organic acid catabolic process	5.04953970115014e-14
+GO:0043574~peroxisomal transport	8.64433859686409e-14
+GO:0044242~cellular lipid catabolic process	5.91967975247256e-13
+GO:0030258~lipid modification	7.58657488646639e-13
+GO:0034754~cellular hormone metabolic process	3.57171286809301e-12
+GO:0072662~protein localization to peroxisome	6.45174271938072e-12
+GO:0072663~establishment of protein localization to peroxisome	6.45174271938072e-12
+GO:0006625~protein targeting to peroxisome	6.45174271938072e-12
+GO:0044712~single-organism catabolic process	1.0452792815815e-11
+GO:0015850~organic hydroxy compound transport	2.39889976996787e-11
+GO:0016558~protein import into peroxisome matrix	9.61443740730632e-11
+GO:0010817~regulation of hormone levels	1.45258302742127e-10
+GO:0001676~long-chain fatty acid metabolic process	2.69156623130511e-10
+GO:0071702~organic substance transport	3.04064781050524e-10
+GO:0015718~monocarboxylic acid transport	1.13075640535062e-09
+GO:0055085~transmembrane transport	2.14712728966473e-09
+GO:0046942~carboxylic acid transport	2.23943537502135e-09
+GO:0009056~catabolic process	3.50354091395685e-09
+GO:0033344~cholesterol efflux	4.54860979738373e-09
+GO:0042493~response to drug	7.03221602800083e-09
+GO:0044765~single-organism transport	8.44645963345058e-09
+GO:0044699~single-organism process	1.00714745226911e-08
+GO:0044743~intracellular protein transmembrane import	1.10405491118877e-08
+GO:0006635~fatty acid beta-oxidation	1.26371707851175e-08
+GO:1902578~single-organism localization	1.78583451301923e-08
+GO:0030301~cholesterol transport	1.98935443712425e-08
+GO:0015711~organic anion transport	2.37075968804647e-08
+GO:0015918~sterol transport	2.47072671270925e-08
+GO:0065002~intracellular protein transmembrane transport	4.23721721526323e-08
+GO:0014070~response to organic cyclic compound	4.80696210869057e-08
+GO:0044248~cellular catabolic process	4.94312271021181e-08
+GO:0001561~fatty acid alpha-oxidation	5.37422901294449e-08
+GO:0071806~protein transmembrane transport	1.15022557056393e-07
+GO:0042446~hormone biosynthetic process	1.15022557056393e-07
+GO:0006720~isoprenoid metabolic process	1.25084899114547e-07
+GO:0048545~response to steroid hormone	1.35688548262675e-07
+GO:0033036~macromolecule localization	2.42300634064773e-07
+GO:0042632~cholesterol homeostasis	2.46428093330525e-07
+GO:0055092~sterol homeostasis	2.46428093330525e-07
+GO:0006820~anion transport	2.73536054772279e-07
+GO:0044237~cellular metabolic process	4.12896398264229e-07
+GO:0033993~response to lipid	4.30744524624675e-07
+GO:1901575~organic substance catabolic process	4.4751947823187e-07
+GO:0015908~fatty acid transport	1.05918099688524e-06
+GO:0036109~alpha-linolenic acid metabolic process	1.06596745347324e-06
+GO:0033540~fatty acid beta-oxidation using acyl-CoA oxidase	1.06596745347324e-06
+GO:0055088~lipid homeostasis	1.24658088176398e-06
+GO:0044763~single-organism cellular process	1.34305795276509e-06
+GO:0000038~very long-chain fatty acid metabolic process	1.67901144212267e-06
+GO:0008152~metabolic process	2.28256153214388e-06
+GO:0016101~diterpenoid metabolic process	2.61829094630698e-06
+GO:0071704~organic substance metabolic process	2.64285942040433e-06
+GO:0006810~transport	3.59812522391621e-06
+GO:0042760~very long-chain fatty acid catabolic process	4.96150791410528e-06
+GO:0006721~terpenoid metabolic process	5.08162675291333e-06
+GO:0006732~coenzyme metabolic process	5.31438700268481e-06
+GO:0071407~cellular response to organic cyclic compound	5.43110615960457e-06
+GO:0009725~response to hormone	6.97965537598795e-06
+GO:0051234~establishment of localization	8.40526863031919e-06
+GO:0015919~peroxisomal membrane transport	8.64233213208748e-06
+GO:0019218~regulation of steroid metabolic process	8.849902206086e-06
+GO:0009755~hormone-mediated signaling pathway	1.18150960869357e-05
+GO:0007584~response to nutrient	1.35894820686241e-05
+GO:0065008~regulation of biological quality	1.44137499667915e-05
+GO:0043401~steroid hormone mediated signaling pathway	1.97056351212632e-05
+GO:0001523~retinoid metabolic process	2.20013486984553e-05
+GO:0071383~cellular response to steroid hormone stimulus	2.35162402906322e-05
+GO:0008209~androgen metabolic process	2.44271118787609e-05
+GO:0006790~sulfur compound metabolic process	2.51874185819821e-05
+GO:0015721~bile acid and bile salt transport	2.83589310187717e-05
+GO:0046487~glyoxylate metabolic process	2.83589310187717e-05
+GO:0051186~cofactor metabolic process	3.44887158364559e-05
+GO:0016127~sterol catabolic process	3.9991628499032e-05
+GO:0006707~cholesterol catabolic process	3.9991628499032e-05
+GO:0015914~phospholipid transport	4.63606625396687e-05
+GO:0051179~localization	7.61832277009159e-05
+GO:0006575~cellular modified amino acid metabolic process	7.63488789747152e-05
+GO:0044238~primary metabolic process	8.43759445640467e-05
+GO:0019216~regulation of lipid metabolic process	9.11361930847355e-05
+GO:0009719~response to endogenous stimulus	9.40921032633252e-05
+GO:0071396~cellular response to lipid	9.59740624540495e-05
+GO:0032371~regulation of sterol transport	9.73507298813314e-05
+GO:0032374~regulation of cholesterol transport	9.73507298813314e-05
+GO:0015849~organic acid transport	0.000135097399101434
+GO:0043651~linoleic acid metabolic process	0.000160285274722211
+GO:0009058~biosynthetic process	0.000167949797619939
+GO:0015748~organophosphate ester transport	0.000187114250166649
+GO:0034308~primary alcohol metabolic process	0.000189887904089645
+GO:0016557~peroxisome membrane biogenesis	0.000239350274857479
+GO:0032368~regulation of lipid transport	0.000302888001571509
+GO:0006706~steroid catabolic process	0.000307737401397473
+GO:1901360~organic cyclic compound metabolic process	0.00031255977420273
+GO:0006633~fatty acid biosynthetic process	0.000330135503130202
+GO:0016126~sterol biosynthetic process	0.000385714522819581
+GO:0015909~long-chain fatty acid transport	0.000413941556436537
+GO:0097006~regulation of plasma lipoprotein particle levels	0.00044361334103324
+GO:1901616~organic hydroxy compound catabolic process	0.00044361334103324
+GO:1901576~organic substance biosynthetic process	0.00045296286714055
+GO:0044249~cellular biosynthetic process	0.000544526478454914
+GO:0045046~protein import into peroxisome membrane	0.000593402606205961
+GO:1901617~organic hydroxy compound biosynthetic process	0.000634790556816095
+GO:0006367~transcription initiation from RNA polymerase II promoter	0.000864938918128282
+GO:0042572~retinol metabolic process	0.00090107437716259
+GO:0042221~response to chemical	0.00103402477390782
+GO:0042447~hormone catabolic process	0.0010984877688039
+GO:0035754~B cell chemotaxis	0.0010984877688039
+GO:0031667~response to nutrient levels	0.00111003983077405
+GO:0008207~C21-steroid hormone metabolic process	0.0011942289245473
+GO:0017038~protein import	0.00121037284364042
+GO:0071827~plasma lipoprotein particle organization	0.00130376343030681
+GO:0051180~vitamin transport	0.00130376343030681
+GO:0006739~NADP metabolic process	0.00130376343030681
+GO:0046890~regulation of lipid biosynthetic process	0.00136004879673607
+GO:0015851~nucleobase transport	0.00140647011812007
+GO:0071825~protein-lipid complex subunit organization	0.00154132800820239
+GO:0006766~vitamin metabolic process	0.00155856594551871
+GO:1902582~single-organism intracellular transport	0.00156184633685496
+GO:0019637~organophosphate metabolic process	0.0017044646466489
+GO:0016559~peroxisome fission	0.00175078256668057
+GO:0009991~response to extracellular stimulus	0.00184718833020815
+GO:0032870~cellular response to hormone stimulus	0.00189186682757929
+GO:0046164~alcohol catabolic process	0.00224873352802591
+GO:0048878~chemical homeostasis	0.00263424566230359
+GO:0009437~carnitine metabolic process	0.00299705451917678
+GO:0006637~acyl-CoA metabolic process	0.00330316188076825
+GO:0035383~thioester metabolic process	0.00330316188076825
+GO:0071495~cellular response to endogenous stimulus	0.00334608084028522
+GO:0010565~regulation of cellular ketone metabolic process	0.00340575864595625
+GO:0042180~cellular ketone metabolic process	0.00346763742386246
+GO:0033700~phospholipid efflux	0.00348206311764185
+GO:0098856~intestinal lipid absorption	0.00348206311764185
+GO:0032366~intracellular sterol transport	0.00348206311764185
+GO:0006695~cholesterol biosynthetic process	0.00353287016580983
+GO:0006805~xenobiotic metabolic process	0.0035572126032575
+GO:0006352~DNA-templated transcription, initiation	0.00361845936042988
+GO:1902653~secondary alcohol biosynthetic process	0.00374600514998313
+GO:1902580~single-organism cellular localization	0.00418725621328035
+GO:0050810~regulation of steroid biosynthetic process	0.00419542590966757
+GO:0071466~cellular response to xenobiotic stimulus	0.00424976730847866
+GO:0046165~alcohol biosynthetic process	0.00424976730847866
+GO:0006641~triglyceride metabolic process	0.00424976730847866
+GO:0006811~ion transport	0.00478396366676458
+GO:0034284~response to monosaccharide	0.00512387014679308
+GO:0009410~response to xenobiotic stimulus	0.00553828679953132
+GO:0043691~reverse cholesterol transport	0.0057580618420258
+GO:0006577~amino-acid betaine metabolic process	0.0057580618420258
+GO:0033559~unsaturated fatty acid metabolic process	0.0062707539265329
+GO:0042403~thyroid hormone metabolic process	0.00640885767110186
+GO:0034377~plasma lipoprotein particle assembly	0.00640885767110186
+GO:0030522~intracellular receptor signaling pathway	0.00651319782548099
+GO:0006081~cellular aldehyde metabolic process	0.00661498948025058
+GO:0006639~acylglycerol metabolic process	0.00686051625434009
+GO:0006638~neutral lipid metabolic process	0.00706497917787665
+GO:0051289~protein homotetramerization	0.0072441917966638
+GO:0042592~homeostatic process	0.00758766982713851
+GO:0065005~protein-lipid complex assembly	0.00780558963309838
+GO:0046496~nicotinamide nucleotide metabolic process	0.00792307048632227
+GO:0019362~pyridine nucleotide metabolic process	0.00792307048632227
+GO:0090181~regulation of cholesterol metabolic process	0.00855068059516929
+GO:0008211~glucocorticoid metabolic process	0.00855068059516929
+GO:0006700~C21-steroid hormone biosynthetic process	0.00855068059516929
+GO:0008210~estrogen metabolic process	0.00855068059516929
+GO:0030539~male genitalia development	0.00855068059516929
+GO:0006749~glutathione metabolic process	0.00860597209419475
+GO:0045834~positive regulation of lipid metabolic process	0.00860976860598673
+GO:0009743~response to carbohydrate	0.00873802038502153
+GO:0001101~response to acid chemical	0.00875674253079986
+GO:0010033~response to organic substance	0.00928561282650851
+GO:0009636~response to toxic substance	0.00947678845052595
+GO:0072524~pyridine-containing compound metabolic process	0.00983883152713361
+GO:0072594~establishment of protein localization to organelle	0.010005946398684
+GO:0045940~positive regulation of steroid metabolic process	0.0101322295772339
+GO:0046486~glycerolipid metabolic process	0.0107080174983412
+GO:0032365~intracellular lipid transport	0.0109678663041903
+GO:0015893~drug transport	0.0109678663041903
+GO:1901564~organonitrogen compound metabolic process	0.0118425352412902
+GO:0006733~oxidoreduction coenzyme metabolic process	0.0120330573908936
+GO:0009987~cellular process	0.0126224919773479
+GO:0006710~androgen catabolic process	0.0127039375357672
+GO:0015882~L-ascorbic acid transport	0.0127039375357672
+GO:0060151~peroxisome localization	0.0127039375357672
+GO:0070904~transepithelial L-ascorbic acid transport	0.0127039375357672
+GO:0015910~peroxisomal long-chain fatty acid import	0.0127039375357672
+GO:0097089~methyl-branched fatty acid metabolic process	0.0127039375357672
+GO:0006097~glyoxylate cycle	0.0127039375357672
+GO:0060152~microtubule-based peroxisome localization	0.0127039375357672
+GO:0008299~isoprenoid biosynthetic process	0.0127268402773796
+GO:0006979~response to oxidative stress	0.0130389729629889
+GO:0006605~protein targeting	0.0139471013687171
+GO:0070887~cellular response to chemical stimulus	0.0141399841525446
+GO:0045923~positive regulation of fatty acid metabolic process	0.0155785960683854
+GO:0044091~membrane biogenesis	0.016584498084042
+GO:0098869~cellular oxidant detoxification	0.017032704149732
+GO:0019725~cellular homeostasis	0.0170685487578635
+GO:0048608~reproductive structure development	0.0174985538183718
+GO:0043648~dicarboxylic acid metabolic process	0.017568231517004
+GO:0055086~nucleobase-containing small molecule metabolic process	0.0177111135716882
+GO:1990748~cellular detoxification	0.0181130963358484
+GO:0061458~reproductive system development	0.0185485812981542
+GO:0050892~intestinal absorption	0.0186769792227201
+GO:0030573~bile acid catabolic process	0.018995818339111
+GO:0032380~regulation of intracellular sterol transport	0.018995818339111
+GO:0042758~long-chain fatty acid catabolic process	0.018995818339111
+GO:0032383~regulation of intracellular cholesterol transport	0.018995818339111
+GO:0044375~regulation of peroxisome size	0.018995818339111
+GO:0032377~regulation of intracellular lipid transport	0.018995818339111
+GO:0010742~macrophage derived foam cell differentiation	0.0197628052105672
+GO:0090077~foam cell differentiation	0.0197628052105672
+GO:0098754~detoxification	0.0203861273051421
+GO:0007586~digestion	0.0204132324764997
+GO:0009749~response to glucose	0.0208237679999745
+GO:0033875~ribonucleoside bisphosphate metabolic process	0.0220117723371594
+GO:0034032~purine nucleoside bisphosphate metabolic process	0.0220117723371594
+GO:0033865~nucleoside bisphosphate metabolic process	0.0220117723371594
+GO:0009746~response to hexose	0.0229526234837756
+GO:1901361~organic cyclic compound catabolic process	0.0236993590020488
+GO:0071333~cellular response to glucose stimulus	0.024725010592768
+GO:0046618~drug export	0.0252479743600829
+GO:0008611~ether lipid biosynthetic process	0.0252479743600829
+GO:0046504~glycerol ether biosynthetic process	0.0252479743600829
+GO:1901503~ether biosynthetic process	0.0252479743600829
+GO:0009117~nucleotide metabolic process	0.0265434605432486
+GO:0071326~cellular response to monosaccharide stimulus	0.0267252450759586
+GO:0071331~cellular response to hexose stimulus	0.0267252450759586
+GO:0042743~hydrogen peroxide metabolic process	0.0268087997585488
+GO:0006753~nucleoside phosphate metabolic process	0.0283660497380848
+GO:0007548~sex differentiation	0.0288650670243572
+GO:0046686~response to cadmium ion	0.0306571133670837
+GO:0048806~genitalia development	0.0306571133670837
+GO:0045329~carnitine biosynthetic process	0.0314606540563449
+GO:0032489~regulation of Cdc42 protein signal transduction	0.0314606540563449
+GO:0070995~NADPH oxidation	0.0314606540563449
+GO:0006102~isocitrate metabolic process	0.0314606540563449
+GO:0007565~female pregnancy	0.0316880488454166
+GO:0071322~cellular response to carbohydrate stimulus	0.0332303012843556
+GO:0070542~response to fatty acid	0.033336787154089
+GO:0006091~generation of precursor metabolites and energy	0.0342958593340299
+GO:0030850~prostate gland development	0.0347098536423371
+GO:1901605~alpha-amino acid metabolic process	0.0361187035047297
+GO:0001678~cellular glucose homeostasis	0.0363624986752801
+GO:0097384~cellular lipid biosynthetic process	0.037634104345602
+GO:0046485~ether lipid metabolic process	0.037634104345602
+GO:0046887~positive regulation of hormone secretion	0.0388080146960237
+GO:0035337~fatty-acyl-CoA metabolic process	0.0389580207472438
+GO:0032370~positive regulation of lipid transport	0.0389580207472438
+GO:0046503~glycerolipid catabolic process	0.0404159870500963
+GO:0042593~glucose homeostasis	0.0415113606615423
+GO:0044272~sulfur compound biosynthetic process	0.0415113606615423
+GO:0033500~carbohydrate homeostasis	0.0415113606615423
+GO:0044539~long-chain fatty acid import	0.0437685706179427
+GO:1904729~regulation of intestinal lipid absorption	0.0437685706179427
+GO:0006578~amino-acid betaine biosynthetic process	0.0437685706179427
+GO:0030300~regulation of intestinal cholesterol absorption	0.0437685706179427
+GO:0042908~xenobiotic transport	0.0437685706179427
+GO:0033240~positive regulation of cellular amine metabolic process	0.0437685706179427
+GO:1901700~response to oxygen-containing compound	0.0450095028274266
+GO:0002064~epithelial cell development	0.0460052247015224
+GO:0050994~regulation of lipid catabolic process	0.0464489662878084
+GO:0010038~response to metal ion	0.0471460239447344
+GO:0044706~multi-multicellular organism process	0.0486907459589185
+GO:0048247~lymphocyte chemotaxis	0.0495818026062042
+GO:0035461~vitamin transmembrane transport	0.0498642967398237
+GO:0022615~protein to membrane docking	0.0498642967398237

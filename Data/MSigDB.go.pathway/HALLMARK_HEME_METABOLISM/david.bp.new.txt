@@ -1,0 +1,181 @@
+GO:0006778~porphyrin-containing compound metabolic process	1.2514350349703e-20
+GO:0006779~porphyrin-containing compound biosynthetic process	9.43916008450103e-18
+GO:0033013~tetrapyrrole metabolic process	2.63777687701342e-17
+GO:0033014~tetrapyrrole biosynthetic process	4.92564986469287e-17
+GO:0042168~heme metabolic process	1.31350826948367e-16
+GO:0042440~pigment metabolic process	4.29165551940636e-16
+GO:0006783~heme biosynthetic process	6.80869154413444e-15
+GO:0046148~pigment biosynthetic process	8.3219328074837e-15
+GO:0046501~protoporphyrinogen IX metabolic process	1.90851731232792e-14
+GO:0051186~cofactor metabolic process	2.58794005422571e-13
+GO:0030218~erythrocyte differentiation	1.20213338467724e-12
+GO:0034101~erythrocyte homeostasis	4.2500768030554e-12
+GO:0002262~myeloid cell homeostasis	4.24628282545821e-11
+GO:0006782~protoporphyrinogen IX biosynthetic process	9.62429348724972e-11
+GO:0051188~cofactor biosynthetic process	8.17211840180388e-10
+GO:0042592~homeostatic process	9.94035910001335e-09
+GO:0048872~homeostasis of number of cells	1.30292773393317e-08
+GO:0030099~myeloid cell differentiation	2.00693548999796e-08
+GO:0055072~iron ion homeostasis	5.71709825345618e-08
+GO:0048821~erythrocyte development	2.27695875083169e-07
+GO:0055076~transition metal ion homeostasis	2.42984787812865e-07
+GO:0020027~hemoglobin metabolic process	3.20395240573833e-07
+GO:1901564~organonitrogen compound metabolic process	1.07307626292306e-06
+GO:0015669~gas transport	1.19935148796151e-06
+GO:0048534~hematopoietic or lymphoid organ development	1.85253463803029e-06
+GO:0030097~hemopoiesis	2.67540073289615e-06
+GO:0002520~immune system development	4.67369442559025e-06
+GO:0071705~nitrogen compound transport	6.73067828861088e-06
+GO:0065008~regulation of biological quality	8.42917585011428e-06
+GO:0009636~response to toxic substance	8.94553676113456e-06
+GO:0097067~cellular response to thyroid hormone stimulus	1.05160945023368e-05
+GO:0044710~single-organism metabolic process	1.07202992496427e-05
+GO:0019725~cellular homeostasis	1.88061603190991e-05
+GO:0061515~myeloid cell development	2.00611363050711e-05
+GO:0050801~ion homeostasis	4.19115013896175e-05
+GO:0044237~cellular metabolic process	5.52522762240918e-05
+GO:0097066~response to thyroid hormone	5.93891387048298e-05
+GO:0048513~animal organ development	6.22321253735981e-05
+GO:0006082~organic acid metabolic process	7.02162641976787e-05
+GO:1990267~response to transition metal nanoparticle	7.28444613237859e-05
+GO:0048878~chemical homeostasis	8.9971433502584e-05
+GO:0010035~response to inorganic substance	0.000120282548081781
+GO:0046685~response to arsenic-containing substance	0.000165853390352305
+GO:0006979~response to oxidative stress	0.000255126254557115
+GO:0010288~response to lead ion	0.000372172420531633
+GO:0010038~response to metal ion	0.000394644887518223
+GO:0055080~cation homeostasis	0.000407373888769351
+GO:0008152~metabolic process	0.000446806017766024
+GO:0015671~oxygen transport	0.000461659620303387
+GO:0055082~cellular chemical homeostasis	0.000475710254598185
+GO:0098771~inorganic ion homeostasis	0.000529114902076801
+GO:0006811~ion transport	0.000529843415569899
+GO:0015695~organic cation transport	0.000563855503280901
+GO:0071704~organic substance metabolic process	0.000615828370734612
+GO:0044711~single-organism biosynthetic process	0.000692798785408766
+GO:0032844~regulation of homeostatic process	0.000908376604781589
+GO:0015696~ammonium transport	0.00111321246346931
+GO:0015701~bicarbonate transport	0.00111777042690205
+GO:0006820~anion transport	0.00126962165187732
+GO:0010243~response to organonitrogen compound	0.00151370095064553
+GO:0006879~cellular iron ion homeostasis	0.00155122869421474
+GO:0046916~cellular transition metal ion homeostasis	0.00157013421506844
+GO:0019740~nitrogen utilization	0.00157594198092295
+GO:0042744~hydrogen peroxide catabolic process	0.00169016433514866
+GO:0044281~small molecule metabolic process	0.0017478252479737
+GO:0055065~metal ion homeostasis	0.00215953057516972
+GO:1901566~organonitrogen compound biosynthetic process	0.00216813859118146
+GO:0002376~immune system process	0.00247074044303166
+GO:0015711~organic anion transport	0.00251594882071343
+GO:0001101~response to acid chemical	0.00259290457553946
+GO:0098754~detoxification	0.00262210196756127
+GO:0055085~transmembrane transport	0.00264677397547417
+GO:0043436~oxoacid metabolic process	0.0026607429984305
+GO:0051597~response to methylmercury	0.00290163086564075
+GO:0071702~organic substance transport	0.0030845976188849
+GO:0072488~ammonium transmembrane transport	0.00370516828555968
+GO:0010039~response to iron ion	0.00403594207840799
+GO:0006749~glutathione metabolic process	0.00497085358023681
+GO:0044248~cellular catabolic process	0.00503828146408219
+GO:0043249~erythrocyte maturation	0.00558365024662043
+GO:0044765~single-organism transport	0.00560216911347619
+GO:1901698~response to nitrogen compound	0.00575117391259885
+GO:0019752~carboxylic acid metabolic process	0.00578522163294261
+GO:0009064~glutamine family amino acid metabolic process	0.00612428651097269
+GO:0006730~one-carbon metabolic process	0.00617174618947455
+GO:0031329~regulation of cellular catabolic process	0.00626222376424232
+GO:0000041~transition metal ion transport	0.00659378665606485
+GO:0006810~transport	0.00670028190882101
+GO:0006807~nitrogen compound metabolic process	0.0068219571047217
+GO:0006575~cellular modified amino acid metabolic process	0.0068524799243159
+GO:0032846~positive regulation of homeostatic process	0.00687083413049564
+GO:0019755~one-carbon compound transport	0.00781106377067659
+GO:0009725~response to hormone	0.00796465013492517
+GO:0051234~establishment of localization	0.00811272289352211
+GO:0006638~neutral lipid metabolic process	0.00816435061102319
+GO:0042743~hydrogen peroxide metabolic process	0.00828500516852007
+GO:0006873~cellular ion homeostasis	0.00872354076916423
+GO:0044699~single-organism process	0.00874061271133919
+GO:0097286~iron ion import	0.00905087899581931
+GO:0046686~response to cadmium ion	0.0101163420264501
+GO:0009719~response to endogenous stimulus	0.0101415913656122
+GO:1902578~single-organism localization	0.0105551887708032
+GO:0034641~cellular nitrogen compound metabolic process	0.0114581836931066
+GO:0032354~response to follicle-stimulating hormone	0.0117735033407433
+GO:0098869~cellular oxidant detoxification	0.0119965576525452
+GO:0044763~single-organism cellular process	0.0124307624666925
+GO:0032870~cellular response to hormone stimulus	0.0125150228402877
+GO:0045862~positive regulation of proteolysis	0.0129019066167726
+GO:1990748~cellular detoxification	0.0129796312518632
+GO:0006750~glutathione biosynthetic process	0.0132527100096789
+GO:0006767~water-soluble vitamin metabolic process	0.013489864758267
+GO:0048731~system development	0.0146438645964542
+GO:0016567~protein ubiquitination	0.0148604577125075
+GO:0009056~catabolic process	0.0163499306575964
+GO:0019184~nonribosomal peptide biosynthetic process	0.0164381183618127
+GO:0030003~cellular cation homeostasis	0.0170469213251765
+GO:1901700~response to oxygen-containing compound	0.0178306856652838
+GO:2000021~regulation of ion homeostasis	0.0180795803292584
+GO:0051187~cofactor catabolic process	0.0181408856835028
+GO:0046697~decidualization	0.0181408856835028
+GO:1901652~response to peptide	0.0181545337553151
+GO:1901214~regulation of neuron death	0.0183063766936009
+GO:0010043~response to zinc ion	0.0187138836038331
+GO:0070541~response to platinum ion	0.0207352625355436
+GO:0097069~cellular response to thyroxine stimulus	0.0207352625355436
+GO:1904387~cellular response to L-phenylalanine derivative	0.0207352625355436
+GO:0030221~basophil differentiation	0.0207352625355436
+GO:0006641~triglyceride metabolic process	0.02270529963483
+GO:0032446~protein modification by small protein conjugation	0.0231029659289137
+GO:0060135~maternal process involved in female pregnancy	0.0236231421682773
+GO:0031331~positive regulation of cellular catabolic process	0.0240886941152477
+GO:0045648~positive regulation of erythrocyte differentiation	0.0256469010060786
+GO:0006826~iron ion transport	0.0257635055667257
+GO:0031667~response to nutrient levels	0.025954234430399
+GO:0070997~neuron death	0.0262468443339642
+GO:0014823~response to activity	0.0268714940899322
+GO:0032272~negative regulation of protein polymerization	0.0268714940899322
+GO:0007275~multicellular organism development	0.0270453767069795
+GO:0014070~response to organic cyclic compound	0.0274258483160115
+GO:0071417~cellular response to organonitrogen compound	0.0280455675633846
+GO:0072593~reactive oxygen species metabolic process	0.0289799298844678
+GO:0097068~response to thyroxine	0.0309420123299225
+GO:0046483~heterocycle metabolic process	0.0312550466580574
+GO:0034599~cellular response to oxidative stress	0.0324262655551989
+GO:0042221~response to chemical	0.0329317175905706
+GO:0007346~regulation of mitotic cell cycle	0.0332305025887113
+GO:0007584~response to nutrient	0.0334462050282125
+GO:1903050~regulation of proteolysis involved in cellular protein catabolic process	0.0336365508419318
+GO:0043647~inositol phosphate metabolic process	0.034046080791631
+GO:0006884~cell volume homeostasis	0.0341884411564425
+GO:1901575~organic substance catabolic process	0.0347386592261795
+GO:0009058~biosynthetic process	0.0349457949639711
+GO:0006639~acylglycerol metabolic process	0.0350077537057123
+GO:1903426~regulation of reactive oxygen species biosynthetic process	0.0353290486870625
+GO:0034284~response to monosaccharide	0.0356665638738981
+GO:0010033~response to organic substance	0.0357824232362048
+GO:0034698~response to gonadotropin	0.0364741644763443
+GO:1901360~organic cyclic compound metabolic process	0.0369055103522487
+GO:0006725~cellular aromatic compound metabolic process	0.0370981665089555
+GO:1901215~negative regulation of neuron death	0.0372450078821627
+GO:0001893~maternal placenta development	0.038817088831457
+GO:0006536~glutamate metabolic process	0.038817088831457
+GO:0009991~response to extracellular stimulus	0.0388389470870845
+GO:0071495~cellular response to endogenous stimulus	0.040226912864175
+GO:0009894~regulation of catabolic process	0.0408429206707204
+GO:1904386~response to L-phenylalanine derivative	0.0410429800965196
+GO:0044752~response to human chorionic gonadotropin	0.0410429800965196
+GO:0015670~carbon dioxide transport	0.0410429800965196
+GO:0070574~cadmium ion transmembrane transport	0.0410429800965196
+GO:0015691~cadmium ion transport	0.0410429800965196
+GO:0006790~sulfur compound metabolic process	0.0413881669165889
+GO:0034220~ion transmembrane transport	0.0440373452877419
+GO:0045454~cell redox homeostasis	0.0464736717735856
+GO:0044767~single-organism developmental process	0.0467064902882562
+GO:1901653~cellular response to peptide	0.047507341425297
+GO:0006732~coenzyme metabolic process	0.047507341425297
+GO:1903362~regulation of cellular protein catabolic process	0.0479386477075396
+GO:0006812~cation transport	0.048298413553185
+GO:0048871~multicellular organismal homeostasis	0.0486710696940208
+GO:0006739~NADP metabolic process	0.0487326304039598
+GO:0006766~vitamin metabolic process	0.0493845251084432

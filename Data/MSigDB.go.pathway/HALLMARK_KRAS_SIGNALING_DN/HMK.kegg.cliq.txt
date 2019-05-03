@@ -1,0 +1,11 @@
+"Pathway"	"NetBAS"	"DAVID"
+"Neuroactive ligand-receptor interaction"	"87.536"	"0.0023435240783946923"
+"Taste transduction"	"76.819"	NA
+"Cytokine-cytokine receptor interaction"	"71.051"	"0.02595043036077246"
+"Chemokine signaling pathway"	"48.154"	NA
+"Complement and coagulation cascades"	"28.64"	NA
+"cAMP signaling pathway"	"23.525"	"0.07049296682100495"
+"Serotonergic synapse"	"18.119"	NA
+"Phospholipase D signaling pathway"	"15.962"	NA
+"Calcium signaling pathway"	"1.258"	"0.015866294199960097"
+"Rap1 signaling pathway"	"7.572"	NA

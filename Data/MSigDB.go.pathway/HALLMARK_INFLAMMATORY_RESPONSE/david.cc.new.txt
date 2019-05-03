@@ -1,0 +1,76 @@
+GO:0031226~intrinsic component of plasma membrane	1.02690814870676e-54
+GO:0005887~integral component of plasma membrane	3.12942312155398e-54
+GO:0044459~plasma membrane part	1.40444367004826e-51
+GO:0005886~plasma membrane	2.07565379111688e-42
+GO:0071944~cell periphery	3.59288361436382e-41
+GO:0044425~membrane part	2.23118799308651e-23
+GO:0009986~cell surface	3.72513764384723e-23
+GO:0016021~integral component of membrane	6.93895906415154e-23
+GO:0031224~intrinsic component of membrane	1.02991772621825e-22
+GO:0005615~extracellular space	8.18793854981652e-17
+GO:0016020~membrane	4.04706029856324e-16
+GO:0098552~side of membrane	2.43246689136938e-13
+GO:0009897~external side of plasma membrane	1.77702384591185e-11
+GO:0044421~extracellular region part	3.87812505759462e-09
+GO:0005576~extracellular region	6.44067641540871e-09
+GO:0045121~membrane raft	4.77121620789481e-08
+GO:0098857~membrane microdomain	5.01116160831748e-08
+GO:0098797~plasma membrane protein complex	9.3525241968589e-07
+GO:0098589~membrane region	1.30931472169732e-06
+GO:0031410~cytoplasmic vesicle	1.98931362163769e-06
+GO:0097708~intracellular vesicle	2.05770552785822e-06
+GO:0043235~receptor complex	2.44893310474838e-06
+GO:0031982~vesicle	4.11617636291705e-06
+GO:0098805~whole membrane	7.11377804244842e-06
+GO:0098802~plasma membrane receptor complex	1.85050070353814e-05
+GO:0030139~endocytic vesicle	2.23626781519334e-05
+GO:0016023~cytoplasmic, membrane-bounded vesicle	5.7425886209778e-05
+GO:0098796~membrane protein complex	7.5163147337784e-05
+GO:0012506~vesicle membrane	0.000109557570202924
+GO:0030659~cytoplasmic vesicle membrane	0.000255668285846589
+GO:0030666~endocytic vesicle membrane	0.000258447985855801
+GO:0031988~membrane-bounded vesicle	0.000271025738495104
+GO:0044433~cytoplasmic vesicle part	0.000321569944188114
+GO:0098590~plasma membrane region	0.00102640573685758
+GO:0031225~anchored component of membrane	0.00147681302403345
+GO:0033256~I-kappaB/NF-kappaB complex	0.00228577469417047
+GO:0005623~cell	0.00344606026909036
+GO:0008305~integrin complex	0.00390275143905622
+GO:0031234~extrinsic component of cytoplasmic side of plasma membrane	0.0045083578810898
+GO:0098636~protein complex involved in cell adhesion	0.0051236545372128
+GO:0043025~neuronal cell body	0.00539824110741366
+GO:0044297~cell body	0.00543960895805305
+GO:0098588~bounding membrane of organelle	0.00570222854264644
+GO:0044463~cell projection part	0.00635295891567142
+GO:0005791~rough endoplasmic reticulum	0.00694366515043499
+GO:0009898~cytoplasmic side of plasma membrane	0.00759517770521959
+GO:0048471~perinuclear region of cytoplasm	0.00861261018865311
+GO:0033267~axon part	0.00893731138005369
+GO:0005773~vacuole	0.00998733229930211
+GO:0036477~somatodendritic compartment	0.0114947773319209
+GO:0098562~cytoplasmic side of membrane	0.0117848498119538
+GO:0046658~anchored component of plasma membrane	0.0144608997763559
+GO:0005794~Golgi apparatus	0.0146178145753323
+GO:0044464~cell part	0.014784894635952
+GO:0043005~neuron projection	0.0150632439709259
+GO:0045335~phagocytic vesicle	0.0150634684735054
+GO:0031256~leading edge membrane	0.0156839059006351
+GO:0012505~endomembrane system	0.0177425523954664
+GO:0019897~extrinsic component of plasma membrane	0.0185349719415026
+GO:0035354~Toll-like receptor 1-Toll-like receptor 2 protein complex	0.0211778612700972
+GO:0016323~basolateral plasma membrane	0.0221954889033227
+GO:0019898~extrinsic component of membrane	0.0232202429329126
+GO:0097458~neuron part	0.0267559641587808
+GO:0043197~dendritic spine	0.0283415094636015
+GO:0044309~neuron spine	0.0300422437190446
+GO:0045202~synapse	0.0314086544104348
+GO:0000323~lytic vacuole	0.0315584107649929
+GO:0005764~lysosome	0.0315584107649929
+GO:0071062~alphav-beta3 integrin-vitronectin complex	0.0315988630767925
+GO:0031233~intrinsic component of external side of plasma membrane	0.0332394010421345
+GO:0042995~cell projection	0.034949173969012
+GO:0030424~axon	0.0353959817887734
+GO:0030141~secretory granule	0.0382236445404985
+GO:0031253~cell projection membrane	0.0382938370924922
+GO:0031091~platelet alpha granule	0.045913121584593
+GO:0005790~smooth endoplasmic reticulum	0.0479786493073641

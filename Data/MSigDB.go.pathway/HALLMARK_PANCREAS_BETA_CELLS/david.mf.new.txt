@@ -1,0 +1,48 @@
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	1.01103835225162e-09
+GO:0044212~transcription regulatory region DNA binding	2.13359564889643e-08
+GO:0000975~regulatory region DNA binding	2.22436139214516e-08
+GO:0001067~regulatory region nucleic acid binding	2.25538513320186e-08
+GO:0043565~sequence-specific DNA binding	4.01288422622164e-08
+GO:0000977~RNA polymerase II regulatory region sequence-specific DNA binding	5.33236986871256e-08
+GO:0001012~RNA polymerase II regulatory region DNA binding	5.60975363756996e-08
+GO:0001159~core promoter proximal region DNA binding	1.18163911863448e-07
+GO:0003700~transcription factor activity, sequence-specific DNA binding	2.04824985826396e-07
+GO:0001071~nucleic acid binding transcription factor activity	2.06886854148767e-07
+GO:0000976~transcription regulatory region sequence-specific DNA binding	2.21862260807926e-07
+GO:1990837~sequence-specific double-stranded DNA binding	3.53610305744074e-07
+GO:0044877~macromolecular complex binding	4.23385834286152e-07
+GO:0000982~transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding	7.69360490746015e-07
+GO:0003690~double-stranded DNA binding	9.98021754041727e-07
+GO:0000978~RNA polymerase II core promoter proximal region sequence-specific DNA binding	1.01779681460876e-06
+GO:0008134~transcription factor binding	1.50621102756901e-06
+GO:0000987~core promoter proximal region sequence-specific DNA binding	1.5328783359759e-06
+GO:0003682~chromatin binding	1.32619584558362e-05
+GO:0001227~transcriptional repressor activity, RNA polymerase II transcription regulatory region sequence-specific binding	4.42028445689987e-05
+GO:0001228~transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding	8.12009060509073e-05
+GO:0001077~transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.000176320797767879
+GO:0001047~core promoter binding	0.000456980382217934
+GO:0003677~DNA binding	0.000871405329515753
+GO:1901363~heterocyclic compound binding	0.00135321503693628
+GO:0097159~organic cyclic compound binding	0.00166654731296371
+GO:0001078~transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding	0.00197417039082906
+GO:0005179~hormone activity	0.00252372296908821
+GO:0001102~RNA polymerase II activating transcription factor binding	0.00329591513673967
+GO:0003676~nucleic acid binding	0.00453726297702525
+GO:0098811~transcriptional repressor activity, RNA polymerase II activating transcription factor binding	0.0065589044324013
+GO:0001190~transcriptional activator activity, RNA polymerase II transcription factor binding	0.0065589044324013
+GO:0033613~activating transcription factor binding	0.00778707888452583
+GO:0000989~transcription factor activity, transcription factor binding	0.0110540858378506
+GO:0005047~signal recognition particle binding	0.0112060207509986
+GO:0000988~transcription factor activity, protein binding	0.0115012945352401
+GO:0008312~7S RNA binding	0.0156541102016292
+GO:0001191~transcriptional repressor activity, RNA polymerase II transcription factor binding	0.0163672675667728
+GO:0019905~syntaxin binding	0.0178155775871043
+GO:0001085~RNA polymerase II transcription factor binding	0.0228801138773238
+GO:0001046~core promoter sequence-specific DNA binding	0.0237063310564358
+GO:0008236~serine-type peptidase activity	0.0253020520233805
+GO:0017171~serine hydrolase activity	0.0260016347168711
+GO:0043021~ribonucleoprotein complex binding	0.0262577182320375
+GO:0003713~transcription coactivator activity	0.030417872708276
+GO:0000149~SNARE binding	0.0330956700231582
+GO:0001076~transcription factor activity, RNA polymerase II transcription factor binding	0.0421124957225693
+GO:0019899~enzyme binding	0.0426530020871575

@@ -1,0 +1,111 @@
+GO:0004872~receptor activity	2.56510099626327e-31
+GO:0060089~molecular transducer activity	2.56510099626327e-31
+GO:0005125~cytokine activity	1.36229272621563e-27
+GO:0004871~signal transducer activity	1.03949589062125e-26
+GO:0038023~signaling receptor activity	3.03719228607204e-26
+GO:0004888~transmembrane signaling receptor activity	8.42380366133284e-26
+GO:0099600~transmembrane receptor activity	1.29073130727109e-25
+GO:0005102~receptor binding	1.86912834550162e-25
+GO:0005126~cytokine receptor binding	2.41637934610425e-22
+GO:0004896~cytokine receptor activity	1.72895053873135e-16
+GO:0001664~G-protein coupled receptor binding	1.50109237781388e-12
+GO:0042379~chemokine receptor binding	5.01660901745758e-12
+GO:0008009~chemokine activity	5.83788048251942e-12
+GO:0005515~protein binding	3.42492448411899e-11
+GO:0048020~CCR chemokine receptor binding	1.30844811677319e-08
+GO:0008528~G-protein coupled peptide receptor activity	3.32808500579087e-08
+GO:0001653~peptide receptor activity	3.62235135597698e-08
+GO:0070851~growth factor receptor binding	2.2455503800807e-07
+GO:0004930~G-protein coupled receptor activity	2.50333259351096e-07
+GO:0019955~cytokine binding	1.27933846753417e-06
+GO:0008083~growth factor activity	2.36294097770162e-06
+GO:0001618~virus receptor activity	1.39631697907767e-05
+GO:0005539~glycosaminoglycan binding	2.5468605262017e-05
+GO:0002020~protease binding	5.52517611315845e-05
+GO:0035586~purinergic receptor activity	0.000195359568070305
+GO:0005164~tumor necrosis factor receptor binding	0.000302248407062522
+GO:0046873~metal ion transmembrane transporter activity	0.000327882651862525
+GO:0022891~substrate-specific transmembrane transporter activity	0.000499685738897778
+GO:0005161~platelet-derived growth factor receptor binding	0.000586877684549747
+GO:0022857~transmembrane transporter activity	0.000626792428595576
+GO:0008329~signaling pattern recognition receptor activity	0.000862593230448889
+GO:0045236~CXCR chemokine receptor binding	0.000862593230448889
+GO:0038187~pattern recognition receptor activity	0.000862593230448889
+GO:0004713~protein tyrosine kinase activity	0.00103590177126486
+GO:0038024~cargo receptor activity	0.00110050490867672
+GO:0048248~CXCR3 chemokine receptor binding	0.00124526782132478
+GO:0034711~inhibin binding	0.00124526782132478
+GO:0046983~protein dimerization activity	0.00141897520646482
+GO:0042277~peptide binding	0.00158424592649843
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.00164688926402755
+GO:0008324~cation transmembrane transporter activity	0.00174458919389371
+GO:0005375~copper ion transmembrane transporter activity	0.00185399557917969
+GO:0001614~purinergic nucleotide receptor activity	0.00187393349691913
+GO:0001530~lipopolysaccharide binding	0.00187393349691913
+GO:0016502~nucleotide receptor activity	0.00187393349691913
+GO:0097367~carbohydrate derivative binding	0.00208214917162373
+GO:0005044~scavenger receptor activity	0.00209486925227238
+GO:0022892~substrate-specific transporter activity	0.00233037494530873
+GO:0022890~inorganic cation transmembrane transporter activity	0.00234601066232025
+GO:0015075~ion transmembrane transporter activity	0.00234765093191565
+GO:0033218~amide binding	0.00288053097206306
+GO:0004950~chemokine receptor activity	0.00306049096481778
+GO:0001637~G-protein coupled chemoattractant receptor activity	0.00306049096481778
+GO:0022804~active transmembrane transporter activity	0.00317124213003287
+GO:0019838~growth factor binding	0.00336323221663039
+GO:0005388~calcium-transporting ATPase activity	0.0043511255549454
+GO:0004875~complement receptor activity	0.00539856202854237
+GO:0004955~prostaglandin receptor activity	0.00539856202854237
+GO:0004954~prostanoid receptor activity	0.0065493424768352
+GO:0046982~protein heterodimerization activity	0.00677870323067532
+GO:0005178~integrin binding	0.00710080643053754
+GO:0004672~protein kinase activity	0.00734141854415457
+GO:0008289~lipid binding	0.00774517686814566
+GO:0042834~peptidoglycan binding	0.00780101915305251
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00782694727111978
+GO:0005215~transporter activity	0.00811646053593628
+GO:0016301~kinase activity	0.00867503939299443
+GO:0008201~heparin binding	0.009798751966117
+GO:0046915~transition metal ion transmembrane transporter activity	0.0110866421232382
+GO:0030169~low-density lipoprotein particle binding	0.0121375701903495
+GO:0022838~substrate-specific channel activity	0.012612319257968
+GO:0015399~primary active transmembrane transporter activity	0.0134220341645364
+GO:0015405~P-P-bond-hydrolysis-driven transmembrane transporter activity	0.0134220341645364
+GO:0032403~protein complex binding	0.0135734772072312
+GO:0004953~icosanoid receptor activity	0.0137691781499628
+GO:0019199~transmembrane receptor protein kinase activity	0.0140015617368662
+GO:0008188~neuropeptide receptor activity	0.0151527333682932
+GO:0004715~non-membrane spanning protein tyrosine kinase activity	0.0151527333682932
+GO:0050839~cell adhesion molecule binding	0.0160355229912127
+GO:1901681~sulfur compound binding	0.0169635242300147
+GO:0042802~identical protein binding	0.019345954144396
+GO:0015267~channel activity	0.0203675283879419
+GO:0022803~passive transmembrane transporter activity	0.0206468697325583
+GO:0031683~G-protein beta/gamma-subunit complex binding	0.0211664303805166
+GO:0031729~CCR4 chemokine receptor binding	0.0225016360691354
+GO:0019956~chemokine binding	0.0232226965837687
+GO:0005057~receptor signaling protein activity	0.0259606155686499
+GO:0071814~protein-lipid complex binding	0.0298551018341497
+GO:0071813~lipoprotein particle binding	0.0298551018341497
+GO:0019899~enzyme binding	0.0299374077516779
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.0331325209419123
+GO:0004995~tachykinin receptor activity	0.033562847488932
+GO:0031727~CCR2 chemokine receptor binding	0.033562847488932
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.036295774728544
+GO:0022853~active ion transmembrane transporter activity	0.0363172133059803
+GO:0022836~gated channel activity	0.0364587618266191
+GO:0051879~Hsp90 protein binding	0.0371415485050392
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.0373462636805313
+GO:0042803~protein homodimerization activity	0.0380474080094245
+GO:0042626~ATPase activity, coupled to transmembrane movement of substances	0.0405655560237313
+GO:0016820~hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances	0.0427913138656364
+GO:0046943~carboxylic acid transmembrane transporter activity	0.0439295904792857
+GO:0098772~molecular function regulator	0.0440232237510574
+GO:0001847~opsonin receptor activity	0.0444995399958541
+GO:0031625~ubiquitin protein ligase binding	0.0448731502783161
+GO:0035004~phosphatidylinositol 3-kinase activity	0.0449467450048922
+GO:0019904~protein domain specific binding	0.0467566991029589
+GO:0005342~organic acid transmembrane transporter activity	0.0474459139025183
+GO:0015077~monovalent inorganic cation transmembrane transporter activity	0.0474481010434436
+GO:0005154~epidermal growth factor receptor binding	0.0477866311167695
+GO:0044389~ubiquitin-like protein ligase binding	0.0486563291939407

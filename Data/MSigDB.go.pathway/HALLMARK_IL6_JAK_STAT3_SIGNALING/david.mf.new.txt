@@ -1,0 +1,77 @@
+GO:0004896~cytokine receptor activity	4.0938811253197e-40
+GO:0005126~cytokine receptor binding	3.4825252698097e-25
+GO:0019955~cytokine binding	4.07085445923075e-24
+GO:0004871~signal transducer activity	8.51132802552349e-22
+GO:0005102~receptor binding	5.35113700611813e-19
+GO:0038023~signaling receptor activity	1.65916529255951e-18
+GO:0004888~transmembrane signaling receptor activity	8.44816616576043e-17
+GO:0099600~transmembrane receptor activity	2.85510295043815e-16
+GO:0004872~receptor activity	5.44989560437911e-16
+GO:0060089~molecular transducer activity	5.44989560437911e-16
+GO:0005125~cytokine activity	6.36227020137173e-16
+GO:0019838~growth factor binding	5.83504706615889e-14
+GO:0042379~chemokine receptor binding	2.29206426243094e-11
+GO:0005515~protein binding	9.54701464415785e-11
+GO:0045236~CXCR chemokine receptor binding	1.49964654857925e-10
+GO:0048248~CXCR3 chemokine receptor binding	2.84143621969448e-09
+GO:0008009~chemokine activity	4.2487221240799e-09
+GO:0070851~growth factor receptor binding	1.42225044666128e-08
+GO:0001664~G-protein coupled receptor binding	5.72836864576578e-08
+GO:0008083~growth factor activity	1.42072775822934e-06
+GO:0019966~interleukin-1 binding	9.77106132249553e-06
+GO:0019956~chemokine binding	0.000148171358184862
+GO:0005031~tumor necrosis factor-activated receptor activity	0.000223070747241881
+GO:0005035~death receptor activity	0.000223070747241881
+GO:0004904~interferon receptor activity	0.000242304651665355
+GO:0004908~interleukin-1 receptor activity	0.000505553273316232
+GO:0005539~glycosaminoglycan binding	0.000595445824963261
+GO:0030368~interleukin-17 receptor activity	0.000671891848045151
+GO:0005088~Ras guanyl-nucleotide exchange factor activity	0.000960896277808234
+GO:0048020~CCR chemokine receptor binding	0.0010281912947551
+GO:0032813~tumor necrosis factor receptor superfamily binding	0.00145054092527327
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.0017001555602305
+GO:0030971~receptor tyrosine kinase binding	0.00232718731829563
+GO:0005161~platelet-derived growth factor receptor binding	0.00246320745545507
+GO:0042802~identical protein binding	0.00265884332920747
+GO:0019899~enzyme binding	0.00268634573719609
+GO:1990782~protein tyrosine kinase binding	0.00316110963636163
+GO:0008329~signaling pattern recognition receptor activity	0.00316990880680919
+GO:0038187~pattern recognition receptor activity	0.00316990880680919
+GO:0005488~binding	0.00333162058135401
+GO:0098772~molecular function regulator	0.00348291735150138
+GO:0005085~guanyl-nucleotide exchange factor activity	0.00434013529772886
+GO:0016301~kinase activity	0.00595589090086333
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00684432740232445
+GO:0046875~ephrin receptor binding	0.00735867535750921
+GO:0050839~cell adhesion molecule binding	0.00804735144561648
+GO:0008201~heparin binding	0.00833743609996416
+GO:0005164~tumor necrosis factor receptor binding	0.00910446637065464
+GO:0019900~kinase binding	0.00945683141512989
+GO:0004912~interleukin-3 receptor activity	0.00992754972055737
+GO:0004913~interleukin-4 receptor activity	0.00992754972055737
+GO:0043120~tumor necrosis factor binding	0.00992754972055737
+GO:0004906~interferon-gamma receptor activity	0.00992754972055737
+GO:0004713~protein tyrosine kinase activity	0.0124494996059101
+GO:0019976~interleukin-2 binding	0.014854742435118
+GO:0004911~interleukin-2 receptor activity	0.014854742435118
+GO:0004924~oncostatin-M receptor activity	0.014854742435118
+GO:0019207~kinase regulator activity	0.0151809842807652
+GO:0004672~protein kinase activity	0.0157345827396734
+GO:0019901~protein kinase binding	0.0165209473678175
+GO:0019903~protein phosphatase binding	0.0179369967422415
+GO:0016361~activin receptor activity, type I	0.0197577049687544
+GO:0004897~ciliary neurotrophic factor receptor activity	0.0197577049687544
+GO:0002020~protease binding	0.0205953245882052
+GO:0019960~C-X3-C chemokine binding	0.0246365550477077
+GO:1901681~sulfur compound binding	0.0289473039576238
+GO:0017002~activin-activated receptor activity	0.0343223859285872
+GO:0005138~interleukin-6 receptor binding	0.0343223859285872
+GO:0005057~receptor signaling protein activity	0.0369616709945035
+GO:0046934~phosphatidylinositol-4,5-bisphosphate 3-kinase activity	0.0381651959309347
+GO:0051427~hormone receptor binding	0.0388775531064336
+GO:0004726~non-membrane spanning protein tyrosine phosphatase activity	0.0391295993658932
+GO:0031730~CCR5 chemokine receptor binding	0.0391295993658932
+GO:0019902~phosphatase binding	0.0415096282099893
+GO:0052813~phosphatidylinositol bisphosphate kinase activity	0.0415823296773756
+GO:0035004~phosphatidylinositol 3-kinase activity	0.0475214060128212
+GO:0046332~SMAD binding	0.0487444862535592

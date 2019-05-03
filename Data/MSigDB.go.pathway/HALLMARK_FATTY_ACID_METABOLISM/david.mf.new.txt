@@ -1,0 +1,104 @@
+GO:0016491~oxidoreductase activity	7.93479109154294e-52
+GO:0003824~catalytic activity	4.67085089322965e-39
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	5.6957267537637e-35
+GO:0048037~cofactor binding	1.00705913182595e-31
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	3.62979760029925e-29
+GO:0016829~lyase activity	6.3536871233417e-29
+GO:0050662~coenzyme binding	8.3088872250162e-28
+GO:0016835~carbon-oxygen lyase activity	2.42042380402286e-21
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	1.07752231659135e-19
+GO:0016836~hydro-lyase activity	4.13964817527147e-19
+GO:0051287~NAD binding	1.08751657656148e-15
+GO:0009055~electron carrier activity	6.18150084376166e-11
+GO:0050660~flavin adenine dinucleotide binding	1.34796393744329e-10
+GO:0016903~oxidoreductase activity, acting on the aldehyde or oxo group of donors	2.85721133899795e-10
+GO:0016878~acid-thiol ligase activity	2.6080680548479e-09
+GO:0000062~fatty-acyl-CoA binding	7.82865140874432e-09
+GO:0050661~NADP binding	1.10702191766584e-08
+GO:0016830~carbon-carbon lyase activity	2.50190893682037e-08
+GO:0016620~oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor	3.06630403966839e-08
+GO:0016877~ligase activity, forming carbon-sulfur bonds	6.64224607501563e-08
+GO:0052890~oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor	2.3846399792112e-07
+GO:0003995~acyl-CoA dehydrogenase activity	3.35342880640035e-07
+GO:0003857~3-hydroxyacyl-CoA dehydrogenase activity	8.09986505898792e-07
+GO:0016831~carboxy-lyase activity	9.62199021647052e-07
+GO:0036094~small molecule binding	1.14595397188846e-06
+GO:0000166~nucleotide binding	2.38215758444391e-06
+GO:1901265~nucleoside phosphate binding	2.40916020181974e-06
+GO:0016853~isomerase activity	2.7736651182162e-06
+GO:0016863~intramolecular oxidoreductase activity, transposing C=C bonds	4.46722288077565e-06
+GO:0042802~identical protein binding	4.63807417806349e-06
+GO:0016746~transferase activity, transferring acyl groups	6.0291074133887e-06
+GO:0016405~CoA-ligase activity	6.20974415532178e-06
+GO:0070402~NADPH binding	8.40777578313017e-06
+GO:0042803~protein homodimerization activity	1.09871044037461e-05
+GO:0003988~acetyl-CoA C-acyltransferase activity	1.45948708580379e-05
+GO:0004300~enoyl-CoA hydratase activity	1.45948708580379e-05
+GO:0004448~isocitrate dehydrogenase activity	2.53698534416842e-05
+GO:0016747~transferase activity, transferring acyl groups other than amino-acyl groups	4.67034713790652e-05
+GO:0046983~protein dimerization activity	4.91760184438244e-05
+GO:0016634~oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor	6.00747644403045e-05
+GO:0016408~C-acyltransferase activity	7.25723500406862e-05
+GO:0033764~steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	9.92644775014768e-05
+GO:0016860~intramolecular oxidoreductase activity	0.000130587767934409
+GO:0016229~steroid dehydrogenase activity	0.000172992144422032
+GO:0004774~succinate-CoA ligase activity	0.000246574205702506
+GO:0004165~dodecenoyl-CoA delta-isomerase activity	0.000246574205702506
+GO:0016401~palmitoyl-CoA oxidase activity	0.000246574205702506
+GO:1901681~sulfur compound binding	0.000291453632393644
+GO:0000104~succinate dehydrogenase activity	0.000490189891436579
+GO:0051990~(R)-2-hydroxyglutarate dehydrogenase activity	0.000490189891436579
+GO:0004745~retinol dehydrogenase activity	0.000549408345276711
+GO:0004029~aldehyde dehydrogenase (NAD) activity	0.000877692953239159
+GO:0015645~fatty acid ligase activity	0.000877692953239159
+GO:0003997~acyl-CoA oxidase activity	0.00121083060178837
+GO:0016628~oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	0.00147780483971181
+GO:0016615~malate dehydrogenase activity	0.00168501490112164
+GO:0004028~3-chloroallyl aldehyde dehydrogenase activity	0.00223324658867215
+GO:0004738~pyruvate dehydrogenase activity	0.00223324658867215
+GO:0034604~pyruvate dehydrogenase (NAD+) activity	0.00223324658867215
+GO:0034603~pyruvate dehydrogenase [NAD(P)+] activity	0.00223324658867215
+GO:0102391~decanoate--CoA ligase activity	0.00223324658867215
+GO:0004497~monooxygenase activity	0.00252900211616957
+GO:0000287~magnesium ion binding	0.00270257054477439
+GO:0016624~oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor	0.00285415282418679
+GO:0016790~thiolester hydrolase activity	0.00362117205877848
+GO:0031406~carboxylic acid binding	0.00393040509837951
+GO:0016406~carnitine O-acyltransferase activity	0.00430859037207928
+GO:0004467~long-chain fatty acid-CoA ligase activity	0.00603771291541926
+GO:0004089~carbonate dehydratase activity	0.00700204269355917
+GO:0016641~oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor	0.00803119297578379
+GO:0020037~heme binding	0.00840494539615503
+GO:0008106~alcohol dehydrogenase (NADP+) activity	0.0102789834089857
+GO:0030145~manganese ion binding	0.0106680833793133
+GO:0046906~tetrapyrrole binding	0.0108735617710627
+GO:0052689~carboxylic ester hydrolase activity	0.0108735617710627
+GO:0048038~quinone binding	0.0127713107335949
+GO:0016289~CoA hydrolase activity	0.0141061947407233
+GO:0043168~anion binding	0.0152390426007618
+GO:0016638~oxidoreductase activity, acting on the CH-NH2 group of donors	0.0154986686133729
+GO:0004602~glutathione peroxidase activity	0.0154986686133729
+GO:0004776~succinate-CoA ligase (GDP-forming) activity	0.0181626767924703
+GO:0004421~hydroxymethylglutaryl-CoA synthase activity	0.0181626767924703
+GO:0004368~glycerol-3-phosphate dehydrogenase activity	0.0181626767924703
+GO:0018479~benzaldehyde dehydrogenase (NAD+) activity	0.0181626767924703
+GO:0004775~succinate-CoA ligase (ADP-forming) activity	0.0181626767924703
+GO:0004033~aldo-keto reductase (NADP) activity	0.0249997363849543
+GO:0016899~oxidoreductase activity, acting on the CH-OH group of donors, oxygen as acceptor	0.0271207280868744
+GO:0004351~glutamate decarboxylase activity	0.0271207280868744
+GO:0016508~long-chain-enoyl-CoA hydratase activity	0.0271207280868744
+GO:0004739~pyruvate dehydrogenase (acetyl-transferring) activity	0.0271207280868744
+GO:0000253~3-keto sterol reductase activity	0.0271207280868744
+GO:0000252~C-3 sterol dehydrogenase (C-4 sterol decarboxylase) activity	0.0271207280868744
+GO:0004449~isocitrate dehydrogenase (NAD+) activity	0.0271207280868744
+GO:0030060~L-malate dehydrogenase activity	0.0271207280868744
+GO:0008177~succinate dehydrogenase (ubiquinone) activity	0.0271207280868744
+GO:0016874~ligase activity	0.0341126056893149
+GO:0004466~long-chain-acyl-CoA dehydrogenase activity	0.0359975741524048
+GO:0004470~malic enzyme activity	0.0359975741524048
+GO:0004095~carnitine O-palmitoyltransferase activity	0.0359975741524048
+GO:0016635~oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor	0.0359975741524048
+GO:0016209~antioxidant activity	0.0379009404529228
+GO:0046912~transferase activity, transferring acyl groups, acyl groups converted into alkyl on transfer	0.044793946349269
+GO:0004090~carbonyl reductase (NADPH) activity	0.044793946349269
+GO:0016901~oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor	0.044793946349269

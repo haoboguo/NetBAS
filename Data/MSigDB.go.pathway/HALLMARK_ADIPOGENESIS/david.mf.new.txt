@@ -1,0 +1,67 @@
+GO:0016491~oxidoreductase activity	7.84156276415286e-21
+GO:0009055~electron carrier activity	1.47522536188084e-13
+GO:0048037~cofactor binding	1.65693520942912e-13
+GO:0003824~catalytic activity	2.07686279915673e-11
+GO:0050662~coenzyme binding	1.30925719022353e-09
+GO:0016627~oxidoreductase activity, acting on the CH-CH group of donors	2.28024207666323e-07
+GO:0051287~NAD binding	2.04819087116203e-05
+GO:0016209~antioxidant activity	2.49478291033538e-05
+GO:0016746~transferase activity, transferring acyl groups	2.91211878130142e-05
+GO:0004601~peroxidase activity	0.000101089017708935
+GO:0016681~oxidoreductase activity, acting on diphenols and related substances as donors, cytochrome as acceptor	0.000135406325036396
+GO:0008121~ubiquinol-cytochrome-c reductase activity	0.000135406325036396
+GO:0016684~oxidoreductase activity, acting on peroxide as acceptor	0.000139144445303389
+GO:0016651~oxidoreductase activity, acting on NAD(P)H	0.000148319092373879
+GO:0050661~NADP binding	0.000153993571285908
+GO:0016747~transferase activity, transferring acyl groups other than amino-acyl groups	0.000171309843090988
+GO:0016679~oxidoreductase activity, acting on diphenols and related substances as donors	0.000184724277384587
+GO:0036094~small molecule binding	0.000207420966986812
+GO:0015078~hydrogen ion transmembrane transporter activity	0.000208230598057788
+GO:0042802~identical protein binding	0.00024367971037701
+GO:0000062~fatty-acyl-CoA binding	0.000275852319576904
+GO:0052890~oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor	0.000602788553143283
+GO:0003995~acyl-CoA dehydrogenase activity	0.00072623697383042
+GO:1901681~sulfur compound binding	0.000903175496173214
+GO:0016829~lyase activity	0.0009670165709244
+GO:0004602~glutathione peroxidase activity	0.00137660090920173
+GO:0050660~flavin adenine dinucleotide binding	0.00155393407376519
+GO:0008374~O-acyltransferase activity	0.00182205626878195
+GO:0042803~protein homodimerization activity	0.00210872084645611
+GO:0000166~nucleotide binding	0.00216571210650084
+GO:1901265~nucleoside phosphate binding	0.00218249080766497
+GO:0004448~isocitrate dehydrogenase activity	0.00229234408784756
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	0.00351356842242262
+GO:0005504~fatty acid binding	0.00355288867477999
+GO:0033293~monocarboxylic acid binding	0.00456443499192909
+GO:0016406~carnitine O-acyltransferase activity	0.00583760215714488
+GO:0031406~carboxylic acid binding	0.00833316640440932
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.00836372031559167
+GO:0016740~transferase activity	0.0103318553151988
+GO:0008289~lipid binding	0.0107102607479949
+GO:0034185~apolipoprotein binding	0.0108371307622168
+GO:0005102~receptor binding	0.0124667627295139
+GO:0016903~oxidoreductase activity, acting on the aldehyde or oxo group of donors	0.0129353690429172
+GO:0015077~monovalent inorganic cation transmembrane transporter activity	0.0134926830838746
+GO:0003954~NADH dehydrogenase activity	0.0145125882624616
+GO:0008137~NADH dehydrogenase (ubiquinone) activity	0.0145125882624616
+GO:0050136~NADH dehydrogenase (quinone) activity	0.0145125882624616
+GO:0016830~carbon-carbon lyase activity	0.0189129620655125
+GO:0015248~sterol transporter activity	0.0189388887623571
+GO:0051538~3 iron, 4 sulfur cluster binding	0.0212126788832128
+GO:0071814~protein-lipid complex binding	0.0267582987547301
+GO:0071813~lipoprotein particle binding	0.0267582987547301
+GO:0016655~oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	0.0284951411296745
+GO:0016408~C-acyltransferase activity	0.0288844750344534
+GO:0034186~apolipoprotein A-I binding	0.031650602802143
+GO:0030580~quinone cofactor methyltransferase activity	0.031650602802143
+GO:0008425~2-polyprenyl-6-methoxy-1,4-benzoquinone methyltransferase activity	0.031650602802143
+GO:0016401~palmitoyl-CoA oxidase activity	0.031650602802143
+GO:0004449~isocitrate dehydrogenase (NAD+) activity	0.031650602802143
+GO:0015002~heme-copper terminal oxidase activity	0.0404614822833638
+GO:0004129~cytochrome-c oxidase activity	0.0404614822833638
+GO:0016676~oxidoreductase activity, acting on a heme group of donors, oxygen as acceptor	0.0404614822833638
+GO:0046983~protein dimerization activity	0.040913383183889
+GO:0000104~succinate dehydrogenase activity	0.0419778270887765
+GO:0008169~C-methyltransferase activity	0.0419778270887765
+GO:0016744~transferase activity, transferring aldehyde or ketonic groups	0.0419778270887765
+GO:0016675~oxidoreductase activity, acting on a heme group of donors	0.042955168687286

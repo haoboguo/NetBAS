@@ -1,0 +1,33 @@
+GO:0032553~ribonucleotide binding	3.22531829935462e-07
+GO:0032559~adenyl ribonucleotide binding	7.96143170777554e-07
+GO:0032555~purine ribonucleotide binding	8.11476894167492e-07
+GO:0030554~adenyl nucleotide binding	9.25440969770556e-07
+GO:0017076~purine nucleotide binding	9.51009899669943e-07
+GO:0036094~small molecule binding	1.09114649048648e-06
+GO:0000166~nucleotide binding	1.2467196659587e-06
+GO:1901265~nucleoside phosphate binding	1.26003511739062e-06
+GO:0035639~purine ribonucleoside triphosphate binding	1.44472919419028e-06
+GO:0005524~ATP binding	1.56393131762878e-06
+GO:0032550~purine ribonucleoside binding	1.61040657918254e-06
+GO:0001883~purine nucleoside binding	1.66944705139838e-06
+GO:0032549~ribonucleoside binding	1.66944705139838e-06
+GO:0001882~nucleoside binding	1.81512350742682e-06
+GO:0097367~carbohydrate derivative binding	1.44065360260818e-05
+GO:0004674~protein serine/threonine kinase activity	0.000159471126696903
+GO:0097159~organic cyclic compound binding	0.000275874767249388
+GO:1901363~heterocyclic compound binding	0.000347968506304674
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.00116135451824339
+GO:0051082~unfolded protein binding	0.00145134324248439
+GO:0016301~kinase activity	0.00154472648193803
+GO:0005515~protein binding	0.00186209723077375
+GO:0019901~protein kinase binding	0.00223668429755578
+GO:0004672~protein kinase activity	0.00374131924161422
+GO:0019900~kinase binding	0.00528372997318478
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00614800715525043
+GO:0019899~enzyme binding	0.00717291945622933
+GO:0016740~transferase activity	0.00794327842838431
+GO:0005488~binding	0.013571817796639
+GO:0016887~ATPase activity	0.0179490303335618
+GO:0003950~NAD+ ADP-ribosyltransferase activity	0.0186817140992626
+GO:0016744~transferase activity, transferring aldehyde or ketonic groups	0.0297577226211903
+GO:0003824~catalytic activity	0.0298756531537638

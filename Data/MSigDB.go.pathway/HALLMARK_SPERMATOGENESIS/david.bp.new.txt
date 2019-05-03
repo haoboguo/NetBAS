@@ -1,0 +1,169 @@
+GO:0019953~sexual reproduction	9.9531836218876e-25
+GO:0044703~multi-organism reproductive process	2.05786135968322e-22
+GO:0007283~spermatogenesis	9.07952732885938e-22
+GO:0048232~male gamete generation	9.65781631914264e-22
+GO:0032504~multicellular organism reproduction	2.66071682831662e-21
+GO:0007276~gamete generation	9.12173629650085e-21
+GO:0048609~multicellular organismal reproductive process	1.60654445308154e-20
+GO:0044702~single organism reproductive process	2.08771634864713e-20
+GO:0022414~reproductive process	2.4735971087675e-19
+GO:0000003~reproduction	2.6233789413689e-19
+GO:0022412~cellular process involved in reproduction in multicellular organism	7.80000233923001e-17
+GO:0048515~spermatid differentiation	3.15815202920817e-16
+GO:0007281~germ cell development	1.46593841321124e-14
+GO:0007286~spermatid development	7.52384730524112e-14
+GO:0051704~multi-organism process	1.67263360849272e-10
+GO:0003006~developmental process involved in reproduction	6.1295397587258e-10
+GO:0007338~single fertilization	7.2320051651215e-06
+GO:0000280~nuclear division	1.12975825062816e-05
+GO:0030317~sperm motility	1.19086968680605e-05
+GO:0048285~organelle fission	2.50133885249614e-05
+GO:0022402~cell cycle process	3.79841631760831e-05
+GO:0044772~mitotic cell cycle phase transition	4.49723594809898e-05
+GO:0009566~fertilization	4.50186241946827e-05
+GO:1903047~mitotic cell cycle process	5.44760485013402e-05
+GO:0048869~cellular developmental process	5.96301336222321e-05
+GO:0007049~cell cycle	6.6094909734524e-05
+GO:0045786~negative regulation of cell cycle	7.30469434205304e-05
+GO:0051321~meiotic cell cycle	7.60170520151825e-05
+GO:0007126~meiotic nuclear division	7.96897414063606e-05
+GO:0044770~cell cycle phase transition	8.75601783469397e-05
+GO:1903046~meiotic cell cycle process	0.000111957921460944
+GO:0030154~cell differentiation	0.000116978886319961
+GO:0000278~mitotic cell cycle	0.000164332972635582
+GO:0007339~binding of sperm to zona pellucida	0.000166731162715683
+GO:0044699~single-organism process	0.000184622205972883
+GO:0048469~cell maturation	0.000188284536731955
+GO:0048468~cell development	0.000189687516151253
+GO:1901991~negative regulation of mitotic cell cycle phase transition	0.000195996812484724
+GO:0006996~organelle organization	0.000230454435965135
+GO:0044763~single-organism cellular process	0.00023548904308566
+GO:0007093~mitotic cell cycle checkpoint	0.000238482906670907
+GO:0007140~male meiosis	0.000278202473799485
+GO:0045930~negative regulation of mitotic cell cycle	0.000306292107163271
+GO:1901988~negative regulation of cell cycle phase transition	0.000310133635125291
+GO:0007346~regulation of mitotic cell cycle	0.000433004079335976
+GO:0048240~sperm capacitation	0.000469381116130984
+GO:0035036~sperm-egg recognition	0.000512653599442039
+GO:0007067~mitotic nuclear division	0.000527256651839845
+GO:0010948~negative regulation of cell cycle process	0.000563182270262904
+GO:0044767~single-organism developmental process	0.0008492696498055
+GO:0006997~nucleus organization	0.000893867176815358
+GO:0002318~myeloid progenitor cell differentiation	0.00121764910565321
+GO:0051726~regulation of cell cycle	0.0014119774992509
+GO:0007127~meiosis I	0.00151819259294533
+GO:0016486~peptide hormone processing	0.00173929613174223
+GO:0009988~cell-cell recognition	0.0018034057963873
+GO:0032502~developmental process	0.00183880017801042
+GO:0000075~cell cycle checkpoint	0.00204760676981283
+GO:0021700~developmental maturation	0.00242507089714279
+GO:0048856~anatomical structure development	0.00269712180310238
+GO:1901990~regulation of mitotic cell cycle phase transition	0.00297696442624992
+GO:0000086~G2/M transition of mitotic cell cycle	0.00301800981951201
+GO:0032501~multicellular organismal process	0.00372611583554562
+GO:0018209~peptidyl-serine modification	0.00405255073621546
+GO:0051983~regulation of chromosome segregation	0.0041044800511338
+GO:0044839~cell cycle G2/M phase transition	0.00432989161193555
+GO:0051276~chromosome organization	0.00446308974167608
+GO:1901987~regulation of cell cycle phase transition	0.00465059300357134
+GO:0007088~regulation of mitotic nuclear division	0.00466924564143712
+GO:0044092~negative regulation of molecular function	0.00486248602919953
+GO:0000070~mitotic sister chromatid segregation	0.00495673419728007
+GO:0048599~oocyte development	0.00507508358272173
+GO:0009994~oocyte differentiation	0.00608280536927408
+GO:0014013~regulation of gliogenesis	0.00611465136472566
+GO:0007632~visual behavior	0.00681632634039768
+GO:0098813~nuclear chromosome segregation	0.00702316906021098
+GO:0007010~cytoskeleton organization	0.00713198907285754
+GO:0006260~DNA replication	0.00741766933825568
+GO:0007218~neuropeptide signaling pathway	0.00785565185591407
+GO:0000082~G1/S transition of mitotic cell cycle	0.00798531446585173
+GO:0007141~male meiosis I	0.00839070567729366
+GO:0016043~cellular component organization	0.00851929310342779
+GO:0046777~protein autophosphorylation	0.00867258213371294
+GO:1901796~regulation of signal transduction by p53 class mediator	0.00877368446149955
+GO:0006457~protein folding	0.00885083259219
+GO:0051783~regulation of nuclear division	0.00899475962098152
+GO:0010389~regulation of G2/M transition of mitotic cell cycle	0.00932217192246732
+GO:0051784~negative regulation of nuclear division	0.00932217192246732
+GO:0007289~spermatid nucleus differentiation	0.00933064304698748
+GO:0031099~regeneration	0.00991760690795106
+GO:0006259~DNA metabolic process	0.0100525078052961
+GO:0005996~monosaccharide metabolic process	0.0116300828294433
+GO:0009987~cellular process	0.0116686695493127
+GO:0044843~cell cycle G1/S phase transition	0.011849668463672
+GO:0007292~female gamete generation	0.0118933396360973
+GO:0018105~peptidyl-serine phosphorylation	0.0122976010069069
+GO:0006471~protein ADP-ribosylation	0.0124154008872489
+GO:1902749~regulation of cell cycle G2/M phase transition	0.0134000980963965
+GO:0044818~mitotic G2/M transition checkpoint	0.0135295417612145
+GO:0051301~cell division	0.0139366621321084
+GO:0006468~protein phosphorylation	0.0148710849121687
+GO:0044711~single-organism biosynthetic process	0.0151108305211331
+GO:0007059~chromosome segregation	0.015266954508907
+GO:0071840~cellular component organization or biogenesis	0.015320736381526
+GO:0022607~cellular component assembly	0.0157453387196179
+GO:0033043~regulation of organelle organization	0.0163393206204639
+GO:0006006~glucose metabolic process	0.0165070148687974
+GO:0006796~phosphate-containing compound metabolic process	0.0171602714847652
+GO:0010564~regulation of cell cycle process	0.017294273107747
+GO:0005975~carbohydrate metabolic process	0.0175871189965784
+GO:0006793~phosphorus metabolic process	0.0176368572195153
+GO:0010638~positive regulation of organelle organization	0.0182203018978362
+GO:0000083~regulation of transcription involved in G1/S transition of mitotic cell cycle	0.0183966359448286
+GO:0010972~negative regulation of G2/M transition of mitotic cell cycle	0.0183966359448286
+GO:1903959~regulation of anion transmembrane transport	0.019712589245126
+GO:0016310~phosphorylation	0.0202445242371195
+GO:1902750~negative regulation of cell cycle G2/M phase transition	0.0210668615718347
+GO:0031100~organ regeneration	0.0211517565971634
+GO:0006281~DNA repair	0.0221016612220683
+GO:1902589~single-organism organelle organization	0.0231632745167724
+GO:0051129~negative regulation of cellular component organization	0.0231830990210147
+GO:0048477~oogenesis	0.0241784868480189
+GO:0033044~regulation of chromosome organization	0.0246544931201252
+GO:0022602~ovulation cycle process	0.0249698685071897
+GO:0014009~glial cell proliferation	0.025353006534193
+GO:0071174~mitotic spindle checkpoint	0.0268540075822169
+GO:2000816~negative regulation of mitotic sister chromatid separation	0.0268540075822169
+GO:0070873~regulation of glycogen metabolic process	0.0268540075822169
+GO:0045841~negative regulation of mitotic metaphase/anaphase transition	0.0268540075822169
+GO:0030261~chromosome condensation	0.028390092482094
+GO:1902100~negative regulation of metaphase/anaphase transition of cell cycle	0.028390092482094
+GO:0043086~negative regulation of catalytic activity	0.0294794800686573
+GO:0033048~negative regulation of mitotic sister chromatid segregation	0.0299606370322692
+GO:0044070~regulation of anion transport	0.030008948542438
+GO:0000819~sister chromatid segregation	0.0302524476369012
+GO:1902513~regulation of organelle transport along microtubule	0.0306120713807186
+GO:0006642~triglyceride mobilization	0.0306120713807186
+GO:0043467~regulation of generation of precursor metabolites and energy	0.0308971068344355
+GO:0044723~single-organism carbohydrate metabolic process	0.0312423351449552
+GO:0010562~positive regulation of phosphorus metabolic process	0.0324538870369911
+GO:0045937~positive regulation of phosphate metabolic process	0.0324538870369911
+GO:0008037~cell recognition	0.0331039867870474
+GO:0033046~negative regulation of sister chromatid segregation	0.0332026453610261
+GO:0019318~hexose metabolic process	0.0338785500116955
+GO:0051985~negative regulation of chromosome segregation	0.0348728975881088
+GO:0044283~small molecule biosynthetic process	0.036047325901785
+GO:0044085~cellular component biogenesis	0.0362640687585057
+GO:0031577~spindle checkpoint	0.0365751862121187
+GO:0016485~protein processing	0.0366275593998
+GO:0002865~negative regulation of acute inflammatory response to antigenic stimulus	0.0381186493372352
+GO:1903795~regulation of inorganic anion transmembrane transport	0.0381186493372352
+GO:0032881~regulation of polysaccharide metabolic process	0.0383089234339942
+GO:0006090~pyruvate metabolic process	0.0395053821805889
+GO:0044707~single-multicellular organism process	0.0416120771322597
+GO:0051496~positive regulation of stress fiber assembly	0.0418684276703836
+GO:0007091~metaphase/anaphase transition of mitotic cell cycle	0.0418684276703836
+GO:0008217~regulation of blood pressure	0.0439627688414092
+GO:0006109~regulation of carbohydrate metabolic process	0.0455449137833453
+GO:0007077~mitotic nuclear envelope disassembly	0.0455468477095292
+GO:0045839~negative regulation of mitotic nuclear division	0.0455468477095292
+GO:1902804~negative regulation of synaptic vesicle transport	0.0455675428604349
+GO:1903431~positive regulation of cell maturation	0.0455675428604349
+GO:0010906~regulation of glucose metabolic process	0.0458500307457722
+GO:0002244~hematopoietic progenitor cell differentiation	0.0458500307457722
+GO:0007275~multicellular organism development	0.0470398730247459
+GO:0042312~regulation of vasodilation	0.0474292553441921
+GO:0008542~visual learning	0.0474292553441921
+GO:0042698~ovulation cycle	0.0480705200868326
+GO:0000226~microtubule cytoskeleton organization	0.048864393558746

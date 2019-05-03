@@ -1,0 +1,67 @@
+GO:0004175~endopeptidase activity	1.8875962665558e-49
+GO:0004252~serine-type endopeptidase activity	2.91460921115243e-49
+GO:0008236~serine-type peptidase activity	9.67136923743683e-49
+GO:0017171~serine hydrolase activity	1.61787943580997e-48
+GO:0070011~peptidase activity, acting on L-amino acid peptides	1.00340229309671e-44
+GO:0008233~peptidase activity	7.28263361884735e-44
+GO:0016787~hydrolase activity	4.80646774752263e-23
+GO:0005509~calcium ion binding	5.66129758004025e-16
+GO:0002020~protease binding	6.96145825699506e-12
+GO:0061134~peptidase regulator activity	1.66287665318245e-11
+GO:0008237~metallopeptidase activity	2.30565875820596e-11
+GO:0005518~collagen binding	6.40971585915176e-11
+GO:0005102~receptor binding	7.21982819761866e-11
+GO:0004222~metalloendopeptidase activity	7.95707388376735e-11
+GO:0004857~enzyme inhibitor activity	1.90558409615595e-10
+GO:0043167~ion binding	3.00658834749366e-10
+GO:0043169~cation binding	4.53305085100054e-10
+GO:0004866~endopeptidase inhibitor activity	1.0500578405748e-09
+GO:0061135~endopeptidase regulator activity	1.59312048333683e-09
+GO:0030414~peptidase inhibitor activity	1.95080829522986e-09
+GO:0046872~metal ion binding	2.51327964485888e-09
+GO:0004197~cysteine-type endopeptidase activity	2.54460793783937e-08
+GO:0030234~enzyme regulator activity	4.6999455459491e-08
+GO:0004867~serine-type endopeptidase inhibitor activity	6.63895551458413e-08
+GO:0098772~molecular function regulator	7.90083343421484e-08
+GO:0003824~catalytic activity	8.33484179140149e-08
+GO:0001948~glycoprotein binding	1.12077868914239e-07
+GO:0046914~transition metal ion binding	1.19686165197334e-07
+GO:0008238~exopeptidase activity	2.14099418231458e-07
+GO:0032403~protein complex binding	5.02273365886591e-07
+GO:0008201~heparin binding	5.11018322436723e-07
+GO:1901681~sulfur compound binding	2.18649039528519e-06
+GO:0008270~zinc ion binding	3.555494001417e-06
+GO:0043394~proteoglycan binding	3.90983087148287e-06
+GO:0005539~glycosaminoglycan binding	5.49224436716661e-06
+GO:0055102~lipase inhibitor activity	1.00394095557541e-05
+GO:0005178~integrin binding	1.95227374600328e-05
+GO:0008234~cysteine-type peptidase activity	2.77679481174223e-05
+GO:0004177~aminopeptidase activity	3.19320928766703e-05
+GO:0044877~macromolecular complex binding	0.000187756762066124
+GO:0005515~protein binding	0.000348597336919058
+GO:0070008~serine-type exopeptidase activity	0.000349945613860069
+GO:0001848~complement binding	0.000483335154445467
+GO:0019838~growth factor binding	0.000507407289862892
+GO:0050840~extracellular matrix binding	0.000777492095378243
+GO:0050839~cell adhesion molecule binding	0.000996728955109956
+GO:0048306~calcium-dependent protein binding	0.00109310057962124
+GO:0008235~metalloexopeptidase activity	0.00157900820630864
+GO:0019899~enzyme binding	0.00283890425938286
+GO:0005488~binding	0.00379792683639867
+GO:0043395~heparan sulfate proteoglycan binding	0.00855377795454213
+GO:0005507~copper ion binding	0.0100546919891237
+GO:0070325~lipoprotein particle receptor binding	0.0115624066410706
+GO:0004198~calcium-dependent cysteine-type endopeptidase activity	0.0115624066410706
+GO:0070006~metalloaminopeptidase activity	0.013788952938247
+GO:0017134~fibroblast growth factor binding	0.013788952938247
+GO:0008047~enzyme activator activity	0.0156066717531707
+GO:0038024~cargo receptor activity	0.0168286371756513
+GO:0001968~fibronectin binding	0.0174452513970418
+GO:0042802~identical protein binding	0.0188022200917958
+GO:0043236~laminin binding	0.022881264626147
+GO:0070653~high-density lipoprotein particle receptor binding	0.0232767411367448
+GO:0008289~lipid binding	0.0331596734683893
+GO:0016504~peptidase activator activity	0.0355145970568406
+GO:0008083~growth factor activity	0.0384077267436121
+GO:0015057~thrombin receptor activity	0.0384950252794678
+GO:0060228~phosphatidylcholine-sterol O-acyltransferase activator activity	0.0460156851913439

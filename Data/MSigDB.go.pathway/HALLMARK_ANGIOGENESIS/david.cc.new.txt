@@ -1,0 +1,49 @@
+GO:0005615~extracellular space	8.83626793596704e-12
+GO:0005576~extracellular region	6.03487792732903e-10
+GO:0044421~extracellular region part	7.87138167778275e-09
+GO:0031091~platelet alpha granule	2.6140088373552e-07
+GO:0034774~secretory granule lumen	5.19809148160658e-07
+GO:0060205~cytoplasmic membrane-bounded vesicle lumen	1.40532184353287e-06
+GO:0031983~vesicle lumen	1.47293422460113e-06
+GO:0031093~platelet alpha granule lumen	3.21891480157333e-06
+GO:0031012~extracellular matrix	4.52288097757826e-06
+GO:0031982~vesicle	6.46367869452057e-06
+GO:0009986~cell surface	7.86596009968677e-06
+GO:0030141~secretory granule	4.65569158302866e-05
+GO:0005578~proteinaceous extracellular matrix	4.87700380009971e-05
+GO:0031988~membrane-bounded vesicle	7.76903898774158e-05
+GO:0031410~cytoplasmic vesicle	7.98875348665892e-05
+GO:0097708~intracellular vesicle	8.09408198725613e-05
+GO:0099503~secretory vesicle	0.000200447396352745
+GO:0016023~cytoplasmic, membrane-bounded vesicle	0.000236916472920342
+GO:0044459~plasma membrane part	0.000551068533797132
+GO:0044433~cytoplasmic vesicle part	0.00086535048714501
+GO:0070062~extracellular exosome	0.00103324498047573
+GO:1903561~extracellular vesicle	0.00108366187304732
+GO:0043230~extracellular organelle	0.00108734198766736
+GO:0044420~extracellular matrix component	0.00172737425553601
+GO:0012505~endomembrane system	0.00233819358798791
+GO:0005887~integral component of plasma membrane	0.00244425098025835
+GO:0043235~receptor complex	0.00312082500074747
+GO:0031226~intrinsic component of plasma membrane	0.00320381050371894
+GO:0044444~cytoplasmic part	0.00526221132341361
+GO:0048237~rough endoplasmic reticulum lumen	0.00558688523347023
+GO:0005886~plasma membrane	0.00579479413371375
+GO:0005788~endoplasmic reticulum lumen	0.00623506250246922
+GO:0071944~cell periphery	0.00738437864976072
+GO:0005791~rough endoplasmic reticulum	0.00774603760765037
+GO:0005796~Golgi lumen	0.0138073550487724
+GO:0005581~collagen trimer	0.0154887588772393
+GO:0005775~vacuolar lumen	0.0197338045202802
+GO:0005583~fibrillar collagen trimer	0.0221663762569526
+GO:0098643~banded collagen fibril	0.0221663762569526
+GO:0044431~Golgi apparatus part	0.0256600681805379
+GO:0042627~chylomicron	0.0258141052821399
+GO:0045177~apical part of cell	0.0293192079208905
+GO:0034385~triglyceride-rich lipoprotein particle	0.036678225034129
+GO:0034361~very-low-density lipoprotein particle	0.036678225034129
+GO:0043227~membrane-bounded organelle	0.0374818303341347
+GO:0030027~lamellipodium	0.0416489797230919
+GO:0098644~complex of collagen trimers	0.0420660954571845
+GO:0098858~actin-based cell projection	0.0438315939553388
+GO:0043233~organelle lumen	0.047419474027592

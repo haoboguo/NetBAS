@@ -1,0 +1,44 @@
+GO:0044444~cytoplasmic part	8.3668641979738e-23
+GO:0005737~cytoplasm	1.84421716655924e-14
+GO:0070062~extracellular exosome	7.58227189017735e-14
+GO:1903561~extracellular vesicle	9.78119612612413e-14
+GO:0043230~extracellular organelle	9.95006386078253e-14
+GO:0044421~extracellular region part	3.00561474855619e-13
+GO:0005576~extracellular region	5.78706396052795e-12
+GO:0031982~vesicle	1.10165566373191e-11
+GO:0031988~membrane-bounded vesicle	1.16923391391292e-11
+GO:0005829~cytosol	3.65765893275076e-11
+GO:0005783~endoplasmic reticulum	2.79173587980768e-09
+GO:0005739~mitochondrion	1.76935325798964e-08
+GO:0043227~membrane-bounded organelle	2.79065652754113e-08
+GO:0005789~endoplasmic reticulum membrane	6.6777700195344e-08
+GO:0044432~endoplasmic reticulum part	7.94940635032275e-08
+GO:0042175~nuclear outer membrane-endoplasmic reticulum membrane network	1.08660031599611e-07
+GO:0005782~peroxisomal matrix	5.05754209694983e-07
+GO:0031907~microbody lumen	5.05754209694983e-07
+GO:0042579~microbody	1.75948867934945e-06
+GO:0005777~peroxisome	1.75948867934945e-06
+GO:0044439~peroxisomal part	6.46082371949447e-06
+GO:0044438~microbody part	6.46082371949447e-06
+GO:0005615~extracellular space	8.1694702035352e-06
+GO:0005759~mitochondrial matrix	1.23371729501958e-05
+GO:0043226~organelle	1.79988026398379e-05
+GO:0012505~endomembrane system	4.17533812875433e-05
+GO:0031090~organelle membrane	9.65097462861091e-05
+GO:0060205~cytoplasmic membrane-bounded vesicle lumen	0.000127132111898856
+GO:0031983~vesicle lumen	0.000134917951872316
+GO:0031091~platelet alpha granule	0.00014329360964251
+GO:0044424~intracellular part	0.000204633423351428
+GO:0072562~blood microparticle	0.000239016878238157
+GO:0031093~platelet alpha granule lumen	0.000286405219131136
+GO:0034774~secretory granule lumen	0.000303913413638061
+GO:0044429~mitochondrial part	0.000336125738385491
+GO:0005622~intracellular	0.000454897735211782
+GO:0044446~intracellular organelle part	0.00161403021416396
+GO:0044422~organelle part	0.00386045998857394
+GO:0043231~intracellular membrane-bounded organelle	0.00957394779314447
+GO:0031974~membrane-enclosed lumen	0.0211534939585643
+GO:0043233~organelle lumen	0.024150789370308
+GO:0044433~cytoplasmic vesicle part	0.0310303507514365
+GO:0005791~rough endoplasmic reticulum	0.0395505389758264
+GO:0098588~bounding membrane of organelle	0.0463378982243538

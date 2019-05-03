@@ -1,0 +1,145 @@
+GO:0048513~animal organ development	2.74438637777981e-05
+GO:0018958~phenol-containing compound metabolic process	3.47984781344601e-05
+GO:0043523~regulation of neuron apoptotic process	4.2345801630218e-05
+GO:0032501~multicellular organismal process	6.18319584750117e-05
+GO:0098742~cell-cell adhesion via plasma-membrane adhesion molecules	0.000139980118052773
+GO:0044707~single-multicellular organism process	0.000193850928675238
+GO:0022414~reproductive process	0.000230074291360521
+GO:0000003~reproduction	0.000234703611254064
+GO:0009887~organ morphogenesis	0.000268784195660803
+GO:0006584~catecholamine metabolic process	0.000304691189974554
+GO:0009712~catechol-containing compound metabolic process	0.000304691189974554
+GO:1901214~regulation of neuron death	0.000306636825954741
+GO:0043524~negative regulation of neuron apoptotic process	0.000308516671810716
+GO:0048731~system development	0.000373757433073542
+GO:0051402~neuron apoptotic process	0.000411917146319991
+GO:0007275~multicellular organism development	0.0004909764897172
+GO:0070997~neuron death	0.000504991908848734
+GO:0044767~single-organism developmental process	0.000623716445383085
+GO:0042417~dopamine metabolic process	0.000732472972959899
+GO:0010941~regulation of cell death	0.000808228934623705
+GO:0006915~apoptotic process	0.000944094662172474
+GO:1901215~negative regulation of neuron death	0.0011110983491759
+GO:0032502~developmental process	0.00130068127499319
+GO:0098609~cell-cell adhesion	0.00161583864332342
+GO:0007399~nervous system development	0.00167036289259869
+GO:0008219~cell death	0.00192884627122643
+GO:0042981~regulation of apoptotic process	0.00197878355784754
+GO:0012501~programmed cell death	0.00205627551485195
+GO:0007267~cell-cell signaling	0.00210035194847163
+GO:0043067~regulation of programmed cell death	0.00219852672556268
+GO:0048856~anatomical structure development	0.00223078123347256
+GO:0060548~negative regulation of cell death	0.00234597575152469
+GO:0043066~negative regulation of apoptotic process	0.00288718896711214
+GO:0043069~negative regulation of programmed cell death	0.00323692605184853
+GO:0044703~multi-organism reproductive process	0.0034480979683102
+GO:0051239~regulation of multicellular organismal process	0.00359647564272332
+GO:0007166~cell surface receptor signaling pathway	0.00380106098347173
+GO:0000122~negative regulation of transcription from RNA polymerase II promoter	0.00388804952102044
+GO:1901615~organic hydroxy compound metabolic process	0.00585281290712903
+GO:0055085~transmembrane transport	0.00597102539242909
+GO:0009713~catechol-containing compound biosynthetic process	0.00618304780562963
+GO:0042423~catecholamine biosynthetic process	0.00618304780562963
+GO:0007423~sensory organ development	0.00645667171009821
+GO:0014070~response to organic cyclic compound	0.00677516877370553
+GO:0031175~neuron projection development	0.00772872893980501
+GO:0007565~female pregnancy	0.00804542656801098
+GO:1905114~cell surface receptor signaling pathway involved in cell-cell signaling	0.00822695094695653
+GO:0010033~response to organic substance	0.00841024688274066
+GO:0098743~cell aggregation	0.00917603201653327
+GO:0001502~cartilage condensation	0.00917603201653327
+GO:0007517~muscle organ development	0.0108319311423141
+GO:0043010~camera-type eye development	0.0122113526358826
+GO:0016055~Wnt signaling pathway	0.0124460637731568
+GO:0198738~cell-cell signaling by wnt	0.0125941125599149
+GO:0060041~retina development in camera-type eye	0.0126554468113021
+GO:0097274~urea homeostasis	0.0131772763658126
+GO:0044706~multi-multicellular organism process	0.0140917134492606
+GO:0006811~ion transport	0.01503082612171
+GO:0035108~limb morphogenesis	0.0167796737389222
+GO:0035107~appendage morphogenesis	0.0167796737389222
+GO:0042129~regulation of T cell proliferation	0.0179274667445758
+GO:0030154~cell differentiation	0.0180600775162373
+GO:0051321~meiotic cell cycle	0.0183356404428865
+GO:0043588~skin development	0.0202462576818713
+GO:0009653~anatomical structure morphogenesis	0.0206678103627549
+GO:0060322~head development	0.0208503953823532
+GO:2001236~regulation of extrinsic apoptotic signaling pathway	0.0221019255610064
+GO:0003008~system process	0.022369806497654
+GO:0006936~muscle contraction	0.0226209553782937
+GO:0050896~response to stimulus	0.0231479654488808
+GO:0045597~positive regulation of cell differentiation	0.023253842274676
+GO:0001654~eye development	0.0235175756424397
+GO:0008284~positive regulation of cell proliferation	0.0247182752313896
+GO:0007431~salivary gland development	0.024811268415539
+GO:0034220~ion transmembrane transport	0.025252209900484
+GO:0009719~response to endogenous stimulus	0.0254387732216008
+GO:0048666~neuron development	0.0256102300470887
+GO:0046189~phenol-containing compound biosynthetic process	0.0260783415172695
+GO:0060173~limb development	0.0263278969519724
+GO:0048736~appendage development	0.0263278969519724
+GO:0042102~positive regulation of T cell proliferation	0.0271775400831259
+GO:0006812~cation transport	0.0274567788419206
+GO:0048812~neuron projection morphogenesis	0.0275603133652742
+GO:0071310~cellular response to organic substance	0.027879069775747
+GO:0042098~T cell proliferation	0.0283514865363538
+GO:0042110~T cell activation	0.0285525838543652
+GO:0070489~T cell aggregation	0.0285525838543652
+GO:0071593~lymphocyte aggregation	0.0288537090566047
+GO:0007270~neuron-neuron synaptic transmission	0.0293613433147706
+GO:0007155~cell adhesion	0.0296965304032101
+GO:0060538~skeletal muscle organ development	0.0304655285473514
+GO:0022610~biological adhesion	0.0306183666331961
+GO:0070486~leukocyte aggregation	0.0310222558936302
+GO:0030182~neuron differentiation	0.0312205933755042
+GO:0007610~behavior	0.0313881506968382
+GO:0007129~synapsis	0.0314005474260513
+GO:1901700~response to oxygen-containing compound	0.0314515741291509
+GO:0007126~meiotic nuclear division	0.0315566454352278
+GO:0015705~iodide transport	0.0326212067389397
+GO:0048699~generation of neurons	0.033489782794485
+GO:0044765~single-organism transport	0.0338736265642129
+GO:0007127~meiosis I	0.034807438506848
+GO:0010629~negative regulation of gene expression	0.0348332096018768
+GO:0048585~negative regulation of response to stimulus	0.0357943970825557
+GO:0010243~response to organonitrogen compound	0.035991536171152
+GO:0007417~central nervous system development	0.0366687250406482
+GO:1903046~meiotic cell cycle process	0.0367496389043373
+GO:0043525~positive regulation of neuron apoptotic process	0.0371107367559089
+GO:0007420~brain development	0.0373716323524131
+GO:0048869~cellular developmental process	0.0377595153436834
+GO:0070887~cellular response to chemical stimulus	0.0382465973520066
+GO:0007626~locomotory behavior	0.0385839440427008
+GO:0060350~endochondral bone morphogenesis	0.0385961225336872
+GO:0009888~tissue development	0.0393488805616893
+GO:0034097~response to cytokine	0.0395341451745232
+GO:0060070~canonical Wnt signaling pathway	0.0402823710841543
+GO:2001233~regulation of apoptotic signaling pathway	0.0403573626955782
+GO:0015850~organic hydroxy compound transport	0.040470043772151
+GO:0022612~gland morphogenesis	0.0407391644848835
+GO:0035272~exocrine system development	0.0416337742400275
+GO:0035249~synaptic transmission, glutamatergic	0.0416337742400275
+GO:0015672~monovalent inorganic cation transport	0.042333295593378
+GO:0050670~regulation of lymphocyte proliferation	0.0424079737183143
+GO:0022407~regulation of cell-cell adhesion	0.043001443390323
+GO:0030001~metal ion transport	0.0430130280008907
+GO:0006814~sodium ion transport	0.0430654697500755
+GO:0032944~regulation of mononuclear cell proliferation	0.0430654697500755
+GO:0098655~cation transmembrane transport	0.0432360132445077
+GO:0032872~regulation of stress-activated MAPK cascade	0.043728724738853
+GO:0040007~growth	0.0441138991522403
+GO:0007159~leukocyte cell-cell adhesion	0.0443144611067782
+GO:0070302~regulation of stress-activated protein kinase signaling cascade	0.0443977376590751
+GO:0032655~regulation of interleukin-12 production	0.0447582489087949
+GO:2001239~regulation of extrinsic apoptotic signaling pathway in absence of ligand	0.0447582489087949
+GO:0032615~interleukin-12 production	0.046352176927616
+GO:0007268~chemical synaptic transmission	0.0468792762957327
+GO:0099537~trans-synaptic signaling	0.0468792762957327
+GO:0098916~anterograde trans-synaptic signaling	0.0468792762957327
+GO:0099536~synaptic signaling	0.0468792762957327
+GO:0060429~epithelium development	0.0472726255095445
+GO:0010942~positive regulation of cell death	0.0480125363802812
+GO:0050863~regulation of T cell activation	0.0483699485733829
+GO:0070663~regulation of leukocyte proliferation	0.0492418853278764
+GO:0051240~positive regulation of multicellular organismal process	0.0495830911372641
+GO:2001238~positive regulation of extrinsic apoptotic signaling pathway	0.0496017096469818

@@ -1,0 +1,5 @@
+Total number of genes in the selected network: 22194 (used for the enrichment analysis)
+Total number of seeds: 323
+Total number of seeds in the selected network: 195
+Total number of seeds in the retrieved sub-network: 146 (used for the enrichment analysis)
+All seeds in the retrieved sub-network can enrich to 1526 GO BP categories.

@@ -5,11 +5,13 @@ rm(list=ls())
 library(pracma)
 library(gplots)
 
-filename <- read.csv("HMK.bp.top10.txt", header=T, sep="\t", stringsAsFactors=F)
-go.id <- filename$GO.ID
-go.term <- filename$GO.Term
-netbas <- filename$NetBAS
-david <- filename$DAVID
+filename <- read.csv("HMK.bp.new.txt", header=T, sep="\t", stringsAsFactors=F)
+go.id <- filename$GO.ID[1:10]
+go.term <- filename$GO.Term[1:10]
+netbas <- filename$zscore[1:10]
+
+netdav <- read.csv("net.dav.txt", header=T, sep=" ", stringsAsFactors=F)
+david <- netdav$DAVID[1:10]
 
 #convert DAVID p-values to z-scores
 z.david <- c()
@@ -30,10 +32,10 @@ rownames(zscores) <- go.id
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
 my_palette <- colorRampPalette(c("white", "red2"))(n=9)
 
-p.david <- c("1.2E-74", "1.1E-9", "4.9E-35", "1.1E-17", "4.7E-21", "4.9E-18", "1.3E-18", "1.4E-15", "1.7E-10", "2.5E-9")
+p.david <- formatC(david, format="E", digits=1)
 note <- cbind(netbas, p.david)
 
-png(filename= "netbas-david.bp.top10.png", width=3.5, height=6, res=1200, unit="in")
+png(filename= "Net.DAV.BP10.png", width=3.5, height=6, res=1200, unit="in")
 heatmap.2(zscores, col=my_palette, dendrogram='none', breaks=colors,
           colsep = 1:2, rowsep = 1:10, sepcolor="lightgrey", sepwidth=c(0.02,0.02),
           trace='none', Rowv=F, Colv=F,

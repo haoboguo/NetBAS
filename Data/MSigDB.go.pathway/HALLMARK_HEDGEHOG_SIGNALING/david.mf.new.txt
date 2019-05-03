@@ -1,0 +1,36 @@
+GO:0005539~glycosaminoglycan binding	4.15719839929065e-05
+GO:0005102~receptor binding	4.61700510384792e-05
+GO:0005515~protein binding	0.000109776523382754
+GO:0008201~heparin binding	0.000227261253482365
+GO:1901681~sulfur compound binding	0.000938852864378019
+GO:0050840~extracellular matrix binding	0.0045164702810811
+GO:0046983~protein dimerization activity	0.00522991073289371
+GO:0035939~microsatellite binding	0.00567642918907972
+GO:0097367~carbohydrate derivative binding	0.00669590059131418
+GO:0044877~macromolecular complex binding	0.00987894269099752
+GO:1990837~sequence-specific double-stranded DNA binding	0.0110787801160945
+GO:0042803~protein homodimerization activity	0.0113906111616579
+GO:0042802~identical protein binding	0.0121147884147247
+GO:0005021~vascular endothelial growth factor-activated receptor activity	0.0131964650381548
+GO:0003696~satellite DNA binding	0.0131964650381548
+GO:0008047~enzyme activator activity	0.0136170142298313
+GO:0019955~cytokine binding	0.0139286724253824
+GO:0005113~patched binding	0.0150678478229325
+GO:0005096~GTPase activator activity	0.015553564619731
+GO:0001948~glycoprotein binding	0.0162337535030128
+GO:0003690~double-stranded DNA binding	0.0168195832030028
+GO:0008092~cytoskeletal protein binding	0.0204215823998927
+GO:0030695~GTPase regulator activity	0.0205322908011004
+GO:0017154~semaphorin receptor activity	0.022519057977001
+GO:0060589~nucleoside-triphosphatase regulator activity	0.026695101455706
+GO:0000988~transcription factor activity, protein binding	0.0275195915425062
+GO:0034185~apolipoprotein binding	0.0280715991437496
+GO:0004888~transmembrane signaling receptor activity	0.0340860999478588
+GO:0000981~RNA polymerase II transcription factor activity, sequence-specific DNA binding	0.0353036195469749
+GO:0030332~cyclin binding	0.0372580020599744
+GO:0005488~binding	0.0387416427802243
+GO:0000983~transcription factor activity, RNA polymerase II core promoter sequence-specific	0.0390851620125665
+GO:0099600~transmembrane receptor activity	0.0404064328959379
+GO:0004871~signal transducer activity	0.0437409718928493
+GO:0005509~calcium ion binding	0.0452251225059281
+GO:0038023~signaling receptor activity	0.0474467649321994

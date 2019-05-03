@@ -1,0 +1,42 @@
+GO:0003824~catalytic activity	3.14468615381331e-05
+GO:0050662~coenzyme binding	7.76942018804898e-05
+GO:0016614~oxidoreductase activity, acting on CH-OH group of donors	0.000116079389098292
+GO:0019899~enzyme binding	0.00026628116523536
+GO:0016616~oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	0.000492963801165267
+GO:0036094~small molecule binding	0.000603256048641152
+GO:0005515~protein binding	0.000662650811878593
+GO:0048037~cofactor binding	0.000827560618461169
+GO:0004674~protein serine/threonine kinase activity	0.000943526285002066
+GO:0004672~protein kinase activity	0.000985685837322755
+GO:0000166~nucleotide binding	0.00108267028725401
+GO:1901265~nucleoside phosphate binding	0.0010892743288238
+GO:0051287~NAD binding	0.00320247674152369
+GO:0005488~binding	0.00346881165496823
+GO:0016773~phosphotransferase activity, alcohol group as acceptor	0.00416199443190318
+GO:0016491~oxidoreductase activity	0.00938995563868839
+GO:0019901~protein kinase binding	0.00951132629956743
+GO:0097367~carbohydrate derivative binding	0.0106087908943987
+GO:0016404~15-hydroxyprostaglandin dehydrogenase (NAD+) activity	0.0111061020685251
+GO:0035639~purine ribonucleoside triphosphate binding	0.0121880610399
+GO:0032550~purine ribonucleoside binding	0.012775012929147
+GO:0032549~ribonucleoside binding	0.012975613964792
+GO:0001883~purine nucleoside binding	0.012975613964792
+GO:0001882~nucleoside binding	0.0134534853966728
+GO:0016301~kinase activity	0.0135450813771431
+GO:0032555~purine ribonucleotide binding	0.0151994749190343
+GO:0004693~cyclin-dependent protein serine/threonine kinase activity	0.0153298712770484
+GO:0097472~cyclin-dependent protein kinase activity	0.0153298712770484
+GO:0016772~transferase activity, transferring phosphorus-containing groups	0.0162121017936033
+GO:0017076~purine nucleotide binding	0.0162176253207613
+GO:0032553~ribonucleotide binding	0.0164600700639911
+GO:0019900~kinase binding	0.0178400756229253
+GO:0042802~identical protein binding	0.0178468062895171
+GO:0005524~ATP binding	0.0178790733266112
+GO:0042803~protein homodimerization activity	0.0203449997461307
+GO:0032559~adenyl ribonucleotide binding	0.021699190681109
+GO:0043028~cysteine-type endopeptidase regulator activity involved in apoptotic process	0.0218516960401184
+GO:0030554~adenyl nucleotide binding	0.0229828280814085
+GO:0005080~protein kinase C binding	0.0270921280772115
+GO:0051575~5'-deoxyribose-5-phosphate lyase activity	0.0275368308758046
+GO:0003691~double-stranded telomeric DNA binding	0.0436974153136354
+GO:0016740~transferase activity	0.0483993343502646

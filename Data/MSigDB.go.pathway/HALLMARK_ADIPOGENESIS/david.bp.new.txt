@@ -1,0 +1,471 @@
+GO:0044281~small molecule metabolic process	1.89774347691919e-39
+GO:0055114~oxidation-reduction process	1.38382902139937e-36
+GO:0044710~single-organism metabolic process	1.20432421929636e-35
+GO:0006082~organic acid metabolic process	3.72608154285369e-27
+GO:0006091~generation of precursor metabolites and energy	1.12198500154496e-25
+GO:0019752~carboxylic acid metabolic process	1.2824466182892e-24
+GO:0043436~oxoacid metabolic process	1.68839163611625e-24
+GO:0032787~monocarboxylic acid metabolic process	2.13015825750622e-24
+GO:0015980~energy derivation by oxidation of organic compounds	7.02283992183989e-24
+GO:0045333~cellular respiration	3.48791613950401e-22
+GO:0006631~fatty acid metabolic process	6.88761688545727e-21
+GO:0044282~small molecule catabolic process	9.23386078437773e-20
+GO:0044712~single-organism catabolic process	1.07824388148602e-17
+GO:0019395~fatty acid oxidation	1.38932349255646e-17
+GO:0044711~single-organism biosynthetic process	1.40038433366977e-17
+GO:0034440~lipid oxidation	2.05750383496502e-17
+GO:0006629~lipid metabolic process	4.92190204253837e-17
+GO:0009062~fatty acid catabolic process	6.56150588689778e-17
+GO:0044242~cellular lipid catabolic process	6.79062512903592e-17
+GO:0009141~nucleoside triphosphate metabolic process	2.66543793484414e-16
+GO:0016054~organic acid catabolic process	4.01522633011334e-16
+GO:0006753~nucleoside phosphate metabolic process	4.89311584005573e-16
+GO:0019637~organophosphate metabolic process	5.39903820856631e-16
+GO:0055086~nucleobase-containing small molecule metabolic process	8.05540726500134e-16
+GO:0006635~fatty acid beta-oxidation	8.50987855012146e-16
+GO:0044255~cellular lipid metabolic process	1.34500912628764e-15
+GO:0072329~monocarboxylic acid catabolic process	1.64371356564902e-15
+GO:0009117~nucleotide metabolic process	1.95008935378013e-15
+GO:0016042~lipid catabolic process	2.26507963334669e-15
+GO:0022904~respiratory electron transport chain	3.68250686275859e-15
+GO:0046395~carboxylic acid catabolic process	3.72016728533821e-15
+GO:0009199~ribonucleoside triphosphate metabolic process	4.11522624025535e-15
+GO:0009060~aerobic respiration	4.62705800581483e-15
+GO:0022900~electron transport chain	4.95786227042228e-15
+GO:0019693~ribose phosphate metabolic process	1.03644250542423e-14
+GO:0009119~ribonucleoside metabolic process	1.8703000320634e-14
+GO:0009205~purine ribonucleoside triphosphate metabolic process	2.44646441845096e-14
+GO:0009161~ribonucleoside monophosphate metabolic process	2.67548629129158e-14
+GO:0046034~ATP metabolic process	3.33526023662528e-14
+GO:0009144~purine nucleoside triphosphate metabolic process	4.26668227708808e-14
+GO:0006119~oxidative phosphorylation	5.60759201662205e-14
+GO:0042775~mitochondrial ATP synthesis coupled electron transport	6.89788289956078e-14
+GO:0009123~nucleoside monophosphate metabolic process	7.4059102100932e-14
+GO:0042773~ATP synthesis coupled electron transport	8.16304586128002e-14
+GO:0009116~nucleoside metabolic process	1.02253810397626e-13
+GO:1901564~organonitrogen compound metabolic process	1.02744526690724e-13
+GO:0046128~purine ribonucleoside metabolic process	1.83056898264029e-13
+GO:0009259~ribonucleotide metabolic process	2.13022429138343e-13
+GO:0042278~purine nucleoside metabolic process	2.21781216715106e-13
+GO:1901657~glycosyl compound metabolic process	3.53332498487453e-13
+GO:0006099~tricarboxylic acid cycle	3.63935336051346e-13
+GO:0006732~coenzyme metabolic process	8.13211224941184e-13
+GO:0009167~purine ribonucleoside monophosphate metabolic process	8.65680825866275e-13
+GO:0009126~purine nucleoside monophosphate metabolic process	9.29334486111339e-13
+GO:0072521~purine-containing compound metabolic process	1.35551490977765e-12
+GO:0006163~purine nucleotide metabolic process	2.25914451764741e-12
+GO:0009150~purine ribonucleotide metabolic process	3.89696776921426e-12
+GO:0051186~cofactor metabolic process	7.38439400533318e-12
+GO:0030258~lipid modification	1.23179980002156e-11
+GO:0006796~phosphate-containing compound metabolic process	1.74864254902971e-11
+GO:0006793~phosphorus metabolic process	1.92319054665991e-11
+GO:0044699~single-organism process	2.41997059085163e-10
+GO:0044763~single-organism cellular process	2.54642493425316e-10
+GO:0009056~catabolic process	8.51301331234863e-10
+GO:0044283~small molecule biosynthetic process	9.63332224776688e-10
+GO:0044248~cellular catabolic process	1.38735199654331e-09
+GO:1901135~carbohydrate derivative metabolic process	2.52328588326097e-09
+GO:0055088~lipid homeostasis	1.29310520324934e-08
+GO:0019915~lipid storage	1.87944216804296e-08
+GO:0019216~regulation of lipid metabolic process	2.1371188856904e-08
+GO:1901575~organic substance catabolic process	2.21799488612006e-08
+GO:0006733~oxidoreduction coenzyme metabolic process	4.684441618575e-08
+GO:0016310~phosphorylation	2.11312308498027e-07
+GO:0016051~carbohydrate biosynthetic process	2.86256191945762e-07
+GO:0072350~tricarboxylic acid metabolic process	2.91733830948875e-07
+GO:0010883~regulation of lipid storage	3.55268168996831e-07
+GO:0005996~monosaccharide metabolic process	5.51565664310889e-07
+GO:0044237~cellular metabolic process	9.21960438879033e-07
+GO:0010876~lipid localization	1.36671943239279e-06
+GO:0006006~glucose metabolic process	1.47533394488694e-06
+GO:0006641~triglyceride metabolic process	2.12037769593961e-06
+GO:0046364~monosaccharide biosynthetic process	2.86099743285896e-06
+GO:0008152~metabolic process	2.90206176813648e-06
+GO:0006066~alcohol metabolic process	3.2112032788978e-06
+GO:0009081~branched-chain amino acid metabolic process	3.5707884392329e-06
+GO:1902578~single-organism localization	3.75482683734497e-06
+GO:0006790~sulfur compound metabolic process	4.01043733858212e-06
+GO:0009108~coenzyme biosynthetic process	4.36494500362104e-06
+GO:0044765~single-organism transport	4.904397482179e-06
+GO:0008203~cholesterol metabolic process	5.30183985530939e-06
+GO:0005975~carbohydrate metabolic process	5.4716918695012e-06
+GO:0090407~organophosphate biosynthetic process	5.74085371111686e-06
+GO:0008610~lipid biosynthetic process	5.96169308995481e-06
+GO:0006639~acylglycerol metabolic process	6.55181919606283e-06
+GO:0006638~neutral lipid metabolic process	7.02098187149436e-06
+GO:1902652~secondary alcohol metabolic process	8.04614000942049e-06
+GO:0019362~pyridine nucleotide metabolic process	9.19675022986539e-06
+GO:0046496~nicotinamide nucleotide metabolic process	9.19675022986539e-06
+GO:0010885~regulation of cholesterol storage	9.63832145304738e-06
+GO:0019318~hexose metabolic process	1.04689241437056e-05
+GO:0046487~glyoxylate metabolic process	1.26267517298221e-05
+GO:0046890~regulation of lipid biosynthetic process	1.2705657928355e-05
+GO:0008202~steroid metabolic process	1.28070113504907e-05
+GO:0016125~sterol metabolic process	1.35297544886248e-05
+GO:1901615~organic hydroxy compound metabolic process	1.36447140432097e-05
+GO:0072524~pyridine-containing compound metabolic process	1.53154143151753e-05
+GO:0030301~cholesterol transport	1.60692819971204e-05
+GO:0010878~cholesterol storage	1.80836038528686e-05
+GO:0006122~mitochondrial electron transport, ubiquinol to cytochrome c	1.80836038528686e-05
+GO:0015918~sterol transport	1.92141160392687e-05
+GO:0071704~organic substance metabolic process	1.93408928192107e-05
+GO:0006120~mitochondrial electron transport, NADH to ubiquinone	2.53841124894131e-05
+GO:0097006~regulation of plasma lipoprotein particle levels	3.49265577409364e-05
+GO:1902600~hydrogen ion transmembrane transport	3.70249168109979e-05
+GO:0051188~cofactor biosynthetic process	3.77538800484037e-05
+GO:0098869~cellular oxidant detoxification	4.35372501199665e-05
+GO:0050873~brown fat cell differentiation	4.50795421584902e-05
+GO:0006101~citrate metabolic process	4.52993390653969e-05
+GO:0006869~lipid transport	4.58175296419077e-05
+GO:0043648~dicarboxylic acid metabolic process	4.69564484340252e-05
+GO:0033539~fatty acid beta-oxidation using acyl-CoA dehydrogenase	4.95980699784043e-05
+GO:0009083~branched-chain amino acid catabolic process	4.95980699784043e-05
+GO:1990748~cellular detoxification	5.05927032107081e-05
+GO:0015992~proton transport	5.25984084564652e-05
+GO:0006818~hydrogen transport	5.80033556992559e-05
+GO:0032371~regulation of sterol transport	5.89542217667373e-05
+GO:0032374~regulation of cholesterol transport	5.89542217667373e-05
+GO:0006839~mitochondrial transport	6.25456863410794e-05
+GO:0051289~protein homotetramerization	6.25922225698534e-05
+GO:0001676~long-chain fatty acid metabolic process	6.29099299268833e-05
+GO:0098754~detoxification	6.75222122163474e-05
+GO:0006810~transport	7.4671290029023e-05
+GO:0010884~positive regulation of lipid storage	7.52691337351901e-05
+GO:0009636~response to toxic substance	8.66910777795229e-05
+GO:0090181~regulation of cholesterol metabolic process	9.12020993561937e-05
+GO:0055092~sterol homeostasis	0.000105489383932801
+GO:0042632~cholesterol homeostasis	0.000105489383932801
+GO:0044723~single-organism carbohydrate metabolic process	0.000127371750993567
+GO:1901700~response to oxygen-containing compound	0.000153289907000603
+GO:0006094~gluconeogenesis	0.000156734304019898
+GO:0043434~response to peptide hormone	0.000172835543243444
+GO:0010243~response to organonitrogen compound	0.000180451103387982
+GO:0051234~establishment of localization	0.00019083101017685
+GO:0019218~regulation of steroid metabolic process	0.000195844304088916
+GO:0019319~hexose biosynthetic process	0.000195844304088916
+GO:1901293~nucleoside phosphate biosynthetic process	0.000216186730618419
+GO:0009142~nucleoside triphosphate biosynthetic process	0.00025954098381747
+GO:0010743~regulation of macrophage derived foam cell differentiation	0.000278722277657537
+GO:0051224~negative regulation of protein transport	0.000307346689093584
+GO:0010033~response to organic substance	0.000341345052834818
+GO:0007005~mitochondrion organization	0.000351070456011507
+GO:0019254~carnitine metabolic process, CoA-linked	0.000363448068389566
+GO:0032868~response to insulin	0.000400926440374339
+GO:0009156~ribonucleoside monophosphate biosynthetic process	0.000435125529052892
+GO:1901652~response to peptide	0.000439079807462602
+GO:0006979~response to oxidative stress	0.000457783319195734
+GO:1904950~negative regulation of establishment of protein localization	0.000457825866590662
+GO:0019433~triglyceride catabolic process	0.000463899874156572
+GO:0033108~mitochondrial respiratory chain complex assembly	0.000490878478769483
+GO:0051051~negative regulation of transport	0.000501579780803367
+GO:0090077~foam cell differentiation	0.000521236502018185
+GO:0010742~macrophage derived foam cell differentiation	0.000521236502018185
+GO:0032368~regulation of lipid transport	0.000552043053328736
+GO:0009260~ribonucleotide biosynthetic process	0.000618200987735341
+GO:0046390~ribose phosphate biosynthetic process	0.000675424310130891
+GO:0042493~response to drug	0.000682119033228078
+GO:0035383~thioester metabolic process	0.000692033165344912
+GO:0006637~acyl-CoA metabolic process	0.000692033165344912
+GO:0009124~nucleoside monophosphate biosynthetic process	0.000730978709231288
+GO:0006090~pyruvate metabolic process	0.000730978709231288
+GO:0009165~nucleotide biosynthetic process	0.000752471845976482
+GO:0046888~negative regulation of hormone secretion	0.000762218977949435
+GO:0051260~protein homooligomerization	0.000804518221699768
+GO:0032373~positive regulation of sterol transport	0.000811030989393873
+GO:0032376~positive regulation of cholesterol transport	0.000811030989393873
+GO:0042157~lipoprotein metabolic process	0.000837943431061499
+GO:0051262~protein tetramerization	0.000874606534323801
+GO:0046461~neutral lipid catabolic process	0.000885455117344426
+GO:0046464~acylglycerol catabolic process	0.000885455117344426
+GO:0044262~cellular carbohydrate metabolic process	0.000899683618409961
+GO:1901698~response to nitrogen compound	0.000945819865929342
+GO:0046165~alcohol biosynthetic process	0.00100151990595928
+GO:0046942~carboxylic acid transport	0.00100908394284374
+GO:0046486~glycerolipid metabolic process	0.00107490868136983
+GO:1902580~single-organism cellular localization	0.00114718353743789
+GO:0090278~negative regulation of peptide hormone secretion	0.00117424230901837
+GO:0006102~isocitrate metabolic process	0.00119387912777639
+GO:0002792~negative regulation of peptide secretion	0.0012835894403144
+GO:0048878~chemical homeostasis	0.00133691980576704
+GO:0051048~negative regulation of secretion	0.00142053302174969
+GO:0051235~maintenance of location	0.00149929895532888
+GO:0015850~organic hydroxy compound transport	0.0015058886925986
+GO:0045444~fat cell differentiation	0.00160621585294069
+GO:0005978~glycogen biosynthetic process	0.00165408408669631
+GO:0044238~primary metabolic process	0.00169406559376636
+GO:0033211~adiponectin-activated signaling pathway	0.00177776950732869
+GO:0031667~response to nutrient levels	0.00185940739029605
+GO:0006695~cholesterol biosynthetic process	0.00193872636810991
+GO:0034637~cellular carbohydrate biosynthetic process	0.00205096391452043
+GO:1902653~secondary alcohol biosynthetic process	0.00209301603703706
+GO:0032370~positive regulation of lipid transport	0.00209301603703706
+GO:0042455~ribonucleoside biosynthetic process	0.00210205743217807
+GO:0046503~glycerolipid catabolic process	0.00225558153369356
+GO:0042592~homeostatic process	0.0022706549675964
+GO:1901617~organic hydroxy compound biosynthetic process	0.00236361183575111
+GO:0000302~response to reactive oxygen species	0.00239453648215044
+GO:0046903~secretion	0.00240634406934193
+GO:0015908~fatty acid transport	0.0024063890156623
+GO:0032940~secretion by cell	0.00240948886995313
+GO:0051049~regulation of transport	0.00243544217844612
+GO:0010886~positive regulation of cholesterol storage	0.0024707575746665
+GO:0009250~glucan biosynthetic process	0.00260642095117515
+GO:0070482~response to oxygen levels	0.00268448073625045
+GO:1903531~negative regulation of secretion by cell	0.00298586115380132
+GO:0016126~sterol biosynthetic process	0.00299298857962292
+GO:0009163~nucleoside biosynthetic process	0.00314741386493508
+GO:0015909~long-chain fatty acid transport	0.00320020697001586
+GO:0046939~nucleotide phosphorylation	0.00324845912114367
+GO:0071702~organic substance transport	0.00333998375609758
+GO:0072593~reactive oxygen species metabolic process	0.00336547589091066
+GO:1901659~glycosyl compound biosynthetic process	0.00339611122957441
+GO:0009991~response to extracellular stimulus	0.00339925608097306
+GO:0009719~response to endogenous stimulus	0.00346416462451666
+GO:0031347~regulation of defense response	0.00353456282032308
+GO:0017038~protein import	0.00372581004333731
+GO:0001101~response to acid chemical	0.00386918973174159
+GO:0015711~organic anion transport	0.00389406365699619
+GO:0006112~energy reserve metabolic process	0.00391619032261406
+GO:0042180~cellular ketone metabolic process	0.00405542608115385
+GO:0015718~monocarboxylic acid transport	0.00423029890320973
+GO:1902582~single-organism intracellular transport	0.00461071085106553
+GO:0072330~monocarboxylic acid biosynthetic process	0.00473645406082655
+GO:0014823~response to activity	0.00493024562186023
+GO:1901566~organonitrogen compound biosynthetic process	0.00501897864761533
+GO:0032981~mitochondrial respiratory chain complex I assembly	0.0052197350172403
+GO:0097031~mitochondrial respiratory chain complex I biogenesis	0.0052197350172403
+GO:0010257~NADH dehydrogenase complex assembly	0.0052197350172403
+GO:0034381~plasma lipoprotein particle clearance	0.0052373948866471
+GO:0006633~fatty acid biosynthetic process	0.00556669224164779
+GO:0036293~response to decreased oxygen levels	0.00567636216766089
+GO:0070328~triglyceride homeostasis	0.00571474438793975
+GO:0055090~acylglycerol homeostasis	0.00571474438793975
+GO:0007006~mitochondrial membrane organization	0.00576856364830248
+GO:0035384~thioester biosynthetic process	0.00583240330865972
+GO:0071616~acyl-CoA biosynthetic process	0.00583240330865972
+GO:0009152~purine ribonucleotide biosynthetic process	0.0060643588264816
+GO:0009306~protein secretion	0.00613791096122679
+GO:0071827~plasma lipoprotein particle organization	0.00621734192554311
+GO:0006739~NADP metabolic process	0.00621734192554311
+GO:0032680~regulation of tumor necrosis factor production	0.00625170055114508
+GO:0042981~regulation of apoptotic process	0.00632369940575482
+GO:0033692~cellular polysaccharide biosynthetic process	0.0064912212003154
+GO:0050764~regulation of phagocytosis	0.0064912212003154
+GO:0050709~negative regulation of protein secretion	0.00650362875565346
+GO:0051259~protein oligomerization	0.00655092988216347
+GO:0009743~response to carbohydrate	0.0065965152438533
+GO:0009725~response to hormone	0.00669749658840497
+GO:0002576~platelet degranulation	0.00676259656040378
+GO:0009201~ribonucleoside triphosphate biosynthetic process	0.00683838589468241
+GO:1903555~regulation of tumor necrosis factor superfamily cytokine production	0.00702870296767487
+GO:0043067~regulation of programmed cell death	0.00710700086290475
+GO:0006164~purine nucleotide biosynthetic process	0.00713488502371928
+GO:1901565~organonitrogen compound catabolic process	0.00721417869066487
+GO:0042181~ketone biosynthetic process	0.00729959184145953
+GO:0001659~temperature homeostasis	0.00729959184145953
+GO:0071825~protein-lipid complex subunit organization	0.00729959184145953
+GO:0006107~oxaloacetate metabolic process	0.00748738858494709
+GO:0006105~succinate metabolic process	0.00748738858494709
+GO:0010889~regulation of sequestering of triglyceride	0.00748738858494709
+GO:0032799~low-density lipoprotein receptor particle metabolic process	0.00748738858494709
+GO:0044272~sulfur compound biosynthetic process	0.00773212961010416
+GO:0010942~positive regulation of cell death	0.0077572997268726
+GO:0071706~tumor necrosis factor superfamily cytokine production	0.00787083327055728
+GO:0006734~NADH metabolic process	0.00787984855979351
+GO:1990542~mitochondrial transmembrane transport	0.00795298390856546
+GO:0015672~monovalent inorganic cation transport	0.00804722315714463
+GO:0080134~regulation of response to stress	0.00810596962566451
+GO:0009132~nucleoside diphosphate metabolic process	0.00816646982273461
+GO:0050727~regulation of inflammatory response	0.00845577463273148
+GO:0046676~negative regulation of insulin secretion	0.00848656302575527
+GO:0033197~response to vitamin E	0.00878465410009879
+GO:0045540~regulation of cholesterol biosynthetic process	0.00878465410009879
+GO:0055098~response to low-density lipoprotein particle	0.00878465410009879
+GO:0050872~white fat cell differentiation	0.00878465410009879
+GO:0033540~fatty acid beta-oxidation using acyl-CoA oxidase	0.00878465410009879
+GO:0009437~carnitine metabolic process	0.00878465410009879
+GO:0010745~negative regulation of macrophage derived foam cell differentiation	0.00878465410009879
+GO:0072522~purine-containing compound biosynthetic process	0.00909028969157968
+GO:0033344~cholesterol efflux	0.00911998868444466
+GO:0051179~localization	0.00912521120702828
+GO:0046031~ADP metabolic process	0.00918072189200459
+GO:0043066~negative regulation of apoptotic process	0.00951167059913106
+GO:0070201~regulation of establishment of protein localization	0.00973005074087109
+GO:0042743~hydrogen peroxide metabolic process	0.00978036038655714
+GO:0019432~triglyceride biosynthetic process	0.00978036038655714
+GO:0042221~response to chemical	0.0100316507000559
+GO:0009168~purine ribonucleoside monophosphate biosynthetic process	0.0100641786420992
+GO:0009127~purine nucleoside monophosphate biosynthetic process	0.0100641786420992
+GO:0000271~polysaccharide biosynthetic process	0.0100641786420992
+GO:0010875~positive regulation of cholesterol efflux	0.0101746136517091
+GO:0034383~low-density lipoprotein particle clearance	0.0101746136517091
+GO:0050663~cytokine secretion	0.0102340889579326
+GO:0006811~ion transport	0.0104659682545411
+GO:0046164~alcohol catabolic process	0.0104678948674206
+GO:0001816~cytokine production	0.0106766518960308
+GO:0043069~negative regulation of programmed cell death	0.0107629507816851
+GO:0046463~acylglycerol biosynthetic process	0.0111827912178961
+GO:0046460~neutral lipid biosynthetic process	0.0111827912178961
+GO:0033194~response to hydroperoxide	0.0116550772778532
+GO:0006085~acetyl-CoA biosynthetic process	0.0116550772778532
+GO:1901663~quinone biosynthetic process	0.0116550772778532
+GO:0006744~ubiquinone biosynthetic process	0.0116550772778532
+GO:0030730~sequestering of triglyceride	0.0116550772778532
+GO:0005977~glycogen metabolic process	0.0119923221645851
+GO:0007584~response to nutrient	0.0120556547041058
+GO:0044042~glucan metabolic process	0.0125087563596659
+GO:0006073~cellular glucan metabolic process	0.0125087563596659
+GO:0009409~response to cold	0.0126953804531129
+GO:0010828~positive regulation of glucose transport	0.0126953804531129
+GO:0009063~cellular amino acid catabolic process	0.013039212580747
+GO:0034284~response to monosaccharide	0.0130489441001638
+GO:0032879~regulation of localization	0.0130622347894201
+GO:0045834~positive regulation of lipid metabolic process	0.0131474614536959
+GO:0006743~ubiquinone metabolic process	0.013223891700714
+GO:0045833~negative regulation of lipid metabolic process	0.0135838157480208
+GO:0051050~positive regulation of transport	0.0137269859763508
+GO:0006165~nucleoside diphosphate phosphorylation	0.0141426870844047
+GO:0051055~negative regulation of lipid biosynthetic process	0.0143193853356437
+GO:0001666~response to hypoxia	0.0145579466671651
+GO:0070887~cellular response to chemical stimulus	0.0145675780226516
+GO:0019217~regulation of fatty acid metabolic process	0.0147159441088343
+GO:0010888~negative regulation of lipid storage	0.014878939795779
+GO:0090317~negative regulation of intracellular protein transport	0.0153037006269135
+GO:0006820~anion transport	0.0153614122620427
+GO:0033036~macromolecule localization	0.0154834887248248
+GO:0010941~regulation of cell death	0.015739782351145
+GO:0006071~glycerol metabolic process	0.016618140056275
+GO:0006577~amino-acid betaine metabolic process	0.016618140056275
+GO:0006103~2-oxoglutarate metabolic process	0.016618140056275
+GO:0055094~response to lipoprotein particle	0.016618140056275
+GO:0043691~reverse cholesterol transport	0.016618140056275
+GO:0043122~regulation of I-kappaB kinase/NF-kappaB signaling	0.016776768945948
+GO:0010817~regulation of hormone levels	0.0169630149046208
+GO:0006754~ATP biosynthetic process	0.0169664264792111
+GO:0071375~cellular response to peptide hormone stimulus	0.0171187703456252
+GO:0009179~purine ribonucleoside diphosphate metabolic process	0.0171550494120541
+GO:0009135~purine nucleoside diphosphate metabolic process	0.0171550494120541
+GO:0006915~apoptotic process	0.0173902318770462
+GO:0008585~female gonad development	0.0178018675654526
+GO:0090303~positive regulation of wound healing	0.017905416582282
+GO:0051348~negative regulation of transferase activity	0.0181974844781354
+GO:0032869~cellular response to insulin stimulus	0.018417309688661
+GO:0001944~vasculature development	0.0184540675321699
+GO:0009185~ribonucleoside diphosphate metabolic process	0.0184636984351766
+GO:0050810~regulation of steroid biosynthetic process	0.0188728398984606
+GO:0009628~response to abiotic stimulus	0.0199187129914642
+GO:0010874~regulation of cholesterol efflux	0.0203408460305158
+GO:0006123~mitochondrial electron transport, cytochrome c to oxygen	0.0203408460305158
+GO:0046545~development of primary female sexual characteristics	0.0205401636933277
+GO:0055085~transmembrane transport	0.0205487495971939
+GO:0051193~regulation of cofactor metabolic process	0.0208931598298552
+GO:0051196~regulation of coenzyme metabolic process	0.0208931598298552
+GO:0043124~negative regulation of I-kappaB kinase/NF-kappaB signaling	0.0208931598298552
+GO:1901137~carbohydrate derivative biosynthetic process	0.0211059742786556
+GO:0001959~regulation of cytokine-mediated signaling pathway	0.0215445509709179
+GO:0060548~negative regulation of cell death	0.0216721894812611
+GO:0070543~response to linoleic acid	0.0220313654056476
+GO:0005999~xylulose biosynthetic process	0.0220313654056476
+GO:0019400~alditol metabolic process	0.0223203621675169
+GO:0019320~hexose catabolic process	0.0230276055470435
+GO:0060341~regulation of cellular localization	0.0231394682208399
+GO:0006694~steroid biosynthetic process	0.0233366975849448
+GO:0044264~cellular polysaccharide metabolic process	0.0235240893816028
+GO:0065008~regulation of biological quality	0.0239945065350178
+GO:1901616~organic hydroxy compound catabolic process	0.0241376399965235
+GO:1903036~positive regulation of response to wounding	0.0241376399965235
+GO:1901653~cellular response to peptide	0.0244862121567119
+GO:0007249~I-kappaB kinase/NF-kappaB signaling	0.0246291102678979
+GO:1901701~cellular response to oxygen-containing compound	0.0249445063549999
+GO:0006690~icosanoid metabolic process	0.0251096243984561
+GO:0042451~purine nucleoside biosynthetic process	0.0251096243984561
+GO:0046129~purine ribonucleoside biosynthetic process	0.0251096243984561
+GO:0001936~regulation of endothelial cell proliferation	0.0251096243984561
+GO:0060759~regulation of response to cytokine stimulus	0.0252038066707661
+GO:0043065~positive regulation of apoptotic process	0.0257229904285933
+GO:0032640~tumor necrosis factor production	0.0259260055625499
+GO:0042744~hydrogen peroxide catabolic process	0.0265059993677587
+GO:0046394~carboxylic acid biosynthetic process	0.0269477940503348
+GO:0001568~blood vessel development	0.0269530322207269
+GO:0043068~positive regulation of programmed cell death	0.0272671550904206
+GO:0001817~regulation of cytokine production	0.0272671550904206
+GO:0010827~regulation of glucose transport	0.0276062698570029
+GO:0019674~NAD metabolic process	0.0276387791076151
+GO:1904590~negative regulation of protein import	0.0276387791076151
+GO:0042308~negative regulation of protein import into nucleus	0.0276387791076151
+GO:0034369~plasma lipoprotein particle remodeling	0.0287083308253438
+GO:0034367~macromolecular complex remodeling	0.0287083308253438
+GO:0034368~protein-lipid complex remodeling	0.0287083308253438
+GO:1902108~regulation of mitochondrial membrane permeability involved in apoptotic process	0.0288627144697587
+GO:0010634~positive regulation of epithelial cell migration	0.0293501947970805
+GO:0046365~monosaccharide catabolic process	0.0301150065664968
+GO:0032365~intracellular lipid transport	0.0309811982901915
+GO:0010565~regulation of cellular ketone metabolic process	0.0313752145690765
+GO:0009206~purine ribonucleoside triphosphate biosynthetic process	0.031395587630119
+GO:0015914~phospholipid transport	0.031395587630119
+GO:0009605~response to external stimulus	0.0319904331029622
+GO:0046660~female sex differentiation	0.0320861753092018
+GO:0019220~regulation of phosphate metabolic process	0.0323539260797962
+GO:0051174~regulation of phosphorus metabolic process	0.032567891340675
+GO:0046324~regulation of glucose import	0.0327043802619346
+GO:0009145~purine nucleoside triphosphate biosynthetic process	0.0327043802619346
+GO:0042758~long-chain fatty acid catabolic process	0.032865324073257
+GO:0042701~progesterone secretion	0.032865324073257
+GO:0003018~vascular process in circulatory system	0.0328715009648704
+GO:0032387~negative regulation of intracellular transport	0.0330303326045374
+GO:0061621~canonical glycolysis	0.0333227869989099
+GO:0006735~NADH regeneration	0.0333227869989099
+GO:0061718~glucose catabolic process to pyruvate	0.0333227869989099
+GO:0012501~programmed cell death	0.0346293777769473
+GO:0006909~phagocytosis	0.0348827070118313
+GO:0016053~organic acid biosynthetic process	0.0352609276925202
+GO:0006096~glycolytic process	0.0354062442233231
+GO:0061615~glycolytic process through fructose-6-phosphate	0.0357313133557796
+GO:0061620~glycolytic process through glucose-6-phosphate	0.0357313133557796
+GO:0009749~response to glucose	0.0359713711578677
+GO:0050731~positive regulation of peptidyl-tyrosine phosphorylation	0.0359713711578677
+GO:0046470~phosphatidylcholine metabolic process	0.0367991152405954
+GO:0006757~ATP generation from ADP	0.0367991152405954
+GO:0097305~response to alcohol	0.0375433904610918
+GO:0032386~regulation of intracellular transport	0.0377019330799473
+GO:0001818~negative regulation of cytokine production	0.0380633777927834
+GO:0051223~regulation of protein transport	0.038088678096612
+GO:0035666~TRIF-dependent toll-like receptor signaling pathway	0.0382050244753964
+GO:0032880~regulation of protein localization	0.0385905081554026
+GO:0071310~cellular response to organic substance	0.0388329273865645
+GO:0033559~unsaturated fatty acid metabolic process	0.0390347152975128
+GO:0046823~negative regulation of nucleocytoplasmic transport	0.0396681706298827
+GO:0046323~glucose import	0.0396681706298827
+GO:0071417~cellular response to organonitrogen compound	0.0400309124880248
+GO:0005976~polysaccharide metabolic process	0.040092162907845
+GO:0009746~response to hexose	0.0403201413221007
+GO:0010632~regulation of epithelial cell migration	0.0403201413221007
+GO:0006084~acetyl-CoA metabolic process	0.0407421977149571
+GO:0008219~cell death	0.040823082795813
+GO:0043534~blood vessel endothelial cell migration	0.0411441046957759
+GO:0015758~glucose transport	0.0411658370907314
+GO:0071300~cellular response to retinoic acid	0.042647463208918
+GO:0046902~regulation of mitochondrial membrane permeability	0.042647463208918
+GO:1900181~negative regulation of protein localization to nucleus	0.042647463208918
+GO:0010562~positive regulation of phosphorus metabolic process	0.0430854273161095
+GO:0045937~positive regulation of phosphate metabolic process	0.0430854273161095
+GO:0015749~monosaccharide transport	0.0433618659082921
+GO:0002224~toll-like receptor signaling pathway	0.0433618659082921
+GO:0008645~hexose transport	0.0433618659082921
+GO:0005997~xylulose metabolic process	0.0435799020547513
+GO:0006499~N-terminal protein myristoylation	0.0435799020547513
+GO:0019418~sulfide oxidation	0.0435799020547513
+GO:0061304~retinal blood vessel morphogenesis	0.0435799020547513
+GO:0070221~sulfide oxidation, using sulfide:quinone oxidoreductase	0.0435799020547513
+GO:0019322~pentose biosynthetic process	0.0435799020547513
+GO:0019221~cytokine-mediated signaling pathway	0.0446757219216385
+GO:0006007~glucose catabolic process	0.0460001885734932
+GO:0046879~hormone secretion	0.0460755671930147
+GO:1901699~cellular response to nitrogen compound	0.046615838386506
+GO:0048514~blood vessel morphogenesis	0.0470755075526805
+GO:0002756~MyD88-independent toll-like receptor signaling pathway	0.0487177081524214
+GO:1901661~quinone metabolic process	0.0487177081524214
+GO:0090559~regulation of membrane permeability	0.0489321528261351
+GO:0042326~negative regulation of phosphorylation	0.0491828736636875
+GO:0006461~protein complex assembly	0.0492752292390529
+GO:0070271~protein complex biogenesis	0.0495907720792473

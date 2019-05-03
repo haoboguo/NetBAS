@@ -1,0 +1,11 @@
+"GO.ID"	"GO.Term"	"NetBAS"	"DAVID"
+"GO:0006888"	"ER to Golgi vesicle-mediated transport"	"64.279"	4.570517276478153E-6
+"GO:0006890"	"retrograde vesicle-mediated transport, Golgi to ER"	"39.047"	1.4044560880136924E-4
+"GO:0048208"	"COPII vesicle coating"	"36.155"	0.014453026304730991
+"GO:0006886"	"intracellular protein transport"	"28.6"	NA
+"GO:0006891"	"intra-Golgi vesicle-mediated transport"	"26.959"	NA
+"GO:0051693"	"actin filament capping"	"26.874"	NA
+"GO:0007030"	"Golgi organization"	"25.589"	0.02220626366180251
+"GO:0015031"	"protein transport"	"23.851"	1.5010509542804254E-4
+"GO:0048205"	"COPI coating of Golgi vesicle"	"21.696"	NA
+"GO:0019886"	"antigen processing and presentation of exogenous peptide antigen via MHC class II"	"16.48"	NA

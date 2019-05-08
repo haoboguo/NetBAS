@@ -1,0 +1,143 @@
+---
+title: "GO enrichment by NetBAS"
+author: "HBG"
+data: "05/06/2019"
+output: pdf_document
+---
+#This R script is used to calculate z-scores
+
+```{r}
+rm(list=ls())
+library(plyr)
+library(gplots)
+library(microbenchmark)
+library(matrixStats)
+library(GO.db)
+```
+
+```{r}
+#all GO terms
+go.file <- read.csv("data/human.go.csv", header=T, stringsAsFactors=F)
+GO.gene <- go.file$gene
+GO.id <- go.file$goid
+GO.type <- go.file$type
+
+bp.go.cat <- unique(sort(GO.id[which(GO.type == "P")]))
+cc.go.cat <- unique(sort(GO.id[which(GO.type == "C")]))
+mf.go.cat <- unique(sort(GO.id[which(GO.type == "F")]))
+```
+
+```{r}
+bp.hspin <- matrix(as.numeric(unlist(read.table("output/genes.bp.csv", header=F, sep=","))), ncol=1)
+bp.obs <- c(bp.hspin)
+bp.dim <- length(bp.go.cat)
+cc.hspin <- matrix(as.numeric(unlist(read.table("output/genes.cc.csv", header=F, sep=","))), ncol=1)
+cc.obs <- c(cc.hspin)
+cc.dim <- length(cc.go.cat)
+mf.hspin <- matrix(as.numeric(unlist(read.table("output/genes.mf.csv", header=F, sep=","))),ncol=1)
+mf.obs <- c(mf.hspin)
+mf.dim <- length(mf.go.cat)
+```
+
+```{r}
+#data from 100 permutations generated using previous R code (02.GO.Rmd)
+bp.perm <- c()
+cc.perm <- c()
+mf.perm <- c()
+for (i in 1:100) {
+    bp.name <- paste("output/ms02.", i, ".bp.csv", sep="")
+    cc.name <- paste("output/ms02.", i, ".cc.csv", sep="")
+    mf.name <- paste("output/ms02.", i, ".mf.csv", sep="")
+    bp.mat <- matrix(as.numeric(unlist(read.table(bp.name, header=F, sep=","))), ncol=1)
+    cc.mat <- matrix(as.numeric(unlist(read.table(cc.name, header=F, sep=","))), ncol=1)
+    mf.mat <- matrix(as.numeric(unlist(read.table(mf.name, header=F, sep=","))), ncol=1)
+    bp.perm <- rbind(bp.perm, c(bp.mat))
+    cc.perm <- rbind(cc.perm, c(cc.mat))
+    mf.perm <- rbind(mf.perm, c(mf.mat))
+}
+
+bp.mean <- colMeans(bp.perm)
+bp.std <- colSds(bp.perm)
+cc.mean <- colMeans(cc.perm)
+cc.std <- colSds(cc.perm)
+mf.mean <- colMeans(mf.perm)
+mf.std <- colSds(mf.perm)
+```
+
+```{r}
+#Z-score calculations
+bp.zscore <- c()
+for (k in 1:bp.dim) {
+  bp.zscore[k] <- round((bp.obs[k] - bp.mean[k])/max(1, bp.std[k]), 3)
+}
+
+cc.zscore <- c()
+for (k in 1:cc.dim) {
+  cc.zscore[k] <- round((cc.obs[k] - cc.mean[k])/max(1, cc.std[k]), 3)
+}
+
+mf.zscore <- c()
+for (k in 1:mf.dim) {
+  mf.zscore[k] <- round((mf.obs[k] - mf.mean[k])/max(1, mf.std[k]), 3)
+}
+
+
+bp.order <- order(-bp.zscore)
+mf.order <- order(-mf.zscore)
+cc.order <- order(-cc.zscore)
+
+z.bp <- matrix(bp.zscore[bp.order], nrow=bp.dim)
+z.cc <- matrix(cc.zscore[cc.order], nrow=cc.dim)
+z.mf <- matrix(mf.zscore[mf.order], nrow=mf.dim)
+
+bp.obs <- bp.obs[bp.order]
+bp.mean <- round(bp.mean[bp.order],3)
+bp.std <- round(bp.std[bp.order],3)
+cc.obs <- cc.obs[cc.order]
+cc.mean <- round(cc.mean[cc.order],3)
+cc.std <- round(cc.std[cc.order],3)
+mf.obs <- mf.obs[mf.order]
+mf.mean <- round(mf.mean[mf.order],3)
+mf.std <- round(mf.std[mf.order],3)
+
+rownames(z.bp) <- bp.go.cat[bp.order]
+rownames(z.cc) <- cc.go.cat[cc.order]
+rownames(z.mf) <- mf.go.cat[mf.order]
+
+bp.enrich.list <- rownames(z.bp)
+cc.enrich.list <- rownames(z.cc)
+mf.enrich.list <- rownames(z.mf)
+bp.enrich.list <- rownames(z.bp)
+cc.enrich.list <- rownames(z.cc)
+mf.enrich.list <- rownames(z.mf)
+
+bp.enriched.terms <- c("GO.ID", "GO.Term", "zscore", "obs", "mean", "std")
+for (i in 1:length(bp.enrich.list)) {
+  id <- as.character(bp.enrich.list[i])
+  term <- Term(GOID(id))
+  z.gene <- z.bp[i]
+  bp.enriched.terms <- rbind(bp.enriched.terms, c(id, term, z.gene, bp.obs[i], bp.mean[i], bp.std[i]))
+}
+bp.enriched.terms
+write.table(bp.enriched.terms, file="output/genes.bp.txt", sep="\t", row.names = F, col.names = F, quote=T)
+
+cc.enriched.terms <- c("GO.ID", "GO.Term", "zscore", "obs", "mean", "std")
+for (i in 1:length(cc.enrich.list)) {
+  id <- as.character(cc.enrich.list[i])
+  term <- Term(GOID(id))
+  z.gene <- z.cc[i]
+  cc.enriched.terms <- rbind(cc.enriched.terms, c(id, term, z.gene, cc.obs[i], cc.mean[i], cc.std[i]))
+}
+cc.enriched.terms
+write.table(cc.enriched.terms, file="output/genes.cc.txt", sep="\t", row.names = F, col.names = F, quote=T)
+
+mf.enriched.terms <- c("GO.ID", "GO.Term", "zscore", "obs", "mean", "std")
+for (i in 1:length(mf.enrich.list)) {
+  id <- as.character(mf.enrich.list[i])
+  term <- Term(GOID(id))
+  z.gene <- z.mf[i]
+  mf.enriched.terms <- rbind(mf.enriched.terms, c(id, term, z.gene, mf.obs[i], mf.mean[i], mf.std[i]))
+}
+mf.enriched.terms
+write.table(mf.enriched.terms, file="output/genes.mf.txt", sep="\t", row.names = F, col.names = F, quote=T)
+```

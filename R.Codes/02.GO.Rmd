@@ -1,0 +1,153 @@
+---
+title: "GO enrichment by NetBAS"
+author: "HBG"
+data: "05/04/2019"
+output: pdf_document
+---
+#This R script is used to perform GO enrichment using NetBAS
+
+```{r}
+rm(list=ls())
+library(plyr)
+
+##Reading the original PIN in (geneA, geneB) format
+##Note that all gene terms are in HUGO normenclature formatt
+##DAVID may require the ensembl IDs
+network <- read.csv("data/human.pin.csv", header=T, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+##GO terms downloaded from the gene ontology consortium
+##All entries in format of (gene,goid,type)
+##gene in HUGO format, forllowed by go IDs then the types (BP, CC and MF)
+go.file <- read.csv("data/human.go.csv", header=T, stringsAsFactors=F)
+GO.gene <- go.file$gene
+GO.id <- go.file$goid
+GO.type <- go.file$type
+
+##Biological Process (BP) go terms, the dimension file refers to the totoal
+##number of the particular GO type
+bp.go.cat <- unique(sort(GO.id[which(GO.type == "P")]))
+bp.dim <- length(bp.go.cat)
+
+##Cellular Component (CC) go terms
+cc.go.cat <- unique(sort(GO.id[which(GO.type == "C")]))
+cc.dim <- length(cc.go.cat)
+
+##Molecular Function (MF) go terms
+mf.go.cat <- unique(sort(GO.id[which(GO.type == "F")]))
+mf.dim <- length(mf.go.cat)
+```
+
+```{r}
+##Read the gene list
+hallmark.file <- read.csv("genes.csv", header=T, stringsAsFactors=F)
+gene.list <- hallmark.file$gene
+
+##for all pairs (geneA, geneB), glA returns to a list of genes at the second column
+##that interact with genes from the gene list at the first column; glB returns to a
+##list of genes at the first column that interact with genes from the gene list at
+##the second column.
+##This result to a list combining both glA and glB for all genes that interact with 
+##the given gene list; counting of c(glA, glB) gives frequencies of different ORFs
+##that interact with the gene list
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+gl.count <- count(gl.all)
+gl.orf <- gl.count$x
+gl.freq <- gl.count$freq
+```
+```{r}
+##Based on the above list the frequencies of all GO terms that interact with the gene
+##list can now be calculated 
+##the vectors calculated below are of the same dimension of the GO type (see above)
+bp.vec <- numeric(length=bp.dim)
+cc.vec <- numeric(length=cc.dim)
+mf.vec <- numeric(length=mf.dim)
+
+##this loop calculate frequences
+    for (i in 1:length(gl.orf)) {
+      orf.ith <- gl.orf[i]
+      orf.freq <- gl.freq[i]
+      orf.bp.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "P"))]
+      orf.cc.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "C"))]
+      orf.mf.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "F"))]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        bp.vec[na] <- bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        cc.vec[nb] <- cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        mf.vec[nc] <- mf.vec[nc] + orf.freq
+      }
+    }
+
+bp.obs <- matrix(bp.vec, nrow = bp.dim, ncol = 1)
+cc.obs <- matrix(cc.vec, nrow = cc.dim, ncol = 1)
+mf.obs <- matrix(mf.vec, nrow = mf.dim, ncol = 1)
+```
+
+```{r}
+##the above vectors are stored for further analysis
+write.table(bp.obs, file="output/genes.bp.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(cc.obs, file="output/genes.cc.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(mf.obs, file="output/genes.mf.csv", sep=",", col.names=F, row.names=F, quote=F)
+```
+
+```{r}
+##Analyze the null (MS02) models
+##example here using 100 permutations
+
+for (p in 1:100) {
+permutation.file <- paste("data/human.ms02/","ms02.",p,".csv", sep="")
+permutation <- read.csv(permutation.file, header=T, stringsAsFactors=F)
+
+ms02A <- permutation$id1
+ms02B <- permutation$id2
+
+nullA <- ms02B[which(ms02A %in% gene.list)]
+nullB <- ms02A[which(ms02B %in% gene.list)]
+null.all <- c(nullA, nullB)
+null.count <- count(null.all)
+null.orf <- null.count$x
+null.freq <- null.count$freq
+
+ms02.bp.vec <- numeric(length=bp.dim)
+ms02.cc.vec <- numeric(length=cc.dim)
+ms02.mf.vec <- numeric(length=mf.dim)
+
+    for (i in 1:length(null.orf)) {
+      orf.ith <- null.orf[i]
+      orf.freq <- null.freq[i]
+      orf.bp.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "P"))]
+      orf.cc.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "C"))]
+      orf.mf.term <- GO.id[which((GO.gene %in% orf.ith) & (GO.type == "F"))]
+      for (j in 1:length(orf.bp.term)) {
+        na <- which(bp.go.cat %in% orf.bp.term[j])
+        ms02.bp.vec[na] <- ms02.bp.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.cc.term)) {
+        nb <- which(cc.go.cat %in% orf.cc.term[k])
+        ms02.cc.vec[nb] <- ms02.cc.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.mf.term)) {
+        nc <- which(mf.go.cat %in% orf.mf.term[l])
+        ms02.mf.vec[nc] <- ms02.mf.vec[nc] + orf.freq
+      }
+    }
+
+bp.ms02 <- matrix(ms02.bp.vec, nrow = bp.dim, ncol = 1)
+cc.ms02 <- matrix(ms02.cc.vec, nrow = cc.dim, ncol = 1)
+mf.ms02 <- matrix(ms02.mf.vec, nrow = mf.dim, ncol = 1)
+
+write.table(bp.ms02, file=paste("output/ms02.", p, ".bp.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+write.table(cc.ms02, file=paste("output/ms02.", p, ".cc.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+write.table(mf.ms02, file=paste("output/ms02.", p, ".mf.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+}
+```
+

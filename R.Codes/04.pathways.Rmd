@@ -1,0 +1,129 @@
+---
+title: "Pathway enrichment by NetBAS"
+author: "HBG"
+data: "05/06/2019"
+output: pdf_document
+---
+#This R script is used to perform pathway enrichment using NetBAS
+#Reactome, KEGG and BioCarta pathways are used as examples
+
+```{r}
+rm(list=ls())
+library(plyr)
+
+network <- read.csv("data/human.pin.csv", header=T, stringsAsFactors=F)
+geneA <- network$geneA
+geneB <- network$geneB
+
+#read pathways
+pw.file <- read.csv("data/human.pathway.csv", sep="\t", header=T, stringsAsFactors=F)
+pw.gene <- pw.file$Gene
+pw.pathway <- pw.file$Pathway
+pw.source <- pw.file$Source
+
+reac.pw.cat <- unique(sort(pw.pathway[which(pw.source == "Reactome")]))
+kegg.pw.cat <- unique(sort(pw.pathway[which(pw.source == "KEGG")]))
+bioc.pw.cat <- unique(sort(pw.pathway[which(pw.source == "BioCarta")]))
+reac.dim <- length(reac.pw.cat)
+kegg.dim <- length(kegg.pw.cat)
+bioc.dim <- length(bioc.pw.cat)
+
+gene.file <- read.csv("genes.csv", header=T, stringsAsFactors = F)
+gene.list <- gene.file$gene
+
+glA <- geneB[which(geneA %in% gene.list)]
+glB <- geneA[which(geneB %in% gene.list)]
+gl.all <- c(glA, glB)
+gl.count <- count(gl.all)
+gl.orf <- gl.count$x
+gl.freq <- gl.count$freq
+
+# the gene list
+reac.vec <- numeric(length=reac.dim)
+kegg.vec <- numeric(length=kegg.dim)
+bioc.vec <- numeric(length=bioc.dim)
+
+
+    for (i in 1:length(gl.orf)) {
+      orf.ith <- gl.orf[i]
+      orf.freq <- gl.freq[i]
+      orf.reac.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "Reactome"))]
+      orf.kegg.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "KEGG"))]
+      orf.bioc.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "BioCarta"))]
+      for (j in 1:length(orf.reac.term)) {
+        na <- which(reac.pw.cat %in% orf.reac.term[j])
+        reac.vec[na] <- reac.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.kegg.term)) {
+        nb <- which(kegg.pw.cat %in% orf.kegg.term[k])
+        kegg.vec[nb] <- kegg.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.bioc.term)) {
+        nc <- which(bioc.pw.cat %in% orf.bioc.term[l])
+        bioc.vec[nc] <- bioc.vec[nc] + orf.freq
+      }
+  }
+
+reac.A <- matrix(reac.vec, nrow = reac.dim, ncol = 1)
+kegg.A <- matrix(kegg.vec, nrow = kegg.dim, ncol = 1)
+bioc.A <- matrix(bioc.vec, nrow = bioc.dim, ncol = 1)
+
+write.table(reac.A, file="output/genes.reactome.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(kegg.A, file="output/genes.kegg.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(bioc.A, file="output/genes.bioc.csv", sep=",", col.names=F, row.names=F, quote=F)
+```
+
+```{r}
+#The null (MS02) models
+
+for (p in 1:100) {
+permutation.file <- paste("data/human.ms02/","ms02.",p,".csv", sep="")
+permutation <- read.csv(permutation.file, header=T, stringsAsFactors=F)
+
+ms02A <- permutation$id1
+ms02B <- permutation$id2
+
+nullA <- ms02B[which(ms02A %in% gene.list)]
+nullB <- ms02A[which(ms02B %in% gene.list)]
+null.all <- c(nullA, nullB)
+null.count <- count(null.all)
+null.orf <- null.count$x
+null.freq <- null.count$freq
+
+ms02.reac.vec <- numeric(length=reac.dim)
+ms02.kegg.vec <- numeric(length=kegg.dim)
+ms02.bioc.vec <- numeric(length=bioc.dim)
+
+    for (i in 1:length(null.orf)) {
+      orf.ith <- null.orf[i]
+      orf.freq <- null.freq[i]
+      orf.reac.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "Reactome"))]
+      orf.kegg.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "KEGG"))]
+      orf.bioc.term <- pw.pathway[which((pw.gene %in% orf.ith) & (pw.source == "BioCarta"))]
+      for (j in 1:length(orf.reac.term)) {
+        na <- which(reac.pw.cat %in% orf.reac.term[j])
+        ms02.reac.vec[na] <- ms02.reac.vec[na] + orf.freq
+      }
+      for (k in 1:length(orf.kegg.term)) {
+        nb <- which(kegg.pw.cat %in% orf.kegg.term[k])
+        ms02.kegg.vec[nb] <- ms02.kegg.vec[nb] + orf.freq
+      }
+      for (l in 1:length(orf.bioc.term)) {
+        nc <- which(bioc.pw.cat %in% orf.bioc.term[l])
+        ms02.bioc.vec[nc] <- ms02.bioc.vec[nc] + orf.freq
+      }
+  }
+
+reac.ms02 <- matrix(ms02.reac.vec, nrow = reac.dim, ncol = 1)
+kegg.ms02 <- matrix(ms02.kegg.vec, nrow = kegg.dim, ncol = 1)
+bioc.ms02 <- matrix(ms02.bioc.vec, nrow = bioc.dim, ncol = 1)
+
+write.table(reac.ms02, file=paste("output/ms02.", p, ".reac.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+write.table(kegg.ms02, file=paste("output/ms02.", p, ".kegg.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+write.table(bioc.ms02, file=paste("output/ms02.", p, ".bioc.csv", sep=""), sep=",", col.names=F, row.names=F, quote=F)
+}
+
+write.table(reac.ms02, file="output/ms02.", p, "reac.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(kegg.ms02, file="output/ms02.", p, "kegg.csv", sep=",", col.names=F, row.names=F, quote=F)
+write.table(bioc.ms02, file="output/ms02.", p, "bioc.csv", sep=",", col.names=F, row.names=F, quote=F)
+```

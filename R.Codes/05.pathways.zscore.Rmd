@@ -1,0 +1,141 @@
+---
+title: "Pathway enrichment by NetBAS"
+author: "HBG"
+data: "05/06/2019"
+output: pdf_document
+---
+#This R script is used to calculate z-scores
+
+```{r}
+rm(list=ls())
+library(plyr)
+library(gplots)
+library(microbenchmark)
+library(matrixStats)
+library(GO.db)
+```
+
+```{r}
+#all GO terms
+pw.file <- read.csv("data/human.pathway.csv", header=T, sep="\t", stringsAsFactors=F)
+pw.gene <- pw.file$Gene
+pw.pathway <- pw.file$Pathway
+pw.id <- pw.file$ID
+pw.source <- pw.file$Source
+
+reac.pw.cat <- unique(sort(pw.pathway[which(pw.source == "Reactome")]))
+kegg.pw.cat <- unique(sort(pw.pathway[which(pw.source == "KEGG")]))
+bioc.pw.cat <- unique(sort(pw.pathway[which(pw.source == "BioCarta")]))
+reac.dim <- length(reac.pw.cat)
+kegg.dim <- length(kegg.pw.cat)
+bioc.dim <- length(bioc.pw.cat)
+```
+
+```{r}
+reac.hspin <- matrix(as.numeric(unlist(read.table("output/genes.reac.csv", header=F, sep=","))), ncol=1)
+reac.obs <- c(reac.hspin)
+kegg.hspin <- matrix(as.numeric(unlist(read.table("output/genes.kegg.csv", header=F, sep=","))), ncol=1)
+kegg.obs <- c(kegg.hspin)
+bioc.hspin <- matrix(as.numeric(unlist(read.table("output/genes.bioc.csv", header=F, sep=","))),ncol=1)
+bioc.obs <- c(bioc.hspin)
+```
+
+```{r}
+#data from 100 permutations generated using previous R code (02.GO.Rmd)
+reac.perm <- c()
+kegg.perm <- c()
+bioc.perm <- c()
+for (i in 1:50) {
+    reac.name <- paste("output/ms02.", i, ".reac.csv", sep="")
+    kegg.name <- paste("output/ms02.", i, ".kegg.csv", sep="")
+    bioc.name <- paste("output/ms02.", i, ".bioc.csv", sep="")
+    reac.mat <- matrix(as.numeric(unlist(read.table(reac.name, header=F, sep=","))), ncol=1)
+    kegg.mat <- matrix(as.numeric(unlist(read.table(kegg.name, header=F, sep=","))), ncol=1)
+    bioc.mat <- matrix(as.numeric(unlist(read.table(bioc.name, header=F, sep=","))), ncol=1)
+    reac.perm <- rbind(reac.perm, c(reac.mat))
+    kegg.perm <- rbind(kegg.perm, c(kegg.mat))
+    bioc.perm <- rbind(bioc.perm, c(bioc.mat))
+}
+
+reac.mean <- colMeans(reac.perm)
+reac.std <- colSds(reac.perm)
+kegg.mean <- colMeans(kegg.perm)
+kegg.std <- colSds(kegg.perm)
+bioc.mean <- colMeans(bioc.perm)
+bioc.std <- colSds(bioc.perm)
+```
+
+```{r}
+#Z-score calculations
+reac.zscore <- c()
+for (k in 1:reac.dim) {
+  reac.zscore[k] <- round((reac.obs[k] - reac.mean[k])/max(1, reac.std[k]), 3)
+}
+
+kegg.zscore <- c()
+for (k in 1:kegg.dim) {
+  kegg.zscore[k] <- round((kegg.obs[k] - kegg.mean[k])/max(1, kegg.std[k]), 3)
+}
+
+bioc.zscore <- c()
+for (k in 1:bioc.dim) {
+  bioc.zscore[k] <- round((bioc.obs[k] - bioc.mean[k])/max(1, bioc.std[k]), 3)
+}
+
+
+reac.order <- order(-reac.zscore)
+bioc.order <- order(-bioc.zscore)
+kegg.order <- order(-kegg.zscore)
+
+z.reac <- matrix(reac.zscore[reac.order], nrow=reac.dim)
+z.kegg <- matrix(kegg.zscore[kegg.order], nrow=kegg.dim)
+z.bioc <- matrix(bioc.zscore[bioc.order], nrow=bioc.dim)
+
+reac.obs <- reac.obs[reac.order]
+reac.mean <- round(reac.mean[reac.order],3)
+reac.std <- round(reac.std[reac.order],3)
+kegg.obs <- kegg.obs[kegg.order]
+kegg.mean <- round(kegg.mean[kegg.order],3)
+kegg.std <- round(kegg.std[kegg.order],3)
+bioc.obs <- bioc.obs[bioc.order]
+bioc.mean <- round(bioc.mean[bioc.order],3)
+bioc.std <- round(bioc.std[bioc.order],3)
+
+rownames(z.reac) <- reac.pw.cat[reac.order]
+rownames(z.kegg) <- kegg.pw.cat[kegg.order]
+rownames(z.bioc) <- bioc.pw.cat[bioc.order]
+
+reac.enrich.list <- rownames(z.reac)
+kegg.enrich.list <- rownames(z.kegg)
+bioc.enrich.list <- rownames(z.bioc)
+
+reac.enriched.terms <- c("ID", "Pathway", "zscore", "obs", "mean", "std")
+for (i in 1:length(reac.enrich.list)) {
+  term <- as.character(reac.enrich.list[i])
+  id <- head(pw.id[which(pw.pathway %in% term)],1)
+  z.gene <- z.reac[i]
+  reac.enriched.terms <- rbind(reac.enriched.terms, c(id, term, z.gene, reac.obs[i], reac.mean[i], reac.std[i]))
+}
+reac.enriched.terms
+write.table(reac.enriched.terms, file="output/genes.reac.txt", sep="\t", row.names = F, col.names = F, quote=T)
+
+kegg.enriched.terms <- c("ID", "Pathway", "zscore", "obs", "mean", "std")
+for (i in 1:length(kegg.enrich.list)) {
+  term <- as.character(kegg.enrich.list[i])
+  id <- head(pw.id[which(pw.pathway %in% term)],1)
+  z.gene <- z.kegg[i]
+  kegg.enriched.terms <- rbind(kegg.enriched.terms, c(id, term, z.gene, kegg.obs[i], kegg.mean[i], kegg.std[i]))
+}
+kegg.enriched.terms
+write.table(kegg.enriched.terms, file="output/genes.kegg.txt", sep="\t", row.names = F, col.names = F, quote=T)
+
+bioc.enriched.terms <- c("ID", "Pathway", "zscore", "obs", "mean", "std")
+for (i in 1:length(bioc.enrich.list)) {
+  term <- as.character(bioc.enrich.list[i])
+  id <- head(pw.id[which(pw.pathway %in% term)],1)
+  z.gene <- z.bioc[i]
+  bioc.enriched.terms <- rbind(bioc.enriched.terms, c(id, term, z.gene, bioc.obs[i], bioc.mean[i], bioc.std[i]))
+}
+bioc.enriched.terms
+write.table(bioc.enriched.terms, file="output/genes.bioc.txt", sep="\t", row.names = F, col.names = F, quote=T)
+```

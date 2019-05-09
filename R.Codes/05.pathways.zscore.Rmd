@@ -45,7 +45,7 @@ bioc.obs <- c(bioc.hspin)
 reac.perm <- c()
 kegg.perm <- c()
 bioc.perm <- c()
-for (i in 1:50) {
+for (i in 1:5) {
     reac.name <- paste("output/ms02.", i, ".reac.csv", sep="")
     kegg.name <- paste("output/ms02.", i, ".kegg.csv", sep="")
     bioc.name <- paste("output/ms02.", i, ".bioc.csv", sep="")

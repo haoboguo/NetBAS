@@ -1,0 +1,451 @@
+---
+title: "Gene Set Interactions and Z-matrix"
+author: "HBG"
+date: "8/10/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+Using 50 hallmark gene sets from MSigDB (molecular signature data base), and based on
+the protein-protein interaction network, the strength of interactions between each pair
+of gene sets is defined as the total number of interactions (edges) between the proteins
+(nodes) of both sets. Z-scores are evaluated via comparitons to null models of the
+original network; 10k null models have been used. A positive Z-score indicates an enriched
+interacton between both sets, whereas a negative Z-score indicates a suppressed interaction
+between them.
+
+```{r}
+list.file <- read.csv("../../MSigDB.go.pathway/list", header=F, stringsAsFactors = F)
+#A list of all 50 hallmark gene sets
+hallmark.name <- list.file$V1
+hallmark.dim <- length(hallmark.name) # 50 sets
+
+hallmark.name # prints all hallmark set names here
+
+pin <- read.csv("../../human.pin.csv", header=T, stringsAsFactors = F)
+# the PIN in pairwise format; other networks work in the same way
+geneA <- pin$geneA
+geneB <- pin$geneB
+
+hallmark.matrix <- matrix(0, nrow=50, ncol=50)
+# initiate an emply matrix, which will record interaction strengths among all 50 sets
+for (i in 1:50) {
+  for (j in 1:50) {
+    hallmarkA <- paste("../../MSigDB.go.pathway/", hallmark.name[i], "/", hallmark.name[i], ".csv", sep="")
+    fileA <- read.csv(hallmarkA, header=T, stringsAsFactors=F)
+    hallmarkB <- paste("../../MSigDB.go.pathway/", hallmark.name[j], "/", hallmark.name[j], ".csv", sep="")
+    fileB <- read.csv(hallmarkB, header=T, stringsAsFactors=F)
+    A.genes <- fileA$gene
+    B.genes <- fileB$gene
+    #number of interactions between hallmark set A and set B
+    AB.int <- length(which(((geneA %in% A.genes) & (geneB %in% B.genes)) |
+                            (geneA %in% B.genes) & (geneB %in% A.genes)))
+    hallmark.matrix[i, j] = hallmark.matrix[i, j] + AB.int
+  }
+}
+
+write.table(hallmark.matrix, file="hhi.csv", sep=",", col.names=F,
+            row.names=F, quote=F)
+
+```
+
+```{r}
+library(igraph)
+library(gplots)
+#the above librarys are used for network and heatmap, respectively
+# A gene set network based on interaction strengths will be generated
+hallmark.int <- log10(hallmark.matrix)
+# a log10 scale used
+colnames(hallmark.int) <- hallmark.name
+rownames(hallmark.int) <- hallmark.name
+# the intraction numbers range from 0 to 3103, in log10 scale it from 1 to 3.491782
+my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 9)
+colors = c(seq(1,3.5,length=10))
+#png("hhi.int.heatmap.png", width=12, height=11, res=600, units="in")
+heatmap.2(hallmark.int, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="log10(Interactions)", 
+          key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          srtCol=45, adjCol=c(1,0), dendrogram = "both",
+          margins=c(14,18.5), sepwidth=c(0.01,0.01), #symbreaks = TRUE,
+          sepcolor="grey", colsep=1:hallmark.dim, rowsep=1:hallmark.dim)
+#dev.off()
+
+colnames(hallmark.matrix) <- c(1:50)
+rownames(hallmark.matrix) <- c(1:50)
+hallmark.net <- graph.adjacency(hallmark.matrix, mode="undirected", weighted = T, diag = F)
+#apparently every two sets are connected, we only plot those with more than 600 connections
+E(hallmark.net)$weight <- ifelse(abs(E(hallmark.net)$weight) > 600, abs(E(hallmark.net)$weight), 0)
+plot.igraph(hallmark.net, vertex.label=V(hallmark.net)$name, layout=layout_in_circle,
+            edge.color="blue", edge.width=log10(E(hallmark.net)$weight))
+
+```
+```{r}
+#the z-scores are calculated via comparisions with 10k null models
+
+hhi.dat <- read.csv("hhi.z.csv", header=F, stringsAsFactors = F)
+hhi.z <- matrix(unlist(hhi.dat), nrow=hallmark.dim, ncol=hallmark.dim)
+colnames(hhi.z) <- hallmark.name
+row.names(hhi.z) <-hallmark.name
+
+hhi.z.nodiag <- hhi.z
+diag(hhi.z.nodiag) = NA
+
+pdf("hhi.z.boxplot.nodiag.pdf", height=6, width=15, paper='special')
+par(mar=c(15,5,1,1))
+boxplot(hhi.z.nodiag, main="HALLMARK-HALLMARK Z-score BoxPlot", xaxt="n", col='brown')
+text(seq(1,50), par("usr")[3]-1, srt=45, adj=1, xpd=T, 
+     labels=paste(hallmark.name), cex=0.8)
+dev.off()
+
+my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 20)
+#colors= c(seq(-5,-1.5, length=10), seq(-1.49, 1.49, length=10), seq(1.5,5, length=10))
+colors = c(seq(-10,10,length=21))
+
+png("hhi.z.nodiag.heatmap.png", width=12, height=11, res=600, units="in")
+heatmap.2(hhi.z.nodiag, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="Z-score", key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          srtCol=45, adjCol=c(1,0), dendrogram = "both",
+          margins=c(14,18.5), sepwidth=c(0.01,0.01), symbreaks = TRUE,
+          sepcolor="grey", colsep=1:hallmark.dim, rowsep=1:hallmark.dim)
+dev.off()
+
+hhi.z.mat <- as.matrix(hhi.z.nodiag)
+hhi.z.net <- graph.adjacency(hhi.z.mat, mode="undirected", weighted=T, diag=F)
+summary(hhi.z.net)
+
+gene.count <- read.csv("gene.count.csv", header=T, stringsAsFactors = F)
+v.size <- gene.count$gene.number
+
+E(hhi.z.net)$color <- ifelse(E(hhi.z.net)$weight > 0, "red", "blue")
+coloring <- E(hhi.z.net)$color
+
+hhi.top5 <- quantile(hhi.z.mat[!is.na(hhi.z.mat)], probs=seq(0,1,1/20))[20]
+hhi.bot5 <- quantile(hhi.z.mat[!is.na(hhi.z.mat)], probs=seq(0,1,1/20))[2]
+hhi.weight <- ifelse((E(hhi.z.net)$weight > hhi.top5 | E(hhi.z.net)$weight < hhi.bot5) , abs(E(hhi.z.net)$weight), -0.5)
+
+pdf("hhi.z.network.top5.pdf", height=8, width=8, paper='special')
+plot.igraph(hhi.z.net, vertex.label=c(1:50), layout=layout_in_circle,
+            edge.color = coloring, edge.width=hhi.weight/4, vertex.size=sqrt(v.size)*1.2)
+dev.off()
+
+```
+
+```{r}
+# comparison to 50 random sets; z-scores are calculated using the same protocol
+rdm.list <- c(1:50)
+random.dim <- 50
+
+rri.dat <- read.csv("../../random/rri.z.csv", header=F, stringsAsFactors = F)
+rri.z <- matrix(unlist(rri.dat), nrow=random.dim, ncol=random.dim)
+
+colnames(rri.z) <- rdm.list
+rownames(rri.z) <- rdm.list
+
+#my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 20)
+#colors = c(seq(-10,10,length=21))
+
+heatmap.2(rri.z, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="Z-score", key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          #srtCol=45, adjCol=c(1,0), dendrogram = "both",
+          margins=c(14.5,18), sepwidth=c(0.01,0.01), symbreaks = TRUE,
+          sepcolor="grey", colsep=1:random.dim, rowsep=1:random.dim)
+
+rri.z.mat <- as.matrix(rri.z)
+rri.z.net <- graph.adjacency(rri.z.mat, mode="undirected", weighted=T, diag=F)
+#summary(rr.z.net)
+
+E(rri.z.net)$color <- ifelse(E(rri.z.net)$weight > 0, "red", "blue")
+coloring <- E(rri.z.net)$color
+rri.weight <- ifelse(abs(E(rri.z.net)$weight) > 2, abs(E(rri.z.net)$weight), -0.5)
+
+
+#pdf("rri.z.network.2plus.pdf", height=8, width=8, paper='special')
+plot.igraph(rri.z.net, vertex.label=c(1:50), layout=layout_in_circle,
+            edge.color = coloring, edge.width=rri.weight/4)
+#dev.off()
+
+
+```
+
+Overlap matrix?
+```{r}
+overlap.matrix <- matrix(0, ncol=50, nrow=50)
+for (i in 1:50) {
+file.name <- paste("../../MSigDB.go.pathway/", hallmark.name[i], "/",
+                      hallmark.name[i], ".csv", sep="")
+  file.a <- read.csv(file.name, header=T)
+   list.a <- file.a$gene
+   for (j in 1:50) {
+     file.nameb <- paste("../../MSigDB.go.pathway/", hallmark.name[j], "/",
+                        hallmark.name[j], ".csv", sep="")
+     file.b <- read.csv(file.nameb, header=T)
+     list.b <- file.b$gene
+     jac <- length(which(list.a %in% list.b))/length(unique(c(list.a, list.b)))
+     overlap.matrix[i,j] = overlap.matrix[i,j] + jac
+   }
+}
+
+colnames(overlap.matrix) <- hallmark.name
+row.names(overlap.matrix) <- hallmark.name
+my_palette <- colorRampPalette(c("white", "red2"))(n = 20)
+colors = c(seq(0,0.1,length=21))
+png("hallmark.jaccard.png", width=12, height=11, res=600, units="in")
+heatmap.2(overlap.matrix, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="Jaccard Index", key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          srtCol=45, adjCol=c(1,0), dendrogram = "both",
+          margins=c(14.5,18), sepwidth=c(0.01,0.01), #symbreaks = TRUE,
+          sepcolor="grey", colsep=1:50, rowsep=1:50)
+dev.off()
+
+overlap.nodiag <- overlap.matrix
+diag(overlap.nodiag) = NA
+colnames(overlap.nodiag) <- c(1:50)
+row.names(overlap.nodiag) <- c(1:50)
+ol.mat <- as.matrix(overlap.nodiag)
+ol.net <- graph.adjacency(ol.mat, mode="undirected", weighted=T, diag=F)
+E(ol.net)$color <- ifelse(E(ol.net)$weight > 0.01, "red", "blue")
+coloring <- E(ol.net)$color
+
+jaccard.top5 <- quantile(overlap.matrix, probs=seq(0,1,1/20))[20]
+ol.weight <- ifelse(E(ol.net)$weight < jaccard.top5, -0.05, E(ol.net)$weight)
+radi <- c()
+for (i in 1:50) {
+  file.name <- paste("../../MSigDB.go.pathway/", hallmark.name[i], "/",
+                      hallmark.name[i], ".csv", sep="")
+  list.a <- read.csv(file.name, header=T)
+  radi <- rbind(radi, sqrt(length(list.a$gene)))
+}
+
+coords <- layout_in_circle(ol.net)
+pdf("hallmark.jaccard.top5.pdf", height=8, width=8,paper='special')
+plot.igraph(ol.net, cex=0.6, layout = coords, #vertex.label=c(1:50),
+            edge.color = coloring, edge.width=ol.weight*15, vertex.size=sqrt(v.size)*1.2)
+dev.off()
+
+```
+
+Here we estimate the topological differences between pin and null models
+```{r}
+#construct and graph from the PIN
+pin.net <- data.frame(cbind(pin$geneA, pin$geneB))
+pin.graph <- graph.data.frame(pin.net, directed=F)
+degree(pin.graph)[which(degree(pin.graph) == max(degree(pin.graph)))]
+#the protein UBC has 9960 connections!
+#and there are 51 proteins with k > 1000
+degree(pin.graph)[which(degree(pin.graph) > 1000)]
+#there are also 1004 proteins with k = 1
+pin.k1 <- as_ids(V(pin.graph))[which(degree(pin.graph) == 1)]
+length(pin.k1)
+#however, in the pin, there are only two pairs with both protein have k = 1
+length(which((pin$geneA %in% pin.k1) & (pin$geneB %in% pin.k1)))
+
+#we also construct a graph from a null model
+k1.length <- c()
+for (i in 1:100) {
+  null.name <- paste("../../../ms02star/human/ms02.", i, ".csv", sep="")
+  ms02.pin <- read.csv(null.name, header=T, stringsAsFactors = F)
+  ms02.net <- data.frame(cbind(ms02.pin$id1, ms02.pin$id2))
+  ms02.graph <- graph.data.frame(ms02.net, directed=F)
+  k1.length <- rbind(k1.length, length(which((ms02.pin$id1 %in% pin.k1) & (ms02.pin$id2 %in% pin.k1))))
+}
+
+hist(k1.length, main="", xlab="Number of Pairs with k=1", xlim=c(0,250), breaks=50)
+arrows(2, 2.0, 2, 0, col="red", lwd=2)
+text(2,2.2, c("obs"), col="red")
+
+#in the null model, there are 122 pairs with both proteins having k = 1
+
+```
+evaluating interactons between set 5 and 24
+```{r}
+file.5 <- paste("../../MSigDB.go.pathway/", hallmark.name[5], "/", hallmark.name[5], ".csv", sep="")
+file.24 <- paste("../../MSigDB.go.pathway/", hallmark.name[24], "/", hallmark.name[24], ".csv", sep="")
+read.5 <- read.csv(file.5, header=T, stringsAsFactors = F)
+read.24 <- read.csv(file.24, header=T, stringsAsFactors = F)
+gene.5 <- read.5$gene
+gene.24 <- read.24$gene
+
+five24.int <- which(((geneA %in% gene.5) & (geneB %in% gene.24)) |
+                     ((geneA %in% gene.24) & (geneB %in% gene.5)))
+five24.A <- geneA[five24.int]
+five24.B <- geneB[five24.int]
+
+five24.subnet <- data.frame(cbind(five24.A, five24.B))
+five24.sub.graph <- graph.data.frame(five24.subnet, directed=F)
+
+
+'%ni%' <- Negate('%in%')
+
+blue.id <- which((as_ids(V(five24.sub.graph)) %in% gene.5) &
+                   (as_ids(V(five24.sub.graph)) %ni% gene.24))
+red.id <-  which((as_ids(V(five24.sub.graph)) %in% gene.24) &
+                   (as_ids(V(five24.sub.graph)) %ni% gene.5))
+yellow.id <- which((as_ids(V(five24.sub.graph)) %in% gene.5) &
+                     (as_ids(V(five24.sub.graph)) %in% gene.24))
+five24.sub.order <- V(five24.sub.graph)[c(blue.id, yellow.id, red.id)]
+five24.coords <- layout_in_circle(five24.sub.graph, order = five24.sub.order)
+
+color <- rep("NA", times=length(V(five24.sub.graph)))
+color[red.id] <- rep("red", times=length(red.id))
+color[blue.id] <- rep("blue", times=length(blue.id))
+color[yellow.id] <- rep("yellow", times=length(yellow.id))
+V(five24.sub.graph)$color <- color
+
+pdf("five24.pdf")
+plot.igraph(five24.sub.graph, vertex.color=V(five24.sub.graph)$color,
+            vertex.size=8, edge.width=1,vertex.label=NA,
+            order=five24.sub.order,layout=five24.coords)
+dev.off()
+length(E(five24.sub.graph))  #=344
+
+
+
+ms02.five24.int <- which(((ms02.pin$id1 %in% gene.5) & (ms02.pin$id2 %in% gene.24)) |
+                     ((ms02.pin$id1 %in% gene.24) & (ms02.pin$id2 %in% gene.5)))
+ms02.five24.A <- ms02.pin$id1[ms02.five24.int]
+ms02.five24.B <- ms02.pin$id2[ms02.five24.int]
+
+ms02.five24.subnet <- data.frame(cbind(ms02.five24.A, ms02.five24.B))
+ms02.five24.sub.graph <- graph.data.frame(ms02.five24.subnet, directed=F)
+
+blue.id <- which((as_ids(V(ms02.five24.sub.graph)) %in% gene.5) &
+                   (as_ids(V(ms02.five24.sub.graph)) %ni% gene.24))
+red.id <-  which((as_ids(V(ms02.five24.sub.graph)) %in% gene.24) &
+                   (as_ids(V(ms02.five24.sub.graph)) %ni% gene.5))
+yellow.id <- which((as_ids(V(ms02.five24.sub.graph)) %in% gene.5) &
+                     (as_ids(V(ms02.five24.sub.graph)) %in% gene.24))
+ms02.five24.sub.order <- V(ms02.five24.sub.graph)[c(blue.id, yellow.id, red.id)]
+ms02.five24.coords <- layout_in_circle(ms02.five24.sub.graph, order = ms02.five24.sub.order)
+
+color <- rep("NA", times=length(V(ms02.five24.sub.graph)))
+color[red.id] <- rep("red", times=length(red.id))
+color[blue.id] <- rep("blue", times=length(blue.id))
+color[yellow.id] <- rep("yellow", times=length(yellow.id))
+V(ms02.five24.sub.graph)$color <- color
+
+pdf("ms02.five24.pdf")
+plot.igraph(ms02.five24.sub.graph, vertex.color=V(ms02.five24.sub.graph)$color,
+            vertex.size=8, edge.width=1,vertex.label=NA,
+            order=ms02.five24.sub.order,layout=ms02.five24.coords)
+dev.off()
+length(E(ms02.five24.sub.graph))  #=206
+
+```
+
+interactions between set 12 and 25
+```{r}
+file.12 <- paste("../../MSigDB.go.pathway/", hallmark.name[12], "/", hallmark.name[12], ".csv", sep="")
+file.25 <- paste("../../MSigDB.go.pathway/", hallmark.name[25], "/", hallmark.name[25], ".csv", sep="")
+read.12 <- read.csv(file.12, header=T, stringsAsFactors = F)
+read.25 <- read.csv(file.25, header=T, stringsAsFactors = F)
+gene.12 <- read.12$gene
+gene.25 <- read.25$gene
+
+tw25.int <- which(((geneA %in% gene.12) & (geneB %in% gene.25)) |
+                     ((geneA %in% gene.25) & (geneB %in% gene.12)))
+tw25.A <- geneA[tw25.int]
+tw25.B <- geneB[tw25.int]
+
+tw25.subnet <- data.frame(cbind(tw25.A, tw25.B))
+tw25.sub.graph <- graph.data.frame(tw25.subnet, directed=F)
+
+
+'%ni%' <- Negate('%in%')
+
+blue.id <- which((as_ids(V(tw25.sub.graph)) %in% gene.12) &
+                   (as_ids(V(tw25.sub.graph)) %ni% gene.25))
+red.id <-  which((as_ids(V(tw25.sub.graph)) %in% gene.25) &
+                   (as_ids(V(tw25.sub.graph)) %ni% gene.12))
+yellow.id <- which((as_ids(V(tw25.sub.graph)) %in% gene.12) &
+                     (as_ids(V(tw25.sub.graph)) %in% gene.25))
+tw25.sub.order <- V(tw25.sub.graph)[c(blue.id, yellow.id, red.id)]
+tw25.coords <- layout_in_circle(tw25.sub.graph, order = tw25.sub.order)
+
+color <- rep("NA", times=length(V(tw25.sub.graph)))
+color[red.id] <- rep("red", times=length(red.id))
+color[blue.id] <- rep("blue", times=length(blue.id))
+color[yellow.id] <- rep("yellow", times=length(yellow.id))
+V(tw25.sub.graph)$color <- color
+
+pdf("tw25.pdf")
+plot.igraph(tw25.sub.graph, vertex.color=V(tw25.sub.graph)$color,
+            vertex.size=8, edge.width=1,vertex.label=NA,
+            order=tw25.sub.order,layout=tw25.coords)
+dev.off()
+length(E(tw25.sub.graph))  #=117
+
+
+
+ms02.tw25.int <- which(((ms02.pin$id1 %in% gene.12) & (ms02.pin$id2 %in% gene.25)) |
+                     ((ms02.pin$id1 %in% gene.25) & (ms02.pin$id2 %in% gene.12)))
+ms02.tw25.A <- ms02.pin$id1[ms02.tw25.int]
+ms02.tw25.B <- ms02.pin$id2[ms02.tw25.int]
+
+ms02.tw25.subnet <- data.frame(cbind(ms02.tw25.A, ms02.tw25.B))
+ms02.tw25.sub.graph <- graph.data.frame(ms02.tw25.subnet, directed=F)
+
+blue.id <- which((as_ids(V(ms02.tw25.sub.graph)) %in% gene.12) &
+                   (as_ids(V(ms02.tw25.sub.graph)) %ni% gene.25))
+red.id <-  which((as_ids(V(ms02.tw25.sub.graph)) %in% gene.25) &
+                   (as_ids(V(ms02.tw25.sub.graph)) %ni% gene.12))
+yellow.id <- which((as_ids(V(ms02.tw25.sub.graph)) %in% gene.12) &
+                     (as_ids(V(ms02.tw25.sub.graph)) %in% gene.25))
+ms02.tw25.sub.order <- V(ms02.tw25.sub.graph)[c(blue.id, yellow.id, red.id)]
+ms02.tw25.coords <- layout_in_circle(ms02.tw25.sub.graph, order = ms02.tw25.sub.order)
+
+color <- rep("NA", times=length(V(ms02.tw25.sub.graph)))
+color[red.id] <- rep("red", times=length(red.id))
+color[blue.id] <- rep("blue", times=length(blue.id))
+color[yellow.id] <- rep("yellow", times=length(yellow.id))
+V(ms02.tw25.sub.graph)$color <- color
+
+pdf("ms02.tw25.pdf")
+plot.igraph(ms02.tw25.sub.graph, vertex.color=V(ms02.tw25.sub.graph)$color,
+            vertex.size=8, edge.width=1,vertex.label=NA,
+            order=ms02.tw25.sub.order,layout=ms02.tw25.coords)
+dev.off()
+length(E(ms02.tw25.sub.graph))  #=356
+
+```
+```{r}
+my_palette <- colorRampPalette(c("blue2", "white", "red2"))(n = 20)
+#colors= c(seq(-5,-1.5, length=10), seq(-1.49, 1.49, length=10), seq(1.5,5, length=10))
+colors = c(seq(-10,10,length=21))
+
+hallmark.matrix <- hhi.z
+colnames(hallmark.matrix) <- c(1:50)
+row.names(hallmark.matrix) <- c(1:50)
+png("hhi.z.heatmap.new2.png", width=12, height=4, res=600, units="in")
+heatmap.2(hallmark.matrix, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="Interaction Z-score Heatmap", 
+          key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          #srtCol=45, adjCol=c(1,0), 
+          dendrogram = "row",
+          margins=c(14,18.5), sepwidth=c(0.01,0.01), #symbreaks = TRUE,
+          sepcolor="grey", colsep=1:hallmark.dim, rowsep=1:hallmark.dim)
+          #keysize=1, key.par=list(mar=c(2,1,2,2)))
+          #lmat=rbind( c(0, 3, 4), c(2,1,1.5)), lwid=c(3, 4, 2))
+          #lmat=rbind(c(5, 4, 2), c(6, 1, 3)), lhei=c(2, 5), lwid=c(1, 10, 1))
+dev.off()
+
+
+my_palette <- colorRampPalette(c("white", "red2"))(n = 20)
+colors = c(seq(0,0.1,length=21))
+jaccard <- overlap.matrix
+colnames(jaccard) <- c(1:50)
+row.names(jaccard) <- c(1:50)
+png("hallmark.jaccard.new2.png", width=12, height=4, res=600, units="in")
+heatmap.2(jaccard, col=my_palette, trace='none', breaks=colors, 
+          key.xlab=NA, key.title="Jaccard Index Heatmap", 
+          key.ylab=NA, key.xtickfun = NULL, key.ytickfun = NULL,
+          #srtCol=45, adjCol=c(1,0), 
+          dendrogram = "row",
+          margins=c(14.5,18), sepwidth=c(0.01,0.01), #symbreaks = TRUE,
+          sepcolor="grey", colsep=1:50, rowsep=1:50)
+dev.off()
+
+```

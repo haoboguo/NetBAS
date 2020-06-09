@@ -1,0 +1,7 @@
+rdm <- read.csv("rdm.z.csv", header=F, stringsAsFactors = F)
+pdf("random.reshuffle.pdf", width=5, height=4, paper='special')
+hist(rdm$V1[2:1001], main="", xlab="Z-score", breaks=10, col="grey")
+arrows(0.5, 260, rdm$V1[1], 0, length=0.1, col="red2", lwd=2)
+text(0.8, 275, "Original Pair", col="red2")
+text(-1.2, 275, "Bootstraps")
+dev.off()

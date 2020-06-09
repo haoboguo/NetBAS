@@ -1,0 +1,18 @@
+GO.ID,GO.Term,PANC17
+GO:0015991,ATP hydrolysis coupled proton transport,8.088
+GO:0015721,bile acid and bile salt transport,8.112
+GO:0016055,Wnt signaling pathway,8.136
+GO:0072583,clathrin-dependent endocytosis,8.152
+GO:0034220,ion transmembrane transport,8.244
+GO:0043312,neutrophil degranulation,8.483
+GO:1904837,beta-catenin-TCF complex assembly,8.637
+GO:0016241,regulation of macroautophagy,8.645
+GO:0045165,cell fate commitment,8.858
+GO:1904886,beta-catenin destruction complex disassembly,8.936
+GO:0090263,positive regulation of canonical Wnt signaling pathway,8.943
+GO:0006986,response to unfolded protein,9
+GO:0090090,negative regulation of canonical Wnt signaling pathway,9.517
+GO:0035567,non-canonical Wnt signaling pathway,11.216
+GO:0008286,insulin receptor signaling pathway,11.902
+GO:0061024,membrane organization,13.377
+GO:0060070,canonical Wnt signaling pathway,16.995

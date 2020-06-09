@@ -35,7 +35,7 @@ n234 <- length(david.id[which(david.id %in% web.perm)])
 n1234 <- length(perm.id[which(perm.id %in% net.david.web)])
 
 venn.plot <- draw.pairwise.venn(area1,area2,cross.area=n12,
-             category=c("NetBAS", "DAVID"),
+             category=c("NetPAS", "DAVID"),
              col=c("red","blue"), fill=c("red","blue"),
              cat.pos = c(0, 180),
              euler.d = TRUE, sep.dist = 0.03,rotation.degree = 0)
@@ -45,7 +45,7 @@ grid.draw(venn.plot)
 dev.off()
 
 venn.plot.triple <- draw.triple.venn(area1, area2, area3, n12, n23, n13, n123,
-                                     category = c("NetBAS", "DAVID", "WebGestAlt"),
+                                     category = c("NetPAS", "DAVID", "WebGestAlt"),
                                      col=c("red","blue","yellow"), fill=c("red","blue","yellow"),
                                      euler.d=T, scaled=T,
                                      #cat.col=c("red","blue","yellow"),
@@ -59,7 +59,7 @@ dev.off()
 venn.plot.quadraple <- draw.quad.venn(area1, area2, area3, area4,
                                       n12, n13, n14, n23, n24, n34,
                                       n123, n124, n134, n234, n1234,
-                                      category = c("NetBAS", "DAVID", "WebGestAlt","NodeRep"),
+                                      category = c("NetPAS", "DAVID", "WebGestAlt","NodeRep"),
                                       fill = c("red", "blue", "yellow", "grey"),
                                       cex = 1, cat.cex = 1,
                                       cat.col = c("red", "blue", "yellow", "grey"))

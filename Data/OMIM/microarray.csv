@@ -1,0 +1,74 @@
+Entrez,Gene,Commonname,Expression
+306,ANXA3,annexin A3,Overexpressed
+308,ANXA5,annexin A5,Overexpressed
+347,APOD,apolipoprotein D,Overexpressed
+518,ATP5G3,ATP synthase H+ transporting mitochondrial F0 complex subunit C3 (subunit 9),Underexpressed
+567,B2M,beta-2-microglobulin,Overexpressed
+710,SERPING1,serpin peptidase inhibitor clade G (C1 inhibitor) member 1 (angioedema, hereditary),Overexpressed
+712,C1QA,complement component 1 q subcomponent A chain,Overexpressed
+713,C1QB,complement component 1 q subcomponent B chain,Overexpressed
+714,C1QC,complement component 1 q subcomponent C chain,Overexpressed
+718,C3,complement component 3,Overexpressed
+720,C4A,complement component 4A (Rodgers blood group),Overexpressed
+762,CA4,carbonic anhydrase IV,Underexpressed
+793,CALB1,calbindin 1, 28kDa,Underexpressed
+1191,CLU,clusterin,Overexpressed
+L:Hs
+1277,COL1A1,collagen type I alpha 1,Underexpressed
+1281,COL3A1,collagen type III alpha 1 (Ehlers-Danlos syndrome type IV, autosomal dominant),Underexpressed
+1287,COL4A5,collagen type IV alpha 5 (Alport syndrome),Underexpressed
+1520,CTSS,cathepsin S,Overexpressed
+2170,FABP3,fatty acid binding protein 3 muscle and heart (mammary-derived growth inhibitor),Underexpressed
+2202,EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,Overexpressed
+2212,FCGR2A,Fc fragment of IgG low affinity IIa, receptor (CD32),Overexpressed
+2213,FCGR2B,Fc fragment of IgG low affinity IIb, receptor (CD32),Overexpressed
+2634,GBP2,guanylate binding protein 2 interferon-inducible,Overexpressed
+2670,GFAP,glial fibrillary acidic protein,Overexpressed
+2799,GNS,glucosamine (N-acetyl)-6-sulfatase (Sanfilippo disease IIID),Overexpressed
+2938,GSTA1,glutathione S-transferase A1,Overexpressed
+3006,HIST1H1C,histone cluster 1 H1c,Overexpressed
+3039,HBA1,hemoglobin alpha 1,Overexpressed
+3135,HLA-G,major histocompatibility complex class I G,Overexpressed
+3512,IGJ,immunoglobulin J polypeptide linker protein for immunoglobulin alpha and mu polypeptides,Overexpressed
+3958,LGALS3,lectin galactoside-binding soluble 3,Overexpressed
+4069,LYZ,lysozyme (renal amyloidosis),Overexpressed
+4257,MGST1,microsomal glutathione S-transferase 1,Overexpressed
+4478,MSN,moesin,Overexpressed
+4494,MT1F,metallothionein 1F,Overexpressed
+5046,PCSK6,proprotein convertase subtilisin kexin type 6,Overexpressed
+5717,PSMD11,proteasome (prosome macropain) 26S subunit non-ATPase 11,Overexpressed
+6275,S100A4,S100 calcium binding protein A4,Overexpressed
+6277,S100A6,S100 calcium binding protein A6,Overexpressed
+6376,CX3CL1,chemokine (C-X3-C motif) ligand 1,Underexpressed
+6446,SGK1,serum/glucocorticoid regulated kinase 1,Overexpressed
+6696,SPP1,secreted phosphoprotein 1 (osteopontin bone sialoprotein I early T-lymphocyte activation 1),Overexpressed
+7037,TFRC,transferrin receptor (p90, CD71),Underexpressed
+7386,UQCRFS1,ubiquinol-cytochrome c reductase Rieske iron-sulfur polypeptide 1,Underexpressed
+7450,VWF,von Willebrand factor,Overexpressed
+7805,LAPTM5,lysosomal associated multispanning membrane protein 5,Overexpressed
+9315,C5orf13,chromosome 5 open reading frame 13,Underexpressed
+9516,LITAF,lipopolysaccharide-induced TNF factor,Overexpressed
+9813,KIAA0494,KIAA0494,Overexpressed
+10397,NDRG1,N-myc downstream regulated gene 1,Overexpressed
+10457,GPNMB,glycoprotein (transmembrane) nmb,Overexpressed
+10493,VAT1,vesicle amine transport protein 1 homolog (T. californica),Overexpressed
+10577,NPC2,Niemann-Pick disease type C2,Overexpressed
+10628,TXNIP,thioredoxin interacting protein,Overexpressed
+10728,PTGES3,prostaglandin E synthase 3 (cytosolic),Overexpressed
+10870,HCST,hematopoietic cell signal transducer,Overexpressed
+10972,TMED10,transmembrane emp24-like trafficking protein 10 (yeast),Overexpressed
+16061,Igh-VJ558,immunoglobulin heavy chain (J558 family),Overexpressed
+22821,RASA3,RAS p21 protein activator 3,Overexpressed
+25932,CLIC4,chloride intracellular channel 4,Overexpressed
+27069,GHITM,growth hormone inducible transmembrane protein,Underexpressed
+27089,UQCRQ,ubiquinol-cytochrome c reductase complex III subunit VII 9.5kDa,Underexpressed
+54539,NDUFB11,NADH dehydrogenase (ubiquinone) 1 beta subcomplex 11 17.3kDa,Underexpressed
+55902,ACSS2,acyl-CoA synthetase short-chain family member 2,Underexpressed
+56616,DIABLO,diablo homolog (Drosophila),Underexpressed
+57674,RNF213,ring finger protein 213,Overexpressed
+79139,DERL1,Der1-like domain family member 1,Overexpressed
+79602,ADIPOR2,adiponectin receptor 2,Overexpressed
+90865,IL33,interleukin 33,Overexpressed
+219972,MPEG1,macrophage expressed gene 1,Overexpressed
+360231,LOC360231,MHC class I RT1.O type 149 processed pseudogene,Overexpressed
+360341,Ania4,activity and neurotransmitter-induced early gene protein 4 (ania-4),Overexpressed

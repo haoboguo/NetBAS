@@ -3,11 +3,11 @@
 library(VennDiagram)
 
 david.file <- read.csv("david.bp.id.txt", header=F)
-david.id <- david.file$V1
+david.id <- david.file$V1[1:264]
 web.file <- read.csv("WebGestalt.txt", sep="\t", header=T)
 web.id <- web.file$goId
 net.file <- read.csv("HMK.bp.full.txt", sep="\t", header=T)
-net.id <- net.file$GO.ID[which(net.file$Z.score > 10)]
+net.id <- net.file$GO.ID[which(net.file$Z.score > 5)]
 
 area1 <- length(net.id)
 area2 <- length(david.id)
@@ -22,7 +22,7 @@ net.david.web <- net.id[which(net.id %in% david.web)]
 n123 <- length(net.david.web)
 
 venn.plot <- draw.pairwise.venn(area1=area1,area2=area2,cross.area=n12,
-             category=c("NetBAS", "DAVID"),
+             category=c("NetPAS", "DAVID"),
              col=c("red","blue"), fill=c("red","blue"),
              cat.pos = c(0, 180),
              euler.d = TRUE, sep.dist = 0.03,rotation.degree = 0)
@@ -32,14 +32,14 @@ grid.draw(venn.plot)
 dev.off()
 
 venn.plot.triple <- draw.triple.venn(area1, area2, area3, n12, n23, n13, n123,
-                                     category = c("NetBAS", "DAVID", "WebGestAlt"),
-                                     col=c("red","blue","green"), fill=c("red","blue","green"),
+                                     category = c("NetPAS", "DAVID", "WebGestAlt"),
+                                     col=c("red","blue","yellow"), fill=c("red","blue","yellow"),
                                      euler.d=T, scaled=T,
-                                     cat.col=c("red","blue","green"),
+                                    # cat.col=c("red","blue","yellow"),
                                      cat.fontface=2,
                                      sep.dist=0.1)
 
-pdf("bp.venn.3way.pdf", width=3.5, height=3.5, paper='special')
+pdf("bp.venn.3way.pdf", width=3, height=3, paper='special')
 grid.draw(venn.plot.triple)
 dev.off()
 

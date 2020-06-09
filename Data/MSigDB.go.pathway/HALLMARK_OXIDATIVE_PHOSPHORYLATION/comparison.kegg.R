@@ -4,10 +4,10 @@
 library(pracma)
 library(gplots)
 
-filename <- read.csv("HMK.kegg.top10.txt", header=T, sep="\t", stringsAsFactors=F)
-pathway <- filename$Pathway
-netbas <- filename$NetBAS
-david <- filename$DAVID
+filename <- read.csv("HMK.kegg.enriched.txt", header=T, sep="\t", stringsAsFactors=F)
+pathway <- filename$Pathway[1:10]
+netbas <- filename$NetBAS[1:10]
+david <- filename$DAVID[1:10]
 
 #convert DAVID p-values to z-scores
 z.david <- c()
@@ -22,7 +22,7 @@ z.david <- round(z.david * scale.factor,3)
 
 zscores <- matrix(cbind(netbas, z.david), ncol=2)
 
-colnames(zscores) <- c("NetBAS", "DAVID")
+colnames(zscores) <- c("NetPAS", "DAVID")
 rownames(zscores) <- pathway
 
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
@@ -34,7 +34,7 @@ note <- cbind(netbas, p.david)
 png(filename= "netbas-david.kegg.top10.png", width=5, height=6, res=1200, unit="in")
 heatmap.2(zscores, col=my_palette, dendrogram='none', breaks=colors,
           colsep = 1:2, rowsep = 1:10, sepcolor="lightgrey", sepwidth=c(0.02,0.02),
-          trace='none', Rowv=F, Colv=F,
+          trace='none', Rowv=F, Colv=F, notecol="black",
           ylab="KEGG Pathways", xlab="",
           margins=c(1,12), key.title=NA, key.xlab=NA, key.ylab=NA,
           scale="none", symbreaks=F, symm=F, symkey=F,

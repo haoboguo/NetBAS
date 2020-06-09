@@ -26,7 +26,7 @@ z.david <- round(z.david * scale.factor,3)
 
 zscores <- matrix(cbind(netbas, z.david), ncol=2)
 
-colnames(zscores) <- c("NetBAS", "DAVID")
+colnames(zscores) <- c("NetPAS", "DAVID")
 rownames(zscores) <- go.id
 
 colors=c(seq(0,4.9,length=5), seq(5.1,max(netbas),length=5))
@@ -38,7 +38,7 @@ note <- cbind(netbas, p.david)
 png(filename= "Net.DAV.BP10.png", width=3.5, height=6, res=1200, unit="in")
 heatmap.2(zscores, col=my_palette, dendrogram='none', breaks=colors,
           colsep = 1:2, rowsep = 1:10, sepcolor="lightgrey", sepwidth=c(0.02,0.02),
-          trace='none', Rowv=F, Colv=F,
+          trace='none', Rowv=F, Colv=F, notecol="black", 
           ylab="Biological Process Terms", xlab="",
           margins=c(1,5.5), key.title=NA, key.xlab=NA, key.ylab=NA,
           scale="none", symbreaks=F, symm=F, symkey=F,
